@@ -6,6 +6,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("_redirects");
   eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("sitemap.xml");
+  eleventyConfig.addPassthroughCopy("ads.txt");
   eleventyConfig.addPassthroughCopy("index.html");
 
   eleventyConfig.addFilter("slugify", function (str) {
