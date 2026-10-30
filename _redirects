@@ -35,3 +35,7 @@
 # Old static guide pages replaced by Eleventy-generated listing/detail pages
 /guide/hotels.html  /hotels/  301
 /guide/restaurants.html  /restaurants/  301
+
+# Deals section removed until real partner offers are available
+/deals  /hotels/  302
+/deals/*  /hotels/  302

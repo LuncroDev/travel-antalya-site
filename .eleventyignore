@@ -2,3 +2,7 @@ node_modules
 _site
 old-site
 media
+deals.njk
+deal-category.njk
+deal-detail.njk
+NASIL-YAYINLARIM.md

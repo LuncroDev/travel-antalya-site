@@ -37,7 +37,6 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("thingsToDo", function (collectionApi) {
     const matched = collectionApi.getFilteredByGlob("content/things-to-do/*.md");
-    console.log("DEBUG thingsToDo matched:", matched.length, JSON.stringify(matched.map((m) => m.inputPath)));
     return matched.sort((a, b) => {
       return (a.data.title || "").localeCompare(b.data.title || "");
     });
@@ -45,7 +44,6 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("events", function (collectionApi) {
     const matched = collectionApi.getFilteredByGlob("content/events/*.md");
-    console.log("DEBUG events matched:", matched.length, JSON.stringify(matched.map((m) => m.inputPath)));
     return matched.sort((a, b) => {
       return new Date(a.data.start_date) - new Date(b.data.start_date);
     });

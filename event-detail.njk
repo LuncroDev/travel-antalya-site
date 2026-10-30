@@ -63,7 +63,7 @@ schema:
       <div style="color:var(--ink-soft); font-size:0.9rem;">{{ event.data.date_display }}</div>
       <div class="price-tag" style="font-size:1.15rem;">{{ event.data.venue }}</div>
       {% if event.data.booking_url %}
-      <a href="{{ event.data.booking_url }}" target="_blank" rel="noopener" class="btn btn-orange">Get Tickets</a>
+      <a href="{{ event.data.booking_url }}" target="_blank" rel="noopener" class="btn btn-orange">{{ event.data.booking_label or "Official website" }}</a>
       {% endif %}
     </aside>
   </div>

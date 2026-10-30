@@ -1,0 +1,31 @@
+---
+layout: base.njk
+pageTitle: "Contact — Travel Antalya"
+pageDescription: "Contact Travel Antalya to report a correction, suggest a place or event, or ask about partnerships."
+pageUrl: "/contact/"
+permalink: "/contact/index.html"
+eleventyExcludeFromCollections: true
+---
+<section style="padding-top:56px; padding-bottom:72px;">
+  <div class="container" style="max-width:760px;">
+    <h1 style="font-size:clamp(2rem,4vw,2.8rem);">Contact</h1>
+    <div class="page-body" style="line-height:1.75; font-size:1.02rem;">
+
+<p>We read every message. Use this form for corrections, suggestions for places and events, and partnership questions. We aim to reply within a few working days.</p>
+<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/contact-thanks/" style="display:grid; gap:16px; margin-top:24px;">
+  <input type="hidden" name="form-name" value="contact">
+  <p style="display:none;"><label>Do not fill this out: <input name="bot-field"></label></p>
+  <label>Your name<br><input type="text" name="name" required style="width:100%; padding:12px; border:1px solid #cfd8e0; border-radius:8px; font:inherit;"></label>
+  <label>Your email<br><input type="email" name="email" required style="width:100%; padding:12px; border:1px solid #cfd8e0; border-radius:8px; font:inherit;"></label>
+  <label>Topic<br>
+    <select name="topic" style="width:100%; padding:12px; border:1px solid #cfd8e0; border-radius:8px; font:inherit;">
+      <option>Correction</option><option>Suggest a place or event</option><option>Partnership</option><option>Other</option>
+    </select></label>
+  <label>Message<br><textarea name="message" rows="6" required style="width:100%; padding:12px; border:1px solid #cfd8e0; border-radius:8px; font:inherit;"></textarea></label>
+  <button type="submit" class="btn" style="justify-self:start;">Send message</button>
+</form>
+<p style="margin-top:28px;">Based in Antalya, Turkey.</p>
+
+    </div>
+  </div>
+</section>
