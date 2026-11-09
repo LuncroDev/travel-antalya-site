@@ -78,6 +78,21 @@
     });
   });
 
+  /* Reading progress (articles) */
+  const bar = doc.querySelector('.read-progress span');
+  const article = doc.querySelector('.article-body');
+  if (bar && article) {
+    const upd = () => { const r = article.getBoundingClientRect(); const p = Math.min(1, Math.max(0, -r.top / Math.max(1, r.height - window.innerHeight))); bar.style.transform = `scaleX(${p})`; };
+    window.addEventListener('scroll', upd, { passive: true }); upd();
+  }
+
+  /* Gentle reveal on scroll for figures and cards */
+  if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const els = doc.querySelectorAll('.article-figure, .card-grid > .card, .row-list > .row-card');
+    const io = new IntersectionObserver(entries => entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); } }), { rootMargin: '0px 0px -8% 0px' });
+    els.forEach(el => { if (el.getBoundingClientRect().top > window.innerHeight) { el.classList.add('reveal'); io.observe(el); } });
+  }
+
   /* Horizontal scrollers: arrow buttons */
   doc.querySelectorAll('[data-scroller]').forEach(wrap => {
     const track = wrap.querySelector('.scroller-track');

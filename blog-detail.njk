@@ -10,24 +10,32 @@ ogType: "article"
 ---
 {% from 'ui.njk' import icon, pic, credit, card, wave %}
 {% set hero = post.data | cardPhoto(editorialPhotos) %}
-<section class="page-hero article-hero">
-  <div class="page-hero-media">
+{% set themes = {Weather: 'sea', Beaches: 'sea', Food: 'orange', History: 'navy', Culture: 'navy', Practical: 'sky', 'Travel guide': 'blue', 'Things to do': 'orange', Families: 'orange', Hotels: 'blue'} %}
+{% set body = post.templateContent | withHeadingIds %}
+{% set figs = post.data.inline_photos | articleFigures(editorialPhotos) %}
+<div class="read-progress" aria-hidden="true"><span></span></div>
+<section class="page-hero article-hero theme-{{ themes[post.data.category] or 'blue' }}">
+  <div class="page-hero-media kenburns">
     {{ pic(hero.src, hero.alt or post.data.title, '100vw', true, hero.width, hero.height) }}
     {{ credit(hero) }}
-    {{ wave('var(--bg)') }}
+    {{ wave('var(--bg)', 'wave-animated') }}
   </div>
   <div class="container page-hero-copy article-head">
     <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span aria-hidden="true">/</span> <a href="/blog/">Blog</a></nav>
-    <p class="eyebrow">{{ post.data.category }}</p>
+    <p class="eyebrow article-pill">{{ post.data.category }}</p>
     <h1>{{ post.data.title }}</h1>
     <div class="article-meta">{% if post.data.date_display %}<span>{{ icon('calendar') }}{{ post.data.date_display }}</span>{% endif %}<span>{{ icon('clock') }}{{ post.templateContent | readingTime }} min read</span></div>
   </div>
 </section>
 <div class="container article-layout">
   <article class="article-body prose">
-{{ post.templateContent | safe }}
+{{ body | injectFigures(figs) | safe }}
   </article>
-  <aside class="article-aside" aria-label="Plan your trip">
+  <aside class="article-aside" aria-label="On this page">
+    {% set sections = post.templateContent | toc %}
+    {% if sections.length > 2 %}
+    <nav class="side-card toc" style="position:static" aria-label="Contents"><h2>On this page</h2><ol>{% for s in sections %}<li><a href="#{{ s.id }}">{{ s.text }}</a></li>{% endfor %}</ol></nav>
+    {% endif %}
     <div class="side-card" style="position:static">
       <h2>Plan your trip</h2>
       <div class="side-links">
@@ -43,9 +51,9 @@ ogType: "article"
   <div class="container">
     <div class="section-head"><div><p class="eyebrow">Keep reading</p><h2 id="more-posts">More from the blog</h2></div><a class="btn btn-sm" href="/blog/">All articles</a></div>
     <div class="card-grid cols-3">
-      {% for o in collections.blog | except(post.data.slug, 3) %}{% if true %}{% set ph = o.data | cardPhoto(editorialPhotos) %}
+      {% for o in collections.blog | except(post.data.slug, 3) %}{% set ph = o.data | cardPhoto(editorialPhotos) %}
       {{ card('/blog/' + o.data.slug + '/', ph, o.data.title, '', o.data.category, '', '', '(max-width: 700px) 92vw, 32vw') }}
-      {% endif %}{% endfor %}
+      {% endfor %}
     </div>
   </div>
 </section>

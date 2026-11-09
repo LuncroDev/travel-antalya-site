@@ -11,6 +11,14 @@ collections:
     create: true
     slug: '{{slug}}'
     fields:
+      - { label: "Focus keyword (SEO)", name: focus_keyword, widget: string, required: false }
+      - { label: "Cover photo ID (see /admin/photos/)", name: photo_id, widget: string, required: false, hint: "Pick an ID from the photo library at /admin/photos/. Leave empty to use the Cover Photo upload." }
+      - label: "Photos inside the article (IDs)"
+        name: inline_photos
+        widget: list
+        required: false
+        hint: "1–2 photo IDs from /admin/photos/. They are placed between sections automatically."
+        field: { label: Photo ID, name: id, widget: string }
       - label: Title
         name: title
         widget: string
@@ -456,6 +464,16 @@ collections:
     create: true
     slug: '{{slug}}'
     fields:
+      - label: "Photos from the official website"
+        name: photos_official
+        widget: list
+        required: false
+        hint: "Paste image addresses (https://…) from the venue's own website. The first photo is the cover. Images are resized automatically."
+        fields:
+          - { label: Image URL, name: src, widget: string }
+          - { label: "Alt text (what the photo shows)", name: alt, widget: string, required: false }
+      - { label: "Page the photos came from", name: photo_source, widget: string, required: false }
+      - { label: "Focus keyword (SEO)", name: focus_keyword, widget: string, required: false }
       - name: status_note
         label: Access or closure notice
         widget: text
@@ -568,6 +586,16 @@ collections:
     create: true
     slug: '{{slug}}'
     fields:
+      - label: "Photos from the official website"
+        name: photos_official
+        widget: list
+        required: false
+        hint: "Paste image addresses (https://…) from the venue's own website. The first photo is the cover. Images are resized automatically."
+        fields:
+          - { label: Image URL, name: src, widget: string }
+          - { label: "Alt text (what the photo shows)", name: alt, widget: string, required: false }
+      - { label: "Page the photos came from", name: photo_source, widget: string, required: false }
+      - { label: "Focus keyword (SEO)", name: focus_keyword, widget: string, required: false }
       - name: status_note
         label: Access or closure notice
         widget: text
@@ -677,6 +705,16 @@ collections:
     create: true
     slug: '{{slug}}'
     fields:
+      - label: "Photos from the official website"
+        name: photos_official
+        widget: list
+        required: false
+        hint: "Paste image addresses (https://…) from the venue's own website. The first photo is the cover. Images are resized automatically."
+        fields:
+          - { label: Image URL, name: src, widget: string }
+          - { label: "Alt text (what the photo shows)", name: alt, widget: string, required: false }
+      - { label: "Page the photos came from", name: photo_source, widget: string, required: false }
+      - { label: "Focus keyword (SEO)", name: focus_keyword, widget: string, required: false }
       - name: slug
         label: Stable URL slug
         widget: string

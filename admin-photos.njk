@@ -1,0 +1,15 @@
+---
+layout: base.njk
+pageTitle: Photo library
+pageDescription: Licensed photos available to editors.
+permalink: /admin/photos/index.html
+noindex: true
+eleventyExcludeFromCollections: true
+bodyClass: admin-page
+---
+<section class="page-head section-sand"><div class="container"><p class="eyebrow">Editor tools</p><h1>Photo library</h1><p class="lead">{{ editorialPhotos.length }} licensed photos. Copy an ID into “Cover photo ID” or “Photos inside the article”.</p><div class="button-row"><a class="btn btn-orange" href="/admin/">Open the editor</a><a class="btn btn-outline" href="/admin/dashboard/">Dashboard</a></div></div></section>
+<section class="section-tight"><div class="container"><div class="photo-lib">
+{% for p in editorialPhotos %}
+<figure><img src="{{ p.src | opt(640) }}" alt="{{ p.alt }}" loading="lazy" width="640" height="427"><figcaption><code onclick="navigator.clipboard&&navigator.clipboard.writeText(this.textContent)" title="Click to copy">{{ p.id }}</code><span>{{ p.caption }}</span><small>{{ p.kind }} · {{ p.district_slug or p.area }} · {{ p.license }}</small></figcaption></figure>
+{% endfor %}
+</div></div></section>

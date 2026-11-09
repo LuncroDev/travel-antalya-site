@@ -20,7 +20,7 @@
 
 <div class="container detail-head">
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span aria-hidden="true">/</span> <a href="{{ listHref }}">{{ listLabel }}</a> <span aria-hidden="true">/</span> <span aria-current="page">{{ v.title }}</span></nav>
-  <p class="eyebrow">{{ v.neighborhood }}{% if v.category %} · {{ v.category }}{% endif %}</p>
+  <p class="eyebrow">{{ v.neighborhood }}{% if v.category %} · {{ v.category }}{% endif %}{% for t in v.tags or [] %} <span class="status-pill" style="margin-left:8px">{{ {'editors-choice': 'Editor’s choice', sponsored: 'Sponsored'}[t] or t }}</span>{% endfor %}</p>
   <h1>{{ v.title }}</h1>
   <ul class="facts">
     <li>{{ icon('pin') }}{{ v.neighborhood }}</li>
@@ -31,7 +31,9 @@
 
 <div class="container detail-layout">
   <article>
+    {% if v.amenities and v.amenities.length %}<ul class="chips" style="margin:0 0 28px">{% for a in v.amenities %}<li>{{ icon('check') }}<span>{{ a }}</span></li>{% endfor %}</ul>{% endif %}
     <div class="prose">{{ body | safe }}</div>
+    {% if v.map_lat and v.map_lng %}<div class="map-embed"><iframe title="Map of {{ v.title }}" src="https://www.google.com/maps?q={{ v.map_lat }},{{ v.map_lng }}&amp;output=embed" loading="lazy"></iframe></div>{% endif %}
     {% if v.status_note %}<div class="notice"><strong>Before you go</strong><p>{{ v.status_note }}</p></div>{% endif %}
 
     <div class="good-to-know">
@@ -61,6 +63,7 @@
     </dl>
     {% if v.official_url %}<a class="btn btn-orange" href="{{ v.official_url | escape }}" rel="noopener" target="_blank">{{ officialLabel }} {{ icon('external') }}<span class="sr-only"> (opens in a new tab)</span></a>
     {% elif v.source_url %}<a class="btn btn-orange" href="{{ v.source_url | escape }}" rel="noopener" target="_blank">Official information {{ icon('external') }}</a>{% endif %}
+    {% if v.booking_url %}<a class="btn" href="{{ v.booking_url | escape }}" rel="sponsored noopener" target="_blank">Check prices {{ icon('external') }}</a>{% endif %}
     <p class="small">No live prices or availability. Confirm the details for your dates directly.</p>
     <div class="side-links">
       <a href="{{ listHref }}">All {{ listLabel | lower }} {{ icon('arrow-right') }}</a>

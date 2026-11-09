@@ -1,13 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Content Admin — Travel Antalya</title>
-<link rel="icon" type="image/png" href="../images/favicon.png">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Travel Antalya — Admin</title>
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <style>
+    .ta-bar{position:fixed;z-index:9999;right:16px;bottom:16px;display:flex;gap:8px;font:600 14px/1 system-ui,sans-serif}
+    .ta-bar a{background:#0077B8;color:#fff;text-decoration:none;padding:10px 14px;border-radius:999px;box-shadow:0 6px 20px rgba(7,43,68,.25)}
+    .ta-bar a.alt{background:#F15921}
+  </style>
 </head>
 <body>
-  <!-- Include the script that builds the page and powers the CMS -->
+  <div class="ta-bar"><a href="/admin/dashboard/" target="_blank" rel="noopener">📊 Dashboard</a><a class="alt" href="/admin/photos/" target="_blank" rel="noopener">🖼 Photo library</a><a href="/" target="_blank" rel="noopener">↗ View site</a></div>
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <script>
+    // Branded previews: render entries with the live site stylesheet.
+    CMS.registerPreviewStyle('/css/site.css');
+    const h = window.h || (window.CMS && CMS.h);
+    const Card = createClass({
+      render() {
+        const e = this.props.entry, get = k => e.getIn(['data', k]);
+        const photos = get('photos_official'), first = photos && photos.size ? photos.getIn([0, 'src']) : (get('cover') || '');
+        return h('div', { className: 'container', style: { padding: '32px' } },
+          h('p', { className: 'eyebrow' }, [get('neighborhood'), get('category')].filter(Boolean).join(' · ')),
+          h('h1', {}, get('title') || 'Untitled'),
+          first ? h('img', { src: first, style: { width: '100%', maxHeight: '420px', objectFit: 'cover', borderRadius: '20px', margin: '16px 0' } }) : null,
+          h('p', { className: 'lead' }, get('tagline') || get('excerpt') || ''),
+          h('div', { className: 'prose' }, this.props.widgetFor('body')));
+      }
+    });
+    ['hotels', 'restaurants', 'golf', 'blog', 'things-to-do', 'events'].forEach(n => CMS.registerPreviewTemplate(n, Card));
+    if (window.netlifyIdentity) netlifyIdentity.on('init', u => { if (!u) netlifyIdentity.on('login', () => location.reload()); });
+  </script>
 </body>
 </html>
