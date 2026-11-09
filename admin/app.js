@@ -280,7 +280,7 @@
   async function route() {
     const h = location.hash.replace(/^#/, '') || '/';
     if (h === '/logout') { await api('logout', {}).catch(() => {}); state.data = null; renderLogin(); return; }
-    try { await api('me'); } catch (e) { return; }
+    try { await api('me'); } catch (e) { if (!document.getElementById('lf')) renderLogin(); const er = document.getElementById('lerr'); if (er && e.message !== 'Please log in') er.textContent = e.message; return; }
     await loadData();
     const [, a, b, c] = h.split('/');
     if (a === 'c' && S[b]) return renderList(b);
