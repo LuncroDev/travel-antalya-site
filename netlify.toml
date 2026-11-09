@@ -12,7 +12,6 @@
   'https://agc\.com\.tr/.*',
   'https://akrahotels-gvhpewgeadfsftcj\.a01\.azurefd\.net/.*',
   'https://alanyapanorama\.com/.*',
-  'https://antalyabalikevi\.com\.tr/.*',
   'https://api\.baruthotelsgroup\.com/.*',
   'https://barutacanthuscennet\.com/.*',
   'https://beach\.sueno\.com\.tr/.*',
@@ -32,7 +31,6 @@
   'https://golfclub\.sueno\.com\.tr/.*',
   'https://image-tc\.galaxy\.tf/.*',
   'https://irp\.cdn-website\.com/.*',
-  'https://irt-cdn\.multiscreensite\.com/.*',
   'https://kayahotels\.com/.*',
   'https://larabalik\.com/.*',
   'https://medya\.barobirlik\.org\.tr/.*',
@@ -78,7 +76,6 @@
   'https://www\.robinson\.com/.*',
   'https://www\.sherwoodhotels\.com\.tr/.*',
   'https://www\.siralikebap\.com/.*',
-  'https://www\.susesihotel\.com/.*',
   'https://www\.thelandoflegends\.com/.*',
   'https://www\.villaokan\.com/.*'
   ]

@@ -14,9 +14,6 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: A family resort in the Kemer region where the coast meets the mountain landscape.
 booking_note: Check the exact Kiriş location, room building and seasonal facilities.
-photos_official:
-- src: https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/Presidential+Villa+with+private+pool%2833%29-2880w.JPG
-photo_source: https://www.limakhotels.com/limra
 ---
 A family resort in the Kemer region where the coast meets the mountain landscape. Limak describes large green grounds and an ultra-all-inclusive concept, making it a resort-based option rather than a town-centre hotel.
 
