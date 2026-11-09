@@ -1,0 +1,33 @@
+name: Import content (docs, photos)
+# Runs the importer on GitHub's runners (internet access) whenever the import
+# queue changes, then commits the fetched raw material back to the repo.
+on:
+  push:
+    branches: [main]
+    paths: ['docs/import/queue.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: import-content
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: node scripts/import/run.js
+      - name: Commit imported material
+        run: |
+          git config user.name "travel-antalya-importer"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/import images/editorial
+          if git diff --cached --quiet; then echo "Nothing new"; exit 0; fi
+          git commit -m "import: raw docs, Commons photos and official venue photos [skip netlify]"
+          for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && break; sleep 5; done

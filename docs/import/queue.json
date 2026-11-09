@@ -1,0 +1,269 @@
+{
+ "version": 1,
+ "blogs": [
+  {
+   "n": 3,
+   "doc": "1zKw2ivIETbqFPuSa47O8GDTmmZD2Wr3uTDSRdVKzfaA",
+   "category": "Weather",
+   "keyword": "antalya weather october",
+   "photoQuery": "Kemer beach Antalya"
+  },
+  {
+   "n": 4,
+   "doc": "15enKU-LpTO4zuPTAOKeNvNxSFo76RW4_T5jhaoJA9uk",
+   "category": "Weather",
+   "keyword": "antalya weather december",
+   "photoQuery": "Taurus Mountains snow Antalya"
+  },
+  {
+   "n": 5,
+   "doc": "1p-oVGBSzf_IoBOA6jZhrWOmd5DXIfloFeZbnIsDBui8",
+   "category": "Weather",
+   "keyword": "antalya weather february",
+   "photoQuery": "Antalya winter sea"
+  },
+  {
+   "n": 6,
+   "doc": "18odYLKHSK7TuW8UUrF9vA_9mLbHPzRX79yu47N1V1ko",
+   "category": "Weather",
+   "keyword": "antalya weather march",
+   "photoQuery": "Karaalioğlu Park Antalya"
+  },
+  {
+   "n": 7,
+   "doc": "1yBdnmM0Ys_ZW1O9x1XjcdiMexlOR7BVtlyAhHBT9XT0",
+   "category": "Weather",
+   "keyword": "antalya weather november",
+   "photoQuery": "Konyaaltı sunset"
+  },
+  {
+   "n": 8,
+   "doc": "1BTGT0M1T4Y0zBdaRwSzmOkInHwPZWPqzH2OV_-7_crE",
+   "category": "Weather",
+   "keyword": "antalya weather may",
+   "photoQuery": "Phaselis"
+  },
+  {
+   "n": 9,
+   "doc": "1v011IgjUNhzEZoPTg63YllqTeu_KVpXngQ6xacivlIM",
+   "category": "Weather",
+   "keyword": "antalya weather june",
+   "photoQuery": "Lara beach Antalya"
+  },
+  {
+   "n": 10,
+   "doc": "1FI73B5uD_P5xszv_J5MGSN003zdq94b0u1bV0CpKoX4",
+   "category": "Weather",
+   "keyword": "antalya weather july",
+   "photoQuery": "Antalya beach summer"
+  },
+  {
+   "n": 11,
+   "doc": "1HoryqhtJF1pAspqMI_urljEIsmiMcJ23vWbVuZrZDZg",
+   "category": "Weather",
+   "keyword": "antalya weather august",
+   "photoQuery": "Köprülü Canyon"
+  },
+  {
+   "n": 12,
+   "doc": "1O2jW_AnGhmsAwlUbhF_wHqbMchCCjxjutcBYLTWRHMs",
+   "category": "Weather",
+   "keyword": "antalya weather september",
+   "photoQuery": "Olympos Antalya"
+  },
+  {
+   "n": 13,
+   "doc": "1FYxuCqrurW5y7sfKpAKbCBS3Yb1XfUzK0fYE135qvtM",
+   "category": "Weather",
+   "keyword": "antalya weather january",
+   "photoQuery": "Antalya clock tower"
+  },
+  {
+   "n": 14,
+   "doc": "14L9Dnz4UwCOOw8OVZZI6kmN13mQF9K3vpzkuXdB_nAg",
+   "category": "Weather",
+   "keyword": "swim in antalya in winter",
+   "photoQuery": "Konyaaltı beach"
+  },
+  {
+   "n": 15,
+   "doc": "1Kx95ykuo2F53bGejUpMkDcj6MEQrIJnSYQBfUwuVqvI",
+   "category": "Weather",
+   "keyword": "antalya rainfall",
+   "photoQuery": "Kurşunlu waterfall"
+  },
+  {
+   "n": 16,
+   "doc": "1WKl9Vk6MWX0aNzQefGEylhphYulTzdpxe8GnMkkpTz8",
+   "category": "Weather",
+   "keyword": "best time to visit antalya",
+   "photoQuery": "Antalya panorama"
+  },
+  {
+   "n": 17,
+   "doc": "1-phXbtQKPlK_x2ol_HA0pqL75qV24zGSsmpbpv-rXDk",
+   "category": "Weather",
+   "keyword": "antalya beach weather",
+   "photoQuery": "Cleopatra beach Alanya"
+  },
+  {
+   "n": 18,
+   "doc": "11oz7fCLupr_mrsyvSANQuc6DaZppmG0Ks2vDVqewZxg",
+   "category": "Weather",
+   "keyword": "antalya summer heat",
+   "photoQuery": "Side beach Turkey"
+  },
+  {
+   "n": 19,
+   "doc": "17xbKuigzu66ztVOG1dYuKjdrBXMknFzhpLL9NhS9whE",
+   "category": "Weather",
+   "keyword": "what to wear in antalya",
+   "photoQuery": "Kaleiçi street"
+  },
+  {
+   "n": 20,
+   "doc": "11r8wbeV9p9eTaZ4TBJcMim04Q3aKmOFSjpS6_uOKuhg",
+   "category": "Weather",
+   "keyword": "antalya vs istanbul weather",
+   "photoQuery": "Antalya cliffs"
+  },
+  {
+   "n": 21,
+   "doc": "1RKwJ8UfHpYSfgmRpyIa1zh-H5QqijnpYJ7pWOcigEks",
+   "category": "Travel guide",
+   "keyword": "antalya travel guide",
+   "photoQuery": "Antalya old harbour"
+  },
+  {
+   "n": 22,
+   "doc": "12A10A2fZ6thCEaHDL9v0t3DRlluptKu1K7fl29S00jU",
+   "category": "Travel guide",
+   "keyword": "where is antalya",
+   "photoQuery": "Gulf of Antalya"
+  },
+  {
+   "n": 23,
+   "doc": "142HWdgFHx3aN6_ZbZD4eu9seD6hvhLYzexPVHkYydAQ",
+   "category": "Travel guide",
+   "keyword": "is antalya in europe or asia",
+   "photoQuery": "Taurus Mountains Antalya"
+  },
+  {
+   "n": 24,
+   "doc": "1Rt9UuZW5AxHN8tYrZPMg-Rzr_2zrwrGHyGLA1mHJSDs",
+   "category": "Travel guide",
+   "keyword": "what country is antalya in",
+   "photoQuery": "Antalya Republic Square"
+  },
+  {
+   "n": 25,
+   "doc": "1V_B7_77MqFdNf_PsJz_CFP4pz9yJxdvL0AOuVBmpJac",
+   "category": "Practical",
+   "keyword": "is antalya safe",
+   "photoQuery": "Antalya tram"
+  },
+  {
+   "n": 26,
+   "doc": "1yKaKnndydck94AVD3JcBHC9IMj0DVM3Ce07Lx6DOtPU",
+   "category": "Things to do",
+   "keyword": "things to do in antalya",
+   "photoQuery": "Aspendos"
+  },
+  {
+   "n": 27,
+   "doc": "11Yo8196Azvpm8Rah5i6uczv6mDdCxx1CZhilI2MZ2aw",
+   "category": "Things to do",
+   "keyword": "antalya attractions",
+   "photoQuery": "Perge"
+  },
+  {
+   "n": 28,
+   "doc": "1ha3FGwNreJtOVBAF3YdBZpeSKhJbOnCFnIS3Hav_LnY",
+   "category": "Beaches",
+   "keyword": "antalya beaches",
+   "photoQuery": "Patara beach"
+  },
+  {
+   "n": 29,
+   "doc": "1gpr9UDOx5u_WeMLBqTVS4Ec8eYNvWW5_yNgfVJIPOwM",
+   "category": "Things to do",
+   "keyword": "things to do in antalya besides beaches",
+   "photoQuery": "Termessos"
+  },
+  {
+   "n": 30,
+   "doc": "18G330fcAQfNreUpEgJvRr4jiCoOOeQdiYBj9X5ZRUe4",
+   "category": "Families",
+   "keyword": "things to do in antalya with family",
+   "photoQuery": "Antalya Aquarium"
+  },
+  {
+   "n": 31,
+   "doc": "127D-tNwmbadIePQUoCOhbjUPnD4pO0D4OW2BlYjU6k8",
+   "category": "Culture",
+   "keyword": "what is antalya famous for",
+   "photoQuery": "Yivli Minare"
+  },
+  {
+   "n": 32,
+   "doc": "1drwkrS0RhX8FuL_bKjM_MULEsZtlMjYRaaUAQCpRvPE",
+   "category": "History",
+   "keyword": "history of antalya",
+   "photoQuery": "Antalya Museum"
+  },
+  {
+   "n": 33,
+   "doc": "1CbyvdEOl_RGiIfi3nQ4z2wCpGW7eRIyqbCIhxQYmg_4",
+   "category": "Culture",
+   "keyword": "antalya old town",
+   "photoQuery": "Kaleiçi"
+  },
+  {
+   "n": 34,
+   "doc": "1xsbCXgUJqgPnqB9hlXi6EX-NuhoTc0Su3B2FAj0sE_g",
+   "category": "Food",
+   "keyword": "antalya local food",
+   "photoQuery": "Turkish breakfast"
+  },
+  {
+   "n": 35,
+   "doc": "10ocYO3Nb1UQ5QwNV8YDmT1a14NhvgdDXB52rESQS7Hk",
+   "category": "Practical",
+   "keyword": "is antalya expensive",
+   "photoQuery": "Antalya bazaar"
+  },
+  {
+   "n": 36,
+   "doc": "17Zqj8XfSqEpXBbU4QWn0FfLSGv1BNqBXiIIf3_N3opQ",
+   "category": "Practical",
+   "keyword": "how to get to antalya",
+   "photoQuery": "Antalya Airport"
+  },
+  {
+   "n": 37,
+   "doc": "1ZClgR_VlKchssQj0UdzcbNLT4_WuTsqjoem239pfYeY",
+   "category": "Hotels",
+   "keyword": "where to stay in antalya",
+   "photoQuery": "Lara Antalya"
+  },
+  {
+   "n": 38,
+   "doc": "1u9u0bHyjLEeKPOQnWehjBVqA-J_M8XeFHUVH64qNl_8",
+   "category": "Travel guide",
+   "keyword": "antalya vs other turkish cities",
+   "photoQuery": "Kaş Turkey"
+  },
+  {
+   "n": 39,
+   "doc": "19K9Z2d-4Q6X6EAUBUBbcJn2alijG1iLatdMRwcbb2nM",
+   "category": "Travel guide",
+   "keyword": "is antalya worth visiting",
+   "photoQuery": "Antalya sunset"
+  }
+ ],
+ "officialPhotos": [
+  "hotels",
+  "restaurants",
+  "golf"
+ ]
+}

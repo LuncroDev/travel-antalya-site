@@ -30,6 +30,7 @@ test('homepage is photo-led: every image is responsive, sized, described and laz
   for (const img of images) {
     assert.ok(img.alt && Number(img.getAttribute('width')) > 0 && Number(img.getAttribute('height')) > 0, img.src);
     assert.ok(img.getAttribute('loading') === 'lazy' || img.getAttribute('fetchpriority') === 'high', img.src);
+    if (img.getAttribute('src').startsWith('/.netlify/images')) continue;
     assert.ok(fs.existsSync('.' + img.getAttribute('src')), img.getAttribute('src'));
     for (const part of (img.getAttribute('srcset') || '').split(',').filter(Boolean)) assert.ok(fs.existsSync('.' + part.trim().split(' ')[0]), part);
   }
@@ -42,6 +43,7 @@ test('licensed photos keep keyboard-accessible author and licence credits', () =
   assert.ok(credits.length >= 10);
   for (const credit of credits) {
     assert.ok(credit.querySelector('summary .sr-only')?.textContent.startsWith('Photo credit:'));
+    if (credit.textContent.includes('(official website)')) continue; // venue's own photo, credited to its website
     const caption = credit.querySelector('strong').textContent;
     const photo = photos.find(item => item.caption === caption);
     assert.ok(photo, caption);
@@ -56,6 +58,7 @@ test('area photos are labelled so they are never mistaken for the venue', () => 
   for (const card of hotels.querySelectorAll('[data-hotel]')) {
     const slug = card.querySelector('h3 a').getAttribute('href').split('/')[2];
     const img = card.querySelector('img');
+    if (img.getAttribute('src').startsWith('/.netlify/images')) continue; // official website photo
     const own = photos.some(p => p.kind === 'property' && (p.property_slug === slug || (p.property_slugs || []).includes(slug)) && img.getAttribute('src').includes(p.src.split('/').pop().replace(/\.[a-z]+$/, '')));
     if (!own) assert.ok(card.querySelector('.card-area'), `unlabelled area photo on ${slug}`);
   }

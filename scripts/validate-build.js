@@ -17,6 +17,7 @@ for (const file of files) {
   assert.ok(html.includes('<h1'), `No heading: ${file}`);
   for (const match of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) { JSON.parse(match[1]); schemaCount++; }
   for (const match of html.matchAll(/(?:href|src)="(\/[^"#?]*)(?:[?#][^"]*)?"/g)) {
+    if (match[1].startsWith('/.netlify/')) continue; // Netlify Image CDN, served at the edge
     const url = decodeURIComponent(decode(match[1]));
     const target = path.join(root, url.endsWith('/') ? url + 'index.html' : url);
     assert.ok(fs.existsSync(target), `Broken local link ${url} from ${file}`); links++;
