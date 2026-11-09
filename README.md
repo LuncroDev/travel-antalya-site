@@ -29,7 +29,7 @@ To use an existing browser: set `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH` to its exe
 - `content/hotels`: 100 source-linked profiles, stable `slug`, official/source URL, `last_checked`, booking caveats. There are no live room rates, availability, invented ratings or generic photos presented as actual properties.
 - `content/events`: specific editions require `date_verified: true`, valid date-only `start_date`/`end_date`, source and `last_checked`. Records lacking verified dates never appear as upcoming. The browser reclassifies dates using Europe/Istanbul time, including midnight changes. Static no-JavaScript labels reflect build time.
 - `_data/destinations.json`: short introductions to all 19 districts, not exhaustive inventories of businesses or attractions.
-- `admin/config.yml`: updated CMS fields preserve sources and stable hotel URLs. This change does not provision authentication or alter credentials.
+- `/admin/`: custom admin panel (password login, dashboard, editors, photo library). Saves commit to GitHub through `netlify/functions/admin.js`; needs `ADMIN_PASSWORD`, `GITHUB_TOKEN`, `GITHUB_OWNER`, `GITHUB_REPO` in Netlify. Field definitions live in `admin/schema.js`.
 - `docs/hotel-sources.md` and `docs/events-sources.md`: source registers for this refresh.
 
 Run `npm run content:audit` to flag event source checks older than 7 days and hotel reviews older than 90 days. It is a report, not an updater. It does not scrape sources, assert re-verification, change checked dates or send notifications.

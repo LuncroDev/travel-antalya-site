@@ -33,10 +33,17 @@ test('hotel records have unique stable slugs and explicit source provenance', ()
   assert.equal(records.find(x => x.slug === 'akra-hotel').neighborhood, 'Antalya city');
   assert.equal(records.find(x => x.slug === 'hotel-su-aqualand').neighborhood, 'Konyaaltı');
 });
-test('CMS understands the new provenance and stable URL fields', () => {
- const yaml = require('js-yaml'); const config = yaml.load(fs.readFileSync('admin/config.yml', 'utf8'));
+test('admin understands the provenance and stable URL fields', () => {
+ const schema = require('../admin/schema.js');
  for (const collectionName of ['hotels','events']) {
-   const fields = config.collections.find(c => c.name === collectionName).fields.map(f => f.name);
+   const fields = schema[collectionName].fields.map(f => f.name);
    for (const field of ['source_url','last_checked']) assert.ok(fields.includes(field), `${collectionName}.${field}`);
  }
+});
+
+test('admin API only touches content and upload paths', () => {
+  const src = fs.readFileSync('netlify/functions/admin.js', 'utf8');
+  const allowed = new RegExp(src.match(/const ALLOWED = \/(.+)\/;/)[1]);
+  for (const ok of ['content/hotels/akra-hotel.md', 'content/blog/new-post.md', 'images/uploads/photo-1.jpg']) assert.ok(allowed.test(ok), ok);
+  for (const bad of ['netlify.toml', '.github/workflows/x.yml', 'content/hotels/../../x.md', '_includes/base.njk', 'admin/app.js', 'content/hotels/x.js']) assert.ok(!allowed.test(bad), bad);
 });

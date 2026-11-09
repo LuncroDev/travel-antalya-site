@@ -1,0 +1,7 @@
+---
+permalink: /admin/data.json
+eleventyExcludeFromCollections: true
+---
+{%- set groups = {hotels: collections.hotels, restaurants: collections.restaurants, golf: collections.golf, events: collections.events, 'things-to-do': collections.thingsToDo, blog: collections.blog} -%}
+{%- set out = {} -%}
+{{ groups | adminData(editorialPhotos, buildDate) | dump | safe }}
