@@ -7,6 +7,7 @@ category: "Weather"
 cover: "/images/photos/manavgat-waterfall.jpg"
 excerpt: "Antalya’s weather in October Antalya is one of Turkey’s most loved holiday destinations, well known for its long coastline, beautiful beaches, ancient ruins, luxury…"
 featured: false
+photo_id: "side-apollo"
 ---
 <h1 class="wp-block-heading"><strong>Antalya’s weather in October</strong></h1>
 

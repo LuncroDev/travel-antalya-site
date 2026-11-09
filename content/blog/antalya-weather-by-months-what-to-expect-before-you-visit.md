@@ -7,6 +7,7 @@ category: "Weather"
 cover: "/images/photos/coastal-extra-1.jpg"
 excerpt: "Antalya is one of Turkey’s most popular and beautiful travel destinations. Located on the southern coast of the country along the Mediterranean Sea, Antalya attracts…"
 featured: true
+photo_id: "konyaalti-coast"
 ---
 <p>Antalya is one of Turkey’s most popular and beautiful travel destinations. Located on the southern coast of the country along the Mediterranean Sea, Antalya attracts millions of visitors every year. Travelers come here for its long beaches, ancient ruins, luxury resorts, nature parks, and relaxed lifestyle. However, one of the most important things people want to know before planning their trip is the <a href="https://travel-antalya.com/"><strong>weather in Antalya</strong></a> throughout the year. Understanding Antalya weather by month helps travelers choose the right time to visit based on their plans. Some visitors want hot sunny days for swimming and beach holidays. Others prefer cooler temperatures for sightseeing, walking through old cities, hiking, or exploring historical places. Antalya offers all of this, but the experience changes depending on the season.</p>
 

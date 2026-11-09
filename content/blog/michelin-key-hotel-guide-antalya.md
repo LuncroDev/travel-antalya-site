@@ -7,6 +7,7 @@ category: "Hotels"
 cover: "/images/editorial/kaleici-marina.jpg"
 excerpt: "A hotel selection, a Michelin Key and a restaurant star are different things. Here is how to check the distinction before choosing an Antalya stay."
 featured: false
+photo_id: "kaleici-marina"
 ---
 ## Hotel recognition and restaurant recognition are different
 

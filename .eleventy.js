@@ -1,5 +1,6 @@
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("admin");
@@ -14,6 +15,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('take', (items, count) => (items || []).slice(0, count));
   eleventyConfig.addFilter('encodeUri', value => encodeURIComponent(value || ''));
   for (const [name, fn] of Object.entries(require('./lib/discovery'))) eleventyConfig.addFilter(name, fn);
+  for (const [name, fn] of Object.entries(require('./lib/ui'))) eleventyConfig.addFilter(name, fn);
   const eventUtils = require('./lib/events');
   for (const name of ['eventDate', 'eventStatus', 'eventStatusLabel', 'eventDateLabel']) eleventyConfig.addFilter(name, eventUtils[name]);
   eleventyConfig.on('eleventy.after', () => require('./scripts/sitemap')());

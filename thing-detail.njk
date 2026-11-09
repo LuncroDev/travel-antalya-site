@@ -7,44 +7,61 @@ permalink: "/things-to-do/{{ thing.data.title | slugify }}/index.html"
 layout: base.njk
 eleventyExcludeFromCollections: true
 ogType: "website"
-
 ---
-<section class="detail-hero">
-  <div class="detail-hero-media"><img src="{{ thing.data.cover }}" alt="{{ thing.data.title }}"></div>
+{% from 'ui.njk' import icon, pic, credit, card, wave %}
+{% set t = thing.data %}
+{% set hero = t | cardPhoto(editorialPhotos) %}
+<section class="page-hero">
+  <div class="page-hero-media">
+    {{ pic(hero.src, hero.alt, '100vw', true, hero.width, hero.height) }}
+    {% if hero.contextual %}<span class="card-area" style="top:16px;bottom:auto;left:16px">{{ icon('camera') }} Area photo · {{ hero.areaLabel }}</span>{% endif %}
+    {{ credit(hero) }}
+    {{ wave('var(--bg)') }}
+  </div>
+  <div class="container page-hero-copy">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span aria-hidden="true">/</span> <a href="/things-to-do/">Things to do</a> <span aria-hidden="true">/</span> <span aria-current="page">{{ t.title }}</span></nav>
+    <p class="eyebrow">{{ t.category }}</p>
+    <h1>{{ t.title }}</h1>
+    <p class="subhead">{{ t.tagline }}</p>
+    <ul class="facts">
+      <li>{{ icon({'Ancient Ruins': 'landmark', 'Nature': 'mountain', 'Beaches': 'waves', 'Adventure': 'compass'}[t.category] or 'star') }}{{ t.category }}</li>
+      {% for d in destinations %}{% if d.slug == t.district_slug %}<li>{{ icon('pin') }}<a href="/destinations/{{ d.slug }}/">{{ d.name }}</a></li>{% endif %}{% endfor %}
+      {% if t.map_lat %}<li>{{ icon('map') }}<a href="https://www.google.com/maps/search/?api=1&amp;query={{ t.map_lat }},{{ t.map_lng }}" target="_blank" rel="noopener">Open in Maps</a></li>{% endif %}
+    </ul>
+  </div>
 </section>
 
-<div class="container detail-title-block">
-  <span class="badge badge-verified">{{ thing.data.category }}</span>
-  <h1>{{ thing.data.title }}</h1>
-  <p class="lead">{{ thing.data.tagline }}</p>
-</div>
-
-<div class="container">
-  {% if thing.data.photos %}
-  <div class="gallery-grid">
-    {% for photo in thing.data.photos %}
-    <a href="{{ photo }}" target="_blank" rel="noopener"><img src="{{ photo }}" alt="{{ thing.data.title }} photo {{ loop.index }}"></a>
-    {% endfor %}
-  </div>
-  {% endif %}
-
-  <div class="detail-columns" style="margin-top:30px;">
-    <div>
-      <h2>About {{ thing.data.title }}</h2>
-      {{ thing.templateContent | safe }}
-
-      {% if thing.data.map_lat and thing.data.map_lng %}
-      <h2>Location</h2>
-      <div class="map-embed">
-        <iframe src="https://www.google.com/maps?q={{ thing.data.map_lat }},{{ thing.data.map_lng }}&output=embed" loading="lazy"></iframe>
-      </div>
-      {% endif %}
+<div class="container detail-layout">
+  <article>
+    <div class="prose">{{ thing.templateContent | safe }}</div>
+    {% if t.map_lat and t.map_lng %}
+    <h2 style="font-size:clamp(1.8rem,2.8vw,2.4rem);margin-top:1.4em">Location</h2>
+    <div class="map-embed"><iframe title="Map of {{ t.title }}" src="https://www.google.com/maps?q={{ t.map_lat }},{{ t.map_lng }}&amp;output=embed" loading="lazy"></iframe></div>
+    {% endif %}
+  </article>
+  <aside class="side-card" aria-label="Plan your visit">
+    <h2>Plan your visit</h2>
+    <dl>
+      <div><dt>Type</dt><dd>{{ t.category }}</dd></div>
+      {% for d in destinations %}{% if d.slug == t.district_slug %}<div><dt>District</dt><dd>{{ d.name }}</dd></div>{% endif %}{% endfor %}
+    </dl>
+    {% if t.map_lat %}<a class="btn btn-orange" href="https://www.google.com/maps/dir/?api=1&amp;destination={{ t.map_lat }},{{ t.map_lng }}" target="_blank" rel="noopener">Get directions {{ icon('external') }}</a>{% endif %}
+    <p class="small">Opening hours and tickets change by season. Check the official site before you go.</p>
+    <div class="side-links">
+      <a href="/things-to-do/">More things to do {{ icon('arrow-right') }}</a>
+      <a href="/hotels/">Places to stay {{ icon('arrow-right') }}</a>
+      <a href="/restaurants/">Where to eat {{ icon('arrow-right') }}</a>
     </div>
-
-    <aside class="detail-side">
-      <div style="color:var(--ink-soft); font-size:0.9rem; margin-bottom:6px;">Category</div>
-      <div class="price-tag" style="font-size:1.15rem;">{{ thing.data.category }}</div>
-      <a href="/things-to-do/" class="btn btn-blue">See more things to do</a>
-    </aside>
-  </div>
+  </aside>
 </div>
+
+<section class="section section-sand" aria-labelledby="more-todo">
+  <div class="container">
+    <div class="section-head"><div><p class="eyebrow">Keep exploring</p><h2 id="more-todo">More things to do</h2></div><a class="btn btn-sm" href="/things-to-do/">See all</a></div>
+    <div class="card-grid cols-3">
+      {% for o in collections.thingsToDo | relatedItems(t, 3) %}{% set ph = o.data | cardPhoto(editorialPhotos) %}
+      {{ card('/things-to-do/' + (o.data.title | slugify) + '/', ph, o.data.title, o.data.excerpt | shorten(100), o.data.category, '', '', '(max-width: 700px) 92vw, 32vw') }}
+      {% endfor %}
+    </div>
+  </div>
+</section>

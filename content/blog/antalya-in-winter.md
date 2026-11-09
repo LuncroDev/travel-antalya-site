@@ -7,6 +7,7 @@ category: "Weather"
 cover: "/images/photos/antalya-coastline.jpg"
 excerpt: "Why Winter in Antalya Is a Hidden Gem Most people think of Antalya as a summer vacation destination, but few realize that winter in Antalya is actually one of the best…"
 featured: false
+photo_id: "alanya-castle"
 ---
 <h2 class="wp-block-heading">Why Winter in Antalya Is a Hidden Gem</h2>
 

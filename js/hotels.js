@@ -10,7 +10,7 @@
   const empty = document.getElementById('hotel-empty');
   // Turkish names also match a Latin keyboard: Kaş/kas, Kaleiçi/kaleici.
   const normalize = (value) => value.toLowerCase().replace(/ı/g, 'i').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-  const entries = cards.map((card) => ({card, text: normalize(card.textContent)}));
+  const entries = cards.map((card) => ({card, text: normalize((card.querySelector('[data-search-text]') || card).textContent)}));
   function filter(updateUrl = true) {
     const words = normalize(search.value.trim()).split(/\s+/).filter(Boolean);
     let count = 0;

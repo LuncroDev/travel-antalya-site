@@ -11,6 +11,9 @@ map_lat: 36.7662
 map_lng: 31.3893
 excerpt: "Side, east of Antalya, pairs Roman ruins with a harbour town; the Temple of Apollo is the classic sunset view."
 featured: false
+photo_id: "side-apollo"
+photo_exact: true
+district_slug: "manavgat"
 ---
 Side occupies a small peninsula about 70 kilometres east of Antalya. Founded in antiquity, it became a busy trading port, and today ruins sit right in the town: a large Roman theatre, an agora, a monumental gate, and the Temple of Apollo and Athena on the waterfront, whose reconstructed columns are among the most photographed sights on the Turkish coast.
 

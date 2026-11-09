@@ -7,18 +7,45 @@ permalink: "/blog/{{ post.data.slug }}/index.html"
 layout: base.njk
 eleventyExcludeFromCollections: true
 ogType: "article"
-
 ---
-<div class="article-header">
-  <div class="container">
-    <span class="post-category-pill">{{ post.data.category }}</span>
-    <span class="post-date">{{ post.data.date_display }}</span>
-    <h1 style="font-size:clamp(1.9rem,4vw,2.7rem); margin-top:0.3em;">{{ post.data.title }}</h1>
+{% from 'ui.njk' import icon, pic, credit, card, wave %}
+{% set hero = post.data | cardPhoto(editorialPhotos) %}
+<section class="page-hero article-hero">
+  <div class="page-hero-media">
+    {{ pic(hero.src, hero.alt or post.data.title, '100vw', true, hero.width, hero.height) }}
+    {{ credit(hero) }}
+    {{ wave('var(--bg)') }}
   </div>
-</div>
-
-<div class="article-cover"><img src="{{ post.data.cover }}" alt="{{ post.data.title }}"></div>
-
-<article class="article-body">
+  <div class="container page-hero-copy article-head">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span aria-hidden="true">/</span> <a href="/blog/">Blog</a></nav>
+    <p class="eyebrow">{{ post.data.category }}</p>
+    <h1>{{ post.data.title }}</h1>
+    <div class="article-meta">{% if post.data.date_display %}<span>{{ icon('calendar') }}{{ post.data.date_display }}</span>{% endif %}<span>{{ icon('clock') }}{{ post.templateContent | readingTime }} min read</span></div>
+  </div>
+</section>
+<div class="container article-layout">
+  <article class="article-body prose">
 {{ post.templateContent | safe }}
-</article>
+  </article>
+  <aside class="article-aside" aria-label="Plan your trip">
+    <div class="side-card" style="position:static">
+      <h2>Plan your trip</h2>
+      <div class="side-links">
+        <a href="/hotels/">Places to stay {{ icon('arrow-right') }}</a>
+        <a href="/things-to-do/">Things to do {{ icon('arrow-right') }}</a>
+        <a href="/events/">What’s on {{ icon('arrow-right') }}</a>
+        <a href="/restaurants/">Where to eat {{ icon('arrow-right') }}</a>
+      </div>
+    </div>
+  </aside>
+</div>
+<section class="section section-sand" aria-labelledby="more-posts">
+  <div class="container">
+    <div class="section-head"><div><p class="eyebrow">Keep reading</p><h2 id="more-posts">More from the blog</h2></div><a class="btn btn-sm" href="/blog/">All articles</a></div>
+    <div class="card-grid cols-3">
+      {% for o in collections.blog | except(post.data.slug, 3) %}{% if true %}{% set ph = o.data | cardPhoto(editorialPhotos) %}
+      {{ card('/blog/' + o.data.slug + '/', ph, o.data.title, '', o.data.category, '', '', '(max-width: 700px) 92vw, 32vw') }}
+      {% endif %}{% endfor %}
+    </div>
+  </div>
+</section>

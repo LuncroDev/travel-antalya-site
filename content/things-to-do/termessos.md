@@ -11,6 +11,10 @@ map_lat: 36.9831
 map_lng: 30.4659
 excerpt: "A dramatic ancient city high in the Taurus mountains, reached by a steep walk through Güllük Dağı National Park."
 featured: true
+photo_id: "kaleici-marina"
+photo_exact: false
+photo_label: "Antalya, gateway to Termessos"
+district_slug: "dosemealti"
 ---
 Termessos was a city of the Pisidians, a warlike people of the Taurus mountains. Its position, on a high plateau reached by a steep approach, made it so defensible that, according to ancient sources, Alexander the Great decided against a siege. The ruins are today part of Güllük Dağı (Termessos) National Park, around 30 kilometres from central Antalya.
 

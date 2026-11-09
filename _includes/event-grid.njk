@@ -1,0 +1,34 @@
+{# Event directory with filters. Expects eventItems; showCategory (bool). #}
+{% from 'ui.njk' import icon, pic, credit %}
+<div data-event-directory>
+  <form data-event-filters class="toolbar" hidden aria-label="Filter events">
+    <div class="search-pill">{{ icon('search') }}<label class="sr-only" for="ev-q">Search events</label><input id="ev-q" type="search" name="query" placeholder="Event, venue or category" autocomplete="off"></div>
+    <div class="filter-row">
+      {% if showCategory %}<label for="ev-cat">Category</label><select id="ev-cat" name="category" class="select-pill"><option value="">All categories</option>{% for cat in collections.eventCategories %}<option value="{{ cat.name | escape }}">{{ cat.name }}</option>{% endfor %}</select>{% endif %}
+      <label for="ev-period">Show</label><select id="ev-period" name="period" class="select-pill"><option value="active">On now &amp; upcoming</option><option value="current">On now</option><option value="upcoming">Upcoming</option><option value="awaiting">Awaiting verified dates</option><option value="archive">Past editions</option><option value="all">All listings</option></select>
+      <label for="ev-from">From</label><input id="ev-from" type="date" name="from">
+      <label for="ev-to">Until</label><input id="ev-to" type="date" name="to">
+      <button type="reset" class="btn btn-sm btn-outline">Reset filters</button>
+    </div>
+  </form>
+  <noscript><p>All listings are shown below. Compare the dates with your travel dates and check the linked source.</p></noscript>
+  <p data-event-count role="status" aria-live="polite"></p>
+  <div class="card-grid">
+    {% for e in eventItems %}
+    {% set status = e.data | eventStatus %}{% set ph = e.data | cardPhoto(editorialPhotos) %}{% set md = e.data.start_date | monthDay %}{% set href = '/events/' + (e.data.slug or (e.data.title | slugify)) + '/' %}
+    <article class="card" data-event data-title="{{ e.data.title | escape }}" data-venue="{{ e.data.venue | escape }}" data-category="{{ e.data.category | escape }}" data-start="{{ e.data.start_date | eventDate }}" data-end="{{ e.data.end_date | eventDate }}" data-verified="{{ e.data.date_verified }}" data-status="{{ status }}">
+      <div class="card-media">
+        <a href="{{ href }}" tabindex="-1" aria-hidden="true">{{ pic(ph.src, ph.alt, '(max-width: 700px) 92vw, 24vw', false, ph.width, ph.height) }}</a>
+        {% if md.day and e.data.date_verified %}<span class="date-badge"><small>{{ md.month }}</small><strong>{{ md.day }}</strong></span>{% endif %}
+        {% if ph.contextual %}<span class="card-area">{{ icon('camera') }} Area photo · {{ e.data.neighborhood }}</span>{% endif %}
+        {{ credit(ph) }}
+      </div>
+      <p class="card-eyebrow">{{ e.data.category }} · <span data-event-status>{{ status | eventStatusLabel }}</span></p>
+      <h3 class="card-title"><a href="{{ href }}">{{ e.data.title }}</a>{{ icon('arrow-up-right', 'card-arrow') }}</h3>
+      <p class="card-meta"><span>{{ icon('calendar') }}{{ e.data | eventDateLabel }}{% if e.data.time_display and e.data.date_verified %} · {{ e.data.time_display }}{% endif %}</span><span>{{ icon('pin') }}{{ e.data.venue }}</span></p>
+    </article>
+    {% endfor %}
+  </div>
+  <div data-event-empty hidden class="empty-state"><h2>No confirmed events match</h2><p>Try another date or category, or choose “Awaiting verified dates” or “Past editions”. We never invent dates to fill the calendar.</p><a class="btn btn-outline" href="https://www.antalya.bel.tr/tr/etkinlikler" target="_blank" rel="noopener noreferrer">Municipal events calendar</a></div>
+</div>
+<script src="/js/events.js" defer></script>

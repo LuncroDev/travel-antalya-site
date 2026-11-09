@@ -11,6 +11,9 @@ map_lat: 36.8892
 map_lng: 30.7078
 excerpt: "A three-arched marble gate at the edge of Kaleiçi, built to honour the Roman emperor Hadrian's visit to Attalia in 130 AD."
 featured: false
+photo_id: "hadrians-gate"
+photo_exact: true
+district_slug: "muratpasa"
 ---
 The Gate of Hadrian (Hadrian's Gate), known in Turkish as Üçkapılar ("Three Gates"), is the easiest ancient monument in Antalya to see: it stands where the old town walls meet the modern city, a short walk from Kalekapısı Square and its clock tower. The arch was raised in honour of the Roman emperor Hadrian, who visited the city of Attalia around 130 AD, and it originally stood outside the walls as a ceremonial entrance.
 

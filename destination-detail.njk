@@ -7,5 +7,49 @@ pagination:
   addAllPagesToCollections: true
 permalink: /destinations/{{ destination.slug }}/index.html
 ---
-<section class="listing-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/destinations/">Destinations</a> / {{ destination.name }}</nav><span class="eyebrow">{{ destination.theme }}</span><h1>{{ destination.name }}</h1><p class="lead">{{ destination.description }}</p></div></section>
-<section class="discovery-section"><div class="container guide-columns"><div>{% set galleryItem = {district_slug: destination.slug} %}{% include 'editorial-gallery.njk' %}<h2>Start here</h2><ul class="highlight-list">{% for place in destination.highlights %}<li>{{ place }}</li>{% endfor %}</ul><p>{{ destination.tip }}</p><div class="notice"><strong>Make room for the journey.</strong><p>Antalya is a large province. Check the actual route, public transport, seasonal access and opening information before combining places in one day.</p></div><div class="button-row">{% if destination.guide %}<a class="btn btn-blue" href="/things-to-do/{{ destination.guide }}/">Read the local guide</a>{% endif %}<a class="btn btn-outline-blue" href="https://www.google.com/maps/search/?api=1&amp;query={{ destination.name | encodeUri }}%20Antalya" target="_blank" rel="noopener">Open district map ↗</a></div></div><aside class="planning-card"><span class="eyebrow">Build your trip</span><h2>Your next steps</h2><a href="/hotels/">Compare places to stay →</a><a href="/events/">Check dated events →</a><a href="/plan-your-trip/">Transport &amp; essentials →</a><a href="/search/?q={{ destination.name | encodeUri }}">Search this district →</a><p class="source-note">Reference checked {{ destination.checked_on }}. <a href="{{ destination.source_url }}" target="_blank" rel="noopener">Provincial tourism information</a>. This page is a district overview, not a verified list of every business.</p></aside></div></section>
+{% from 'ui.njk' import icon, pic, card, pageHero, sectionHead %}
+{% set d = destination %}
+{% set hero = d.slug | districtPhoto(editorialPhotos) or (editorialPhotos | photoById('kaleici-marina')) %}
+{{ pageHero(hero, d.theme, d.name, '', [{label: 'Destinations', href: '/destinations/'}, {label: d.name}]) }}
+
+<section class="intro-band" aria-label="About {{ d.name }}">
+  <div class="container">
+    <div class="intro-card" data-readmore>
+      <div class="intro-text" id="dest-intro"><p>{{ d.description }}</p><p>{{ d.tip }}</p></div>
+      <button type="button" class="readmore-btn" aria-expanded="false" aria-controls="dest-intro" hidden>Read more</button>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="start-here">
+  <div class="container guide-columns">
+    <div>
+      <p class="eyebrow">Start here</p>
+      <h2 id="start-here">Highlights of {{ d.name }}</h2>
+      <ul class="highlight-list">{% for place in d.highlights %}<li>{{ place }}</li>{% endfor %}</ul>
+      <div class="button-row">{% if d.guide %}<a class="btn" href="/things-to-do/{{ d.guide }}/">Read the local guide</a>{% endif %}<a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&amp;query={{ d.name | encodeUri }}%20Antalya" target="_blank" rel="noopener">Open in Maps</a></div>
+      {% set galleryItem = {district_slug: d.slug} %}{% include 'editorial-gallery.njk' %}
+    </div>
+    <aside class="planning-card">
+      <p class="eyebrow" style="margin:0">Build your trip</p>
+      <h2>Next steps</h2>
+      <a href="/hotels/?area={{ {district_slug: d.slug} | hotelAreaFor | encodeUri }}">Places to stay {{ icon('arrow-right') }}</a>
+      <a href="/events/">What’s on {{ icon('arrow-right') }}</a>
+      <a href="/plan-your-trip/">Transport &amp; essentials {{ icon('arrow-right') }}</a>
+      <a href="/search/?q={{ d.name | encodeUri }}">Search {{ d.name }} {{ icon('arrow-right') }}</a>
+      <p class="source-note">Reference checked {{ d.checked_on }}. <a href="{{ d.source_url }}" target="_blank" rel="noopener">Provincial tourism information</a>.</p>
+    </aside>
+  </div>
+</section>
+
+{% set stays = [] %}
+<section class="section section-sand" aria-labelledby="stay-title">
+  <div class="container">
+    {{ sectionHead('Places to stay', 'Hotels in and around ' + d.name, '/hotels/', 'All hotels', 'stay-title') }}
+    <div class="card-grid">
+      {% for h in collections.hotels | relatedItems({district_slug: d.slug, title: ''}, 4) %}{% set ph = h.data | cardPhoto(editorialPhotos) %}
+      {{ card('/hotels/' + (h.data.slug or (h.data.title | slugify)) + '/', ph, h.data.title, '', h.data.neighborhood) }}
+      {% endfor %}
+    </div>
+  </div>
+</section>

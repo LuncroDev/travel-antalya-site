@@ -11,6 +11,9 @@ map_lat: 36.9608
 map_lng: 30.8536
 excerpt: "Roman Perge, about 15 km east of Antalya, has one of the best-preserved stadiums in Anatolia and a grand colonnaded street."
 featured: false
+photo_id: "perge-colonnade"
+photo_exact: true
+district_slug: "aksu"
 ---
 Perge was one of the most important cities of ancient Pamphylia and is one of the most rewarding sites near Antalya. Roughly 15 kilometres east of the city, it is easy to reach by bus, taxi or as part of a tour.
 

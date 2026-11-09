@@ -11,6 +11,10 @@ map_lat: 36.8845
 map_lng: 30.6794
 excerpt: "Temporarily closed for new museum works. Check the official closure notice before planning a visit."
 featured: false
+photo_id: "konyaalti-welcome"
+photo_exact: false
+photo_label: "Konyaaltı, home of the museum"
+district_slug: "konyaalti"
 ---
 **Temporarily closed.** The Ministry of Culture and Tourism lists Antalya Museum as closed for construction of the new museum and relocation of its collections, until works are completed. Checked 9 November 2026. A reopening date is not confirmed here.
 

@@ -7,6 +7,7 @@ category: "Weather"
 cover: "/images/photos/antalya-weather.jpg"
 excerpt: "Antalya Weather Air temperature, sea temperature, and wind — updated automatically. Refresh Air — Current temperature Sea — Sea surface estimate Wind — 10m wind speed —…"
 featured: false
+photo_id: "lower-duden-coast"
 ---
 <div class="wp-block-columns are-vertically-aligned-center">
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:100%">

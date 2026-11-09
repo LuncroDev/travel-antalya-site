@@ -1,8 +1,28 @@
 ---
 layout: base.njk
 pageTitle: Belek & Antalya Golf | Courses and Clubs
-pageDescription: Plan golf in Antalya with source-linked Belek course profiles, official club booking links and practical access guidance.
+pageDescription: Plan golf in Antalya with source-linked Belek course profiles, official club booking links and practical access tips.
 permalink: /golf/index.html
 ---
-<section class="listing-hero detail-heading"><div class="container"><span class="eyebrow">The fairways of the Mediterranean</span><h1>A different<br>kind of green.</h1><p class="lead">Explore Belek and the Antalya golf coast. Compare the clubs, follow the official booking links, and build a stay around your round.</p><div class="topic-links"><a href="#golf-directory">Explore {{ collections.golf.length }} golf venues ↓</a><a href="/hotels/?q=Belek">Belek hotels ↗</a></div></div></section>
-<section><div class="container"><div class="notice"><strong>Arrange access before travelling.</strong><p>Tee times, visitor access, handicap requirements, maintenance closures, equipment hire and transfers vary by club and season. A hotel stay does not automatically include a round.</p></div><div id="golf-directory">{% set venueItems = collections.golf %}{% set venuePlural = 'golf venues' %}{% set venuePath = 'golf' %}{% include 'venue-directory.njk' %}</div><div class="quick-links"><a href="/destinations/serik/">Explore Serik &amp; Belek →</a><a href="/restaurants/">Plan dinner →</a><a href="/plan-your-trip/">Transport &amp; trip planning →</a></div></div></section>
+{% from 'ui.njk' import icon, pageHero %}
+{{ pageHero(editorialPhotos | photoById('regnum-carya-golf-2022'), 'Golf', 'Golf in Belek & Antalya', collections.golf.length + ' clubs between the pines and the sea', [{label: 'Golf'}]) }}
+
+<section class="intro-band" aria-label="About golf in Antalya">
+  <div class="container">
+    <div class="intro-card" data-readmore>
+      <div class="intro-text" id="golf-intro">
+        <p>Belek is Türkiye’s golf capital: championship courses laid out through umbrella pines and eucalyptus, a short drive from Antalya Airport and right next to the resort beaches. Spring and autumn are peak season; winter brings mild, bright days that draw golfers from all over Europe.</p>
+        <p>Tee times, visitor access, handicap requirements, equipment hire and transfers vary by club and season — and a hotel stay doesn’t automatically include a round. Use the official club links on each profile to arrange access before you travel.</p>
+      </div>
+      <button type="button" class="readmore-btn" aria-expanded="false" aria-controls="golf-intro" hidden>Read more</button>
+    </div>
+  </div>
+</section>
+
+<section class="directory" id="golf-directory" aria-labelledby="golf-dir">
+  <div class="container">
+    <div class="section-head"><div><p class="eyebrow">Tee off</p><h2 id="golf-dir">Antalya golf clubs</h2></div><a class="btn btn-sm" href="/hotels/?type=Golf%20resort">Golf resorts</a></div>
+    {% set venueItems = collections.golf %}{% set venuePlural = 'golf venues' %}{% set venuePath = 'golf' %}{% set venueIcon = 'golf' %}
+    {% include 'venue-directory.njk' %}
+  </div>
+</section>

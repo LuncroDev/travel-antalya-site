@@ -1,9 +1,9 @@
 ---
 layout: base.njk
 pageTitle: "Things to Do in Antalya"
-pageDescription: "Ancient ruins, turquoise beaches, an old Roman harbor and more — your complete guide to things to do in Antalya, Turkey."
+pageDescription: "Ancient theatres, waterfalls, turquoise beaches and a walled Roman-era old town — the best things to do in Antalya, Turkey."
 pageUrl: "/things-to-do/"
-ogImage: "/images/photos/things-to-do-cover.jpg"
+ogImage: "/images/editorial/aspendos-theatre.jpg"
 permalink: "/things-to-do/index.html"
 schema:
   "@context": "https://schema.org"
@@ -12,131 +12,61 @@ schema:
   url: "https://travel-antalya.com/things-to-do/"
 eleventyExcludeFromCollections: true
 ---
+{% from 'ui.njk' import icon, pic, credit, card, pageHero, sectionHead %}
 {% set items = collections.thingsToDo %}
-{% set hotels = collections.hotels %}
+{{ pageHero(editorialPhotos | photoById('aspendos-theatre'), 'Explore', 'Things to do in Antalya', 'Ruins, waterfalls & turquoise coves', [{label: 'Things to do'}]) }}
 
-<section style="padding:0;">
-  <div class="detail-hero-media" style="aspect-ratio:21/8;">
-    <img src="/images/photos/things-to-do-cover.jpg" alt="Things to do in Antalya">
-  </div>
-  <div class="container" style="padding-top:28px;">
-    <div class="breadcrumb"><a href="/">Home</a> › <a href="/things-to-do/">Explore</a> › Things To Do</div>
-    <span class="eyebrow">Explore</span>
-    <h1>Things to Do in Antalya</h1>
-    <p class="lead" style="max-width:680px; font-size:1.1rem;">Dive into 2,000-year-old ruins, turquoise coves, a walled Roman-era old town and adventures that go far beyond the beach.</p>
-  </div>
-</section>
-
-<section style="padding-top:20px;">
-  <div class="container" style="max-width:820px;">
-    <p style="font-size:1.02rem;">In Antalya, the possibilities go far beyond the beach. Whether you're drawn to the region's <strong>ancient history</strong>, eager to wander the <strong>Roman-era old town</strong>, or looking for a rafting trip through a limestone canyon, there's something here for every kind of traveler. Here's just a glimpse of what's waiting for you along Turkey's Turquoise Coast.</p>
-  </div>
-</section>
-
-<section style="padding-top:0;">
-  <div class="container" style="max-width:820px;">
-
-    <div class="editorial-block">
-      <img src="/images/photos/things-to-do-cover.jpg" alt="Aspendos Theatre near Antalya">
-      <div>
-        <h3>Ancient Ruins &amp; History</h3>
-        <p>The Antalya region holds some of the best-preserved Roman and Hellenistic sites anywhere in the Mediterranean. <strong>Aspendos Theatre</strong>, built in 155 AD, still has its original acoustics and hosts an opera and ballet festival every summer. A short drive further inland, <strong>Perge</strong> unveils a full Roman street grid, a stadium and a colonnaded avenue, while the hilltop ruins of <strong>Termessos</strong> — never conquered by Alexander the Great — sit inside a national park with sweeping mountain views.</p>
-        <p>Closer to the coast, <strong>Side</strong> combines an active fishing harbor with a Temple of Apollo that lights up gold at sunset — one of the most photographed ruins on the entire coast.</p>
-      </div>
-    </div>
-
-    <div class="editorial-block">
-      <img src="/images/photos/antalya-coastline.jpg" alt="Kaleiçi old town, Antalya">
-      <div>
-        <h3>Old Town &amp; Culture</h3>
-        <p><strong>Kaleiçi</strong>, Antalya's walled old town, is built around a small working harbor that the Romans first fortified. Its narrow cobblestone lanes are lined with restored Ottoman and Greek houses, many now boutique hotels and cafés. Don't miss the fluted <strong>Yivli Minare</strong>, a 13th-century Seljuk landmark visible from most of the old town, or an afternoon spent wandering the covered bazaar streets for leather goods, ceramics and Turkish tea.</p>
-      </div>
-    </div>
-
-    <div class="editorial-block">
-      <img src="/images/photos/manavgat-waterfall.jpg" alt="Manavgat Waterfall near Antalya">
-      <div>
-        <h3>Beaches &amp; Nature</h3>
-        <p>Antalya offers outdoor adventurers a striking mix of mountains and coastline. <strong>Konyaaltı Beach</strong> runs along the city center itself, with the Taurus Mountains rising directly behind it. Further west, the cove at <strong>Kaputaş Beach</strong> is reached by a dramatic staircase cut into the cliffs. Inland, cool off at <strong>Manavgat Waterfall</strong> or the cliff-diving <strong>Düden Waterfalls</strong>, which drop straight into the Mediterranean at Lara.</p>
-      </div>
-    </div>
-
-    <div class="editorial-block">
-      <img src="/images/photos/coastal-extra-1.jpg" alt="Köprülü Canyon rafting near Antalya">
-      <div>
-        <h3>Adventure &amp; Outdoor</h3>
-        <p>For something more active, <strong>Köprülü Canyon</strong> is one of Turkey's most popular white-water rafting spots, with a national park and a Roman bridge still standing over the river. Boat tours out of Kaleiçi's harbor run daily along the coastline, and several operators offer jeep safaris into the Taurus foothills for those who want to see the region from above the tree line.</p>
-      </div>
-    </div>
-
-    <div class="editorial-block">
-      <img src="/images/photos/generic-cover.webp" alt="Nightlife in Antalya">
-      <div>
-        <h3>Nightlife &amp; Entertainment</h3>
-        <p>After dark, Kaleiçi's harbor-facing bars and rooftop lounges are the center of gravity, with live music spilling into the street most summer nights. Along the coast, seasonal beach clubs in Lara and Konyaaltı run through the afternoon and into the evening with DJ sets and sea views.</p>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- ============ EXPLORE THINGS TO DO (horizontal listing, CMS-driven) ============ -->
-<section class="tint">
+<section class="intro-band" aria-label="About things to do in Antalya">
   <div class="container">
-    <div class="section-head">
-      <div>
-        <span class="eyebrow">Explore</span>
-        <h2>Explore Things to Do in Antalya</h2>
+    <div class="intro-card" data-readmore>
+      <div class="intro-text" id="todo-intro">
+        <p>In Antalya the possibilities go far beyond the beach. Walk a 2,000-year-old colonnaded street in <a href="/things-to-do/perge-ancient-city/">Perge</a>, hear the acoustics of <a href="/things-to-do/aspendos-theatre/">Aspendos</a>, then cool off under the <a href="/things-to-do/duden-waterfalls/">Düden Waterfalls</a> as they drop straight into the sea.</p>
+        <p>Wander the lanes of <a href="/things-to-do/kaleici-old-town/">Kaleiçi</a>, raft through <a href="/things-to-do/koprulu-canyon/">Köprülü Canyon</a>, ride the <a href="/things-to-do/tahtali-olympos-cable-car/">Tahtalı cable car</a> above the clouds or watch the eternal flames of the <a href="/things-to-do/olympos-and-the-chimaera-flames/">Chimaera</a> after dark.</p>
+        <p>Opening hours, tickets and seasonal access change — check the official source for each site before you set off.</p>
       </div>
+      <button type="button" class="readmore-btn" aria-expanded="false" aria-controls="todo-intro" hidden>Read more</button>
     </div>
-    <div class="filter-bar">
-      <a class="filter-pill" href="/search/?type=Place&amp;q=Old%20Town">Old Town</a>
-      <a class="filter-pill" href="/search/?type=Place&amp;q=Nature">Nature</a>
-      <a class="filter-pill" href="/search/?type=Place&amp;q=Ancient%20Ruins">Ancient Ruins</a>
-      <a class="filter-pill" href="/search/?type=Place&amp;q=Beaches">Beaches</a>
-      <a class="filter-pill" href="/search/?type=Place&amp;q=Nightlife">Nightlife</a>
-    </div>
-    <p class="results-count">Showing {{ items.length }} things to do</p>
-
-    {% for item in items %}
-    <div class="listing-row">
-      <div class="listing-row-media">
-        <img src="{{ item.data.cover }}" alt="{{ item.data.title }}">
-      </div>
-      <div class="listing-row-body">
-        <div class="listing-row-top">
-          <div>
-            <span class="badge badge-verified">{{ item.data.category }}</span>
-            <h3 class="listing-row-title"><a href="/things-to-do/{{ item.data.title | slugify }}/">{{ item.data.title }}</a></h3>
-          </div>
-          <a href="/things-to-do/{{ item.data.title | slugify }}/" class="listing-row-arrow">↗</a>
-        </div>
-        <p class="listing-row-excerpt">{{ item.data.excerpt }}</p>
-      </div>
-    </div>
-    {% endfor %}
   </div>
 </section>
 
-<!-- ============ HOTELS (pulled live from the hotels collection) ============ -->
-<section>
+<section class="section" aria-labelledby="todo-all">
   <div class="container">
-    <div class="section-head">
-      <div>
-        <span class="eyebrow">Places to Stay</span>
-        <h2>Hotels near everything on this page</h2>
-      </div>
-      <a href="/hotels/" class="see-all">See all hotels →</a>
+    {{ sectionHead('Follow your curiosity', 'Explore things to do', '', '', 'todo-all') }}
+    {% set cats = items | uniqueValues('category') %}
+    <ul class="chips" style="margin:-12px 0 32px">{% for c in cats %}<li>{{ icon({'Ancient Ruins': 'landmark', 'Nature': 'mountain', 'Beaches': 'waves', 'Adventure': 'compass', 'Old Town': 'map', 'Museums': 'landmark', 'Parks & Gardens': 'sun'}[c] or 'star') }}<span>{{ c }}</span></li>{% endfor %}</ul>
+    <div class="card-grid cols-3">
+      {% for item in items %}{% set ph = item.data | cardPhoto(editorialPhotos) %}
+      {{ card('/things-to-do/' + (item.data.title | slugify) + '/', ph, item.data.title, item.data.excerpt | shorten(120), item.data.category, ('Top pick' if item.data.featured else ''), '', '(max-width: 700px) 92vw, 32vw') }}
+      {% endfor %}
     </div>
-    <div class="grid">
-      {% for hotel in hotels | take(4) %}
-      <div class="card">
-        <div class="card-body">
-          <h3><a href="/hotels/{{ hotel.data.slug or hotel.data.title | slugify }}/" style="color:inherit;">{{ hotel.data.title }}</a></h3>
-          <p>{{ hotel.data.excerpt }}</p>
-          <span class="card-meta">{{ hotel.data.neighborhood }}</span>
-        </div>
+  </div>
+</section>
+
+{% set ph1 = editorialPhotos | photoById('kaputas-beach') %}
+<section class="section-tight" aria-labelledby="beach-title">
+  <div class="container">
+    <div class="split split-navy">
+      <div class="split-media">
+        {{ pic(ph1.src, ph1.alt, '(max-width: 860px) 100vw, 55vw', false, ph1.width, ph1.height) }}
+        <svg class="blob" viewBox="0 0 110 600" preserveAspectRatio="none" aria-hidden="true"><path fill="currentColor" d="M110 0H60C20 80 70 160 40 250S0 420 50 500 70 600 70 600h40Z"/></svg>
+        {{ credit(ph1) }}
       </div>
+      <div class="split-copy">
+        <p class="eyebrow">Beach days</p>
+        <h2 id="beach-title">Turquoise coves worth the drive</h2>
+        <p>From the city beach at Konyaaltı to the cliff-framed cove at Kaputaş.</p>
+        <div class="button-row"><a class="btn btn-light" href="/blog/kaputas-beach-travel-antalya/">Kaputaş guide</a><a class="btn btn-ghost-light" href="/things-to-do/konyaalti-beach/">Konyaaltı Beach</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-sand" aria-labelledby="stay-near">
+  <div class="container">
+    {{ sectionHead('Places to stay', 'Hotels near the sights', '/hotels/', 'All hotels', 'stay-near') }}
+    <div class="card-grid">
+      {% for h in collections.hotels | withOwnPhotos(editorialPhotos, 8) | take(4) %}{% set ph = h.data | cardPhoto(editorialPhotos) %}
+      {{ card('/hotels/' + (h.data.slug or (h.data.title | slugify)) + '/', ph, h.data.title, '', h.data.neighborhood) }}
       {% endfor %}
     </div>
   </div>

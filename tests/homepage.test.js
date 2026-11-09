@@ -22,29 +22,24 @@ test('homepage image cards use known licensed places and matching properties', (
   }
 });
 
-test('every homepage section is photographic with responsive, named images', () => {
+test('homepage is photo-led: every image is responsive, sized, described and lazy below the fold', () => {
   const doc = page();
-  const sections = [...doc.querySelectorAll('main section')];
-  assert.equal(sections.length, 8);
-  for (const section of sections) {
-    assert.ok(section.querySelector('img'), section.getAttribute('aria-labelledby'));
-    assert.ok(doc.getElementById(section.getAttribute('aria-labelledby')));
-  }
   const images = [...doc.querySelectorAll('main img')];
-  assert.equal(images.length, 16);
+  assert.ok(images.length >= 20, `expected a photo-led homepage, got ${images.length} images`);
   assert.equal(doc.querySelectorAll('main img[fetchpriority="high"]').length, 1);
   for (const img of images) {
-    assert.ok(img.alt && img.width > 0 && img.height > 0);
-    assert.ok(img.getAttribute('srcset') && img.getAttribute('sizes'));
-    assert.ok(img.loading === 'lazy' || img.getAttribute('loading') === 'lazy' || img.getAttribute('fetchpriority') === 'high');
-    assert.ok(fs.existsSync('.' + img.getAttribute('src')));
+    assert.ok(img.alt && Number(img.getAttribute('width')) > 0 && Number(img.getAttribute('height')) > 0, img.src);
+    assert.ok(img.getAttribute('loading') === 'lazy' || img.getAttribute('fetchpriority') === 'high', img.src);
+    assert.ok(fs.existsSync('.' + img.getAttribute('src')), img.getAttribute('src'));
+    for (const part of (img.getAttribute('srcset') || '').split(',').filter(Boolean)) assert.ok(fs.existsSync('.' + part.trim().split(' ')[0]), part);
   }
+  for (const section of doc.querySelectorAll('main section[aria-labelledby]')) assert.ok(doc.getElementById(section.getAttribute('aria-labelledby')));
 });
 
-test('each homepage photo retains keyboard-accessible author and licence credits', () => {
+test('licensed photos keep keyboard-accessible author and licence credits', () => {
   const doc = page();
-  const credits = [...doc.querySelectorAll('main details.home-credit')];
-  assert.equal(credits.length, 16);
+  const credits = [...doc.querySelectorAll('main details.credit')];
+  assert.ok(credits.length >= 10);
   for (const credit of credits) {
     assert.ok(credit.querySelector('summary .sr-only')?.textContent.startsWith('Photo credit:'));
     const caption = credit.querySelector('strong').textContent;
@@ -53,19 +48,27 @@ test('each homepage photo retains keyboard-accessible author and licence credits
     assert.ok(credit.textContent.includes(photo.author));
     assert.equal(credit.querySelector('a').getAttribute('href'), photo.license_url);
     assert.equal(credit.querySelectorAll('a')[1].getAttribute('href'), photo.source_url);
-    assert.match(credit.textContent, /Resized to WebP; cropped for display/);
   }
 });
 
-test('homepage redesign is isolated and preserves functional search and navigation', () => {
+test('area photos are labelled so they are never mistaken for the venue', () => {
+  const hotels = new JSDOM(fs.readFileSync('_site/hotels/index.html', 'utf8')).window.document;
+  for (const card of hotels.querySelectorAll('[data-hotel]')) {
+    const slug = card.querySelector('h3 a').getAttribute('href').split('/')[2];
+    const img = card.querySelector('img');
+    const own = photos.some(p => p.kind === 'property' && (p.property_slug === slug || (p.property_slugs || []).includes(slug)) && img.getAttribute('src').includes(p.src.split('/').pop().replace(/\.[a-z]+$/, '')));
+    if (!own) assert.ok(card.querySelector('.card-area'), `unlabelled area photo on ${slug}`);
+  }
+});
+
+test('homepage keeps working search, one h1 and the six interest links', () => {
   const doc = page();
-  assert.equal(doc.body.className, 'home-page');
-  assert.ok(doc.querySelector('link[href="/css/home.css"]'));
+  assert.equal(doc.body.className.trim(), 'home-page');
   assert.equal(doc.querySelector('form[role="search"]').getAttribute('action'), '/search/');
   assert.equal(doc.querySelector('form[role="search"] input').getAttribute('name'), 'q');
-  assert.equal(doc.querySelectorAll('nav.home-explore-nav a').length, 6);
+  assert.equal(doc.querySelectorAll('nav.quick-nav a').length, 6);
   assert.equal(doc.querySelectorAll('h1').length, 1);
-  for (const icon of doc.querySelectorAll('svg.home-icon')) assert.equal(icon.getAttribute('aria-hidden'), 'true');
-  const hotels = new JSDOM(fs.readFileSync('_site/hotels/index.html', 'utf8')).window.document;
-  assert.equal(hotels.querySelector('link[href="/css/home.css"]'), null);
+  for (const icon of doc.querySelectorAll('svg.i')) assert.equal(icon.getAttribute('aria-hidden'), 'true');
+  assert.ok(doc.querySelector('link[href^="/css/site.css"]'));
+  assert.ok(doc.querySelector('.site-footer img[src="/images/logo-white-520.webp"]'), 'footer logo is the white version');
 });

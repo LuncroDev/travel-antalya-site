@@ -1,51 +1,51 @@
 ---
 layout: base.njk
 pageTitle: "Antalya Hotel Guide — Compare Areas & Places to Stay"
-pageDescription: "Explore sourced hotel profiles across Antalya city, Lara, Belek, Kemer, Side, Alanya, Kaş and Kalkan. Filter by area and stay style."
+pageDescription: "Explore 100 sourced hotel profiles across Antalya city, Kaleiçi, Lara, Belek, Kemer, Side, Alanya, Kaş and Kalkan. Filter by area and stay style."
 pageUrl: "/hotels/"
 permalink: "/hotels/index.html"
 eleventyExcludeFromCollections: true
 ---
-<link rel="stylesheet" href="/css/hotels.css">
-<section class="listing-hero">
+{% from 'ui.njk' import icon, rowCard, pageHero, sectionHead %}
+{{ pageHero(editorialPhotos | photoById('rixos-belek-2015-2'), 'Places to stay', 'Where to stay in Antalya', collections.hotels.length + ' hotels · 10 areas · resorts, boutique & city stays', [{label: 'Places to stay'}]) }}
+
+<section class="intro-band" aria-label="Choosing an area">
   <div class="container">
-    <span class="eyebrow">Find your base</span>
-    <h1>Somewhere to stay.<br>Somewhere to explore.</h1>
-    <p class="lead">City stays, old-town courtyards and coastal resorts. Compare {{ collections.hotels.length }} hotel profiles across Antalya province, then check your dates directly with the hotel.</p>
-    <p class="hotel-disclosure">A curated guide, not a complete hotel registry or live booking service. Identity, location and official links reviewed on <time datetime="2026-11-09">9 November 2026</time>. Prices, availability and seasonal facilities are not live-verified.</p>
-    <a href="#hotel-directory" class="btn btn-orange">Explore the hotels ↓</a>
+    <div class="intro-card" data-readmore>
+      <div class="intro-text" id="hotels-intro">
+        <p>Choosing the right area matters more than choosing the right hotel. <strong>Kaleiçi</strong> puts you inside the old walls, <strong>Konyaaltı</strong> on the city beach promenade and <strong>Lara</strong> on long sandy resort beaches east of the centre.</p>
+        <p><strong>Belek</strong> is the golf coast, with big all-inclusive resorts set among pine forest. <strong>Kemer</strong> sits under the mountains to the west, <strong>Side</strong> mixes beach days with ancient ruins, and <strong>Alanya</strong>, <strong>Kaş</strong> and <strong>Kalkan</strong> are further along the coast — plan transfers separately.</p>
+        <p>Each profile links to the hotel’s official website. Prices, availability and seasonal facilities are not live — always confirm your dates, meal plan, cancellation terms and transfers directly with the hotel.</p>
+      </div>
+      <button type="button" class="readmore-btn" aria-expanded="false" aria-controls="hotels-intro" hidden>Read more</button>
+    </div>
   </div>
 </section>
-<section class="container hotel-area-guide" aria-labelledby="area-heading">
-  <h2 id="area-heading">Start with the right area</h2>
-  <div class="hotel-area-grid">
-    <div><h3>City & old town</h3><p>Kaleiçi for historic streets. Antalya city for a city base. Konyaaltı for the beach promenade. These are different settings, not interchangeable resort strips.</p></div>
-    <div><h3>The resort coast</h3><p>Lara & Kundu east of the city; Belek for golf-focused stays; Kemer for the mountain coast; Side for a beach-and-history trip.</p></div>
-    <div><h3>Further along the coast</h3><p>Alanya to the east, Kaş and Kalkan to the west. Plan transfers separately: Antalya province covers far more than Antalya city.</p></div>
+
+<section class="directory" id="hotel-directory" aria-labelledby="directory-heading">
+  <div class="container">
+    <div class="section-head"><div><p class="eyebrow">Find your base</p><h2 id="directory-heading">Discover Antalya hotels</h2></div></div>
+    <form id="hotel-filters" class="toolbar" hidden aria-label="Filter hotels">
+      <div class="search-pill">{{ icon('search') }}<label class="sr-only" for="hotel-search">Hotel name or keyword</label><input type="search" id="hotel-search" name="q" placeholder="I’m looking for… (try Kaleiçi, golf or Akra)" autocomplete="off"></div>
+      <div class="filter-row">
+        <label for="hotel-area">Area</label>
+        <select id="hotel-area" name="area" class="select-pill"><option value="">All areas</option>{% for area in collections.hotels | uniqueValues('neighborhood') %}<option value="{{ area | escape }}">{{ area }}</option>{% endfor %}</select>
+        <label for="hotel-type">Style</label>
+        <select id="hotel-type" name="type" class="select-pill"><option value="">All styles</option>{% for type in ["City hotel", "Boutique & heritage", "Coastal resort", "Golf resort"] %}<option value="{{ type | escape }}">{{ type }}</option>{% endfor %}</select>
+        <button type="reset" class="btn btn-sm btn-outline">Reset filters</button>
+      </div>
+    </form>
+    <noscript><p>All hotels are listed below. Use your browser’s Find command to search a name or area.</p></noscript>
+    <p id="hotel-results" class="results-count" role="status" aria-live="polite" aria-atomic="true">Showing {{ collections.hotels.length }} hotels</p>
+    <div class="row-list">
+      {% for hotel in collections.hotels %}
+      {% set hotelSlug = hotel.data.slug or (hotel.data.title | slugify) %}
+      {% set ph = hotel.data | cardPhoto(editorialPhotos) %}
+      {% set attrs = ' data-hotel data-area="' + (hotel.data.neighborhood | escape) + '" data-type="' + (hotel.data.category | escape) + '"' %}
+      {{ rowCard('/hotels/' + hotelSlug + '/', ph, hotel.data.title, hotel.data.excerpt, [{icon: 'pin', label: hotel.data.neighborhood}, {icon: 'bed', label: hotel.data.category}], ('Golf' if hotel.data.category == 'Golf resort' else ''), attrs) }}
+      {% endfor %}
+    </div>
+    <div id="hotel-empty" class="hotel-empty" hidden><h3>No hotels match these filters</h3><p>Try a broader keyword, choose another area or reset your filters.</p><button type="button" id="hotel-reset-empty" class="btn btn-orange">Show all hotels</button></div>
   </div>
 </section>
-<section class="container hotel-directory" id="hotel-directory" aria-labelledby="directory-heading">
-  <h2 id="directory-heading">Browse the hotel guide</h2>
-  <form id="hotel-filters" class="hotel-filters" hidden aria-label="Filter hotels">
-    <div><label for="hotel-search">Hotel name or keyword</label><input type="search" id="hotel-search" name="q" placeholder="Try Kaleici, golf or Akra" autocomplete="off"></div>
-    <div><label for="hotel-area">Area</label><select id="hotel-area" name="area"><option value="">All areas</option>{% for area in collections.hotels | uniqueValues('neighborhood') %}<option value="{{ area | escape }}">{{ area }}</option>{% endfor %}</select></div>
-    <div><label for="hotel-type">Stay style</label><select id="hotel-type" name="type"><option value="">All styles</option>{% for type in ["City hotel", "Boutique & heritage", "Coastal resort", "Golf resort"] %}<option value="{{ type | escape }}">{{ type }}</option>{% endfor %}</select></div>
-    <button type="reset" class="btn">Reset filters</button>
-  </form>
-  <noscript><p>All hotels are listed below. Use your browser’s Find command to search a name or area.</p></noscript>
-  <p id="hotel-results" class="results-count" role="status" aria-live="polite" aria-atomic="true">Showing {{ collections.hotels.length }} hotels</p>
-  <div class="hotel-grid">
-    {% for hotel in collections.hotels %}
-    {% set hotelSlug = hotel.data.slug or (hotel.data.title | slugify) %}
-    <article class="hotel-card" data-hotel data-area="{{ hotel.data.neighborhood | escape }}" data-type="{{ hotel.data.category | escape }}">
-      <div class="hotel-card-top"><span class="hotel-area">{{ hotel.data.neighborhood }}</span><span class="hotel-style">{{ hotel.data.category }}</span></div>
-      <h3><a href="/hotels/{{ hotelSlug }}/">{{ hotel.data.title }}</a></h3>
-      <p>{{ hotel.data.excerpt }}</p>
-      <div class="hotel-card-footer"><a href="/hotels/{{ hotelSlug }}/">Read the guide <span aria-hidden="true">↗</span></a><span>Source checked<br><time datetime="{{ hotel.data.last_checked }}">{{ hotel.data.last_checked }}</time></span></div>
-    </article>
-    {% endfor %}
-  </div>
-  <div id="hotel-empty" class="hotel-empty" hidden><h3>No hotels match these filters</h3><p>Try a broader keyword, choose another area or reset your filters.</p><button type="button" id="hotel-reset-empty" class="btn btn-orange">Show all hotels</button></div>
-</section>
-<section class="container hotel-booking-check" aria-labelledby="booking-heading"><h2 id="booking-heading">Before you book</h2><p>Compare the full stay price for your dates and group, cancellation terms, meal plan and transfer cost. Ask the hotel about accessibility, age restrictions, beach access, renovation work and seasonal facilities. A listing here is not a quality rating or a guarantee of availability.</p><p>Destination photographs are clearly labelled and credited. They are not photographs of hotel rooms or facilities. Follow the official hotel website for the current property gallery.</p></section>
 <script src="/js/hotels.js" defer></script>

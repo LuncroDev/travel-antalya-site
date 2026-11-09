@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{% from 'ui.njk' import icon, wave %}<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -13,103 +13,139 @@
 <meta property="og:url" content="https://travel-antalya.com{{ page.url | replace('index.html', '') }}">
 {% if noindex %}<meta name="robots" content="noindex,follow">{% endif %}
 <meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0077B8">
+<script>document.documentElement.classList.add('js')</script>
 <link rel="icon" type="image/png" href="/images/favicon.png">
-<link rel="stylesheet" href="/css/style.css">
-<link rel="stylesheet" href="/css/listings.css">
-<link rel="stylesheet" href="/css/discovery.css">
-{% if homepageDesign %}<link rel="stylesheet" href="/css/home.css">{% endif %}
-<script src="/js/site.js" defer></script>
+<link rel="preload" href="/fonts/jost-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fraunces-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/site.css?v={{ buildDate }}">
+<script src="/js/site.js?v={{ buildDate }}" defer></script>
 {% if resolvedSchema %}
 <script type="application/ld+json">{{ resolvedSchema | jsonForHtml | safe }}</script>
 {% endif %}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6719207833738427" crossorigin="anonymous"></script>
-<noscript><style>@media(max-width:800px){.nav-links{display:flex;flex-wrap:wrap}.mobile-menu-toggle{display:none}.nav-row{flex-wrap:wrap}}</style></noscript>
 </head>
-<body{% if homepageDesign %} class="home-page"{% endif %}>
+<body class="{% if homepageDesign %}home-page{% endif %}{% if bodyClass %} {{ bodyClass }}{% endif %}">
 <a class="skip-link" href="#main-content">Skip to content</a>
 
+<div class="topbar">
+  <div class="container topbar-row">
+    <p>Your independent guide to Antalya &amp; the Turquoise Coast</p>
+    <nav aria-label="Secondary">{% for l in nav.utility %}<a href="{{ l.href }}">{{ l.label }}</a>{% endfor %}</nav>
+  </div>
+</div>
+
 <header class="site-header">
-  <nav class="nav-row" aria-label="Main navigation">
-    <a href="/"><img src="/images/logo.png" alt="Travel Antalya" class="logo-mark"></a>
-    <ul class="nav-links" id="mainNavLinks">
-      <li><a href="/destinations/">Destinations</a></li>
-      <li><a href="/things-to-do/">Explore</a></li>
-      <li><a href="/hotels/">Places To Stay</a></li>
-      <li><a href="/restaurants/">Eat &amp; Drink</a></li>
-      <li><a href="/events/">Events</a></li>
-          <li><a href="/golf/">Golf</a></li>
-      <li><a href="/plan-your-trip/">Plan your trip</a></li>
-      <li><a href="/search/" aria-label="Search the guide">Search</a></li>
-    </ul>
-    <button type="button" class="mobile-menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="mainNavLinks" >
-      <span></span><span></span><span></span>
-    </button>
-  </nav>
+  <div class="container header-row">
+    <a class="logo" href="/" aria-label="Travel Antalya home"><img src="/images/logo-520.webp" alt="Travel Antalya" width="520" height="152"></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul class="nav-list" id="mainNavLinks">
+        {% for item in nav.main %}
+        <li class="nav-item">
+          <div class="nav-top">
+            <a class="nav-link" href="{{ item.href }}">{{ item.label }}</a>
+            <button type="button" class="mega-toggle" aria-expanded="false" aria-controls="mega-{{ loop.index }}"><span class="sr-only">Show {{ item.label }} menu</span>{{ icon('chevron-down') }}</button>
+          </div>
+          <div class="mega" id="mega-{{ loop.index }}">
+            <div class="container mega-inner">
+              <div class="mega-links">
+                <p class="mega-title">{{ item.label }}</p>
+                <div class="mega-groups">
+                  {% for g in item.groups %}
+                  <div class="mega-group">
+                    <a class="mega-group-title" href="{{ g.href }}">{{ g.title }}{{ icon('chevron-right') }}</a>
+                    <ul>{% for l in g.links %}<li><a href="{{ l.href }}">{{ l.label }}</a></li>{% endfor %}</ul>
+                  </div>
+                  {% endfor %}
+                </div>
+              </div>
+              <div class="mega-features">
+                {% for f in item.features %}{% set ph = editorialPhotos | photoById(f.photo) %}
+                <a class="mega-feature" href="{{ f.href }}">
+                  {% if ph %}<img src="{{ ph.src | opt(640) }}" alt="" width="640" height="427" loading="lazy" decoding="async">{% endif %}
+                  <span>{{ f.title }}{{ icon('arrow-up-right') }}</span>
+                </a>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </li>
+        {% endfor %}
+        <li class="nav-item nav-item-mobile-only"><a class="nav-link" href="/blog/">Blog</a></li>
+        <li class="nav-item nav-item-mobile-only"><a class="nav-link" href="/plan-your-trip/">Plan your trip</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a class="icon-btn" href="/search/" aria-label="Search the guide">{{ icon('search') }}</a>
+      <button type="button" class="icon-btn mobile-menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="mainNavLinks">{{ icon('menu', 'i-open') }}{{ icon('close', 'i-close') }}</button>
+    </div>
+  </div>
 </header>
 
 <main id="main-content">
 {{ content | safe }}
 </main>
 
-<footer>
-  <div class="container">
-    <div class="footer-grid">
-      <div>
-        <img src="/images/logo.png" alt="Travel Antalya" style="height:36px; filter:brightness(0) invert(1);">
-        <p style="color:rgba(255,255,255,0.6); margin-top:14px; max-width:280px;">An independent guide to Turkey's Turquoise Coast.</p>
+<footer class="site-footer">
+  {{ wave('var(--navy)', 'wave-footer') }}
+  <div class="footer-body">
+    <div class="container footer-top">
+      <div class="footer-brand">
+        <a href="/" aria-label="Travel Antalya home"><img src="/images/logo-white-520.webp" alt="Travel Antalya" width="520" height="152" loading="lazy"></a>
+        <p>Beaches, ancient cities, old-town tables and Belek fairways. Your independent guide to Turkey’s Turquoise Coast.</p>
+        <div class="footer-ctas">
+          <a class="btn btn-light" href="/plan-your-trip/">Plan your trip</a>
+          <a class="btn btn-ghost-light" href="/contact/">Contact us</a>
+        </div>
       </div>
-      <div>
-        <h4>Explore</h4>
-        <ul>
-          <li><a href="/things-to-do/">Things To Do</a></li>
-          <li><a href="/restaurants/">Eat &amp; Drink</a></li>
-          <li><a href="/hotels/">Places To Stay</a></li>
-          <li><a href="/events/">Events</a></li>
-          <li><a href="/golf/">Golf</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Guide</h4>
-        <ul>
-          <li><a href="/blog/">Blog</a></li>
-          <li><a href="/destinations/">All 19 districts</a></li>
-          <li><a href="/plan-your-trip/">Travel essentials</a></li>
-          <li><a href="/sources/">Sources &amp; updates</a></li>
-          <li><a href="/about/">About</a></li>
-          <li><a href="/contact/">Contact</a></li>
-          <li><a href="/editorial-policy/">Editorial Policy</a></li>
-          <li><a href="/photography/">Photography credits</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Legal</h4>
-        <ul>
-          <li><a href="/privacy-policy/">Privacy Policy</a></li>
-          <li><a href="/cookie-policy/">Cookie Policy</a></li>
-          <li><a href="/terms/">Terms of Use</a></li>
-          <li><a href="/affiliate-disclosure/">Affiliate Disclosure</a></li>
-        </ul>
+      <div class="footer-cols">
+        <div>
+          <p class="footer-head">Explore</p>
+          <ul>
+            <li><a href="/things-to-do/">Things to do</a></li>
+            <li><a href="/destinations/">Destinations</a></li>
+            <li><a href="/events/">Events</a></li>
+            <li><a href="/golf/">Golf</a></li>
+            <li><a href="/blog/">Blog</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-head">Stay &amp; eat</p>
+          <ul>
+            <li><a href="/hotels/">Places to stay</a></li>
+            <li><a href="/hotels/?area=Belek">Belek hotels</a></li>
+            <li><a href="/hotels/?area=Kalei%C3%A7i">Kaleiçi hotels</a></li>
+            <li><a href="/restaurants/">Restaurants</a></li>
+            <li><a href="/search/">Search the guide</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-head">About</p>
+          <ul>
+            <li><a href="/about/">About us</a></li>
+            <li><a href="/editorial-policy/">Editorial policy</a></li>
+            <li><a href="/sources/">Sources &amp; updates</a></li>
+            <li><a href="/photography/">Photo credits</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-    <div class="footer-bottom">
-      <span>© {{ buildYear }} Travel Antalya</span>
-      <span>Antalya, Turkey</span>
+    <div class="container footer-bottom">
+      <span>© {{ buildYear }} Travel Antalya · Antalya, Türkiye</span>
+      <nav aria-label="Legal"><a href="/privacy-policy/">Privacy</a><a href="/cookie-policy/">Cookies</a><a href="/terms/">Terms</a><a href="/affiliate-disclosure/">Affiliate disclosure</a></nav>
     </div>
   </div>
 </footer>
 
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
+  /* Load Netlify Identity only for CMS invite/recovery links, keeping normal pages fast. */
+  if (/_token=/.test(location.hash)) {
+    var s = document.createElement('script');
+    s.src = 'https://identity.netlify.com/v1/netlify-identity-widget.js';
+    s.onload = function () { window.netlifyIdentity && window.netlifyIdentity.on('login', function () { location.href = '/admin/'; }); };
+    document.head.appendChild(s);
   }
 </script>
-
 </body>
 </html>

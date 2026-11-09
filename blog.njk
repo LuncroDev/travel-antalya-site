@@ -1,34 +1,26 @@
 ---
 layout: base.njk
-pageTitle: "Blog — Travel Antalya"
-pageDescription: "Guides, itineraries and local tips for Antalya, Turkey."
+pageTitle: "Antalya Travel Blog — Guides, Weather & Local Tips"
+pageDescription: "Guides, itineraries, weather by month and local tips for Antalya, Turkey."
 pageUrl: "/blog/"
-ogImage: "/images/photos/antalya-beach-drone.jpg"
+ogImage: "/images/editorial/konyaalti-coast.jpg"
 permalink: "/blog/index.html"
 eleventyExcludeFromCollections: true
 ---
+{% from 'ui.njk' import icon, pic, credit, card, pageHero %}
 {% set posts = collections.blog %}
-<section style="padding-top:56px; padding-bottom:40px;">
+{{ pageHero(editorialPhotos | photoById('konyaalti-coast'), 'The blog', 'Antalya travel guides', posts.length + ' guides & local tips', [{label: 'Blog'}]) }}
+<section class="section" style="padding-top:clamp(24px,3vw,40px)" aria-label="All articles">
   <div class="container">
-    <span class="eyebrow">The Blog</span>
-    <h1 style="font-size:clamp(2.2rem,4vw,3.2rem);">Guides, itineraries &amp; local tips</h1>
-    <p class="lead" style="max-width:600px; font-size:1.05rem;">Everything we know about getting around, eating well, and seeing Antalya properly — {{ posts.length }} guides and counting.</p>
-  </div>
-</section>
-
-<section style="padding-top:0;">
-  <div class="container" style="max-width:820px;">
-    {% for post in posts %}
-    <a href="/blog/{{ post.data.slug }}/" class="post-row" style="text-decoration:none;">
-      <div class="card-media"><span class="card-tag">{{ post.data.category }}</span>
-        <img src="{{ post.data.cover }}" alt="{{ post.data.title }}">
-      </div>
-      <div>
-        <span class="post-date">{{ post.data.category }} · {{ post.data.date_display }}</span>
-        <h3>{{ post.data.title }}</h3>
-        <p>{{ post.data.excerpt }}</p>
-      </div>
-    </a>
-    {% endfor %}
+    {% set lead = posts[0] %}{% set lph = lead.data | cardPhoto(editorialPhotos) %}
+    <div class="split split-navy" style="margin-bottom:clamp(40px,5vw,72px)">
+      <div class="split-media">{{ pic(lph.src, lph.alt, '(max-width: 860px) 100vw, 55vw', false, lph.width, lph.height) }}<svg class="blob" viewBox="0 0 110 600" preserveAspectRatio="none" aria-hidden="true"><path fill="currentColor" d="M110 0H60C20 80 70 160 40 250S0 420 50 500 70 600 70 600h40Z"/></svg>{{ credit(lph) }}</div>
+      <div class="split-copy"><p class="eyebrow">Latest · {{ lead.data.category }}</p><h2>{{ lead.data.title }}</h2><p>{{ lead.data.excerpt | shorten(160) }}</p><div class="button-row"><a class="btn btn-light" href="/blog/{{ lead.data.slug }}/">Read the guide</a></div></div>
+    </div>
+    <div class="card-grid cols-3">
+      {% for post in posts %}{% if not loop.first %}{% set ph = post.data | cardPhoto(editorialPhotos) %}
+      {{ card('/blog/' + post.data.slug + '/', ph, post.data.title, post.data.excerpt | shorten(120), post.data.category + (' · ' + post.data.date_display if post.data.date_display else ''), '', '', '(max-width: 700px) 92vw, 32vw') }}
+      {% endif %}{% endfor %}
+    </div>
   </div>
 </section>

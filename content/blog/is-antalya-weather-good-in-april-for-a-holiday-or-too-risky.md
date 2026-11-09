@@ -7,6 +7,7 @@ category: "Weather"
 cover: "/images/photos/things-to-do-cover.jpg"
 excerpt: "Antalya is one of Turkey’s most popular holiday destinations, attracting millions of tourists each year with its stunning beaches, rich historical landmarks, warm…"
 featured: false
+photo_id: "kursunlu-waterfall"
 ---
 
 > **Museum access update, 9 November 2026:** Antalya Museum is listed as temporarily closed for new museum works. Older visit suggestions below do not confirm access. Check the [current closure guidance](/things-to-do/antalya-museum/) before planning a visit.

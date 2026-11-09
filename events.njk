@@ -1,51 +1,29 @@
 ---
 layout: base.njk
-pageTitle: "Antalya Events & Festivals | Verified Dates"
-pageDescription: "Find Antalya concerts, festivals and sports events with source links, verified dates, archived editions and working travel-date filters."
+pageTitle: "Antalya Events & Festivals | Concerts, Theatre & What's On"
+pageDescription: "Find Antalya concerts, theatre, festivals and sports events with verified dates, venues and official ticket links."
 pageUrl: "/events/"
-ogImage: "/images/photos/things-to-do-cover.jpg"
+ogImage: "/images/editorial/aspendos-entrance.jpg"
 permalink: "/events/index.html"
 eleventyExcludeFromCollections: true
 ---
-<section class="listing-hero"><div class="container">
-  <div class="breadcrumb"><a href="/">Home</a> › Events</div>
-  <span class="eyebrow">Plan around something memorable</span>
-  <h1>What's on in Antalya</h1>
-  <p class="lead">Concert nights, cultural festivals and days worth travelling for. Confirmed dates, clear sources, no guesswork.</p>
-  <p>Sources reviewed 9 November 2026. This is an editorial selection, not a live ticket feed. Check the organizer before booking travel. All dates use Antalya local time.</p>
-</div></section>
-<section><div class="container" data-event-directory>
-    <form data-event-filters class="filter-panel" hidden aria-label="Filter events">
-      <div class="filter-grid">
-        <label>Search events<input type="search" name="query" placeholder="Name, venue or category"></label>
-        <label>Category<select name="category"><option value="">All categories</option>{% for cat in collections.eventCategories %}<option value="{{ cat.name | escape }}">{{ cat.name }}</option>{% endfor %}</select></label>
-        <label>Show<select name="period"><option value="active">On now &amp; upcoming</option><option value="current">On now</option><option value="upcoming">Upcoming</option><option value="awaiting">Awaiting verified dates</option><option value="archive">Past editions</option><option value="all">All listings</option></select></label>
-        <label>From<input type="date" name="from"></label>
-        <label>Until<input type="date" name="to"></label>
-      </div>
-      <button type="reset" class="btn btn-outline">Reset filters</button>
-    </form>
-    <noscript><p>All listings are shown below. Status labels reflect the last site build; compare the dates with your travel dates and check the linked source.</p></noscript>
-    <p data-event-count role="status" aria-live="polite"></p>
-    <div data-event-empty hidden class="empty-state"><h2>No confirmed events match these filters</h2><p>Try another date or category, or choose “Awaiting verified dates” or “Past editions”. We do not invent dates to fill the calendar.</p><a href="https://www.antalya.bel.tr/tr/etkinlikler" target="_blank" rel="noopener noreferrer">Check the municipal events calendar ↗</a></div>    {% for e in collections.events %}
-    {% set status = e.data | eventStatus %}
-    <article class="listing-row" data-event data-title="{{ e.data.title | escape }}" data-venue="{{ e.data.venue | escape }}" data-category="{{ e.data.category | escape }}" data-start="{{ e.data.start_date | eventDate }}" data-end="{{ e.data.end_date | eventDate }}" data-verified="{{ e.data.date_verified }}" data-status="{{ status }}">
-      <div class="event-date-tile"><span>{{ e.data | eventDateLabel }}</span><strong>{{ e.data.category }}</strong></div>
-      <div class="listing-row-body">
-        <div class="listing-row-top"><div>
-          <span class="badge">{{ e.data.category }}</span> <span class="badge" data-event-status>{{ status | eventStatusLabel }}</span>
-          <h3 class="listing-row-title"><a href="/events/{{ e.data.slug or (e.data.title | slugify) }}/">{{ e.data.title }}</a></h3>
-        </div></div>
-        <p class="listing-row-excerpt">{{ e.data.excerpt }}</p>
-        <div class="listing-row-meta"><span>{{ e.data | eventDateLabel }}</span><span>{{ e.data.venue }}</span></div>
-        <p><small>Source review: {{ e.data.last_checked | eventDate }} · <a href="{{ e.data.source_url | escape }}" target="_blank" rel="noopener noreferrer">{{ e.data.source_name }}</a></small></p>
-      </div>
-    </article>
-    {% endfor %}
-</div></section>
-<section class="tint"><div class="container"><h2>Explore the official calendars</h2><p>For newly announced performances and changes, go straight to the source.</p><div class="quick-links">
-<a href="https://www.antalya.bel.tr/tr/etkinlikler" target="_blank" rel="noopener noreferrer">Municipal events ↗</a>
-<a href="https://www.operabale.gov.tr/" target="_blank" rel="noopener noreferrer">State Opera &amp; Ballet ↗</a>
-<a href="https://antalyaff.com/tr" target="_blank" rel="noopener noreferrer">Golden Orange Film Festival ↗</a>
-</div><h3>Browse by category</h3><div class="quick-links">{% for cat in collections.eventCategories %}<a href="/events/category/{{ cat.name | slugify }}/">{{ cat.name }}</a>{% endfor %}</div></div></section>
-<script src="/js/events.js" defer></script>
+{% from 'ui.njk' import icon, pageHero %}
+{{ pageHero(editorialPhotos | photoById('aspendos-entrance'), 'Events', 'What’s on in Antalya', 'Concerts, theatre & festivals', [{label: 'Events'}]) }}
+
+<section class="section-tight" aria-labelledby="cat-title" style="padding-top:0">
+  <div class="container">
+    <h2 id="cat-title" class="sr-only">Browse by category</h2>
+    <nav class="quick-nav" aria-label="Event categories">
+      {% for cat in collections.eventCategories | take(6) %}<a href="/events/category/{{ cat.name | slugify }}/">{{ icon({'Concerts': 'music', 'Theatre': 'ticket', 'Comedy': 'sparkle', 'Festivals': 'star', 'Family': 'family', 'Sports': 'golf', 'Cultural': 'landmark', 'Conferences': 'users', 'Nightlife': 'music', 'Ballet & music': 'music'}[cat.name] or 'calendar') }}<span>{{ cat.name }}</span></a>{% endfor %}
+    </nav>
+  </div>
+</section>
+
+<section class="directory" aria-labelledby="ev-title">
+  <div class="container">
+    <div class="section-head"><div><p class="eyebrow">Plan around something memorable</p><h2 id="ev-title">Upcoming events</h2></div></div>
+    {% set eventItems = collections.events %}{% set showCategory = true %}
+    {% include 'event-grid.njk' %}
+    <p class="source-note" style="margin-top:28px">Dates are checked against the organiser or ticket page and shown in Antalya time. Schedules change — confirm with the organiser before you travel. Official calendars: <a href="https://www.antalya.bel.tr/tr/etkinlikler" target="_blank" rel="noopener noreferrer">Municipality</a> · <a href="https://www.operabale.gov.tr/" target="_blank" rel="noopener noreferrer">State Opera &amp; Ballet</a> · <a href="https://antalyaff.com/tr" target="_blank" rel="noopener noreferrer">Golden Orange Film Festival</a>.</p>
+  </div>
+</section>

@@ -7,6 +7,7 @@ category: "Weather"
 cover: "/images/photos/generic-cover.webp"
 excerpt: "Antalya’s Weather in December Antalya, located on Turkey’s southwestern coast, is famous for its turquoise seas, sandy beaches, ancient landmarks, and warm Mediterranean…"
 featured: false
+photo_id: "kas-harbour"
 ---
 
 > **Museum access update, 9 November 2026:** Antalya Museum is listed as temporarily closed for new museum works. Older visit suggestions below do not confirm access. Check the [current closure guidance](/things-to-do/antalya-museum/) before planning a visit.

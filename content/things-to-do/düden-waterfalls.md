@@ -10,6 +10,9 @@ map_lat: 36.911
 map_lng: 30.736
 excerpt: "Two waterfalls on the Düden stream, one in a city park and one dropping off a cliff straight into the Mediterranean."
 featured: false
+photo_id: "duden-waterfall"
+photo_exact: true
+district_slug: "kepez"
 ---
 The Düden stream rises in the Taurus foothills and disappears underground before resurfacing in Antalya, where it forms two quite different waterfalls.
 

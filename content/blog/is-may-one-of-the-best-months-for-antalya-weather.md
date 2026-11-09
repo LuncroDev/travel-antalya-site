@@ -7,6 +7,7 @@ category: "Weather"
 cover: "/images/photos/coastal-extra-3.jpg"
 excerpt: "Antalya Weather in May Antalya, Turkey, is one of the most beautiful and popular destinations along the Mediterranean coast. Famous for its turquoise waters, golden…"
 featured: false
+photo_id: "phaselis-harbour"
 ---
 
 > **Museum access update, 9 November 2026:** Antalya Museum is listed as temporarily closed for new museum works. Older visit suggestions below do not confirm access. Check the [current closure guidance](/things-to-do/antalya-museum/) before planning a visit.

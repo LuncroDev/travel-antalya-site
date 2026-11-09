@@ -6,15 +6,52 @@ pagination:
 permalink: "/events/{{ event.data.slug or (event.data.title | slugify) }}/index.html"
 layout: base.njk
 eleventyExcludeFromCollections: true
-
 ---
-
-<div class="container detail-title-block"><div class="breadcrumb"><a href="/">Home</a> › <a href="/events/">Events</a> › {{ event.data.title }}</div><span class="badge">{{ event.data.category }}</span><h1>{{ event.data.title }}</h1><p class="lead">{{ event.data.tagline }}</p></div>
+{% from 'ui.njk' import icon, pic, credit, card, wave %}
+{% set ev = event.data %}{% set hero = ev | cardPhoto(editorialPhotos) %}{% set md = ev.start_date | monthDay %}
+<section class="page-hero">
+  <div class="page-hero-media">
+    {{ pic(hero.src, hero.alt, '100vw', true, hero.width, hero.height) }}
+    {% if hero.contextual %}<span class="card-area" style="top:16px;bottom:auto;left:16px">{{ icon('camera') }} Area photo · {{ ev.neighborhood }}</span>{% endif %}
+    {{ credit(hero) }}
+    {{ wave('var(--bg)') }}
+  </div>
+  <div class="container page-hero-copy">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span aria-hidden="true">/</span> <a href="/events/">Events</a> <span aria-hidden="true">/</span> <a href="/events/category/{{ ev.category | slugify }}/">{{ ev.category }}</a></nav>
+    <p class="eyebrow">{{ ev.category }}</p>
+    <h1>{{ ev.title }}</h1>
+    {% if ev.tagline %}<p class="lead" style="max-width:60ch">{{ ev.tagline }}</p>{% endif %}
+  </div>
+</section>
 <div class="container" data-event-directory>
-  <article data-event data-title="{{ event.data.title | escape }}" data-venue="{{ event.data.venue | escape }}" data-category="{{ event.data.category | escape }}" data-start="{{ event.data.start_date | eventDate }}" data-end="{{ event.data.end_date | eventDate }}" data-verified="{{ event.data.date_verified }}">
-    <p class="badge" data-event-status>{{ event.data | eventStatus | eventStatusLabel }}</p>
-    <div class="detail-columns"><div><h2>About this event</h2>{{ event.templateContent | safe }}{% set galleryItem = event.data %}{% include 'editorial-gallery.njk' %}{% set relatedItem = event.data %}{% include 'related-guide.njk' %}<p><a href="/events/">← Back to the event calendar</a></p></div>
-    <aside class="detail-side"><h2>Plan your visit</h2><p><strong>{{ event.data | eventDateLabel }}</strong></p>{% if event.data.time_display and event.data.date_verified %}<p>{{ event.data.time_display }} (Antalya local time)</p>{% endif %}<p>{{ event.data.venue }}</p><p>{{ event.data.verification_note }}</p><p>Source review: <time datetime="{{ event.data.last_checked | eventDate }}">{{ event.data.last_checked | eventDate }}</time></p><a href="{{ event.data.source_url | escape }}" target="_blank" rel="noopener noreferrer" class="btn btn-orange">{{ event.data.source_name }} ↗</a><p><small>Schedules and entry conditions can change. Verify directly before buying tickets or travelling. Past editions do not confirm next year's dates.</small></p></aside></div>
-  </article>
+  <div class="detail-layout" data-event data-title="{{ ev.title | escape }}" data-venue="{{ ev.venue | escape }}" data-category="{{ ev.category | escape }}" data-start="{{ ev.start_date | eventDate }}" data-end="{{ ev.end_date | eventDate }}" data-verified="{{ ev.date_verified }}">
+    <article>
+      <ul class="facts" style="margin:0 0 28px">
+        <li>{{ icon('calendar') }}{{ ev | eventDateLabel }}</li>
+        {% if ev.time_display and ev.date_verified %}<li>{{ icon('clock') }}{{ ev.time_display }} (Antalya time)</li>{% endif %}
+        <li>{{ icon('pin') }}{{ ev.venue }}</li>
+        <li><span class="status-pill" data-event-status>{{ ev | eventStatus | eventStatusLabel }}</span></li>
+      </ul>
+      <div class="prose">{{ event.templateContent | safe }}</div>
+      <div class="good-to-know"><details><summary>How we checked this date</summary><p>{{ ev.verification_note }}</p><p>Source reviewed <time datetime="{{ ev.last_checked | eventDate }}">{{ ev.last_checked | eventDate }}</time>. Past editions don’t confirm next year’s dates.</p></details></div>
+    </article>
+    <aside class="side-card" aria-label="Tickets and details">
+      {% if md.day and ev.date_verified %}<div style="display:flex;align-items:center;gap:16px"><span class="date-badge" style="position:static"><small>{{ md.month }}</small><strong>{{ md.day }}</strong></span><div><strong style="color:var(--blue-deep)">{{ ev | eventDateLabel }}</strong>{% if ev.time_display %}<br><span class="muted">{{ ev.time_display }}</span>{% endif %}</div></div>{% endif %}
+      <dl><div><dt>Venue</dt><dd>{{ ev.venue }}</dd></div><div><dt>Area</dt><dd>{{ ev.neighborhood }}</dd></div></dl>
+      <a href="{{ (ev.ticket_url or ev.source_url) | escape }}" target="_blank" rel="noopener noreferrer" class="btn btn-orange">{{ 'Tickets & info' if ev.ticket_url else ev.source_name }} {{ icon('external') }}</a>
+      <p class="small">Via {{ ev.source_name }}. Schedules and entry conditions can change — verify before you buy or travel.</p>
+      <div class="side-links"><a href="/events/">All events {{ icon('arrow-right') }}</a><a href="/hotels/?area={{ ev | hotelAreaFor | encodeUri }}">Stay nearby {{ icon('arrow-right') }}</a></div>
+    </aside>
+  </div>
 </div>
+<section class="section section-sand" aria-labelledby="more-ev">
+  <div class="container">
+    <div class="section-head"><div><p class="eyebrow">Also on</p><h2 id="more-ev">More events</h2></div><a class="btn btn-sm" href="/events/">All events</a></div>
+    <div class="card-grid cols-3">
+      {% for o in collections.events | activeEvents(12) | except(ev.title, 3) %}{% if true %}{% set ph = o.data | cardPhoto(editorialPhotos) %}
+      {{ card('/events/' + (o.data.slug or (o.data.title | slugify)) + '/', ph, o.data.title, '', o.data.category + ' · ' + (o.data | eventDateLabel), '', '', '(max-width: 700px) 92vw, 32vw') }}
+      {% endif %}{% endfor %}
+    </div>
+  </div>
+</section>
 <script src="/js/events.js" defer></script>

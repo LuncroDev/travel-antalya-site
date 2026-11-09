@@ -7,6 +7,7 @@ category: "Weather"
 cover: "/images/photos/coastal-extra-2.jpg"
 excerpt: "Antalya Weather in June Antalya is one of the most popular travel destinations in Turkey, especially for people who love sunshine, beaches, and beautiful sea views.…"
 featured: false
+photo_id: "konyaalti-beach"
 ---
 <h1 class="wp-block-heading"><strong>Antalya Weather in June</strong></h1>
 

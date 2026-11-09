@@ -4,7 +4,19 @@ pageTitle: Antalya districts and destinations
 pageDescription: Choose your base across all 19 Antalya districts, from Kaleiçi and Belek to Kaş, Alanya and the Taurus highlands.
 permalink: /destinations/index.html
 ---
-<section class="listing-hero"><div class="container"><span class="eyebrow">One province. Many ways to explore.</span><h1>Find your Antalya.</h1><p class="lead">Start with all 19 districts, then choose the coast, city or highlands that suit your trip. These are starting points, not exhaustive local inventories.</p></div></section>
-<section class="discovery-section"><div class="container"><div class="destination-grid">
-{% for d in destinations %}<a class="destination-card" href="/destinations/{{ d.slug }}/"><span class="destination-number">{{ loop.index }}</span><span class="eyebrow">{{ d.theme }}</span><h2>{{ d.name }}</h2><p>{{ d.description }}</p><span class="text-link">Explore the district ↗</span></a>{% endfor %}
-</div><p class="source-note">District reference: <a href="https://antalya.tarimorman.gov.tr/Sayfalar/Detay.aspx?SayfaId=1" target="_blank" rel="noopener">Antalya provincial directory</a>. Destination context: <a href="https://goturkiye.com/antalya/see" target="_blank" rel="noopener">GoTürkiye</a>. Planning tips are our editorial suggestions.</p></div></section>
+{% from 'ui.njk' import icon, pic, pageHero %}
+{{ pageHero(editorialPhotos | photoById('kas-harbour'), 'Destinations', 'Find your Antalya', 'One province · 19 districts · 640 km of coast', [{label: 'Destinations'}]) }}
+<section class="section" style="padding-top:clamp(24px,3vw,40px)" aria-label="All districts">
+  <div class="container">
+    <div class="card-grid">
+      {% for d in destinations %}{% set ph = d.slug | districtPhoto(editorialPhotos) or (editorialPhotos | photoById('kaleici-marina')) %}
+      <a class="tile" href="/destinations/{{ d.slug }}/">
+        {{ pic(ph.src, ph.alt, '(max-width: 640px) 92vw, (max-width: 1180px) 45vw, 24vw', false, ph.width, ph.height) }}
+        {% if not (d.slug | districtPhoto(editorialPhotos)) %}<span class="card-area" style="top:12px;bottom:auto">Antalya region</span>{% endif %}
+        <span class="tile-copy"><small>{{ d.theme }}</small><strong>{{ d.name }}{{ icon('arrow-up-right') }}</strong></span>
+      </a>
+      {% endfor %}
+    </div>
+    <p class="source-note" style="margin-top:32px">District reference: <a href="https://antalya.tarimorman.gov.tr/Sayfalar/Detay.aspx?SayfaId=1" target="_blank" rel="noopener">Antalya provincial directory</a>. Destination context: <a href="https://goturkiye.com/antalya/see" target="_blank" rel="noopener">GoTürkiye</a>.</p>
+  </div>
+</section>

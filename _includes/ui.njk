@@ -1,0 +1,138 @@
+{# Travel Antalya UI kit. Import with: {% from 'ui.njk' import icon, pic, credit, card, rowCard, sectionHead, wave, pageHero %} #}
+
+{% macro icon(name, cls='') -%}
+<svg class="i {{ cls }}" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+{%- if name == 'arrow-up-right' %}<path d="M7 17 17 7M8 7h9v9"/>
+{%- elif name == 'arrow-right' %}<path d="M5 12h14m-6-6 6 6-6 6"/>
+{%- elif name == 'chevron-right' %}<path d="m9 6 6 6-6 6"/>
+{%- elif name == 'chevron-down' %}<path d="m6 9 6 6 6-6"/>
+{%- elif name == 'search' %}<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>
+{%- elif name == 'menu' %}<path d="M4 7h16M4 12h16M4 17h16"/>
+{%- elif name == 'close' %}<path d="M6 6l12 12M18 6 6 18"/>
+{%- elif name == 'pin' %}<path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/>
+{%- elif name == 'calendar' %}<rect x="3" y="4.5" width="18" height="17" rx="2.5"/><path d="M8 2.5v4M16 2.5v4M3 10h18"/>
+{%- elif name == 'clock' %}<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>
+{%- elif name == 'bed' %}<path d="M2 20V5M22 20v-6a3 3 0 0 0-3-3h-9v7M2 17h20M6 11.5a2 2 0 1 0 0-.01"/>
+{%- elif name == 'food' %}<path d="M7 2v20M4 2v6a3 3 0 0 0 6 0V2M17 22V2c-2.5 1.5-4 4.5-4 8 0 2 1.5 3 4 3"/>
+{%- elif name == 'golf' %}<path d="M10 18V2l8 4-8 4"/><path d="M5 20c0-1.4 3.1-2.5 7-2.5s7 1.1 7 2.5-3.1 2-7 2-7-.6-7-2Z"/>
+{%- elif name == 'compass' %}<circle cx="12" cy="12" r="9.5"/><path d="m15.8 8.2-2.2 5.4-5.4 2.2 2.2-5.4Z"/>
+{%- elif name == 'sun' %}<circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>
+{%- elif name == 'waves' %}<path d="M2 7c2-1.5 4-1.5 6 0s4 1.5 6 0 4-1.5 6 0M2 12c2-1.5 4-1.5 6 0s4 1.5 6 0 4-1.5 6 0M2 17c2-1.5 4-1.5 6 0s4 1.5 6 0 4-1.5 6 0"/>
+{%- elif name == 'landmark' %}<path d="M3 21h18M5 21v-9m4 9v-9m6 9v-9m4 9v-9M2 10l10-7 10 7Z"/>
+{%- elif name == 'mountain' %}<path d="m8 3 4 7 3-4 7 15H2Z"/>
+{%- elif name == 'ticket' %}<path d="M3 8a2 2 0 0 0 0 4v0a2 2 0 0 1 0 4v2a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-2a2 2 0 0 1 0-4 2 2 0 0 0 0-4V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2Z"/><path d="M13 5v2m0 4v2m0 4v2"/>
+{%- elif name == 'tag' %}<path d="M12.6 2.6A2 2 0 0 0 11.2 2H4a2 2 0 0 0-2 2v7.2a2 2 0 0 0 .6 1.4l8.7 8.7a2.4 2.4 0 0 0 3.4 0l6.6-6.6a2.4 2.4 0 0 0 0-3.4Z"/><circle cx="7.5" cy="7.5" r="1.5"/>
+{%- elif name == 'star' %}<path d="m12 2.5 2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9Z"/>
+{%- elif name == 'heart' %}<path d="M19.5 12.6 12 20l-7.5-7.4A4.9 4.9 0 0 1 12 6a4.9 4.9 0 0 1 7.5 6.6Z"/>
+{%- elif name == 'external' %}<path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+{%- elif name == 'plane' %}<path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2Z"/>
+{%- elif name == 'map' %}<path d="m9 3-6 3v15l6-3 6 3 6-3V3l-6 3Z"/><path d="M9 3v15m6-12v15"/>
+{%- elif name == 'info' %}<circle cx="12" cy="12" r="9.5"/><path d="M12 16v-5m0-3h.01"/>
+{%- elif name == 'check' %}<path d="m4.5 12.5 5 5 10-11"/>
+{%- elif name == 'camera' %}<path d="M14.5 4h-5L7.5 6.5H4A2 2 0 0 0 2 8.5v10A2 2 0 0 0 4 20.5h16a2 2 0 0 0 2-2v-10a2 2 0 0 0-2-2h-3.5Z"/><circle cx="12" cy="13" r="3.5"/>
+{%- elif name == 'users' %}<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/>
+{%- elif name == 'sparkle' %}<path d="M12 3v4m0 10v4M3 12h4m10 0h4M6 6l2.5 2.5m7 7L18 18M6 18l2.5-2.5m7-7L18 6"/>
+{%- elif name == 'globe' %}<circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5a14.5 14.5 0 0 1 0 19 14.5 14.5 0 0 1 0-19Z"/>
+{%- elif name == 'music' %}<path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/>
+{%- elif name == 'boat' %}<path d="M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1s1.2 1 2.5 1c2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M19.4 17.5 21 11.6a.9.9 0 0 0-.6-1.1L12 8l-8.4 2.5a.9.9 0 0 0-.6 1.1l1.6 5.9M12 8V2M8 4h8"/>
+{%- elif name == 'car' %}<path d="M19 17h2v-4l-2-5H5L3 13v4h2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/><path d="M9 17h6M3 13h18"/>
+{%- elif name == 'book' %}<path d="M4 19.5V5a2.5 2.5 0 0 1 2.5-2.5H20v17H6.5a2.5 2.5 0 0 0 0 5H20"/>
+{%- elif name == 'family' %}<circle cx="8" cy="6" r="2.5"/><circle cx="16.5" cy="8" r="2"/><path d="M4 21v-6a4 4 0 0 1 8 0v6M13.5 21v-4a3 3 0 0 1 6 0v4"/>
+{%- elif name == 'instagram' %}<rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/>
+{%- elif name == 'facebook' %}<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3Z"/>
+{%- elif name == 'youtube' %}<path d="M2.5 17a24 24 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.6 49.6 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24 24 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.6 49.6 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3Z"/>
+{%- elif name == 'mail' %}<rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/>
+{%- elif name == 'wallet' %}<path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"/><path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4"/>
+{%- endif %}
+</svg>
+{%- endmacro %}
+
+{# Responsive image. Uses optimized WebP when present. #}
+{% macro pic(src, alt, sizes='(max-width: 700px) 100vw, 33vw', eager=false, width=1280, height=853, cls='') -%}
+{%- set set = src | srcset -%}
+<img{% if cls %} class="{{ cls }}"{% endif %} src="{{ src | opt(1280 if eager else 640) }}"{% if set %} srcset="{{ set }}" sizes="{{ sizes }}"{% endif %} alt="{{ alt | escape }}" width="{{ width or 1280 }}" height="{{ height or 853 }}" {% if eager %}fetchpriority="high" loading="eager"{% else %}loading="lazy"{% endif %} decoding="async">
+{%- endmacro %}
+
+{# Licence credit for Creative Commons photographs. #}
+{% macro credit(photo) -%}
+{%- if photo and photo.author -%}
+<details class="credit"><summary><span aria-hidden="true">©</span><span class="sr-only">Photo credit: {{ photo.caption }}</span></summary><div><strong>{{ photo.caption }}</strong><span>{{ photo.author }} · <a href="{{ photo.license_url or photo.licenseUrl }}" rel="noopener">{{ photo.license }}</a> · <a href="{{ photo.source_url or photo.sourceUrl }}" rel="noopener">Source</a></span></div></details>
+{%- endif -%}
+{%- endmacro %}
+
+{# Miami-style editorial card: photo, serif title with arrow, short text. #}
+{% macro card(href, photo, title, text='', eyebrow='', badge='', meta='', sizes='(max-width: 700px) 92vw, (max-width: 1100px) 45vw, 24vw', attrs='') -%}
+<article class="card"{{ attrs | safe }}>
+  <div class="card-media">
+    <a href="{{ href }}" tabindex="-1" aria-hidden="true">{% if photo %}{{ pic(photo.src, photo.alt or title, sizes, false, photo.width, photo.height) }}{% else %}<span class="card-blank"></span>{% endif %}</a>
+    {% if badge %}<span class="card-badge">{{ badge }}</span>{% endif %}
+    {% if photo and photo.contextual and photo.areaLabel %}<span class="card-area">{{ icon('camera') }} Area photo · {{ photo.areaLabel }}</span>{% endif %}
+    {{ credit(photo) }}
+  </div>
+  {% if eyebrow %}<p class="card-eyebrow">{{ eyebrow }}</p>{% endif %}
+  <h3 class="card-title"><a href="{{ href }}">{{ title }}</a>{{ icon('arrow-up-right', 'card-arrow') }}</h3>
+  {% if meta %}<p class="card-meta">{{ meta | safe }}</p>{% endif %}
+  {% if text %}<p class="card-text">{{ text }}</p>{% endif %}
+</article>
+{%- endmacro %}
+
+{# Horizontal list card (Miami hotel directory). #}
+{% macro rowCard(href, photo, title, text='', chips=[], badge='', attrs='', side='') -%}
+<article class="row-card"{{ attrs | safe }}>
+  <div class="row-card-media">
+    <a href="{{ href }}" tabindex="-1" aria-hidden="true">{% if photo %}{{ pic(photo.src, photo.alt or title, '(max-width: 700px) 92vw, 280px', false, photo.width, photo.height) }}{% else %}<span class="card-blank"></span>{% endif %}</a>
+    {% if badge %}<span class="card-badge">{{ badge }}</span>{% endif %}
+    {% if photo and photo.contextual %}<span class="card-area card-area-sm">Area photo</span>{% endif %}
+    {{ credit(photo) }}
+  </div>
+  <div class="row-card-body" data-search-text>
+    <h3 class="card-title"><a href="{{ href }}">{{ title }}</a>{{ icon('arrow-up-right', 'card-arrow') }}</h3>
+    {% if text %}<p class="card-text clamp-2">{{ text }}</p>{% endif %}
+    {% if chips.length %}<ul class="chips">{% for c in chips %}{% if c.label %}<li>{{ icon(c.icon) }}<span>{{ c.label }}</span></li>{% endif %}{% endfor %}</ul>{% endif %}
+  </div>
+  {% if side %}<div class="row-card-side">{{ side | safe }}</div>{% endif %}
+</article>
+{%- endmacro %}
+
+{% macro sectionHead(eyebrow, title, href='', linkText='', id='', sub='') -%}
+<div class="section-head">
+  <div>
+    {% if eyebrow %}<p class="eyebrow">{{ eyebrow }}</p>{% endif %}
+    <h2{% if id %} id="{{ id }}"{% endif %}>{{ title }}</h2>
+    {% if sub %}<p class="subhead">{{ sub }}</p>{% endif %}
+  </div>
+  {% if href %}<a class="btn btn-sm" href="{{ href }}">{{ linkText }}</a>{% endif %}
+</div>
+{%- endmacro %}
+
+{% macro wave(fill='var(--bg)', cls='') -%}
+<svg class="wave {{ cls }}" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path fill="{{ fill }}" d="M0 64c160-46 320-62 520-34s340 74 560 66 260-50 360-70v94H0Z"/></svg>
+{%- endmacro %}
+
+{# Full-bleed photo hero with a wave, then the page title below it. #}
+{% macro pageHero(photo, eyebrow, title, lead='', crumbs=[]) -%}
+<section class="page-hero">
+  <div class="page-hero-media">
+    {% if photo %}{{ pic(photo.src, photo.alt or title, '100vw', true, photo.width, photo.height) }}{{ credit(photo) }}{% endif %}
+    {{ wave('var(--bg)') }}
+  </div>
+  <div class="container page-hero-copy">
+    {% if crumbs.length %}<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a>{% for c in crumbs %} <span aria-hidden="true">/</span> {% if c.href %}<a href="{{ c.href }}">{{ c.label }}</a>{% else %}<span aria-current="page">{{ c.label }}</span>{% endif %}{% endfor %}</nav>{% endif %}
+    {% if eyebrow %}<p class="eyebrow">{{ eyebrow }}</p>{% endif %}
+    <h1>{{ title | safe }}</h1>
+    {% if lead %}<p class="subhead">{{ lead }}</p>{% endif %}
+  </div>
+</section>
+{%- endmacro %}
+
+{# Blue band with a white rounded card whose text collapses behind "Read more". #}
+{% macro introCard(id='intro') -%}
+<section class="intro-band">
+  <div class="container">
+    <div class="intro-card" data-readmore>
+      <div class="intro-text" id="{{ id }}-text">{{ caller() }}</div>
+      <button type="button" class="readmore-btn" aria-expanded="false" aria-controls="{{ id }}-text" hidden>Read more</button>
+    </div>
+  </div>
+</section>
+{%- endmacro %}

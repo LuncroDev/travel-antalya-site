@@ -7,6 +7,7 @@ category: "Beaches"
 cover: "/images/photos/kaputas-beach.jpg"
 excerpt: "Antalya Travellers Must Visit Kaputaş Beach Few locations better evoke the sensation of blue waters, breathtaking coastlines, and undiscovered beaches that tourists…"
 featured: true
+photo_id: "kaputas-beach"
 ---
 <h3 class="wp-block-heading"><strong>Antalya Travellers Must Visit Kaputaş Beach</strong></h3>
 

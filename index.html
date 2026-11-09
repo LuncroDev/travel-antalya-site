@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 pageTitle: Travel Antalya
-pageDescription: Discover Antalya with a source-linked hotel directory, dated events, all 19 districts and practical trip planning.
+pageDescription: Discover Antalya — beaches, ancient cities, 100 hotels, restaurants, Belek golf and what's on — in an independent guide to Turkey's Turquoise Coast.
 permalink: /index.html
 homepageDesign: true
 ogImage: /images/editorial/kaleici-marina.jpg
@@ -15,112 +15,187 @@ schema:
     target: https://travel-antalya.com/search/?q={search_term_string}
     query-input: required name=search_term_string
 ---
-{% from 'home-macros.njk' import icon, image, credit %}
+{% from 'ui.njk' import icon, pic, credit, card, sectionHead, wave %}
 {% set hero = editorialPhotos | photoById('kaleici-marina') %}
+
 <section class="home-hero" aria-labelledby="hero-title">
-  <div class="home-hero-image">{{ image(hero, '100vw', true) }}</div>
-  <div class="container home-hero-inner">
-    <span class="home-kicker">The Mediterranean, your way</span>
-    <h1 id="hero-title">Find your<br><span>Antalya.</span></h1>
-    <p>Old-town mornings. Turquoise afternoons.<br>A little further from the everyday.</p>
-    <a class="home-button home-button-light" href="#discover">Start exploring {{ icon('arrow') }}</a>
-    <div class="home-hero-place">{{ icon('pin') }} Kaleiçi harbour, Antalya</div>
+  <div class="home-hero-media">
+    {{ pic(hero.src, hero.alt, '100vw', true, hero.width, hero.height) }}
+    {{ credit(hero) }}
+    {{ wave('var(--bg)') }}
   </div>
-  {{ credit(hero) }}
-  <a class="home-scroll" href="#discover">A coast to discover <span aria-hidden="true">↓</span></a>
+  <div class="container home-hero-copy">
+    <p class="eyebrow">The Mediterranean, your way</p>
+    <h1 id="hero-title">Find your Antalya.</h1>
+    <form action="/search/" class="hero-search" role="search">
+      {{ icon('search') }}<label class="sr-only" for="hero-search">Search places, hotels and events</label>
+      <input id="hero-search" name="q" type="search" placeholder="Beaches, Kaleiçi, Belek golf…" autocomplete="off">
+      <button type="submit" class="btn btn-orange">Search</button>
+    </form>
+  </div>
 </section>
 
-<div class="home-search-wrap container">
-  <form action="/search/" class="home-search" role="search">
-    {{ icon('search') }}<label class="sr-only" for="hero-search">Search places, hotels and events</label>
-    <input id="hero-search" name="q" type="search" placeholder="Where will Antalya take you?" autocomplete="off">
-    <button type="submit" class="home-button">Find your Antalya {{ icon('arrow') }}</button>
-  </form>
-</div>
-<nav class="container home-explore-nav" aria-label="Explore Antalya by interest">
-  <a href="/destinations/">{{ icon('compass') }}<span>Destinations</span></a>
-  <a href="/things-to-do/">{{ icon('sun') }}<span>Things to do</span></a>
-  <a href="/hotels/">{{ icon('bed') }}<span>Places to stay</span></a>
-  <a href="/restaurants/">{{ icon('food') }}<span>Eat &amp; drink</span></a>
-  <a href="/events/">{{ icon('calendar') }}<span>What’s on</span></a>
-  <a href="/golf/">{{ icon('golf') }}<span>Golf</span></a>
-</nav>
-
-<section class="home-section" id="discover" aria-labelledby="destinations-title">
+<section class="section-tight" aria-labelledby="quick-title">
   <div class="container">
-    <div class="home-section-head"><div><span class="home-kicker">One coast. So many worlds.</span><h2 id="destinations-title">Where will you begin?</h2></div><a class="home-text-link" href="/destinations/">Explore all 19 districts {{ icon('arrow') }}</a></div>
-    <div class="home-destination-grid">
-      {% for card in homepage.destinations %}{% set photo = editorialPhotos | photoById(card.photo) %}
-      <article class="home-destination">
-        <a class="home-destination-link" href="{{ card.href }}">{{ image(photo, '(max-width: 560px) 85vw, (max-width: 900px) 45vw, 25vw') }}<div class="home-destination-copy"><span>{{ card.label }}</span><h3>{{ card.title }}</h3><span class="home-round-arrow">{{ icon('arrow') }}</span></div></a>
-        {{ credit(photo) }}
+    <h2 id="quick-title" class="sr-only">Explore by interest</h2>
+    <nav class="quick-nav" aria-label="Explore Antalya by interest">
+      <a href="/things-to-do/">{{ icon('sun') }}<span>Things to do</span></a>
+      <a href="/destinations/">{{ icon('map') }}<span>Destinations</span></a>
+      <a href="/hotels/">{{ icon('bed') }}<span>Places to stay</span></a>
+      <a href="/restaurants/">{{ icon('food') }}<span>Eat &amp; drink</span></a>
+      <a href="/events/">{{ icon('calendar') }}<span>Events</span></a>
+      <a href="/golf/">{{ icon('golf') }}<span>Golf</span></a>
+    </nav>
+  </div>
+</section>
+
+<section class="intro-band" aria-labelledby="intro-title">
+  <div class="container">
+    <div class="intro-card" data-readmore>
+      <p class="eyebrow">Whatever you’re looking for</p>
+      <h2 id="intro-title" class="sr-only">About Antalya</h2>
+      <div class="intro-text" id="intro-text">
+        <p>Antalya is where the Taurus Mountains drop into a turquoise sea. In one trip you can walk Roman streets in <a href="/things-to-do/perge-ancient-city/">Perge</a>, swim off <a href="/things-to-do/konyaalti-beach/">Konyaaltı Beach</a> and eat dinner inside the old walls of <a href="/things-to-do/kaleici-old-town/">Kaleiçi</a>.</p>
+        <p>Stay in a <a href="/hotels/?type=Golf%20resort">Belek golf resort</a>, a boutique house in the old town or a quiet harbour hotel in <a href="/destinations/kas/">Kaş</a>. Catch a concert, a festival or an evening at <a href="/things-to-do/aspendos-theatre/">Aspendos</a>.</p>
+        <p>Every hotel, restaurant and event in this guide links to its official source, so you can check the details that matter before you book. Whatever you’re looking for, start here.</p>
+      </div>
+      <button type="button" class="readmore-btn" aria-expanded="false" aria-controls="intro-text" hidden>Read more</button>
+    </div>
+  </div>
+</section>
+
+{% set upcoming = collections.events | activeEvents(4) %}
+{% if upcoming.length %}
+<section class="section" aria-labelledby="events-title">
+  <div class="container">
+    {{ sectionHead('What’s on', 'Happening soon', '/events/', 'View all events', 'events-title') }}
+    <div class="card-grid">
+      {% for e in upcoming %}{% set ph = e.data | cardPhoto(editorialPhotos) %}{% set md = e.data.start_date | monthDay %}
+      <article class="card">
+        <div class="card-media">
+          <a href="/events/{{ e.data.slug or (e.data.title | slugify) }}/" tabindex="-1" aria-hidden="true">{{ pic(ph.src, ph.alt, '(max-width: 700px) 92vw, 24vw', false, ph.width, ph.height) }}</a>
+          <span class="date-badge"><small>{{ md.month }}</small><strong>{{ md.day }}</strong></span>
+          {% if ph.contextual %}<span class="card-area">{{ icon('camera') }} Area photo · {{ e.data.neighborhood }}</span>{% endif %}
+          {{ credit(ph) }}
+        </div>
+        <p class="card-eyebrow">{{ e.data.category }}</p>
+        <h3 class="card-title"><a href="/events/{{ e.data.slug or (e.data.title | slugify) }}/">{{ e.data.title }}</a>{{ icon('arrow-up-right', 'card-arrow') }}</h3>
+        <p class="card-meta"><span>{{ icon('pin') }}{{ e.data.neighborhood or e.data.venue }}</span>{% if e.data.time_display %}<span>{{ icon('clock') }}{{ e.data.time_display }}</span>{% endif %}</p>
       </article>
       {% endfor %}
     </div>
   </div>
 </section>
+{% endif %}
 
-<section class="home-section home-sand" aria-labelledby="experiences-title">
+<section class="section section-sand" aria-labelledby="dest-title">
   <div class="container">
-    <div class="home-section-head"><div><span class="home-kicker">Follow your curiosity</span><h2 id="experiences-title">Go for the moments.</h2></div><a class="home-text-link" href="/things-to-do/">Find your experience {{ icon('arrow') }}</a></div>
-    <div class="home-experience-grid">
-      {% for card in homepage.experiences %}{% set photo = editorialPhotos | photoById(card.photo) %}
-      <article class="home-story-card">
-        <div class="home-card-media"><a href="{{ card.href }}" tabindex="-1" aria-hidden="true">{{ image(photo, '(max-width: 680px) 100vw, 33vw') }}</a><span class="home-image-label">{{ card.place }}</span>{{ credit(photo) }}</div>
-        <a class="home-story-copy" href="{{ card.href }}"><span class="home-story-label">{{ icon(card.icon) }} {{ card.label }}</span><h3>{{ card.title }}</h3><span class="home-story-arrow">{{ icon('arrow') }}</span></a>
-      </article>
+    <div class="scroller" data-scroller>
+      <div class="section-head">
+        <div><p class="eyebrow">One coast, so many worlds</p><h2 id="dest-title">Where will you begin?</h2></div>
+        <div class="scroller-btns"><button type="button" data-dir="-1" aria-label="Previous destinations">{{ icon('arrow-right') }}</button><button type="button" data-dir="1" aria-label="Next destinations">{{ icon('arrow-right') }}</button></div>
+      </div>
+      <div class="scroller-track">
+        {% for slug in ['muratpasa', 'konyaalti', 'serik', 'manavgat', 'alanya', 'kemer', 'kas', 'aksu'] %}
+        {% for d in destinations %}{% if d.slug == slug %}{% set ph = d.slug | districtPhoto(editorialPhotos) %}
+        <a class="tile" href="/destinations/{{ d.slug }}/">
+          {% if ph %}{{ pic(ph.src, ph.alt, '(max-width: 640px) 82vw, 25vw', false, ph.width, ph.height) }}{% endif %}
+          <span class="tile-copy"><small>{{ d.theme }}</small><strong>{{ {muratpasa: 'Antalya & Kaleiçi', serik: 'Belek', manavgat: 'Side', kas: 'Kaş & Kalkan', aksu: 'Lara & Perge'}[d.slug] or d.name }}{{ icon('arrow-up-right') }}</strong></span>
+        </a>
+        {% endif %}{% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+    <p style="margin-top:28px"><a class="btn btn-outline" href="/destinations/">Explore all 19 districts</a></p>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="todo-title">
+  <div class="container">
+    {{ sectionHead('Follow your curiosity', 'Things to do in Antalya', '/things-to-do/', 'See all things to do', 'todo-title') }}
+    <div class="card-grid">
+      {% for slugTitle in ['Kaleiçi Old Town', 'Aspendos Theatre', 'Düden Waterfalls', 'Perge Ancient City'] %}
+      {% for t in collections.thingsToDo %}{% if t.data.title == slugTitle %}{% set ph = t.data | cardPhoto(editorialPhotos) %}
+      {{ card('/things-to-do/' + (t.data.title | slugify) + '/', ph, t.data.title, t.data.excerpt | shorten(110), t.data.category) }}
+      {% endif %}{% endfor %}
       {% endfor %}
     </div>
   </div>
 </section>
 
-{% set coast = editorialPhotos | photoById('konyaalti-beach') %}
-<section class="home-coast-banner" aria-labelledby="coast-title">
-  {{ image(coast, '100vw', false, true) }}
-  <div class="container home-coast-copy"><span class="home-kicker">Stay for the last light</span><h2 id="coast-title">Life looks better<br>from the coast.</h2><a class="home-button home-button-light" href="/things-to-do/konyaalti-beach/">Meet Konyaaltı {{ icon('arrow') }}</a><span class="home-banner-place">Konyaaltı Beach, Antalya</span></div>
-  {{ credit(coast) }}
-</section>
-
-<section class="home-section" aria-labelledby="stays-title">
+{% set stayPhoto = editorialPhotos | photoById('rixos-belek-2015-1') %}
+<section class="section-tight" aria-labelledby="stay-title">
   <div class="container">
-    <div class="home-section-head"><div><span class="home-kicker">Check in. Switch off.</span><h2 id="stays-title">Somewhere to call yours.</h2></div><a class="home-text-link" href="/hotels/">Browse {{ collections.hotels.length }} places to stay {{ icon('arrow') }}</a></div>
-    <div class="home-stay-grid">
-      {% for card in homepage.stays %}{% set photo = editorialPhotos | photoById(card.photo) %}
-      <article class="home-story-card">
-        <div class="home-card-media"><a href="{{ card.href }}" tabindex="-1" aria-hidden="true">{{ image(photo, '(max-width: 680px) 100vw, 33vw') }}</a><span class="home-archive-label">Archive · {{ card.place.split(', ')[1] }}</span>{{ credit(photo) }}</div>
-        <a class="home-story-copy" href="{{ card.href }}"><span class="home-story-label">{{ card.label }}</span><h3>{{ card.title }}</h3><span class="home-property-area">{{ card.place }}</span><span class="home-story-arrow">{{ icon('arrow') }}</span></a>
-      </article>
+    <div class="split">
+      <div class="split-media">
+        {{ pic(stayPhoto.src, stayPhoto.alt, '(max-width: 860px) 100vw, 55vw', false, stayPhoto.width, stayPhoto.height) }}
+        <svg class="blob" viewBox="0 0 110 600" preserveAspectRatio="none" aria-hidden="true"><path fill="currentColor" d="M110 0H60C20 80 70 160 40 250S0 420 50 500 70 600 70 600h40Z"/></svg>
+        {{ credit(stayPhoto) }}
+      </div>
+      <div class="split-copy">
+        <p class="eyebrow">Check in, switch off</p>
+        <h2 id="stay-title">The perfect place to stay?</h2>
+        <p>Beachfront resorts in Belek and Lara, boutique houses inside Kaleiçi’s walls, harbour hotels in Kaş. Compare {{ collections.hotels.length }} places to stay by area and style.</p>
+        <div class="button-row"><a class="btn btn-light" href="/hotels/">Find your hotel</a><a class="btn btn-ghost-light" href="/hotels/?type=Golf%20resort">Golf resorts</a></div>
+      </div>
+    </div>
+    <div class="card-grid" style="margin-top:clamp(32px,4vw,56px)">
+      {% for h in collections.hotels | withOwnPhotos(editorialPhotos, 4) %}{% set ph = h.data | cardPhoto(editorialPhotos) %}
+      {{ card('/hotels/' + (h.data.slug or (h.data.title | slugify)) + '/', ph, h.data.title, '', h.data.neighborhood + ' · ' + h.data.category) }}
       {% endfor %}
     </div>
-    <p class="home-small-note">Actual property photographs, shown with their dates. Appearance and facilities may have changed.</p>
   </div>
 </section>
 
-<section class="home-section home-sand" aria-labelledby="your-day-title">
+<section class="section" aria-labelledby="eat-title">
   <div class="container">
-    <div class="home-section-head"><div><span class="home-kicker">Make a day of it</span><h2 id="your-day-title">A table. A tee time. Your pace.</h2></div></div>
-    <div class="home-pair-grid">
-      {% set dining = editorialPhotos | photoById('kalkan-harbour') %}
-      <article class="home-feature-card"><div class="home-feature-photo">{{ image(dining, '(max-width: 680px) 100vw, 50vw') }}<span class="home-image-label">Kalkan harbour · Destination view</span>{{ credit(dining) }}</div><div class="home-feature-copy"><span class="home-feature-icon">{{ icon('food') }}</span><div><h3>Pull up a chair.</h3><p>Old-town tables and coastal addresses.</p><a class="home-text-link" href="/restaurants/">Explore eat &amp; drink {{ icon('arrow') }}</a></div></div></article>
-      {% set golf = editorialPhotos | photoById('regnum-carya-golf-2022') %}
-      <article class="home-feature-card"><div class="home-feature-photo">{{ image(golf, '(max-width: 680px) 100vw, 50vw') }}<span class="home-image-label">Regnum Carya golf setting · 2022</span>{{ credit(golf) }}</div><div class="home-feature-copy"><span class="home-feature-icon">{{ icon('golf') }}</span><div><h3>Find your fairway.</h3><p>Discover the golf courses around Belek.</p><a class="home-text-link" href="/golf/">Explore Antalya golf {{ icon('arrow') }}</a></div></div></article>
+    {{ sectionHead('Antalya at the table', 'Stay for one more course', '/restaurants/', 'All restaurants', 'eat-title') }}
+    <div class="card-grid">
+      {% for r in collections.restaurants | pickByArea(4) %}{% set ph = r.data | cardPhoto(editorialPhotos) %}
+      {{ card('/restaurants/' + (r.data.slug or (r.data.title | slugify)) + '/', ph, r.data.title, r.data.excerpt | shorten(100), r.data.category) }}
+      {% endfor %}
     </div>
   </div>
 </section>
 
-<section class="home-section" aria-labelledby="events-title">
-  <div class="container home-editorial-split">
-    {% set culture = editorialPhotos | photoById('aspendos-entrance') %}
-    <div class="home-editorial-photo">{{ image(culture, '(max-width: 800px) 100vw, 55vw') }}<span class="home-image-label">Aspendos theatre · Destination view, not an event photograph</span>{{ credit(culture) }}</div>
-    <div class="home-editorial-copy"><span class="home-kicker">Culture, with a sense of place</span><h2 id="events-title">Make room <br>for something <br>memorable.</h2><p>Concerts, performances and festivals. Find what fits your dates.</p><a class="home-button" href="/events/">Explore the calendar {{ icon('calendar') }}</a><a class="home-subtle-link" href="/things-to-do/aspendos-theatre/">Or take a closer look at Aspendos {{ icon('arrow') }}</a></div>
+{% set golfPhoto = editorialPhotos | photoById('regnum-carya-golf-2022') %}
+<section class="section-tight" aria-labelledby="golf-title">
+  <div class="container">
+    <div class="split split-orange reverse">
+      <div class="split-media">
+        {{ pic(golfPhoto.src, golfPhoto.alt, '(max-width: 860px) 100vw, 55vw', false, golfPhoto.width, golfPhoto.height) }}
+        <svg class="blob" viewBox="0 0 110 600" preserveAspectRatio="none" aria-hidden="true"><path fill="currentColor" d="M110 0H60C20 80 70 160 40 250S0 420 50 500 70 600 70 600h40Z"/></svg>
+        {{ credit(golfPhoto) }}
+      </div>
+      <div class="split-copy">
+        <p class="eyebrow">Belek &amp; the golf coast</p>
+        <h2 id="golf-title">A different kind of green</h2>
+        <p>{{ collections.golf.length }} golf clubs between the pines and the sea, most within 40 minutes of Antalya Airport.</p>
+        <div class="button-row"><a class="btn btn-light" href="/golf/">Explore golf</a></div>
+      </div>
+    </div>
   </div>
 </section>
 
-<section class="home-section home-planning-section" aria-labelledby="planning-title">
-  <div class="container home-plan-grid">
-    <div><span class="home-kicker">A little planning goes a long way</span><h2 id="planning-title">Your next chapter<br>starts here.</h2><div class="home-plan-links"><a href="/plan-your-trip/#getting-around">{{ icon('plane') }}<span>Arrive &amp; get around<small>Airports, trams and coastal journeys</small></span>{{ icon('arrow') }}</a><a href="/plan-your-trip/#itineraries">{{ icon('map') }}<span>One, three or seven days<small>Make the most of your time</small></span>{{ icon('arrow') }}</a><a href="/destinations/">{{ icon('compass') }}<span>Find your corner of Antalya<small>Explore all 19 districts</small></span>{{ icon('arrow') }}</a></div></div>
-    {% set planning = editorialPhotos | photoById('lower-duden-coast') %}
-    <div class="home-plan-photo">{{ image(planning, '(max-width: 800px) 100vw, 45vw') }}<span class="home-image-label">Lower Düden waterfall · Muratpaşa</span>{{ credit(planning) }}</div>
+<section class="section section-sand" aria-labelledby="blog-title">
+  <div class="container">
+    {{ sectionHead('Travel tips', 'From the blog', '/blog/', 'Read the blog', 'blog-title') }}
+    <div class="card-grid cols-3">
+      {% for post in collections.blog | take(3) %}{% set ph = post.data | cardPhoto(editorialPhotos) %}
+      {{ card('/blog/' + post.data.slug + '/', ph, post.data.title, post.data.excerpt | shorten(120), post.data.category, '', '', '(max-width: 700px) 92vw, 32vw') }}
+      {% endfor %}
+    </div>
   </div>
 </section>
-<div class="container home-trust-note"><span>Independent guide. Real places. Clear sources.</span><a href="/sources/">About our guide {{ icon('arrow') }}</a><a href="/photography/">Photography credits {{ icon('arrow') }}</a></div>
+
+<section class="section" aria-labelledby="plan-title">
+  <div class="container">
+    {{ sectionHead('A little planning goes a long way', 'Plan your trip', '/plan-your-trip/', 'Travel essentials', 'plan-title') }}
+    <div class="card-grid cols-3">
+      {% set p1 = editorialPhotos | photoById('lower-duden-coast') %}{% set p2 = editorialPhotos | photoById('phaselis-harbour') %}{% set p3 = editorialPhotos | photoById('kemer-marina') %}
+      {{ card('/plan-your-trip/#getting-around', p1, 'Arrive & get around', 'Airports, trams and coastal transfers.', 'Getting here', '', '', '(max-width: 700px) 92vw, 32vw') }}
+      {{ card('/plan-your-trip/#itineraries', p2, 'One, three or seven days', 'Route ideas that leave room to slow down.', 'Itineraries', '', '', '(max-width: 700px) 92vw, 32vw') }}
+      {{ card('/blog/antalya-weather-by-months-what-to-expect-before-you-visit/', p3, 'Antalya weather by month', 'Sea temperature, rain and the best time to go.', 'When to go', '', '', '(max-width: 700px) 92vw, 32vw') }}
+    </div>
+  </div>
+</section>

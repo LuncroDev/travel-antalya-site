@@ -1,9 +1,30 @@
 ---
 layout: base.njk
 pageTitle: Restaurants in Antalya | Local Tables & Coastal Dining
-pageDescription: Explore source-linked Antalya restaurant profiles by area and cuisine, with official reservation links and clear Michelin information.
+pageDescription: Explore source-linked Antalya restaurant profiles by area and cuisine — Kaleiçi meyhanes, Lara seafood, Kaş harbour tables — with official reservation links.
 permalink: /restaurants/index.html
 eleventyExcludeFromCollections: true
 ---
-<section class="listing-hero detail-heading"><div class="container"><span class="eyebrow">Antalya at the table</span><h1>Stay for<br>one more course.</h1><p class="lead">A traditional piyaz lunch, a harbour-side evening or a special-occasion table. Find a restaurant that belongs in your trip.</p><div class="topic-links"><a href="#restaurant-directory">Browse {{ collections.restaurants.length }} restaurants ↓</a><a href="/hotels/">Find a nearby stay ↗</a></div></div></section>
-<section><div class="container"><div class="michelin-note"><strong>A clear word on Michelin</strong><p>The <a href="https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection">official MICHELIN Guide Türkiye 2026 selection</a> does not cover Antalya. We do not label these Antalya restaurants as starred or Michelin-selected. Recognition for another branch in another city does not transfer here.</p></div><div id="restaurant-directory">{% set venueItems = collections.restaurants %}{% set venuePlural = 'restaurants' %}{% set venuePath = 'restaurants' %}{% include 'venue-directory.njk' %}</div><p class="source-note">An editorial shortlist, not a ranking or inspection. Menus, opening hours and reservation policies change. Confirm directly before travelling.</p></div></section>
+{% from 'ui.njk' import icon, pageHero %}
+{{ pageHero(editorialPhotos | photoById('kalkan-harbour'), 'Eat & drink', 'Restaurants in Antalya', 'Meze, seafood & old-town tables', [{label: 'Eat & drink'}]) }}
+
+<section class="intro-band" aria-label="About eating in Antalya">
+  <div class="container">
+    <div class="intro-card" data-readmore>
+      <div class="intro-text" id="food-intro">
+        <p>Start with a plate of Antalya’s own <strong>piyaz</strong> — white beans with tahini — then work your way through grilled fish, meze and slow evenings by the harbour. Kaleiçi has courtyard restaurants inside Ottoman houses; Lara and Konyaaltı do seafood with sea views; Kaş and Kalkan are made for long dinners on rooftop terraces.</p>
+        <p>A clear word on Michelin: the <a href="https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection">MICHELIN Guide Türkiye 2026</a> does not cover Antalya, so we don’t label any restaurant here as starred or selected.</p>
+        <p>Menus, opening hours and reservation policies change. Each profile links to the restaurant’s own page — confirm before you go.</p>
+      </div>
+      <button type="button" class="readmore-btn" aria-expanded="false" aria-controls="food-intro" hidden>Read more</button>
+    </div>
+  </div>
+</section>
+
+<section class="directory" id="restaurant-directory" aria-labelledby="dir-title">
+  <div class="container">
+    <div class="section-head"><div><p class="eyebrow">Find a table</p><h2 id="dir-title">Discover Antalya restaurants</h2></div></div>
+    {% set venueItems = collections.restaurants %}{% set venuePlural = 'restaurants' %}{% set venuePath = 'restaurants' %}{% set venueIcon = 'food' %}
+    {% include 'venue-directory.njk' %}
+  </div>
+</section>

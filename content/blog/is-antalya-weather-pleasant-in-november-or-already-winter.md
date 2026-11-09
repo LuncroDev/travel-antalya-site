@@ -7,6 +7,7 @@ category: "Weather"
 cover: "/images/photos/antiochia-ruins-1.jpg"
 excerpt: "Antalya Weather in November Antalya is one of Turkey’s most loved travel destinations, famous for its sunny coastline, turquoise sea, ancient ruins, and relaxed…"
 featured: false
+photo_id: "kemer-marina"
 ---
 <h1 class="wp-block-heading"><strong>Antalya Weather in November</strong></h1>
 

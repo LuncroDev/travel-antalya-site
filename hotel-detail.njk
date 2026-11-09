@@ -8,30 +8,6 @@ layout: base.njk
 eleventyExcludeFromCollections: true
 ogType: "website"
 ---
-<link rel="stylesheet" href="/css/hotels.css">
-<section class="listing-hero hotel-detail-heading"><div class="container">
-  <nav aria-label="Breadcrumb"><a href="/hotels/">Hotel guide</a> <span aria-hidden="true">/</span> {{ hotel.data.neighborhood }}</nav>
-  <p class="eyebrow">{{ hotel.data.neighborhood }} · {{ hotel.data.category }}</p>
-  <h1>{{ hotel.data.title }}</h1>
-  <p class="lead">{{ hotel.data.tagline }}</p>
-</div></section>
-<div class="container hotel-detail-grid">
-  <article>
-    <h2>Plan your stay</h2>
-    {{ hotel.templateContent | safe }}
-    {% for district in destinations %}{% if district.slug == hotel.data.district_slug %}<h2>Understanding the area</h2><p>{{ district.description }}</p><p>{{ district.tip }}</p><p><a href="/destinations/{{ district.slug }}/">Explore {{ district.name }} and its highlights →</a></p>{% endif %}{% endfor %}
-    {% set galleryItem = hotel.data %}{% include 'editorial-gallery.njk' %}
-    <h2>Check before booking</h2>
-    <ul class="hotel-checklist"><li>The full price for your dates, party size and room type, including taxes and extras.</li><li>Cancellation and payment terms, meal plans and restaurant reservations.</li><li>Seasonal opening dates, beach and pool access, building work and transfer arrangements.</li><li>Any age policy, step-free access or other specific needs directly with the hotel.</li></ul>
-    <p>This is an editorial introduction, not a personal inspection, review score or confirmation of current room availability.</p>
-    {% set relatedItem = hotel.data %}{% include 'related-guide.njk' %}
-    <h2>More stays to compare</h2><ul>{% for other in collections.hotels | relatedItems(hotel.data, 3) %}<li><a href="/hotels/{{ other.data.slug }}/">{{ other.data.title }}</a> · {{ other.data.neighborhood }}</li>{% endfor %}</ul>
-  </article>
-  <aside class="hotel-source-panel" aria-labelledby="source-heading">
-    <h2 id="source-heading">Go to the source</h2>
-    <dl><dt>Area</dt><dd>{{ hotel.data.neighborhood }}</dd><dt>Stay style</dt><dd>{{ hotel.data.category }}</dd><dt>Source reviewed</dt><dd><time datetime="{{ hotel.data.last_checked }}">{{ hotel.data.last_checked }}</time></dd></dl>
-    <a class="btn btn-orange" href="{{ hotel.data.official_url | escape }}" rel="noopener" target="_blank">Official hotel website ↗<span class="hotel-sr-only"> (opens in a new tab)</span></a>
-    <p><a href="{{ hotel.data.source_url | escape }}">{{ hotel.data.source_label }}</a> supports this profile’s identity and location. Hotel policies and offers can change after the review date.</p>
-    <p>No live prices or inventory. Contact the hotel to check availability and the exact terms for your stay.</p>
-  </aside>
-</div>
+{% set v = hotel.data %}{% set body = hotel.templateContent %}{% set kind = 'hotel' %}{% set listHref = '/hotels/' %}{% set listLabel = 'Places to stay' %}{% set kindIcon = 'bed' %}{% set officialLabel = 'Official hotel website' %}
+{% set related = collections.hotels | relatedItems(hotel.data, 3) %}
+{% include 'venue-detail.njk' %}

@@ -11,6 +11,10 @@ map_lat: 36.8815
 map_lng: 30.6965
 excerpt: "A long, palm-lined park with views along the Taurus-backed coast, ideal for an evening walk."
 featured: false
+photo_id: "lower-duden-coast"
+photo_exact: false
+photo_label: "Antalya city coast"
+district_slug: "muratpasa"
 ---
 Karaalioğlu Park runs along the clifftop beside Kaleiçi and is the city's favourite place for an evening stroll. Palm trees, rose beds and lawns line broad paths, and at the western end the park opens onto sweeping views of the Gulf of Antalya, with the Beydağları mountains rising on the far side of the bay.
 

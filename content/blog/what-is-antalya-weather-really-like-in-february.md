@@ -7,6 +7,7 @@ category: "Weather"
 cover: "/images/photos/bozburun-mountain.jpg"
 excerpt: "Antalya Weather in February Antalya is one of Turkey’s most popular travel destinations, known for its beautiful beaches, ancient history, green mountains, and warm…"
 featured: false
+photo_id: "konyaalti-cliffs"
 ---
 
 > **Museum access update, 9 November 2026:** Antalya Museum is listed as temporarily closed for new museum works. Older visit suggestions below do not confirm access. Check the [current closure guidance](/things-to-do/antalya-museum/) before planning a visit.

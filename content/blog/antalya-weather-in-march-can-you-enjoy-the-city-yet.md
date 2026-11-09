@@ -7,6 +7,7 @@ category: "Weather"
 cover: "/images/photos/coastal-extra-4.jpg"
 excerpt: "Antalya Weather in March Antalya, located on Turkey’s stunning southwestern coast, is one of the country’s most popular travel destinations. Famous for its turquoise…"
 featured: false
+photo_id: "upper-duden-park"
 ---
 
 > **Museum access update, 9 November 2026:** Antalya Museum is listed as temporarily closed for new museum works. Older visit suggestions below do not confirm access. Check the [current closure guidance](/things-to-do/antalya-museum/) before planning a visit.
