@@ -2,27 +2,24 @@
 title: Antalya Golf Club
 neighborhood: Kadriye / Üçkum Tepesi
 district_slug: serik
-official_url: 'https://agc.com.tr/?lang=en'
-source_url: 'https://agc.com.tr/?lang=en'
+official_url: https://agc.com.tr/?lang=en
+source_url: https://agc.com.tr/?lang=en
 source_urls:
-  - 'https://agc.com.tr/?lang=en'
-  - 'https://agc.com.tr/hakkimizda/?lang=en'
+- https://agc.com.tr/?lang=en
+- https://agc.com.tr/hakkimizda/?lang=en
 last_checked: '2026-11-09'
 excerpt: The PGA Sultan and Pasha courses offer two different 18-hole rounds in Belek.
-booking_note: >-
-  Request the specific course, tee time and handicap policy. Confirm visitor
-  green fees and what your booking includes; a booking at a nearby hotel does
-  not by itself prove a golf reservation.
+booking_note: Request the specific course, tee time and handicap policy. Confirm visitor green fees and what your booking includes; a booking at a nearby hotel does not by itself prove a golf reservation.
 slug: antalya-golf-club
 category: Golf club
 tagline: The PGA Sultan and Pasha courses offer two different 18-hole rounds in Belek.
 source_label: Official venue information
 photos_official:
-  - src: 'https://agc.com.tr/wp-content/uploads/2017/02/agc_slider1.jpg'
-  - src: 'https://agc.com.tr/wp-content/uploads/2017/02/home_footer_2.jpg'
-  - src: 'https://agc.com.tr/wp-content/uploads/2017/02/ThePasha-380x293.jpg'
-  - src: 'https://agc.com.tr/wp-content/uploads/2017/02/PGASultan-380x293.jpg'
-photo_source: 'https://agc.com.tr/?lang=en'
+- src: https://agc.com.tr/wp-content/uploads/2017/02/agc_slider1.jpg
+- src: https://agc.com.tr/wp-content/uploads/2017/02/home_footer_2.jpg
+- src: https://agc.com.tr/wp-content/uploads/2017/02/ThePasha-380x293.jpg
+- src: https://agc.com.tr/wp-content/uploads/2017/02/PGASultan-380x293.jpg
+photo_source: https://agc.com.tr/?lang=en
 ---
 Antalya Golf Club is in the Belek/Kadriye resort area, not central Antalya. Its two courses were created by European Golf Design with David Jones as design consultant.
 

@@ -5,20 +5,18 @@ tagline: The Botanik Platinum property is in Okurcalar's Alara tourism area.
 category: Coastal resort
 neighborhood: Alanya
 district_slug: alanya
-official_url: 'https://www.delphinhotel.com/en/botanik-platinum'
-source_url: 'https://www.delphinhotel.com/contact-page'
+official_url: https://www.delphinhotel.com/en/botanik-platinum
+source_url: https://www.delphinhotel.com/contact-page
 source_label: Official hotel or hotel-group website
 source_urls:
-  - 'https://www.delphinhotel.com/contact-page'
-  - 'https://www.delphinhotel.com/en/botanik-platinum'
+- https://www.delphinhotel.com/contact-page
+- https://www.delphinhotel.com/en/botanik-platinum
 last_checked: '2026-11-09'
 excerpt: The Botanik Platinum property is in Okurcalar's Alara tourism area.
-booking_note: >-
-  Ask whether any adjacent-hotel facilities are included rather than assuming
-  cross-property access.
+booking_note: Ask whether any adjacent-hotel facilities are included rather than assuming cross-property access.
 photos_official:
-  - src: 'https://www.delphinhotel.com/main_pics/pages/medium/1843.jpg'
-photo_source: 'https://www.delphinhotel.com/en/botanik-platinum'
+- src: https://www.delphinhotel.com/main_pics/pages/medium/1843.jpg
+photo_source: https://www.delphinhotel.com/en/botanik-platinum
 ---
 The Botanik Platinum property is in Okurcalar's Alara tourism area. Its official description distinguishes a pool for Platinum guests from other pools shared with neighbouring Botanik, making the booked hotel and access rules important.
 

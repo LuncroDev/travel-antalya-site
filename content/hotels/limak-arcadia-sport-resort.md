@@ -5,21 +5,18 @@ tagline: Limak's first resort opened in Belek in 1995.
 category: Coastal resort
 neighborhood: Belek
 district_slug: serik
-official_url: 'https://www.limakhotels.com/arcadia'
-source_url: 'https://www.limakhotels.com/'
+official_url: https://www.limakhotels.com/arcadia
+source_url: https://www.limakhotels.com/
 source_label: Official hotel or hotel-group website
 source_urls:
-  - 'https://www.limakhotels.com/'
-  - 'https://www.limakhotels.com/arcadia'
+- https://www.limakhotels.com/
+- https://www.limakhotels.com/arcadia
 last_checked: '2026-11-09'
 excerpt: Limak's first resort opened in Belek in 1995.
-booking_note: >-
-  Ask about the sports facilities and any training-group activity during your
-  stay.
+booking_note: Ask about the sports facilities and any training-group activity during your stay.
 photos_official:
-  - src: >-
-      https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/PRESIDENTEL+SUITE+1-1920w.jpg
-photo_source: 'https://www.limakhotels.com/arcadia'
+- src: https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/PRESIDENTEL+SUITE+1-1920w.jpg
+photo_source: https://www.limakhotels.com/arcadia
 ---
 Limak's first resort opened in Belek in 1995. Its coastal setting includes mature pine trees and a sandy beach, with a sport-oriented identity distinct from the group's Atlantis property.
 

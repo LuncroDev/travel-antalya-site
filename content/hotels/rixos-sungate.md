@@ -1,30 +1,24 @@
 ---
 title: Rixos Sungate
 slug: rixos-sungate
-tagline: >-
-  A large resort in Beldibi on the Kemer coast, between the sea and mountain
-  landscapes.
+tagline: A large resort in Beldibi on the Kemer coast, between the sea and mountain landscapes.
 category: Coastal resort
 neighborhood: Kemer
 district_slug: kemer
-official_url: 'https://all.accor.com/hotel/B1K1/index.en.shtml'
-source_url: 'https://all.accor.com/hotel/B1K1/index.en.shtml'
+official_url: https://all.accor.com/hotel/B1K1/index.en.shtml
+source_url: https://all.accor.com/hotel/B1K1/index.en.shtml
 source_label: Official hotel or hotel-group website
 source_urls:
-  - 'https://all.accor.com/hotel/B1K1/index.en.shtml'
+- https://all.accor.com/hotel/B1K1/index.en.shtml
 last_checked: '2026-11-09'
-excerpt: >-
-  A large resort in Beldibi on the Kemer coast, between the sea and mountain
-  landscapes.
-booking_note: >-
-  Beldibi is outside Kemer town. Confirm seasonal entertainment, transfers and
-  the exact package before committing.
+excerpt: A large resort in Beldibi on the Kemer coast, between the sea and mountain landscapes.
+booking_note: Beldibi is outside Kemer town. Confirm seasonal entertainment, transfers and the exact package before committing.
 photos_official:
-  - src: 'https://www.ahstatic.com/photos/b1k1_ho_00_p_1024x768.jpg'
-  - src: 'https://www.ahstatic.com/photos/b1k1_ho_00_p_2048x1536.jpg'
-  - src: 'https://www.ahstatic.com/photos/b1k1_ho_01_p_2048x1536.jpg'
-  - src: 'https://www.ahstatic.com/photos/b1k1_ho_02_p_2048x1536.jpg'
-photo_source: 'https://all.accor.com/hotel/B1K1/index.en.shtml'
+- src: https://www.ahstatic.com/photos/b1k1_ho_00_p_1024x768.jpg
+- src: https://www.ahstatic.com/photos/b1k1_ho_00_p_2048x1536.jpg
+- src: https://www.ahstatic.com/photos/b1k1_ho_01_p_2048x1536.jpg
+- src: https://www.ahstatic.com/photos/b1k1_ho_02_p_2048x1536.jpg
+photo_source: https://all.accor.com/hotel/B1K1/index.en.shtml
 ---
 A large resort in Beldibi on the Kemer coast, between the sea and mountain landscapes.
 

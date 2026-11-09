@@ -1,34 +1,25 @@
 ---
 title: Maxx Royal Belek Golf Resort
 slug: maxx-royal-belek-golf-resort
-tagline: >-
-  The Belek property in the Maxx Royal collection, for travellers comparing
-  resort and golf holidays.
+tagline: The Belek property in the Maxx Royal collection, for travellers comparing resort and golf holidays.
 category: Golf resort
 neighborhood: Belek
 district_slug: serik
-official_url: 'https://www.maxxroyal.com/contact'
-source_url: 'https://www.maxxroyal.com/turkiye'
+official_url: https://www.maxxroyal.com/contact
+source_url: https://www.maxxroyal.com/turkiye
 source_label: Official hotel or hotel-group website
 source_urls:
-  - 'https://www.maxxroyal.com/turkiye'
-  - 'https://www.maxxroyal.com/contact'
+- https://www.maxxroyal.com/turkiye
+- https://www.maxxroyal.com/contact
 last_checked: '2026-11-09'
-excerpt: >-
-  The Belek property in the Maxx Royal collection, for travellers comparing
-  resort and golf holidays.
-booking_note: >-
-  Confirm which golf benefits, room category and dining reservations your chosen
-  package actually includes.
+excerpt: The Belek property in the Maxx Royal collection, for travellers comparing resort and golf holidays.
+booking_note: Confirm which golf benefits, room category and dining reservations your chosen package actually includes.
 photos_official:
-  - src: 'https://www.maxxroyal.com/media/m45enuh3/mrr-moment5.jpg'
-  - src: >-
-      https://www.maxxroyal.com/media/r5wdtj1a/00050_mr_100_f9x.jpg?rxy=0.7606516290726817%2C0.5009074410163339&width=1024&height=768
-  - src: >-
-      https://www.maxxroyal.com/media/amwjmwpo/maxxroyal_subat2024_101341.jpg?width=600&height=906
-  - src: >-
-      https://www.maxxroyal.com/media/3uhcxqdf/mrk_helicopter_2.jpg?width=600&height=906
-photo_source: 'https://www.maxxroyal.com/'
+- src: https://www.maxxroyal.com/media/m45enuh3/mrr-moment5.jpg
+- src: https://www.maxxroyal.com/media/r5wdtj1a/00050_mr_100_f9x.jpg?rxy=0.7606516290726817%2C0.5009074410163339&width=1024&height=768
+- src: https://www.maxxroyal.com/media/amwjmwpo/maxxroyal_subat2024_101341.jpg?width=600&height=906
+- src: https://www.maxxroyal.com/media/3uhcxqdf/mrk_helicopter_2.jpg?width=600&height=906
+photo_source: https://www.maxxroyal.com/
 ---
 The Belek property in the Maxx Royal collection, for travellers comparing resort and golf holidays.
 

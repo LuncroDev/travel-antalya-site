@@ -5,22 +5,18 @@ tagline: A city hotel in Antalya operating under the Akra brand since 2023.
 category: City hotel
 neighborhood: Antalya city
 district_slug: muratpasa
-official_url: 'https://www.akrahotels.com/en/hotels/akra-v/about-us/'
-source_url: 'https://www.akrahotels.com/en/hotels/akra-v/about-us/'
+official_url: https://www.akrahotels.com/en/hotels/akra-v/about-us/
+source_url: https://www.akrahotels.com/en/hotels/akra-v/about-us/
 source_label: Official hotel or hotel-group website
 source_urls:
-  - 'https://www.akrahotels.com/en/hotels/akra-v/about-us/'
+- https://www.akrahotels.com/en/hotels/akra-v/about-us/
 last_checked: '2026-11-09'
 excerpt: A city hotel in Antalya operating under the Akra brand since 2023.
-booking_note: >-
-  Check any access arrangements for neighbouring Akra Antalya facilities; do not
-  assume every benefit is shared.
+booking_note: Check any access arrangements for neighbouring Akra Antalya facilities; do not assume every benefit is shared.
 photos_official:
-  - src: >-
-      https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/4thpb1by/akrav-general-d.jpg
-  - src: >-
-      https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/y01j1eyg/akra-v-mainpage-card.jpg
-photo_source: 'https://www.akrahotels.com/en/hotels/akra-v/about-us/'
+- src: https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/4thpb1by/akrav-general-d.jpg
+- src: https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/y01j1eyg/akra-v-mainpage-card.jpg
+photo_source: https://www.akrahotels.com/en/hotels/akra-v/about-us/
 ---
 A city hotel in Antalya operating under the Akra brand since 2023. Unlike a conventional all-inclusive resort, the official hotel offers room-only or bed-and-breakfast meal plans.
 

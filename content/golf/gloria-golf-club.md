@@ -2,31 +2,26 @@
 title: Gloria Golf Club
 neighborhood: Belek
 district_slug: serik
-official_url: 'https://www.gloria.com.tr/en/experiences/golf/courses/'
-source_url: 'https://www.gloria.com.tr/en/experiences/golf/courses/'
+official_url: https://www.gloria.com.tr/en/experiences/golf/courses/
+source_url: https://www.gloria.com.tr/en/experiences/golf/courses/
 source_urls:
-  - 'https://www.gloria.com.tr/en/experiences/golf/courses/'
-  - 'https://www.gloria.com.tr/en/experiences/golf/courses/gloria-verde-course/'
-  - 'https://www.gloria.com.tr/en/experiences/golf/courses/gloria-new-course/'
-  - 'https://www.gloriasportsarena.com.tr/tr/acik-alan/golf/'
+- https://www.gloria.com.tr/en/experiences/golf/courses/
+- https://www.gloria.com.tr/en/experiences/golf/courses/gloria-verde-course/
+- https://www.gloria.com.tr/en/experiences/golf/courses/gloria-new-course/
+- https://www.gloriasportsarena.com.tr/tr/acik-alan/golf/
 last_checked: '2026-11-09'
-excerpt: 'A 45-hole complex with Old, New and nine-hole Verde courses.'
-booking_note: >-
-  Choose the exact course or routing and ask about visitor access, handicap
-  requirements, hire equipment and current maintenance. Clubhouse food-and-drink
-  inclusions depend on the booked package; do not assume every green fee
-  includes them.
+excerpt: A 45-hole complex with Old, New and nine-hole Verde courses.
+booking_note: Choose the exact course or routing and ask about visitor access, handicap requirements, hire equipment and current maintenance. Clubhouse food-and-drink inclusions depend on the booked package; do not assume every green fee includes them.
 slug: gloria-golf-club
 category: Golf club
-tagline: 'A 45-hole complex with Old, New and nine-hole Verde courses.'
+tagline: A 45-hole complex with Old, New and nine-hole Verde courses.
 source_label: Official venue information
 photos_official:
-  - src: 'https://www.gloria.com.tr/Content/Images/section/menu-bg.jpg'
-  - src: 'https://www.gloria.com.tr/media/pynl4y0c/sahakapak.jpg'
-  - src: >-
-      https://www.gloria.com.tr/media/fv5fg5np/glorianewcourse10_golfclub18th_l.jpg
-  - src: 'https://www.gloria.com.tr/media/5bupo5fp/gloriaoldcourse33_golfclub_l.jpg'
-photo_source: 'https://www.gloria.com.tr/en/experiences/golf/courses/'
+- src: https://www.gloria.com.tr/Content/Images/section/menu-bg.jpg
+- src: https://www.gloria.com.tr/media/pynl4y0c/sahakapak.jpg
+- src: https://www.gloria.com.tr/media/fv5fg5np/glorianewcourse10_golfclub18th_l.jpg
+- src: https://www.gloria.com.tr/media/5bupo5fp/gloriaoldcourse33_golfclub_l.jpg
+photo_source: https://www.gloria.com.tr/en/experiences/golf/courses/
 ---
 Gloria Golf Club combines two 18-hole championship courses, Old and New, with the nine-hole Verde course. The complex was designed by Michel Gayon and is linked to the Gloria resort group.
 

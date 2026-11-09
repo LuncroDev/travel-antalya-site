@@ -2,38 +2,26 @@
 title: Mermerli Restaurant & Cafe
 neighborhood: Kaleiçi / Selçuk
 district_slug: muratpasa
-official_url: 'https://www.mermerli.com.tr/'
-source_url: 'https://www.mermerli.com.tr/hakkimizda.php?lang=en'
+official_url: https://www.mermerli.com.tr/
+source_url: https://www.mermerli.com.tr/hakkimizda.php?lang=en
 source_urls:
-  - 'https://www.mermerli.com.tr/hakkimizda.php?lang=en'
-  - 'https://www.mermerli.com.tr/'
-  - >-
-    https://www.antalyakorfez.com/valiligin-islettigi-mermerli-restoran-acildi-cay-45-tl
+- https://www.mermerli.com.tr/hakkimizda.php?lang=en
+- https://www.mermerli.com.tr/
+- https://www.antalyakorfez.com/valiligin-islettigi-mermerli-restoran-acildi-cay-45-tl
 last_checked: '2026-11-09'
-excerpt: >-
-  A reopened Kaleiçi restaurant and cafe emphasizing Antalya’s regional
-  products, desserts and coffee.
-booking_note: >-
-  Check the current menu and opening arrangements before visiting. The website
-  contact page contains placeholder telephone and WhatsApp numbers, so no phone
-  number or live opening hours are republished here.
+excerpt: A reopened Kaleiçi restaurant and cafe emphasizing Antalya’s regional products, desserts and coffee.
+booking_note: Check the current menu and opening arrangements before visiting. The website contact page contains placeholder telephone and WhatsApp numbers, so no phone number or live opening hours are republished here.
 slug: mermerli-restaurant
-category: 'Regional Antalya dishes, desserts and Turkish coffee'
-tagline: >-
-  A reopened Kaleiçi restaurant and cafe emphasizing Antalya’s regional
-  products, desserts and coffee.
+category: Regional Antalya dishes, desserts and Turkish coffee
+tagline: A reopened Kaleiçi restaurant and cafe emphasizing Antalya’s regional products, desserts and coffee.
 source_label: Official venue information
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
 photos_official:
-  - src: >-
-      https://www.mermerli.com.tr/uploads/products/15daccdd8ad171fe_1785928524.jpg
-  - src: >-
-      https://www.mermerli.com.tr/uploads/products/28bd3ffc81c61687_1785758980.jpg
-  - src: >-
-      https://www.mermerli.com.tr/uploads/products/d6b6d6876b4b86c3_1785754956.jpg
-  - src: >-
-      https://www.mermerli.com.tr/uploads/products/1ad36281839462ed_1785926197.jpg
-photo_source: 'https://www.mermerli.com.tr/'
+- src: https://www.mermerli.com.tr/uploads/products/15daccdd8ad171fe_1785928524.jpg
+- src: https://www.mermerli.com.tr/uploads/products/28bd3ffc81c61687_1785758980.jpg
+- src: https://www.mermerli.com.tr/uploads/products/d6b6d6876b4b86c3_1785754956.jpg
+- src: https://www.mermerli.com.tr/uploads/products/1ad36281839462ed_1785926197.jpg
+photo_source: https://www.mermerli.com.tr/
 ---
 Mermerli’s current website identifies the restaurant and cafe as operated by AYDAŞ, an Antalya Governorship subsidiary. Its menu highlights regional products and geographically indicated specialities, including Antalya bağaçası and Akseki saraylı dessert, alongside Turkish coffee. Local reporting published on 29 May 2026 corroborates that the restaurant reopened following renovation.
 

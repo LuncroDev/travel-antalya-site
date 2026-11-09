@@ -2,29 +2,26 @@
 title: Kale Panorama Restaurant
 neighborhood: Tophane / castle road
 district_slug: alanya
-official_url: 'https://alanyapanorama.com/'
-source_url: 'https://alanyapanorama.com/'
+official_url: https://alanyapanorama.com/
+source_url: https://alanyapanorama.com/
 source_urls:
-  - 'https://alanyapanorama.com/'
-  - 'https://alanyapanorama.com/contactus'
-  - 'https://alanyapanorama.com/menu'
+- https://alanyapanorama.com/
+- https://alanyapanorama.com/contactus
+- https://alanyapanorama.com/menu
 last_checked: '2026-11-09'
 excerpt: A castle-road restaurant with terraces looking across Alanya.
-booking_note: >-
-  Reserve and confirm the terrace, access arrangements and how to get there.
-  Transfers promoted by third-party travel sites are not assumed to be included
-  in every direct booking.
+booking_note: Reserve and confirm the terrace, access arrangements and how to get there. Transfers promoted by third-party travel sites are not assumed to be included in every direct booking.
 slug: kale-panorama-restaurant
 category: Turkish and international
 tagline: A castle-road restaurant with terraces looking across Alanya.
 source_label: Official venue information
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
 photos_official:
-  - src: 'https://alanyapanorama.com/upload/thump_1624447577.jpg'
-  - src: 'https://alanyapanorama.com/upload/galeri/thump_1781622518.jpeg'
-  - src: 'https://alanyapanorama.com/upload/galeri/thump_1781622529.jpeg'
-  - src: 'https://alanyapanorama.com/upload/galeri/thump_1775554604.jpeg'
-photo_source: 'https://alanyapanorama.com/'
+- src: https://alanyapanorama.com/upload/thump_1624447577.jpg
+- src: https://alanyapanorama.com/upload/galeri/thump_1781622518.jpeg
+- src: https://alanyapanorama.com/upload/galeri/thump_1781622529.jpeg
+- src: https://alanyapanorama.com/upload/galeri/thump_1775554604.jpeg
+photo_source: https://alanyapanorama.com/
 ---
 Kale Panorama is on Kale Caddesi in Tophane, on the route toward Alanya Castle. Its official site emphasizes the historic setting and terraces with city views.
 

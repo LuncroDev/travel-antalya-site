@@ -2,30 +2,22 @@
 title: Korsan Meze
 neighborhood: Kalkan beach / old town
 district_slug: kas
-official_url: 'https://www.korsankalkan.com/en/korsan-meze/'
-source_url: 'https://www.korsankalkan.com/en/korsan-meze/'
+official_url: https://www.korsankalkan.com/en/korsan-meze/
+source_url: https://www.korsankalkan.com/en/korsan-meze/
 source_urls:
-  - 'https://www.korsankalkan.com/en/korsan-meze/'
-  - 'https://www.korsankalkan.com/en/menus/'
+- https://www.korsankalkan.com/en/korsan-meze/
+- https://www.korsankalkan.com/en/menus/
 last_checked: '2026-11-09'
-excerpt: >-
-  A longstanding Kalkan restaurant overlooking the beach, with meze, lamb and
-  seafood.
-booking_note: >-
-  Book the Meze restaurant specifically, not the Fish Terrace. Check seasonal
-  opening and the current menu; the official site also advertises takeaway and
-  home delivery.
+excerpt: A longstanding Kalkan restaurant overlooking the beach, with meze, lamb and seafood.
+booking_note: Book the Meze restaurant specifically, not the Fish Terrace. Check seasonal opening and the current menu; the official site also advertises takeaway and home delivery.
 slug: korsan-meze
 category: Turkish meze and Mediterranean
-tagline: >-
-  A longstanding Kalkan restaurant overlooking the beach, with meze, lamb and
-  seafood.
+tagline: A longstanding Kalkan restaurant overlooking the beach, with meze, lamb and seafood.
 source_label: Official venue information
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
 photos_official:
-  - src: >-
-      https://www.korsankalkan.com/wp-content/uploads/2020/12/2-Korsan-Kalkan-Korsan-Meze-2011-3-Copy.jpg
-photo_source: 'https://www.korsankalkan.com/en/korsan-meze/'
+- src: https://www.korsankalkan.com/wp-content/uploads/2020/12/2-Korsan-Kalkan-Korsan-Meze-2011-3-Copy.jpg
+photo_source: https://www.korsankalkan.com/en/korsan-meze/
 ---
 Korsan Meze was established in 1979 and occupies a beach-view position in Kalkan. Its menu spans traditional Turkish meze, lamb, kebabs, chicken, fish and vegetarian dishes.
 
