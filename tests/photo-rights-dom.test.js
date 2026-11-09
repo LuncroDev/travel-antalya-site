@@ -16,14 +16,16 @@ test('all remediated heroes use the documented replacement and clear captions',(
       assert.equal(img.getAttribute('src'),opt(p.src,i===0?1280:640),key);
       assert.ok(f.textContent.includes(p.author)&&f.textContent.includes(p.license)&&f.textContent.includes(p.changes),key);
       if(p.contextual)assert.ok(f.querySelector('figcaption').textContent.startsWith('Area photo · '),key);
-      if(p.preserve_framing){assert.equal(img.style.objectFit,'contain',key);assert.equal(img.style.transform,'none',key);assert.ok(f.textContent.includes(p.archive_warning),key);}
+      if(p.preserve_framing){assert.equal(img.style.objectFit,'contain',key);assert.equal(img.style.transform,'none',key);}
+      if(p.archive_warning||p.usage_note)assert.ok(f.textContent.includes(p.archive_warning||p.usage_note),key);
       assert.equal(f.querySelectorAll('a[href=""]').length,0,key);
     }
     doc.defaultView.close();
   }
 });
 test('no pending official photo is embedded anywhere in the generated site',()=>{
-  const sources=new Set(Object.values(pending).flatMap(p=>p.images));
+  const approved=new Set(require('../lib/photo-rights').registry().approved.filter(p=>!require('../lib/photo-rights').approvalErrors(p).length).map(p=>p.src));
+  const sources=new Set(Object.values(pending).flatMap(p=>p.images).filter(src=>!approved.has(src)));
   for(const file of fs.readdirSync('_site',{recursive:true}).filter(f=>f.endsWith('.html'))) {
     const html=fs.readFileSync('_site/'+file,'utf8');
     for(const src of sources)assert.ok(!html.includes(src)&&!html.includes(encodeURIComponent(src)),`${file}: ${src}`);

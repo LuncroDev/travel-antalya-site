@@ -3,16 +3,15 @@
 // merging only exact assets with recorded reuse and identity approval.
 'use strict';
 const fs = require('node:fs'), path = require('node:path'), matter = require('gray-matter');
-const root = path.resolve(__dirname, '../..');
 const { registry, approvedPhoto, isExcluded } = require('../../lib/photo-rights');
-const rights = registry();
+function mergeOfficial(root = path.resolve(__dirname, '../..'), rights = registry()) {
 const data = JSON.parse(fs.readFileSync(path.join(root, 'docs/import/official-photos.json'), 'utf8'));
 let updated = 0, skipped = [];
 for (const [key, v] of Object.entries(data)) {
   const [kind, slug] = key.split('/');
   if (isExcluded(slug, null, rights)) { skipped.push(key + ' (excluded)'); continue; }
   const dir = path.join(root, 'content', kind);
-  const file = fs.readdirSync(dir).find(f => { const d = matter(fs.readFileSync(path.join(dir, f), 'utf8')).data; return (d.slug || f.replace(/\.md$/, '')) === slug; });
+  const file = fs.readdirSync(dir).filter(f => f.endsWith('.md')).find(f => { const d = matter(fs.readFileSync(path.join(dir, f), 'utf8')).data; return (d.slug || f.replace(/\.md$/, '')) === slug; });
   if (!file) continue;
   const full = path.join(dir, file);
   const doc = matter(fs.readFileSync(full, 'utf8'));
@@ -26,4 +25,10 @@ for (const [key, v] of Object.entries(data)) {
   fs.writeFileSync(full, matter.stringify(doc.content, doc.data));
   updated++;
 }
-console.log(`photos_official added: ${updated}; skipped: ${skipped.length}`, skipped.join(', '));
+return { updated, skipped };
+}
+if (require.main === module) {
+  const { updated, skipped } = mergeOfficial();
+  console.log(`photos_official added: ${updated}; skipped: ${skipped.length}`, skipped.join(', '));
+}
+module.exports = mergeOfficial;

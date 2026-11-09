@@ -41,7 +41,7 @@ test('every quarantined venue has documented replacements and correct area label
   assert.equal(Object.keys(pending).length,117);assert.equal(registry().excluded.length,6);
   for (const key of Object.keys(pending)) {
     const data=matter(fs.readFileSync(pending[key].source_file,'utf8')).data;
-    assert.equal(data.photos_official,undefined,key);
+    if (data.photos_official?.length) { assert.equal(officialPhotos(data).length,data.photos_official.length,key); continue; }
     const card=cardPhoto(data),gallery=photoGalleryFor(data);
     assert.ok(card&&gallery.length>=1,key);
     for (const p of [card,...gallery]) { assert.ok(p.author&&p.license&&p.source_url&&p.changes,p.id);assert.ok(fs.existsSync('.'+p.src),p.src);if(!p.contextual)assert.ok(p.property_slug===data.slug||(p.property_slugs||[]).includes(data.slug),p.id); }
@@ -49,11 +49,18 @@ test('every quarantined venue has documented replacements and correct area label
   }
 });
 test('candidate importer cannot restore pending or excluded photos', () => {
-  const files=fs.readdirSync('content',{recursive:true}).filter(f=>f.endsWith('.md'));
-  const before=files.map(f=>fs.readFileSync('content/'+f,'utf8'));
-  const output=execFileSync(process.execPath,['scripts/import/official.js'],{encoding:'utf8'});
-  assert.match(output,/photos_official added: 0/);
-  files.forEach((f,i)=>assert.equal(fs.readFileSync('content/'+f,'utf8'),before[i],f));
+  const root=fs.mkdtempSync(path.join(os.tmpdir(),'photo-import-'));
+  const merge=require('../scripts/import/official');
+  try {
+    fs.mkdirSync(path.join(root,'content/hotels'),{recursive:true});fs.mkdirSync(path.join(root,'docs/import'),{recursive:true});
+    const file=path.join(root,'content/hotels/fixture-hotel.md');
+    fs.writeFileSync(file,'---\nslug: fixture-hotel\n---\n');
+    fs.writeFileSync(path.join(root,'docs/import/official-photos.json'),JSON.stringify({'hotels/fixture-hotel':{page:'https://example.com',images:[valid().src]}}));
+    assert.equal(merge(root,{approved:[],excluded:[]}).updated,0);
+    assert.equal(merge(root,{approved:[valid()],excluded:[{venue_slug:'fixture-hotel',status:'excluded',images:[]}]}).updated,0);
+    assert.equal(merge(root,{approved:[valid()],excluded:[]}).updated,1);
+    assert.equal(merge(root,{approved:[valid()],excluded:[]}).updated,0);
+  } finally {fs.rmSync(root,{recursive:true,force:true});}
 });
 
 test('responsive photo candidates do not overstate native resolution', () => {

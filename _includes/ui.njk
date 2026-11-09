@@ -56,7 +56,7 @@
 {# Licence credit for Creative Commons photographs. #}
 {% macro credit(photo) -%}
 {%- if photo and photo.author -%}
-<details class="credit"><summary><span aria-hidden="true">©</span><span class="sr-only">Photo credit: {{ photo.caption }}</span></summary><div><strong>{{ photo.caption }}</strong><span>{{ photo.author }} · {% if photo.license_url or photo.licenseUrl %}<a href="{{ photo.license_url or photo.licenseUrl }}" rel="noopener">{{ photo.license }}</a>{% else %}{{ photo.license }}{% endif %} · <a href="{{ photo.source_url or photo.sourceUrl }}" rel="noopener">Source</a>{% if photo.changes %} · {{ photo.changes }}{% endif %}</span>{% if photo.archive_warning %}<span>{{ photo.archive_warning }}</span>{% endif %}</div></details>
+<details class="credit"><summary><span aria-hidden="true">©</span><span class="sr-only">Photo credit: {{ photo.caption }}</span></summary><div><strong>{{ photo.caption }}</strong><span>{{ photo.author }} · {% if photo.license_url or photo.licenseUrl %}<a href="{{ photo.license_url or photo.licenseUrl }}" rel="noopener">{{ photo.license }}</a>{% else %}{{ photo.license }}{% endif %} · <a href="{{ photo.source_url or photo.sourceUrl }}" rel="noopener">Source</a>{% if photo.changes %} · {{ photo.changes }}{% endif %}</span>{% if photo.archive_warning %}<span>{{ photo.archive_warning }}</span>{% elif photo.usage_note %}<span>{{ photo.usage_note }}</span>{% endif %}</div></details>
 {%- endif -%}
 {%- endmacro %}
 
