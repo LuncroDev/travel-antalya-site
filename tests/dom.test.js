@@ -40,3 +40,15 @@ test('mobile menu opens, closes repeatedly and escapes accessibly',()=>{
 test('restaurant and golf filters keep working after reset',async()=>{
  for(const page of ['restaurants','golf']){const dom=await load(page,'venues'),w=dom.window,d=w.document;const total=d.querySelectorAll('[data-venue]').length;assert.ok(total>0);change(w,'input[name=q]','does-not-exist-123');assert.equal(visible(d,'[data-venue]').length,0);assert.equal(d.querySelector('[data-venue-empty]').hidden,false);d.querySelector('[data-venue-reset]').click();await new Promise(r=>setTimeout(r,5));assert.equal(visible(d,'[data-venue]').length,total);dom.window.close();}
 });
+
+test('trade-fair filters preserve two date ranges and visible admission conditions',async()=>{
+ const dom=await load('events','events'),w=dom.window,d=w.document;
+ change(w,'select[name=category]','Trade fairs');change(w,'input[name=from]','2027-01-15');change(w,'input[name=to]','2027-01-15');
+ const fairs=visible(d,'[data-event]');assert.equal(fairs.length,2);for(const item of fairs)assert.match(item.querySelector('.event-admission-note').textContent,/not open to the general public/);
+ change(w,'input[name=to]','2027-01-16');change(w,'input[name=from]','2027-01-16');assert.equal(visible(d,'[data-event]').length,0);
+ dom.window.close();
+ const category=new JSDOM(fs.readFileSync('_site/events/category/trade-fairs/index.html','utf8'));
+ assert.equal(category.window.document.querySelectorAll('[data-event]').length,2);assert.equal(category.window.document.querySelectorAll('img[src=""]').length,0);
+ for(const slug of ['anfas-hotel-equipment-2027','anfas-food-product-2027']){const html=fs.readFileSync('_site/events/'+slug+'/index.html','utf8');assert.match(html,/event-admission-note/);assert.match(html,/not open to the general public/);}
+ category.window.close();
+});

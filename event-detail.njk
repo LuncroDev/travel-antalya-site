@@ -35,9 +35,10 @@ eleventyExcludeFromCollections: true
       <div class="prose">{{ event.templateContent | safe }}</div>
       <div class="good-to-know"><details><summary>How we checked this date</summary><p>{{ ev.verification_note }}</p><p>Source reviewed <time datetime="{{ ev.last_checked | eventDate }}">{{ ev.last_checked | eventDate }}</time>. Past editions don’t confirm next year’s dates.</p></details></div>
     </article>
-    <aside class="side-card" aria-label="Tickets and details">
+    <aside class="side-card detail-side" aria-label="Tickets and details">
       {% if md.day and ev.date_verified %}<div style="display:flex;align-items:center;gap:16px"><span class="date-badge" style="position:static"><small>{{ md.month }}</small><strong>{{ md.day }}</strong></span><div><strong style="color:var(--blue-deep)">{{ ev | eventDateLabel }}</strong>{% if ev.time_display %}<br><span class="muted">{{ ev.time_display }}</span>{% endif %}</div></div>{% endif %}
       <dl><div><dt>Venue</dt><dd>{{ ev.venue }}</dd></div><div><dt>Area</dt><dd>{{ ev.neighborhood }}</dd></div></dl>
+      {% if ev.admission_note %}<p class="event-admission-note"><strong>Entry:</strong> {{ ev.admission_note }}</p>{% endif %}
       <a href="{{ (ev.ticket_url or ev.source_url) | escape }}" target="_blank" rel="noopener noreferrer" class="btn btn-orange">{{ 'Tickets & info' if ev.ticket_url else ev.source_name }} {{ icon('external') }}</a>
       <p class="small">Via {{ ev.source_name }}. Schedules and entry conditions can change — verify before you buy or travel.</p>
       <div class="side-links"><a href="/events/">All events {{ icon('arrow-right') }}</a><a href="/hotels/?area={{ ev | hotelAreaFor | encodeUri }}">Stay nearby {{ icon('arrow-right') }}</a></div>

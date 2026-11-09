@@ -326,6 +326,8 @@ ul, ol { padding-left: 1.2em; }
 .date-badge { position: absolute; z-index: 2; top: 14px; left: 14px; background: #fff; color: var(--blue-deep); border-radius: 14px; padding: 8px 12px; text-align: center; line-height: 1; box-shadow: var(--shadow); min-width: 64px; }
 .date-badge small { display: block; font-size: .8rem; font-weight: 700; letter-spacing: .08em; color: var(--orange); }
 .date-badge strong { display: block; font-family: var(--display); font-size: 1.9rem; margin-top: 4px; }
+.event-admission-note { font-size: 1rem; line-height: 1.45; background: var(--orange-soft); color: var(--ink); border-radius: 12px; padding: 10px 14px; margin: 12px 0 0; }
+.event-admission-note strong { color: var(--orange-deep); }
 .status-pill { display: inline-flex; align-items: center; gap: 6px; font-size: .85rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; padding: 5px 12px; border-radius: 999px; background: var(--sky); color: var(--blue-deep); }
 
 /* ---------- Detail pages ---------- */

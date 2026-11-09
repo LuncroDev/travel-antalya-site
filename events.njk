@@ -1,20 +1,20 @@
 ---
 layout: base.njk
 pageTitle: "Antalya Events & Festivals | Concerts, Theatre & What's On"
-pageDescription: "Find Antalya concerts, theatre, festivals and sports events with verified dates, venues and official ticket links."
+pageDescription: "Find Antalya concerts, festivals, sports and trade fairs with verified dates, entry conditions, source links and working travel-date filters."
 pageUrl: "/events/"
 ogImage: "/images/editorial/aspendos-entrance.jpg"
 permalink: "/events/index.html"
 eleventyExcludeFromCollections: true
 ---
 {% from 'ui.njk' import icon, pageHero %}
-{{ pageHero(editorialPhotos | photoById('aspendos-entrance'), 'Events', 'What’s on in Antalya', 'Concerts, theatre & festivals', [{label: 'Events'}]) }}
+{{ pageHero(editorialPhotos | photoById('aspendos-entrance'), 'Events', 'What’s on in Antalya', 'Concerts, festivals & trade fairs', [{label: 'Events'}]) }}
 
 <section class="section-tight" aria-labelledby="cat-title" style="padding-top:0">
   <div class="container">
     <h2 id="cat-title" class="sr-only">Browse by category</h2>
     <nav class="quick-nav" aria-label="Event categories">
-      {% for cat in collections.eventCategories | take(6) %}<a href="/events/category/{{ cat.name | slugify }}/">{{ icon({'Concerts': 'music', 'Theatre': 'ticket', 'Comedy': 'sparkle', 'Festivals': 'star', 'Family': 'family', 'Sports': 'golf', 'Cultural': 'landmark', 'Conferences': 'users', 'Nightlife': 'music', 'Ballet & music': 'music'}[cat.name] or 'calendar') }}<span>{{ cat.name }}</span></a>{% endfor %}
+      {% for cat in collections.eventCategories | take(6) %}<a href="/events/category/{{ cat.name | slugify }}/">{{ icon({'Concerts': 'music', 'Theatre': 'ticket', 'Comedy': 'sparkle', 'Festivals': 'star', 'Family': 'family', 'Sports': 'golf', 'Cultural': 'landmark', 'Conferences': 'users', 'Trade fairs': 'users', 'Nightlife': 'music', 'Ballet & music': 'music'}[cat.name] or 'calendar') }}<span>{{ cat.name }}</span></a>{% endfor %}
     </nav>
   </div>
 </section>

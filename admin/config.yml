@@ -143,6 +143,11 @@ collections:
       - label: Verification and access notes
         name: verification_note
         widget: text
+      - label: Visitor eligibility and admission
+        name: admission_note
+        widget: text
+        required: false
+        hint: State verified trade-only, age or registration restrictions. Do not imply public access when entry is restricted.
       - label: Time (Antalya local time)
         name: time_display
         widget: string

@@ -13,6 +13,17 @@ Reviewed: **2026-11-09**, using official organizer, venue, government and ticket
 | Golden Orange | 24–31 October 2026 | https://antalyaff.com/tr and https://www.antalya.bel.tr/tr/haber-detay/63-altin-portakalda-biletler-satista |
 | Kaleiçi Old Town Festival | 8–11 October 2026 | https://kaleicioldtown.com/en/about-the-festival (official page title identifies edition and dates) |
 
+## January 2027 trade-fair additions
+
+Two separate ANFAŞ fairs run on 12–15 January 2027 at ANFAŞ Expo Center in Aksu, with published 10:00–18:00 visiting hours:
+
+- Hotel Equipment: https://anfashotelequipment.com/en/fair-profile
+- Food Product: https://anfasfoodproduct.com/en/fair-profile
+
+Both organizer visitor profiles exclude the general public. Free registration asks for company/contact information and a business-card photo; entry details are emailed nearer the fair. Food Product’s alcohol and bar-design zones are restricted to HoReCa professionals and authorised distributors, excluding under-18s. No event-wide minimum age was established. Exact sources and evidence are recorded in `docs/anfas-2027-sources.json`. No registration was submitted.
+
+The Antalya Exclusive Jewellery Show was not added. Its organizer confirms 30 April–2 May 2027, but visitor eligibility and admission terms remain unverified.
+
 ## Withdrawn dates, retained URLs
 
 - Antalya Piano Festival: removed estimated 26 November–12 December 2026 dates and unsupported free admission. The official apf.com.tr fetch timed out. Procurement listings are not a substitute for a confirmed public programme. Link to the municipal calendar pending verification.
@@ -23,7 +34,7 @@ Reviewed: **2026-11-09**, using official organizer, venue, government and ticket
 
 ## Data contract
 
-Each markdown entry has `source_url`, `source_name`, `last_checked` (quoted ISO date), `date_verified` (boolean), `verification_note`, and optional quoted ISO `start_date` / `end_date`. Missing end date means a single-day event. `time_display` is optional, local Antalya time. Images are identified as illustrative destination scenery, not event photography.
+Each markdown entry has `source_url`, `source_name`, `last_checked` (quoted ISO date), `date_verified` (boolean), `verification_note`, and optional quoted ISO `start_date` / `end_date`. Missing end date means a single-day event. `time_display` is optional, local Antalya time. `admission_note` is optional and displays verified eligibility restrictions on listings and detail pages. Images are identified as illustrative destination scenery, not event photography.
 
 Never fabricate a date for sorting. Only `date_verified: true` plus valid dates can produce current/upcoming/archive status. Awaiting listings keep their historic title-derived URL but publish no dates. Past editions never imply next year's dates.
 

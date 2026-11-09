@@ -25,6 +25,7 @@
       </div>
       <p class="card-eyebrow">{{ e.data.category }} · <span data-event-status>{{ status | eventStatusLabel }}</span></p>
       <h3 class="card-title"><a href="{{ href }}">{{ e.data.title }}</a>{{ icon('arrow-up-right', 'card-arrow') }}</h3>
+      {% if e.data.admission_note %}<p class="event-admission-note"><strong>Entry:</strong> {{ e.data.admission_note }}</p>{% endif %}
       <p class="card-meta"><span>{{ icon('calendar') }}{{ e.data | eventDateLabel }}{% if e.data.time_display and e.data.date_verified %} · {{ e.data.time_display }}{% endif %}</span><span>{{ icon('pin') }}{{ e.data.venue }}</span></p>
     </article>
     {% endfor %}

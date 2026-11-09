@@ -53,3 +53,18 @@ test('every event has traceable review data and valid verified dates', () => {
   assert.equal(records.filter(data => eventStatus(data, '2026-11-09') === 'archive').length, 3);
   assert.equal(records.filter(data => eventStatus(data, '2026-11-09') === 'awaiting').length, 4);
 });
+
+test('ANFAS fairs are two distinct multi-day trade events with explicit eligibility',()=>{
+ const fs=require('node:fs'),matter=require('gray-matter');
+ const records=fs.readdirSync('content/events').filter(f=>f.endsWith('.md')).map(f=>matter(fs.readFileSync('content/events/'+f,'utf8')));
+ const fairs=records.filter(x=>['anfas-hotel-equipment-2027','anfas-food-product-2027'].includes(x.data.slug));
+ assert.equal(fairs.length,2);
+ for(const {data,content}of fairs){
+  assert.equal(data.category,'Trade fairs');assert.equal(data.start_date,'2027-01-12');assert.equal(data.end_date,'2027-01-15');assert.equal(data.date_verified,true);assert.equal(data.district_slug,'aksu');
+  assert.match(data.admission_note,/not open to the general public/);assert.match(data.admission_note,/business-card photo/);assert.match(data.booking_url,/^https:\/\/anfas(?:hotelequipment|foodproduct).com\/en\/visitor-form$/);
+  assert.equal(eventStatus(data,'2027-01-15'),'current');assert.equal(eventStatus(data,'2027-01-16'),'archive');assert.equal(matchesEvent(data,{from:'2027-01-14',to:'2027-01-15',period:'all'},'2026-11-09'),true);
+  assert.equal(data.minimum_age,undefined);assert.match(content,/No event-wide minimum age/);
+ }
+ const food=fairs.find(x=>x.data.slug==='anfas-food-product-2027');assert.match(food.content,/Visitors under 18 are not admitted to those zones/);
+ assert.equal(records.some(x=>/exclusive.*jewellery/i.test(x.data.title)),false);
+});

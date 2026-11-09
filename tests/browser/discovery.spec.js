@@ -60,3 +60,13 @@ test('reviewed property photographs load with intact framing and clear archive l
   }
  }
 });
+
+test('ANFAS trade fairs have inclusive date filters and clear visitor eligibility',async({page})=>{
+ await page.clock.install({time:new Date('2026-11-09T12:00:00Z')});await page.goto('/events/');
+ await page.locator('select[name=category]').selectOption('Trade fairs');await page.locator('input[name=from]').fill('2027-01-15');await page.locator('input[name=to]').fill('2027-01-15');await expect(page.locator('[data-event]:visible')).toHaveCount(2);
+ await expect(page.locator('[data-event]:visible .event-admission-note').first()).toContainText('not open to the general public');
+ await page.getByRole('link',{name:'ANFAŞ Food Product 2027',exact:true}).click();await expect(page.locator('h1')).toHaveText('ANFAŞ Food Product 2027');
+ await expect(page.locator('.detail-layout article')).toContainText('Visitors under 18 are not admitted to those zones');await expect(page.locator('.detail-side .event-admission-note')).toBeVisible();
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBeTruthy();
+ await page.goto('/events/category/trade-fairs/');await expect(page.locator('[data-event]:visible')).toHaveCount(2);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBeTruthy();
+});
