@@ -1,0 +1,60 @@
+{
+  "checked_on": "2026-11-09",
+  "event_count": 57,
+  "unique_production_titles": 56,
+  "first_date": "2026-11-11",
+  "last_date": "2027-01-20",
+  "category_counts": {
+    "Theatre": 16,
+    "Concert": 27,
+    "Electronic music": 1,
+    "Stand-up": 5,
+    "Ballet & music": 1,
+    "Children": 4,
+    "Sport": 3
+  },
+  "district_counts": {
+    "Muratpaşa": 43,
+    "Unassigned": 1,
+    "Alanya": 2,
+    "Konyaaltı": 9,
+    "Manavgat": 1,
+    "Kepez": 1
+  },
+  "sources": {
+    "Bubilet": 54,
+    "Biletix": 3
+  },
+  "caveats": [
+    "Bubilet individual event pages display day/month/weekday but omit year in their text. Years are established from current upcoming listings and a matching calendar; each row documents this. Biletix handball pages explicitly show 2026.",
+    "Only future dated events are included, with no recurring attractions, archived events, combined passes or made-up dates.",
+    "57 dated sessions comprise 56 unique production/day titles. Feridun Düzağaç has two real separately ticketed shows, in Alanya and Antalya on consecutive days. The three handball days are separate ticketed sessions.",
+    "Coverage is concentrated in Antalya city; Alanya and Manavgat are included, but this is not province-wide comprehensive coverage.",
+    "Prices, end times, accessibility and age restrictions are not asserted; link visitors to the provider for these changing details.",
+    "No source images copied because reuse rights were not verified.",
+    "Read results are search-index/cached primary page extracts; latest crawl ranges from today to six days for included event pages. Recheck ticket provider before attending."
+  ],
+  "excluded": [
+    {
+      "title": "Redd Konseri",
+      "reason": "Bubilet lists 21:00 while an event aggregator lists 22:00. Excluded pending resolution.",
+      "source_url": "https://www.bubilet.com.tr/antalya/etkinlik/redd-konseri"
+    },
+    {
+      "title": "Uzi Konseri",
+      "reason": "Bubilet lists 20:00, another listing 20:30, and Biletix-indexed listing 21:00. Excluded pending resolution.",
+      "source_url": "https://www.bubilet.com.tr/antalya/etkinlik/-uzi-konseri-"
+    },
+    {
+      "title": "90’lar Kafası: Nihat Sırdar",
+      "reason": "Bubilet lists Antalya Bahçe; Biletix lists Antalya Açıkhava. Excluded pending resolution.",
+      "source_url": "https://www.bubilet.com.tr/antalya/etkinlik/90lar-kafasi--nihat-sirdar-"
+    }
+  ],
+  "venue_correction": {
+    "venue": "Atatürk Kültür Merkezi - Aspendos Salonu",
+    "note": "Bubilet venue page has an inconsistent Kepez address. Correct district Muratpaşa and Meltem location established by Biletix venue page and municipal AKM description. Do not copy Bubilet address.",
+    "verified_source_url": "https://www.biletix.com/mekan/070A1/ANTALYA/tr",
+    "municipal_source_url": "https://www.antalya.bel.tr/Content/UserFiles/Files/meclis_toplantilar/2018/NISAN/2018_faaliyet_raporu.pdf"
+  }
+}

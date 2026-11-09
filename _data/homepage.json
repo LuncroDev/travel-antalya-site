@@ -1,0 +1,18 @@
+{
+  "destinations": [
+    {"title":"Kaleiçi", "label":"Old-town wandering", "photo":"hadrians-gate", "href":"/destinations/muratpasa/", "place":"Hadrian’s Gate · Muratpaşa"},
+    {"title":"Kaş & Kalkan", "label":"Harbours & hidden coves", "photo":"kas-harbour", "href":"/destinations/kas/", "place":"Kaş harbour · Kaş"},
+    {"title":"Side", "label":"Ancient stones, sea views", "photo":"side-apollo", "href":"/destinations/manavgat/", "place":"Temple of Apollo · Side"},
+    {"title":"Alanya", "label":"A different shade of blue", "photo":"alanya-kleopatra", "href":"/destinations/alanya/", "place":"Kleopatra Beach · Alanya"}
+  ],
+  "experiences": [
+    {"title":"Take the scenic route", "label":"Beaches & coves", "photo":"kaputas-beach", "href":"/blog/kaputas-beach-travel-antalya/", "place":"Kaputaş Beach · Kaş", "icon":"sun"},
+    {"title":"Step into another century", "label":"History & culture", "photo":"aspendos-theatre", "href":"/things-to-do/aspendos-theatre/", "place":"Aspendos theatre · Serik", "icon":"columns"},
+    {"title":"Find a little wild", "label":"Nature & outdoors", "photo":"kursunlu-nature-park", "href":"/destinations/aksu/", "place":"Kurşunlu Waterfall Nature Park · Aksu", "icon":"leaf"}
+  ],
+  "stays": [
+    {"title":"Akra Antalya", "label":"A city stay by the sea", "photo":"akra-exterior-2022", "href":"/hotels/akra-hotel/", "place":"Muratpaşa · Property photo, 2022"},
+    {"title":"Rixos Premium Belek", "label":"Room to slow down", "photo":"rixos-belek-2015-1", "href":"/hotels/rixos-premium-belek/", "place":"Belek · Property photo, 2015"},
+    {"title":"Maxx Royal Belek", "label":"A resort escape", "photo":"maxx-royal-belek-2015", "href":"/hotels/maxx-royal-belek-golf-resort/", "place":"Belek · Property photo, 2015"}
+  ]
+}

@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 pageTitle: "Antalya Hotel Guide — Compare Areas & Places to Stay"
-pageDescription: "Explore 28 sourced hotel profiles across Antalya city, Lara, Belek, Kemer, Side, Alanya, Kaş and Kalkan. Filter by area and stay style."
+pageDescription: "Explore sourced hotel profiles across Antalya city, Lara, Belek, Kemer, Side, Alanya, Kaş and Kalkan. Filter by area and stay style."
 pageUrl: "/hotels/"
 permalink: "/hotels/index.html"
 eleventyExcludeFromCollections: true
@@ -28,7 +28,7 @@ eleventyExcludeFromCollections: true
   <h2 id="directory-heading">Browse the hotel guide</h2>
   <form id="hotel-filters" class="hotel-filters" hidden aria-label="Filter hotels">
     <div><label for="hotel-search">Hotel name or keyword</label><input type="search" id="hotel-search" name="q" placeholder="Try Kaleici, golf or Akra" autocomplete="off"></div>
-    <div><label for="hotel-area">Area</label><select id="hotel-area" name="area"><option value="">All areas</option>{% for area in ["Antalya city", "Kaleiçi", "Konyaaltı", "Lara & Kundu", "Belek", "Kemer", "Side", "Alanya", "Kaş", "Kalkan"] %}<option value="{{ area | escape }}">{{ area }}</option>{% endfor %}</select></div>
+    <div><label for="hotel-area">Area</label><select id="hotel-area" name="area"><option value="">All areas</option>{% for area in collections.hotels | uniqueValues('neighborhood') %}<option value="{{ area | escape }}">{{ area }}</option>{% endfor %}</select></div>
     <div><label for="hotel-type">Stay style</label><select id="hotel-type" name="type"><option value="">All styles</option>{% for type in ["City hotel", "Boutique & heritage", "Coastal resort", "Golf resort"] %}<option value="{{ type | escape }}">{{ type }}</option>{% endfor %}</select></div>
     <button type="reset" class="btn">Reset filters</button>
   </form>
@@ -47,5 +47,5 @@ eleventyExcludeFromCollections: true
   </div>
   <div id="hotel-empty" class="hotel-empty" hidden><h3>No hotels match these filters</h3><p>Try a broader keyword, choose another area or reset your filters.</p><button type="button" id="hotel-reset-empty" class="btn btn-orange">Show all hotels</button></div>
 </section>
-<section class="container hotel-booking-check" aria-labelledby="booking-heading"><h2 id="booking-heading">Before you book</h2><p>Compare the full stay price for your dates and group, cancellation terms, meal plan and transfer cost. Ask the hotel about accessibility, age restrictions, beach access, renovation work and seasonal facilities. A listing here is not a quality rating or a guarantee of availability.</p><p>Hotel photographs are intentionally omitted until property-specific images and usage rights are confirmed.</p></section>
+<section class="container hotel-booking-check" aria-labelledby="booking-heading"><h2 id="booking-heading">Before you book</h2><p>Compare the full stay price for your dates and group, cancellation terms, meal plan and transfer cost. Ask the hotel about accessibility, age restrictions, beach access, renovation work and seasonal facilities. A listing here is not a quality rating or a guarantee of availability.</p><p>Destination photographs are clearly labelled and credited. They are not photographs of hotel rooms or facilities. Follow the official hotel website for the current property gallery.</p></section>
 <script src="/js/hotels.js" defer></script>

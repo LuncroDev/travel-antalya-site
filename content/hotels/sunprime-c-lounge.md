@@ -2,16 +2,21 @@
 title: "Sunprime C-Lounge"
 slug: "sunprime-c-lounge"
 tagline: "A coastal hotel in Alanya’s Oba area that markets a 16-plus guest concept."
-tags: []
 category: "Coastal resort"
 neighborhood: "Alanya"
+district_slug: "alanya"
 official_url: "https://www.c-loungehotel.com/"
 source_url: "https://www.c-loungehotel.com/"
 source_label: "Official hotel or hotel-group website"
+source_urls: ["https://www.c-loungehotel.com/"]
 last_checked: "2026-11-09"
 excerpt: "A coastal hotel in Alanya’s Oba area that markets a 16-plus guest concept."
 booking_note: "Confirm the age policy for every traveller. Alanya is a separate destination from Antalya city; compare airport transfer options."
 ---
 A coastal hotel in Alanya’s Oba area that markets a 16-plus guest concept.
 
+## What to check for this stay
+
 Confirm the age policy for every traveller. Alanya is a separate destination from Antalya city; compare airport transfer options.
+
+The profile summarizes the linked official property or hotel-group information. It does not establish current rates, availability, star classification or the condition of facilities. Confirm your specific room, dates and inclusions with the hotel.

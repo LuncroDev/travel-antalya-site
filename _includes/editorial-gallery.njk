@@ -1,0 +1,9 @@
+{% set galleryPhotos = galleryItem | photoGallery(editorialPhotos) %}
+{% if galleryPhotos.length %}
+<section class="editorial-gallery" aria-label="Sourced photographs">
+  <h2>{% if galleryPhotos[0].contextual %}Explore the surrounding destination{% else %}Property archive &amp; surroundings{% endif %}</h2>
+  {% if galleryPhotos[0].contextual %}<p class="gallery-context">Real, credited photographs of the surrounding district. These show the destination, <strong>not this hotel, restaurant, golf course or event</strong>. Read each caption for the exact place and date.</p>{% endif %}
+  {% if not galleryPhotos[0].contextual %}<p class="gallery-context">Property photographs below are dated archival images, not confirmation of current facilities, branding or condition. Destination photographs are labelled separately.</p>{% endif %}
+  <div class="editorial-photo-grid">{% for photo in galleryPhotos %}<figure class="editorial-photo"><a href="{{ photo.source_url | escape }}" target="_blank" rel="noopener"><img src="{{ photo.src | escape }}" alt="{{ photo.alt | escape }}" width="{{ photo.width or 1200 }}" height="{{ photo.height or 800 }}" loading="lazy" decoding="async"></a><figcaption><strong>{% if photo.contextual %}Destination{% else %}Property archive{% endif %}</strong> · {{ photo.caption }}<span class="photo-credit">Photo: {{ photo.author }} · {% if photo.license_url %}<a href="{{ photo.license_url | escape }}">{{ photo.license }}</a>{% else %}{{ photo.license }}{% endif %} · <a href="{{ photo.source_url | escape }}">Source &amp; original</a> · Displayed with responsive cropping.</span></figcaption></figure>{% endfor %}</div>
+</section>
+{% endif %}

@@ -1,0 +1,4 @@
+<section class="related-guide"><h2>Keep exploring</h2><ul>
+{% set district = relatedItem | districtFor %}{% if district %}<li><a href="/destinations/{{ district }}/">Explore the district guide →</a></li>{% endif %}
+{% set hotelArea = relatedItem | hotelAreaFor %}<li><a href="/hotels/?area={{ hotelArea | encodeUri }}">Compare hotels{% if hotelArea %} in {{ hotelArea }}{% endif %} →</a></li><li><a href="/restaurants/">Choose a restaurant →</a></li><li><a href="/events/">See dated events →</a></li><li><a href="/golf/">Explore Antalya golf →</a></li><li><a href="/plan-your-trip/">Plan your route and transport →</a></li></ul>
+</section>

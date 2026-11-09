@@ -13,6 +13,7 @@ featured: false
 verification_note: "Dates checked against the linked official source."
 start_date: "2026-11-09"
 end_date: "2026-11-20"
+district_slug: "aksu"
 ---
 COP31 is scheduled in Antalya from 9 to 20 November 2026. This is a major international conference, not an open-admission visitor attraction. Consult UNFCCC participant information for accreditation and access rules.
 

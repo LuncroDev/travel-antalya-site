@@ -13,6 +13,7 @@ featured: false
 verification_note: "Dates checked against the linked official source."
 start_date: "2026-11-24"
 end_date: "2026-11-27"
+district_slug: "aksu"
 ---
 The venue calendar lists Growtech for 24–27 November 2026. This is an industry exhibition focused on agriculture, greenhouse technologies and livestock.
 

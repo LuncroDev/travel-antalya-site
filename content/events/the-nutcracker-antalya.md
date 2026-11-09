@@ -14,6 +14,8 @@ verification_note: "Dates checked against the linked official source."
 start_date: "2026-11-28"
 end_date: "2026-11-28"
 time_display: "15:00–17:10"
+district_slug: "muratpasa"
+venue_source_url: "https://www.kulturportali.gov.tr/turkiye/antalya/etkinlik/anna-karenina-23"
 ---
 The official culture portal lists Fındıkkıran (The Nutcracker) on 28 November 2026 from 15:00 to 17:10 at Haşim İşcan Cultural Center.
 

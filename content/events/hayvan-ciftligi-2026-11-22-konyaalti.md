@@ -1,0 +1,31 @@
+---
+title: "Hayvan Çiftliği"
+slug: "hayvan-ciftligi-2026-11-22-konyaalti"
+start_date: "2026-11-22"
+date_verified: true
+venue: "Konyaaltı Belediyesi Nazım Hikmet Fuar ve Kongre Merkezi"
+district_slug: "konyaalti"
+source_url: "https://www.bubilet.com.tr/antalya/etkinlik/-hayvan--ciftligi-"
+source_name: "Bubilet"
+last_checked: "2026-11-09"
+ticket_url: "https://www.bubilet.com.tr/antalya/etkinlik/-hayvan--ciftligi-"
+category: "Theatre"
+neighborhood: "Konyaaltı"
+excerpt: "Orwell's Animal Farm becomes a stage story of rebellion and the abuse of power."
+tagline: "Orwell's Animal Farm becomes a stage story of rebellion and the abuse of power."
+time_display: "20:00"
+verification_note: "Day, month, time and venue appear on the linked primary ticketing page; 2026 is established by the current listings and matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+---
+Orwell's Animal Farm becomes a stage story of rebellion and the abuse of power.
+
+## The date and venue
+
+This listing is for **2026-11-22 at 20:00**, at **Konyaaltı Belediyesi Nazım Hikmet Fuar ve Kongre Merkezi**. Times are local to Antalya (Europe/Istanbul). No finishing time is assumed.
+
+## Tickets and practical planning
+
+See the ticket provider for current prices and entry conditions. Check seating or standing arrangements, entry age, accessibility and cancellation terms before paying. For evening performances, plan the return journey as well as the outward trip.
+
+## Source and date check
+
+Day, month, time and venue appear on the linked primary ticketing page; 2026 is established by the current listings and matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel. Source reviewed 2026-11-09.

@@ -13,6 +13,8 @@ featured: false
 verification_note: "Dates checked against the linked official source."
 start_date: "2027-04-04"
 end_date: "2027-04-04"
+district_slug: "muratpasa"
+venue_source_url: "https://www.biletix.com/mekan/0702T/ANTALYA/tr"
 ---
 The organizer lists Runtalya for 4 April 2027, with race categories of 5K, 10K, 21K and 42K and a start at the Glass Pyramid.
 

@@ -117,6 +117,13 @@ collections:
     create: true
     slug: '{{slug}}'
     fields:
+      - name: district_slug
+        label: District slug
+        widget: string
+        required: false
+      - name: slug
+        label: Stable URL slug
+        widget: string
       - label: Dates verified against source
         name: date_verified
         widget: boolean
@@ -148,16 +155,7 @@ collections:
         widget: string
       - label: Category
         name: category
-        widget: select
-        options:
-          - Concerts
-          - Festivals
-          - Cultural
-          - Sports
-          - Nightlife
-          - Family
-          - Conferences
-          - Trade Fairs
+        widget: string
       - label: Start Date
         name: start_date
         widget: datetime
@@ -185,17 +183,6 @@ collections:
         widget: string
         required: false
         hint: 'Button text, e.g. Official website or Get Tickets'
-      - label: Cover Photo
-        name: cover
-        widget: image
-      - label: Extra Photos
-        name: photos
-        widget: list
-        required: false
-        field:
-          label: Photo
-          name: photo
-          widget: image
       - label: Video (YouTube embed URL)
         name: video
         widget: string
@@ -464,6 +451,36 @@ collections:
     create: true
     slug: '{{slug}}'
     fields:
+      - name: status_note
+        label: Access or closure notice
+        widget: text
+        required: false
+      - name: booking_note
+        label: Booking notes
+        widget: text
+        required: false
+      - name: last_checked
+        label: Source reviewed on
+        widget: datetime
+        format: YYYY-MM-DD
+        time_format: false
+      - name: source_label
+        label: Source label
+        widget: string
+      - name: source_url
+        label: Source URL
+        widget: string
+      - name: official_url
+        label: Official website
+        widget: string
+        required: false
+      - name: district_slug
+        label: District slug
+        widget: string
+        required: false
+      - name: slug
+        label: Stable URL slug
+        widget: string
       - label: Name
         name: title
         widget: string
@@ -480,34 +497,10 @@ collections:
         required: false
       - label: Category
         name: category
-        widget: select
-        options:
-          - Seafood
-          - Rooftop
-          - Local Classic
-          - Cafe
-          - Fine Dining
+        widget: string
       - label: Neighborhood
         name: neighborhood
         widget: string
-      - label: Price Range
-        name: price
-        widget: select
-        options:
-          - $
-          - $$
-          - $$$
-          - $$$$
-      - label: Cover Photo
-        name: cover
-        widget: image
-      - label: Photo Gallery (7-10 photos)
-        name: photos
-        widget: list
-        field:
-          label: Photo
-          name: photo
-          widget: image
       - label: Signature Dishes / Concept
         name: signature_dishes
         widget: list
@@ -518,6 +511,7 @@ collections:
           - label: Note
             name: note
             widget: string
+        required: false
       - label: Map Latitude
         name: map_lat
         widget: number
@@ -558,12 +552,25 @@ collections:
       - label: Full Description
         name: body
         widget: markdown
+      - label: Current identity needs confirmation
+        name: identity_unverified
+        widget: boolean
+        default: false
+        required: false
   - name: hotels
     label: Hotels
     folder: content/hotels
     create: true
     slug: '{{slug}}'
     fields:
+      - name: status_note
+        label: Access or closure notice
+        widget: text
+        required: false
+      - name: district_slug
+        label: District slug
+        widget: string
+        required: false
       - label: Stable URL slug
         name: slug
         widget: string
@@ -611,28 +618,6 @@ collections:
       - label: Neighborhood
         name: neighborhood
         widget: string
-      - label: Price Range
-        name: price
-        widget: select
-        options:
-          - $
-          - $$
-          - $$$
-          - $$$$
-        required: false
-      - label: Cover Photo
-        name: cover
-        widget: image
-        required: false
-        hint: Only property-specific photos with confirmed usage rights.
-      - label: Photo Gallery (7-10 photos)
-        name: photos
-        widget: list
-        field:
-          label: Photo
-          name: photo
-          widget: image
-        required: false
       - label: Amenities
         name: amenities
         widget: list
@@ -680,4 +665,54 @@ collections:
         widget: text
       - label: Full Description
         name: body
+        widget: markdown
+  - name: golf
+    label: Golf venues
+    folder: content/golf
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - name: slug
+        label: Stable URL slug
+        widget: string
+      - name: district_slug
+        label: District slug
+        widget: string
+        required: false
+      - name: official_url
+        label: Official website
+        widget: string
+      - name: source_url
+        label: Source URL
+        widget: string
+      - name: source_label
+        label: Source label
+        widget: string
+      - name: last_checked
+        label: Source reviewed on
+        widget: datetime
+        format: YYYY-MM-DD
+        time_format: false
+      - name: booking_note
+        label: Booking notes
+        widget: text
+        required: false
+      - name: status_note
+        label: Access or closure notice
+        widget: text
+        required: false
+      - name: title
+        label: Venue name
+        widget: string
+      - name: category
+        label: Venue type
+        widget: string
+      - name: neighborhood
+        label: Area
+        widget: string
+      - name: excerpt
+        label: Summary
+        widget: text
+      - name: body
+        label: Full description
         widget: markdown

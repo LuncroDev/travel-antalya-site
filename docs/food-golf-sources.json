@@ -1,0 +1,1890 @@
+{
+  "schema_version": 1,
+  "last_checked": "2026-11-09",
+  "scope": "Antalya province, Türkiye",
+  "restaurant_count": 25,
+  "golf_venue_count": 11,
+  "methodology": "Official venue and operator pages were checked through web search/open; structured business lookups were used for location and closure cross-checks. Research does not certify live availability or a physical inspection. Descriptions are original paraphrases, not venue marketing copy.",
+  "michelin_summary": {
+    "title": "Michelin status in Antalya",
+    "text": "The published 2026 MICHELIN Guide Türkiye restaurant selection covers Istanbul, İzmir, Muğla and Cappadocia, not Antalya province. No Michelin star, Bib Gourmand, Green Star or Selected restaurant label has therefore been assigned to these Antalya profiles. Nationwide expansion has been announced; recheck the next published selection before making later-edition claims.",
+    "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+    "next_edition_note": "Reporting states the 2027 national selection will be announced on 3 December 2026; it was not yet published on the research date.",
+    "next_edition_source": "https://tr.euronews.com/2026/10/09/2027-michelin-rehberi-turkiye-seckisi-3-aralikta-aciklanacak"
+  },
+  "image_policy": {
+    "verified_reusable_venue_images": 0,
+    "note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder."
+  },
+  "limitations": [
+    "Opening hours are copied only where an official page states them and must be reconfirmed for holidays or seasonal changes.",
+    "No live reservations, prices or tee-time availability were checked.",
+    "No venue photograph has a verified reuse licence; none was downloaded or reused.",
+    "Oburus Momus has conflicting live-site and temporarily-closed business-listing signals.",
+    "Lykia Links has an operator-reported future closure that needs official reconfirmation.",
+    "Karma, Captain Pirate and Antalya Balıkevi official sites were indexed but direct fetches failed."
+  ],
+  "excluded_or_flagged": [
+    {
+      "title": "Arma Restaurant",
+      "reason": "Excluded from the main 25 because its own reservation page says it temporarily does not provide service. Business listings also mark it temporarily closed.",
+      "official_url": "https://www.armarestaurant.com.tr/en/reservation/",
+      "last_checked": "2026-11-09"
+    },
+    {
+      "title": "PIO Gastro Bar & Bistro",
+      "reason": "Not included: legacy website quality/integrity could not be trusted enough for a visitor-facing official link.",
+      "last_checked": "2026-11-09"
+    }
+  ],
+  "restaurants": [
+    {
+      "title": "7 Mehmet",
+      "slug": "7-mehmet",
+      "area": "Meltem / Atatürk Kültür Parkı",
+      "neighborhood": "Meltem / Atatürk Kültür Parkı",
+      "district_slug": "muratpasa",
+      "category": "Restaurant",
+      "cuisine": "Turkish and Mediterranean",
+      "official_url": "https://7mehmet.com/en/7-mehmet-antalya",
+      "source_url": "https://7mehmet.com/en/7-mehmet-antalya",
+      "source_urls": [
+        "https://7mehmet.com/en/7-mehmet-antalya"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "An Antalya institution pairing regional Turkish recipes with seasonal Mediterranean cooking.",
+      "description": "7 Mehmet traces its history to 1937. Its Antalya restaurant is in Atatürk Kültür Parkı in Meltem, rather than inside Kaleiçi. The kitchen describes a seasonal approach rooted in local producers and traditional Turkish dishes interpreted with modern Mediterranean techniques.",
+      "sections": [
+        {
+          "heading": "Food and setting",
+          "body": "This is a useful choice for a meal focused on Antalya’s culinary identity. The official site separates its Antalya and Istanbul restaurants, so check the branch when making plans. Its other guide awards should not be confused with a Michelin distinction."
+        },
+        {
+          "heading": "Plan your visit",
+          "body": "Use the official reservation link and select Antalya. The venue publishes 11:00–00:00 hours; confirm service for your date and the current seasonal menu."
+        }
+      ],
+      "booking_note": "Use the official reservation link and select Antalya. The venue publishes 11:00–00:00 hours; confirm service for your date and the current seasonal menu.",
+      "address": "Meltem Mah., Dumlupınar Bulv., Atatürk Kültür Parkı No:201, Muratpaşa, Antalya",
+      "current_status": "Official listing found; confirm opening and availability for your date.",
+      "verification_notes": [],
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://7mehmet.com/en/7-mehmet-antalya"
+    },
+    {
+      "title": "Seraser Fine Dining",
+      "slug": "seraser-fine-dining",
+      "area": "Kaleiçi / Tuzcular",
+      "neighborhood": "Kaleiçi / Tuzcular",
+      "district_slug": "muratpasa",
+      "category": "Restaurant",
+      "cuisine": "Contemporary Anatolian and Mediterranean",
+      "official_url": "https://www.seraserrestaurant.com/en/",
+      "source_url": "https://www.seraserrestaurant.com/en/",
+      "source_urls": [
+        "https://www.seraserrestaurant.com/en/"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "Fine dining in a historic Kaleiçi residence, with a current emphasis on Anatolian ingredients.",
+      "description": "Seraser occupies a historic residence in Antalya’s old town. Its current culinary story emphasizes ingredients from the Taurus Mountains, Mediterranean fisheries and Anatolian producers, moving beyond its earlier international focus.",
+      "sections": [
+        {
+          "heading": "Food and setting",
+          "body": "The historic setting is central to the experience. The current official site identifies the restaurant at Paşa Cami Sokak No:14; older directory listings sometimes show another number. Use the venue’s own directions."
+        },
+        {
+          "heading": "Plan your visit",
+          "body": "The official site recommends advance reservations and lists daily service from 16:00 to midnight. Request your preferred setting and confirm the current menu directly."
+        }
+      ],
+      "booking_note": "The official site recommends advance reservations and lists daily service from 16:00 to midnight. Request your preferred setting and confirm the current menu directly.",
+      "address": "Tuzcular Mah., Paşa Cami Sk. No:14, Muratpaşa, Antalya",
+      "current_status": "Official listing found; confirm opening and availability for your date.",
+      "verification_notes": [],
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://www.seraserrestaurant.com/en/"
+    },
+    {
+      "title": "Asmani Restaurant",
+      "slug": "asmani-restaurant",
+      "area": "Şirinyalı / Akra Antalya",
+      "neighborhood": "Şirinyalı / Akra Antalya",
+      "district_slug": "muratpasa",
+      "category": "Restaurant",
+      "cuisine": "Contemporary international and local cuisine",
+      "official_url": "https://www.akrahotels.com/en/hotels/akra-antalya/gastronomy/restaurants/asmani-restaurant/",
+      "source_url": "https://www.akrahotels.com/en/hotels/akra-antalya/gastronomy/restaurants/asmani-restaurant/",
+      "source_urls": [
+        "https://www.akrahotels.com/en/hotels/akra-antalya/gastronomy/restaurants/asmani-restaurant/"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "Akra Antalya’s rooftop restaurant, combining a seasonal menu with Mediterranean views.",
+      "description": "Asmani is the terrace restaurant at Akra Antalya. Its menu combines local flavours and international dishes, and the hotel describes its approach as casual fine dining with seasonal, farm-to-table influences.",
+      "sections": [
+        {
+          "heading": "Food and setting",
+          "body": "The rooftop panorama makes the setting especially relevant for a celebration or a scenic meal. This is a specific restaurant within Akra Antalya, not a separate hotel or a restaurant in central Kaleiçi."
+        },
+        {
+          "heading": "Plan your visit",
+          "body": "The official page lists noon to midnight service. Contact the restaurant for a reservation, terrace availability and any requirements for visitors not staying at the hotel."
+        }
+      ],
+      "booking_note": "The official page lists noon to midnight service. Contact the restaurant for a reservation, terrace availability and any requirements for visitors not staying at the hotel.",
+      "address": null,
+      "current_status": "Official listing found; confirm opening and availability for your date.",
+      "verification_notes": [],
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://www.akrahotels.com/en/hotels/akra-antalya/gastronomy/restaurants/asmani-restaurant/"
+    },
+    {
+      "title": "Pablito Bistro",
+      "slug": "pablito-bistro",
+      "area": "Şirinyalı / Akra Antalya",
+      "neighborhood": "Şirinyalı / Akra Antalya",
+      "district_slug": "muratpasa",
+      "category": "Restaurant",
+      "cuisine": "International bistro",
+      "official_url": "https://www.akrahotels.com/en/hotels/akra-antalya/gastronomy/restaurants/pablito-bistro/",
+      "source_url": "https://www.akrahotels.com/en/hotels/akra-antalya/gastronomy/restaurants/pablito-bistro/",
+      "source_urls": [
+        "https://www.akrahotels.com/en/hotels/akra-antalya/gastronomy/restaurants/pablito-bistro/"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "A Cuban-influenced bistro at Akra Antalya with grills, pizzas and cocktails.",
+      "description": "Pablito offers a broad international menu within Akra Antalya. Cuban-inspired decor, coffee and cocktails are part of its identity, while the food ranges across grills, pizzas and locally influenced fusion dishes.",
+      "sections": [
+        {
+          "heading": "Food and setting",
+          "body": "The menu breadth makes this a practical alternative to a more formal dining room when a group wants different dishes. It is a separate venue from Asmani even though both are in the same hotel."
+        },
+        {
+          "heading": "Plan your visit",
+          "body": "The official page lists service from 08:00 to 23:20. Confirm kitchen hours, reservations and outside-guest access with Akra before travelling."
+        }
+      ],
+      "booking_note": "The official page lists service from 08:00 to 23:20. Confirm kitchen hours, reservations and outside-guest access with Akra before travelling.",
+      "address": null,
+      "current_status": "Official listing found; confirm opening and availability for your date.",
+      "verification_notes": [],
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://www.akrahotels.com/en/hotels/akra-antalya/gastronomy/restaurants/pablito-bistro/"
+    },
+    {
+      "title": "Vanilla Restaurant",
+      "slug": "vanilla-restaurant",
+      "area": "Kaleiçi / Barbaros",
+      "neighborhood": "Kaleiçi / Barbaros",
+      "district_slug": "muratpasa",
+      "category": "Restaurant",
+      "cuisine": "Modern international",
+      "official_url": "https://vanillaantalya.com/",
+      "source_url": "https://vanillaantalya.com/",
+      "source_urls": [
+        "https://vanillaantalya.com/",
+        "https://vanillaantalya.com/contact.php"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "A British chef-led old-town restaurant with Mediterranean cooking and Thai influences.",
+      "description": "Vanilla has operated in Kaleiçi since 2007. Its official site describes a British chef’s kitchen in a historic stone setting, with seafood, grills, vegetarian plates and international flavours.",
+      "sections": [
+        {
+          "heading": "Food and setting",
+          "body": "The current menu highlights dishes such as papaya salad, Thai-style prawn soup and Thai fried rice alongside pizza and other mains. It offers a change of pace from an exclusively Turkish grill menu without leaving the old town."
+        },
+        {
+          "heading": "Plan your visit",
+          "body": "The official site lists daily opening from noon to 23:30 and offers table requests. Confirm that a request has been accepted, particularly for a same-day evening."
+        }
+      ],
+      "booking_note": "The official site lists daily opening from noon to 23:30 and offers table requests. Confirm that a request has been accepted, particularly for a same-day evening.",
+      "address": "Barbaros, Hesapçı Sk. No:33, Muratpaşa, Antalya",
+      "current_status": "Official listing found; confirm opening and availability for your date.",
+      "verification_notes": [],
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://vanillaantalya.com/"
+    },
+    {
+      "title": "Vahap Usta Et Restaurant",
+      "slug": "vahap-usta-et-restaurant",
+      "area": "Gürsu / Konyaaltı",
+      "neighborhood": "Gürsu / Konyaaltı",
+      "district_slug": "konyaalti",
+      "category": "Restaurant",
+      "cuisine": "Steaks, kebabs and Turkish grills",
+      "official_url": "https://vahaprestaurant.com/",
+      "source_url": "https://vahaprestaurant.com/",
+      "source_urls": [
+        "https://vahaprestaurant.com/",
+        "https://vahaprestaurant.com/antalya-restaurant-menu/"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "A meat-focused Konyaaltı restaurant with steaks, kebabs and a wide meze selection.",
+      "description": "Vahap’s published menu is organized around beef and lamb cuts, dry-aged meat, kebabs, köfte and burgers, with starters and meze alongside. Its location is in Gürsu on Konyaaltı’s western side.",
+      "sections": [
+        {
+          "heading": "Food and setting",
+          "body": "Published examples include ali nazik and beyti sarma, with starters such as içli köfte and thin-sliced liver. This is a dedicated restaurant rather than a beach club, and the range suits diners choosing between Turkish grills and steak."
+        },
+        {
+          "heading": "Plan your visit",
+          "body": "Use the venue’s reservation contact. Confirm the current cut, portion size and price before ordering premium meat, and request specific dietary accommodation directly."
+        }
+      ],
+      "booking_note": "Use the venue’s reservation contact. Confirm the current cut, portion size and price before ordering premium meat, and request specific dietary accommodation directly.",
+      "address": "Gürsu, Atatürk Blv. No:160, Konyaaltı, Antalya",
+      "current_status": "Official listing found; confirm opening and availability for your date.",
+      "verification_notes": [],
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://vahaprestaurant.com/"
+    },
+    {
+      "title": "Sıralı Kebap Antalya",
+      "slug": "sirali-kebap-antalya",
+      "area": "Çağlayan / Lara",
+      "neighborhood": "Çağlayan / Lara",
+      "district_slug": "muratpasa",
+      "category": "Restaurant",
+      "cuisine": "Turkish and Ottoman-inspired kebabs",
+      "official_url": "https://www.siralikebap.com/",
+      "source_url": "https://www.siralikebap.com/",
+      "source_urls": [
+        "https://www.siralikebap.com/"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "The Antalya branch of a modern Turkish kebab restaurant known for inventive presentations.",
+      "description": "Sıralı reworks Turkish and Ottoman culinary traditions with contemporary presentation. Its official site identifies the Antalya restaurant on Eski Lara Caddesi in Çağlayan and provides a branch-specific telephone number.",
+      "sections": [
+        {
+          "heading": "Food and setting",
+          "body": "The food identity centres on kebabs and traditional recipes rather than Mediterranean seafood. The brand’s Michelin Guide 2026 announcement explicitly concerns Istanbul-Etiler, not this Antalya branch."
+        },
+        {
+          "heading": "Plan your visit",
+          "body": "Choose Antalya when contacting the brand. The official address is No:319; some third-party directories show No:419, so use the current official directions."
+        }
+      ],
+      "booking_note": "Choose Antalya when contacting the brand. The official address is No:319; some third-party directories show No:419, so use the current official directions.",
+      "address": "Çağlayan Mah., Eski Lara Caddesi No:319, Muratpaşa, Antalya",
+      "current_status": "Official listing found; confirm opening and availability for your date.",
+      "verification_notes": [
+        "Michelin branding on the chain website applies to Istanbul-Etiler only; it must not be copied onto the Antalya profile."
+      ],
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://www.siralikebap.com/"
+    },
+    {
+      "title": "Lara Balık Işıklar",
+      "slug": "lara-balik-isiklar",
+      "area": "Gençlik / Işıklar",
+      "neighborhood": "Gençlik / Işıklar",
+      "district_slug": "muratpasa",
+      "category": "Restaurant",
+      "cuisine": "Seafood and meze",
+      "official_url": "https://larabalik.com/",
+      "source_url": "https://larabalik.com/",
+      "source_urls": [
+        "https://larabalik.com/",
+        "https://larabalik.com/iletisim/",
+        "https://larabalik.com/hakkimizda/"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "A seafood-and-meze restaurant in Işıklar, distinct from the brand’s Konyaaltı branch.",
+      "description": "Lara Balık operates separate Işıklar and Konyaaltı restaurants. This profile refers to Işıklar at Tevfik Işık Caddesi No:8, a useful distinction when arranging transport or a reservation.",
+      "sections": [
+        {
+          "heading": "Food and setting",
+          "body": "The restaurant’s focus is seasonal fish, seafood and a broad meze selection. Choose fish after asking what is available that day, rather than assuming a fixed menu from an older review."
+        },
+        {
+          "heading": "Plan your visit",
+          "body": "The official contact page asks guests to reserve by telephone. Confirm the Işıklar branch and ask whether fish is priced per portion or by weight before ordering."
+        }
+      ],
+      "booking_note": "The official contact page asks guests to reserve by telephone. Confirm the Işıklar branch and ask whether fish is priced per portion or by weight before ordering.",
+      "address": "Gençlik, Tevfik Işık Cd. No:8, Muratpaşa, Antalya",
+      "current_status": "Official listing found; confirm opening and availability for your date.",
+      "verification_notes": [],
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://larabalik.com/"
+    },
+    {
+      "title": "Antalya Balıkevi",
+      "slug": "antalya-balikevi",
+      "area": "Çağlayan / Lara",
+      "neighborhood": "Çağlayan / Lara",
+      "district_slug": "muratpasa",
+      "category": "Restaurant",
+      "cuisine": "Seafood and Mediterranean meze",
+      "official_url": "https://antalyabalikevi.com.tr/",
+      "source_url": "https://antalyabalikevi.com.tr/",
+      "source_urls": [
+        "https://antalyabalikevi.com.tr/",
+        "https://antalyabalikevi.com.tr/hakkimizda/",
+        "https://www.tripadvisor.com.tr/Restaurant_Review-g297962-d7659026-Reviews-Antalya_Balikevi-Antalya_Turkish_Mediterranean_Coast.html"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "A Lara seafood restaurant serving seasonal fish and meze in an indoor-and-garden setting.",
+      "description": "Antalya Balıkevi is a separate business from Lara Balık and Barınak Balık Evi. Its own material emphasizes seasonal Mediterranean seafood, meze and a garden setting in the Lara area.",
+      "sections": [
+        {
+          "heading": "Food and setting",
+          "body": "The venue’s current online presentation also describes a garden concept called Silent Breeze. Do not assume the same access or age policy applies to every part of the restaurant; confirm your intended table area."
+        },
+        {
+          "heading": "Plan your visit",
+          "body": "Contact the venue directly for a reservation, current opening hours and fish prices. The official domain was indexed during this check, but a direct page fetch returned an error; the link is not proof of live table availability."
+        }
+      ],
+      "booking_note": "Contact the venue directly for a reservation, current opening hours and fish prices. The official domain was indexed during this check, but a direct page fetch returned an error; the link is not proof of live table availability.",
+      "address": null,
+      "current_status": "Official listing found; confirm opening and availability for your date.",
+      "verification_notes": [
+        "Official search index available; direct homepage fetch returned 404 through the research tool."
+      ],
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://antalyabalikevi.com.tr/"
+    },
+    {
+      "title": "Parlak Restaurant",
+      "slug": "parlak-restaurant",
+      "area": "Kalekapısı / Zincirli Han",
+      "neighborhood": "Kalekapısı / Zincirli Han",
+      "district_slug": "muratpasa",
+      "category": "Restaurant",
+      "cuisine": "Traditional Turkish",
+      "official_url": "https://www.parlakrestaurant.com/",
+      "source_url": "https://www.parlakrestaurant.com/",
+      "source_urls": [
+        "https://www.parlakrestaurant.com/"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "A longstanding Turkish restaurant in Zincirli Han, especially associated with charcoal chicken.",
+      "description": "Founded in 1954, Parlak is set inside the historic Zincirli Han near Antalya’s clock tower. Its official site lists Turkish pot dishes, meze, charcoal-grilled chicken, meat and fish.",
+      "sections": [
+        {
+          "heading": "Food and setting",
+          "body": "The han location gives a different atmosphere from the seafront dining rooms. Charcoal chicken is the venue’s stated speciality; its wider menu makes it suitable for a traditional sit-down meal in the city centre."
+        },
+        {
+          "heading": "Plan your visit",
+          "body": "The venue publishes daily 12:00–00:00 hours. Use the official directions into Zincirli Han and reserve for a group or a particular seating area."
+        }
+      ],
+      "booking_note": "The venue publishes daily 12:00–00:00 hours. Use the official directions into Zincirli Han and reserve for a group or a particular seating area.",
+      "address": "406. Sokak, Zincirli Han İçi No:1, Muratpaşa, Antalya",
+      "current_status": "Official listing found; confirm opening and availability for your date.",
+      "verification_notes": [],
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://www.parlakrestaurant.com/"
+    },
+    {
+      "title": "Ayar Meyhanesi",
+      "slug": "ayar-meyhanesi",
+      "area": "Kaleiçi / Kılınçarslan",
+      "neighborhood": "Kaleiçi / Kılınçarslan",
+      "district_slug": "muratpasa",
+      "category": "Restaurant",
+      "cuisine": "Turkish meyhane, seafood and meze",
+      "official_url": "https://www.ayarmeyhanesi.com/en",
+      "source_url": "https://www.ayarmeyhanesi.com/en",
+      "source_urls": [
+        "https://www.ayarmeyhanesi.com/en",
+        "https://www.tripadvisor.com/Restaurant_Review-g297962-d12559099-Reviews-Ayar_Meyhanesi-Antalya_Turkish_Mediterranean_Coast.html"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "A Kaleiçi meyhane focused on seafood, meze and a sociable evening atmosphere.",
+      "description": "Ayar Meyhanesi has served in Kaleiçi since 2017. The restaurant’s official introduction centres on fresh seafood and meze. It is located on Hesapçı Sokak in the old town.",
+      "sections": [
+        {
+          "heading": "Food and setting",
+          "body": "The venue refers to recognition in the İncili Gastronomy Guide. That is a different guide and is not a Michelin star. Its meyhane format is suited to a shared meze meal rather than a quiet tasting-menu experience."
+        },
+        {
+          "heading": "Plan your visit",
+          "body": "Reserve through the official contact and ask about the evening’s music programme, table area and current menu if these matter to your visit."
+        }
+      ],
+      "booking_note": "Reserve through the official contact and ask about the evening’s music programme, table area and current menu if these matter to your visit.",
+      "address": "Kılınçarslan Mah., Hesapçı Sok. No:59, Muratpaşa, Antalya",
+      "current_status": "Official listing found; confirm opening and availability for your date.",
+      "verification_notes": [],
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://www.ayarmeyhanesi.com/en"
+    },
+    {
+      "title": "Tirmis",
+      "slug": "tirmis",
+      "area": "Lara resort area",
+      "neighborhood": "Lara resort area",
+      "district_slug": "muratpasa",
+      "category": "Restaurant",
+      "cuisine": "Regional Antalya cuisine",
+      "official_url": "https://bayoulara.com/en/gastronomy/tirmis",
+      "source_url": "https://bayoulara.com/en/gastronomy/tirmis",
+      "source_urls": [
+        "https://bayoulara.com/en/gastronomy/tirmis",
+        "https://barutlara.com/tr/gastronomy/tirmis-a-la-carte-restaurant",
+        "https://bayoulara.com/"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "A resort restaurant devoted to Antalya flavours such as hibeş, tahini piyaz and pumpkin dessert.",
+      "description": "Tirmis takes its name from the lupin-bean snack associated with Antalya. The official resort pages describe a contemporary restaurant built around regional dishes and produce, with freshly made yufka bread.",
+      "sections": [
+        {
+          "heading": "Food and setting",
+          "body": "Published examples include hibeş, şiş köfte, tahini-dressed piyaz and tahini pumpkin dessert. The venue is inside a resort and should not be presented as an unrestricted walk-in city restaurant."
+        },
+        {
+          "heading": "Plan your visit",
+          "body": "Contact the resort to confirm whether non-residents may dine, the reservation procedure, any extra charge and seasonal opening. Current official pages use BAYOU Lara branding; older source pages use Lara Barut Collection."
+        }
+      ],
+      "booking_note": "Contact the resort to confirm whether non-residents may dine, the reservation procedure, any extra charge and seasonal opening. Current official pages use BAYOU Lara branding; older source pages use Lara Barut Collection.",
+      "address": null,
+      "current_status": "Official listing found; confirm opening and availability for your date.",
+      "verification_notes": [
+        "Brand pages are transitioning between Lara Barut Collection and BAYOU Lara; confirm current booking destination."
+      ],
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://bayoulara.com/en/gastronomy/tirmis"
+    },
+    {
+      "title": "Fatma Sultan Türk Mutfağı",
+      "slug": "fatma-sultan-turk-mutfagi",
+      "area": "Haşimişcan",
+      "neighborhood": "Haşimişcan",
+      "district_slug": "muratpasa",
+      "category": "Restaurant",
+      "cuisine": "Turkish and Ottoman; vegan options",
+      "official_url": "https://www.fatmasultanrestaurant.com/tr",
+      "source_url": "https://www.fatmasultanrestaurant.com/tr",
+      "source_urls": [
+        "https://www.fatmasultanrestaurant.com/tr"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "Home-style Turkish dishes and a dedicated vegan selection in a historic-house setting.",
+      "description": "Fatma Sultan serves Turkish and Ottoman dishes in a mansion-style building with indoor seating and a garden, just outside the old-town core. The current official Turkish page gives Arık Caddesi No:20.",
+      "sections": [
+        {
+          "heading": "Food and setting",
+          "body": "Highlighted dishes include hünkar beğendi, islim kebabı and hand-made mantı. A dedicated vegan menu is explicitly advertised. The venue states that pets are accepted in the garden and that an accessible entrance is available; confirm any individual access needs."
+        },
+        {
+          "heading": "Plan your visit",
+          "body": "The official page lists Monday–Saturday 09:00–22:00 and Sunday noon–22:00. Book your preferred indoor or garden table and discuss allergies directly with staff."
+        }
+      ],
+      "booking_note": "The official page lists Monday–Saturday 09:00–22:00 and Sunday noon–22:00. Book your preferred indoor or garden table and discuss allergies directly with staff.",
+      "address": "Haşimişcan, Arık Caddesi No:20, Muratpaşa, Antalya",
+      "current_status": "Official listing found; confirm opening and availability for your date.",
+      "verification_notes": [],
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://www.fatmasultanrestaurant.com/tr"
+    },
+    {
+      "title": "NEMO Restaurant & Lounge",
+      "slug": "nemo-restaurant-lounge",
+      "area": "Kadriye / The Land of Legends",
+      "neighborhood": "Kadriye / The Land of Legends",
+      "district_slug": "serik",
+      "category": "Restaurant",
+      "cuisine": "Eurasian, seafood and sushi",
+      "official_url": "https://www.nemorestaurants.com/",
+      "source_url": "https://www.nemorestaurants.com/",
+      "source_urls": [
+        "https://www.nemorestaurants.com/",
+        "https://www.nemorestaurants.com/contact",
+        "https://www.nemorestaurants.com/menu"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "Aquarium-side dining at The Land of Legends, with seafood, sushi and Pan-Asian influences.",
+      "description": "NEMO is located at The Land of Legends in Kadriye, near Belek. The dining room faces a large aquarium, while the menu combines modern European seafood with Japanese and wider Asian dishes.",
+      "sections": [
+        {
+          "heading": "Food and setting",
+          "body": "Published menu examples include tempura, dim sum, gyoza, sushi, crispy-duck salad and sea bass. The restaurant advertises Gault & Millau recognition, which must not be described as a Michelin award."
+        },
+        {
+          "heading": "Plan your visit",
+          "body": "Reserve directly and confirm the route into the restaurant and any venue-entry requirements. The current contact page lists lunch from 13:00, dinner from 18:00 to midnight and the last food order at 23:15."
+        }
+      ],
+      "booking_note": "Reserve directly and confirm the route into the restaurant and any venue-entry requirements. The current contact page lists lunch from 13:00, dinner from 18:00 to midnight and the last food order at 23:15.",
+      "address": "Kadriye Mah., Atatürk Caddesi No:515/1, The Land of Legends, Serik, Antalya",
+      "current_status": "Official listing found; confirm opening and availability for your date.",
+      "verification_notes": [],
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://www.nemorestaurants.com/"
+    },
+    {
+      "title": "Oburus Momus",
+      "slug": "oburus-momus",
+      "area": "Çukurbağ Peninsula / Andifli",
+      "neighborhood": "Çukurbağ Peninsula / Andifli",
+      "district_slug": "kas",
+      "category": "Restaurant",
+      "cuisine": "Vegan and vegetarian",
+      "official_url": "https://www.oburus.com/momus/",
+      "source_url": "https://www.oburus.com/momus/",
+      "source_urls": [
+        "https://www.oburus.com/momus/",
+        "https://www.oburus.com/momus/tr/menu/",
+        "https://www.oburus.com/momus/tr/hikayemiz/"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "A plant-focused Kaş restaurant with globally inspired dishes and a peninsula setting.",
+      "description": "Oburus Momus is a vegan and vegetarian restaurant on the Kaş peninsula. Its menu draws on several cuisines, with vegetable bowls, noodles and dishes using ingredients such as tempeh.",
+      "sections": [
+        {
+          "heading": "Food and setting",
+          "body": "The official address is Adil Akba Sokak No:13. This is not a restaurant in the tight harbour streets, so plan transport rather than assuming it is a quick stroll from central Kaş."
+        },
+        {
+          "heading": "Plan your visit",
+          "body": "The official site lists 17:00–00:00, but the business listing was marked temporarily closed during research. Confirm seasonal reopening and reservation arrangements directly before travelling."
+        }
+      ],
+      "booking_note": "The official site lists 17:00–00:00, but the business listing was marked temporarily closed during research. Confirm seasonal reopening and reservation arrangements directly before travelling.",
+      "address": "Andifli Mah., Adil Akba Sok. No:13, Kaş, Antalya",
+      "current_status": "Seasonal/current status needs confirmation: business listing says temporarily closed; official website remains live.",
+      "verification_notes": [
+        "Do not advertise as open now. Structured business lookup on 2026-11-09 returned Temporarily Closed."
+      ],
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://www.oburus.com/momus/"
+    },
+    {
+      "title": "Bi Lokma Restaurant",
+      "slug": "bi-lokma-restaurant",
+      "area": "Andifli / central Kaş",
+      "neighborhood": "Andifli / central Kaş",
+      "district_slug": "kas",
+      "category": "Restaurant",
+      "cuisine": "Turkish home-style cooking",
+      "official_url": "https://www.bilokma.com.tr/",
+      "source_url": "https://www.bilokma.com.tr/",
+      "source_urls": [
+        "https://www.bilokma.com.tr/",
+        "https://www.bilokma.com.tr/iletisim",
+        "https://www.bilokma.com.tr/menuler/anayemekler"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "A central Kaş restaurant for Turkish breakfast, meze and home-style mains.",
+      "description": "Bi Lokma’s official site describes breakfast, garden dining, meze and freshly prepared Turkish dishes. It is on Uğur Mumcu Caddesi in Andifli and offers a broad menu rather than a fixed tasting format.",
+      "sections": [
+        {
+          "heading": "Food and setting",
+          "body": "Published dishes include home-style mantı, meat-stuffed vine leaves, grilled fish, liver and oven-baked rice pudding. It is a useful option when a group wants recognizable Turkish dishes and a slower garden meal."
+        },
+        {
+          "heading": "Plan your visit",
+          "body": "Use the official reservation or contact page, especially for a group or a peak-season evening. Confirm opening dates and which breakfast or main menu is available for your planned time."
+        }
+      ],
+      "booking_note": "Use the official reservation or contact page, especially for a group or a peak-season evening. Confirm opening dates and which breakfast or main menu is available for your planned time.",
+      "address": "Andifli, Uğur Mumcu Cd. No:21, Kaş, Antalya",
+      "current_status": "Official listing found; confirm opening and availability for your date.",
+      "verification_notes": [],
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://www.bilokma.com.tr/"
+    },
+    {
+      "title": "Korsan Meze",
+      "slug": "korsan-meze",
+      "area": "Kalkan beach / old town",
+      "neighborhood": "Kalkan beach / old town",
+      "district_slug": "kas",
+      "category": "Restaurant",
+      "cuisine": "Turkish meze and Mediterranean",
+      "official_url": "https://www.korsankalkan.com/en/korsan-meze/",
+      "source_url": "https://www.korsankalkan.com/en/korsan-meze/",
+      "source_urls": [
+        "https://www.korsankalkan.com/en/korsan-meze/",
+        "https://www.korsankalkan.com/en/menus/"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "A longstanding Kalkan restaurant overlooking the beach, with meze, lamb and seafood.",
+      "description": "Korsan Meze was established in 1979 and occupies a beach-view position in Kalkan. Its menu spans traditional Turkish meze, lamb, kebabs, chicken, fish and vegetarian dishes.",
+      "sections": [
+        {
+          "heading": "Food and setting",
+          "body": "The restaurant is part of the Korsan Kalkan group, but it is distinct from the Fish Terrace upstairs. Its broad menu and relaxed format make it a useful choice for a shared Turkish meal."
+        },
+        {
+          "heading": "Plan your visit",
+          "body": "Book the Meze restaurant specifically, not the Fish Terrace. Check seasonal opening and the current menu; the official site also advertises takeaway and home delivery."
+        }
+      ],
+      "booking_note": "Book the Meze restaurant specifically, not the Fish Terrace. Check seasonal opening and the current menu; the official site also advertises takeaway and home delivery.",
+      "address": "Kalkan, Atatürk Cd. No:17/A, Kaş, Antalya",
+      "current_status": "Official listing found; confirm opening and availability for your date.",
+      "verification_notes": [],
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://www.korsankalkan.com/en/korsan-meze/"
+    },
+    {
+      "title": "Korsan Fish Terrace",
+      "slug": "korsan-fish-terrace",
+      "area": "Kalkan beach / old town",
+      "neighborhood": "Kalkan beach / old town",
+      "district_slug": "kas",
+      "category": "Restaurant",
+      "cuisine": "Mediterranean seafood",
+      "official_url": "https://www.korsankalkan.com/en/korsan-fish-terrace/",
+      "source_url": "https://www.korsankalkan.com/en/korsan-fish-terrace/",
+      "source_urls": [
+        "https://www.korsankalkan.com/en/korsan-fish-terrace/"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "A rooftop above Korsan Meze with Kalkan Bay views and a seafood-led menu.",
+      "description": "The Fish Terrace sits on the roof above Korsan Meze, facing the bay and town beach. The official description emphasizes Mediterranean fish dishes, generally served off the bone, alongside non-fish choices.",
+      "sections": [
+        {
+          "heading": "Food and setting",
+          "body": "The venue has its own menu, reservations and telephone number. Turkish wines and cocktails are part of its offering. The rooftop setting differentiates it from the downstairs restaurant."
+        },
+        {
+          "heading": "Plan your visit",
+          "body": "Reserve the Fish Terrace explicitly, and confirm seasonal service, stair/access requirements and your preferred table. Music schedules can change, so check directly if you are seeking a quiet evening."
+        }
+      ],
+      "booking_note": "Reserve the Fish Terrace explicitly, and confirm seasonal service, stair/access requirements and your preferred table. Music schedules can change, so check directly if you are seeking a quiet evening.",
+      "address": "Above Korsan Meze, Kalkan beach area, Kaş, Antalya",
+      "current_status": "Official listing found; confirm opening and availability for your date.",
+      "verification_notes": [],
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://www.korsankalkan.com/en/korsan-fish-terrace/"
+    },
+    {
+      "title": "Side Orfoz Restaurant",
+      "slug": "side-orfoz-restaurant",
+      "area": "Ancient Side / harbour",
+      "neighborhood": "Ancient Side / harbour",
+      "district_slug": "manavgat",
+      "category": "Restaurant",
+      "cuisine": "Seafood, Turkish and international",
+      "official_url": "https://sideorfozrestaurant.com/EN",
+      "source_url": "https://sideorfozrestaurant.com/EN",
+      "source_urls": [
+        "https://sideorfozrestaurant.com/EN"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "Seafood and Turkish-international cooking in the historic harbour area of Side.",
+      "description": "Side Orfoz is on Nar Sokak near Liman Caddesi in ancient Side. Its official menu and description combine seafood with Turkish and international dishes in a sea-view setting.",
+      "sections": [
+        {
+          "heading": "Food and setting",
+          "body": "This is the Side restaurant, not Orfoz in Bodrum. Michelin recognition associated with the Bodrum venue must not be attached to this business. The published menu includes fish, seafood plates, pasta and meat dishes."
+        },
+        {
+          "heading": "Plan your visit",
+          "body": "Use the official contact to reserve, ask about terrace seating and confirm the current menu. Allow for walking within the ancient town rather than assuming direct car access to the entrance."
+        }
+      ],
+      "booking_note": "Use the official contact to reserve, ask about terrace seating and confirm the current menu. Allow for walking within the ancient town rather than assuming direct car access to the entrance.",
+      "address": "Side Selimiye Mah., Liman Cad., Nar Sok. No:5, Manavgat, Antalya",
+      "current_status": "Official listing found; confirm opening and availability for your date.",
+      "verification_notes": [
+        "Name collision: Side Orfoz is not Orfoz in Bodrum/Muğla."
+      ],
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://sideorfozrestaurant.com/EN"
+    },
+    {
+      "title": "Karma Side",
+      "slug": "karma-side",
+      "area": "Ancient Side / waterfront",
+      "neighborhood": "Ancient Side / waterfront",
+      "district_slug": "manavgat",
+      "category": "Restaurant",
+      "cuisine": "Contemporary international",
+      "official_url": "https://www.karmaside.com/index.html",
+      "source_url": "https://www.karmaside.com/index.html",
+      "source_urls": [
+        "https://www.karmaside.com/index.html",
+        "https://www.gault-millau.com.tr/en/karma-restaurant/"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "A waterfront restaurant in ancient Side with seasonal menus and a lounge atmosphere.",
+      "description": "Karma occupies a seaside setting in the ancient town of Side. Gault & Millau’s own profile describes a seasonally prepared menu, vegetarian alternatives and an emphasis on locally sourced ingredients.",
+      "sections": [
+        {
+          "heading": "Food and setting",
+          "body": "The waterfront setting and lounge identity make this more of an evening destination than a simple local lunch stop. Its Gault & Millau listing is not a Michelin distinction."
+        },
+        {
+          "heading": "Plan your visit",
+          "body": "Confirm the restaurant reservation separately from any lounge or nightlife arrangements, and ask about seasonal hours and entertainment. The official site was indexed but could not be fetched reliably in this check."
+        }
+      ],
+      "booking_note": "Confirm the restaurant reservation separately from any lounge or nightlife arrangements, and ask about seasonal hours and entertainment. The official site was indexed but could not be fetched reliably in this check.",
+      "address": null,
+      "current_status": "Official listing found; confirm opening and availability for your date.",
+      "verification_notes": [
+        "Official homepage search result verified; direct fetch returned 502/timeout."
+      ],
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://www.karmaside.com/index.html"
+    },
+    {
+      "title": "Ravza Restaurant",
+      "slug": "ravza-restaurant",
+      "area": "Çarşı / central Alanya",
+      "neighborhood": "Çarşı / central Alanya",
+      "district_slug": "alanya",
+      "category": "Restaurant",
+      "cuisine": "Traditional Turkish",
+      "official_url": "https://www.ravzarestaurant.com/",
+      "source_url": "https://www.ravzarestaurant.com/",
+      "source_urls": [
+        "https://www.ravzarestaurant.com/",
+        "https://www.ravzarestaurant.com/menu/"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "A family-founded Alanya restaurant dating to 1955, with a broad Turkish menu.",
+      "description": "Ravza began as a small three-table business in 1955 and grew into a multi-floor restaurant in central Alanya. Its official menu covers Turkish meat dishes, salads, starters and regional specialities.",
+      "sections": [
+        {
+          "heading": "Food and setting",
+          "body": "The published menu includes Alanya kebap, and the venue also discusses Alanya’s traditional külüklü soup. It is a better fit for an established town restaurant than for a rooftop sunset experience."
+        },
+        {
+          "heading": "Plan your visit",
+          "body": "Check the current menu and contact the restaurant for a reservation, especially for large groups. Do not assume every regional dish discussed on its site is available daily."
+        }
+      ],
+      "booking_note": "Check the current menu and contact the restaurant for a reservation, especially for large groups. Do not assume every regional dish discussed on its site is available daily.",
+      "address": null,
+      "current_status": "Official listing found; confirm opening and availability for your date.",
+      "verification_notes": [],
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://www.ravzarestaurant.com/"
+    },
+    {
+      "title": "Villa Okan Cafe & Restaurant",
+      "slug": "villa-okan-cafe-restaurant",
+      "area": "Şekerhane / central Alanya",
+      "neighborhood": "Şekerhane / central Alanya",
+      "district_slug": "alanya",
+      "category": "Restaurant",
+      "cuisine": "Italian, Mexican and international",
+      "official_url": "https://www.villaokan.com/en/",
+      "source_url": "https://www.villaokan.com/en/",
+      "source_urls": [
+        "https://www.villaokan.com/en/"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "A central Alanya garden restaurant with Italian-Mexican dishes and family amenities.",
+      "description": "Villa Okan is on Bostancıpınarı Caddesi in central Alanya. The official site highlights its garden, historic atmosphere, Italian and Mexican dishes, cocktails and live music evenings.",
+      "sections": [
+        {
+          "heading": "Food and setting",
+          "body": "A children’s playground is specifically listed, making it relevant for families who want a sit-down meal. The broad international menu is a different proposition from a specialist kebab or seafood restaurant."
+        },
+        {
+          "heading": "Plan your visit",
+          "body": "Contact the venue for the music programme, opening hours and a table in the desired area. Ask about playground access and suitability for your children’s ages rather than assuming supervised childcare."
+        }
+      ],
+      "booking_note": "Contact the venue for the music programme, opening hours and a table in the desired area. Ask about playground access and suitability for your children’s ages rather than assuming supervised childcare.",
+      "address": "Şekerhane, Bostancıpınarı Cd. No:28, Alanya, Antalya",
+      "current_status": "Official listing found; confirm opening and availability for your date.",
+      "verification_notes": [],
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://www.villaokan.com/en/"
+    },
+    {
+      "title": "Kale Panorama Restaurant",
+      "slug": "kale-panorama-restaurant",
+      "area": "Tophane / castle road",
+      "neighborhood": "Tophane / castle road",
+      "district_slug": "alanya",
+      "category": "Restaurant",
+      "cuisine": "Turkish and international",
+      "official_url": "https://alanyapanorama.com/",
+      "source_url": "https://alanyapanorama.com/",
+      "source_urls": [
+        "https://alanyapanorama.com/",
+        "https://alanyapanorama.com/contactus",
+        "https://alanyapanorama.com/menu"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "A castle-road restaurant with terraces looking across Alanya.",
+      "description": "Kale Panorama is on Kale Caddesi in Tophane, on the route toward Alanya Castle. Its official site emphasizes the historic setting and terraces with city views.",
+      "sections": [
+        {
+          "heading": "Food and setting",
+          "body": "The draw is the elevated setting as well as the meal, so it belongs in a different part of an itinerary from central harbour restaurants. Consult the current menu rather than relying on old tour-operator package descriptions."
+        },
+        {
+          "heading": "Plan your visit",
+          "body": "Reserve and confirm the terrace, access arrangements and how to get there. Transfers promoted by third-party travel sites are not assumed to be included in every direct booking."
+        }
+      ],
+      "booking_note": "Reserve and confirm the terrace, access arrangements and how to get there. Transfers promoted by third-party travel sites are not assumed to be included in every direct booking.",
+      "address": "Tophane Mah., Kale Caddesi No:15, Alanya, Antalya",
+      "current_status": "Official listing found; confirm opening and availability for your date.",
+      "verification_notes": [],
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://alanyapanorama.com/"
+    },
+    {
+      "title": "Captain Pirate Restaurant & Bar",
+      "slug": "captain-pirate-restaurant-bar",
+      "area": "Central Kemer",
+      "neighborhood": "Central Kemer",
+      "district_slug": "kemer",
+      "category": "Restaurant",
+      "cuisine": "International restaurant and bar",
+      "official_url": "https://captainpiraterestaurant.com/",
+      "source_url": "https://captainpiraterestaurant.com/",
+      "source_urls": [
+        "https://captainpiraterestaurant.com/",
+        "https://www.tripadvisor.com/Restaurant_Review-g297966-d1501133-Reviews-Captain_Pirate_Restaurant-Kemer_Turkish_Mediterranean_Coast.html"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "A pirate-themed Kemer restaurant and bar combining dinner with a lively atmosphere.",
+      "description": "Captain Pirate is a themed restaurant and bar in central Kemer. Its official presentation stresses imaginative pirate-inspired decor and an energetic dining experience, rather than a quiet fine-dining room.",
+      "sections": [
+        {
+          "heading": "Food and setting",
+          "body": "This is a standalone restaurant, not the similarly named Pirate’s Beach Club resort in Tekirova. The lively bar-and-restaurant format makes atmosphere an important part of deciding whether it suits your group."
+        },
+        {
+          "heading": "Plan your visit",
+          "body": "Confirm the current food menu, music or entertainment schedule and reservation directly. The official page appeared in current search results but a direct fetch timed out; no live table availability was verified."
+        }
+      ],
+      "booking_note": "Confirm the current food menu, music or entertainment schedule and reservation directly. The official page appeared in current search results but a direct fetch timed out; no live table availability was verified.",
+      "address": "Merkez, Münir Özkul Liman Cd., Kemer, Antalya",
+      "current_status": "Official listing found; confirm opening and availability for your date.",
+      "verification_notes": [
+        "Official domain verified by current search result; direct fetch timed out."
+      ],
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://captainpiraterestaurant.com/"
+    },
+    {
+      "title": "Barınak Balık Evi Lara",
+      "slug": "barinak-balik-evi-lara",
+      "area": "Çağlayan / Lara",
+      "neighborhood": "Çağlayan / Lara",
+      "district_slug": "muratpasa",
+      "category": "Restaurant",
+      "cuisine": "Seafood and meze",
+      "official_url": "https://www.barinakbalikevi.com/lara/",
+      "source_url": "https://www.barinakbalikevi.com/lara/",
+      "source_urls": [
+        "https://www.barinakbalikevi.com/lara/"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "A Lara seafood restaurant with seasonal meze and a garden setting.",
+      "description": "Barınak Balık Evi’s Lara branch is on 2047 Sokak in Çağlayan. The venue advertises daily seafood, regional meze and a garden suited to families and groups.",
+      "sections": [
+        {
+          "heading": "Food and setting",
+          "body": "The official page names grilled sea bass, buttered prawns and crisp calamari among its dishes. It is distinct from Antalya Balıkevi and Lara Balık, and also has a separate Döşemealtı branch."
+        },
+        {
+          "heading": "Plan your visit",
+          "body": "Select the Lara branch when booking. The venue publishes daily noon–01:00 hours, but confirm kitchen service and current fish prices before your visit."
+        }
+      ],
+      "booking_note": "Select the Lara branch when booking. The venue publishes daily noon–01:00 hours, but confirm kitchen service and current fish prices before your visit.",
+      "address": "Çağlayan, 2047. Sk. No:5, Muratpaşa, Antalya",
+      "current_status": "Official listing found; confirm opening and availability for your date.",
+      "verification_notes": [],
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://www.barinakbalikevi.com/lara/"
+    },
+    {
+      "category": "Restaurant",
+      "last_checked": "2026-11-09",
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "title": "Hasanağa Restaurant",
+      "slug": "hasanaga-restaurant",
+      "area": "Kaleiçi / Mescit Sokak",
+      "neighborhood": "Kaleiçi / Mescit Sokak",
+      "district_slug": "muratpasa",
+      "cuisine": "Turkish and Mediterranean",
+      "official_url": null,
+      "source_url": "https://www.antalyabarosu.org.tr/Detay/karma-kalec-restoran-309000",
+      "source_urls": [
+        "https://www.antalyabarosu.org.tr/Detay/karma-kalec-restoran-309000",
+        "https://hasanaga-restaurant.eatbu.com/?lang=tr"
+      ],
+      "legacy_venue_url": "https://hasanaga-restaurant.eatbu.com/?lang=tr",
+      "excerpt": "A legacy Kaleiçi restaurant address on Mescit Sokak, now also listed under Hasanağa Karma / Karma Kaleiçi.",
+      "description": "Hasanağa’s restaurant-hosted Eatbu page identifies a Turkish restaurant at Mescit Sokak No:15 in Kaleiçi, serving fish and grills. A more recent Antalya Bar Association listing dated 23 July 2025 names the same address Karma Kaleiçi Restoran and refers to it as Hasanağa Karma. These sources establish the location but leave the current operating name and continuity unresolved.",
+      "sections": [
+        {
+          "heading": "Identity and location",
+          "body": "Keep the legacy Hasanağa URL for readers searching the older name. Do not confuse this location with Karma Side in Manavgat. The old Eatbu page remains accessible, but it is not sufficient evidence that its published hours or menu still apply to the current business."
+        },
+        {
+          "heading": "Before visiting",
+          "body": "Confirm the current name, menu and service directly before travelling. No fully verified current official website was found for the Karma Kaleiçi branding, so this profile does not claim live availability or publish hours."
+        }
+      ],
+      "booking_note": "Current branding and operation require direct confirmation. Do not assume the legacy Eatbu hours remain valid.",
+      "address": "Mescit Sokak No:15, Kaleiçi, Muratpaşa, Antalya",
+      "current_status": "Identity requires confirmation: older Hasanağa page remains live; a 2025 institutional listing uses Karma Kaleiçi / Hasanağa Karma.",
+      "verification_notes": [
+        "Official current identity/site could not be fully verified. Preserve the existing URL but show a current-name verification notice.",
+        "The institutional source labels the neighbourhood Barbaros; the legacy Eatbu page has spelling/postcode errors. Use Mescit Sokak No:15 without copying the suspect postcode.",
+        "Do not import the source’s member discount into a general visitor profile."
+      ],
+      "photo_reference_url": null,
+      "editorial_action": "Preserve legacy URL and historical identity, add caveat; do not silently rename to Karma or mark open."
+    },
+    {
+      "category": "Restaurant",
+      "last_checked": "2026-11-09",
+      "michelin_status": "No verified Michelin distinction for this Antalya venue in the 2026 selection.",
+      "michelin": {
+        "guide_edition": "2026",
+        "status": "not_in_covered_region",
+        "stars": null,
+        "bib_gourmand": null,
+        "green_star": null,
+        "selected": null,
+        "source_url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+        "note": "Antalya province is not among the regions covered by the published 2026 restaurant selection. Do not present this as a zero-star rating."
+      },
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "title": "Mermerli Restaurant & Cafe",
+      "slug": "mermerli-restaurant",
+      "area": "Kaleiçi / Selçuk",
+      "neighborhood": "Kaleiçi / Selçuk",
+      "district_slug": "muratpasa",
+      "cuisine": "Regional Antalya dishes, desserts and Turkish coffee",
+      "official_url": "https://www.mermerli.com.tr/",
+      "source_url": "https://www.mermerli.com.tr/hakkimizda.php?lang=en",
+      "source_urls": [
+        "https://www.mermerli.com.tr/hakkimizda.php?lang=en",
+        "https://www.mermerli.com.tr/",
+        "https://www.antalyakorfez.com/valiligin-islettigi-mermerli-restoran-acildi-cay-45-tl"
+      ],
+      "legacy_venue_url": "http://www.mermerlirestaurant.com",
+      "excerpt": "A reopened Kaleiçi restaurant and cafe emphasizing Antalya’s regional products, desserts and coffee.",
+      "description": "Mermerli’s current website identifies the restaurant and cafe as operated by AYDAŞ, an Antalya Governorship subsidiary. Its menu highlights regional products and geographically indicated specialities, including Antalya bağaçası and Akseki saraylı dessert, alongside Turkish coffee. Local reporting published on 29 May 2026 corroborates that the restaurant reopened following renovation.",
+      "sections": [
+        {
+          "heading": "Current identity",
+          "body": "This profile concerns the restaurant and cafe at Banyo Sokak No:25. Older reviews of a seafood restaurant or beach package may describe a previous operator or concept. The current site emphasizes regional Antalya products rather than a purely seafood menu."
+        },
+        {
+          "heading": "Restaurant and beach are separate",
+          "body": "Local reopening coverage distinguishes the AYDAŞ restaurant from the privately operated beach below. A meal should not be presented as including beach entry, sunbeds or other beach services. Confirm any such arrangement separately."
+        }
+      ],
+      "booking_note": "Check the current menu and opening arrangements before visiting. The website contact page contains placeholder telephone and WhatsApp numbers, so no phone number or live opening hours are republished here.",
+      "address": "Selçuk Mah., Banyo Sokak No:25, Kaleiçi, Muratpaşa, Antalya",
+      "current_status": "Current venue website found; reopening reported on 29 May 2026. Live service availability not checked.",
+      "verification_notes": [
+        "Current identity is corroborated by the venue website and dated local reporting.",
+        "Contact-page telephone and WhatsApp values are placeholders; do not import them.",
+        "Do not reuse legacy beach pricing or legacy seafood claims without fresh confirmation."
+      ],
+      "photo_reference_url": "https://www.mermerli.com.tr/",
+      "editorial_action": "Preserve mermerli-restaurant URL, update current identity and website, separate restaurant from beach claims."
+    }
+  ],
+  "golf": [
+    {
+      "title": "Carya Golf Club",
+      "slug": "carya-golf-club",
+      "area": "Kadriye / Belek",
+      "neighborhood": "Kadriye / Belek",
+      "district_slug": "serik",
+      "category": "Golf club",
+      "official_url": "https://www.caryagolf.com/en/",
+      "source_url": "https://www.caryagolf.com/en/",
+      "source_urls": [
+        "https://www.caryagolf.com/en/",
+        "https://www.caryagolf.com/en/course/course-nformation/",
+        "https://www.regnumhotels.com/en/golf/carya-golf-club/"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "An 18-hole heathland-inspired course with full-course floodlights in Kadriye.",
+      "description": "Carya is a Thomson Perrett & Lobb design set among pine forest in the Belek region. The club opened in 2008 and offers 18-hole golf under floodlights as well as daytime rounds.",
+      "courses": [
+        {
+          "name": "Carya",
+          "holes": 18,
+          "par": 72
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Course and facilities",
+          "body": "The official course page lists a double-sided academy, teaching studios, putting and short-game areas, rental clubs and golf buggies. The heathland-inspired design is a distinctive alternative to a conventional resort parkland course."
+        },
+        {
+          "heading": "Access and booking",
+          "body": "The official site accepts tee-time requests, including a floodlight option. Published handicap limits are 36 for men and women, and non-metal spikes are required. Confirm the booking, night-golf slot, hire equipment and rate inclusions."
+        }
+      ],
+      "booking_note": "The official site accepts tee-time requests, including a floodlight option. Published handicap limits are 36 for men and women, and non-metal spikes are required. Confirm the booking, night-golf slot, hire equipment and rate inclusions.",
+      "current_status": "Official golf operation listed; live tee-time availability not checked.",
+      "verification_notes": [],
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://www.caryagolf.com/en/"
+    },
+    {
+      "title": "National Golf Club",
+      "slug": "national-golf-club",
+      "area": "Kadriye / Belek",
+      "neighborhood": "Kadriye / Belek",
+      "district_slug": "serik",
+      "category": "Golf club",
+      "official_url": "https://nationalturkey.com/",
+      "source_url": "https://nationalturkey.com/",
+      "source_urls": [
+        "https://nationalturkey.com/",
+        "https://nationalturkey.com/the-course/",
+        "https://nationalturkey.com/news-and-tournaments/"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "A pioneering Belek course opened in 1994, now listing an 18-hole layout and floodlit back nine.",
+      "description": "National’s championship course was designed by David Feherty and David Jones and opened on 18 November 1994. It runs through pine and eucalyptus woodland. The current official course page lists 18 holes, with the final nine floodlit.",
+      "courses": [
+        {
+          "name": "Championship Course",
+          "holes": 18,
+          "par": null
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Course and facilities",
+          "body": "The club lists a driving range, putting and chipping areas, rental clubs, trolleys and buggies. Its course page records hosting the Turkish Airlines Open from 30 April to 3 May 2026."
+        },
+        {
+          "heading": "Access and booking",
+          "body": "A handicap certificate is required; the current official limit is 36 for men and women. Book through the club and check seeding dates, twilight routing and equipment. Do not copy older 27-hole descriptions as the current layout."
+        }
+      ],
+      "booking_note": "A handicap certificate is required; the current official limit is 36 for men and women. Book through the club and check seeding dates, twilight routing and equipment. Do not copy older 27-hole descriptions as the current layout.",
+      "current_status": "Official golf operation listed; live tee-time availability not checked.",
+      "verification_notes": [],
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://nationalturkey.com/"
+    },
+    {
+      "title": "Montgomerie Maxx Royal Golf Club",
+      "slug": "montgomerie-maxx-royal-golf-club",
+      "area": "İskele / Belek",
+      "neighborhood": "İskele / Belek",
+      "district_slug": "serik",
+      "category": "Golf club",
+      "official_url": "https://www.montgomeriemaxxroyal.com/",
+      "source_url": "https://www.montgomeriemaxxroyal.com/",
+      "source_urls": [
+        "https://www.montgomeriemaxxroyal.com/",
+        "https://www.montgomeriemaxxroyal.com/championship",
+        "https://www.montgomeriemaxxroyal.com/contact-us"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "An 18-hole Colin Montgomerie and European Golf Design course with a floodlit back nine.",
+      "description": "Montgomerie Maxx Royal is a par-72 course in Belek’s pine-forest and coastal resort landscape. The official championship page lists a length of 6,522 metres and confirms floodlights on holes 10–18.",
+      "courses": [
+        {
+          "name": "Championship Course",
+          "holes": 18,
+          "par": 72,
+          "length_m": 6522
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Course and facilities",
+          "body": "The club offers a driving range, putting and chipping areas, golf lessons, rental clubs and golf cars. The routing begins and finishes with par fives."
+        },
+        {
+          "heading": "Access and booking",
+          "body": "Contact the golf club for a tee time rather than assuming hotel accommodation includes golf. Published handicap limits are 28 for men and 36 for women; soft spikes only. Confirm the specific day/night round and rate inclusions."
+        }
+      ],
+      "booking_note": "Contact the golf club for a tee time rather than assuming hotel accommodation includes golf. Published handicap limits are 28 for men and 36 for women; soft spikes only. Confirm the specific day/night round and rate inclusions.",
+      "current_status": "Official golf operation listed; live tee-time availability not checked.",
+      "verification_notes": [],
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://www.montgomeriemaxxroyal.com/"
+    },
+    {
+      "title": "Sueno Golf Club",
+      "slug": "sueno-golf-club",
+      "area": "Kadriye / Belek",
+      "neighborhood": "Kadriye / Belek",
+      "district_slug": "serik",
+      "category": "Golf club",
+      "official_url": "https://golfclub.sueno.com.tr/en/anasayfa-en/",
+      "source_url": "https://golfclub.sueno.com.tr/en/anasayfa-en/",
+      "source_urls": [
+        "https://golfclub.sueno.com.tr/en/anasayfa-en/",
+        "https://golfclub.sueno.com.tr/en/sahalar-en/",
+        "https://golfclub.sueno.com.tr/en/dokumanlar-en/"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "Two 18-hole courses, Pines and Dunes, beside the Sueno hotel complex.",
+      "description": "Sueno has 36 physical holes across two courses designed by International Design Group. Pines is the longer par-72 layout, while Dunes is a shorter par-69 option.",
+      "courses": [
+        {
+          "name": "Pines",
+          "holes": 18,
+          "par": 72,
+          "length_m": 6413
+        },
+        {
+          "name": "Dunes",
+          "holes": 18,
+          "par": 69,
+          "length_m": 5643
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Course and facilities",
+          "body": "The official course page describes parkland-style fairways, a driving range and extensive putting and short-game facilities. The hotel and golf facilities are closely integrated."
+        },
+        {
+          "heading": "Access and booking",
+          "body": "Specify Pines or Dunes in the reservation. The current course page lists handicap 36 for men and women. Request current maintenance dates and green-fee inclusions; older seeding notices remain visible on some pages."
+        }
+      ],
+      "booking_note": "Specify Pines or Dunes in the reservation. The current course page lists handicap 36 for men and women. Request current maintenance dates and green-fee inclusions; older seeding notices remain visible on some pages.",
+      "current_status": "Official golf operation listed; live tee-time availability not checked.",
+      "verification_notes": [],
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://golfclub.sueno.com.tr/en/anasayfa-en/"
+    },
+    {
+      "title": "Cornelia Golf Club",
+      "slug": "cornelia-golf-club",
+      "area": "İskele / Belek",
+      "neighborhood": "İskele / Belek",
+      "district_slug": "serik",
+      "category": "Golf club",
+      "official_url": "https://www.corneliaresort.com/EN/Cornelia-Golf-Club/about-course",
+      "source_url": "https://www.corneliaresort.com/EN/Cornelia-Golf-Club/about-course",
+      "source_urls": [
+        "https://www.corneliaresort.com/EN/Cornelia-Golf-Club/about-course",
+        "https://www.corneliaresort.com/EN/Cornelia-Golf-Club/faldo-course"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "A 27-hole Sir Nick Faldo design played as King, Queen or Prince combinations.",
+      "description": "Cornelia’s Faldo course has 27 physical holes, not three separate 18-hole courses. The King, Queen and Prince names describe different 18-hole combinations of the three nines.",
+      "courses": [
+        {
+          "name": "King routing",
+          "holes": 18,
+          "par": 72,
+          "routing": "Holes 1–18",
+          "length_m": 6373
+        },
+        {
+          "name": "Queen routing",
+          "holes": 18,
+          "par": 72,
+          "routing": "Holes 10–27",
+          "length_m": 6411
+        },
+        {
+          "name": "Prince routing",
+          "holes": 18,
+          "par": 72,
+          "routing": "Holes 19–27 and 1–9",
+          "length_m": 6324
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Course and facilities",
+          "body": "The club lists a Sir Nick Faldo-designed championship layout and academy. Its rotating-nines format gives operational flexibility during maintenance; it does not guarantee your preferred routing on a specific day."
+        },
+        {
+          "heading": "Access and booking",
+          "body": "The official course page lists handicap limits of 28 for men and 36 for women. Confirm which 18-hole combination is assigned, current seeding dates and outside-guest rates. Do not treat the old 2024 maintenance notice as current."
+        }
+      ],
+      "booking_note": "The official course page lists handicap limits of 28 for men and 36 for women. Confirm which 18-hole combination is assigned, current seeding dates and outside-guest rates. Do not treat the old 2024 maintenance notice as current.",
+      "current_status": "Official golf operation listed; live tee-time availability not checked.",
+      "verification_notes": [
+        "27 physical holes; routing counts must not be added together as 54 holes."
+      ],
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://www.corneliaresort.com/EN/Cornelia-Golf-Club/about-course"
+    },
+    {
+      "title": "Gloria Golf Club",
+      "slug": "gloria-golf-club",
+      "area": "Belek",
+      "neighborhood": "Belek",
+      "district_slug": "serik",
+      "category": "Golf club",
+      "official_url": "https://www.gloria.com.tr/en/experiences/golf/courses/",
+      "source_url": "https://www.gloria.com.tr/en/experiences/golf/courses/",
+      "source_urls": [
+        "https://www.gloria.com.tr/en/experiences/golf/courses/",
+        "https://www.gloria.com.tr/en/experiences/golf/courses/gloria-verde-course/",
+        "https://www.gloria.com.tr/en/experiences/golf/courses/gloria-new-course/",
+        "https://www.gloriasportsarena.com.tr/tr/acik-alan/golf/"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "A 45-hole complex with Old, New and nine-hole Verde courses.",
+      "description": "Gloria Golf Club combines two 18-hole championship courses, Old and New, with the nine-hole Verde course. The complex was designed by Michel Gayon and is linked to the Gloria resort group.",
+      "courses": [
+        {
+          "name": "Old Course",
+          "holes": 18,
+          "par": null
+        },
+        {
+          "name": "New Course",
+          "holes": 18,
+          "par": null
+        },
+        {
+          "name": "Verde Course",
+          "holes": 9,
+          "par": null
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Course and facilities",
+          "body": "Verde Select combines Verde’s nine holes with the front nine of either Old or New. It is an alternative routing, not an additional physical course. The golf complex offers practice and academy facilities."
+        },
+        {
+          "heading": "Access and booking",
+          "body": "Choose the exact course or routing and ask about visitor access, handicap requirements, hire equipment and current maintenance. Clubhouse food-and-drink inclusions depend on the booked package; do not assume every green fee includes them."
+        }
+      ],
+      "booking_note": "Choose the exact course or routing and ask about visitor access, handicap requirements, hire equipment and current maintenance. Clubhouse food-and-drink inclusions depend on the booked package; do not assume every green fee includes them.",
+      "current_status": "Official golf operation listed; live tee-time availability not checked.",
+      "verification_notes": [],
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://www.gloria.com.tr/en/experiences/golf/courses/"
+    },
+    {
+      "title": "Antalya Golf Club",
+      "slug": "antalya-golf-club",
+      "area": "Kadriye / Üçkum Tepesi",
+      "neighborhood": "Kadriye / Üçkum Tepesi",
+      "district_slug": "serik",
+      "category": "Golf club",
+      "official_url": "https://agc.com.tr/?lang=en",
+      "source_url": "https://agc.com.tr/?lang=en",
+      "source_urls": [
+        "https://agc.com.tr/?lang=en",
+        "https://agc.com.tr/hakkimizda/?lang=en"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "The PGA Sultan and Pasha courses offer two different 18-hole rounds in Belek.",
+      "description": "Antalya Golf Club is in the Belek/Kadriye resort area, not central Antalya. Its two courses were created by European Golf Design with David Jones as design consultant.",
+      "courses": [
+        {
+          "name": "PGA Sultan",
+          "holes": 18,
+          "par": 72,
+          "length_m": 6477
+        },
+        {
+          "name": "The Pasha",
+          "holes": 18,
+          "par": 72,
+          "length_m": 5769
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Course and facilities",
+          "body": "The Sultan is the longer championship test. Pasha is shorter and has more generous fairways, although doglegs, bunkers and undulating greens still require planning. The academy offers individual, group and junior instruction."
+        },
+        {
+          "heading": "Access and booking",
+          "body": "Request the specific course, tee time and handicap policy. Confirm visitor green fees and what your booking includes; a booking at a nearby hotel does not by itself prove a golf reservation."
+        }
+      ],
+      "booking_note": "Request the specific course, tee time and handicap policy. Confirm visitor green fees and what your booking includes; a booking at a nearby hotel does not by itself prove a golf reservation.",
+      "current_status": "Official golf operation listed; live tee-time availability not checked.",
+      "verification_notes": [],
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://agc.com.tr/?lang=en"
+    },
+    {
+      "title": "Cullinan Links Golf Club",
+      "slug": "cullinan-links-golf-club",
+      "area": "Üçkum Tepesi / Belek",
+      "neighborhood": "Üçkum Tepesi / Belek",
+      "district_slug": "serik",
+      "category": "Golf club",
+      "official_url": "https://www.cullinanlinksgolfclub.com/courses/general-information",
+      "source_url": "https://www.cullinanlinksgolfclub.com/courses/general-information",
+      "source_urls": [
+        "https://www.cullinanlinksgolfclub.com/courses/general-information",
+        "https://www.cullinanlinksgolfclub.com/courses/holes-information",
+        "https://document-tc.galaxy.tf/wdpdf-awit2zr02e4iefye6wyqs80vd/documents_cms-document.pdf"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "A coastal 36-hole club with Aspendos and Olympos plus the Termessos night-golf routing.",
+      "description": "Cullinan Links occupies a site beside the Beşgöz River and the Mediterranean. Aspendos and Olympos each have 18 holes. The Termessos floodlit routing combines their back nines; it is not a third separate 18-hole physical course.",
+      "courses": [
+        {
+          "name": "Aspendos",
+          "holes": 18,
+          "par": null
+        },
+        {
+          "name": "Olympos",
+          "holes": 18,
+          "par": null
+        },
+        {
+          "name": "Termessos night routing",
+          "holes": 18,
+          "par": null,
+          "routing": "Aspendos 10–18 plus Olympos 10–18; reuses existing holes"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Course and facilities",
+          "body": "The official site lists rental clubs, golf buggies, putting greens, short-game areas and lessons. It also publishes course-maintenance and overseeding arrangements, which can affect which course is available."
+        },
+        {
+          "heading": "Access and booking",
+          "body": "Confirm the course, daylight or floodlit round and rate inclusions. Published maximum handicaps are 36 for men and 44 for women. The official page says food-and-drink all-inclusive green-fee arrangements apply only in winter; verify your exact booking."
+        }
+      ],
+      "booking_note": "Confirm the course, daylight or floodlit round and rate inclusions. Published maximum handicaps are 36 for men and 44 for women. The official page says food-and-drink all-inclusive green-fee arrangements apply only in winter; verify your exact booking.",
+      "current_status": "Official golf operation listed; live tee-time availability not checked.",
+      "verification_notes": [
+        "36 physical holes. Termessos is a combination routing; do not claim 54 separate holes."
+      ],
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://www.cullinanlinksgolfclub.com/courses/general-information"
+    },
+    {
+      "title": "Kaya Palazzo Golf Club",
+      "slug": "kaya-palazzo-golf-club",
+      "area": "Kadriye / Belek",
+      "neighborhood": "Kadriye / Belek",
+      "district_slug": "serik",
+      "category": "Golf club",
+      "official_url": "https://www.kayapalazzohotels.com/en/kaya-palazzo-golf-club-2/course-information/",
+      "source_url": "https://www.kayapalazzohotels.com/en/kaya-palazzo-golf-club-2/course-information/",
+      "source_urls": [
+        "https://www.kayapalazzohotels.com/en/kaya-palazzo-golf-club-2/course-information/"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "An 18-hole course set in pine forest beside Kaya Palazzo’s Belek resort.",
+      "description": "Kaya Palazzo Golf Club’s official course page describes an 18-hole layout on a pine-forest site of roughly 650,000 square metres. The course combines broad fairways with strategically positioned bunkers.",
+      "courses": [
+        {
+          "name": "Kaya Palazzo course",
+          "holes": 18,
+          "par": null
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Course and facilities",
+          "body": "The golf club has its own course information, scorecard, clubhouse restaurant and tee-time booking pages within the hotel group’s site. It should be treated as a golf venue rather than merely a hotel amenity."
+        },
+        {
+          "heading": "Access and booking",
+          "body": "Use the tee-time contact and confirm visitor access, current handicap limits, maintenance, equipment hire and green-fee inclusions. A general room booking is not a tee-time confirmation."
+        }
+      ],
+      "booking_note": "Use the tee-time contact and confirm visitor access, current handicap limits, maintenance, equipment hire and green-fee inclusions. A general room booking is not a tee-time confirmation.",
+      "current_status": "Official golf operation listed; live tee-time availability not checked.",
+      "verification_notes": [],
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://www.kayapalazzohotels.com/en/kaya-palazzo-golf-club-2/course-information/"
+    },
+    {
+      "title": "Lykia Links Antalya",
+      "slug": "lykia-links-antalya",
+      "area": "Denizyaka",
+      "neighborhood": "Denizyaka",
+      "district_slug": "manavgat",
+      "category": "Golf club",
+      "official_url": "https://lykiaworld.com/golf",
+      "source_url": "https://lykiaworld.com/golf",
+      "source_urls": [
+        "https://lykiaworld.com/golf",
+        "https://owltourism.com/EN/lykia-links-antalya",
+        "https://www.swandorhotels.com/lykia-world-antalya/experiences"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "A coastal links-style course in Denizyaka, with a reported renovation closure from December 2026.",
+      "description": "Lykia Links is at Lykia World in Denizyaka, in Manavgat district east of Belek. The course is known for sandy coastal terrain, open horizons and wind exposure rather than the sheltered pine-forest setting of many Belek courses.",
+      "courses": [
+        {
+          "name": "Lykia Links",
+          "holes": 18,
+          "par": 72
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Course and facilities",
+          "body": "The official hotel site continues to describe its links golf operation. A current golf-tour operator notice states that the hotel, golf course and club will close for renovation from 1 December 2026."
+        },
+        {
+          "heading": "Access and booking",
+          "body": "Before any booking for 1 December 2026 onward, obtain direct confirmation of whether the course is operating and its reopening date. The reported closure has not been independently confirmed by a published official notice in this research."
+        }
+      ],
+      "booking_note": "Before any booking for 1 December 2026 onward, obtain direct confirmation of whether the course is operating and its reopening date. The reported closure has not been independently confirmed by a published official notice in this research.",
+      "current_status": "Closure warning: golf operator reports renovation closure from 2026-12-01; direct venue confirmation required.",
+      "verification_notes": [
+        "Do not claim the course is currently closed on 2026-11-09. Do not use the group-wide Kundu footer address as the course location."
+      ],
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://lykiaworld.com/golf"
+    },
+    {
+      "title": "ROBINSON Nobilis Golf Club",
+      "slug": "robinson-nobilis-golf-club",
+      "area": "Acısu / Belek",
+      "neighborhood": "Acısu / Belek",
+      "district_slug": "serik",
+      "category": "Golf club",
+      "official_url": "https://www.robinson.com/en/en/resort-holiday/turkey/nobilis/club-details/",
+      "source_url": "https://www.robinson.com/en/en/resort-holiday/turkey/nobilis/club-details/",
+      "source_urls": [
+        "https://www.robinson.com/en/en/resort-holiday/turkey/nobilis/club-details/",
+        "https://visitantalya.com/robinson-nobilis-golf-course-4708"
+      ],
+      "last_checked": "2026-11-09",
+      "excerpt": "An 18-hole parkland course on the ROBINSON Nobilis resort grounds.",
+      "description": "Nobilis offers an 18-hole golf course on the ROBINSON resort grounds in the Belek area. Its parkland setting is associated with mature pine trees and the Acısu River.",
+      "courses": [
+        {
+          "name": "Nobilis",
+          "holes": 18,
+          "par": 72
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Course and facilities",
+          "body": "The resort’s official page lists its golf club and access to golf services in the wider Belek region. A golf shuttle to other courses is advertised for a fee, not as an automatically free service."
+        },
+        {
+          "heading": "Access and booking",
+          "body": "The official resort page lists handicap limits of 28 for men and 36 for women. Confirm current visitor access, green fees, any resort-package inclusion, lessons and seasonal maintenance before booking."
+        }
+      ],
+      "booking_note": "The official resort page lists handicap limits of 28 for men and 36 for women. Confirm current visitor access, green fees, any resort-package inclusion, lessons and seasonal maintenance before booking.",
+      "current_status": "Official golf operation listed; live tee-time availability not checked.",
+      "verification_notes": [],
+      "image": null,
+      "image_url": null,
+      "image_rights_status": "not_verified",
+      "image_rights_note": "No venue-specific photograph with a verified reuse licence was found. Official galleries are reference links, not permission to download, hotlink or republish. Use an owned/licensed photograph or a clearly labelled non-photographic placeholder.",
+      "photo_reference_url": "https://www.robinson.com/en/en/resort-holiday/turkey/nobilis/club-details/"
+    }
+  ]
+}

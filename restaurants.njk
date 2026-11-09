@@ -1,58 +1,9 @@
 ---
 layout: base.njk
-pageTitle: "Restaurants in Antalya — Eat & Drink"
-pageDescription: "Seafood on the harbor, rooftop views over Kaleiçi, and the region's own take on Turkish classics."
-pageUrl: "/restaurants/"
-ogImage: "/images/photos/michelin-hotels.jpg"
-permalink: "/restaurants/index.html"
-schema:
-  "@context": "https://schema.org"
-  "@type": "CollectionPage"
-  name: "Restaurants in Antalya"
-  url: "https://travel-antalya.com/restaurants/"
+pageTitle: Restaurants in Antalya | Local Tables & Coastal Dining
+pageDescription: Explore source-linked Antalya restaurant profiles by area and cuisine, with official reservation links and clear Michelin information.
+permalink: /restaurants/index.html
 eleventyExcludeFromCollections: true
 ---
-<section class="listing-hero">
-  <div class="container">
-    <span class="eyebrow">Eat &amp; Drink</span>
-    <h1>Where to Eat in Antalya</h1>
-    <p class="lead" style="max-width:620px;">Seafood on the old harbor, rooftop tables over Kaleiçi, and the region's own take on Turkish classics.</p>
-  </div>
-</section>
-
-<section style="padding-top:0;">
-  <div class="container">
-    <form action="/search/" class="guide-search" role="search"><input type="hidden" name="type" value="Restaurant"><label class="sr-only" for="restaurant-search">Search restaurants</label><input id="restaurant-search" name="q" type="search" placeholder="Name, neighbourhood or cuisine"><button type="submit" class="btn btn-blue">Search</button></form>
-    <p class="results-count">Showing {{ collections.restaurants.length }} restaurants</p>
-
-    {% for r in collections.restaurants %}
-    <div class="listing-row">
-      <div class="listing-row-media">
-        <img src="{{ r.data.cover }}" alt="{{ r.data.title }}">
-      </div>
-      <div class="listing-row-body">
-        <div class="listing-row-top">
-          <div>
-            {% if r.data.tags %}
-              {% for tag in r.data.tags %}
-                {% if tag == "sponsored" %}<span class="badge badge-sponsored">Sponsored</span>{% endif %}
-                {% if tag == "editors-choice" %}<span class="badge badge-editors">Editor's Choice</span>{% endif %}
-              {% endfor %}
-            {% endif %}
-            <h3 class="listing-row-title"><a href="/restaurants/{{ r.data.title | slugify }}/">{{ r.data.title }}</a></h3>
-          </div>
-          <a href="/restaurants/{{ r.data.title | slugify }}/" class="listing-row-arrow">↗</a>
-        </div>
-        <p class="listing-row-excerpt">{{ r.data.excerpt }}</p>
-        <div class="listing-row-meta">
-          <span>{{ r.data.category }}</span>
-          <span>·</span>
-          <span>{{ r.data.neighborhood }}</span>
-          <span class="price">{{ r.data.price }}</span>
-        </div>
-      </div>
-    </div>
-    {% endfor %}
-
-  </div>
-</section>
+<section class="listing-hero detail-heading"><div class="container"><span class="eyebrow">Antalya at the table</span><h1>Stay for<br>one more course.</h1><p class="lead">A traditional piyaz lunch, a harbour-side evening or a special-occasion table. Find a restaurant that belongs in your trip.</p><div class="topic-links"><a href="#restaurant-directory">Browse {{ collections.restaurants.length }} restaurants ↓</a><a href="/hotels/">Find a nearby stay ↗</a></div></div></section>
+<section><div class="container"><div class="michelin-note"><strong>A clear word on Michelin</strong><p>The <a href="https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection">official MICHELIN Guide Türkiye 2026 selection</a> does not cover Antalya. We do not label these Antalya restaurants as starred or Michelin-selected. Recognition for another branch in another city does not transfer here.</p></div><div id="restaurant-directory">{% set venueItems = collections.restaurants %}{% set venuePlural = 'restaurants' %}{% set venuePath = 'restaurants' %}{% include 'venue-directory.njk' %}</div><p class="source-note">An editorial shortlist, not a ranking or inspection. Menus, opening hours and reservation policies change. Confirm directly before travelling.</p></div></section>

@@ -13,6 +13,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('absoluteUrl', absoluteUrl);
   eleventyConfig.addFilter('take', (items, count) => (items || []).slice(0, count));
   eleventyConfig.addFilter('encodeUri', value => encodeURIComponent(value || ''));
+  for (const [name, fn] of Object.entries(require('./lib/discovery'))) eleventyConfig.addFilter(name, fn);
   const eventUtils = require('./lib/events');
   for (const name of ['eventDate', 'eventStatus', 'eventStatusLabel', 'eventDateLabel']) eleventyConfig.addFilter(name, eventUtils[name]);
   eleventyConfig.on('eleventy.after', () => require('./scripts/sitemap')());
@@ -31,6 +32,8 @@ module.exports = function (eleventyConfig) {
       return (a.data.title || "").localeCompare(b.data.title || "");
     });
   });
+
+  eleventyConfig.addCollection("golf", api => api.getFilteredByGlob("content/golf/*.md").sort((a,b) => a.data.title.localeCompare(b.data.title)));
 
   eleventyConfig.addCollection("blog", function (collectionApi) {
     return collectionApi.getFilteredByGlob("content/blog/*.md").sort((a, b) => {

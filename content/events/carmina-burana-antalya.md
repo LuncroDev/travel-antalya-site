@@ -14,6 +14,8 @@ verification_note: "Dates checked against the linked official source."
 start_date: "2026-11-12"
 end_date: "2026-11-12"
 time_display: "20:00"
+district_slug: "muratpasa"
+venue_source_url: "https://www.kulturportali.gov.tr/turkiye/antalya/etkinlik/anna-karenina-23"
 ---
 Antalya State Opera and Ballet presents Carmina Burana at the Haşim İşcan Cultural Center. The official listing gives 12 November 2026 at 20:00.
 

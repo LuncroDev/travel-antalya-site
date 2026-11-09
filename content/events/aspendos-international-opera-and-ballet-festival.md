@@ -13,6 +13,7 @@ featured: false
 verification_note: "Dates checked against the linked official source."
 start_date: "2026-09-12"
 end_date: "2026-09-26"
+district_slug: "serik"
 ---
 The official culture portal gives 12–26 September 2026 for the 33rd Aspendos festival. Its programme combines opera and ballet in the ancient theatre.
 

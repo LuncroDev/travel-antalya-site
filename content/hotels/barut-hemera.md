@@ -2,16 +2,21 @@
 title: "Barut Hemera"
 slug: "barut-hemera"
 tagline: "A seaside resort in the Side area, with a garden setting and a range of room types."
-tags: []
 category: "Coastal resort"
 neighborhood: "Side"
+district_slug: "manavgat"
 official_url: "https://baruthemera.com/en"
 source_url: "https://baruthemera.com/en"
 source_label: "Official hotel or hotel-group website"
+source_urls: ["https://baruthemera.com/en"]
 last_checked: "2026-11-09"
 excerpt: "A seaside resort in the Side area, with a garden setting and a range of room types."
 booking_note: "Confirm the exact beach access, pool operations and room category for your dates."
 ---
 A seaside resort in the Side area, with a garden setting and a range of room types.
 
+## What to check for this stay
+
 Confirm the exact beach access, pool operations and room category for your dates.
+
+The profile summarizes the linked official property or hotel-group information. It does not establish current rates, availability, star classification or the condition of facilities. Confirm your specific room, dates and inclusions with the hotel.

@@ -17,6 +17,7 @@
 <link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" href="/css/listings.css">
 <link rel="stylesheet" href="/css/discovery.css">
+{% if homepageDesign %}<link rel="stylesheet" href="/css/home.css">{% endif %}
 <script src="/js/site.js" defer></script>
 {% if resolvedSchema %}
 <script type="application/ld+json">{{ resolvedSchema | jsonForHtml | safe }}</script>
@@ -24,7 +25,7 @@
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6719207833738427" crossorigin="anonymous"></script>
 <noscript><style>@media(max-width:800px){.nav-links{display:flex;flex-wrap:wrap}.mobile-menu-toggle{display:none}.nav-row{flex-wrap:wrap}}</style></noscript>
 </head>
-<body>
+<body{% if homepageDesign %} class="home-page"{% endif %}>
 <a class="skip-link" href="#main-content">Skip to content</a>
 
 <header class="site-header">
@@ -36,6 +37,7 @@
       <li><a href="/hotels/">Places To Stay</a></li>
       <li><a href="/restaurants/">Eat &amp; Drink</a></li>
       <li><a href="/events/">Events</a></li>
+          <li><a href="/golf/">Golf</a></li>
       <li><a href="/plan-your-trip/">Plan your trip</a></li>
       <li><a href="/search/" aria-label="Search the guide">Search</a></li>
     </ul>
@@ -63,6 +65,7 @@
           <li><a href="/restaurants/">Eat &amp; Drink</a></li>
           <li><a href="/hotels/">Places To Stay</a></li>
           <li><a href="/events/">Events</a></li>
+          <li><a href="/golf/">Golf</a></li>
         </ul>
       </div>
       <div>
@@ -75,6 +78,7 @@
           <li><a href="/about/">About</a></li>
           <li><a href="/contact/">Contact</a></li>
           <li><a href="/editorial-policy/">Editorial Policy</a></li>
+          <li><a href="/photography/">Photography credits</a></li>
         </ul>
       </div>
       <div>

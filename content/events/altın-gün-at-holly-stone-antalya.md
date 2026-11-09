@@ -11,6 +11,7 @@ date_verified: false
 excerpt: "A concert listing awaiting a verified current date."
 featured: false
 verification_note: "Ticket-calendar review was inconclusive; this is not a confirmed upcoming event."
+district_slug: "muratpasa"
 ---
 This legacy listing is retained so existing links continue to work. Earlier dates came from third-party listings and could not be consistently confirmed in the current ticket-calendar review.
 

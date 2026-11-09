@@ -19,10 +19,13 @@ ogType: "website"
   <article>
     <h2>Plan your stay</h2>
     {{ hotel.templateContent | safe }}
+    {% for district in destinations %}{% if district.slug == hotel.data.district_slug %}<h2>Understanding the area</h2><p>{{ district.description }}</p><p>{{ district.tip }}</p><p><a href="/destinations/{{ district.slug }}/">Explore {{ district.name }} and its highlights →</a></p>{% endif %}{% endfor %}
+    {% set galleryItem = hotel.data %}{% include 'editorial-gallery.njk' %}
     <h2>Check before booking</h2>
     <ul class="hotel-checklist"><li>The full price for your dates, party size and room type, including taxes and extras.</li><li>Cancellation and payment terms, meal plans and restaurant reservations.</li><li>Seasonal opening dates, beach and pool access, building work and transfer arrangements.</li><li>Any age policy, step-free access or other specific needs directly with the hotel.</li></ul>
     <p>This is an editorial introduction, not a personal inspection, review score or confirmation of current room availability.</p>
-    <p><a href="/hotels/">← Compare all areas and hotels</a></p>
+    {% set relatedItem = hotel.data %}{% include 'related-guide.njk' %}
+    <h2>More stays to compare</h2><ul>{% for other in collections.hotels | relatedItems(hotel.data, 3) %}<li><a href="/hotels/{{ other.data.slug }}/">{{ other.data.title }}</a> · {{ other.data.neighborhood }}</li>{% endfor %}</ul>
   </article>
   <aside class="hotel-source-panel" aria-labelledby="source-heading">
     <h2 id="source-heading">Go to the source</h2>

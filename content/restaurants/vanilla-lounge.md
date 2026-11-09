@@ -1,17 +1,34 @@
 ---
-title: "Vanilla Lounge"
-tagline: "Sunset views over the harbor and the old city walls"
-tags: []
-category: "Rooftop"
-neighborhood: "Kaleiçi"
-price: "$$"
-cover: "/images/photos/generic-cover.webp"
-photos:
-  - "/images/photos/generic-cover.webp"
-signature_dishes:
-  - { name: "Mixed grill platter", note: "Turkish and Mediterranean dishes side by side" }
-map_lat: 36.8845
-map_lng: 30.7062
-excerpt: "Sunset views over the harbor and the old city walls, with a menu that mixes Turkish and Mediterranean dishes."
+title: "Vanilla Restaurant"
+neighborhood: "Kaleiçi / Barbaros"
+district_slug: "muratpasa"
+official_url: "https://vanillaantalya.com/"
+source_url: "https://vanillaantalya.com/"
+source_urls: ["https://vanillaantalya.com/","https://vanillaantalya.com/contact.php"]
+last_checked: "2026-11-09"
+excerpt: "A British chef-led old-town restaurant with Mediterranean cooking and Thai influences."
+booking_note: "The official site lists daily opening from noon to 23:30 and offers table requests. Confirm that a request has been accepted, particularly for a same-day evening."
+slug: "vanilla-lounge"
+category: "Modern international"
+tagline: "A British chef-led old-town restaurant with Mediterranean cooking and Thai influences."
+source_label: "Official venue information"
+michelin_note: "No verified Michelin distinction for this Antalya venue in the 2026 selection."
 ---
-Vanilla Lounge's rooftop tables look out over Kaleiçi's old city walls and the harbor below — worth booking specifically around sunset, when the light on the stone walls is at its best.
+Vanilla has operated in Kaleiçi since 2007. Its official site describes a British chef’s kitchen in a historic stone setting, with seafood, grills, vegetarian plates and international flavours.
+
+## Food and setting
+
+The current menu highlights dishes such as papaya salad, Thai-style prawn soup and Thai fried rice alongside pizza and other mains. It offers a change of pace from an exclusively Turkish grill menu without leaving the old town.
+
+## Plan your visit
+
+The official site lists daily opening from noon to 23:30 and offers table requests. Confirm that a request has been accepted, particularly for a same-day evening.
+
+## Published address
+
+Barbaros, Hesapçı Sk. No:33, Muratpaşa, Antalya
+
+## Sources
+
+- [Source 1](https://vanillaantalya.com/)
+- [Source 2](https://vanillaantalya.com/contact.php)

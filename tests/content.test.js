@@ -21,7 +21,7 @@ test('all 19 district slugs are unique', () => {
 });
 test('hotel records have unique stable slugs and explicit source provenance', () => {
   const records = fs.readdirSync('content/hotels').filter(f => f.endsWith('.md')).map(file => matter(fs.readFileSync(path.join('content/hotels', file), 'utf8')).data);
-  assert.equal(records.length, 28);
+  assert.ok(records.length >= 100);
   assert.equal(new Set(records.map(x => x.slug)).size, records.length);
   for (const item of records) {
     assert.match(item.slug, /^[a-z0-9-]+$/);

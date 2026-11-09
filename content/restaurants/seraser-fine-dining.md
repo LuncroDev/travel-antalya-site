@@ -1,19 +1,33 @@
 ---
 title: "Seraser Fine Dining"
-tagline: "Ottoman-house dining in Kaleiçi"
-tags: []
-category: "Fine dining"
-neighborhood: "Kaleiçi"
-price: "$$$$"
-cover: "/images/photos/antalya-coastline.jpg"
-photos:
-  - "/images/photos/antalya-coastline.jpg"
-  - "/images/photos/coastal-extra-2.jpg"
-signature_dishes:
-  - { name: "Seasonal tasting menus", note: "Ask about current menus" }
-  - { name: "Turkish and Mediterranean dishes", note: "Modern interpretations of regional cooking" }
-excerpt: "A fine-dining restaurant in a restored Ottoman house in Kaleiçi, known for refined Turkish and Mediterranean cooking."
+neighborhood: "Kaleiçi / Tuzcular"
+district_slug: "muratpasa"
+official_url: "https://www.seraserrestaurant.com/en/"
+source_url: "https://www.seraserrestaurant.com/en/"
+source_urls: ["https://www.seraserrestaurant.com/en/"]
+last_checked: "2026-11-09"
+excerpt: "Fine dining in a historic Kaleiçi residence, with a current emphasis on Anatolian ingredients."
+booking_note: "The official site recommends advance reservations and lists daily service from 16:00 to midnight. Request your preferred setting and confirm the current menu directly."
+slug: "seraser-fine-dining"
+category: "Contemporary Anatolian and Mediterranean"
+tagline: "Fine dining in a historic Kaleiçi residence, with a current emphasis on Anatolian ingredients."
+source_label: "Official venue information"
+michelin_note: "No verified Michelin distinction for this Antalya venue in the 2026 selection."
 ---
-Seraser is one of Antalya's best-known fine-dining restaurants, set in a restored house in Kaleiçi. It is a good choice for a celebration or a long dinner, with a garden setting and a menu that reinterprets Turkish and Mediterranean cooking.
+Seraser occupies a historic residence in Antalya’s old town. Its current culinary story emphasizes ingredients from the Taurus Mountains, Mediterranean fisheries and Anatolian producers, moving beyond its earlier international focus.
 
-Book ahead in summer, and check the dress code and current menu with the restaurant.
+## Food and setting
+
+The historic setting is central to the experience. The current official site identifies the restaurant at Paşa Cami Sokak No:14; older directory listings sometimes show another number. Use the venue’s own directions.
+
+## Plan your visit
+
+The official site recommends advance reservations and lists daily service from 16:00 to midnight. Request your preferred setting and confirm the current menu directly.
+
+## Published address
+
+Tuzcular Mah., Paşa Cami Sk. No:14, Muratpaşa, Antalya
+
+## Sources
+
+- [Source 1](https://www.seraserrestaurant.com/en/)

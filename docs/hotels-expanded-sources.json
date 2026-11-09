@@ -1,0 +1,2881 @@
+{
+  "researched_at": "2026-11-09",
+  "province": "Antalya",
+  "country": "Türkiye",
+  "count": 100,
+  "status": "Completed: 100 distinct source-backed hotel records and 6 individually licensed property-photo sources.",
+  "methodology": "28 retained records from the project's official source register dated 2026-11-09, plus 72 additions researched using official hotel/group pages. Descriptions are original factual summaries. Districts are administrative; area/neighborhood fields are traveler-facing. No room rates, star-rating comparisons, review scores or live availability are asserted.",
+  "image_rights_note": "No official-gallery photograph is licensed for reuse merely because it is publicly visible. Do not hotlink or copy these as cleared images. Attach photos only after their individual licence and subject identity are checked.",
+  "hotels": [
+    {
+      "title": "Acanthus Cennet Barut Collection",
+      "slug": "acanthus-cennet-barut-collection",
+      "tagline": "A resort in Side offering a base for combining beach days with the area’s ancient-town heritage.",
+      "tags": [],
+      "category": "Coastal resort",
+      "neighborhood": "Side",
+      "official_url": "https://barutacanthuscennet.com/en",
+      "source_url": "https://barutacanthuscennet.com/en",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A resort in Side offering a base for combining beach days with the area’s ancient-town heritage.",
+      "booking_note": "Check the current meal concept, restaurant arrangements and route to the old town before booking.",
+      "area": "Side",
+      "district_slug": "manavgat",
+      "description": "A resort in Side offering a base for combining beach days with the area’s ancient-town heritage.",
+      "source_urls": [
+        "https://barutacanthuscennet.com/en"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "A resort in Side offering a base for combining beach days with the area’s ancient-town heritage."
+      ]
+    },
+    {
+      "title": "Akra Antalya",
+      "slug": "akra-hotel",
+      "tagline": "A coastal city base in Şirinyalı, Muratpaşa, on Lara Caddesi, east of the old town.",
+      "tags": [],
+      "category": "City hotel",
+      "neighborhood": "Antalya city",
+      "official_url": "https://www.akrahotels.com/en/hotels/akra-antalya/contact/",
+      "source_url": "https://www.akrahotels.com/en/hotels/akra-antalya/contact/",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A coastal city base in Şirinyalı, Muratpaşa, on Lara Caddesi, east of the old town.",
+      "booking_note": "This is not on Konyaaltı Beach. Ask about the sea-access route and the room outlook before booking.",
+      "area": "Antalya city",
+      "district_slug": "muratpasa",
+      "description": "A coastal city base in Şirinyalı, Muratpaşa, on Lara Caddesi, east of the old town.",
+      "source_urls": [
+        "https://www.akrahotels.com/en/hotels/akra-antalya/contact/"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [
+        {
+          "hotel": "Akra Antalya",
+          "url": "https://images.pexels.com/photos/10902156/pexels-photo-10902156.jpeg?cs=srgb&dl=pexels-enginakyurt-10902156.jpg&fm=jpg",
+          "source_url": "https://www.pexels.com/photo/facade-of-the-akra-hotel-in-antalya-turkey-10902156/",
+          "author": "Engin Akyurt",
+          "license": "Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "date_taken": null,
+          "caption": "Akra Antalya exterior. Photograph date not supplied in the reviewed source; appearance may have changed.",
+          "archive": true,
+          "image_url": "https://images.pexels.com/photos/10902156/pexels-photo-10902156.jpeg?cs=srgb&dl=pexels-enginakyurt-10902156.jpg&fm=jpg",
+          "attribution": "Engin Akyurt / Pexels License / Pexels",
+          "license_verified_at": "2026-11-09",
+          "usage_note": "Show photographer, source and licence link. Label date prominently. State cropping/resizing if performed. Do not imply endorsement or that archival conditions are current.",
+          "download_status": "Source URL verified; not downloaded to local workspace.",
+          "visual_review_status": "Source identifies property; visual QA required before selecting crop or displaying."
+        }
+      ],
+      "photo_rights_status": "Individual licence verified. Historical/undated property image only; attribution and archive caption required.",
+      "verified_facts": [
+        "A coastal city base in Şirinyalı, Muratpaşa, on Lara Caddesi, east of the old town."
+      ]
+    },
+    {
+      "title": "Akra Kemer",
+      "slug": "akra-kemer",
+      "tagline": "The Kemer resort now branded Akra Kemer, formerly known as Kemer Barut Collection.",
+      "tags": [],
+      "category": "Coastal resort",
+      "neighborhood": "Kemer",
+      "official_url": "https://www.akrahotels.com/en/hotels/akra-kemer/about-us/",
+      "source_url": "https://www.akrahotels.com/en/hotels/akra-kemer/about-us/",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "The Kemer resort now branded Akra Kemer, formerly known as Kemer Barut Collection.",
+      "booking_note": "Use the current name when arranging transport or comparing bookings to avoid confusion with other Akra properties.",
+      "area": "Kemer",
+      "district_slug": "kemer",
+      "description": "The Kemer resort now branded Akra Kemer, formerly known as Kemer Barut Collection.",
+      "source_urls": [
+        "https://www.akrahotels.com/en/hotels/akra-kemer/about-us/"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "The Kemer resort now branded Akra Kemer, formerly known as Kemer Barut Collection."
+      ]
+    },
+    {
+      "title": "Alaiye Resort & Spa",
+      "slug": "alaiye-resort",
+      "tagline": "A resort on the İncekum stretch of the Alanya coast, with an all-inclusive concept advertised by the hotel.",
+      "tags": [],
+      "category": "Coastal resort",
+      "neighborhood": "Alanya",
+      "official_url": "https://www.alaiyeresorthotel.com/en",
+      "source_url": "https://www.alaiyeresorthotel.com/en",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A resort on the İncekum stretch of the Alanya coast, with an all-inclusive concept advertised by the hotel.",
+      "booking_note": "İncekum is not Alanya’s town centre. Confirm transfer arrangements and seasonal waterpark operations.",
+      "area": "Alanya",
+      "district_slug": "alanya",
+      "description": "A resort on the İncekum stretch of the Alanya coast, with an all-inclusive concept advertised by the hotel.",
+      "source_urls": [
+        "https://www.alaiyeresorthotel.com/en"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "A resort on the İncekum stretch of the Alanya coast, with an all-inclusive concept advertised by the hotel."
+      ]
+    },
+    {
+      "title": "Alp Paşa Hotel",
+      "slug": "alp-pasa-hotel",
+      "tagline": "Restored Ottoman buildings, courtyards and gardens in Antalya’s historic old town.",
+      "tags": [],
+      "category": "Boutique & heritage",
+      "neighborhood": "Kaleiçi",
+      "official_url": "https://alppasa.com/en/en-about-us/",
+      "source_url": "https://alppasa.com/en/en-about-us/",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Restored Ottoman buildings, courtyards and gardens in Antalya’s historic old town.",
+      "booking_note": "Rooms are spread across historic buildings and differ in layout. Confirm which building and room category you are booking.",
+      "area": "Kaleiçi",
+      "district_slug": "muratpasa",
+      "description": "Restored Ottoman buildings, courtyards and gardens in Antalya’s historic old town.",
+      "source_urls": [
+        "https://alppasa.com/en/en-about-us/"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "Restored Ottoman buildings, courtyards and gardens in Antalya’s historic old town."
+      ]
+    },
+    {
+      "title": "Arum Barut Collection",
+      "slug": "arum-barut-collection",
+      "tagline": "A beachfront resort in the Side area with room and suite options.",
+      "tags": [],
+      "category": "Coastal resort",
+      "neighborhood": "Side",
+      "official_url": "https://barutarum.com/en",
+      "source_url": "https://barutarum.com/en",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A beachfront resort in the Side area with room and suite options.",
+      "booking_note": "Ask which pools and outdoor services are operating in your travel season; do not assume summer facilities operate all year.",
+      "area": "Side",
+      "district_slug": "manavgat",
+      "description": "A beachfront resort in the Side area with room and suite options.",
+      "source_urls": [
+        "https://barutarum.com/en"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "A beachfront resort in the Side area with room and suite options."
+      ]
+    },
+    {
+      "title": "Barut Hemera",
+      "slug": "barut-hemera",
+      "tagline": "A seaside resort in the Side area, with a garden setting and a range of room types.",
+      "tags": [],
+      "category": "Coastal resort",
+      "neighborhood": "Side",
+      "official_url": "https://baruthemera.com/en",
+      "source_url": "https://baruthemera.com/en",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A seaside resort in the Side area, with a garden setting and a range of room types.",
+      "booking_note": "Confirm the exact beach access, pool operations and room category for your dates.",
+      "area": "Side",
+      "district_slug": "manavgat",
+      "description": "A seaside resort in the Side area, with a garden setting and a range of room types.",
+      "source_urls": [
+        "https://baruthemera.com/en"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "A seaside resort in the Side area, with a garden setting and a range of room types."
+      ]
+    },
+    {
+      "title": "Calista Luxury Resort",
+      "slug": "calista-luxury-resort",
+      "tagline": "A resort in Belek with a pine-woodland coastal setting, away from Antalya’s city centre.",
+      "tags": [],
+      "category": "Coastal resort",
+      "neighborhood": "Belek",
+      "official_url": "https://www.calista.com.tr/en",
+      "source_url": "https://www.calista.com.tr/en",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A resort in Belek with a pine-woodland coastal setting, away from Antalya’s city centre.",
+      "booking_note": "Compare the exact room and meal package rather than assuming every dining venue or activity is included.",
+      "area": "Belek",
+      "district_slug": "serik",
+      "description": "A resort in Belek with a pine-woodland coastal setting, away from Antalya’s city centre.",
+      "source_urls": [
+        "https://www.calista.com.tr/en"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "A resort in Belek with a pine-woodland coastal setting, away from Antalya’s city centre."
+      ]
+    },
+    {
+      "title": "Casa Sur Antalya",
+      "slug": "casa-sur-antalya",
+      "tagline": "An individually designed stay beside the old city walls and Hadrian’s Gate, with a botanical garden.",
+      "tags": [],
+      "category": "Boutique & heritage",
+      "neighborhood": "Kaleiçi",
+      "official_url": "https://casasurantalya.com/",
+      "source_url": "https://casasurantalya.com/",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "An individually designed stay beside the old city walls and Hadrian’s Gate, with a botanical garden.",
+      "booking_note": "Choose this area for exploring on foot. Ask about garden events and room location if a quiet evening matters.",
+      "area": "Kaleiçi",
+      "district_slug": "muratpasa",
+      "description": "An individually designed stay beside the old city walls and Hadrian’s Gate, with a botanical garden.",
+      "source_urls": [
+        "https://casasurantalya.com/"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "An individually designed stay beside the old city walls and Hadrian’s Gate, with a botanical garden."
+      ]
+    },
+    {
+      "title": "Concorde De Luxe Resort",
+      "slug": "concorde-de-luxe-resort",
+      "tagline": "A Lara beachfront resort with architecture inspired by the Concorde aircraft.",
+      "tags": [],
+      "category": "Coastal resort",
+      "neighborhood": "Lara & Kundu",
+      "official_url": "https://concordehotels.com/tr/oteller/concorde-de-luxe-resort",
+      "source_url": "https://concordehotels.com/tr/oteller/concorde-de-luxe-resort",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A Lara beachfront resort with architecture inspired by the Concorde aircraft.",
+      "booking_note": "Ask which restaurants and outdoor facilities operate during your stay, particularly outside summer.",
+      "area": "Lara & Kundu",
+      "district_slug": "aksu",
+      "description": "A Lara beachfront resort with architecture inspired by the Concorde aircraft.",
+      "source_urls": [
+        "https://concordehotels.com/tr/oteller/concorde-de-luxe-resort"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "A Lara beachfront resort with architecture inspired by the Concorde aircraft."
+      ]
+    },
+    {
+      "title": "Delphin Imperial",
+      "slug": "delphin-imperial",
+      "tagline": "A resort on the Lara coast, suitable for comparing larger hotel complexes east of Antalya.",
+      "tags": [],
+      "category": "Coastal resort",
+      "neighborhood": "Lara & Kundu",
+      "official_url": "https://www.delphinhotel.com/contact-page",
+      "source_url": "https://www.delphinhotel.com/TR/delphin-imperial",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A resort on the Lara coast, suitable for comparing larger hotel complexes east of Antalya.",
+      "booking_note": "Check children’s facilities, restaurant booking requirements and seasonal operations for your travel dates.",
+      "area": "Lara & Kundu",
+      "district_slug": "aksu",
+      "description": "A resort on the Lara coast, suitable for comparing larger hotel complexes east of Antalya.",
+      "source_urls": [
+        "https://www.delphinhotel.com/TR/delphin-imperial",
+        "https://www.delphinhotel.com/contact-page"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "A resort on the Lara coast, suitable for comparing larger hotel complexes east of Antalya."
+      ]
+    },
+    {
+      "title": "Fidanka Hotel",
+      "slug": "fidanka-hotel",
+      "tagline": "A Kalkan hotel featuring gardens, antique objects and individually styled spaces; the official site advertises a 12-plus concept.",
+      "tags": [],
+      "category": "Boutique & heritage",
+      "neighborhood": "Kalkan",
+      "official_url": "https://fidanka.com/en/",
+      "source_url": "https://fidanka.com/en/",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A Kalkan hotel featuring gardens, antique objects and individually styled spaces; the official site advertises a 12-plus concept.",
+      "booking_note": "Confirm the age policy and room access. Kalkan’s hills make exact location and transport important when planning a stay.",
+      "area": "Kalkan",
+      "district_slug": "kas",
+      "description": "A Kalkan hotel featuring gardens, antique objects and individually styled spaces; the official site advertises a 12-plus concept.",
+      "source_urls": [
+        "https://fidanka.com/en/"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "A Kalkan hotel featuring gardens, antique objects and individually styled spaces; the official site advertises a 12-plus concept."
+      ]
+    },
+    {
+      "title": "Gloria Golf Resort",
+      "slug": "gloria-golf-resort",
+      "tagline": "A Belek resort with rooms and villas in the Gloria hotel group, a useful starting point for a golf-focused stay.",
+      "tags": [],
+      "category": "Golf resort",
+      "neighborhood": "Belek",
+      "official_url": "https://www.gloria.com.tr/en/hotels/gloria-golf-resort/",
+      "source_url": "https://www.gloria.com.tr/en/hotels/gloria-golf-resort/",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A Belek resort with rooms and villas in the Gloria hotel group, a useful starting point for a golf-focused stay.",
+      "booking_note": "Golf rounds, tee times and transfers should be checked separately from the accommodation rate.",
+      "area": "Belek",
+      "district_slug": "serik",
+      "description": "A Belek resort with rooms and villas in the Gloria hotel group, a useful starting point for a golf-focused stay.",
+      "source_urls": [
+        "https://www.gloria.com.tr/en/hotels/gloria-golf-resort/"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "A Belek resort with rooms and villas in the Gloria hotel group, a useful starting point for a golf-focused stay."
+      ]
+    },
+    {
+      "title": "Hideaway Hotel",
+      "slug": "hideaway-hotel",
+      "tagline": "A family-run hotel near Kaş’s ancient theatre, with a terrace and a town-focused setting.",
+      "tags": [],
+      "category": "Boutique & heritage",
+      "neighborhood": "Kaş",
+      "official_url": "https://www.hotelhideaway.com/",
+      "source_url": "https://www.hotelhideaway.com/",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A family-run hotel near Kaş’s ancient theatre, with a terrace and a town-focused setting.",
+      "booking_note": "Room sizes and layouts vary. Confirm the specific room, parking arrangements and the walking route that suits your needs.",
+      "area": "Kaş",
+      "district_slug": "kas",
+      "description": "A family-run hotel near Kaş’s ancient theatre, with a terrace and a town-focused setting.",
+      "source_urls": [
+        "https://www.hotelhideaway.com/"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "A family-run hotel near Kaş’s ancient theatre, with a terrace and a town-focused setting."
+      ]
+    },
+    {
+      "title": "Hotel SU",
+      "slug": "hotel-su-aqualand",
+      "tagline": "A design hotel at the eastern end of the Konyaaltı beach area, with its official address in Meltem, Muratpaşa.",
+      "tags": [],
+      "category": "City hotel",
+      "neighborhood": "Konyaaltı",
+      "official_url": "https://www.hotelsu.com.tr/index.php/bize-ulasin/",
+      "source_url": "https://www.hotelsu.com.tr/index.php/bize-ulasin/",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A design hotel at the eastern end of the Konyaaltı beach area, with its official address in Meltem, Muratpaşa.",
+      "booking_note": "This is not a Lara resort. Older listings use “SU & Aqualand”; confirm any waterpark access, operating dates and charges directly.",
+      "area": "Konyaaltı",
+      "district_slug": "muratpasa",
+      "description": "A design hotel at the eastern end of the Konyaaltı beach area, with its official address in Meltem, Muratpaşa.",
+      "source_urls": [
+        "https://www.hotelsu.com.tr/index.php/bize-ulasin/"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "A design hotel at the eastern end of the Konyaaltı beach area, with its official address in Meltem, Muratpaşa."
+      ]
+    },
+    {
+      "title": "Lara Barut Collection",
+      "slug": "lara-barut-collection",
+      "tagline": "A Lara resort offering different room categories and on-site dining options.",
+      "tags": [],
+      "category": "Coastal resort",
+      "neighborhood": "Lara & Kundu",
+      "official_url": "https://barutlara.com/en/offers",
+      "source_url": "https://barutlara.com/en/offers",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A Lara resort offering different room categories and on-site dining options.",
+      "booking_note": "Compare the current seasonal concept and dining reservation rules for your dates.",
+      "area": "Lara & Kundu",
+      "district_slug": "muratpasa",
+      "description": "A Lara resort offering different room categories and on-site dining options.",
+      "source_urls": [
+        "https://barutlara.com/en/offers"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "A Lara resort offering different room categories and on-site dining options."
+      ]
+    },
+    {
+      "title": "Lukka Exclusive Hotel",
+      "slug": "lukka-exclusive-hotel",
+      "tagline": "A hotel on Kaş’s Çukurbağ Peninsula, for travellers considering a peninsula base rather than the town centre.",
+      "tags": [],
+      "category": "Boutique & heritage",
+      "neighborhood": "Kaş",
+      "official_url": "https://www.lukkahotel.com/contact/",
+      "source_url": "https://www.lukkahotel.com/contact/",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A hotel on Kaş’s Çukurbağ Peninsula, for travellers considering a peninsula base rather than the town centre.",
+      "booking_note": "Confirm age restrictions, sea access and transport into Kaş directly before booking.",
+      "area": "Kaş",
+      "district_slug": "kas",
+      "description": "A hotel on Kaş’s Çukurbağ Peninsula, for travellers considering a peninsula base rather than the town centre.",
+      "source_urls": [
+        "https://www.lukkahotel.com/contact/"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "A hotel on Kaş’s Çukurbağ Peninsula, for travellers considering a peninsula base rather than the town centre."
+      ]
+    },
+    {
+      "title": "Mardan Palace",
+      "slug": "mardan-palace",
+      "tagline": "A palace-style coastal resort in the Kundu area, east of central Antalya.",
+      "tags": [],
+      "category": "Coastal resort",
+      "neighborhood": "Lara & Kundu",
+      "official_url": "https://www.mardanpalace.com/",
+      "source_url": "https://www.mardanpalace.com/",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A palace-style coastal resort in the Kundu area, east of central Antalya.",
+      "booking_note": "Confirm opening dates and any renovation restrictions directly. Older references may use Titanic Mardan Palace; use the current official site.",
+      "area": "Lara & Kundu",
+      "district_slug": "aksu",
+      "description": "A palace-style coastal resort in the Kundu area, east of central Antalya.",
+      "source_urls": [
+        "https://www.mardanpalace.com/"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "A palace-style coastal resort in the Kundu area, east of central Antalya."
+      ]
+    },
+    {
+      "title": "Maxx Royal Belek Golf Resort",
+      "slug": "maxx-royal-belek-golf-resort",
+      "tagline": "The Belek property in the Maxx Royal collection, for travellers comparing resort and golf holidays.",
+      "tags": [],
+      "category": "Golf resort",
+      "neighborhood": "Belek",
+      "official_url": "https://www.maxxroyal.com/contact",
+      "source_url": "https://www.maxxroyal.com/turkiye",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "The Belek property in the Maxx Royal collection, for travellers comparing resort and golf holidays.",
+      "booking_note": "Confirm which golf benefits, room category and dining reservations your chosen package actually includes.",
+      "area": "Belek",
+      "district_slug": "serik",
+      "description": "The Belek property in the Maxx Royal collection, for travellers comparing resort and golf holidays.",
+      "source_urls": [
+        "https://www.maxxroyal.com/turkiye",
+        "https://www.maxxroyal.com/contact"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "The Belek property in the Maxx Royal collection, for travellers comparing resort and golf holidays."
+      ]
+    },
+    {
+      "title": "NG Phaselis Bay",
+      "slug": "ng-phaselis-bay",
+      "tagline": "A coastal resort in Göynük, Kemer, in the region where pine-covered slopes meet the Mediterranean.",
+      "tags": [],
+      "category": "Coastal resort",
+      "neighborhood": "Kemer",
+      "official_url": "https://ngphaselisbay.com/en/contact/",
+      "source_url": "https://ngphaselisbay.com/en/contact/",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A coastal resort in Göynük, Kemer, in the region where pine-covered slopes meet the Mediterranean.",
+      "booking_note": "Despite its name, the hotel is in Göynük, not inside the Phaselis archaeological site. Plan archaeological visits separately.",
+      "area": "Kemer",
+      "district_slug": "kemer",
+      "description": "A coastal resort in Göynük, Kemer, in the region where pine-covered slopes meet the Mediterranean.",
+      "source_urls": [
+        "https://ngphaselisbay.com/en/contact/"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "A coastal resort in Göynük, Kemer, in the region where pine-covered slopes meet the Mediterranean."
+      ]
+    },
+    {
+      "title": "Regnum Carya",
+      "slug": "regnum-carya",
+      "tagline": "A Belek resort associated with the Carya golf setting, with hotel and villa accommodation options.",
+      "tags": [],
+      "category": "Golf resort",
+      "neighborhood": "Belek",
+      "official_url": "https://www.regnumhotels.com/en/hotels/regnum-carya/",
+      "source_url": "https://www.regnumhotels.com/en/hotels/regnum-carya/",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A Belek resort associated with the Carya golf setting, with hotel and villa accommodation options.",
+      "booking_note": "Regnum has more than one property. Check the property name and access arrangements rather than assuming facilities are interchangeable.",
+      "area": "Belek",
+      "district_slug": "serik",
+      "description": "A Belek resort associated with the Carya golf setting, with hotel and villa accommodation options.",
+      "source_urls": [
+        "https://www.regnumhotels.com/en/hotels/regnum-carya/"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "A Belek resort associated with the Carya golf setting, with hotel and villa accommodation options."
+      ]
+    },
+    {
+      "title": "Rixos Premium Belek",
+      "slug": "rixos-premium-belek",
+      "tagline": "A resort on the Belek coast, separate from both central Antalya and the Rixos properties around Kemer.",
+      "tags": [],
+      "category": "Coastal resort",
+      "neighborhood": "Belek",
+      "official_url": "https://all.accor.com/hotel/B1J5/index.en.shtml",
+      "source_url": "https://all.accor.com/hotel/B1J5/index.en.shtml",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A resort on the Belek coast, separate from both central Antalya and the Rixos properties around Kemer.",
+      "booking_note": "If theme-park access is important, confirm admission, transport, opening days and any exclusions with your reservation.",
+      "area": "Belek",
+      "district_slug": "serik",
+      "description": "A resort on the Belek coast, separate from both central Antalya and the Rixos properties around Kemer.",
+      "source_urls": [
+        "https://all.accor.com/hotel/B1J5/index.en.shtml"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "A resort on the Belek coast, separate from both central Antalya and the Rixos properties around Kemer."
+      ]
+    },
+    {
+      "title": "Rixos Sungate",
+      "slug": "rixos-sungate",
+      "tagline": "A large resort in Beldibi on the Kemer coast, between the sea and mountain landscapes.",
+      "tags": [],
+      "category": "Coastal resort",
+      "neighborhood": "Kemer",
+      "official_url": "https://all.accor.com/hotel/B1K1/index.en.shtml",
+      "source_url": "https://all.accor.com/hotel/B1K1/index.en.shtml",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A large resort in Beldibi on the Kemer coast, between the sea and mountain landscapes.",
+      "booking_note": "Beldibi is outside Kemer town. Confirm seasonal entertainment, transfers and the exact package before committing.",
+      "area": "Kemer",
+      "district_slug": "kemer",
+      "description": "A large resort in Beldibi on the Kemer coast, between the sea and mountain landscapes.",
+      "source_urls": [
+        "https://all.accor.com/hotel/B1K1/index.en.shtml"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "A large resort in Beldibi on the Kemer coast, between the sea and mountain landscapes."
+      ]
+    },
+    {
+      "title": "Sunprime C-Lounge",
+      "slug": "sunprime-c-lounge",
+      "tagline": "A coastal hotel in Alanya’s Oba area that markets a 16-plus guest concept.",
+      "tags": [],
+      "category": "Coastal resort",
+      "neighborhood": "Alanya",
+      "official_url": "https://www.c-loungehotel.com/",
+      "source_url": "https://www.c-loungehotel.com/",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A coastal hotel in Alanya’s Oba area that markets a 16-plus guest concept.",
+      "booking_note": "Confirm the age policy for every traveller. Alanya is a separate destination from Antalya city; compare airport transfer options.",
+      "area": "Alanya",
+      "district_slug": "alanya",
+      "description": "A coastal hotel in Alanya’s Oba area that markets a 16-plus guest concept.",
+      "source_urls": [
+        "https://www.c-loungehotel.com/"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "A coastal hotel in Alanya’s Oba area that markets a 16-plus guest concept."
+      ]
+    },
+    {
+      "title": "The Marmara Antalya",
+      "slug": "the-marmara-antalya",
+      "tagline": "A clifftop hotel overlooking the Mediterranean in the city’s Lara area.",
+      "tags": [],
+      "category": "City hotel",
+      "neighborhood": "Antalya city",
+      "official_url": "https://www.themarmarahotels.com/en/hotels/the-marmara-antalya",
+      "source_url": "https://www.themarmarahotels.com/en/hotels/the-marmara-antalya",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A clifftop hotel overlooking the Mediterranean in the city’s Lara area.",
+      "booking_note": "Clifftop stays differ from a sandy-beach resort. Confirm sea access and mobility requirements for your room and route.",
+      "area": "Antalya city",
+      "district_slug": "muratpasa",
+      "description": "A clifftop hotel overlooking the Mediterranean in the city’s Lara area.",
+      "source_urls": [
+        "https://www.themarmarahotels.com/en/hotels/the-marmara-antalya"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "A clifftop hotel overlooking the Mediterranean in the city’s Lara area."
+      ]
+    },
+    {
+      "title": "Tuvana Hotel",
+      "slug": "tuvana-hotel",
+      "tagline": "A heritage-style hotel in the lanes of Kaleiçi, within Antalya’s old-town district.",
+      "tags": [],
+      "category": "Boutique & heritage",
+      "neighborhood": "Kaleiçi",
+      "official_url": "https://tuvanahotel.com/location/",
+      "source_url": "https://tuvanahotel.com/location/",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A heritage-style hotel in the lanes of Kaleiçi, within Antalya’s old-town district.",
+      "booking_note": "Ask for current car access and arrival instructions: old-town lanes are different from a resort driveway.",
+      "area": "Kaleiçi",
+      "district_slug": "muratpasa",
+      "description": "A heritage-style hotel in the lanes of Kaleiçi, within Antalya’s old-town district.",
+      "source_urls": [
+        "https://tuvanahotel.com/location/"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "A heritage-style hotel in the lanes of Kaleiçi, within Antalya’s old-town district."
+      ]
+    },
+    {
+      "title": "Villa Mahal",
+      "slug": "villa-mahal",
+      "tagline": "A boutique property on a hillside overlooking Kalkan Bay on the Lycian coast.",
+      "tags": [],
+      "category": "Boutique & heritage",
+      "neighborhood": "Kalkan",
+      "official_url": "https://villamahal.com/overview/",
+      "source_url": "https://villamahal.com/overview/",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A boutique property on a hillside overlooking Kalkan Bay on the Lycian coast.",
+      "booking_note": "Discuss steps and mobility needs before booking. Check beach-club and boat arrangements directly rather than assuming they are included.",
+      "area": "Kalkan",
+      "district_slug": "kas",
+      "description": "A boutique property on a hillside overlooking Kalkan Bay on the Lycian coast.",
+      "source_urls": [
+        "https://villamahal.com/overview/"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "A boutique property on a hillside overlooking Kalkan Bay on the Lycian coast."
+      ]
+    },
+    {
+      "title": "Voyage Belek Golf & Spa",
+      "slug": "voyage-belek-golf-spa",
+      "tagline": "A Belek resort option for combining a coastal stay with the area’s golf scene.",
+      "tags": [],
+      "category": "Golf resort",
+      "neighborhood": "Belek",
+      "official_url": "https://www.voyagehotel.com/en/voyage-belek-spa",
+      "source_url": "https://www.voyagehotel.com/en/voyage-belek-spa",
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A Belek resort option for combining a coastal stay with the area’s golf scene.",
+      "booking_note": "Golf availability and costs need separate confirmation. Ask about family and quieter areas when selecting a room.",
+      "area": "Belek",
+      "district_slug": "serik",
+      "description": "A Belek resort option for combining a coastal stay with the area’s golf scene.",
+      "source_urls": [
+        "https://www.voyagehotel.com/en/voyage-belek-spa"
+      ],
+      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "photos": [],
+      "photo_rights_status": "No property photo cleared for reuse.",
+      "verified_facts": [
+        "A Belek resort option for combining a coastal stay with the area’s golf scene."
+      ]
+    },
+    {
+      "title": "Delphin Palace",
+      "slug": "delphin-palace",
+      "area": "Lara & Kundu",
+      "neighborhood": "Lara & Kundu",
+      "district_slug": "aksu",
+      "category": "Coastal resort",
+      "official_url": "https://www.delphinhotel.com/en/delphin-palace",
+      "source_url": "https://www.delphinhotel.com/contact-page",
+      "source_urls": [
+        "https://www.delphinhotel.com/contact-page",
+        "https://www.delphinhotel.com/en/delphin-palace"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A Lara beachfront resort in Kemerağzı with standard and family rooms, junior suites and adapted rooms.",
+      "tagline": "A Lara beachfront resort in Kemerağzı with standard and family rooms, junior suites and adapted rooms.",
+      "description": "A Lara beachfront resort in Kemerağzı with standard and family rooms, junior suites and adapted rooms. The hotel lists an indoor pool, spa, bowling and several dining venues, making it a full resort option rather than a small coastal hotel.",
+      "booking_note": "Check the specific Delphin property on your booking and transfer voucher.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "A Lara beachfront resort in Kemerağzı with standard and family rooms, junior suites and adapted rooms.",
+        "The hotel lists an indoor pool, spa, bowling and several dining venues, making it a full resort option rather than a small coastal hotel."
+      ]
+    },
+    {
+      "title": "Delphin Diva",
+      "slug": "delphin-diva",
+      "area": "Lara & Kundu",
+      "neighborhood": "Lara & Kundu",
+      "district_slug": "aksu",
+      "category": "Coastal resort",
+      "official_url": "https://www.delphinhotel.com/en/delphin-diva",
+      "source_url": "https://www.delphinhotel.com/contact-page",
+      "source_urls": [
+        "https://www.delphinhotel.com/contact-page",
+        "https://www.delphinhotel.com/en/delphin-diva"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Delphin Diva combines a 230-metre beach with standard rooms, duplex family rooms and suites.",
+      "tagline": "Delphin Diva combines a 230-metre beach with standard rooms, duplex family rooms and suites.",
+      "description": "Delphin Diva combines a 230-metre beach with standard rooms, duplex family rooms and suites. It is in Kemerağzı, with public minibus and taxi stops identified by the hotel at its entrance.",
+      "booking_note": "Check the room layout if booking a duplex with small children or anyone who finds stairs difficult.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Delphin Diva combines a 230-metre beach with standard rooms, duplex family rooms and suites.",
+        "It is in Kemerağzı, with public minibus and taxi stops identified by the hotel at its entrance."
+      ]
+    },
+    {
+      "title": "Delphin Be Grand Resort",
+      "slug": "delphin-be-grand-resort",
+      "area": "Lara & Kundu",
+      "neighborhood": "Lara & Kundu",
+      "district_slug": "muratpasa",
+      "category": "Coastal resort",
+      "official_url": "https://www.delphinhotel.com/en/delphin-be-grand-resort",
+      "source_url": "https://www.delphinhotel.com/contact-page",
+      "source_urls": [
+        "https://www.delphinhotel.com/contact-page",
+        "https://www.delphinhotel.com/en/delphin-be-grand-resort"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A large Lara-coast resort in Güzeloba, Muratpaşa, with loft, connecting-room and family-room options.",
+      "tagline": "A large Lara-coast resort in Güzeloba, Muratpaşa, with loft, connecting-room and family-room options.",
+      "description": "A large Lara-coast resort in Güzeloba, Muratpaşa, with loft, connecting-room and family-room options. Six tennis courts and a substantial fitness centre are among the property's advertised sports facilities.",
+      "booking_note": "Do not assume facilities or access are shared with the other Delphin properties.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "A large Lara-coast resort in Güzeloba, Muratpaşa, with loft, connecting-room and family-room options.",
+        "Six tennis courts and a substantial fitness centre are among the property's advertised sports facilities."
+      ]
+    },
+    {
+      "title": "Delphin Deluxe",
+      "slug": "delphin-deluxe",
+      "area": "Alanya",
+      "neighborhood": "Alanya",
+      "district_slug": "alanya",
+      "category": "Coastal resort",
+      "official_url": "https://www.delphinhotel.com/en/",
+      "source_url": "https://www.delphinhotel.com/contact-page",
+      "source_urls": [
+        "https://www.delphinhotel.com/contact-page",
+        "https://www.delphinhotel.com/en/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Delphin Deluxe is based in the Alara tourism area at Okurcalar, within Alanya district.",
+      "tagline": "Delphin Deluxe is based in the Alara tourism area at Okurcalar, within Alanya district.",
+      "description": "Delphin Deluxe is based in the Alara tourism area at Okurcalar, within Alanya district. It is a separate property from Delphin Palace and the other Lara hotels, useful to distinguish when comparing transfer routes.",
+      "booking_note": "Okurcalar is outside Alanya town. Confirm your airport and transfer before choosing a rate.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Delphin Deluxe is based in the Alara tourism area at Okurcalar, within Alanya district.",
+        "It is a separate property from Delphin Palace and the other Lara hotels, useful to distinguish when comparing transfer routes."
+      ]
+    },
+    {
+      "title": "Delphin Botanik Platinum",
+      "slug": "delphin-botanik-platinum",
+      "area": "Alanya",
+      "neighborhood": "Alanya",
+      "district_slug": "alanya",
+      "category": "Coastal resort",
+      "official_url": "https://www.delphinhotel.com/en/botanik-platinum",
+      "source_url": "https://www.delphinhotel.com/contact-page",
+      "source_urls": [
+        "https://www.delphinhotel.com/contact-page",
+        "https://www.delphinhotel.com/en/botanik-platinum"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "The Botanik Platinum property is in Okurcalar's Alara tourism area.",
+      "tagline": "The Botanik Platinum property is in Okurcalar's Alara tourism area.",
+      "description": "The Botanik Platinum property is in Okurcalar's Alara tourism area. Its official description distinguishes a pool for Platinum guests from other pools shared with neighbouring Botanik, making the booked hotel and access rules important.",
+      "booking_note": "Ask whether any adjacent-hotel facilities are included rather than assuming cross-property access.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "The Botanik Platinum property is in Okurcalar's Alara tourism area.",
+        "Its official description distinguishes a pool for Platinum guests from other pools shared with neighbouring Botanik, making the booked hotel and access rules important."
+      ]
+    },
+    {
+      "title": "Delphin Botanik Hotel & Resort",
+      "slug": "delphin-botanik-hotel-resort",
+      "area": "Alanya",
+      "neighborhood": "Alanya",
+      "district_slug": "alanya",
+      "category": "Coastal resort",
+      "official_url": "https://www.delphinhotel.com/en/botanik-hotel-resort",
+      "source_url": "https://www.delphinhotel.com/contact-page",
+      "source_urls": [
+        "https://www.delphinhotel.com/contact-page",
+        "https://www.delphinhotel.com/en/botanik-hotel-resort"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "An Okurcalar resort with a three-storey main building and annex accommodation.",
+      "tagline": "An Okurcalar resort with a three-storey main building and annex accommodation.",
+      "description": "An Okurcalar resort with a three-storey main building and annex accommodation. The official site lists outdoor pools, children's pools, waterslides and a timed funfair programme.",
+      "booking_note": "Use the full property name when arranging transport and confirm which building your room occupies.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "An Okurcalar resort with a three-storey main building and annex accommodation.",
+        "The official site lists outdoor pools, children's pools, waterslides and a timed funfair programme."
+      ]
+    },
+    {
+      "title": "Limak Lara Deluxe Hotel & Resort",
+      "slug": "limak-lara-deluxe-hotel-resort",
+      "area": "Lara & Kundu",
+      "neighborhood": "Lara & Kundu",
+      "district_slug": "aksu",
+      "category": "Coastal resort",
+      "official_url": "https://www.limakhotels.com/lara",
+      "source_url": "https://www.limakhotels.com/",
+      "source_urls": [
+        "https://www.limakhotels.com/",
+        "https://www.limakhotels.com/lara"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Limak's Lara hotel uses an Asian-influenced design and advertises all-inclusive holiday concepts.",
+      "tagline": "Limak's Lara hotel uses an Asian-influenced design and advertises all-inclusive holiday concepts.",
+      "description": "Limak's Lara hotel uses an Asian-influenced design and advertises all-inclusive holiday concepts. The property is in Kemerağzı on the Lara–Kundu coast, rather than in Antalya's old town.",
+      "booking_note": "Compare the current summer or winter concept and the room category before booking.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Limak's Lara hotel uses an Asian-influenced design and advertises all-inclusive holiday concepts.",
+        "The property is in Kemerağzı on the Lara–Kundu coast, rather than in Antalya's old town."
+      ]
+    },
+    {
+      "title": "Limak Limra Hotel & Resort",
+      "slug": "limak-limra-hotel-resort",
+      "area": "Kemer",
+      "neighborhood": "Kemer",
+      "district_slug": "kemer",
+      "category": "Coastal resort",
+      "official_url": "https://www.limakhotels.com/limra",
+      "source_url": "https://www.limakhotels.com/",
+      "source_urls": [
+        "https://www.limakhotels.com/",
+        "https://www.limakhotels.com/limra"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A family resort in the Kemer region where the coast meets the mountain landscape.",
+      "tagline": "A family resort in the Kemer region where the coast meets the mountain landscape.",
+      "description": "A family resort in the Kemer region where the coast meets the mountain landscape. Limak describes large green grounds and an ultra-all-inclusive concept, making it a resort-based option rather than a town-centre hotel.",
+      "booking_note": "Check the exact Kiriş location, room building and seasonal facilities.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "A family resort in the Kemer region where the coast meets the mountain landscape.",
+        "Limak describes large green grounds and an ultra-all-inclusive concept, making it a resort-based option rather than a town-centre hotel."
+      ]
+    },
+    {
+      "title": "Limak Atlantis Deluxe Hotel & Resort",
+      "slug": "limak-atlantis-deluxe-hotel-resort",
+      "area": "Belek",
+      "neighborhood": "Belek",
+      "district_slug": "serik",
+      "category": "Coastal resort",
+      "official_url": "https://www.limakhotels.com/atlantis",
+      "source_url": "https://www.limakhotels.com/",
+      "source_urls": [
+        "https://www.limakhotels.com/",
+        "https://www.limakhotels.com/atlantis"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A Belek resort with an Atlantis-inspired design, pine surroundings and a sandy beach with a pier.",
+      "tagline": "A Belek resort with an Atlantis-inspired design, pine surroundings and a sandy beach with a pier.",
+      "description": "A Belek resort with an Atlantis-inspired design, pine surroundings and a sandy beach with a pier. The hotel combines modern and rustic design elements and positions itself for pool-and-beach holidays.",
+      "booking_note": "Confirm pier access and which pools operate on your travel dates.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "A Belek resort with an Atlantis-inspired design, pine surroundings and a sandy beach with a pier.",
+        "The hotel combines modern and rustic design elements and positions itself for pool-and-beach holidays."
+      ]
+    },
+    {
+      "title": "Limak Arcadia Sport Resort",
+      "slug": "limak-arcadia-sport-resort",
+      "area": "Belek",
+      "neighborhood": "Belek",
+      "district_slug": "serik",
+      "category": "Coastal resort",
+      "official_url": "https://www.limakhotels.com/arcadia",
+      "source_url": "https://www.limakhotels.com/",
+      "source_urls": [
+        "https://www.limakhotels.com/",
+        "https://www.limakhotels.com/arcadia"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Limak's first resort opened in Belek in 1995.",
+      "tagline": "Limak's first resort opened in Belek in 1995.",
+      "description": "Limak's first resort opened in Belek in 1995. Its coastal setting includes mature pine trees and a sandy beach, with a sport-oriented identity distinct from the group's Atlantis property.",
+      "booking_note": "Ask about the sports facilities and any training-group activity during your stay.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [
+        {
+          "hotel": "Limak Arcadia Sport Resort",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/LIMAK_ARCADIA_5%282015%29_-_panoramio.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:LIMAK_ARCADIA_5(2015)_-_panoramio.jpg",
+          "author": "edykbo",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "date_taken": "2015-05-27",
+          "caption": "Limak Arcadia in 2015. Archive photograph; present-day facilities may differ.",
+          "archive": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/LIMAK_ARCADIA_5%282015%29_-_panoramio.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+          "attribution": "edykbo / CC BY 3.0 / Wikimedia Commons",
+          "license_verified_at": "2026-11-09",
+          "usage_note": "Show photographer, source and licence link. Label date prominently. State cropping/resizing if performed. Do not imply endorsement or that archival conditions are current.",
+          "download_status": "Source URL verified; not downloaded to local workspace.",
+          "visual_review_status": "Source identifies property; visual QA required before selecting crop or displaying."
+        }
+      ],
+      "photo_rights_status": "Individual licence verified. Historical/undated property image only; attribution and archive caption required.",
+      "verified_facts": [
+        "Limak's first resort opened in Belek in 1995.",
+        "Its coastal setting includes mature pine trees and a sandy beach, with a sport-oriented identity distinct from the group's Atlantis property."
+      ]
+    },
+    {
+      "title": "Titanic Deluxe Lara",
+      "slug": "titanic-deluxe-lara",
+      "area": "Lara & Kundu",
+      "neighborhood": "Lara & Kundu",
+      "district_slug": "muratpasa",
+      "category": "Coastal resort",
+      "official_url": "https://www.titanic.com.tr/titanic-deluxe-lara",
+      "source_url": "https://www.titanic.com.tr/hotels",
+      "source_urls": [
+        "https://www.titanic.com.tr/hotels",
+        "https://www.titanic.com.tr/titanic-deluxe-lara"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Titanic's themed Lara resort overlooks a sandy Mediterranean beach and advertises an all-inclusive concept.",
+      "tagline": "Titanic's themed Lara resort overlooks a sandy Mediterranean beach and advertises an all-inclusive concept.",
+      "description": "Titanic's themed Lara resort overlooks a sandy Mediterranean beach and advertises an all-inclusive concept. Its official Güzeloba address is in Muratpaşa, separate from the hotel's Belek sister property.",
+      "booking_note": "Use the current Lara hotel name and confirm the exact meal and beverage package.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Titanic's themed Lara resort overlooks a sandy Mediterranean beach and advertises an all-inclusive concept.",
+        "Its official Güzeloba address is in Muratpaşa, separate from the hotel's Belek sister property."
+      ]
+    },
+    {
+      "title": "Titanic Luxury Collection Belek",
+      "slug": "titanic-luxury-collection-belek",
+      "area": "Belek",
+      "neighborhood": "Belek",
+      "district_slug": "serik",
+      "category": "Golf resort",
+      "official_url": "https://www.titanic.com.tr/titanic-luxury-collection-belek",
+      "source_url": "https://www.titanic.com.tr/hotels",
+      "source_urls": [
+        "https://www.titanic.com.tr/hotels",
+        "https://www.titanic.com.tr/titanic-luxury-collection-belek"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "The group's current Belek property is listed as Titanic Luxury Collection Belek.",
+      "tagline": "The group's current Belek property is listed as Titanic Luxury Collection Belek.",
+      "description": "The group's current Belek property is listed as Titanic Luxury Collection Belek. Its address is in Kadriye, Serik, within the wider Belek golf destination.",
+      "booking_note": "Older listings may use Titanic Deluxe Golf Belek. Confirm the current property name and golf inclusions.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "The group's current Belek property is listed as Titanic Luxury Collection Belek.",
+        "Its address is in Kadriye, Serik, within the wider Belek golf destination."
+      ]
+    },
+    {
+      "title": "Royal Wings Hotel",
+      "slug": "royal-wings-hotel",
+      "area": "Lara & Kundu",
+      "neighborhood": "Lara & Kundu",
+      "district_slug": "aksu",
+      "category": "Coastal resort",
+      "official_url": "https://www.royalwingshotel.com/en",
+      "source_url": "https://www.royalwingshotel.com/en",
+      "source_urls": [
+        "https://www.royalwingshotel.com/en"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "An all-inclusive Lara resort with a sandy beach, outdoor pools and an aquapark.",
+      "tagline": "An all-inclusive Lara resort with a sandy beach, outdoor pools and an aquapark.",
+      "description": "An all-inclusive Lara resort with a sandy beach, outdoor pools and an aquapark. Accommodation includes superior rooms and adapted room categories, while children have a mini club and funfair activities.",
+      "booking_note": "Verify seasonal waterpark operations and any paid restaurant or activity options.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "An all-inclusive Lara resort with a sandy beach, outdoor pools and an aquapark.",
+        "Accommodation includes superior rooms and adapted room categories, while children have a mini club and funfair activities."
+      ]
+    },
+    {
+      "title": "Paloma Finesse Side",
+      "slug": "paloma-finesse-side",
+      "area": "Side",
+      "neighborhood": "Side",
+      "district_slug": "manavgat",
+      "category": "Coastal resort",
+      "official_url": "https://www.palomahotels.com/en/finesse-side",
+      "source_url": "https://www.palomahotels.com/en/contact",
+      "source_urls": [
+        "https://www.palomahotels.com/en/contact",
+        "https://www.palomahotels.com/en/finesse-side"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A contemporary low-rise resort in the Sorgun–Titreyengöl area with an 80-metre pool and a 350-metre sandy beach.",
+      "tagline": "A contemporary low-rise resort in the Sorgun–Titreyengöl area with an 80-metre pool and a 350-metre sandy beach.",
+      "description": "A contemporary low-rise resort in the Sorgun–Titreyengöl area with an 80-metre pool and a 350-metre sandy beach. Its minimalist design, swim-up rooms and Chef's Kitchen programme distinguish it from Paloma's other Side properties.",
+      "booking_note": "Ask about Chef's Kitchen reservations, swim-up room rules and seasonal Palomaqua access.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "A contemporary low-rise resort in the Sorgun–Titreyengöl area with an 80-metre pool and a 350-metre sandy beach.",
+        "Its minimalist design, swim-up rooms and Chef's Kitchen programme distinguish it from Paloma's other Side properties."
+      ]
+    },
+    {
+      "title": "Paloma Orenda",
+      "slug": "paloma-orenda",
+      "area": "Side",
+      "neighborhood": "Side",
+      "district_slug": "manavgat",
+      "category": "Coastal resort",
+      "official_url": "https://www.palomahotels.com/en/paloma-orenda",
+      "source_url": "https://www.palomahotels.com/en/contact",
+      "source_urls": [
+        "https://www.palomahotels.com/en/contact",
+        "https://www.palomahotels.com/en/paloma-orenda"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Paloma Orenda combines low-rise buildings and gardens with a 350-metre beach in the Sorgun–Titreyengöl area.",
+      "tagline": "Paloma Orenda combines low-rise buildings and gardens with a 350-metre beach in the Sorgun–Titreyengöl area.",
+      "description": "Paloma Orenda combines low-rise buildings and gardens with a 350-metre beach in the Sorgun–Titreyengöl area. The official hotel highlights tennis, padel, archery and water sports, with Palomaqua adding a waterpark option.",
+      "booking_note": "Sports tuition, equipment hire and waterpark operations may have separate rules or seasonal limits.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Paloma Orenda combines low-rise buildings and gardens with a 350-metre beach in the Sorgun–Titreyengöl area.",
+        "The official hotel highlights tennis, padel, archery and water sports, with Palomaqua adding a waterpark option."
+      ]
+    },
+    {
+      "title": "Paloma Perissia",
+      "slug": "paloma-perissia",
+      "area": "Side",
+      "neighborhood": "Side",
+      "district_slug": "manavgat",
+      "category": "Coastal resort",
+      "official_url": "https://www.palomahotels.com/en/paloma-perissia",
+      "source_url": "https://www.palomahotels.com/en/contact",
+      "source_urls": [
+        "https://www.palomahotels.com/en/contact",
+        "https://www.palomahotels.com/en/paloma-perissia"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A beachfront Side hotel with a 200-metre sandy beach and a coastal route towards the ancient town.",
+      "tagline": "A beachfront Side hotel with a 200-metre sandy beach and a coastal route towards the ancient town.",
+      "description": "A beachfront Side hotel with a 200-metre sandy beach and a coastal route towards the ancient town. The property advertises year-round stays and a shuttle to Palomaqua, which is away from the hotel.",
+      "booking_note": "Check shuttle times and seasonal waterpark availability; Palomaqua is not on site.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "A beachfront Side hotel with a 200-metre sandy beach and a coastal route towards the ancient town.",
+        "The property advertises year-round stays and a shuttle to Palomaqua, which is away from the hotel."
+      ]
+    },
+    {
+      "title": "Paloma Oceana",
+      "slug": "paloma-oceana",
+      "area": "Side",
+      "neighborhood": "Side",
+      "district_slug": "manavgat",
+      "category": "Coastal resort",
+      "official_url": "https://www.palomahotels.com/en/paloma-oceana",
+      "source_url": "https://www.palomahotels.com/en/contact",
+      "source_urls": [
+        "https://www.palomahotels.com/en/contact",
+        "https://www.palomahotels.com/en/paloma-oceana"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A beachfront Paloma resort in Kumköy, about five kilometres from Side according to the hotel.",
+      "tagline": "A beachfront Paloma resort in Kumköy, about five kilometres from Side according to the hotel.",
+      "description": "A beachfront Paloma resort in Kumköy, about five kilometres from Side according to the hotel. Its location suits a beach base west of the ancient town rather than accommodation inside the historic streets.",
+      "booking_note": "Confirm the room building and transport to Side before booking.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "A beachfront Paloma resort in Kumköy, about five kilometres from Side according to the hotel.",
+        "Its location suits a beach base west of the ancient town rather than accommodation inside the historic streets."
+      ]
+    },
+    {
+      "title": "Paloma Grida",
+      "slug": "paloma-grida",
+      "area": "Belek",
+      "neighborhood": "Belek",
+      "district_slug": "serik",
+      "category": "Coastal resort",
+      "official_url": "https://www.palomahotels.com/en/paloma-grida",
+      "source_url": "https://www.palomahotels.com/en/contact",
+      "source_urls": [
+        "https://www.palomahotels.com/en/contact",
+        "https://www.palomahotels.com/en/paloma-grida"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Paloma Grida is laid out like a Mediterranean village along the Belek coast.",
+      "tagline": "Paloma Grida is laid out like a Mediterranean village along the Belek coast.",
+      "description": "Paloma Grida is laid out like a Mediterranean village along the Belek coast. Family Lagoon Suites, adults-only Lake Suites with pool access and the on-site Palomaqua Belek waterpark create distinct choices within the same resort.",
+      "booking_note": "The adults-only restriction applies to Lake Suites, not the whole resort. Check the room-specific age policy.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Paloma Grida is laid out like a Mediterranean village along the Belek coast.",
+        "Family Lagoon Suites, adults-only Lake Suites with pool access and the on-site Palomaqua Belek waterpark create distinct choices within the same resort."
+      ]
+    },
+    {
+      "title": "Paloma Sencia",
+      "slug": "paloma-sencia",
+      "area": "Belek",
+      "neighborhood": "Belek",
+      "district_slug": "serik",
+      "category": "Coastal resort",
+      "official_url": "https://www.palomahotels.com/en/paloma-sencia",
+      "source_url": "https://www.palomahotels.com/en/contact",
+      "source_urls": [
+        "https://www.palomahotels.com/en/contact",
+        "https://www.palomahotels.com/en/paloma-sencia"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A Belek resort on Kongre Caddesi with rooms, suites and swim-up options.",
+      "tagline": "A Belek resort on Kongre Caddesi with rooms, suites and swim-up options.",
+      "description": "A Belek resort on Kongre Caddesi with rooms, suites and swim-up options. The official site also lists meeting facilities and year-round experiences, offering a different setting from Paloma Grida's village layout.",
+      "booking_note": "Confirm swim-up pool operations and which restaurants are open for your dates.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "A Belek resort on Kongre Caddesi with rooms, suites and swim-up options.",
+        "The official site also lists meeting facilities and year-round experiences, offering a different setting from Paloma Grida's village layout."
+      ]
+    },
+    {
+      "title": "Papillon Ayscha",
+      "slug": "papillon-ayscha",
+      "area": "Belek",
+      "neighborhood": "Belek",
+      "district_slug": "serik",
+      "category": "Coastal resort",
+      "official_url": "https://papillon.com.tr/en/papillon-hotels-6/",
+      "source_url": "https://papillon.com.tr/iletisim/",
+      "source_urls": [
+        "https://papillon.com.tr/iletisim/",
+        "https://papillon.com.tr/en/papillon-hotels-6/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Papillon Ayscha is in Belek's İleribaşı area and offers standard and family rooms as well as villa categories.",
+      "tagline": "Papillon Ayscha is in Belek's İleribaşı area and offers standard and family rooms as well as villa categories.",
+      "description": "Papillon Ayscha is in Belek's İleribaşı area and offers standard and family rooms as well as villa categories. Its accommodation range includes Select Family Villas and larger Deluxe Villas.",
+      "booking_note": "Room and villa categories differ substantially. Confirm bedrooms, occupancy and any pool access.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [
+        {
+          "hotel": "Papillon Ayscha",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/PAPILLON_AYSCHA_5_%282015%29_-_panoramio.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:PAPILLON_AYSCHA_5_(2015)_-_panoramio.jpg",
+          "author": "edykbo",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "date_taken": "2015-05-27",
+          "caption": "Papillon Ayscha in 2015. Archive photograph; present-day facilities may differ.",
+          "archive": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/PAPILLON_AYSCHA_5_%282015%29_-_panoramio.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+          "attribution": "edykbo / CC BY 3.0 / Wikimedia Commons",
+          "license_verified_at": "2026-11-09",
+          "usage_note": "Show photographer, source and licence link. Label date prominently. State cropping/resizing if performed. Do not imply endorsement or that archival conditions are current.",
+          "download_status": "Source URL verified; not downloaded to local workspace.",
+          "visual_review_status": "Source identifies property; visual QA required before selecting crop or displaying."
+        }
+      ],
+      "photo_rights_status": "Individual licence verified. Historical/undated property image only; attribution and archive caption required.",
+      "verified_facts": [
+        "Papillon Ayscha is in Belek's İleribaşı area and offers standard and family rooms as well as villa categories.",
+        "Its accommodation range includes Select Family Villas and larger Deluxe Villas."
+      ]
+    },
+    {
+      "title": "Papillon Belvil",
+      "slug": "papillon-belvil",
+      "area": "Belek",
+      "neighborhood": "Belek",
+      "district_slug": "serik",
+      "category": "Coastal resort",
+      "official_url": "https://papillon.com.tr/en/accommodation/",
+      "source_url": "https://papillon.com.tr/iletisim/",
+      "source_urls": [
+        "https://papillon.com.tr/iletisim/",
+        "https://papillon.com.tr/en/accommodation/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Papillon Belvil occupies Belek's Taşlıburun area.",
+      "tagline": "Papillon Belvil occupies Belek's Taşlıburun area.",
+      "description": "Papillon Belvil occupies Belek's Taşlıburun area. The group lists Comfort Club rooms, club family rooms and superior room categories, making the exact building and room type important when comparing stays.",
+      "booking_note": "Check whether you are reserving a club room or a main-building room.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Papillon Belvil occupies Belek's Taşlıburun area.",
+        "The group lists Comfort Club rooms, club family rooms and superior room categories, making the exact building and room type important when comparing stays."
+      ]
+    },
+    {
+      "title": "Papillon Zeugma Relaxury",
+      "slug": "papillon-zeugma-relaxury",
+      "area": "Belek",
+      "neighborhood": "Belek",
+      "district_slug": "serik",
+      "category": "Coastal resort",
+      "official_url": "https://papillon.com.tr/factsheet/",
+      "source_url": "https://papillon.com.tr/iletisim/",
+      "source_urls": [
+        "https://papillon.com.tr/iletisim/",
+        "https://papillon.com.tr/factsheet/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Papillon Zeugma Relaxury is an İleribaşı resort in Belek with superior rooms, duplex family rooms and suite categories.",
+      "tagline": "Papillon Zeugma Relaxury is an İleribaşı resort in Belek with superior rooms, duplex family rooms and suite categories.",
+      "description": "Papillon Zeugma Relaxury is an İleribaşı resort in Belek with superior rooms, duplex family rooms and suite categories. The group's accommodation listing includes Luxury Pool Suites alongside larger multi-level suites.",
+      "booking_note": "Confirm pool-suite inclusions and stairs or bedroom layout in duplex accommodation.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Papillon Zeugma Relaxury is an İleribaşı resort in Belek with superior rooms, duplex family rooms and suite categories.",
+        "The group's accommodation listing includes Luxury Pool Suites alongside larger multi-level suites."
+      ]
+    },
+    {
+      "title": "IC Hotels Green Palace & Villas",
+      "slug": "ic-hotels-green-palace-villas",
+      "area": "Lara & Kundu",
+      "neighborhood": "Lara & Kundu",
+      "district_slug": "aksu",
+      "category": "Coastal resort",
+      "official_url": "https://www.ichotels.com.tr/en/our-hotels/green-palace-villas/",
+      "source_url": "https://www.ichotels.com.tr/en/contact",
+      "source_urls": [
+        "https://www.ichotels.com.tr/en/contact",
+        "https://www.ichotels.com.tr/en/our-hotels/green-palace-villas/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "The Kundu property brings together hotel rooms, family and kids suites, and several villa types.",
+      "tagline": "The Kundu property brings together hotel rooms, family and kids suites, and several villa types.",
+      "description": "The Kundu property brings together hotel rooms, family and kids suites, and several villa types. Lake, beach and Bali-style villas sit within the current Green Palace & Villas offering.",
+      "booking_note": "The villa concept can differ from standard-room accommodation. Check the exact inclusions and pool arrangements.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "The Kundu property brings together hotel rooms, family and kids suites, and several villa types.",
+        "Lake, beach and Bali-style villas sit within the current Green Palace & Villas offering."
+      ]
+    },
+    {
+      "title": "IC Hotels Santai Family Resort",
+      "slug": "ic-hotels-santai-family-resort",
+      "area": "Belek",
+      "neighborhood": "Belek",
+      "district_slug": "serik",
+      "category": "Coastal resort",
+      "official_url": "https://www.ichotels.com.tr/en/our-hotels/santai-family-resort/",
+      "source_url": "https://www.ichotels.com.tr/en/contact",
+      "source_urls": [
+        "https://www.ichotels.com.tr/en/contact",
+        "https://www.ichotels.com.tr/en/our-hotels/santai-family-resort/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A Belek family resort in the Üçkum Tepesi area with kids suites and swim-up villa options.",
+      "tagline": "A Belek family resort in the Üçkum Tepesi area with kids suites and swim-up villa options.",
+      "description": "A Belek family resort in the Üçkum Tepesi area with kids suites and swim-up villa options. The official hotel emphasises daytime activity, children's play areas and several themed dining venues.",
+      "booking_note": "Check children's age groups, swim-up safety rules and restaurant booking conditions.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "A Belek family resort in the Üçkum Tepesi area with kids suites and swim-up villa options.",
+        "The official hotel emphasises daytime activity, children's play areas and several themed dining venues."
+      ]
+    },
+    {
+      "title": "IC Hotels Airport",
+      "slug": "ic-hotels-airport",
+      "area": "Antalya city",
+      "neighborhood": "Antalya city",
+      "district_slug": "aksu",
+      "category": "City hotel",
+      "official_url": "https://www.ichotels.com.tr/en/our-hotels/airport/",
+      "source_url": "https://www.ichotels.com.tr/en/contact",
+      "source_urls": [
+        "https://www.ichotels.com.tr/en/contact",
+        "https://www.ichotels.com.tr/en/our-hotels/airport/",
+        "https://www.icgyo.com.tr/en/portfolio/existing-properties/ic-hotels-airport"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "An airport-oriented hotel in Güzelyurt–Çalkaya with rooms, suites and meeting spaces.",
+      "tagline": "An airport-oriented hotel in Güzelyurt–Çalkaya with rooms, suites and meeting spaces.",
+      "description": "An airport-oriented hotel in Güzelyurt–Çalkaya with rooms, suites and meeting spaces. The official site lists a restaurant, bar and pool areas, making it a practical stopover alternative to the coastal resort strip.",
+      "booking_note": "Confirm transfer availability and terminal pickup details. This is not a beachfront hotel.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "An airport-oriented hotel in Güzelyurt–Çalkaya with rooms, suites and meeting spaces.",
+        "The official site lists a restaurant, bar and pool areas, making it a practical stopover alternative to the coastal resort strip."
+      ]
+    },
+    {
+      "title": "Nirvana Mediterranean Excellence",
+      "slug": "nirvana-mediterranean-excellence",
+      "area": "Kemer",
+      "neighborhood": "Kemer",
+      "district_slug": "kemer",
+      "category": "Coastal resort",
+      "official_url": "https://www.nirvanahotels.com.tr/oteller",
+      "source_url": "https://www.nirvanahotels.com.tr/iletisim",
+      "source_urls": [
+        "https://www.nirvanahotels.com.tr/oteller",
+        "https://www.nirvanahotels.com.tr/iletisim",
+        "https://villa.nirvanahotels.com.tr/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A nature-focused Nirvana resort in Beldibi on the Kemer coast.",
+      "tagline": "A nature-focused Nirvana resort in Beldibi on the Kemer coast.",
+      "description": "Nirvana Mediterranean Excellence is based in Beldibi on the Kemer coast, with the official address in Göynük Mahallesi. The group describes a nature-focused setting and offers villa accommodation alongside its broader resort concept.",
+      "booking_note": "Confirm the specific room or villa concept and any pet-accommodation arrangements directly.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Located in Beldibi, Kemer, at Göynük Mahallesi Başkomutan Atatürk Caddesi No:141.",
+        "Listed by Nirvana Hotels as a distinct resort with a nature-focused setting."
+      ]
+    },
+    {
+      "title": "Trendy Lara",
+      "slug": "trendy-lara",
+      "area": "Lara & Kundu",
+      "neighborhood": "Lara & Kundu",
+      "district_slug": "aksu",
+      "category": "Coastal resort",
+      "official_url": "https://trendy.com.tr/en/",
+      "source_url": "https://trendy.com.tr/en/iletisim/",
+      "source_urls": [
+        "https://trendy.com.tr/en/iletisim/",
+        "https://trendy.com.tr/en/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Trendy Lara is based in Kundu, with the official address at Yaşar Sobutay Bulvarı No:104.",
+      "tagline": "Trendy Lara is based in Kundu, with the official address at Yaşar Sobutay Bulvarı No:104.",
+      "description": "Trendy Lara is based in Kundu, with the official address at Yaşar Sobutay Bulvarı No:104. The group describes a setting linked to the Belek forest landscape and Mediterranean coast.",
+      "booking_note": "Confirm how guests reach the beach and compare room options rather than assuming direct beachfront access.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verification_notes": "Property-specific English URL returned redirect loop; verified portfolio and contact pages retained.",
+      "verified_facts": [
+        "Trendy Lara is based in Kundu, with the official address at Yaşar Sobutay Bulvarı No:104.",
+        "The group describes a setting linked to the Belek forest landscape and Mediterranean coast."
+      ]
+    },
+    {
+      "title": "Trendy Aspendos Beach",
+      "slug": "trendy-aspendos-beach",
+      "area": "Side",
+      "neighborhood": "Side",
+      "district_slug": "manavgat",
+      "category": "Coastal resort",
+      "official_url": "https://trendy.com.tr/en/trendy-aspendos-beach/",
+      "source_url": "https://trendy.com.tr/en/iletisim/",
+      "source_urls": [
+        "https://trendy.com.tr/en/iletisim/",
+        "https://trendy.com.tr/en/",
+        "https://trendy.com.tr/en/trendy-aspendos-beach/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "The Aspendos Beach property is in Gündoğdu, west of Side, with an architectural theme inspired by the ancient region.",
+      "tagline": "The Aspendos Beach property is in Gündoğdu, west of Side, with an architectural theme inspired by the ancient region.",
+      "description": "The Aspendos Beach property is in Gündoğdu, west of Side, with an architectural theme inspired by the ancient region. Its official address is Barbaros Sokak No:9 in Manavgat.",
+      "booking_note": "The name does not place the hotel at Aspendos Theatre. Plan archaeological excursions separately.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "The Aspendos Beach property is in Gündoğdu, west of Side, with an architectural theme inspired by the ancient region.",
+        "Its official address is Barbaros Sokak No:9 in Manavgat."
+      ]
+    },
+    {
+      "title": "Trendy Verbena Beach",
+      "slug": "trendy-verbena-beach",
+      "area": "Side",
+      "neighborhood": "Side",
+      "district_slug": "manavgat",
+      "category": "Coastal resort",
+      "official_url": "https://trendy.com.tr/en/trendy-verbena-beach/",
+      "source_url": "https://trendy.com.tr/en/iletisim/",
+      "source_urls": [
+        "https://trendy.com.tr/en/iletisim/",
+        "https://trendy.com.tr/en/",
+        "https://trendy.com.tr/en/trendy-verbena-beach/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Trendy Verbena Beach is in Evrenseki, within Manavgat district.",
+      "tagline": "Trendy Verbena Beach is in Evrenseki, within Manavgat district.",
+      "description": "Trendy Verbena Beach is in Evrenseki, within Manavgat district. The group positions it around sandy-beach holidays with family accommodation and entertainment options.",
+      "booking_note": "Check which room category fits your group and the current beach and pool programme.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Trendy Verbena Beach is in Evrenseki, within Manavgat district.",
+        "The group positions it around sandy-beach holidays with family accommodation and entertainment options."
+      ]
+    },
+    {
+      "title": "Trendy Palm Beach",
+      "slug": "trendy-palm-beach",
+      "area": "Side",
+      "neighborhood": "Side",
+      "district_slug": "manavgat",
+      "category": "Coastal resort",
+      "official_url": "https://trendy.com.tr/en/trendy-palm-beach/",
+      "source_url": "https://trendy.com.tr/en/iletisim/",
+      "source_urls": [
+        "https://trendy.com.tr/en/iletisim/",
+        "https://trendy.com.tr/en/sitemap/",
+        "https://trendy.com.tr/en/trendy-palm-beach/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A Kumköy-area hotel with direct sea access, listed by Trendy under an adults-only 16-plus concept.",
+      "tagline": "A Kumköy-area hotel with direct sea access, listed by Trendy under an adults-only 16-plus concept.",
+      "description": "A Kumköy-area hotel with direct sea access, listed by Trendy under an adults-only 16-plus concept. Its official address is in Ilıca, rather than inside Side's ancient town.",
+      "booking_note": "Confirm the current minimum age for every guest before reserving.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "A Kumköy-area hotel with direct sea access, listed by Trendy under an adults-only 16-plus concept.",
+        "Its official address is in Ilıca, rather than inside Side's ancient town."
+      ]
+    },
+    {
+      "title": "Trendy Side Beach",
+      "slug": "trendy-side-beach",
+      "area": "Side",
+      "neighborhood": "Side",
+      "district_slug": "manavgat",
+      "category": "Coastal resort",
+      "official_url": "https://trendy.com.tr/en/trendy-side-beach/",
+      "source_url": "https://trendy.com.tr/en/iletisim/",
+      "source_urls": [
+        "https://trendy.com.tr/en/iletisim/",
+        "https://trendy.com.tr/en/sitemap/",
+        "https://trendy.com.tr/en/trendy-side-beach/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Trendy Side Beach is listed as adults-only for guests aged 16 and above.",
+      "tagline": "Trendy Side Beach is listed as adults-only for guests aged 16 and above.",
+      "description": "Trendy Side Beach is listed as adults-only for guests aged 16 and above. The group highlights its beach position near ancient Side, with its address on 612 Sokak in Side Mahallesi.",
+      "booking_note": "Confirm the age policy and any seasonal differences in the all-inclusive programme.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Trendy Side Beach is listed as adults-only for guests aged 16 and above.",
+        "The group highlights its beach position near ancient Side, with its address on 612 Sokak in Side Mahallesi."
+      ]
+    },
+    {
+      "title": "Side Star Elegance",
+      "slug": "side-star-elegance",
+      "area": "Side",
+      "neighborhood": "Side",
+      "district_slug": "manavgat",
+      "category": "Coastal resort",
+      "official_url": "https://www.sidestarhotels.com/elegance/en/page/contact-us",
+      "source_url": "https://www.sidestarhotels.com/en",
+      "source_urls": [
+        "https://www.sidestarhotels.com/en",
+        "https://www.sidestarhotels.com/elegance/en/page/contact-us"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A Side resort linked to the seaside promenade leading towards the ancient harbour.",
+      "tagline": "A Side resort linked to the seaside promenade leading towards the ancient harbour.",
+      "description": "A Side resort linked to the seaside promenade leading towards the ancient harbour. The group's description highlights dining, live music and its coastal setting.",
+      "booking_note": "Confirm room position, access gradients and the promenade route if mobility matters.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "A Side resort linked to the seaside promenade leading towards the ancient harbour.",
+        "The group's description highlights dining, live music and its coastal setting."
+      ]
+    },
+    {
+      "title": "Side Star Resort",
+      "slug": "side-star-resort",
+      "area": "Side",
+      "neighborhood": "Side",
+      "district_slug": "manavgat",
+      "category": "Coastal resort",
+      "official_url": "https://www.sidestarhotels.com/resort/en/page/contact-us",
+      "source_url": "https://www.sidestarhotels.com/en",
+      "source_urls": [
+        "https://www.sidestarhotels.com/en",
+        "https://www.sidestarhotels.com/resort/en/page/contact-us"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Side Star Resort emphasises an active holiday with a waterpark and a varied entertainment programme.",
+      "tagline": "Side Star Resort emphasises an active holiday with a waterpark and a varied entertainment programme.",
+      "description": "Side Star Resort emphasises an active holiday with a waterpark and a varied entertainment programme. It is a separate property from the group's Elegance, Beach and Park hotels.",
+      "booking_note": "Check the exact hotel location and seasonal waterpark operation before choosing between Side Star properties.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Side Star Resort emphasises an active holiday with a waterpark and a varied entertainment programme.",
+        "It is a separate property from the group's Elegance, Beach and Park hotels."
+      ]
+    },
+    {
+      "title": "Side Star Beach",
+      "slug": "side-star-beach",
+      "area": "Side",
+      "neighborhood": "Side",
+      "district_slug": "manavgat",
+      "category": "Coastal resort",
+      "official_url": "https://www.sidestarhotels.com/beach/en/page/contact-us",
+      "source_url": "https://www.sidestarhotels.com/en",
+      "source_urls": [
+        "https://www.sidestarhotels.com/en",
+        "https://www.sidestarhotels.com/beach/en/page/contact-us"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "The group's Beach hotel offers a sandy seaside setting within walking distance of Side's historic area.",
+      "tagline": "The group's Beach hotel offers a sandy seaside setting within walking distance of Side's historic area.",
+      "description": "The group's Beach hotel offers a sandy seaside setting within walking distance of Side's historic area. It is positioned as a more compact coastal option than a distant self-contained resort.",
+      "booking_note": "Ask about the room outlook and the walking route to the ancient town.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "The group's Beach hotel offers a sandy seaside setting within walking distance of Side's historic area.",
+        "It is positioned as a more compact coastal option than a distant self-contained resort."
+      ]
+    },
+    {
+      "title": "Side Star Park",
+      "slug": "side-star-park",
+      "area": "Side",
+      "neighborhood": "Side",
+      "district_slug": "manavgat",
+      "category": "Coastal resort",
+      "official_url": "https://www.sidestarhotels.com/park/en/page/contact-us",
+      "source_url": "https://www.sidestarhotels.com/en",
+      "source_urls": [
+        "https://www.sidestarhotels.com/en",
+        "https://www.sidestarhotels.com/park/en/page/contact-us"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Side Star Park is a Side hotel positioned for exploring the ancient town.",
+      "tagline": "Side Star Park is a Side hotel positioned for exploring the ancient town.",
+      "description": "Side Star Park is a Side hotel positioned for exploring the ancient town. Its official description focuses on proximity to the town's historic character rather than a remote coastal complex.",
+      "booking_note": "Verify the route and distance to its beach facilities; do not assume the name means beachfront.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Side Star Park is a Side hotel positioned for exploring the ancient town.",
+        "Its official description focuses on proximity to the town's historic character rather than a remote coastal complex."
+      ]
+    },
+    {
+      "title": "Kaya Palazzo Golf Resort Belek",
+      "slug": "kaya-palazzo-golf-resort-belek",
+      "area": "Belek",
+      "neighborhood": "Belek",
+      "district_slug": "serik",
+      "category": "Golf resort",
+      "official_url": "https://www.kayapalazzohotels.com/kaya-palazzo-golf-resort/",
+      "source_url": "https://www.kayahotels.com/en/contact",
+      "source_urls": [
+        "https://www.kayahotels.com/en/contact",
+        "https://www.kayapalazzohotels.com/kaya-palazzo-golf-resort/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A Kadriye–Belek resort in the Kaya Palazzo collection with swimming pools and waterslides.",
+      "tagline": "A Kadriye–Belek resort in the Kaya Palazzo collection with swimming pools and waterslides.",
+      "description": "A Kadriye–Belek resort in the Kaya Palazzo collection with swimming pools and waterslides. The property has a golf-resort identity and is distinct from neighbouring Kaya Belek.",
+      "booking_note": "Confirm golf reservations, green fees and which Palazzo services are included.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "A Kadriye–Belek resort in the Kaya Palazzo collection with swimming pools and waterslides.",
+        "The property has a golf-resort identity and is distinct from neighbouring Kaya Belek."
+      ]
+    },
+    {
+      "title": "Kaya Belek",
+      "slug": "kaya-belek",
+      "area": "Belek",
+      "neighborhood": "Belek",
+      "district_slug": "serik",
+      "category": "Coastal resort",
+      "official_url": "https://www.kayahotels.com/en/oteller/kaya-belek",
+      "source_url": "https://www.kayahotels.com/en/contact",
+      "source_urls": [
+        "https://www.kayahotels.com/en/contact",
+        "https://www.kayahotels.com/en/oteller",
+        "https://www.kayahotels.com/en/oteller/kaya-belek"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Kaya Belek is the group's separate Belek hotel in the Üçkum Tepesi area.",
+      "tagline": "Kaya Belek is the group's separate Belek hotel in the Üçkum Tepesi area.",
+      "description": "Kaya Belek is the group's separate Belek hotel in the Üçkum Tepesi area. It is listed alongside, rather than as another name for, Kaya Palazzo Golf Resort.",
+      "booking_note": "Do not assume access to Kaya Palazzo facilities or golf is included in a Kaya Belek booking.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Kaya Belek is the group's separate Belek hotel in the Üçkum Tepesi area.",
+        "It is listed alongside, rather than as another name for, Kaya Palazzo Golf Resort."
+      ]
+    },
+    {
+      "title": "Kaya Side",
+      "slug": "kaya-side",
+      "area": "Side",
+      "neighborhood": "Side",
+      "district_slug": "manavgat",
+      "category": "Coastal resort",
+      "official_url": "https://www.kayahotels.com/en/oteller/kaya-side",
+      "source_url": "https://www.kayahotels.com/en/contact",
+      "source_urls": [
+        "https://www.kayahotels.com/en/contact",
+        "https://www.kayahotels.com/en/oteller",
+        "https://www.kayahotels.com/en/oteller/kaya-side"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "An ultra-all-inclusive Manavgat resort with a setting that combines lake, forest and sea views.",
+      "tagline": "An ultra-all-inclusive Manavgat resort with a setting that combines lake, forest and sea views.",
+      "description": "An ultra-all-inclusive Manavgat resort with a setting that combines lake, forest and sea views. It is the Kaya group's Side-area hotel, separate from the two Belek properties.",
+      "booking_note": "Confirm the precise location and transport to ancient Side before booking.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "An ultra-all-inclusive Manavgat resort with a setting that combines lake, forest and sea views.",
+        "It is the Kaya group's Side-area hotel, separate from the two Belek properties."
+      ]
+    },
+    {
+      "title": "Arycanda Kirman Premium",
+      "slug": "arycanda-kirman-premium",
+      "area": "Alanya",
+      "neighborhood": "Alanya",
+      "district_slug": "alanya",
+      "category": "Coastal resort",
+      "official_url": "https://www.kirmanpremium.com/arycanda-kirman-premium",
+      "source_url": "https://www.kirmanpremium.com/en/kirman-premium-5-hotel-comparison-which-resort-is-right-for-you-2026",
+      "source_urls": [
+        "https://www.kirmanpremium.com/en/kirman-premium-5-hotel-comparison-which-resort-is-right-for-you-2026",
+        "https://www.kirmanpremium.com/",
+        "https://www.kirmanpremium.com/arycanda-kirman-premium"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "An Okurcalar resort in the Kirman Premium collection.",
+      "tagline": "An Okurcalar resort in the Kirman Premium collection.",
+      "description": "An Okurcalar resort in the Kirman Premium collection. The brand's current comparison highlights its wellness focus and aquapark within the group's ultra-all-inclusive concept.",
+      "booking_note": "Check spa treatment charges and pool operating dates; wellness positioning is the hotel's own description.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "An Okurcalar resort in the Kirman Premium collection.",
+        "The brand's current comparison highlights its wellness focus and aquapark within the group's ultra-all-inclusive concept."
+      ]
+    },
+    {
+      "title": "Leodikya Kirman Premium",
+      "slug": "leodikya-kirman-premium",
+      "area": "Alanya",
+      "neighborhood": "Alanya",
+      "district_slug": "alanya",
+      "category": "Coastal resort",
+      "official_url": "https://www.kirmanpremium.com/leodikya-kirman-premium",
+      "source_url": "https://www.kirmanpremium.com/en/kirman-premium-5-hotel-comparison-which-resort-is-right-for-you-2026",
+      "source_urls": [
+        "https://www.kirmanpremium.com/en/kirman-premium-5-hotel-comparison-which-resort-is-right-for-you-2026",
+        "https://www.kirmanpremium.com/",
+        "https://www.kirmanpremium.com/leodikya-kirman-premium"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Kirman's Leodikya property is in Okurcalar and is promoted around family holidays.",
+      "tagline": "Kirman's Leodikya property is in Okurcalar and is promoted around family holidays.",
+      "description": "Kirman's Leodikya property is in Okurcalar and is promoted around family holidays. The official comparison highlights a large aquapark and distinguishes it from nearby Arycanda and Sidera.",
+      "booking_note": "Confirm children's age and height restrictions for water slides.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Kirman's Leodikya property is in Okurcalar and is promoted around family holidays.",
+        "The official comparison highlights a large aquapark and distinguishes it from nearby Arycanda and Sidera."
+      ]
+    },
+    {
+      "title": "Sidera Kirman Premium",
+      "slug": "sidera-kirman-premium",
+      "area": "Alanya",
+      "neighborhood": "Alanya",
+      "district_slug": "alanya",
+      "category": "Coastal resort",
+      "official_url": "https://www.kirmanpremium.com/sidera-kirman-premium",
+      "source_url": "https://www.kirmanpremium.com/en/kirman-premium-5-hotel-comparison-which-resort-is-right-for-you-2026",
+      "source_urls": [
+        "https://www.kirmanpremium.com/en/kirman-premium-5-hotel-comparison-which-resort-is-right-for-you-2026",
+        "https://www.kirmanpremium.com/",
+        "https://www.kirmanpremium.com/sidera-kirman-premium"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "An Okurcalar resort with an aquapark and a private pier listed in the group's comparison.",
+      "tagline": "An Okurcalar resort with an aquapark and a private pier listed in the group's comparison.",
+      "description": "An Okurcalar resort with an aquapark and a private pier listed in the group's comparison. Kirman positions Sidera particularly for couples, while it remains part of the broader resort collection.",
+      "booking_note": "A couples-oriented description does not mean adults-only. Confirm the guest-age policy directly.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "An Okurcalar resort with an aquapark and a private pier listed in the group's comparison.",
+        "Kirman positions Sidera particularly for couples, while it remains part of the broader resort collection."
+      ]
+    },
+    {
+      "title": "Calyptus Kirman Premium",
+      "slug": "calyptus-kirman-premium",
+      "area": "Side",
+      "neighborhood": "Side",
+      "district_slug": "manavgat",
+      "category": "Coastal resort",
+      "official_url": "https://www.kirmanpremium.com/calyptus-kirman-premium",
+      "source_url": "https://www.kirmanpremium.com/en/kirman-premium-5-hotel-comparison-which-resort-is-right-for-you-2026",
+      "source_urls": [
+        "https://www.kirmanpremium.com/en/kirman-premium-5-hotel-comparison-which-resort-is-right-for-you-2026",
+        "https://www.kirmanpremium.com/",
+        "https://www.kirmanpremium.com/calyptus-kirman-premium"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Calyptus is the Kirman property in Side's Kumköy area that emphasises entertainment and a large aquapark.",
+      "tagline": "Calyptus is the Kirman property in Side's Kumköy area that emphasises entertainment and a large aquapark.",
+      "description": "Calyptus is the Kirman property in Side's Kumköy area that emphasises entertainment and a large aquapark. It is distinct from the group's Okurcalar hotels.",
+      "booking_note": "Ask about beach access and the seasonal entertainment schedule rather than assuming a beachfront room.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Calyptus is the Kirman property in Side's Kumköy area that emphasises entertainment and a large aquapark.",
+        "It is distinct from the group's Okurcalar hotels."
+      ]
+    },
+    {
+      "title": "Sidemarin Kirman Premium",
+      "slug": "sidemarin-kirman-premium",
+      "area": "Side",
+      "neighborhood": "Side",
+      "district_slug": "manavgat",
+      "category": "Coastal resort",
+      "official_url": "https://www.kirmanpremium.com/sidemarin-kirman-premium",
+      "source_url": "https://www.kirmanpremium.com/en/kirman-premium-5-hotel-comparison-which-resort-is-right-for-you-2026",
+      "source_urls": [
+        "https://www.kirmanpremium.com/en/kirman-premium-5-hotel-comparison-which-resort-is-right-for-you-2026",
+        "https://www.kirmanpremium.com/",
+        "https://www.kirmanpremium.com/sidemarin-kirman-premium"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A Kumköy-area resort listed by Kirman with a private pier and aquapark.",
+      "tagline": "A Kumköy-area resort listed by Kirman with a private pier and aquapark.",
+      "description": "A Kumköy-area resort listed by Kirman with a private pier and aquapark. Its Side location makes it a different base from the group's Alanya–Okurcalar properties.",
+      "booking_note": "Confirm transport to ancient Side and current pier access.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "A Kumköy-area resort listed by Kirman with a private pier and aquapark.",
+        "Its Side location makes it a different base from the group's Alanya–Okurcalar properties."
+      ]
+    },
+    {
+      "title": "Sunis Kumköy Beach Resort Hotel & Spa",
+      "slug": "sunis-kumkoy-beach-resort-hotel-spa",
+      "area": "Side",
+      "neighborhood": "Side",
+      "district_slug": "manavgat",
+      "category": "Coastal resort",
+      "official_url": "https://www.kumkoybeachresort.com/",
+      "source_url": "https://sunishotels.com/iletisim/",
+      "source_urls": [
+        "https://sunishotels.com/iletisim/",
+        "https://www.kumkoybeachresort.com/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A Sunis hotel on Sahil Caddesi in Kumköy, west of Side.",
+      "tagline": "A Sunis hotel on Sahil Caddesi in Kumköy, west of Side.",
+      "description": "A Sunis hotel on Sahil Caddesi in Kumköy, west of Side. The official property presents a five-star resort-and-spa concept in the Manavgat coastal area.",
+      "booking_note": "Check the exact room building and resort inclusions, especially if comparing with Sunis Evren Beach.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "A Sunis hotel on Sahil Caddesi in Kumköy, west of Side.",
+        "The official property presents a five-star resort-and-spa concept in the Manavgat coastal area."
+      ]
+    },
+    {
+      "title": "Sunis Evren Beach Resort Hotel & Spa",
+      "slug": "sunis-evren-beach-resort-hotel-spa",
+      "area": "Side",
+      "neighborhood": "Side",
+      "district_slug": "manavgat",
+      "category": "Coastal resort",
+      "official_url": "https://evrenbeachresort.com/",
+      "source_url": "https://sunishotels.com/iletisim/",
+      "source_urls": [
+        "https://sunishotels.com/iletisim/",
+        "https://evrenbeachresort.com/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "The Evren Beach property is Sunis's Evrenseki resort, distinct from its Kumköy hotel.",
+      "tagline": "The Evren Beach property is Sunis's Evrenseki resort, distinct from its Kumköy hotel.",
+      "description": "The Evren Beach property is Sunis's Evrenseki resort, distinct from its Kumköy hotel. Its beach-resort and spa identity suits a base west of ancient Side.",
+      "booking_note": "Confirm beach facilities, spa charges and seasonal restaurant availability.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "The Evren Beach property is Sunis's Evrenseki resort, distinct from its Kumköy hotel.",
+        "Its beach-resort and spa identity suits a base west of ancient Side."
+      ]
+    },
+    {
+      "title": "Sueno Hotels Deluxe Belek",
+      "slug": "sueno-hotels-deluxe-belek",
+      "area": "Belek",
+      "neighborhood": "Belek",
+      "district_slug": "serik",
+      "category": "Golf resort",
+      "official_url": "https://deluxe.sueno.com.tr/en/anasayfa-en/",
+      "source_url": "https://sueno.com.tr/iletisim-en/",
+      "source_urls": [
+        "https://sueno.com.tr/iletisim-en/",
+        "https://sueno.com.tr/?lang=en",
+        "https://deluxe.sueno.com.tr/en/anasayfa-en/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Sueno's Deluxe property is in Kadriye, Belek, within the group's golf destination.",
+      "tagline": "Sueno's Deluxe property is in Kadriye, Belek, within the group's golf destination.",
+      "description": "Sueno's Deluxe property is in Kadriye, Belek, within the group's golf destination. The group distinguishes this resort from Sueno Hotels Golf Belek even though they share the official contact address.",
+      "booking_note": "Check whether golf rounds and cross-property facilities are part of your specific package.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Sueno's Deluxe property is in Kadriye, Belek, within the group's golf destination.",
+        "The group distinguishes this resort from Sueno Hotels Golf Belek even though they share the official contact address."
+      ]
+    },
+    {
+      "title": "Sueno Hotels Golf Belek",
+      "slug": "sueno-hotels-golf-belek",
+      "area": "Belek",
+      "neighborhood": "Belek",
+      "district_slug": "serik",
+      "category": "Golf resort",
+      "official_url": "https://golf.sueno.com.tr/en/anasayfa-en/",
+      "source_url": "https://sueno.com.tr/iletisim-en/",
+      "source_urls": [
+        "https://sueno.com.tr/iletisim-en/",
+        "https://golfclub.sueno.com.tr/wp-content/uploads/2024/06/SGC-Golf-Brochure.pdf",
+        "https://golf.sueno.com.tr/en/anasayfa-en/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Sueno Hotels Golf Belek is located within the Pines and Dunes golf-course setting.",
+      "tagline": "Sueno Hotels Golf Belek is located within the Pines and Dunes golf-course setting.",
+      "description": "Sueno Hotels Golf Belek is located within the Pines and Dunes golf-course setting. It is a distinct accommodation choice from Sueno Hotels Deluxe Belek.",
+      "booking_note": "Confirm tee times, handicaps, equipment hire and transport arrangements separately from the room.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Sueno Hotels Golf Belek is located within the Pines and Dunes golf-course setting.",
+        "It is a distinct accommodation choice from Sueno Hotels Deluxe Belek."
+      ]
+    },
+    {
+      "title": "Sueno Hotels Beach Side",
+      "slug": "sueno-hotels-beach-side",
+      "area": "Side",
+      "neighborhood": "Side",
+      "district_slug": "manavgat",
+      "category": "Coastal resort",
+      "official_url": "https://beach.sueno.com.tr/en/anasayfa-en/",
+      "source_url": "https://sueno.com.tr/iletisim-en/",
+      "source_urls": [
+        "https://sueno.com.tr/iletisim-en/",
+        "https://sueno.com.tr/?lang=en",
+        "https://beach.sueno.com.tr/en/anasayfa-en/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Sueno's Side property is in the Sorgun area of Manavgat.",
+      "tagline": "Sueno's Side property is in the Sorgun area of Manavgat.",
+      "description": "Sueno's Side property is in the Sorgun area of Manavgat. It offers a separate coastal base from the group's Belek golf hotels.",
+      "booking_note": "Use the Side property name on transfer bookings and check seasonal family and activity facilities.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Sueno's Side property is in the Sorgun area of Manavgat.",
+        "It offers a separate coastal base from the group's Belek golf hotels."
+      ]
+    },
+    {
+      "title": "Gloria Serenity Resort",
+      "slug": "gloria-serenity-resort",
+      "area": "Belek",
+      "neighborhood": "Belek",
+      "district_slug": "serik",
+      "category": "Golf resort",
+      "official_url": "https://www.gloria.com.tr/en/hotels/gloria-serenity-resort/",
+      "source_url": "https://www.gloria.com.tr/en/contact/",
+      "source_urls": [
+        "https://www.gloria.com.tr/en/contact/",
+        "https://www.gloria.com.tr/en/hotels/gloria-serenity-resort/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A Belek property in the Gloria collection with an extensive villa range, including garden, pool and larger villa categories.",
+      "tagline": "A Belek property in the Gloria collection with an extensive villa range, including garden, pool and larger villa categories.",
+      "description": "A Belek property in the Gloria collection with an extensive villa range, including garden, pool and larger villa categories. It is separately listed from Gloria Golf and Gloria Verde.",
+      "booking_note": "Ask which Gloria facilities, restaurants and golf benefits your specific room or villa package includes.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "A Belek property in the Gloria collection with an extensive villa range, including garden, pool and larger villa categories.",
+        "It is separately listed from Gloria Golf and Gloria Verde."
+      ]
+    },
+    {
+      "title": "Gloria Verde Resort",
+      "slug": "gloria-verde-resort",
+      "area": "Belek",
+      "neighborhood": "Belek",
+      "district_slug": "serik",
+      "category": "Golf resort",
+      "official_url": "https://www.gloria.com.tr/en/hotels/gloria-verde-resort/",
+      "source_url": "https://www.gloria.com.tr/en/contact/",
+      "source_urls": [
+        "https://www.gloria.com.tr/en/contact/",
+        "https://www.gloria.com.tr/en/hotels/gloria-verde-resort/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Gloria Verde is the group's Belek hotel on 20 Sokak, separate from Serenity and Golf Resort.",
+      "tagline": "Gloria Verde is the group's Belek hotel on 20 Sokak, separate from Serenity and Golf Resort.",
+      "description": "Gloria Verde is the group's Belek hotel on 20 Sokak, separate from Serenity and Golf Resort. Its official accommodation options include suites and Select Villas, alongside the group's beach, spa and golf offerings.",
+      "booking_note": "Confirm access between Gloria properties and any additional golf or spa charges.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Gloria Verde is the group's Belek hotel on 20 Sokak, separate from Serenity and Golf Resort.",
+        "Its official accommodation options include suites and Select Villas, alongside the group's beach, spa and golf offerings."
+      ]
+    },
+    {
+      "title": "Maxx Royal Kemer Resort",
+      "slug": "maxx-royal-kemer-resort",
+      "area": "Kemer",
+      "neighborhood": "Kemer",
+      "district_slug": "kemer",
+      "category": "Coastal resort",
+      "official_url": "https://www.maxxroyal.com/Maxx-Royal-Kemer",
+      "source_url": "https://www.maxxroyal.com/contact",
+      "source_urls": [
+        "https://www.maxxroyal.com/contact",
+        "https://www.maxxroyal.com/Maxx-Royal-Kemer"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Maxx Royal's Kiriş resort offers suites, lagoon suites and waterside villas.",
+      "tagline": "Maxx Royal's Kiriş resort offers suites, lagoon suites and waterside villas.",
+      "description": "Maxx Royal's Kiriş resort offers suites, lagoon suites and waterside villas. Lagoon accommodation places the pool close to the terrace, while villas have private gardens and pools.",
+      "booking_note": "Choose the exact suite or villa concept and confirm its included services.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Maxx Royal's Kiriş resort offers suites, lagoon suites and waterside villas.",
+        "Lagoon accommodation places the pool close to the terrace, while villas have private gardens and pools."
+      ]
+    },
+    {
+      "title": "Rixos Downtown Antalya",
+      "slug": "rixos-downtown-antalya",
+      "area": "Antalya city",
+      "neighborhood": "Antalya city",
+      "district_slug": "muratpasa",
+      "category": "City hotel",
+      "official_url": "https://all.accor.com/hotel/B1K0/index.en.shtml",
+      "source_url": "https://all.accor.com/hotel/B1K0/index.en.shtml",
+      "source_urls": [
+        "https://all.accor.com/hotel/B1K0/index.en.shtml"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "An urban Rixos resort combining a central Antalya base with a green setting above the Konyaaltı coast.",
+      "tagline": "An urban Rixos resort combining a central Antalya base with a green setting above the Konyaaltı coast.",
+      "description": "An urban Rixos resort combining a central Antalya base with a green setting above the Konyaaltı coast. It offers a different location from the brand's remote Belek and Kemer resort properties.",
+      "booking_note": "Confirm the beach access route and the current terms of any theme-park benefit.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "An urban Rixos resort combining a central Antalya base with a green setting above the Konyaaltı coast.",
+        "It offers a different location from the brand's remote Belek and Kemer resort properties."
+      ]
+    },
+    {
+      "title": "Rixos Premium Tekirova",
+      "slug": "rixos-premium-tekirova",
+      "area": "Kemer",
+      "neighborhood": "Kemer",
+      "district_slug": "kemer",
+      "category": "Coastal resort",
+      "official_url": "https://all.accor.com/hotel/B1J3/index.en.shtml",
+      "source_url": "https://all.accor.com/hotel/B1J3/index.en.shtml",
+      "source_urls": [
+        "https://all.accor.com/hotel/B1J3/index.en.shtml"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A Rixos resort in Tekirova, south of Kemer, with a Mediterranean and Taurus mountain setting.",
+      "tagline": "A Rixos resort in Tekirova, south of Kemer, with a Mediterranean and Taurus mountain setting.",
+      "description": "A Rixos resort in Tekirova, south of Kemer, with a Mediterranean and Taurus mountain setting. The official listing includes family-focused resort facilities and a Land of Legends access concept.",
+      "booking_note": "Tekirova is well outside Antalya city. Check transfer time and theme-park shuttle arrangements.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [
+        {
+          "hotel": "Rixos Premium Tekirova",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Rixos_Kemer_Antalya_-_panoramio.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Rixos_Kemer_Antalya_-_panoramio.jpg",
+          "author": "collage bird's eye v…",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "date_taken": "2009-07-11",
+          "caption": "Rixos Premium Tekirova, 2009. Historical archive photograph, not a representation of current room or facility condition.",
+          "archive": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Rixos_Kemer_Antalya_-_panoramio.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+          "attribution": "collage bird's eye v… / CC BY-SA 3.0 / Wikimedia Commons",
+          "license_verified_at": "2026-11-09",
+          "usage_note": "Show photographer, source and licence link. Label date prominently. State cropping/resizing if performed. Do not imply endorsement or that archival conditions are current.",
+          "download_status": "Source URL verified; not downloaded to local workspace.",
+          "visual_review_status": "Source identifies property; visual QA required before selecting crop or displaying."
+        }
+      ],
+      "photo_rights_status": "Individual licence verified. Historical/undated property image only; attribution and archive caption required.",
+      "verified_facts": [
+        "A Rixos resort in Tekirova, south of Kemer, with a Mediterranean and Taurus mountain setting.",
+        "The official listing includes family-focused resort facilities and a Land of Legends access concept."
+      ]
+    },
+    {
+      "title": "Rixos Park Belek",
+      "slug": "rixos-park-belek",
+      "area": "Belek",
+      "neighborhood": "Belek",
+      "district_slug": "serik",
+      "category": "Coastal resort",
+      "official_url": "https://all.accor.com/hotel/C1D1/index.en.shtml",
+      "source_url": "https://all.accor.com/hotel/C1D1/index.en.shtml",
+      "source_urls": [
+        "https://all.accor.com/hotel/C1D1/index.en.shtml"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A seafront Rixos hotel in Belek that advertises shuttle services to The Land of Legends.",
+      "tagline": "A seafront Rixos hotel in Belek that advertises shuttle services to The Land of Legends.",
+      "description": "A seafront Rixos hotel in Belek that advertises shuttle services to The Land of Legends. It is a separate property from Rixos Premium Belek, with its own booking and accommodation categories.",
+      "booking_note": "Verify which park areas, transport and admission days are included for your dates.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "A seafront Rixos hotel in Belek that advertises shuttle services to The Land of Legends.",
+        "It is a separate property from Rixos Premium Belek, with its own booking and accommodation categories."
+      ]
+    },
+    {
+      "title": "The Land of Legends Kingdom Hotel",
+      "slug": "the-land-of-legends-kingdom-hotel",
+      "area": "Belek",
+      "neighborhood": "Belek",
+      "district_slug": "serik",
+      "category": "City hotel",
+      "official_url": "https://www.thelandoflegends.com/en/hotels/kingdom-hotel",
+      "source_url": "https://www.thelandoflegends.com/en/hotels/kingdom-hotel",
+      "source_urls": [
+        "https://www.thelandoflegends.com/en/hotels/kingdom-hotel"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A family-themed hotel within The Land of Legends destination in the Belek–Kadriye area.",
+      "tagline": "A family-themed hotel within The Land of Legends destination in the Belek–Kadriye area.",
+      "description": "A family-themed hotel within The Land of Legends destination in the Belek–Kadriye area. Rooms are designed around the entertainment complex, making it a theme-park base rather than a conventional beachfront resort.",
+      "booking_note": "Check park access, ride restrictions and meal inclusions. Do not assume a beach-resort package.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "A family-themed hotel within The Land of Legends destination in the Belek–Kadriye area.",
+        "Rooms are designed around the entertainment complex, making it a theme-park base rather than a conventional beachfront resort."
+      ]
+    },
+    {
+      "title": "Nickelodeon Hotels & Resorts Antalya",
+      "slug": "nickelodeon-hotels-resorts-antalya",
+      "area": "Belek",
+      "neighborhood": "Belek",
+      "district_slug": "serik",
+      "category": "City hotel",
+      "official_url": "https://www.thelandoflegends.com/en/hotels/nickelodeon-hotel-antalya",
+      "source_url": "https://www.thelandoflegends.com/en/hotels/nickelodeon-hotel-antalya",
+      "source_urls": [
+        "https://www.thelandoflegends.com/en/hotels/nickelodeon-hotel-antalya"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "The Nickelodeon-themed hotel at The Land of Legends features accommodation inspired by characters including SpongeBob, Dora, Teenage Mutant Ninja Turtles and PAW Patrol.",
+      "tagline": "The Nickelodeon-themed hotel at The Land of Legends features accommodation inspired by characters including SpongeBob, Dora, Teenage Mutant Ninja Turtles and PAW Patrol.",
+      "description": "The Nickelodeon-themed hotel at The Land of Legends features accommodation inspired by characters including SpongeBob, Dora, Teenage Mutant Ninja Turtles and PAW Patrol. It is distinct from Kingdom Hotel.",
+      "booking_note": "Check the booked character-room theme and the included park, character and dining experiences.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "The Nickelodeon-themed hotel at The Land of Legends features accommodation inspired by characters including SpongeBob, Dora, Teenage Mutant Ninja Turtles and PAW Patrol.",
+        "It is distinct from Kingdom Hotel."
+      ]
+    },
+    {
+      "title": "Cullinan Belek",
+      "slug": "cullinan-belek",
+      "area": "Belek",
+      "neighborhood": "Belek",
+      "district_slug": "serik",
+      "category": "Golf resort",
+      "official_url": "https://www.cullinanhotels.com/",
+      "source_url": "https://www.cullinanhotels.com/experiences/golf",
+      "source_urls": [
+        "https://www.cullinanhotels.com/experiences/golf",
+        "https://www.cullinanhotels.com/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "An all-inclusive Belek resort associated with Cullinan Links Golf Club.",
+      "tagline": "An all-inclusive Belek resort associated with Cullinan Links Golf Club.",
+      "description": "An all-inclusive Belek resort associated with Cullinan Links Golf Club. The golf setting runs between a river and the Mediterranean, with the Taurus Mountains in the wider landscape.",
+      "booking_note": "Confirm golf rounds, range use, buggy charges and tee times rather than assuming all are included.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "An all-inclusive Belek resort associated with Cullinan Links Golf Club.",
+        "The golf setting runs between a river and the Mediterranean, with the Taurus Mountains in the wider landscape."
+      ]
+    },
+    {
+      "title": "Cornelia Diamond Golf Resort & Spa",
+      "slug": "cornelia-diamond-golf-resort-spa",
+      "area": "Belek",
+      "neighborhood": "Belek",
+      "district_slug": "serik",
+      "category": "Golf resort",
+      "official_url": "https://corneliaresort.com/EN/Cornelia-Diamond-Luxury-Golf-Resort-Spa-Hotel-Belek-Antalya",
+      "source_url": "https://www.corneliaresort.com/EN/Cornelia-Diamond-Luxury-Golf-Resort-Spa-Hotel-Belek-Antalya/contact",
+      "source_urls": [
+        "https://www.corneliaresort.com/EN/Cornelia-Diamond-Luxury-Golf-Resort-Spa-Hotel-Belek-Antalya/contact",
+        "https://corneliaresort.com/EN/Cornelia-Diamond-Luxury-Golf-Resort-Spa-Hotel-Belek-Antalya"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Cornelia Diamond is based in Belek's İskele area and presents an all-inclusive golf-and-spa resort concept.",
+      "tagline": "Cornelia Diamond is based in Belek's İskele area and presents an all-inclusive golf-and-spa resort concept.",
+      "description": "Cornelia Diamond is based in Belek's İskele area and presents an all-inclusive golf-and-spa resort concept. Its accommodation includes rooms, suites and villa options.",
+      "booking_note": "Confirm golf inclusions and distinguish the Diamond hotel from other Cornelia-branded accommodation.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Cornelia Diamond is based in Belek's İskele area and presents an all-inclusive golf-and-spa resort concept.",
+        "Its accommodation includes rooms, suites and villa options."
+      ]
+    },
+    {
+      "title": "Akra V",
+      "slug": "akra-v",
+      "area": "Antalya city",
+      "neighborhood": "Antalya city",
+      "district_slug": "muratpasa",
+      "category": "City hotel",
+      "official_url": "https://www.akrahotels.com/en/hotels/akra-v/about-us/",
+      "source_url": "https://www.akrahotels.com/en/hotels/akra-v/about-us/",
+      "source_urls": [
+        "https://www.akrahotels.com/en/hotels/akra-v/about-us/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A city hotel in Antalya operating under the Akra brand since 2023.",
+      "tagline": "A city hotel in Antalya operating under the Akra brand since 2023.",
+      "description": "A city hotel in Antalya operating under the Akra brand since 2023. Unlike a conventional all-inclusive resort, the official hotel offers room-only or bed-and-breakfast meal plans.",
+      "booking_note": "Check any access arrangements for neighbouring Akra Antalya facilities; do not assume every benefit is shared.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "A city hotel in Antalya operating under the Akra brand since 2023.",
+        "Unlike a conventional all-inclusive resort, the official hotel offers room-only or bed-and-breakfast meal plans."
+      ]
+    },
+    {
+      "title": "Voyage Sorgun",
+      "slug": "voyage-sorgun",
+      "area": "Side",
+      "neighborhood": "Side",
+      "district_slug": "manavgat",
+      "category": "Coastal resort",
+      "official_url": "https://www.voyagehotel.com/en/voyage-sorgun",
+      "source_url": "https://www.voyagehotel.com/en/contact",
+      "source_urls": [
+        "https://www.voyagehotel.com/en/contact",
+        "https://www.voyagehotel.com/en/voyage-sorgun"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A resort in the Sorgun area of Manavgat, beside the region's wooded coastal setting.",
+      "tagline": "A resort in the Sorgun area of Manavgat, beside the region's wooded coastal setting.",
+      "description": "A resort in the Sorgun area of Manavgat, beside the region's wooded coastal setting. The official accommodation range includes bungalow and family-bungalow options alongside standard rooms.",
+      "booking_note": "Confirm whether you are booking a bungalow or main-building room and which seasonal facilities are operating.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "A resort in the Sorgun area of Manavgat, beside the region's wooded coastal setting.",
+        "The official accommodation range includes bungalow and family-bungalow options alongside standard rooms."
+      ]
+    },
+    {
+      "title": "Ali Bey Resort Sorgun",
+      "slug": "ali-bey-resort-sorgun",
+      "area": "Side",
+      "neighborhood": "Side",
+      "district_slug": "manavgat",
+      "category": "Coastal resort",
+      "official_url": "https://www.alibey.com/en/resort",
+      "source_url": "https://www.alibey.com/en/corporate/contact",
+      "source_urls": [
+        "https://www.alibey.com/en/corporate/contact",
+        "https://www.alibey.com/en/resort"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Ali Bey's Sorgun resort is in Manavgat, close to the wider Side destination.",
+      "tagline": "Ali Bey's Sorgun resort is in Manavgat, close to the wider Side destination.",
+      "description": "Ali Bey's Sorgun resort is in Manavgat, close to the wider Side destination. It is listed separately from Ali Bey Club Manavgat, with its own address and resort facilities.",
+      "booking_note": "Use the Sorgun property name on transfers and ask about the exact sport and aquapark services included.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Ali Bey's Sorgun resort is in Manavgat, close to the wider Side destination.",
+        "It is listed separately from Ali Bey Club Manavgat, with its own address and resort facilities."
+      ]
+    },
+    {
+      "title": "Ali Bey Club Manavgat",
+      "slug": "ali-bey-club-manavgat",
+      "area": "Manavgat",
+      "neighborhood": "Manavgat",
+      "district_slug": "manavgat",
+      "category": "Coastal resort",
+      "official_url": "https://www.alibey.com/en/club",
+      "source_url": "https://www.alibey.com/en/corporate/contact",
+      "source_urls": [
+        "https://www.alibey.com/en/corporate/contact",
+        "https://www.alibey.com/en/club"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Ali Bey Club Manavgat is the group's club-style holiday property on the Manavgat coast.",
+      "tagline": "Ali Bey Club Manavgat is the group's club-style holiday property on the Manavgat coast.",
+      "description": "Ali Bey Club Manavgat is the group's club-style holiday property on the Manavgat coast. The official group lists it separately from Ali Bey Resort Sorgun and describes a range of family activities.",
+      "booking_note": "Confirm the Club or Park booking designation and which shared facilities your reservation permits.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Ali Bey Club Manavgat is the group's club-style holiday property on the Manavgat coast.",
+        "The official group lists it separately from Ali Bey Resort Sorgun and describes a range of family activities."
+      ]
+    },
+    {
+      "title": "Belconti Resort Hotel",
+      "slug": "belconti-resort-hotel",
+      "area": "Belek",
+      "neighborhood": "Belek",
+      "district_slug": "serik",
+      "category": "Coastal resort",
+      "official_url": "https://www.belconti.com/en/about-us",
+      "source_url": "https://www.belconti.com/en/facilities",
+      "source_urls": [
+        "https://www.belconti.com/en/facilities",
+        "https://www.belconti.com/en/about-us"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A Belek resort established in 1997, with pine surroundings and a 300-metre private beach.",
+      "tagline": "A Belek resort established in 1997, with pine surroundings and a 300-metre private beach.",
+      "description": "A Belek resort established in 1997, with pine surroundings and a 300-metre private beach. The official facilities page reports a 2024–2025 renovation and an ultra-all-inclusive concept.",
+      "booking_note": "Review recent room photographs and confirm that the selected room category was included in the renovation.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [
+        {
+          "hotel": "Belconti Resort Hotel",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Belconti_Resort_Hotel%2C_Belek_01.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Belconti_Resort_Hotel,_Belek_01.jpg",
+          "author": "Хомелка",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "date_taken": "2016-10-31",
+          "caption": "Belconti Resort Hotel, 2016. Archive photograph, before the hotel's reported 2024–2025 renovation.",
+          "archive": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Belconti_Resort_Hotel%2C_Belek_01.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+          "attribution": "Хомелка / CC BY-SA 4.0 / Wikimedia Commons",
+          "license_verified_at": "2026-11-09",
+          "usage_note": "Show photographer, source and licence link. Label date prominently. State cropping/resizing if performed. Do not imply endorsement or that archival conditions are current.",
+          "download_status": "Source URL verified; not downloaded to local workspace.",
+          "visual_review_status": "Source identifies property; visual QA required before selecting crop or displaying."
+        }
+      ],
+      "photo_rights_status": "Individual licence verified. Historical/undated property image only; attribution and archive caption required.",
+      "verified_facts": [
+        "A Belek resort established in 1997, with pine surroundings and a 300-metre private beach.",
+        "The official facilities page reports a 2024–2025 renovation and an ultra-all-inclusive concept."
+      ]
+    },
+    {
+      "title": "Pine Beach Belek",
+      "slug": "pine-beach-belek",
+      "area": "Belek",
+      "neighborhood": "Belek",
+      "district_slug": "serik",
+      "category": "Coastal resort",
+      "official_url": "https://www.pinebeach.com.tr/en",
+      "source_url": "https://www.pinebeach.com.tr/en/contact",
+      "source_urls": [
+        "https://www.pinebeach.com.tr/en/contact",
+        "https://www.pinebeach.com.tr/en",
+        "https://www.pinebeach.com.tr/en/kurumsal/frequently-asked-questions-about-pine-beach-belek"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A Belek resort on Kongre Caddesi, set where pine grounds meet the Mediterranean.",
+      "tagline": "A Belek resort on Kongre Caddesi, set where pine grounds meet the Mediterranean.",
+      "description": "A Belek resort on Kongre Caddesi, set where pine grounds meet the Mediterranean. Its official FAQ confirms an aquapark with slides and swimming areas for different ages.",
+      "booking_note": "Check slide restrictions and seasonal pool schedules before planning around the aquapark.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "A Belek resort on Kongre Caddesi, set where pine grounds meet the Mediterranean.",
+        "Its official FAQ confirms an aquapark with slides and swimming areas for different ages."
+      ]
+    },
+    {
+      "title": "Susesi Luxury Resort",
+      "slug": "susesi-luxury-resort",
+      "area": "Belek",
+      "neighborhood": "Belek",
+      "district_slug": "serik",
+      "category": "Coastal resort",
+      "official_url": "https://www.susesihotel.com/en/contact/",
+      "source_url": "https://www.susesihotel.com/en/contact/",
+      "source_urls": [
+        "https://www.susesihotel.com/en/contact/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Susesi is a Belek resort in the İskele area with an official seasonal factsheet for comparing its accommodation and facilities.",
+      "tagline": "Susesi is a Belek resort in the İskele area with an official seasonal factsheet for comparing its accommodation and facilities.",
+      "description": "Susesi is a Belek resort in the İskele area with an official seasonal factsheet for comparing its accommodation and facilities. It offers a coastal base outside Antalya city.",
+      "booking_note": "Request the factsheet matching your travel season and check room-category and restaurant inclusions.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [
+        {
+          "hotel": "Susesi Luxury Resort",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/SU_SESI_DELUXE_5%282015%29_-_panoramio.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+          "source_url": "https://commons.wikimedia.org/wiki/File:SU_SESI_DELUXE_5(2015)_-_panoramio.jpg",
+          "author": "edykbo",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "date_taken": "2015-05-27",
+          "caption": "Susesi in 2015. Archive photograph; present-day facilities may differ.",
+          "archive": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/SU_SESI_DELUXE_5%282015%29_-_panoramio.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+          "attribution": "edykbo / CC BY 3.0 / Wikimedia Commons",
+          "license_verified_at": "2026-11-09",
+          "usage_note": "Show photographer, source and licence link. Label date prominently. State cropping/resizing if performed. Do not imply endorsement or that archival conditions are current.",
+          "download_status": "Source URL verified; not downloaded to local workspace.",
+          "visual_review_status": "Source identifies property; visual QA required before selecting crop or displaying."
+        }
+      ],
+      "photo_rights_status": "Individual licence verified. Historical/undated property image only; attribution and archive caption required.",
+      "verified_facts": [
+        "Susesi is a Belek resort in the İskele area with an official seasonal factsheet for comparing its accommodation and facilities.",
+        "It offers a coastal base outside Antalya city."
+      ]
+    },
+    {
+      "title": "AKKA Antedon",
+      "slug": "akka-antedon",
+      "area": "Kemer",
+      "neighborhood": "Kemer",
+      "district_slug": "kemer",
+      "category": "Coastal resort",
+      "official_url": "https://www.akkahotels.com/antedon/en",
+      "source_url": "https://www.akkahotels.com/en/hotels-contact",
+      "source_urls": [
+        "https://www.akkahotels.com/en/hotels-contact",
+        "https://www.akkahotels.com/antedon/en"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "AKKA Antedon is the group's Beldibi resort on Başkomutan Atatürk Caddesi in Kemer district.",
+      "tagline": "AKKA Antedon is the group's Beldibi resort on Başkomutan Atatürk Caddesi in Kemer district.",
+      "description": "AKKA Antedon is the group's Beldibi resort on Başkomutan Atatürk Caddesi in Kemer district. It is distinct from AKKA Alinda in Kiriş, which affects transfer planning.",
+      "booking_note": "Check the Antedon room or villa concept and seasonal beach-pavilion arrangements.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "AKKA Antedon is the group's Beldibi resort on Başkomutan Atatürk Caddesi in Kemer district.",
+        "It is distinct from AKKA Alinda in Kiriş, which affects transfer planning."
+      ]
+    },
+    {
+      "title": "AKKA Alinda",
+      "slug": "akka-alinda",
+      "area": "Kemer",
+      "neighborhood": "Kemer",
+      "district_slug": "kemer",
+      "category": "Coastal resort",
+      "official_url": "https://www.akkahotels.com/en/hotels-contact",
+      "source_url": "https://www.akkahotels.com/en/hotels-contact",
+      "source_urls": [
+        "https://www.akkahotels.com/en/hotels-contact"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "AKKA Alinda is a seaside family hotel in Kiriş, south of Kemer town.",
+      "tagline": "AKKA Alinda is a seaside family hotel in Kiriş, south of Kemer town.",
+      "description": "AKKA Alinda is a seaside family hotel in Kiriş, south of Kemer town. The official address is on Sahil Caddesi, separate from the group's Beldibi property.",
+      "booking_note": "Confirm the selected building and family-room layout rather than treating all AKKA hotels as interchangeable.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "AKKA Alinda is a seaside family hotel in Kiriş, south of Kemer town.",
+        "The official address is on Sahil Caddesi, separate from the group's Beldibi property."
+      ]
+    },
+    {
+      "title": "Nirvana Cosmopolitan",
+      "slug": "nirvana-cosmopolitan",
+      "area": "Lara & Kundu",
+      "neighborhood": "Lara & Kundu",
+      "district_slug": "muratpasa",
+      "category": "Coastal resort",
+      "official_url": "https://www.nirvanahotels.com.tr/oteller/nirvana-cosmopolitan",
+      "source_url": "https://www.nirvanahotels.com.tr/iletisim",
+      "source_urls": [
+        "https://www.nirvanahotels.com.tr/iletisim",
+        "https://www.nirvanahotels.com.tr/oteller/nirvana-cosmopolitan"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Nirvana's Lara property is in Güzeloba, Muratpaşa, on Yaşar Sobutay Bulvarı.",
+      "tagline": "Nirvana's Lara property is in Güzeloba, Muratpaşa, on Yaşar Sobutay Bulvarı.",
+      "description": "Nirvana's Lara property is in Güzeloba, Muratpaşa, on Yaşar Sobutay Bulvarı. The hotel combines the group's beach-holiday offering with its Cosmopolitan City Club setting.",
+      "booking_note": "Confirm the current all-inclusive concept and which City Club facilities are available to staying guests.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Nirvana's Lara property is in Güzeloba, Muratpaşa, on Yaşar Sobutay Bulvarı.",
+        "The hotel combines the group's beach-holiday offering with its Cosmopolitan City Club setting."
+      ]
+    },
+    {
+      "title": "Nirvana Dolce Vita",
+      "slug": "nirvana-dolce-vita",
+      "area": "Kemer",
+      "neighborhood": "Kemer",
+      "district_slug": "kemer",
+      "category": "Coastal resort",
+      "official_url": "https://www.nirvanahotels.com.tr/oteller",
+      "source_url": "https://www.nirvanahotels.com.tr/iletisim",
+      "source_urls": [
+        "https://www.nirvanahotels.com.tr/iletisim",
+        "https://www.nirvanahotels.com.tr/oteller"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A Nirvana resort in Tekirova, beside Cleopatra Bay and the Lycian Way according to the official group.",
+      "tagline": "A Nirvana resort in Tekirova, beside Cleopatra Bay and the Lycian Way according to the official group.",
+      "description": "A Nirvana resort in Tekirova, beside Cleopatra Bay and the Lycian Way according to the official group. Its setting suits a coastal holiday at the southern end of the Kemer resort region.",
+      "booking_note": "Plan walking routes separately and confirm access conditions, footwear and seasonal heat before exploring.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "A Nirvana resort in Tekirova, beside Cleopatra Bay and the Lycian Way according to the official group.",
+        "Its setting suits a coastal holiday at the southern end of the Kemer resort region."
+      ]
+    },
+    {
+      "title": "Sherwood Exclusive Lara",
+      "slug": "sherwood-exclusive-lara",
+      "area": "Lara & Kundu",
+      "neighborhood": "Lara & Kundu",
+      "district_slug": "aksu",
+      "category": "Coastal resort",
+      "official_url": "https://sherwoodhotels.com.tr/en/our-hotels/sherwood-exclusive-lara/",
+      "source_url": "https://sherwoodhotels.com.tr/en/contact/",
+      "source_urls": [
+        "https://sherwoodhotels.com.tr/en/contact/",
+        "https://sherwoodhotels.com.tr/en/our-hotels/sherwood-exclusive-lara/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "Sherwood's Lara property is in Kemerağzı on the coast east of Antalya.",
+      "tagline": "Sherwood's Lara property is in Kemerağzı on the coast east of Antalya.",
+      "description": "Sherwood's Lara property is in Kemerağzı on the coast east of Antalya. It offers multiple accommodation categories, including suites, and promotes à la carte dining within its resort offering.",
+      "booking_note": "Check which à la carte meals require advance booking or supplements.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "Sherwood's Lara property is in Kemerağzı on the coast east of Antalya.",
+        "It offers multiple accommodation categories, including suites, and promotes à la carte dining within its resort offering."
+      ]
+    },
+    {
+      "title": "Sherwood Exclusive Kemer",
+      "slug": "sherwood-exclusive-kemer",
+      "area": "Kemer",
+      "neighborhood": "Kemer",
+      "district_slug": "kemer",
+      "category": "Coastal resort",
+      "official_url": "https://www.sherwoodhotels.com.tr/en/our-hotels/sherwood-exclusive-kemer/",
+      "source_url": "https://sherwoodhotels.com.tr/en/contact/",
+      "source_urls": [
+        "https://sherwoodhotels.com.tr/en/contact/",
+        "https://www.sherwoodhotels.com.tr/en/our-hotels/sherwood-exclusive-kemer/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "A Sherwood resort where the Beydağları mountain landscape meets the Mediterranean.",
+      "tagline": "A Sherwood resort where the Beydağları mountain landscape meets the Mediterranean.",
+      "description": "A Sherwood resort where the Beydağları mountain landscape meets the Mediterranean. The accommodation range extends to beachfront Bougain Villas, separate from standard room categories.",
+      "booking_note": "Confirm the precise room location and villa-specific services before comparing rates.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "A Sherwood resort where the Beydağları mountain landscape meets the Mediterranean.",
+        "The accommodation range extends to beachfront Bougain Villas, separate from standard room categories."
+      ]
+    },
+    {
+      "title": "Eftalia Ocean Hotel",
+      "slug": "eftalia-ocean-hotel",
+      "area": "Alanya",
+      "neighborhood": "Alanya",
+      "district_slug": "alanya",
+      "category": "Coastal resort",
+      "official_url": "https://eftaliahotels.com/en/eftalia-ocean-hotel-2/",
+      "source_url": "https://reservation.eftaliahotels.com/en/hotels/",
+      "source_urls": [
+        "https://reservation.eftaliahotels.com/en/hotels/",
+        "https://eftaliahotels.com/en/eftalia-ocean-hotel-2/"
+      ],
+      "source_label": "Official hotel or hotel-group website",
+      "last_checked": "2026-11-09",
+      "excerpt": "An Eftalia property approximately 18 kilometres from Alanya according to the hotel.",
+      "tagline": "An Eftalia property approximately 18 kilometres from Alanya according to the hotel.",
+      "description": "An Eftalia property approximately 18 kilometres from Alanya according to the hotel. The official booking site describes a sand-and-pebble beach and refers to the Eftalia Island beach complex.",
+      "booking_note": "Confirm the beach access route and which Eftalia Island services are included.",
+      "tags": [],
+      "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
+      "photos": [],
+      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "verified_facts": [
+        "An Eftalia property approximately 18 kilometres from Alanya according to the hotel.",
+        "The official booking site describes a sand-and-pebble beach and refers to the Eftalia Island beach complex."
+      ]
+    }
+  ],
+  "photo_count": 6,
+  "photo_limitations": "Only six photographs had identity and individual reuse licensing confirmed in this research pass. Five are historical photographs from 2009–2016; the Akra photograph is undated. They must not be presented as current facility photographs. All remaining hotels need licensed/current images supplied by owners or an authorised image provider.",
+  "editorial_exclusions": [
+    "Trendy Perge Resort & Suites was not included in the final 100 because the reviewed page advertised its 2026 introduction without unambiguously confirming operating status. Nirvana Mediterranean Excellence replaces it.",
+    "Kirman Qvor was excluded because the official site says it opens for summer 2027.",
+    "Official hotel-gallery photographs are not treated as licensed assets."
+  ]
+}

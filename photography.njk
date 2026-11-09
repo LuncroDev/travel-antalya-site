@@ -1,0 +1,8 @@
+---
+layout: base.njk
+pageTitle: Photography Credits & Reuse
+pageDescription: Sources, authors, licences and historical context for the real Antalya photography in this guide.
+permalink: /photography/index.html
+---
+<section class="listing-hero"><div class="container"><span class="eyebrow">Real places, clear credits</span><h1>The photographs<br>behind the guide.</h1><p class="lead">Licensed and public-domain photographs of identifiable Antalya locations. Every image keeps its author, source and reuse information.</p><p>Destination images do not depict a hotel’s rooms, facilities or the event on the page. Property-specific photographs are archival and dated. They do not confirm current condition or branding.</p><p>Images are sourced from Wikimedia Commons and Pexels, with resized derivatives where supplied and may be responsively cropped for display. The indicated image licences continue to apply to these image derivatives. Website text and code are not covered by an image’s licence.</p></div></section>
+<section><div class="container"><div class="editorial-photo-grid">{% for photo in editorialPhotos %}<figure class="editorial-photo"><img src="{{ photo.src }}" alt="{{ photo.alt }}" width="{{ photo.width }}" height="{{ photo.height }}" loading="lazy"><figcaption>{{ photo.caption }}{% if photo.usage_note %}<p>{{ photo.usage_note }}</p>{% endif %}<span class="photo-credit">{{ photo.author }} · {% if photo.license_url %}<a href="{{ photo.license_url }}">{{ photo.license }}</a>{% else %}{{ photo.license }}{% endif %} · <a href="{{ photo.source_url }}">Original source and licence evidence</a></span></figcaption></figure>{% endfor %}</div></div></section>

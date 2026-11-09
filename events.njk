@@ -18,7 +18,7 @@ eleventyExcludeFromCollections: true
     <form data-event-filters class="filter-panel" hidden aria-label="Filter events">
       <div class="filter-grid">
         <label>Search events<input type="search" name="query" placeholder="Name, venue or category"></label>
-        <label>Category<select name="category"><option value="">All categories</option>{% for cat in collections.eventCategories %}<option value="{{ cat.name }}">{{ cat.name }}</option>{% endfor %}</select></label>
+        <label>Category<select name="category"><option value="">All categories</option>{% for cat in collections.eventCategories %}<option value="{{ cat.name | escape }}">{{ cat.name }}</option>{% endfor %}</select></label>
         <label>Show<select name="period"><option value="active">On now &amp; upcoming</option><option value="current">On now</option><option value="upcoming">Upcoming</option><option value="awaiting">Awaiting verified dates</option><option value="archive">Past editions</option><option value="all">All listings</option></select></label>
         <label>From<input type="date" name="from"></label>
         <label>Until<input type="date" name="to"></label>
@@ -29,16 +29,16 @@ eleventyExcludeFromCollections: true
     <p data-event-count role="status" aria-live="polite"></p>
     <div data-event-empty hidden class="empty-state"><h2>No confirmed events match these filters</h2><p>Try another date or category, or choose “Awaiting verified dates” or “Past editions”. We do not invent dates to fill the calendar.</p><a href="https://www.antalya.bel.tr/tr/etkinlikler" target="_blank" rel="noopener noreferrer">Check the municipal events calendar ↗</a></div>    {% for e in collections.events %}
     {% set status = e.data | eventStatus %}
-    <article class="listing-row" data-event data-title="{{ e.data.title }}" data-venue="{{ e.data.venue }}" data-category="{{ e.data.category }}" data-start="{{ e.data.start_date | eventDate }}" data-end="{{ e.data.end_date | eventDate }}" data-verified="{{ e.data.date_verified }}" data-status="{{ status }}">
-      <div class="listing-row-media"><img src="{{ e.data.cover }}" alt="Antalya destination scenery" loading="lazy"></div>
+    <article class="listing-row" data-event data-title="{{ e.data.title | escape }}" data-venue="{{ e.data.venue | escape }}" data-category="{{ e.data.category | escape }}" data-start="{{ e.data.start_date | eventDate }}" data-end="{{ e.data.end_date | eventDate }}" data-verified="{{ e.data.date_verified }}" data-status="{{ status }}">
+      <div class="event-date-tile"><span>{{ e.data | eventDateLabel }}</span><strong>{{ e.data.category }}</strong></div>
       <div class="listing-row-body">
         <div class="listing-row-top"><div>
           <span class="badge">{{ e.data.category }}</span> <span class="badge" data-event-status>{{ status | eventStatusLabel }}</span>
-          <h3 class="listing-row-title"><a href="/events/{{ e.data.title | slugify }}/">{{ e.data.title }}</a></h3>
+          <h3 class="listing-row-title"><a href="/events/{{ e.data.slug or (e.data.title | slugify) }}/">{{ e.data.title }}</a></h3>
         </div></div>
         <p class="listing-row-excerpt">{{ e.data.excerpt }}</p>
         <div class="listing-row-meta"><span>{{ e.data | eventDateLabel }}</span><span>{{ e.data.venue }}</span></div>
-        <p><small>Source review: {{ e.data.last_checked | eventDate }} · <a href="{{ e.data.source_url }}" target="_blank" rel="noopener noreferrer">{{ e.data.source_name }}</a></small></p>
+        <p><small>Source review: {{ e.data.last_checked | eventDate }} · <a href="{{ e.data.source_url | escape }}" target="_blank" rel="noopener noreferrer">{{ e.data.source_name }}</a></small></p>
       </div>
     </article>
     {% endfor %}

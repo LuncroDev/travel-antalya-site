@@ -1,0 +1,8 @@
+---
+layout: base.njk
+pageTitle: Belek & Antalya Golf | Courses and Clubs
+pageDescription: Plan golf in Antalya with source-linked Belek course profiles, official club booking links and practical access guidance.
+permalink: /golf/index.html
+---
+<section class="listing-hero detail-heading"><div class="container"><span class="eyebrow">The fairways of the Mediterranean</span><h1>A different<br>kind of green.</h1><p class="lead">Explore Belek and the Antalya golf coast. Compare the clubs, follow the official booking links, and build a stay around your round.</p><div class="topic-links"><a href="#golf-directory">Explore {{ collections.golf.length }} golf venues ↓</a><a href="/hotels/?q=Belek">Belek hotels ↗</a></div></div></section>
+<section><div class="container"><div class="notice"><strong>Arrange access before travelling.</strong><p>Tee times, visitor access, handicap requirements, maintenance closures, equipment hire and transfers vary by club and season. A hotel stay does not automatically include a round.</p></div><div id="golf-directory">{% set venueItems = collections.golf %}{% set venuePlural = 'golf venues' %}{% set venuePath = 'golf' %}{% include 'venue-directory.njk' %}</div><div class="quick-links"><a href="/destinations/serik/">Explore Serik &amp; Belek →</a><a href="/restaurants/">Plan dinner →</a><a href="/plan-your-trip/">Transport &amp; trip planning →</a></div></div></section>

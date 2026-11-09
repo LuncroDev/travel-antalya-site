@@ -1,18 +1,33 @@
 ---
 title: "7 Mehmet"
-tagline: "Turkish and Mediterranean cooking at Atatürk Kültür Parkı"
-tags: ["editors-choice"]
-category: "Seafood"
-neighborhood: "Meltem, Muratpaşa"
-price: "$$$"
-cover: "/images/photos/antalya-coastline.jpg"
-photos:
-  - "/images/photos/antalya-coastline.jpg"
-booking_url: "https://7mehmet.com/en/contact"
-excerpt: "A long-running Antalya restaurant at Atatürk Kültür Parkı in Meltem, serving Turkish and Mediterranean cooking."
+neighborhood: "Meltem / Atatürk Kültür Parkı"
+district_slug: "muratpasa"
+official_url: "https://7mehmet.com/en/7-mehmet-antalya"
+source_url: "https://7mehmet.com/en/7-mehmet-antalya"
+source_urls: ["https://7mehmet.com/en/7-mehmet-antalya"]
+last_checked: "2026-11-09"
+excerpt: "An Antalya institution pairing regional Turkish recipes with seasonal Mediterranean cooking."
+booking_note: "Use the official reservation link and select Antalya. The venue publishes 11:00–00:00 hours; confirm service for your date and the current seasonal menu."
+slug: "7-mehmet"
+category: "Turkish and Mediterranean"
+tagline: "An Antalya institution pairing regional Turkish recipes with seasonal Mediterranean cooking."
+source_label: "Official venue information"
+michelin_note: "No verified Michelin distinction for this Antalya venue in the 2026 selection."
 ---
-7 Mehmet's Antalya restaurant is at Atatürk Kültür Parkı in Meltem, Muratpaşa, rather than in Kaleiçi. Its official site describes a Turkish and Mediterranean culinary approach.
+7 Mehmet traces its history to 1937. Its Antalya restaurant is in Atatürk Kültür Parkı in Meltem, rather than inside Kaleiçi. The kitchen describes a seasonal approach rooted in local producers and traditional Turkish dishes interpreted with modern Mediterranean techniques.
 
-Check the [restaurant’s official contact page](https://7mehmet.com/en/contact) for the current address, opening hours and reservation options. Source checked 9 November 2026.
+## Food and setting
 
-The coastal photograph is a regional illustration, not a photograph of the restaurant.
+This is a useful choice for a meal focused on Antalya’s culinary identity. The official site separates its Antalya and Istanbul restaurants, so check the branch when making plans. Its other guide awards should not be confused with a Michelin distinction.
+
+## Plan your visit
+
+Use the official reservation link and select Antalya. The venue publishes 11:00–00:00 hours; confirm service for your date and the current seasonal menu.
+
+## Published address
+
+Meltem Mah., Dumlupınar Bulv., Atatürk Kültür Parkı No:201, Muratpaşa, Antalya
+
+## Sources
+
+- [Source 1](https://7mehmet.com/en/7-mehmet-antalya)
