@@ -13,14 +13,14 @@ test('restaurant hotel links resolve to supported traveler areas',()=>{const {ho
 
 test('selected hotel galleries retain verified source dates, rights and four-photo limits',()=>{
  const report=require('../docs/hotel-photo-sources.json');
- assert.equal(report.expected_selected_photos,51);
- assert.equal(report.selected_photos,51);
- assert.equal(report.hotel_count,16);
+ assert.equal(report.expected_selected_photos,61);
+ assert.equal(report.selected_photos,61);
+ assert.equal(report.hotel_count,20);
  const reviewed=photos.filter(p=>p.review_batch==='hotel-photo-review-2026-11-09');
- assert.equal(reviewed.length,51);
+ assert.equal(reviewed.length,61);
  const normalized=p=>decodeURIComponent(p.source_url).replaceAll('_',' ').replace(/\/$/,'');
  assert.equal(new Set(reviewed.map(normalized)).size,reviewed.length);
- for(const p of reviewed){assert.ok(p.archive_warning&&p.date_basis&&p.changes&&p.preserve_framing);assert.equal(p.historical,true);assert.match(p.license_url,/^https:\/\/creativecommons.org\/licenses\//);}
+ for(const p of reviewed){assert.ok(p.archive_warning&&p.date_basis&&p.changes&&p.preserve_framing);assert.equal(p.historical,true);assert.match(p.license_url,/^https:\/\/(?:creativecommons.org\/licenses\/|www.pexels.com\/license\/)/);}
  for(const slug of new Set(reviewed.map(p=>p.property_slug))){const gallery=photoGallery({slug},photos);assert.ok(gallery.length<=4);assert.ok(gallery.every(p=>p.property_slug===slug&&!p.contextual));}
  const watermark=reviewed.find(p=>p.source_url.includes('22876203861'));
  if(watermark)assert.ok(watermark.preserve_framing&&watermark.changes.includes('watermark retained'));
