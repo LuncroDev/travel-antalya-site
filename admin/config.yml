@@ -1,189 +1,683 @@
 backend:
   name: git-gateway
   branch: main
-  
 publish_mode: editorial_workflow
-
-media_folder: "images/uploads"
-public_folder: "/images/uploads"
-
+media_folder: images/uploads
+public_folder: /images/uploads
 collections:
-  - name: "blog"
-    label: "Blog Posts"
-    folder: "content/blog"
+  - name: blog
+    label: Blog Posts
+    folder: content/blog
     create: true
-    slug: "{{slug}}"
+    slug: '{{slug}}'
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "URL Slug", name: "slug", widget: "string", hint: "Used in the page address, e.g. my-post-title. Avoid changing this after publishing." }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Date (display text)", name: "date_display", widget: "string", hint: "How the date shows on the page, e.g. July 28, 2026" }
-      - { label: "Category", name: "category", widget: "select", options: ["Guide", "Itinerary", "Practical", "Weather", "Beaches", "Hotels", "Tips"] }
-      - { label: "Featured on Homepage", name: "featured", widget: "boolean", default: false }
-      - { label: "Cover Photo", name: "cover", widget: "image" }
-      - { label: "Extra Photos (optional gallery)", name: "gallery", widget: "list", required: false, field: { label: "Photo", name: "photo", widget: "image" } }
-      - { label: "Excerpt (shown in listing)", name: "excerpt", widget: "text" }
-      - { label: "Full Article", name: "body", widget: "markdown" }
-
-  - name: "things-to-do"
-    label: "Things To Do"
-    folder: "content/things-to-do"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Name", name: "title", widget: "string" }
-      - { label: "Tagline", name: "tagline", widget: "string" }
-      - { label: "Category", name: "category", widget: "select", options: ["Old Town", "Nature", "Ancient Ruins", "Beaches", "Nightlife", "Museums", "Tours"] }
-      - { label: "Cover Photo", name: "cover", widget: "image" }
-      - { label: "Extra Photos", name: "photos", widget: "list", required: false, field: { label: "Photo", name: "photo", widget: "image" } }
-      - { label: "Map Latitude", name: "map_lat", widget: "number", value_type: "float", required: false }
-      - { label: "Map Longitude", name: "map_lng", widget: "number", value_type: "float", required: false }
-      - { label: "Featured on Homepage", name: "featured", widget: "boolean", default: false }
-      - { label: "Excerpt (shown in listing)", name: "excerpt", widget: "text" }
-      - { label: "Full Description", name: "body", widget: "markdown" }
-
-  - name: "events"
-    label: "Events"
-    folder: "content/events"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Name", name: "title", widget: "string" }
-      - { label: "Tagline", name: "tagline", widget: "string" }
-      - { label: "Category", name: "category", widget: "select", options: ["Concerts", "Festivals", "Cultural", "Sports", "Nightlife", "Family"] }
-      - { label: "Start Date", name: "start_date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
-      - { label: "End Date", name: "end_date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
-      - { label: "Date (display text)", name: "date_display", widget: "string", hint: "How the date shows on the page, e.g. August 14, 2026" }
-      - { label: "Venue", name: "venue", widget: "string" }
-      - { label: "Official link label", name: "booking_label", widget: "string", required: false, hint: "Button text, e.g. Official website or Get Tickets" }
-      - { label: "Cover Photo", name: "cover", widget: "image" }
-      - { label: "Extra Photos", name: "photos", widget: "list", required: false, field: { label: "Photo", name: "photo", widget: "image" } }
-      - { label: "Video (YouTube embed URL)", name: "video", widget: "string", required: false, hint: "Use the embed URL, e.g. https://www.youtube.com/embed/VIDEO_ID" }
-      - { label: "Map Latitude", name: "map_lat", widget: "number", value_type: "float", required: false }
-      - { label: "Map Longitude", name: "map_lng", widget: "number", value_type: "float", required: false }
-      - { label: "Ticket / Booking Link", name: "booking_url", widget: "string", required: false }
-      - { label: "Featured on Homepage", name: "featured", widget: "boolean", default: false }
-      - { label: "Excerpt (shown in listing)", name: "excerpt", widget: "text" }
-      - { label: "Full Description", name: "body", widget: "markdown" }
-
-  - name: "deal-categories"
-    label: "Deal Categories"
-    folder: "content/deal-categories"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Name", name: "title", widget: "string" }
-      - { label: "URL Slug", name: "slug", widget: "string" }
-      - { label: "Short Description (shown on category card)", name: "description", widget: "text" }
-      - { label: "Intro Text (shown on category page)", name: "intro", widget: "text" }
-      - { label: "Hero / Card Image", name: "hero_image", widget: "image" }
-      - { label: "Accent Color (hex)", name: "color", widget: "string", default: "#0077B8" }
-      - { label: "Display Order", name: "order", widget: "number", default: 10 }
-      - { label: "Featured", name: "featured", widget: "boolean", default: false }
-      - { label: "Notes (not shown publicly)", name: "body", widget: "markdown", required: false }
-
-  - name: "deals"
-    label: "Deals"
-    folder: "content/deals"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Category", name: "category", widget: "relation", collection: "deal-categories", search_fields: ["title"], value_field: "slug", display_fields: ["title"] }
-      - { label: "Region", name: "region", widget: "select", options: ["Antalya City Centre", "Lara", "Kundu", "Belek", "Kemer", "Side", "Manavgat", "Alanya", "Kaş", "Kalkan", "Konyaaltı", "Serik", "Köprülü Canyon", "Pamukkale", "Kaleiçi"] }
-      - { label: "Price From", name: "price_from", widget: "number", value_type: "float" }
-      - { label: "Old Price (optional, for showing a discount)", name: "old_price", widget: "number", value_type: "float", required: false }
-      - { label: "Discount % (leave blank to hide)", name: "discount_percentage", widget: "number", required: false }
-      - { label: "Currency", name: "currency", widget: "select", options: ["GBP", "EUR", "USD", "TRY"] }
-      - { label: "Pricing Unit", name: "pricing_unit", widget: "select", options: ["per person", "per group", "per package", "per room", "per night", "per vehicle", "per round", "per couple"] }
-      - { label: "Duration (display text)", name: "duration", widget: "string" }
-      - { label: "Rating (0-5)", name: "rating", widget: "number", value_type: "float", required: false }
-      - { label: "Review Count", name: "review_count", widget: "number", required: false }
-      - { label: "Badges", name: "badges", widget: "select", multiple: true, required: false, options: ["editors-choice", "most-popular", "last-minute", "limited-availability", "best-value", "family-favourite", "premium-experience", "new", "exclusive", "best-seller", "seasonal", "romantic"] }
-      - { label: "Features", name: "features", widget: "select", multiple: true, required: false, options: ["free-cancellation", "instant-confirmation", "mobile-ticket", "transfer-included", "meals-included", "guide-included", "family-friendly", "private", "small-group", "accessible"] }
-      - { label: "Featured on Deals Homepage", name: "featured", widget: "boolean", default: false }
-      - { label: "Last-Minute Deal", name: "last_minute", widget: "boolean", default: false }
-      - { label: "Cover Photo", name: "cover", widget: "image" }
-      - { label: "Photo Gallery", name: "photos", widget: "list", required: false, field: { label: "Photo", name: "photo", widget: "image" } }
-      - { label: "What's Included", name: "included", widget: "list", required: false, field: { label: "Item", name: "item", widget: "string" } }
-      - { label: "Not Included", name: "excluded", widget: "list", required: false, field: { label: "Item", name: "item", widget: "string" } }
-      - label: "Golf Package Details (only for Golf Packages category)"
-        name: "golf_details_note"
-        widget: "string"
+      - label: Title
+        name: title
+        widget: string
+      - label: URL Slug
+        name: slug
+        widget: string
+        hint: 'Used in the page address, e.g. my-post-title. Avoid changing this after publishing.'
+      - label: Date
+        name: date
+        widget: datetime
+      - label: Date (display text)
+        name: date_display
+        widget: string
+        hint: 'How the date shows on the page, e.g. July 28, 2026'
+      - label: Category
+        name: category
+        widget: select
+        options:
+          - Guide
+          - Itinerary
+          - Practical
+          - Weather
+          - Beaches
+          - Hotels
+          - Tips
+      - label: Featured on Homepage
+        name: featured
+        widget: boolean
+        default: false
+      - label: Cover Photo
+        name: cover
+        widget: image
+      - label: Extra Photos (optional gallery)
+        name: gallery
+        widget: list
         required: false
-        hint: "Fill in the golf fields below only if this deal is a golf package."
-      - { label: "Golf: Hotel / Resort Name", name: "golf_hotel", widget: "string", required: false }
-      - { label: "Golf: Nights", name: "golf_nights", widget: "number", required: false }
-      - { label: "Golf: Rounds", name: "golf_rounds", widget: "number", required: false }
-      - { label: "Golf: Meal Plan", name: "golf_meal_plan", widget: "select", options: ["Room only", "Bed & breakfast", "Half-board", "All-inclusive"], required: false }
-      - { label: "Golf: Transfers Included", name: "golf_transfer_included", widget: "boolean", default: false, required: false }
-      - { label: "Golf: Buggy Included", name: "golf_buggy_included", widget: "boolean", default: false, required: false }
-      - { label: "Affiliate / Booking Link", name: "affiliate_url", widget: "string" }
-      - { label: "Excerpt (shown on cards)", name: "excerpt", widget: "text" }
-      - { label: "Full Description", name: "body", widget: "markdown" }
-
-  - name: "restaurants"
-    label: "Restaurants"
-    folder: "content/restaurants"
+        field:
+          label: Photo
+          name: photo
+          widget: image
+      - label: Excerpt (shown in listing)
+        name: excerpt
+        widget: text
+      - label: Full Article
+        name: body
+        widget: markdown
+  - name: things-to-do
+    label: Things To Do
+    folder: content/things-to-do
     create: true
-    slug: "{{slug}}"
+    slug: '{{slug}}'
     fields:
-      - { label: "Name", name: "title", widget: "string" }
-      - { label: "Tagline", name: "tagline", widget: "string" }
-      - { label: "Tags", name: "tags", widget: "select", multiple: true, options: ["sponsored", "editors-choice"], required: false }
-      - { label: "Category", name: "category", widget: "select", options: ["Seafood", "Rooftop", "Local Classic", "Cafe", "Fine Dining"] }
-      - { label: "Neighborhood", name: "neighborhood", widget: "string" }
-      - { label: "Price Range", name: "price", widget: "select", options: ["$", "$$", "$$$", "$$$$"] }
-      - { label: "Cover Photo", name: "cover", widget: "image" }
-      - { label: "Photo Gallery (7-10 photos)", name: "photos", widget: "list", field: { label: "Photo", name: "photo", widget: "image" } }
-      - label: "Signature Dishes / Concept"
-        name: "signature_dishes"
-        widget: "list"
+      - label: Name
+        name: title
+        widget: string
+      - label: Tagline
+        name: tagline
+        widget: string
+      - label: Category
+        name: category
+        widget: select
+        options:
+          - Old Town
+          - Nature
+          - Ancient Ruins
+          - Beaches
+          - Nightlife
+          - Museums
+          - Tours
+      - label: Cover Photo
+        name: cover
+        widget: image
+      - label: Extra Photos
+        name: photos
+        widget: list
+        required: false
+        field:
+          label: Photo
+          name: photo
+          widget: image
+      - label: Map Latitude
+        name: map_lat
+        widget: number
+        value_type: float
+        required: false
+      - label: Map Longitude
+        name: map_lng
+        widget: number
+        value_type: float
+        required: false
+      - label: Featured on Homepage
+        name: featured
+        widget: boolean
+        default: false
+      - label: Excerpt (shown in listing)
+        name: excerpt
+        widget: text
+      - label: Full Description
+        name: body
+        widget: markdown
+  - name: events
+    label: Events
+    folder: content/events
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - label: Dates verified against source
+        name: date_verified
+        widget: boolean
+        default: false
+        hint: Enable only after checking the exact edition and dates at the linked source.
+      - label: Source URL
+        name: source_url
+        widget: string
+      - label: Source name
+        name: source_name
+        widget: string
+      - label: Source reviewed on
+        name: last_checked
+        widget: datetime
+        format: YYYY-MM-DD
+        time_format: false
+      - label: Verification and access notes
+        name: verification_note
+        widget: text
+      - label: Time (Antalya local time)
+        name: time_display
+        widget: string
+        required: false
+      - label: Name
+        name: title
+        widget: string
+      - label: Tagline
+        name: tagline
+        widget: string
+      - label: Category
+        name: category
+        widget: select
+        options:
+          - Concerts
+          - Festivals
+          - Cultural
+          - Sports
+          - Nightlife
+          - Family
+          - Conferences
+          - Trade Fairs
+      - label: Start Date
+        name: start_date
+        widget: datetime
+        date_format: YYYY-MM-DD
+        time_format: false
+        required: false
+        format: YYYY-MM-DD
+      - label: End Date
+        name: end_date
+        widget: datetime
+        date_format: YYYY-MM-DD
+        time_format: false
+        required: false
+        format: YYYY-MM-DD
+      - label: Date (display text)
+        name: date_display
+        widget: string
+        hint: 'How the date shows on the page, e.g. August 14, 2026'
+        required: false
+      - label: Venue
+        name: venue
+        widget: string
+      - label: Official link label
+        name: booking_label
+        widget: string
+        required: false
+        hint: 'Button text, e.g. Official website or Get Tickets'
+      - label: Cover Photo
+        name: cover
+        widget: image
+      - label: Extra Photos
+        name: photos
+        widget: list
+        required: false
+        field:
+          label: Photo
+          name: photo
+          widget: image
+      - label: Video (YouTube embed URL)
+        name: video
+        widget: string
+        required: false
+        hint: 'Use the embed URL, e.g. https://www.youtube.com/embed/VIDEO_ID'
+      - label: Map Latitude
+        name: map_lat
+        widget: number
+        value_type: float
+        required: false
+      - label: Map Longitude
+        name: map_lng
+        widget: number
+        value_type: float
+        required: false
+      - label: Ticket / Booking Link
+        name: booking_url
+        widget: string
+        required: false
+      - label: Featured on Homepage
+        name: featured
+        widget: boolean
+        default: false
+      - label: Excerpt (shown in listing)
+        name: excerpt
+        widget: text
+      - label: Full Description
+        name: body
+        widget: markdown
+  - name: deal-categories
+    label: Deal Categories
+    folder: content/deal-categories
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - label: Name
+        name: title
+        widget: string
+      - label: URL Slug
+        name: slug
+        widget: string
+      - label: Short Description (shown on category card)
+        name: description
+        widget: text
+      - label: Intro Text (shown on category page)
+        name: intro
+        widget: text
+      - label: Hero / Card Image
+        name: hero_image
+        widget: image
+      - label: Accent Color (hex)
+        name: color
+        widget: string
+        default: '#0077B8'
+      - label: Display Order
+        name: order
+        widget: number
+        default: 10
+      - label: Featured
+        name: featured
+        widget: boolean
+        default: false
+      - label: Notes (not shown publicly)
+        name: body
+        widget: markdown
+        required: false
+  - name: deals
+    label: Deals
+    folder: content/deals
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Category
+        name: category
+        widget: relation
+        collection: deal-categories
+        search_fields:
+          - title
+        value_field: slug
+        display_fields:
+          - title
+      - label: Region
+        name: region
+        widget: select
+        options:
+          - Antalya City Centre
+          - Lara
+          - Kundu
+          - Belek
+          - Kemer
+          - Side
+          - Manavgat
+          - Alanya
+          - Kaş
+          - Kalkan
+          - Konyaaltı
+          - Serik
+          - Köprülü Canyon
+          - Pamukkale
+          - Kaleiçi
+      - label: Price From
+        name: price_from
+        widget: number
+        value_type: float
+      - label: 'Old Price (optional, for showing a discount)'
+        name: old_price
+        widget: number
+        value_type: float
+        required: false
+      - label: Discount % (leave blank to hide)
+        name: discount_percentage
+        widget: number
+        required: false
+      - label: Currency
+        name: currency
+        widget: select
+        options:
+          - GBP
+          - EUR
+          - USD
+          - TRY
+      - label: Pricing Unit
+        name: pricing_unit
+        widget: select
+        options:
+          - per person
+          - per group
+          - per package
+          - per room
+          - per night
+          - per vehicle
+          - per round
+          - per couple
+      - label: Duration (display text)
+        name: duration
+        widget: string
+      - label: Rating (0-5)
+        name: rating
+        widget: number
+        value_type: float
+        required: false
+      - label: Review Count
+        name: review_count
+        widget: number
+        required: false
+      - label: Badges
+        name: badges
+        widget: select
+        multiple: true
+        required: false
+        options:
+          - editors-choice
+          - most-popular
+          - last-minute
+          - limited-availability
+          - best-value
+          - family-favourite
+          - premium-experience
+          - new
+          - exclusive
+          - best-seller
+          - seasonal
+          - romantic
+      - label: Features
+        name: features
+        widget: select
+        multiple: true
+        required: false
+        options:
+          - free-cancellation
+          - instant-confirmation
+          - mobile-ticket
+          - transfer-included
+          - meals-included
+          - guide-included
+          - family-friendly
+          - private
+          - small-group
+          - accessible
+      - label: Featured on Deals Homepage
+        name: featured
+        widget: boolean
+        default: false
+      - label: Last-Minute Deal
+        name: last_minute
+        widget: boolean
+        default: false
+      - label: Cover Photo
+        name: cover
+        widget: image
+      - label: Photo Gallery
+        name: photos
+        widget: list
+        required: false
+        field:
+          label: Photo
+          name: photo
+          widget: image
+      - label: What's Included
+        name: included
+        widget: list
+        required: false
+        field:
+          label: Item
+          name: item
+          widget: string
+      - label: Not Included
+        name: excluded
+        widget: list
+        required: false
+        field:
+          label: Item
+          name: item
+          widget: string
+      - label: Golf Package Details (only for Golf Packages category)
+        name: golf_details_note
+        widget: string
+        required: false
+        hint: Fill in the golf fields below only if this deal is a golf package.
+      - label: 'Golf: Hotel / Resort Name'
+        name: golf_hotel
+        widget: string
+        required: false
+      - label: 'Golf: Nights'
+        name: golf_nights
+        widget: number
+        required: false
+      - label: 'Golf: Rounds'
+        name: golf_rounds
+        widget: number
+        required: false
+      - label: 'Golf: Meal Plan'
+        name: golf_meal_plan
+        widget: select
+        options:
+          - Room only
+          - Bed & breakfast
+          - Half-board
+          - All-inclusive
+        required: false
+      - label: 'Golf: Transfers Included'
+        name: golf_transfer_included
+        widget: boolean
+        default: false
+        required: false
+      - label: 'Golf: Buggy Included'
+        name: golf_buggy_included
+        widget: boolean
+        default: false
+        required: false
+      - label: Affiliate / Booking Link
+        name: affiliate_url
+        widget: string
+      - label: Excerpt (shown on cards)
+        name: excerpt
+        widget: text
+      - label: Full Description
+        name: body
+        widget: markdown
+  - name: restaurants
+    label: Restaurants
+    folder: content/restaurants
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - label: Name
+        name: title
+        widget: string
+      - label: Tagline
+        name: tagline
+        widget: string
+      - label: Tags
+        name: tags
+        widget: select
+        multiple: true
+        options:
+          - sponsored
+          - editors-choice
+        required: false
+      - label: Category
+        name: category
+        widget: select
+        options:
+          - Seafood
+          - Rooftop
+          - Local Classic
+          - Cafe
+          - Fine Dining
+      - label: Neighborhood
+        name: neighborhood
+        widget: string
+      - label: Price Range
+        name: price
+        widget: select
+        options:
+          - $
+          - $$
+          - $$$
+          - $$$$
+      - label: Cover Photo
+        name: cover
+        widget: image
+      - label: Photo Gallery (7-10 photos)
+        name: photos
+        widget: list
+        field:
+          label: Photo
+          name: photo
+          widget: image
+      - label: Signature Dishes / Concept
+        name: signature_dishes
+        widget: list
         fields:
-          - { label: "Dish", name: "name", widget: "string" }
-          - { label: "Note", name: "note", widget: "string" }
-      - { label: "Map Latitude", name: "map_lat", widget: "number", value_type: "float", required: false }
-      - { label: "Map Longitude", name: "map_lng", widget: "number", value_type: "float", required: false }
-      - { label: "Reservation / Booking Link", name: "booking_url", widget: "string", required: false }
-      - label: "Nearby Places"
-        name: "nearby"
-        widget: "list"
+          - label: Dish
+            name: name
+            widget: string
+          - label: Note
+            name: note
+            widget: string
+      - label: Map Latitude
+        name: map_lat
+        widget: number
+        value_type: float
+        required: false
+      - label: Map Longitude
+        name: map_lng
+        widget: number
+        value_type: float
+        required: false
+      - label: Reservation / Booking Link
+        name: booking_url
+        widget: string
+        required: false
+      - label: Nearby Places
+        name: nearby
+        widget: list
         required: false
         fields:
-          - { label: "Name", name: "name", widget: "string" }
-          - { label: "Type", name: "type", widget: "select", options: ["Hotel", "Restaurant", "Beach", "Bar", "Activity"] }
-          - { label: "Link", name: "link", widget: "string" }
-      - { label: "Excerpt (shown in listing)", name: "excerpt", widget: "text" }
-      - { label: "Full Description", name: "body", widget: "markdown" }
-
-  - name: "hotels"
-    label: "Hotels"
-    folder: "content/hotels"
+          - label: Name
+            name: name
+            widget: string
+          - label: Type
+            name: type
+            widget: select
+            options:
+              - Hotel
+              - Restaurant
+              - Beach
+              - Bar
+              - Activity
+          - label: Link
+            name: link
+            widget: string
+      - label: Excerpt (shown in listing)
+        name: excerpt
+        widget: text
+      - label: Full Description
+        name: body
+        widget: markdown
+  - name: hotels
+    label: Hotels
+    folder: content/hotels
     create: true
-    slug: "{{slug}}"
+    slug: '{{slug}}'
     fields:
-      - { label: "Name", name: "title", widget: "string" }
-      - { label: "Tagline", name: "tagline", widget: "string" }
-      - { label: "Tags", name: "tags", widget: "select", multiple: true, options: ["sponsored", "editors-choice"], required: false }
-      - { label: "Category", name: "category", widget: "select", options: ["Boutique", "Beachfront", "Golf", "Luxury Resort", "Family", "Budget"] }
-      - { label: "Neighborhood", name: "neighborhood", widget: "string" }
-      - { label: "Price Range", name: "price", widget: "select", options: ["$", "$$", "$$$", "$$$$"] }
-      - { label: "Cover Photo", name: "cover", widget: "image" }
-      - { label: "Photo Gallery (7-10 photos)", name: "photos", widget: "list", field: { label: "Photo", name: "photo", widget: "image" } }
-      - label: "Amenities"
-        name: "amenities"
-        widget: "list"
-        field: { label: "Amenity", name: "amenity", widget: "string" }
-      - { label: "Map Latitude", name: "map_lat", widget: "number", value_type: "float", required: false }
-      - { label: "Map Longitude", name: "map_lng", widget: "number", value_type: "float", required: false }
-      - { label: "Booking Link (affiliate)", name: "booking_url", widget: "string", required: false }
-      - label: "Nearby Places"
-        name: "nearby"
-        widget: "list"
+      - label: Stable URL slug
+        name: slug
+        widget: string
+        hint: 'Keep unchanged after publishing, even when the hotel name changes.'
+      - label: Official hotel website
+        name: official_url
+        widget: string
+      - label: Source URL
+        name: source_url
+        widget: string
+      - label: Source label
+        name: source_label
+        widget: string
+        default: Official hotel or hotel-group website
+      - label: Source reviewed on
+        name: last_checked
+        widget: datetime
+        format: YYYY-MM-DD
+        time_format: false
+      - label: Booking considerations
+        name: booking_note
+        widget: text
+      - label: Name
+        name: title
+        widget: string
+      - label: Tagline
+        name: tagline
+        widget: string
+      - label: Tags
+        name: tags
+        widget: select
+        multiple: true
+        options:
+          - sponsored
+          - editors-choice
+        required: false
+      - label: Category
+        name: category
+        widget: select
+        options:
+          - City hotel
+          - Boutique & heritage
+          - Coastal resort
+          - Golf resort
+      - label: Neighborhood
+        name: neighborhood
+        widget: string
+      - label: Price Range
+        name: price
+        widget: select
+        options:
+          - $
+          - $$
+          - $$$
+          - $$$$
+        required: false
+      - label: Cover Photo
+        name: cover
+        widget: image
+        required: false
+        hint: Only property-specific photos with confirmed usage rights.
+      - label: Photo Gallery (7-10 photos)
+        name: photos
+        widget: list
+        field:
+          label: Photo
+          name: photo
+          widget: image
+        required: false
+      - label: Amenities
+        name: amenities
+        widget: list
+        field:
+          label: Amenity
+          name: amenity
+          widget: string
+        required: false
+      - label: Map Latitude
+        name: map_lat
+        widget: number
+        value_type: float
+        required: false
+      - label: Map Longitude
+        name: map_lng
+        widget: number
+        value_type: float
+        required: false
+      - label: Booking Link (affiliate)
+        name: booking_url
+        widget: string
+        required: false
+      - label: Nearby Places
+        name: nearby
+        widget: list
         required: false
         fields:
-          - { label: "Name", name: "name", widget: "string" }
-          - { label: "Type", name: "type", widget: "select", options: ["Hotel", "Restaurant", "Beach", "Bar", "Activity"] }
-          - { label: "Link", name: "link", widget: "string" }
-      - { label: "Excerpt (shown in listing)", name: "excerpt", widget: "text" }
-      - { label: "Full Description", name: "body", widget: "markdown" }
+          - label: Name
+            name: name
+            widget: string
+          - label: Type
+            name: type
+            widget: select
+            options:
+              - Hotel
+              - Restaurant
+              - Beach
+              - Bar
+              - Activity
+          - label: Link
+            name: link
+            widget: string
+      - label: Excerpt (shown in listing)
+        name: excerpt
+        widget: text
+      - label: Full Description
+        name: body
+        widget: markdown

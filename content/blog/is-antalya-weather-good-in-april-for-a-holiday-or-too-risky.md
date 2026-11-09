@@ -8,6 +8,9 @@ cover: "/images/photos/things-to-do-cover.jpg"
 excerpt: "Antalya is one of Turkey’s most popular holiday destinations, attracting millions of tourists each year with its stunning beaches, rich historical landmarks, warm…"
 featured: false
 ---
+
+> **Museum access update, 9 November 2026:** Antalya Museum is listed as temporarily closed for new museum works. Older visit suggestions below do not confirm access. Check the [current closure guidance](/things-to-do/antalya-museum/) before planning a visit.
+
 <p>Antalya is one of Turkey’s most popular holiday destinations, attracting millions of tourists each year with its stunning beaches, rich historical landmarks, warm Mediterranean climate, and friendly atmosphere. Many travelers, however, often wonder: Is Antalya’s weather in April suitable for a holiday, or is it too risky? April marks the beginning of spring, as the city gradually transitions from the cooler winter months to the warmer days of summer. Understanding <a href="https://travel-antalya.com/"><strong>Antalya’s weather in April</strong></a> is essential for travelers to plan outdoor activities, choose appropriate clothing, and decide whether to explore the city, enjoy nature, or spend time on the beaches. With the right preparation, visiting Antalya in April can offer a comfortable, relaxing, and memorable spring holiday.</p>
 
 <p>In this guide, we will explore Antalya’s April weather in detail, including temperature, rainfall, sea conditions, crowd levels, activities, and travel tips. This comprehensive guide will help you decide whether April is the right time for your Antalya holiday.</p>

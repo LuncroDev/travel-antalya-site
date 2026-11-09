@@ -1,27 +1,17 @@
 ---
 title: "Maxx Royal Belek Golf Resort"
-tagline: "Belek's benchmark for luxury golf and beach resorts"
-tags: ["editors-choice"]
-category: "Golf"
+slug: "maxx-royal-belek-golf-resort"
+tagline: "The Belek property in the Maxx Royal collection, for travellers comparing resort and golf holidays."
+tags: []
+category: "Golf resort"
 neighborhood: "Belek"
-price: "$$$$"
-cover: "/images/photos/coastal-extra-1.jpg"
-photos:
-  - "/images/photos/coastal-extra-1.jpg"
-  - "/images/photos/calista-resort.webp"
-  - "/images/photos/antalya-hotels.avif"
-amenities:
-  - "Championship golf courses"
-  - "Private beach"
-  - "Multiple pools"
-  - "Spa & wellness"
-  - "Fine dining restaurants"
-  - "All-inclusive"
-map_lat: 36.8580
-map_lng: 31.0600
-booking_url: "https://www.maxxroyal.com/tr/belek-golf-resort"
-excerpt: "Turkey's golf capital, wrapped around a five-star resort with its own beach club."
+official_url: "https://www.maxxroyal.com/turkiye"
+source_url: "https://www.maxxroyal.com/turkiye"
+source_label: "Official hotel or hotel-group website"
+last_checked: "2026-11-09"
+excerpt: "The Belek property in the Maxx Royal collection, for travellers comparing resort and golf holidays."
+booking_note: "Confirm which golf benefits, room category and dining reservations your chosen package actually includes."
 ---
-Maxx Royal Belek Golf Resort is one of the region's most recognized luxury properties, combining direct access to Belek's championship golf courses with a private stretch of beach and an extensive pool landscape.
+The Belek property in the Maxx Royal collection, for travellers comparing resort and golf holidays.
 
-The resort leans into a more polished, design-forward look than the typical all-inclusive format, with a strong food and beverage program across its restaurants. It's a regular pick on Michelin's hotel guide for the region.
+Confirm which golf benefits, room category and dining reservations your chosen package actually includes.

@@ -1,23 +1,17 @@
 ---
 title: "Regnum Carya"
-tagline: "Golf-focused resort in Belek"
+slug: "regnum-carya"
+tagline: "A Belek resort associated with the Carya golf setting, with hotel and villa accommodation options."
 tags: []
-category: "Golf"
+category: "Golf resort"
 neighborhood: "Belek"
-price: "$$$$"
-cover: "/images/photos/coastal-extra-1.jpg"
-photos:
-  - "/images/photos/coastal-extra-1.jpg"
-  - "/images/photos/coastal-extra-3.jpg"
-amenities:
-  - "On-site golf"
-  - "Private beach"
-  - "Spa"
-  - "Multiple restaurants"
-  - "Kids club"
-booking_url: "https://www.booking.com/searchresults.html?ss=Regnum+Carya+Antalya"
-excerpt: "A large Belek resort built around its own golf course, a few minutes from other championship courses."
+official_url: "https://www.regnumhotels.com/en/hotels/regnum-carya/"
+source_url: "https://www.regnumhotels.com/en/hotels/regnum-carya/"
+source_label: "Official hotel or hotel-group website"
+last_checked: "2026-11-09"
+excerpt: "A Belek resort associated with the Carya golf setting, with hotel and villa accommodation options."
+booking_note: "Regnum has more than one property. Check the property name and access arrangements rather than assuming facilities are interchangeable."
 ---
-Belek, about 35 kilometres east of Antalya, is Turkey's main golf destination, and Regnum Carya is one of its large resorts with its own course. It combines a long beach frontage with pools, restaurants, a spa and kids' facilities, so it works for mixed groups where some people golf and others want the beach.
+A Belek resort associated with the Carya golf setting, with hotel and villa accommodation options.
 
-Belek is a purpose-built resort area. Expect to be at the hotel for most meals and evenings; for sightseeing, Perge, Aspendos and Side are all within a short drive. Confirm green-fee and package arrangements with the hotel.
+Regnum has more than one property. Check the property name and access arrangements rather than assuming facilities are interchangeable.

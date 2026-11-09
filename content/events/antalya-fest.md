@@ -1,18 +1,17 @@
 ---
 title: "Antalya Fest"
 category: "Festivals"
-tagline: "International music and folk-dance festival"
+tagline: "A legacy festival listing with dates and venue awaiting verification."
 cover: "/images/photos/antalya-coastline.jpg"
-photos:
-  - "/images/photos/antalya-coastline.jpg"
-start_date: 2026-10-24
-end_date: 2026-10-30
-date_display: "October 24-30, 2026"
-venue: "Antalya city and surrounding area"
-video: ""
-booking_url: "https://www.motleyturkey.com/antalya-annual-festival-guide-2026"
-booking_label: "Event guide"
-excerpt: "An international music and folk-dance festival listed for 24-30 October 2026; the venues change by year."
+venue: "Antalya region; venue not verified"
+source_url: "https://www.antalya.bel.tr/tr/etkinlikler"
+source_name: "Municipal events calendar"
+last_checked: "2026-11-09"
+date_verified: false
+excerpt: "A legacy festival listing with dates and venue awaiting verification."
 featured: false
+verification_note: "No organizer confirmation found. The linked calendar is an alternative resource, not evidence for this listing."
 ---
-Antalya Fest is an international music and folk-dance festival that brings dance groups and musicians to the Antalya region. A 2026 Antalya festival guide lists it for 24 to 30 October. Specific venues are not named in that listing, so check with the organisers or local listings for performances.
+The previous entry relied on a third-party annual guide. We could not verify an organizer programme and venue for that listing, so its dates have been withdrawn.
+
+The municipal calendar is provided as a discovery resource, not as confirmation that this festival is scheduled.

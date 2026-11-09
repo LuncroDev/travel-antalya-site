@@ -6,65 +6,15 @@ pagination:
 permalink: "/events/{{ event.data.title | slugify }}/index.html"
 layout: base.njk
 eleventyExcludeFromCollections: true
-pageTitle: "{{ event.data.title }} — Travel Antalya"
-pageDescription: "{{ event.data.excerpt }}"
-pageUrl: "/events/{{ event.data.title | slugify }}/"
-ogImage: "{{ event.data.cover }}"
-ogType: "website"
-schema:
-  "@context": "https://schema.org"
-  "@type": "Event"
-  name: "{{ event.data.title }}"
-  startDate: "{{ event.data.start_date }}"
-  endDate: "{{ event.data.end_date }}"
-  location: { "@type": "Place", name: "{{ event.data.venue }}" }
-  image: "https://travel-antalya.com{{ event.data.cover }}"
-  description: "{{ event.data.excerpt }}"
+
 ---
-<section class="detail-hero">
-  <div class="detail-hero-media"><img src="{{ event.data.cover }}" alt="{{ event.data.title }}"></div>
-</section>
-
-<div class="container detail-title-block">
-  <span class="badge badge-verified">{{ event.data.category }}</span>
-  <h1>{{ event.data.title }}</h1>
-  <p class="lead">{{ event.data.tagline }}</p>
+<section class="detail-hero"><div class="detail-hero-media"><img src="{{ event.data.cover }}" alt="Antalya destination scenery"></div></section>
+<div class="container detail-title-block"><div class="breadcrumb"><a href="/">Home</a> › <a href="/events/">Events</a> › {{ event.data.title }}</div><span class="badge">{{ event.data.category }}</span><h1>{{ event.data.title }}</h1><p class="lead">{{ event.data.tagline }}</p></div>
+<div class="container" data-event-directory>
+  <article data-event data-title="{{ event.data.title }}" data-venue="{{ event.data.venue }}" data-category="{{ event.data.category }}" data-start="{{ event.data.start_date | eventDate }}" data-end="{{ event.data.end_date | eventDate }}" data-verified="{{ event.data.date_verified }}">
+    <p class="badge" data-event-status>{{ event.data | eventStatus | eventStatusLabel }}</p>
+    <div class="detail-columns"><div><h2>About this event</h2>{{ event.templateContent | safe }}<p>Destination photographs are illustrative, not photographs of this event.</p><p><a href="/events/">← Back to the event calendar</a></p></div>
+    <aside class="detail-side"><h2>Plan your visit</h2><p><strong>{{ event.data | eventDateLabel }}</strong></p>{% if event.data.time_display and event.data.date_verified %}<p>{{ event.data.time_display }} (Antalya local time)</p>{% endif %}<p>{{ event.data.venue }}</p><p>{{ event.data.verification_note }}</p><p>Source review: <time datetime="{{ event.data.last_checked | eventDate }}">{{ event.data.last_checked | eventDate }}</time></p><a href="{{ event.data.source_url }}" target="_blank" rel="noopener noreferrer" class="btn btn-orange">{{ event.data.source_name }} ↗</a><p><small>Schedules and entry conditions can change. Verify directly before buying tickets or travelling. Past editions do not confirm next year's dates.</small></p></aside></div>
+  </article>
 </div>
-
-<div class="container">
-  {% if event.data.photos %}
-  <div class="gallery-grid">
-    {% for photo in event.data.photos %}
-    <a href="{{ photo }}" target="_blank" rel="noopener"><img src="{{ photo }}" alt="{{ event.data.title }} photo {{ loop.index }}"></a>
-    {% endfor %}
-  </div>
-  {% endif %}
-
-  {% if event.data.video %}
-  <div class="map-embed" style="aspect-ratio:16/9;">
-    <iframe src="{{ event.data.video }}" loading="lazy" style="height:100%;" allowfullscreen></iframe>
-  </div>
-  {% endif %}
-
-  <div class="detail-columns" style="margin-top:30px;">
-    <div>
-      <h2>About This Event</h2>
-      {{ event.templateContent | safe }}
-
-      {% if event.data.map_lat and event.data.map_lng %}
-      <h2>Venue</h2>
-      <div class="map-embed">
-        <iframe src="https://www.google.com/maps?q={{ event.data.map_lat }},{{ event.data.map_lng }}&output=embed" loading="lazy"></iframe>
-      </div>
-      {% endif %}
-    </div>
-
-    <aside class="detail-side">
-      <div style="color:var(--ink-soft); font-size:0.9rem;">{{ event.data.date_display }}</div>
-      <div class="price-tag" style="font-size:1.15rem;">{{ event.data.venue }}</div>
-      {% if event.data.booking_url %}
-      <a href="{{ event.data.booking_url }}" target="_blank" rel="noopener" class="btn btn-orange">{{ event.data.booking_label or "Official website" }}</a>
-      {% endif %}
-    </aside>
-  </div>
-</div>
+<script src="/js/events.js" defer></script>

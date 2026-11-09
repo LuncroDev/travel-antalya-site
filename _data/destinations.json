@@ -1,0 +1,278 @@
+[
+  {
+    "slug": "muratpasa",
+    "name": "Muratpaşa",
+    "theme": "City & culture",
+    "description": "Kaleiçi, the old harbour and Antalya’s central neighbourhoods.",
+    "tip": "Start with a walking day rather than a driving day.",
+    "highlights": [
+      "Kaleiçi",
+      "Hadrian’s Gate",
+      "Karaalioğlu Park"
+    ],
+    "guide": "kaleici-old-town",
+    "source_url": "https://antalya.ktb.gov.tr/",
+    "checked_on": "2026-11-09"
+  },
+  {
+    "slug": "konyaalti",
+    "name": "Konyaaltı",
+    "theme": "Coast & city",
+    "description": "Antalya’s western city coast, with a long beach promenade.",
+    "tip": "Pair the waterfront with a city stay.",
+    "highlights": [
+      "Konyaaltı Beach",
+      "Beach Park",
+      "Boğaçayı"
+    ],
+    "guide": "konyaalti-beach",
+    "source_url": "https://antalya.ktb.gov.tr/",
+    "checked_on": "2026-11-09"
+  },
+  {
+    "slug": "kepez",
+    "name": "Kepez",
+    "theme": "City & nature",
+    "description": "An inland part of metropolitan Antalya.",
+    "tip": "Use this as a separate city day, checking local transport first.",
+    "highlights": [
+      "Upper Düden Waterfall",
+      "Urban parks"
+    ],
+    "guide": "duden-waterfalls",
+    "source_url": "https://antalya.ktb.gov.tr/",
+    "checked_on": "2026-11-09"
+  },
+  {
+    "slug": "aksu",
+    "name": "Aksu",
+    "theme": "History & coast",
+    "description": "Ancient Perge and the resort coast east of the airport.",
+    "tip": "Keep a morning free for archaeology.",
+    "highlights": [
+      "Perge",
+      "Kundu coast"
+    ],
+    "guide": "perge-ancient-city",
+    "source_url": "https://antalya.ktb.gov.tr/",
+    "checked_on": "2026-11-09"
+  },
+  {
+    "slug": "dosemealti",
+    "name": "Döşemealtı",
+    "theme": "History & countryside",
+    "description": "An inland district north of the city.",
+    "tip": "Plan transport before adding a countryside detour.",
+    "highlights": [
+      "Karain Cave",
+      "Rural routes"
+    ],
+    "guide": "",
+    "source_url": "https://antalya.ktb.gov.tr/",
+    "checked_on": "2026-11-09"
+  },
+  {
+    "slug": "serik",
+    "name": "Serik",
+    "theme": "Resorts & history",
+    "description": "Belek resort country and the ancient theatre of Aspendos.",
+    "tip": "Combine a resort base with a dedicated history trip.",
+    "highlights": [
+      "Belek",
+      "Aspendos"
+    ],
+    "guide": "aspendos-theatre",
+    "source_url": "https://antalya.ktb.gov.tr/",
+    "checked_on": "2026-11-09"
+  },
+  {
+    "slug": "manavgat",
+    "name": "Manavgat",
+    "theme": "Coast & history",
+    "description": "Side’s ancient peninsula and Manavgat’s river landscape.",
+    "tip": "Split the ruins and river into unhurried outings.",
+    "highlights": [
+      "Side",
+      "Manavgat Waterfall",
+      "Köprülü Canyon"
+    ],
+    "guide": "side-ancient-city",
+    "source_url": "https://antalya.ktb.gov.tr/",
+    "checked_on": "2026-11-09"
+  },
+  {
+    "slug": "alanya",
+    "name": "Alanya",
+    "theme": "Coast & culture",
+    "description": "An eastern coastal base with a castle-topped peninsula.",
+    "tip": "Allow a separate stay instead of rushing from Antalya city.",
+    "highlights": [
+      "Alanya Castle",
+      "Kleopatra Beach",
+      "Red Tower"
+    ],
+    "guide": "",
+    "source_url": "https://antalya.ktb.gov.tr/",
+    "checked_on": "2026-11-09"
+  },
+  {
+    "slug": "gazipasa",
+    "name": "Gazipaşa",
+    "theme": "Coast & countryside",
+    "description": "The province’s eastern coastal district.",
+    "tip": "Consider it when planning the eastern end of a coastal trip.",
+    "highlights": [
+      "Selinus",
+      "Coastal villages"
+    ],
+    "guide": "",
+    "source_url": "https://antalya.ktb.gov.tr/",
+    "checked_on": "2026-11-09"
+  },
+  {
+    "slug": "kemer",
+    "name": "Kemer",
+    "theme": "Coast & outdoors",
+    "description": "Resort towns between the Mediterranean and Taurus foothills.",
+    "tip": "Mix beach time with one carefully planned outdoor day.",
+    "highlights": [
+      "Phaselis",
+      "Tahtalı",
+      "Göynük"
+    ],
+    "guide": "tahtali-olympos-cable-car",
+    "source_url": "https://antalya.ktb.gov.tr/",
+    "checked_on": "2026-11-09"
+  },
+  {
+    "slug": "kumluca",
+    "name": "Kumluca",
+    "theme": "Nature & coast",
+    "description": "The district for Olympos, Adrasan and quieter coastal trips.",
+    "tip": "Leave room for slower travel on local roads.",
+    "highlights": [
+      "Olympos",
+      "Adrasan",
+      "Karaöz"
+    ],
+    "guide": "olympos-and-the-chimaera-flames",
+    "source_url": "https://antalya.ktb.gov.tr/",
+    "checked_on": "2026-11-09"
+  },
+  {
+    "slug": "finike",
+    "name": "Finike",
+    "theme": "Coast & history",
+    "description": "A western coastal base for exploring Lycian heritage.",
+    "tip": "Choose a small number of sites rather than a long checklist.",
+    "highlights": [
+      "Limyra",
+      "Arykanda",
+      "Finike harbour"
+    ],
+    "guide": "",
+    "source_url": "https://antalya.ktb.gov.tr/",
+    "checked_on": "2026-11-09"
+  },
+  {
+    "slug": "demre",
+    "name": "Demre",
+    "theme": "Lycian history",
+    "description": "Myra, Saint Nicholas and the coast around Kekova.",
+    "tip": "Separate land visits from a weather-dependent boat day.",
+    "highlights": [
+      "Myra",
+      "Saint Nicholas Church",
+      "Üçağız"
+    ],
+    "guide": "",
+    "source_url": "https://antalya.ktb.gov.tr/",
+    "checked_on": "2026-11-09"
+  },
+  {
+    "slug": "kas",
+    "name": "Kaş",
+    "theme": "Coast & outdoors",
+    "description": "A western district encompassing Kaş, Kalkan and Patara.",
+    "tip": "Stay locally to give the western coast the time it deserves.",
+    "highlights": [
+      "Kaş",
+      "Kalkan",
+      "Patara",
+      "Kaputaş"
+    ],
+    "guide": "",
+    "source_url": "https://antalya.ktb.gov.tr/",
+    "checked_on": "2026-11-09"
+  },
+  {
+    "slug": "elmali",
+    "name": "Elmalı",
+    "theme": "Highlands & culture",
+    "description": "An inland highland district behind the coast.",
+    "tip": "Add it to a countryside route, with seasonal conditions in mind.",
+    "highlights": [
+      "Elmalı town",
+      "Highland routes"
+    ],
+    "guide": "",
+    "source_url": "https://antalya.ktb.gov.tr/",
+    "checked_on": "2026-11-09"
+  },
+  {
+    "slug": "korkuteli",
+    "name": "Korkuteli",
+    "theme": "Highlands",
+    "description": "An inland district on routes north-west from Antalya.",
+    "tip": "Use a flexible road itinerary and check conditions before departure.",
+    "highlights": [
+      "Korkuteli town",
+      "Rural landscapes"
+    ],
+    "guide": "",
+    "source_url": "https://antalya.ktb.gov.tr/",
+    "checked_on": "2026-11-09"
+  },
+  {
+    "slug": "akseki",
+    "name": "Akseki",
+    "theme": "Highlands & heritage",
+    "description": "A Taurus Mountains district away from the resort coast.",
+    "tip": "Give mountain driving its own day.",
+    "highlights": [
+      "Akseki town",
+      "Village architecture"
+    ],
+    "guide": "",
+    "source_url": "https://antalya.ktb.gov.tr/",
+    "checked_on": "2026-11-09"
+  },
+  {
+    "slug": "ibradi",
+    "name": "İbradı",
+    "theme": "Nature & heritage",
+    "description": "A highland district known for Ormana and Altınbeşik.",
+    "tip": "Confirm cave access and road conditions before setting off.",
+    "highlights": [
+      "Ormana",
+      "Altınbeşik Cave"
+    ],
+    "guide": "",
+    "source_url": "https://antalya.ktb.gov.tr/",
+    "checked_on": "2026-11-09"
+  },
+  {
+    "slug": "gundogmus",
+    "name": "Gündoğmuş",
+    "theme": "Highlands & outdoors",
+    "description": "An inland mountain district north of the eastern coast.",
+    "tip": "Treat remote routes as planned excursions, not quick detours.",
+    "highlights": [
+      "Mountain villages",
+      "Highland landscapes"
+    ],
+    "guide": "",
+    "source_url": "https://antalya.ktb.gov.tr/",
+    "checked_on": "2026-11-09"
+  }
+]

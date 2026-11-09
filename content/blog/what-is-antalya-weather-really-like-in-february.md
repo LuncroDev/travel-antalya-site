@@ -8,6 +8,9 @@ cover: "/images/photos/bozburun-mountain.jpg"
 excerpt: "Antalya Weather in February Antalya is one of Turkey’s most popular travel destinations, known for its beautiful beaches, ancient history, green mountains, and warm…"
 featured: false
 ---
+
+> **Museum access update, 9 November 2026:** Antalya Museum is listed as temporarily closed for new museum works. Older visit suggestions below do not confirm access. Check the [current closure guidance](/things-to-do/antalya-museum/) before planning a visit.
+
 <h1 class="wp-block-heading"><strong>Antalya Weather in February</strong></h1>
 
 <p>Antalya is one of Turkey’s most popular travel destinations, known for its beautiful beaches, ancient history, green mountains, and warm Mediterranean climate. While many people visit Antalya during the hot summer months, winter travel is becoming more popular, especially for those who prefer mild weather and fewer crowds. February is the heart of winter in Antalya, but winter here is very different from winter in most European countries. There is no heavy snow, no extreme cold, and no freezing conditions in the city. Instead, February offers calm weather, fresh air, green landscapes, and a peaceful atmosphere that many travelers truly enjoy. Understanding <a href="https://travel-antalya.com/"><strong>Antalya weather in February</strong></a> is important if you want to plan your trip properly. Weather affects everything from sightseeing and outdoor activities to packing and hotel choices. In this detailed guide, you will learn exactly what to expect from Antalya in February, including temperatures, rainfall, sea conditions, sunshine, activities, crowds, costs, and travel tips.</p>
@@ -66,7 +69,7 @@ featured: false
 
 <h2 class="wp-block-heading"><strong>Cultural and Historical Experiences in February</strong></h2>
 
-<p>Antalya is rich in history, and February is one of the best months to explore its cultural and historical side. Ancient ruins, museums, and historic streets are quieter, allowing visitors to explore at a relaxed pace without feeling rushed. Museums like the Antalya Museum remain open throughout winter, offering a full cultural experience. Walking through Kaleiçi Old Town in February feels more authentic, as local life becomes more visible and tourist crowds are smaller. This month is ideal for travelers who value history, culture, and meaningful travel experiences, providing a calm and immersive way to discover Antalya’s heritage.</p>
+<p>Antalya is rich in history, and February is one of the best months to explore its cultural and historical side. Ancient ruins, museums, and historic streets are quieter, allowing visitors to explore at a relaxed pace without feeling rushed. Museum opening conditions vary; Antalya Museum is currently listed as temporarily closed, offering a full cultural experience. Walking through Kaleiçi Old Town in February feels more authentic, as local life becomes more visible and tourist crowds are smaller. This month is ideal for travelers who value history, culture, and meaningful travel experiences, providing a calm and immersive way to discover Antalya’s heritage.</p>
 
 <h2 class="wp-block-heading"><strong>Crowds and Tourism in February</strong></h2>
 

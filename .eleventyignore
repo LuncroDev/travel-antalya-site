@@ -6,3 +6,12 @@ deals.njk
 deal-category.njk
 deal-detail.njk
 NASIL-YAYINLARIM.md
+
+lib
+tests
+scripts
+docs
+README.md
+
+playwright-report
+test-results

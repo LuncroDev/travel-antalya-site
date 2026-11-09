@@ -9,16 +9,13 @@ photos:
   - "/images/photos/antiochia-ruins-3.jpg"
 map_lat: 36.8845
 map_lng: 30.6794
-excerpt: "One of Turkey's largest archaeological museums, with sculpture from Perge and Roman statuary of the gods."
+excerpt: "Temporarily closed for new museum works. Check the official closure notice before planning a visit."
 featured: false
 ---
-The Antalya Museum is the best way to understand the ancient sites around the city before you visit them. Its collection covers the region from the Palaeolithic through the Byzantine and Ottoman periods, and the highlight is the Gallery of Gods, filled with Roman marble statues, many excavated at Perge.
+**Temporarily closed.** The Ministry of Culture and Tourism lists Antalya Museum as closed for construction of the new museum and relocation of its collections, until works are completed. Checked 9 November 2026. A reopening date is not confirmed here.
 
-Look for the sarcophagi and the Hall of Emperors, along with ethnographic displays of Ottoman-era craft and daily life. Labels are in Turkish and English. The museum sits in the Konyaaltı district, on the road towards the Konyaaltı beach and tram line, so it fits easily into a day that also includes the beach.
+Check the [official temporary closure list](https://kvmgm.ktb.gov.tr/TR-46782/gecici-sureyle-kapali-olan-muzeler-ve-bagli-birimler.html) before planning a visit. Do not rely on older opening hours or suggested itineraries.
 
-**Practical notes**
+The museum is known for its archaeological collections, including finds from Perge. While it remains closed, consider a separate visit to [Perge Ancient City](/things-to-do/perge-ancient-city/) after checking that site's current admission information.
 
-- Allow two to three hours for a proper visit.
-- Opening days, hours and ticket prices change; check the Ministry of Culture and Tourism listing for the Antalya Museum before you go. Many travellers use the Museum Pass Turkey, which also covers several nearby ancient sites, but confirm current coverage.
-- Visit here first, then Perge and Aspendos, and the sculptures you see in situ will make more sense.
-- It is well suited to a hot afternoon or a rainy winter day.
+The regional photographs on this page are illustrative, not photographs of the current museum building.

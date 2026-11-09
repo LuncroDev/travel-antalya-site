@@ -1,0 +1,12 @@
+---
+layout: base.njk
+pageTitle: Search Antalya
+pageDescription: Search the Travel Antalya guide for hotels, events, places to visit, districts and articles.
+permalink: /search/index.html
+noindex: true
+---
+<section class="listing-hero"><div class="container"><span class="eyebrow">Make it your trip</span><h1>Search the guide</h1><p class="lead">Places, stays, events and useful reading, together in one place.</p></div></section>
+<section class="discovery-section"><div class="container" data-search-page><form class="filter-panel" role="search" action="/search/"><div class="filter-grid"><label for="guide-query">What are you looking for?<input id="guide-query" name="q" type="search" placeholder="Try Kaş, beach, museum…"></label><label for="guide-type">Content type<select id="guide-type" name="type"><option value="">Everything</option><option>Hotel</option><option>Event</option><option>Place</option><option>Restaurant</option><option>Article</option><option>District</option></select></label><button class="btn btn-blue" type="submit">Search</button><button class="btn btn-outline-blue" type="reset">Clear</button></div></form><p id="search-count" role="status" aria-live="polite">Browse the guide below. Enable JavaScript to filter results.</p><div class="empty-state" id="search-empty" hidden><h2>No matches yet</h2><p>Try a district name, a shorter search or a different content type.</p></div><div class="search-results">
+{% for type, items in { Hotel: collections.hotels, Event: collections.events, Place: collections.thingsToDo, Restaurant: collections.restaurants, Article: collections.blog } %}{% for item in items %}{% set prefix = {Hotel: 'hotels', Event: 'events', Place: 'things-to-do', Restaurant: 'restaurants', Article: 'blog'}[type] %}{% set slug = item.data.slug or item.data.title | slugify %}<article class="search-result" data-search-item data-type="{{ type }}"><span class="eyebrow">{{ type }}</span><h2><a href="/{{ prefix }}/{{ slug }}/">{{ item.data.title }}</a></h2><p>{{ item.data.excerpt }}</p><small>{{ item.data.neighborhood or item.data.category }}</small></article>{% endfor %}{% endfor %}
+{% for d in destinations %}<article class="search-result" data-search-item data-type="District"><span class="eyebrow">District · {{ d.theme }}</span><h2><a href="/destinations/{{ d.slug }}/">{{ d.name }}</a></h2><p>{{ d.description }}</p></article>{% endfor %}
+</div></div></section><script src="/js/search.js" defer></script>

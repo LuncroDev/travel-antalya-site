@@ -6,61 +6,36 @@ pagination:
 permalink: "/events/category/{{ cat.name | slugify }}/index.html"
 layout: base.njk
 eleventyExcludeFromCollections: true
-pageTitle: "{{ cat.name }} Events in Antalya"
-pageDescription: "Browse {{ cat.name }} events in Antalya, Turkey."
-pageUrl: "/events/category/{{ cat.name | slugify }}/"
-ogImage: "{{ cat.events[0].data.cover }}"
+
 ---
-<section class="listing-hero">
-  <div class="container">
-    <div class="breadcrumb"><a href="/">Home</a> › <a href="/events/">Events</a> › {{ cat.name }}</div>
-    <span class="eyebrow">Events</span>
-    <h1>{{ cat.name }} Events in Antalya</h1>
-    <p class="lead">{{ cat.events.length }} events in this category.</p>
-  </div>
-</section>
+<section class="listing-hero"><div class="container"><div class="breadcrumb"><a href="/">Home</a> › <a href="/events/">Events</a> › {{ cat.name }}</div><span class="eyebrow">Antalya calendar</span><h1>{{ cat.name }} in Antalya</h1><p class="lead">Verified dates and honest updates. Check each source before you make plans.</p></div></section>
+<section><div class="container" data-event-directory>
+    <form data-event-filters class="filter-panel" hidden aria-label="Filter events">
+      <div class="filter-grid">
+        <label>Search events<input type="search" name="query" placeholder="Name, venue or category"></label>
 
-<section style="padding-top:0;">
-  <div class="container">
-    {% for e in cat.events %}
-    <div class="listing-row">
-      <div class="listing-row-media">
-        <img src="{{ e.data.cover }}" alt="{{ e.data.title }}">
+        <label>Show<select name="period"><option value="active">On now &amp; upcoming</option><option value="current">On now</option><option value="upcoming">Upcoming</option><option value="awaiting">Awaiting verified dates</option><option value="archive">Past editions</option><option value="all">All listings</option></select></label>
+        <label>From<input type="date" name="from"></label>
+        <label>Until<input type="date" name="to"></label>
       </div>
+      <button type="reset" class="btn btn-outline">Reset filters</button>
+    </form>
+    <noscript><p>All listings are shown below. Status labels reflect the last site build; compare the dates with your travel dates and check the linked source.</p></noscript>
+    <p data-event-count role="status" aria-live="polite"></p>
+    <div data-event-empty hidden class="empty-state"><h2>No confirmed events match these filters</h2><p>Try another date or category, or choose “Awaiting verified dates” or “Past editions”. We do not invent dates to fill the calendar.</p><a href="https://www.antalya.bel.tr/tr/etkinlikler" target="_blank" rel="noopener noreferrer">Check the municipal events calendar ↗</a></div>    {% for e in cat.events %}
+    {% set status = e.data | eventStatus %}
+    <article class="listing-row" data-event data-title="{{ e.data.title }}" data-venue="{{ e.data.venue }}" data-category="{{ e.data.category }}" data-start="{{ e.data.start_date | eventDate }}" data-end="{{ e.data.end_date | eventDate }}" data-verified="{{ e.data.date_verified }}" data-status="{{ status }}">
+      <div class="listing-row-media"><img src="{{ e.data.cover }}" alt="Antalya destination scenery" loading="lazy"></div>
       <div class="listing-row-body">
-        <div class="listing-row-top">
+        <div class="listing-row-top"><div>
+          <span class="badge">{{ e.data.category }}</span> <span class="badge" data-event-status>{{ status | eventStatusLabel }}</span>
           <h3 class="listing-row-title"><a href="/events/{{ e.data.title | slugify }}/">{{ e.data.title }}</a></h3>
-          <a href="/events/{{ e.data.title | slugify }}/" class="listing-row-arrow">↗</a>
-        </div>
+        </div></div>
         <p class="listing-row-excerpt">{{ e.data.excerpt }}</p>
-        <div class="listing-row-meta">
-          <span>{{ e.data.date_display }}</span><span>·</span><span>{{ e.data.venue }}</span>
-        </div>
+        <div class="listing-row-meta"><span>{{ e.data | eventDateLabel }}</span><span>{{ e.data.venue }}</span></div>
+        <p><small>Source review: {{ e.data.last_checked | eventDate }} · <a href="{{ e.data.source_url }}" target="_blank" rel="noopener noreferrer">{{ e.data.source_name }}</a></small></p>
       </div>
-    </div>
+    </article>
     {% endfor %}
-  </div>
-</section>
-
-{% if cat.hasMedia %}
-<section class="tint">
-  <div class="container">
-    <div class="section-head"><div><h2>Photos &amp; Video from Past {{ cat.name }} Events</h2></div></div>
-    <div class="grid">
-      {% for e in cat.events %}
-        {% if e.data.video %}
-        <div class="card">
-          <div class="card-media" style="aspect-ratio:16/9;"><iframe src="{{ e.data.video }}" style="width:100%;height:100%;border:0;" loading="lazy" allowfullscreen></iframe></div>
-          <div class="card-body"><h3>{{ e.data.title }}</h3></div>
-        </div>
-        {% elif e.data.photos and e.data.photos.length > 0 %}
-        <div class="card">
-          <div class="card-media"><img src="{{ e.data.cover }}" alt="{{ e.data.title }}"></div>
-          <div class="card-body"><h3>{{ e.data.title }}</h3></div>
-        </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-</section>
-{% endif %}
+<p><a href="/events/">← Explore all event categories</a></p></div></section>
+<script src="/js/events.js" defer></script>

@@ -1,18 +1,18 @@
 ---
 title: "7 Mehmet"
-tagline: "A Kaleiçi institution for fresh Mediterranean seafood"
+tagline: "Turkish and Mediterranean cooking at Atatürk Kültür Parkı"
 tags: ["editors-choice"]
 category: "Seafood"
-neighborhood: "Kaleiçi"
+neighborhood: "Meltem, Muratpaşa"
 price: "$$$"
 cover: "/images/photos/antalya-coastline.jpg"
 photos:
   - "/images/photos/antalya-coastline.jpg"
-signature_dishes:
-  - { name: "Grilled sea bass", note: "Sourced daily from the harbor market" }
-  - { name: "Mezze selection", note: "A rotating spread of Mediterranean small plates" }
-map_lat: 36.8838
-map_lng: 30.7048
-excerpt: "A Kaleiçi institution for fresh Mediterranean seafood, tucked into the old town's harbor-facing streets."
+booking_url: "https://7mehmet.com/en/contact"
+excerpt: "A long-running Antalya restaurant at Atatürk Kültür Parkı in Meltem, serving Turkish and Mediterranean cooking."
 ---
-7 Mehmet has been serving fresh seafood in Kaleiçi's old harbor-facing streets for years, and it's one of the more reliable picks for a proper sit-down seafood dinner in the old town rather than a quick meze plate.
+7 Mehmet's Antalya restaurant is at Atatürk Kültür Parkı in Meltem, Muratpaşa, rather than in Kaleiçi. Its official site describes a Turkish and Mediterranean culinary approach.
+
+Check the [restaurant’s official contact page](https://7mehmet.com/en/contact) for the current address, opening hours and reservation options. Source checked 9 November 2026.
+
+The coastal photograph is a regional illustration, not a photograph of the restaurant.

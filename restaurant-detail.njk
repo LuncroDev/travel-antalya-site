@@ -6,10 +6,6 @@ pagination:
 permalink: "/restaurants/{{ r.data.title | slugify }}/index.html"
 layout: base.njk
 eleventyExcludeFromCollections: true
-pageTitle: "{{ r.data.title }} — Travel Antalya"
-pageDescription: "{{ r.data.excerpt }}"
-pageUrl: "/restaurants/{{ r.data.title | slugify }}/"
-ogImage: "{{ r.data.cover }}"
 ogType: "website"
 ---
 <section class="detail-hero">

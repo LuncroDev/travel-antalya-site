@@ -22,12 +22,7 @@ eleventyExcludeFromCollections: true
 
 <section style="padding-top:0;">
   <div class="container">
-    <div class="filter-bar">
-      <span class="filter-pill">Cuisine</span>
-      <span class="filter-pill">Neighborhood</span>
-      <span class="filter-pill">Price</span>
-      <span class="filter-pill">Michelin</span>
-    </div>
+    <form action="/search/" class="guide-search" role="search"><input type="hidden" name="type" value="Restaurant"><label class="sr-only" for="restaurant-search">Search restaurants</label><input id="restaurant-search" name="q" type="search" placeholder="Name, neighbourhood or cuisine"><button type="submit" class="btn btn-blue">Search</button></form>
     <p class="results-count">Showing {{ collections.restaurants.length }} restaurants</p>
 
     {% for r in collections.restaurants %}

@@ -3,41 +3,51 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ pageTitle }} — Travel Antalya</title>
-<meta name="description" content="{{ pageDescription }}">
-<link rel="canonical" href="https://travel-antalya.com{{ pageUrl }}">
+<title>{{ pageTitle | escape }}{% if pageTitle != "Travel Antalya" %} | Travel Antalya{% endif %}</title>
+<meta name="description" content="{{ pageDescription | escape }}">
+<link rel="canonical" href="https://travel-antalya.com{{ page.url | replace('index.html', '') }}">
 <meta property="og:type" content="{{ ogType or 'website' }}">
-<meta property="og:title" content="{{ pageTitle }}">
-<meta property="og:description" content="{{ pageDescription }}">
-<meta property="og:image" content="https://travel-antalya.com{{ ogImage or '/images/photos/antalya-beach-drone.jpg' }}">
+<meta property="og:title" content="{{ pageTitle | escape }}">
+<meta property="og:description" content="{{ pageDescription | escape }}">
+<meta property="og:image" content="{{ ogImage | absoluteUrl | escape }}">
+<meta property="og:url" content="https://travel-antalya.com{{ page.url | replace('index.html', '') }}">
+{% if noindex %}<meta name="robots" content="noindex,follow">{% endif %}
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/png" href="/images/favicon.png">
 <link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" href="/css/listings.css">
-{% if schema %}
-<script type="application/ld+json">{{ schema | dump | safe }}</script>
+<link rel="stylesheet" href="/css/discovery.css">
+<script src="/js/site.js" defer></script>
+{% if resolvedSchema %}
+<script type="application/ld+json">{{ resolvedSchema | jsonForHtml | safe }}</script>
 {% endif %}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6719207833738427" crossorigin="anonymous"></script>
+<noscript><style>@media(max-width:800px){.nav-links{display:flex;flex-wrap:wrap}.mobile-menu-toggle{display:none}.nav-row{flex-wrap:wrap}}</style></noscript>
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to content</a>
 
 <header class="site-header">
-  <div class="nav-row">
+  <nav class="nav-row" aria-label="Main navigation">
     <a href="/"><img src="/images/logo.png" alt="Travel Antalya" class="logo-mark"></a>
     <ul class="nav-links" id="mainNavLinks">
+      <li><a href="/destinations/">Destinations</a></li>
       <li><a href="/things-to-do/">Explore</a></li>
       <li><a href="/hotels/">Places To Stay</a></li>
       <li><a href="/restaurants/">Eat &amp; Drink</a></li>
       <li><a href="/events/">Events</a></li>
-      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/plan-your-trip/">Plan your trip</a></li>
+      <li><a href="/search/" aria-label="Search the guide">Search</a></li>
     </ul>
-    <button type="button" class="mobile-menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="mainNavLinks" onclick="var n=document.getElementById('mainNavLinks');var open=n.classList.toggle('nav-open');this.setAttribute('aria-expanded',open);">
+    <button type="button" class="mobile-menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="mainNavLinks" >
       <span></span><span></span><span></span>
     </button>
-  </div>
+  </nav>
 </header>
 
+<main id="main-content">
 {{ content | safe }}
+</main>
 
 <footer>
   <div class="container">
@@ -59,6 +69,9 @@
         <h4>Guide</h4>
         <ul>
           <li><a href="/blog/">Blog</a></li>
+          <li><a href="/destinations/">All 19 districts</a></li>
+          <li><a href="/plan-your-trip/">Travel essentials</a></li>
+          <li><a href="/sources/">Sources &amp; updates</a></li>
           <li><a href="/about/">About</a></li>
           <li><a href="/contact/">Contact</a></li>
           <li><a href="/editorial-policy/">Editorial Policy</a></li>
@@ -75,7 +88,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 Travel Antalya</span>
+      <span>© {{ buildYear }} Travel Antalya</span>
       <span>Antalya, Turkey</span>
     </div>
   </div>

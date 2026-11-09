@@ -1,23 +1,17 @@
 ---
 title: "Rixos Sungate"
-tagline: "A large all-inclusive resort near Beldibi and Kemer"
+slug: "rixos-sungate"
+tagline: "A large resort in Beldibi on the Kemer coast, between the sea and mountain landscapes."
 tags: []
-category: "Beachfront"
+category: "Coastal resort"
 neighborhood: "Kemer"
-price: "$$$$"
-cover: "/images/photos/antalya-beach-drone.jpg"
-photos:
-  - "/images/photos/antalya-beach-drone.jpg"
-  - "/images/photos/bozburun-mountain.jpg"
-amenities:
-  - "Beach"
-  - "Large pools"
-  - "Kids club"
-  - "Spa"
-  - "Multiple restaurants"
-booking_url: "https://www.booking.com/searchresults.html?ss=Rixos+Sungate+Antalya"
-excerpt: "A big, family-friendly resort on the Kemer side of the Gulf, with the Taurus mountains right behind it."
+official_url: "https://all.accor.com/hotel/B1K1/index.en.shtml"
+source_url: "https://all.accor.com/hotel/B1K1/index.en.shtml"
+source_label: "Official hotel or hotel-group website"
+last_checked: "2026-11-09"
+excerpt: "A large resort in Beldibi on the Kemer coast, between the sea and mountain landscapes."
+booking_note: "Beldibi is outside Kemer town. Confirm seasonal entertainment, transfers and the exact package before committing."
 ---
-Rixos Sungate sits on the western side of the Gulf of Antalya, in the Beldibi and Kemer area, where pine-covered mountains meet a pebble coast. The setting is greener and more dramatic than the flat plains of Belek.
+A large resort in Beldibi on the Kemer coast, between the sea and mountain landscapes.
 
-It is a large resort, so it is best for travellers who want everything on site. From here you can reach the Tahtalı cable car, Phaselis, Olympos and the Chimaera flames in half-day or day trips. Check current room types and board options when booking.
+Beldibi is outside Kemer town. Confirm seasonal entertainment, transfers and the exact package before committing.

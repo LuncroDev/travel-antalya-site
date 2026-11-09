@@ -8,6 +8,9 @@ cover: "/images/photos/coastal-extra-4.jpg"
 excerpt: "Antalya Weather in March Antalya, located on Turkey’s stunning southwestern coast, is one of the country’s most popular travel destinations. Famous for its turquoise…"
 featured: false
 ---
+
+> **Museum access update, 9 November 2026:** Antalya Museum is listed as temporarily closed for new museum works. Older visit suggestions below do not confirm access. Check the [current closure guidance](/things-to-do/antalya-museum/) before planning a visit.
+
 <h1 class="wp-block-heading"><strong>Antalya Weather in March</strong></h1>
 
 <p>Antalya, located on Turkey’s stunning southwestern coast, is one of the country’s most popular travel destinations. Famous for its turquoise waters, sandy beaches, ancient ruins, and lively local culture, the city attracts millions of visitors each year. While the summer months are the busiest, March offers a quieter, more relaxed experience with fewer tourists and a calm atmosphere. March marks the beginning of spring in Antalya, as winter chills fade and nature comes alive with blossoming flowers, greener landscapes, and fresh air. For travelers, understanding <a href="https://travel-antalya.com/"><strong>Antalya weather in March</strong></a> is essential for planning sightseeing trips, outdoor activities, and daily travel, ensuring a comfortable and enjoyable visit without surprises.</p>

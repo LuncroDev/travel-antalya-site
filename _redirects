@@ -21,15 +21,11 @@
 /category/blog/*  /blog/  301
 
 # Pages
-/hotels/  /guide/hotels.html  301
-/beachfront-hotels/  /guide/hotels.html  301
+/beachfront-hotels/  /hotels/?type=Coastal%20resort  301
 /things-to-do-in-antalya/  /things-to-do/  301
 /antalya-events/  /events/  301
 
-# Pages not yet rebuilt on the new site — temporarily send to homepage
-# TODO: build real /about/ and /privacy-policy/ pages, then point these at them instead
-/about/  /  301
-/privacy-policy/  /  301
+# Obsolete WordPress system page
 /global-styles/  /  301
 
 # Old static guide pages replaced by Eleventy-generated listing/detail pages

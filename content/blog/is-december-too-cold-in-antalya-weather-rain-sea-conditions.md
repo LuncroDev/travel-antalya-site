@@ -8,6 +8,9 @@ cover: "/images/photos/generic-cover.webp"
 excerpt: "Antalya’s Weather in December Antalya, located on Turkey’s southwestern coast, is famous for its turquoise seas, sandy beaches, ancient landmarks, and warm Mediterranean…"
 featured: false
 ---
+
+> **Museum access update, 9 November 2026:** Antalya Museum is listed as temporarily closed for new museum works. Older visit suggestions below do not confirm access. Check the [current closure guidance](/things-to-do/antalya-museum/) before planning a visit.
+
 <h1 class="wp-block-heading"><strong>Antalya’s Weather in December</strong></h1>
 
 <p>Antalya, located on Turkey’s southwestern coast, is famous for its turquoise seas, sandy beaches, ancient landmarks, and warm Mediterranean climate. While most travelers visit during the summer months, some consider Antalya in winter, particularly December. December marks the beginning of winter in the city. Although Antalya rarely experiences freezing temperatures, visitors often wonder whether it is warm enough for outdoor sightseeing, walking along the beaches, or even swimming. Understanding <a href="https://travel-antalya.com/"><strong>Antalya’s weather in December</strong></a> is essential for planning your trip effectively, packing the right clothing, and enjoying the city comfortably and without unexpected weather surprises.</p>

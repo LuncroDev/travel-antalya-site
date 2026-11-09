@@ -5,17 +5,20 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("_redirects");
   eleventyConfig.addPassthroughCopy("robots.txt");
-  eleventyConfig.addPassthroughCopy("sitemap.xml");
   eleventyConfig.addPassthroughCopy("ads.txt");
-  eleventyConfig.addPassthroughCopy("index.html");
 
-  eleventyConfig.addFilter("slugify", function (str) {
-    return String(str)
-      .toLowerCase()
-      .replace(/[çğıöşü]/g, (c) => ({ç:'c',ğ:'g',ı:'i',ö:'o',ş:'s',ü:'u'}[c]))
-      .replace(/[^a-z0-9]+/g, "-")
-      .replace(/(^-|-$)/g, "");
-  });
+  const { slugify, jsonForHtml, absoluteUrl } = require('./lib/content');
+  eleventyConfig.addFilter('slugify', slugify);
+  eleventyConfig.addFilter('jsonForHtml', jsonForHtml);
+  eleventyConfig.addFilter('absoluteUrl', absoluteUrl);
+  eleventyConfig.addFilter('take', (items, count) => (items || []).slice(0, count));
+  eleventyConfig.addFilter('encodeUri', value => encodeURIComponent(value || ''));
+  const eventUtils = require('./lib/events');
+  for (const name of ['eventDate', 'eventStatus', 'eventStatusLabel', 'eventDateLabel']) eleventyConfig.addFilter(name, eventUtils[name]);
+  eleventyConfig.on('eleventy.after', () => require('./scripts/sitemap')());
+  eleventyConfig.addGlobalData('buildDate', () => new Date().toISOString().slice(0, 10));
+  eleventyConfig.addGlobalData('buildYear', () => new Date().getFullYear());
+  eleventyConfig.addCollection('publicPages', api => api.getAll().filter(item => item.url && !item.url.startsWith('/content/') && !item.url.endsWith('.xml')));
 
   eleventyConfig.addCollection("hotels", function (collectionApi) {
     return collectionApi.getFilteredByGlob("content/hotels/*.md").sort((a, b) => {
@@ -45,7 +48,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("events", function (collectionApi) {
     const matched = collectionApi.getFilteredByGlob("content/events/*.md");
     return matched.sort((a, b) => {
-      return new Date(a.data.start_date) - new Date(b.data.start_date);
+      return (eventUtils.eventDate(a.data.start_date) || '9999').localeCompare(eventUtils.eventDate(b.data.start_date) || '9999');
     });
   });
 

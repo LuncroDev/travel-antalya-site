@@ -90,11 +90,11 @@ eleventyExcludeFromCollections: true
       </div>
     </div>
     <div class="filter-bar">
-      <span class="filter-pill">Old Town</span>
-      <span class="filter-pill">Nature</span>
-      <span class="filter-pill">Ancient Ruins</span>
-      <span class="filter-pill">Beaches</span>
-      <span class="filter-pill">Nightlife</span>
+      <a class="filter-pill" href="/search/?type=Place&amp;q=Old%20Town">Old Town</a>
+      <a class="filter-pill" href="/search/?type=Place&amp;q=Nature">Nature</a>
+      <a class="filter-pill" href="/search/?type=Place&amp;q=Ancient%20Ruins">Ancient Ruins</a>
+      <a class="filter-pill" href="/search/?type=Place&amp;q=Beaches">Beaches</a>
+      <a class="filter-pill" href="/search/?type=Place&amp;q=Nightlife">Nightlife</a>
     </div>
     <p class="results-count">Showing {{ items.length }} things to do</p>
 
@@ -129,16 +129,12 @@ eleventyExcludeFromCollections: true
       <a href="/hotels/" class="see-all">See all hotels →</a>
     </div>
     <div class="grid">
-      {% for hotel in hotels %}
+      {% for hotel in hotels | take(4) %}
       <div class="card">
-        <div class="card-media">
-          {% if hotel.data.tags and "sponsored" in hotel.data.tags %}<span class="card-tag">Sponsored</span>{% endif %}
-          <img src="{{ hotel.data.cover }}" alt="{{ hotel.data.title }}">
-        </div>
         <div class="card-body">
-          <h3><a href="/hotels/{{ hotel.data.title | slugify }}/" style="color:inherit;">{{ hotel.data.title }}</a></h3>
+          <h3><a href="/hotels/{{ hotel.data.slug or hotel.data.title | slugify }}/" style="color:inherit;">{{ hotel.data.title }}</a></h3>
           <p>{{ hotel.data.excerpt }}</p>
-          <span class="card-meta">{{ hotel.data.neighborhood }} · {{ hotel.data.price }}</span>
+          <span class="card-meta">{{ hotel.data.neighborhood }}</span>
         </div>
       </div>
       {% endfor %}

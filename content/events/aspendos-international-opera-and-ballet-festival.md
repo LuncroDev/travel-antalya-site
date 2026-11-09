@@ -1,20 +1,19 @@
 ---
 title: "Aspendos International Opera and Ballet Festival"
 category: "Festivals"
-tagline: "Opera and ballet in a 2,000-year-old Roman theatre"
+tagline: "The 2026 festival edition at Aspendos, retained as a dated archive."
 cover: "/images/photos/antalya-coastline.jpg"
-photos:
-  - "/images/photos/antalya-coastline.jpg"
-start_date: 2026-09-14
-end_date: 2026-10-01
-date_display: "Mid-September to early October (check dates)"
 venue: "Aspendos Ancient Theatre, Serik"
-video: ""
-booking_url: "https://hurriyetdailynews.com/antalya-kicks-off-international-aspendos-opera-ballet-festival-200598"
-booking_label: "Read the 2024 festival report"
-excerpt: "Annual opera and ballet season in the Roman theatre at Aspendos, usually staged in September; check the official site for exact dates."
+source_url: "https://kulturportali.gov.tr/turkiye/antalya/etkinlik/33--uluslararasi-aspendos-opera-ve-bale-festivali-4"
+source_name: "Türkiye Culture Portal"
+last_checked: "2026-11-09"
+date_verified: true
+excerpt: "The 2026 festival edition at Aspendos, retained as a dated archive."
 featured: false
+verification_note: "Dates checked against the linked official source."
+start_date: "2026-09-12"
+end_date: "2026-09-26"
 ---
-Aspendos hosts an annual international opera and ballet festival in its Roman theatre, with performances by the State Opera and Ballet companies and international guest ensembles. In 2024, the 31st edition opened with Verdi's Aida and included Swan Lake and Tosca, with the season finishing in late September.
+The official culture portal gives 12–26 September 2026 for the 33rd Aspendos festival. Its programme combines opera and ballet in the ancient theatre.
 
-Dates for each year are announced by the organisers, and the theatre is open to visitors outside the festival. The date range shown here for 2026 is an approximation based on recent seasons, so confirm exact dates and tickets with the official box office before planning a trip.
+This record describes the 2026 edition only. It does not confirm dates or a programme for 2027. Check State Opera and Ballet announcements for a future edition.

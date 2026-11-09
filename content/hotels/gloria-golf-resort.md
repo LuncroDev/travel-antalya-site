@@ -1,23 +1,17 @@
 ---
 title: "Gloria Golf Resort"
-tagline: "Two courses and a Belek beach"
+slug: "gloria-golf-resort"
+tagline: "A Belek resort with rooms and villas in the Gloria hotel group, a useful starting point for a golf-focused stay."
 tags: []
-category: "Golf"
+category: "Golf resort"
 neighborhood: "Belek"
-price: "$$$$"
-cover: "/images/photos/coastal-extra-4.jpg"
-photos:
-  - "/images/photos/coastal-extra-4.jpg"
-  - "/images/photos/kaputas-beach.jpg"
-amenities:
-  - "Two golf courses nearby"
-  - "Beach"
-  - "Spa"
-  - "All-inclusive options"
-  - "Pools"
-booking_url: "https://www.booking.com/searchresults.html?ss=Gloria+Golf+Resort+Antalya"
-excerpt: "A golf-oriented Belek resort with courses on site and the beach a short distance away."
+official_url: "https://www.gloria.com.tr/en/hotels/gloria-golf-resort/"
+source_url: "https://www.gloria.com.tr/en/hotels/gloria-golf-resort/"
+source_label: "Official hotel or hotel-group website"
+last_checked: "2026-11-09"
+excerpt: "A Belek resort with rooms and villas in the Gloria hotel group, a useful starting point for a golf-focused stay."
+booking_note: "Golf rounds, tee times and transfers should be checked separately from the accommodation rate."
 ---
-Gloria Golf Resort is one of Belek's long-standing golf resorts. It is aimed at golfers who want to play regularly, but also works for families thanks to its pools and beach access.
+A Belek resort with rooms and villas in the Gloria hotel group, a useful starting point for a golf-focused stay.
 
-If golf is the main purpose of your trip, compare golf-inclusive packages across Belek's resorts: arrangements for tee times, buggies and transfers vary. Ask directly about current courses and conditions.
+Golf rounds, tee times and transfers should be checked separately from the accommodation rate.

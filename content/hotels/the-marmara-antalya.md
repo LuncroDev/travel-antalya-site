@@ -1,22 +1,17 @@
 ---
 title: "The Marmara Antalya"
-tagline: "A round tower hotel overlooking the old town and bay"
+slug: "the-marmara-antalya"
+tagline: "A clifftop hotel overlooking the Mediterranean in the city’s Lara area."
 tags: []
-category: "City"
-neighborhood: "Muratpaşa"
-price: "$$$"
-cover: "/images/photos/antalya-weather.jpg"
-photos:
-  - "/images/photos/antalya-weather.jpg"
-  - "/images/photos/antalya-coastline.jpg"
-amenities:
-  - "Sea views"
-  - "Pool"
-  - "Restaurants"
-  - "Close to Karaalioğlu Park"
-booking_url: "https://www.booking.com/searchresults.html?ss=The+Marmara+Antalya+Antalya"
-excerpt: "A distinctive circular tower hotel near Karaalioğlu Park and Kaleiçi."
+category: "City hotel"
+neighborhood: "Antalya city"
+official_url: "https://www.themarmarahotels.com/en/hotels/the-marmara-antalya"
+source_url: "https://www.themarmarahotels.com/en/hotels/the-marmara-antalya"
+source_label: "Official hotel or hotel-group website"
+last_checked: "2026-11-09"
+excerpt: "A clifftop hotel overlooking the Mediterranean in the city’s Lara area."
+booking_note: "Clifftop stays differ from a sandy-beach resort. Confirm sea access and mobility requirements for your room and route."
 ---
-The Marmara Antalya is easy to spot on the Antalya skyline: a rounded tower near Karaalioğlu Park and the old town. Its position gives it wide views over the bay.
+A clifftop hotel overlooking the Mediterranean in the city’s Lara area.
 
-It works well as a base for sightseeing, as Kaleiçi and the park are a short walk away and the tram stops nearby. The beach is a short drive or tram ride away rather than on the doorstep.
+Clifftop stays differ from a sandy-beach resort. Confirm sea access and mobility requirements for your room and route.

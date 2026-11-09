@@ -1,0 +1,10 @@
+---
+layout: base.njk
+pageTitle: Antalya districts and destinations
+pageDescription: Choose your base across all 19 Antalya districts, from Kaleiçi and Belek to Kaş, Alanya and the Taurus highlands.
+permalink: /destinations/index.html
+---
+<section class="listing-hero"><div class="container"><span class="eyebrow">One province. Many ways to explore.</span><h1>Find your Antalya.</h1><p class="lead">Start with all 19 districts, then choose the coast, city or highlands that suit your trip. These are starting points, not exhaustive local inventories.</p></div></section>
+<section class="discovery-section"><div class="container"><div class="destination-grid">
+{% for d in destinations %}<a class="destination-card" href="/destinations/{{ d.slug }}/"><span class="destination-number">{{ loop.index }}</span><span class="eyebrow">{{ d.theme }}</span><h2>{{ d.name }}</h2><p>{{ d.description }}</p><span class="text-link">Explore the district ↗</span></a>{% endfor %}
+</div><p class="source-note">District reference: <a href="https://antalya.tarimorman.gov.tr/Sayfalar/Detay.aspx?SayfaId=1" target="_blank" rel="noopener">Antalya provincial directory</a>. Destination context: <a href="https://goturkiye.com/antalya/see" target="_blank" rel="noopener">GoTürkiye</a>. Planning tips are our editorial suggestions.</p></div></section>

@@ -6,17 +6,8 @@ pagination:
 permalink: "/things-to-do/{{ thing.data.title | slugify }}/index.html"
 layout: base.njk
 eleventyExcludeFromCollections: true
-pageTitle: "{{ thing.data.title }} — Travel Antalya"
-pageDescription: "{{ thing.data.excerpt }}"
-pageUrl: "/things-to-do/{{ thing.data.title | slugify }}/"
-ogImage: "{{ thing.data.cover }}"
 ogType: "website"
-schema:
-  "@context": "https://schema.org"
-  "@type": "TouristAttraction"
-  name: "{{ thing.data.title }}"
-  description: "{{ thing.data.excerpt }}"
-  image: "https://travel-antalya.com{{ thing.data.cover }}"
+
 ---
 <section class="detail-hero">
   <div class="detail-hero-media"><img src="{{ thing.data.cover }}" alt="{{ thing.data.title }}"></div>

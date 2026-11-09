@@ -8,6 +8,9 @@ cover: "/images/photos/coastal-extra-3.jpg"
 excerpt: "Antalya Weather in May Antalya, Turkey, is one of the most beautiful and popular destinations along the Mediterranean coast. Famous for its turquoise waters, golden…"
 featured: false
 ---
+
+> **Museum access update, 9 November 2026:** Antalya Museum is listed as temporarily closed for new museum works. Older visit suggestions below do not confirm access. Check the [current closure guidance](/things-to-do/antalya-museum/) before planning a visit.
+
 <h1 class="wp-block-heading"><strong>Antalya Weather in May</strong></h1>
 
 <p>Antalya, Turkey, is one of the most beautiful and popular destinations along the Mediterranean coast. Famous for its turquoise waters, golden sandy beaches, stunning natural scenery, and rich historical sites, the city attracts travelers from all over the world. While the summer months are considered the busiest tourist season, many people wonder whether May is one of the best times to visit. Is the weather suitable for sightseeing, enjoying the beaches, or taking part in outdoor activities? Understanding <a href="https://travel-antalya.com/"><strong>Antalya’s weather in May</strong></a> is important for planning your trip effectively, as it helps you know what to expect in terms of temperatures, sunshine, rainfall, and overall conditions, ensuring a comfortable and enjoyable visit.</p>

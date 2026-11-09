@@ -2,10 +2,20 @@
   "name": "travel-antalya",
   "version": "1.0.0",
   "scripts": {
-    "build": "eleventy",
-    "serve": "eleventy --serve"
+    "build": "node scripts/clean.js && eleventy",
+    "serve": "eleventy --serve",
+    "test": "node --test tests/content.test.js tests/events.test.js",
+    "validate": "npm test && npm run build && node scripts/validate-build.js && npm run test:dom",
+    "test:e2e": "playwright test",
+    "content:audit": "node scripts/audit-content.js",
+    "test:dom": "node --test tests/dom.test.js"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "@playwright/test": "^1.65.0",
+    "jsdom": "^31.0.0"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }

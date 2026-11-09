@@ -8,6 +8,9 @@ cover: "/images/photos/antalya-beach-drone.jpg"
 excerpt: "Antalya, a gem on Turkey's southwestern coast, is capturing the hearts of travelers worldwide. Known for its stunning beaches and rich history, it's no wonder people are…"
 featured: true
 ---
+
+> **Museum access update, 9 November 2026:** Antalya Museum is listed as temporarily closed for new museum works. Older visit suggestions below do not confirm access. Check the [current closure guidance](/things-to-do/antalya-museum/) before planning a visit.
+
 <p></p>
 
 <p>Antalya, a gem on Turkey's southwestern coast, is capturing the hearts of travelers worldwide. Known for its stunning beaches and rich history, it's no wonder people are asking, "Is Antalya nice?" This travel guide will explore why Antalya is a must-visit destination.</p>

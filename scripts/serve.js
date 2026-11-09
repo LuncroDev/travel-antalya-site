@@ -1,0 +1,4 @@
+// Local validation server, never exposed outside the local machine.
+const http=require('node:http'),fs=require('node:fs'),path=require('node:path');
+const root=path.resolve('_site');const types={'.html':'text/html','.css':'text/css','.js':'text/javascript','.png':'image/png','.jpg':'image/jpeg','.avif':'image/avif','.webp':'image/webp','.xml':'application/xml'};
+http.createServer((req,res)=>{let file=path.resolve(root,'.'+decodeURIComponent(new URL(req.url,'http://localhost').pathname));if(!file.startsWith(root+path.sep)&&file!==root){res.writeHead(403);return res.end();}if(fs.existsSync(file)&&fs.statSync(file).isDirectory())file=path.join(file,'index.html');if(!fs.existsSync(file)){res.writeHead(404);return res.end('Not found');}res.setHeader('Content-Type',types[path.extname(file)]||'application/octet-stream');fs.createReadStream(file).pipe(res);}).listen(8091,'127.0.0.1');

@@ -3,81 +3,32 @@ pagination:
   data: collections.hotels
   size: 1
   alias: hotel
-permalink: "/hotels/{{ hotel.data.title | slugify }}/index.html"
+permalink: "/hotels/{{ hotel.data.slug or (hotel.data.title | slugify) }}/index.html"
 layout: base.njk
 eleventyExcludeFromCollections: true
-pageTitle: "{{ hotel.data.title }} — Travel Antalya"
-pageDescription: "{{ hotel.data.excerpt }}"
-pageUrl: "/hotels/{{ hotel.data.title | slugify }}/"
-ogImage: "{{ hotel.data.cover }}"
 ogType: "website"
 ---
-<section class="detail-hero">
-  <div class="detail-hero-media">
-    <img src="{{ hotel.data.cover }}" alt="{{ hotel.data.title }}">
-  </div>
-</section>
-
-<div class="container detail-title-block">
-  {% if hotel.data.tags %}
-    {% for tag in hotel.data.tags %}
-      {% if tag == "sponsored" %}<span class="badge badge-sponsored">Sponsored</span>{% endif %}
-      {% if tag == "editors-choice" %}<span class="badge badge-editors">Editor's Choice</span>{% endif %}
-    {% endfor %}
-  {% endif %}
-  <span class="badge badge-verified">{{ hotel.data.category }}</span>
+<link rel="stylesheet" href="/css/hotels.css">
+<section class="listing-hero hotel-detail-heading"><div class="container">
+  <nav aria-label="Breadcrumb"><a href="/hotels/">Hotel guide</a> <span aria-hidden="true">/</span> {{ hotel.data.neighborhood }}</nav>
+  <p class="eyebrow">{{ hotel.data.neighborhood }} · {{ hotel.data.category }}</p>
   <h1>{{ hotel.data.title }}</h1>
   <p class="lead">{{ hotel.data.tagline }}</p>
-</div>
-
-<div class="container">
-  {% if hotel.data.photos %}
-  <div class="gallery-grid">
-    {% for photo in hotel.data.photos %}
-    <a href="{{ photo }}" target="_blank" rel="noopener"><img src="{{ photo }}" alt="{{ hotel.data.title }} photo {{ loop.index }}"></a>
-    {% endfor %}
-  </div>
-  {% endif %}
-
-  <div class="detail-columns" style="margin-top:30px;">
-    <div>
-      <h2>About {{ hotel.data.title }}</h2>
-      {{ hotel.templateContent | safe }}
-
-      {% if hotel.data.amenities %}
-      <h2>Amenities</h2>
-      <ul class="amenities-list">
-        {% for a in hotel.data.amenities %}<li>{{ a }}</li>{% endfor %}
-      </ul>
-      {% endif %}
-
-      {% if hotel.data.map_lat and hotel.data.map_lng %}
-      <h2>Location</h2>
-      <div class="map-embed">
-        <iframe src="https://www.google.com/maps?q={{ hotel.data.map_lat }},{{ hotel.data.map_lng }}&output=embed" loading="lazy"></iframe>
-      </div>
-      {% endif %}
-
-      {% if hotel.data.nearby %}
-      <h2>Nearby</h2>
-      <div class="nearby-grid">
-        {% for n in hotel.data.nearby %}
-        <a class="nearby-card" href="{{ n.link }}" style="text-decoration:none;">
-          <span class="nearby-type">{{ n.type }}</span>
-          <h4>{{ n.name }}</h4>
-        </a>
-        {% endfor %}
-      </div>
-      {% endif %}
-    </div>
-
-    <aside class="detail-side">
-      <div class="price-tag">{{ hotel.data.price }}</div>
-      <div style="color:var(--ink-soft); font-size:0.9rem;">{{ hotel.data.neighborhood }}</div>
-      {% if hotel.data.booking_url %}
-      <a href="{{ hotel.data.booking_url }}" target="_blank" rel="noopener sponsored" class="btn btn-orange">Check Availability</a>
-      {% endif %}
-      <p style="font-size:0.78rem; color:var(--ink-soft); margin-top:10px;">Booking links may be affiliate links — we may earn a commission at no extra cost to you.</p>
-    </aside>
-  </div>
+</div></section>
+<div class="container hotel-detail-grid">
+  <article>
+    <h2>Plan your stay</h2>
+    {{ hotel.templateContent | safe }}
+    <h2>Check before booking</h2>
+    <ul class="hotel-checklist"><li>The full price for your dates, party size and room type, including taxes and extras.</li><li>Cancellation and payment terms, meal plans and restaurant reservations.</li><li>Seasonal opening dates, beach and pool access, building work and transfer arrangements.</li><li>Any age policy, step-free access or other specific needs directly with the hotel.</li></ul>
+    <p>This is an editorial introduction, not a personal inspection, review score or confirmation of current room availability.</p>
+    <p><a href="/hotels/">← Compare all areas and hotels</a></p>
+  </article>
+  <aside class="hotel-source-panel" aria-labelledby="source-heading">
+    <h2 id="source-heading">Go to the source</h2>
+    <dl><dt>Area</dt><dd>{{ hotel.data.neighborhood }}</dd><dt>Stay style</dt><dd>{{ hotel.data.category }}</dd><dt>Source reviewed</dt><dd><time datetime="{{ hotel.data.last_checked }}">{{ hotel.data.last_checked }}</time></dd></dl>
+    <a class="btn btn-orange" href="{{ hotel.data.official_url | escape }}" rel="noopener" target="_blank">Official hotel website ↗<span class="hotel-sr-only"> (opens in a new tab)</span></a>
+    <p><a href="{{ hotel.data.source_url | escape }}">{{ hotel.data.source_label }}</a> supports this profile’s identity and location. Hotel policies and offers can change after the review date.</p>
+    <p>No live prices or inventory. Contact the hotel to check availability and the exact terms for your stay.</p>
+  </aside>
 </div>

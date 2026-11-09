@@ -1,0 +1,11 @@
+---
+layout: base.njk
+pagination:
+  data: destinations
+  size: 1
+  alias: destination
+  addAllPagesToCollections: true
+permalink: /destinations/{{ destination.slug }}/index.html
+---
+<section class="listing-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/destinations/">Destinations</a> / {{ destination.name }}</nav><span class="eyebrow">{{ destination.theme }}</span><h1>{{ destination.name }}</h1><p class="lead">{{ destination.description }}</p></div></section>
+<section class="discovery-section"><div class="container guide-columns"><div><h2>Start here</h2><ul class="highlight-list">{% for place in destination.highlights %}<li>{{ place }}</li>{% endfor %}</ul><p>{{ destination.tip }}</p><div class="notice"><strong>Make room for the journey.</strong><p>Antalya is a large province. Check the actual route, public transport, seasonal access and opening information before combining places in one day.</p></div><div class="button-row">{% if destination.guide %}<a class="btn btn-blue" href="/things-to-do/{{ destination.guide }}/">Read the local guide</a>{% endif %}<a class="btn btn-outline-blue" href="https://www.google.com/maps/search/?api=1&amp;query={{ destination.name | encodeUri }}%20Antalya" target="_blank" rel="noopener">Open district map ↗</a></div></div><aside class="planning-card"><span class="eyebrow">Build your trip</span><h2>Your next steps</h2><a href="/hotels/">Compare places to stay →</a><a href="/events/">Check dated events →</a><a href="/plan-your-trip/">Transport &amp; essentials →</a><a href="/search/?q={{ destination.name | encodeUri }}">Search this district →</a><p class="source-note">Reference checked {{ destination.checked_on }}. <a href="{{ destination.source_url }}" target="_blank" rel="noopener">Provincial tourism information</a>. This page is a district overview, not a verified list of every business.</p></aside></div></section>

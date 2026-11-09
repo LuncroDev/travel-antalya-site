@@ -1,18 +1,17 @@
 ---
 title: "Altın Gün at Holly Stone Antalya"
 category: "Concerts"
-tagline: "Psychedelic Anatolian folk band live in Antalya"
+tagline: "A concert listing awaiting a verified current date."
 cover: "/images/photos/antalya-coastline.jpg"
-photos:
-  - "/images/photos/antalya-coastline.jpg"
-start_date: 2026-11-18
-end_date: 2026-11-18
-date_display: "November 18, 2026, 7:00 pm"
 venue: "Holly Stone Antalya"
-video: ""
-booking_url: "https://allevents.in/antalya/november"
-booking_label: "Event listing"
-excerpt: "Altın Gün, the Amsterdam-based band that reimagines Turkish folk with psychedelic rock, is listed in Antalya on 18 November 2026."
+source_url: "https://www.biletix.com/mekan/070GN/ISTANBUL/tr/holly-stone-performance-hall-antalya-antalya"
+source_name: "Biletix venue calendar"
+last_checked: "2026-11-09"
+date_verified: false
+excerpt: "A concert listing awaiting a verified current date."
 featured: false
+verification_note: "Ticket-calendar review was inconclusive; this is not a confirmed upcoming event."
 ---
-Altın Gün is an Amsterdam-based band that plays Turkish folk songs with a psychedelic rock sound and has an international following. A November 2026 listing shows a concert at Holly Stone Antalya on Wednesday, 18 November, at 7:00 pm. Check the venue or official ticket seller to confirm details.
+This legacy listing is retained so existing links continue to work. Earlier dates came from third-party listings and could not be consistently confirmed in the current ticket-calendar review.
+
+No date or start time is promised here. Check the venue’s ticket calendar before making travel plans.

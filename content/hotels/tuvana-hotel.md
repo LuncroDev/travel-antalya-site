@@ -1,23 +1,17 @@
 ---
 title: "Tuvana Hotel"
-tagline: "Restored Ottoman houses inside Kaleiçi"
+slug: "tuvana-hotel"
+tagline: "A heritage-style hotel in the lanes of Kaleiçi, within Antalya’s old-town district."
 tags: []
-category: "Boutique"
+category: "Boutique & heritage"
 neighborhood: "Kaleiçi"
-price: "$$$"
-cover: "/images/photos/antalya-coastline.jpg"
-photos:
-  - "/images/photos/antalya-coastline.jpg"
-  - "/images/photos/kaputas-beach.jpg"
-amenities:
-  - "Historic buildings"
-  - "Garden courtyard"
-  - "Pool"
-  - "On-site restaurant"
-  - "Walking distance to the harbour"
-booking_url: "https://www.booking.com/searchresults.html?ss=Tuvana+Hotel+Antalya"
-excerpt: "Several restored Ottoman houses turned into a hotel inside the old town walls."
+official_url: "https://tuvanahotel.com/location/"
+source_url: "https://tuvanahotel.com/location/"
+source_label: "Official hotel or hotel-group website"
+last_checked: "2026-11-09"
+excerpt: "A heritage-style hotel in the lanes of Kaleiçi, within Antalya’s old-town district."
+booking_note: "Ask for current car access and arrival instructions: old-town lanes are different from a resort driveway."
 ---
-Tuvana Hotel is a small hotel assembled from restored historic houses in Kaleiçi, Antalya's old town. Rooms and courtyards keep the character of the buildings, with stone walls, wooden details and a garden.
+A heritage-style hotel in the lanes of Kaleiçi, within Antalya’s old-town district.
 
-Staying here puts you inside the walls, with the harbour, Hadrian's Gate and many restaurants within a few minutes' walk. The trade-off is that Kaleiçi streets are narrow and cobbled, and the beach is not on the doorstep; Konyaaltı and Lara are a tram or taxi ride away.
+Ask for current car access and arrival instructions: old-town lanes are different from a resort driveway.
