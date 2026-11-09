@@ -13,17 +13,22 @@ test('restaurant hotel links resolve to supported traveler areas',()=>{const {ho
 
 test('selected hotel galleries retain verified source dates, rights and four-photo limits',()=>{
  const report=require('../docs/hotel-photo-sources.json');
- assert.equal(report.expected_selected_photos,41);
- assert.equal(report.selected_photos,41);
- assert.equal(report.hotel_count,12);
+ assert.equal(report.expected_selected_photos,61);
+ assert.equal(report.selected_photos,61);
+ assert.equal(report.hotel_count,20);
  const reviewed=photos.filter(p=>p.review_batch==='hotel-photo-review-2026-11-09');
- assert.equal(reviewed.length,41);
+ assert.equal(reviewed.length,61);
  const normalized=p=>decodeURIComponent(p.source_url).replaceAll('_',' ').replace(/\/$/,'');
  assert.equal(new Set(reviewed.map(normalized)).size,reviewed.length);
- for(const p of reviewed){assert.ok(p.archive_warning&&p.date_basis&&p.changes&&p.preserve_framing);assert.equal(p.historical,true);assert.match(p.license_url,/^https:\/\/creativecommons.org\/licenses\//);}
+ for(const p of reviewed){assert.ok(p.archive_warning&&p.date_basis&&p.changes&&p.preserve_framing);assert.equal(p.historical,true);assert.match(p.license_url,/^https:\/\/(?:creativecommons.org\/licenses\/|www.pexels.com\/license\/)/);}
  for(const slug of new Set(reviewed.map(p=>p.property_slug))){const gallery=photoGallery({slug},photos);assert.ok(gallery.length<=4);assert.ok(gallery.every(p=>p.property_slug===slug&&!p.contextual));}
  const watermark=reviewed.find(p=>p.source_url.includes('22876203861'));
  if(watermark)assert.ok(watermark.preserve_framing&&watermark.changes.includes('watermark retained'));
  const uncertain=reviewed.find(p=>p.id==='alp-pasa-night-facade-archive');if(uncertain)assert.match(uncertain.archive_warning,/2005 and 2006/);
  const lara=records('hotels').find(p=>p.slug==='lara-barut-collection');assert.match(lara.title,/BAYOU Lara/);assert.equal(lara.official_url,'https://bayoulara.com/en');
+});
+
+test('photo captions and warnings contain visitor copy, not editorial instructions',()=>{
+ const instruction=/show the capture year|preserve source date notes|do not present|must not be used as the photo date|use only with|do not use it to promise|show as '/i;
+ for(const photo of photos)for(const key of ['caption','archive_warning','changes','usage_note'])assert.doesNotMatch(photo[key]||'',instruction,photo.id+' '+key);
 });

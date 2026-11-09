@@ -39,9 +39,9 @@ test('hotel galleries distinguish archives and destination images',async({page})
 test('homepage fits tablet widths',async({page})=>{for(const width of [768,1024]){await page.setViewportSize({width,height:900});await page.goto('/');expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBeTruthy();}});
 
 test('reviewed property photographs load with intact framing and clear archive labels',async({page})=>{
- test.setTimeout(90000);
+ test.setTimeout(180000);
  const reviewedSlugs=new Set(require('../../docs/hotel-photo-sources.json').photos.map(p=>p.property_slug));
- for(const slug of ['mardan-palace','limak-atlantis-deluxe-hotel-resort','lara-barut-collection','the-marmara-antalya'].filter(s=>reviewedSlugs.has(s))){
+ for(const slug of [...reviewedSlugs].sort()){
   await page.goto('/hotels/'+slug+'/');
   const propertyImages=page.locator('.editorial-gallery img[data-preserve-framing]');
   const count=await propertyImages.count();expect(count).toBeGreaterThan(0);expect(count).toBeLessThanOrEqual(4);
