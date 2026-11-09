@@ -1,17 +1,33 @@
 ---
-title: "Paloma Perissia"
-slug: "paloma-perissia"
-tagline: "A beachfront Side hotel with a 200-metre sandy beach and a coastal route towards the ancient town."
-category: "Coastal resort"
-neighborhood: "Side"
-district_slug: "manavgat"
-official_url: "https://www.palomahotels.com/en/paloma-perissia"
-source_url: "https://www.palomahotels.com/en/contact"
-source_label: "Official hotel or hotel-group website"
-source_urls: ["https://www.palomahotels.com/en/contact","https://www.palomahotels.com/en/paloma-perissia"]
-last_checked: "2026-11-09"
-excerpt: "A beachfront Side hotel with a 200-metre sandy beach and a coastal route towards the ancient town."
-booking_note: "Check shuttle times and seasonal waterpark availability; Palomaqua is not on site."
+title: Paloma Perissia
+slug: paloma-perissia
+tagline: >-
+  A beachfront Side hotel with a 200-metre sandy beach and a coastal route
+  towards the ancient town.
+category: Coastal resort
+neighborhood: Side
+district_slug: manavgat
+official_url: 'https://www.palomahotels.com/en/paloma-perissia'
+source_url: 'https://www.palomahotels.com/en/contact'
+source_label: Official hotel or hotel-group website
+source_urls:
+  - 'https://www.palomahotels.com/en/contact'
+  - 'https://www.palomahotels.com/en/paloma-perissia'
+last_checked: '2026-11-09'
+excerpt: >-
+  A beachfront Side hotel with a 200-metre sandy beach and a coastal route
+  towards the ancient town.
+booking_note: >-
+  Check shuttle times and seasonal waterpark availability; Palomaqua is not on
+  site.
+photos_official:
+  - src: >-
+      https://www.palomahotels.com/Content/imgUpload/10-06-2024-15-34-21perissia%20(1).jpg
+  - src: >-
+      https://www.palomahotels.com/Content/imgUpload/12-20-2020-7-12-55-PM10-9-2020-10-51-06-amperissiaindexlobby.jpg
+  - src: >-
+      https://www.palomahotels.com/Content/imgUpload/12-20-2020-7-13-38-PM10-8-2020-12-33-43-pmperissia-aerial-4-copy_edit.jpg
+photo_source: 'https://www.palomahotels.com/en/paloma-perissia'
 ---
 A beachfront Side hotel with a 200-metre sandy beach and a coastal route towards the ancient town. The property advertises year-round stays and a shuttle to Palomaqua, which is away from the hotel.
 

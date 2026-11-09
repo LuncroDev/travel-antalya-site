@@ -1,17 +1,29 @@
 ---
-title: "Papillon Ayscha"
-slug: "papillon-ayscha"
-tagline: "Papillon Ayscha is in Belek's İleribaşı area and offers standard and family rooms as well as villa categories."
-category: "Coastal resort"
-neighborhood: "Belek"
-district_slug: "serik"
-official_url: "https://papillon.com.tr/en/papillon-hotels-6/"
-source_url: "https://papillon.com.tr/iletisim/"
-source_label: "Official hotel or hotel-group website"
-source_urls: ["https://papillon.com.tr/iletisim/","https://papillon.com.tr/en/papillon-hotels-6/"]
-last_checked: "2026-11-09"
-excerpt: "Papillon Ayscha is in Belek's İleribaşı area and offers standard and family rooms as well as villa categories."
-booking_note: "Room and villa categories differ substantially. Confirm bedrooms, occupancy and any pool access."
+title: Papillon Ayscha
+slug: papillon-ayscha
+tagline: >-
+  Papillon Ayscha is in Belek's İleribaşı area and offers standard and family
+  rooms as well as villa categories.
+category: Coastal resort
+neighborhood: Belek
+district_slug: serik
+official_url: 'https://papillon.com.tr/en/papillon-hotels-6/'
+source_url: 'https://papillon.com.tr/iletisim/'
+source_label: Official hotel or hotel-group website
+source_urls:
+  - 'https://papillon.com.tr/iletisim/'
+  - 'https://papillon.com.tr/en/papillon-hotels-6/'
+last_checked: '2026-11-09'
+excerpt: >-
+  Papillon Ayscha is in Belek's İleribaşı area and offers standard and family
+  rooms as well as villa categories.
+booking_note: >-
+  Room and villa categories differ substantially. Confirm bedrooms, occupancy
+  and any pool access.
+photos_official:
+  - src: >-
+      https://papillon.com.tr/wp-content/uploads/2025/06/Papillon-Ayscha-Inspire-Drone-2-2048x1364.jpg
+photo_source: 'https://papillon.com.tr/en/papillon-hotels-6/'
 ---
 Papillon Ayscha is in Belek's İleribaşı area and offers standard and family rooms as well as villa categories. Its accommodation range includes Select Family Villas and larger Deluxe Villas.
 

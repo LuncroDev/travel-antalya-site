@@ -1,17 +1,29 @@
 ---
-title: "Titanic Deluxe Lara"
-slug: "titanic-deluxe-lara"
-tagline: "Titanic's themed Lara resort overlooks a sandy Mediterranean beach and advertises an all-inclusive concept."
-category: "Coastal resort"
-neighborhood: "Lara & Kundu"
-district_slug: "muratpasa"
-official_url: "https://www.titanic.com.tr/titanic-deluxe-lara"
-source_url: "https://www.titanic.com.tr/hotels"
-source_label: "Official hotel or hotel-group website"
-source_urls: ["https://www.titanic.com.tr/hotels","https://www.titanic.com.tr/titanic-deluxe-lara"]
-last_checked: "2026-11-09"
-excerpt: "Titanic's themed Lara resort overlooks a sandy Mediterranean beach and advertises an all-inclusive concept."
-booking_note: "Use the current Lara hotel name and confirm the exact meal and beverage package."
+title: Titanic Deluxe Lara
+slug: titanic-deluxe-lara
+tagline: >-
+  Titanic's themed Lara resort overlooks a sandy Mediterranean beach and
+  advertises an all-inclusive concept.
+category: Coastal resort
+neighborhood: Lara & Kundu
+district_slug: muratpasa
+official_url: 'https://www.titanic.com.tr/titanic-deluxe-lara'
+source_url: 'https://www.titanic.com.tr/hotels'
+source_label: Official hotel or hotel-group website
+source_urls:
+  - 'https://www.titanic.com.tr/hotels'
+  - 'https://www.titanic.com.tr/titanic-deluxe-lara'
+last_checked: '2026-11-09'
+excerpt: >-
+  Titanic's themed Lara resort overlooks a sandy Mediterranean beach and
+  advertises an all-inclusive concept.
+booking_note: >-
+  Use the current Lara hotel name and confirm the exact meal and beverage
+  package.
+photos_official:
+  - src: >-
+      https://image-tc.galaxy.tf/wijpeg-4uksug88csk7i14vjd9msbtn9/home_og-image.jpg
+photo_source: 'https://www.titanic.com.tr/titanic-deluxe-lara'
 ---
 Titanic's themed Lara resort overlooks a sandy Mediterranean beach and advertises an all-inclusive concept. Its official Güzeloba address is in Muratpaşa, separate from the hotel's Belek sister property.
 

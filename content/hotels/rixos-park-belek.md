@@ -1,17 +1,30 @@
 ---
-title: "Rixos Park Belek"
-slug: "rixos-park-belek"
-tagline: "A seafront Rixos hotel in Belek that advertises shuttle services to The Land of Legends."
-category: "Coastal resort"
-neighborhood: "Belek"
-district_slug: "serik"
-official_url: "https://all.accor.com/hotel/C1D1/index.en.shtml"
-source_url: "https://all.accor.com/hotel/C1D1/index.en.shtml"
-source_label: "Official hotel or hotel-group website"
-source_urls: ["https://all.accor.com/hotel/C1D1/index.en.shtml"]
-last_checked: "2026-11-09"
-excerpt: "A seafront Rixos hotel in Belek that advertises shuttle services to The Land of Legends."
-booking_note: "Verify which park areas, transport and admission days are included for your dates."
+title: Rixos Park Belek
+slug: rixos-park-belek
+tagline: >-
+  A seafront Rixos hotel in Belek that advertises shuttle services to The Land
+  of Legends.
+category: Coastal resort
+neighborhood: Belek
+district_slug: serik
+official_url: 'https://all.accor.com/hotel/C1D1/index.en.shtml'
+source_url: 'https://all.accor.com/hotel/C1D1/index.en.shtml'
+source_label: Official hotel or hotel-group website
+source_urls:
+  - 'https://all.accor.com/hotel/C1D1/index.en.shtml'
+last_checked: '2026-11-09'
+excerpt: >-
+  A seafront Rixos hotel in Belek that advertises shuttle services to The Land
+  of Legends.
+booking_note: >-
+  Verify which park areas, transport and admission days are included for your
+  dates.
+photos_official:
+  - src: 'https://www.ahstatic.com/photos/c1d1_ho_00_p_1024x768.jpg'
+  - src: 'https://www.ahstatic.com/photos/c1d1_ho_00_p_2048x1536.jpg'
+  - src: 'https://www.ahstatic.com/photos/c1d1_ho_01_p_2048x1536.jpg'
+  - src: 'https://www.ahstatic.com/photos/c1d1_ho_02_p_2048x1536.jpg'
+photo_source: 'https://all.accor.com/hotel/C1D1/index.en.shtml'
 ---
 A seafront Rixos hotel in Belek that advertises shuttle services to The Land of Legends. It is a separate property from Rixos Premium Belek, with its own booking and accommodation categories.
 

@@ -1,19 +1,36 @@
 ---
-title: "Oburus Momus"
-neighborhood: "Çukurbağ Peninsula / Andifli"
-district_slug: "kas"
-official_url: "https://www.oburus.com/momus/"
-source_url: "https://www.oburus.com/momus/"
-source_urls: ["https://www.oburus.com/momus/","https://www.oburus.com/momus/tr/menu/","https://www.oburus.com/momus/tr/hikayemiz/"]
-last_checked: "2026-11-09"
-excerpt: "A plant-focused Kaş restaurant with globally inspired dishes and a peninsula setting."
-booking_note: "The official site lists 17:00–00:00, but the business listing was marked temporarily closed during research. Confirm seasonal reopening and reservation arrangements directly before travelling."
-slug: "oburus-momus"
-category: "Vegan and vegetarian"
-tagline: "A plant-focused Kaş restaurant with globally inspired dishes and a peninsula setting."
-source_label: "Official venue information"
-michelin_note: "No verified Michelin distinction for this Antalya venue in the 2026 selection."
-status_note: "Seasonal/current status needs confirmation: business listing says temporarily closed; official website remains live."
+title: Oburus Momus
+neighborhood: Çukurbağ Peninsula / Andifli
+district_slug: kas
+official_url: 'https://www.oburus.com/momus/'
+source_url: 'https://www.oburus.com/momus/'
+source_urls:
+  - 'https://www.oburus.com/momus/'
+  - 'https://www.oburus.com/momus/tr/menu/'
+  - 'https://www.oburus.com/momus/tr/hikayemiz/'
+last_checked: '2026-11-09'
+excerpt: >-
+  A plant-focused Kaş restaurant with globally inspired dishes and a peninsula
+  setting.
+booking_note: >-
+  The official site lists 17:00–00:00, but the business listing was marked
+  temporarily closed during research. Confirm seasonal reopening and reservation
+  arrangements directly before travelling.
+slug: oburus-momus
+category: Vegan and vegetarian
+tagline: >-
+  A plant-focused Kaş restaurant with globally inspired dishes and a peninsula
+  setting.
+source_label: Official venue information
+michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
+status_note: >-
+  Seasonal/current status needs confirmation: business listing says temporarily
+  closed; official website remains live.
+photos_official:
+  - src: 'https://www.oburus.com/momus/wp-content/uploads/2024/06/cover.jpg'
+  - src: >-
+      https://www.oburus.com/momus/wp-content/uploads/2024/06/410121067_18326991070103925_4340279911626338923_n.jpg
+photo_source: 'https://www.oburus.com/momus/'
 ---
 Oburus Momus is a vegan and vegetarian restaurant on the Kaş peninsula. Its menu draws on several cuisines, with vegetable bowls, noodles and dishes using ingredients such as tempeh.
 
