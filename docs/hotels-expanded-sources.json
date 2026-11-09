@@ -3,7 +3,7 @@
   "province": "Antalya",
   "country": "Türkiye",
   "count": 100,
-  "status": "Completed: 100 distinct source-backed hotel records; November 9 photo review covers 41 selected archival photographs across 12 hotels.",
+  "status": "Completed: 100 distinct source-backed hotel records; November 9 photo review covers 51 selected archival photographs across 16 hotels.",
   "methodology": "28 retained records from the project's official source register dated 2026-11-09, plus 72 additions researched using official hotel/group pages. Descriptions are original factual summaries. Districts are administrative; area/neighborhood fields are traveler-facing. No room rates, star-rating comparisons, review scores or live availability are asserted.",
   "image_rights_note": "No official-gallery photograph is licensed for reuse merely because it is publicly visible. Do not hotlink or copy these as cleared images. Attach photos only after their individual licence and subject identity are checked.",
   "hotels": [
@@ -440,7 +440,7 @@
       ],
       "verification_method": "Official BAYOU Lara branding checked on 2026-11-09; October 2026 rebrand corroborated by linked reporting. Existing slug retained.",
       "photos": [],
-      "photo_rights_status": "No property photo cleared for reuse.",
+      "photo_rights_status": "4 individually licensed archival property photographs reviewed on 2026-11-09. See docs/hotel-photo-sources.json for dates and credits.",
       "verified_facts": [
         "A Lara resort offering different room categories and on-site dining options.",
         "Formerly Lara Barut Collection; current official branding is BAYOU Lara."
@@ -626,7 +626,7 @@
       ],
       "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
       "photos": [],
-      "photo_rights_status": "No property photo cleared for reuse.",
+      "photo_rights_status": "1 individually licensed archival property photographs reviewed on 2026-11-09. See docs/hotel-photo-sources.json for dates and credits.",
       "verified_facts": [
         "A large resort in Beldibi on the Kemer coast, between the sea and mountain landscapes."
       ]
@@ -1084,7 +1084,7 @@
       "tags": [],
       "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
       "photos": [],
-      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "photo_rights_status": "1 individually licensed archival property photographs reviewed on 2026-11-09. See docs/hotel-photo-sources.json for dates and credits.",
       "verified_facts": [
         "Titanic's themed Lara resort overlooks a sandy Mediterranean beach and advertises an all-inclusive concept.",
         "Its official Güzeloba address is in Muratpaşa, separate from the hotel's Belek sister property."
@@ -2531,7 +2531,7 @@
       "tags": [],
       "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
       "photos": [],
-      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "photo_rights_status": "4 individually licensed archival property photographs reviewed on 2026-11-09. See docs/hotel-photo-sources.json for dates and credits.",
       "verified_facts": [
         "Ali Bey's Sorgun resort is in Manavgat, close to the wider Side destination.",
         "It is listed separately from Ali Bey Club Manavgat, with its own address and resort facilities."

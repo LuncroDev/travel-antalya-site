@@ -22,3 +22,5 @@ The property formerly known as Lara Barut Collection now uses the BAYOU Lara nam
 Compare the current seasonal concept and dining reservation rules for your dates.
 
 The profile summarizes the linked official property or hotel-group information. It does not establish current rates, availability, star classification or the condition of facilities. Confirm your specific room, dates and inclusions with the hotel.
+
+The property gallery contains historical Lara Barut photographs from 2012, before the 2022 renovation and the 2026 BAYOU Lara rebrand. They do not show current facilities.
