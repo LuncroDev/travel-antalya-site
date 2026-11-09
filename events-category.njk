@@ -25,13 +25,14 @@ eleventyExcludeFromCollections: true
     <div data-event-empty hidden class="empty-state"><h2>No confirmed events match these filters</h2><p>Try another date or category, or choose “Awaiting verified dates” or “Past editions”. We do not invent dates to fill the calendar.</p><a href="https://www.antalya.bel.tr/tr/etkinlikler" target="_blank" rel="noopener noreferrer">Check the municipal events calendar ↗</a></div>    {% for e in cat.events %}
     {% set status = e.data | eventStatus %}
     <article class="listing-row" data-event data-title="{{ e.data.title | escape }}" data-venue="{{ e.data.venue | escape }}" data-category="{{ e.data.category | escape }}" data-start="{{ e.data.start_date | eventDate }}" data-end="{{ e.data.end_date | eventDate }}" data-verified="{{ e.data.date_verified }}" data-status="{{ status }}">
-      <div class="listing-row-media"><img src="{{ e.data.cover }}" alt="Antalya destination scenery" loading="lazy"></div>
+      {% if e.data.cover %}<div class="listing-row-media"><img src="{{ e.data.cover }}" alt="Antalya destination scenery" loading="lazy"></div>{% else %}<div class="event-date-tile"><span>{{ e.data | eventDateLabel }}</span><strong>{{ e.data.category }}</strong></div>{% endif %}
       <div class="listing-row-body">
         <div class="listing-row-top"><div>
           <span class="badge">{{ e.data.category }}</span> <span class="badge" data-event-status>{{ status | eventStatusLabel }}</span>
           <h3 class="listing-row-title"><a href="/events/{{ e.data.slug or (e.data.title | slugify) }}/">{{ e.data.title }}</a></h3>
         </div></div>
         <p class="listing-row-excerpt">{{ e.data.excerpt }}</p>
+        {% if e.data.admission_note %}<p class="event-admission-note"><strong>Entry:</strong> {{ e.data.admission_note }}</p>{% endif %}
         <div class="listing-row-meta"><span>{{ e.data | eventDateLabel }}</span><span>{{ e.data.venue }}</span></div>
         <p><small>Source review: {{ e.data.last_checked | eventDate }} · <a href="{{ e.data.source_url | escape }}" target="_blank" rel="noopener noreferrer">{{ e.data.source_name }}</a></small></p>
       </div>

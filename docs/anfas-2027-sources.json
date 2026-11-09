@@ -1,0 +1,114 @@
+{
+  "reviewed_on": "2026-11-09",
+  "method": "Official organizer fair profiles, visitor profiles, registration forms and venue calendar reviewed. No registrations or contact requests submitted.",
+  "record_count": 2,
+  "counting_note": "Each multi-day fair is one distinct event. They share dates and venue but are separate fairs.",
+  "events": [
+    {
+      "start_date": "2027-01-12",
+      "end_date": "2027-01-15",
+      "date_verified": true,
+      "venue": "ANFAŞ Expo Center, Aksu, Antalya",
+      "district_slug": "aksu",
+      "neighborhood": "Aksu",
+      "source_name": "ANFAŞ official fair profile",
+      "last_checked": "2026-11-09",
+      "category": "Trade fairs",
+      "time_display": "10:00–18:00",
+      "title": "ANFAŞ Hotel Equipment 2027",
+      "slug": "anfas-hotel-equipment-2027",
+      "source_url": "https://anfashotelequipment.com/en/fair-profile",
+      "booking_url": "https://anfashotelequipment.com/en/visitor-form",
+      "excerpt": "Hospitality equipment suppliers and industry buyers meet at this professional trade fair in Aksu.",
+      "tagline": "Hospitality equipment suppliers and industry buyers meet at this professional trade fair in Aksu.",
+      "admission_note": "Industry decision-makers with purchasing authority; not open to the general public. Visitor registration requires company details and a business-card photo.",
+      "verification_note": "The organizer confirms the date range, venue and visiting hours. Professional eligibility and registration requirements are stated on its visitor pages. No event-wide minimum age was found in the public pages reviewed.",
+      "edition": "37th International Hotel Equipment & Hospitality Trade Fair",
+      "sources": [
+        {
+          "url": "https://anfashotelequipment.com/en/fair-profile",
+          "evidence": [
+            "12 – 15 January 2027",
+            "ANFAŞ Expo Center, Pınarlı, Aksu / Antalya, Türkiye",
+            "10:00 – 18:00"
+          ]
+        },
+        {
+          "url": "https://anfashotelequipment.com/en/visitor-profile",
+          "evidence": [
+            "Senior decision-makers with purchasing authority — not the general public."
+          ]
+        },
+        {
+          "url": "https://anfashotelequipment.com/en/visitor-form",
+          "evidence": [
+            "Create your free visitor registration.",
+            "Business Card (Photo) *",
+            "Your fair entry details will be emailed to you closer to the fair date."
+          ]
+        }
+      ]
+    },
+    {
+      "start_date": "2027-01-12",
+      "end_date": "2027-01-15",
+      "date_verified": true,
+      "venue": "ANFAŞ Expo Center, Aksu, Antalya",
+      "district_slug": "aksu",
+      "neighborhood": "Aksu",
+      "source_name": "ANFAŞ official fair profile",
+      "last_checked": "2026-11-09",
+      "category": "Trade fairs",
+      "time_display": "10:00–18:00",
+      "title": "ANFAŞ Food Product 2027",
+      "slug": "anfas-food-product-2027",
+      "source_url": "https://anfasfoodproduct.com/en/fair-profile",
+      "booking_url": "https://anfasfoodproduct.com/en/visitor-form",
+      "excerpt": "Food, beverage and hospitality suppliers meet industry buyers at this professional trade fair in Aksu.",
+      "tagline": "Food, beverage and hospitality suppliers meet industry buyers at this professional trade fair in Aksu.",
+      "admission_note": "Industry decision-makers with purchasing authority; not open to the general public. Visitor registration requires company details and a business-card photo. Alcoholic-beverage and venue/bar-design zones are restricted to HoReCa professionals and authorised distributors aged 18 or over.",
+      "verification_note": "The organizer confirms the date range, venue and visiting hours. Professional eligibility and registration requirements are stated on its visitor pages. No event-wide minimum age was found in the public pages reviewed.",
+      "edition": "33rd International Food & Beverage Trade Fair",
+      "sources": [
+        {
+          "url": "https://anfasfoodproduct.com/en/fair-profile",
+          "evidence": [
+            "12 – 15 January 2027",
+            "ANFAŞ Expo Center, Pınarlı, Aksu / Antalya, Türkiye",
+            "10:00 – 18:00"
+          ]
+        },
+        {
+          "url": "https://anfasfoodproduct.com/en/visitor-profile",
+          "evidence": [
+            "Senior decision-makers with purchasing authority — not the general public."
+          ]
+        },
+        {
+          "url": "https://anfasfoodproduct.com/en/visitor-form",
+          "evidence": [
+            "Create your free visitor registration.",
+            "Business Card (Photo) *",
+            "Your fair entry details will be emailed to you closer to the fair date."
+          ]
+        },
+        {
+          "url": "https://anfasfoodproduct.com/en/about",
+          "evidence": [
+            "These zones are open exclusively to HoReCa professionals and authorised distributors; visitors under 18 are not admitted."
+          ],
+          "scope": "Alcoholic-beverage and venue/bar-design zones only, not a verified event-wide age rule."
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "title": "Antalya Exclusive Jewellery Show 2027",
+      "organizer_url": "https://esfafuar.com.tr/antalya-jewellery-show/",
+      "venue_calendar_url": "https://www.anfas.com.tr/tr/fuarlar/antalya-exclusive-jewellery-whow",
+      "organizer_dates": "2027-04-30 to 2027-05-02",
+      "reason": "Organizer dates and venue are confirmed, but visitor eligibility and admission conditions were not verified. Exhibitor participation/contact wording does not establish visitor admission."
+    }
+  ]
+}

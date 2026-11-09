@@ -36,7 +36,7 @@ Run `npm run content:audit` to flag event source checks older than 7 days and ho
 
 ## Expanded guide, November 2026
 
-- 100 hotel profiles, 69 event/session records (57 newly sourced dated sessions), 27 restaurant profiles including two preserved legacy addresses, and 11 golf venues.
+- 100 hotel profiles, 71 event/session records (including 57 sourced dated sessions and two distinct multi-day ANFAŞ trade fairs), 27 restaurant profiles including two preserved legacy addresses, and 11 golf venues.
 - The 2026 Michelin restaurant selection does not cover Antalya. Branch-specific recognition elsewhere is not copied to Antalya. The earlier hotel article now distinguishes hotel selection, Keys and restaurant awards.
 - New photography is documented in `_data/editorialPhotos.json`. Galleries distinguish district photographs from dated property archives; most hotels do not yet have cleared current property photographs. Do not substitute destination images for room/facility photography.
 - A November 9 property-photo review adds 54 new licensed sources and rechecks 7 existing photographs across 20 hotels. Selected galleries show at most four property photographs with archive dates, source links and licence credits; full framing and watermarks are preserved. The remaining hotels are not represented as having current verified property photos. Details are in `docs/hotel-photo-sources.json`.

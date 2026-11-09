@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 pageTitle: "Antalya Events & Festivals | Verified Dates"
-pageDescription: "Find Antalya concerts, festivals and sports events with source links, verified dates, archived editions and working travel-date filters."
+pageDescription: "Find Antalya concerts, festivals, sports and trade fairs with verified dates, entry conditions, source links and working travel-date filters."
 pageUrl: "/events/"
 ogImage: "/images/photos/things-to-do-cover.jpg"
 permalink: "/events/index.html"
@@ -11,7 +11,7 @@ eleventyExcludeFromCollections: true
   <div class="breadcrumb"><a href="/">Home</a> › Events</div>
   <span class="eyebrow">Plan around something memorable</span>
   <h1>What's on in Antalya</h1>
-  <p class="lead">Concert nights, cultural festivals and days worth travelling for. Confirmed dates, clear sources, no guesswork.</p>
+  <p class="lead">Concert nights, cultural festivals and trade fairs. Confirmed dates, clear sources and entry conditions to help you plan.</p>
   <p>Sources reviewed 9 November 2026. This is an editorial selection, not a live ticket feed. Check the organizer before booking travel. All dates use Antalya local time.</p>
 </div></section>
 <section><div class="container" data-event-directory>
@@ -37,6 +37,7 @@ eleventyExcludeFromCollections: true
           <h3 class="listing-row-title"><a href="/events/{{ e.data.slug or (e.data.title | slugify) }}/">{{ e.data.title }}</a></h3>
         </div></div>
         <p class="listing-row-excerpt">{{ e.data.excerpt }}</p>
+        {% if e.data.admission_note %}<p class="event-admission-note"><strong>Entry:</strong> {{ e.data.admission_note }}</p>{% endif %}
         <div class="listing-row-meta"><span>{{ e.data | eventDateLabel }}</span><span>{{ e.data.venue }}</span></div>
         <p><small>Source review: {{ e.data.last_checked | eventDate }} · <a href="{{ e.data.source_url | escape }}" target="_blank" rel="noopener noreferrer">{{ e.data.source_name }}</a></small></p>
       </div>
