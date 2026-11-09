@@ -15,9 +15,6 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: An Okurcalar resort in the Kirman Premium collection.
 booking_note: Check spa treatment charges and pool operating dates; wellness positioning is the hotel's own description.
-photos_official:
-- src: https://www.kirmanpremium.com/image/icerik/6760089e179e1.jpg
-photo_source: https://www.kirmanpremium.com/arycanda-kirman-premium
 ---
 An Okurcalar resort in the Kirman Premium collection. The brand's current comparison highlights its wellness focus and aquapark within the group's ultra-all-inclusive concept.
 

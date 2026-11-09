@@ -13,12 +13,6 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: A coastal resort in Göynük, Kemer, in the region where pine-covered slopes meet the Mediterranean.
 booking_note: Despite its name, the hotel is in Göynük, not inside the Phaselis archaeological site. Plan archaeological visits separately.
-photos_official:
-- src: https://ngphaselisbay.com/media/y2nnhycl/ng-phaselis-bay-slider-2025-1.jpg
-- src: https://ngphaselisbay.com/media/rnrl5lv0/ng-phaselis-bay-slider-2025-12-mobil.jpg
-- src: https://ngphaselisbay.com/media/sxwh2qtt/ng-phaselis-bay-slider-2025-2.jpg
-- src: https://ngphaselisbay.com/media/42xluq25/ng-phaselis-bay-slider-2025-21-mobil.jpg
-photo_source: https://ngphaselisbay.com/en/
 ---
 A coastal resort in Göynük, Kemer, in the region where pine-covered slopes meet the Mediterranean.
 

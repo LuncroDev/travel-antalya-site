@@ -13,12 +13,6 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: A beachfront resort in the Side area with room and suite options.
 booking_note: Ask which pools and outdoor services are operating in your travel season; do not assume summer facilities operate all year.
-photos_official:
-- src: https://api.baruthotelsgroup.com/uploads/pages/67225f93-49b0-97fd-c9c9-c57bf6fc983c/837363c7f0de2c03519ce6bccba30300.jpg
-- src: https://api.baruthotelsgroup.com/uploads/pages/67225f93-49b0-97fd-c9c9-c57bf6fc983c/834ad9c3446dfcbe665bf218ce8582d1.jpg
-- src: https://api.baruthotelsgroup.com/uploads/pages/67225f93-49b0-97fd-c9c9-c57bf6fc983c/458ef5c9400ee20d7e8e352c422866e8.jpg
-- src: https://api.baruthotelsgroup.com/uploads/pages/67225f93-49b0-97fd-c9c9-c57bf6fc983c/28d4706eab8d32a8eed6128eef93f79c.jpg
-photo_source: https://barutarum.com/en
 ---
 A beachfront resort in the Side area with room and suite options.
 

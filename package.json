@@ -4,11 +4,12 @@
   "scripts": {
     "build": "node scripts/clean.js && eleventy",
     "serve": "eleventy --serve",
-    "test": "node --test tests/content.test.js tests/events.test.js tests/discovery.test.js",
+    "test": "node --test tests/content.test.js tests/events.test.js tests/discovery.test.js tests/photo-rights.test.js",
     "validate": "npm test && npm run build && node scripts/validate-build.js && npm run test:dom",
     "test:e2e": "playwright test",
     "content:audit": "node scripts/audit-content.js",
-    "test:dom": "node --test tests/dom.test.js tests/homepage.test.js"
+    "test:dom": "node --test tests/dom.test.js tests/homepage.test.js tests/photo-rights-dom.test.js",
+    "photos:validate": "node scripts/validate-photo-rights.js"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",

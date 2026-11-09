@@ -16,12 +16,6 @@ category: Turkish and international
 tagline: A castle-road restaurant with terraces looking across Alanya.
 source_label: Official venue information
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
-photos_official:
-- src: https://alanyapanorama.com/upload/thump_1624447577.jpg
-- src: https://alanyapanorama.com/upload/galeri/thump_1781622518.jpeg
-- src: https://alanyapanorama.com/upload/galeri/thump_1781622529.jpeg
-- src: https://alanyapanorama.com/upload/galeri/thump_1775554604.jpeg
-photo_source: https://alanyapanorama.com/
 ---
 Kale Panorama is on Kale Caddesi in Tophane, on the route toward Alanya Castle. Its official site emphasizes the historic setting and terraces with city views.
 

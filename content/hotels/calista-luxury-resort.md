@@ -13,12 +13,6 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: A resort in Belek with a pine-woodland coastal setting, away from Antalya’s city centre.
 booking_note: Compare the exact room and meal package rather than assuming every dining venue or activity is included.
-photos_official:
-- src: https://www.calista.com.tr/media/jxzhk0ni/calista-luxury-resort-villa-leo-galeri.jpg
-- src: https://www.calista.com.tr/media/dl4da4vu/calista-luxury-resort-villa-leo-galeri2.jpg
-- src: https://www.calista.com.tr/media/usnlnl2v/calista-luxury-resort-villa-leo-galeri3.jpg
-- src: https://www.calista.com.tr/media/2fvjxbvf/calista-luxury-resort-villa-leo-galeri4.jpg
-photo_source: https://www.calista.com.tr/en
 ---
 A resort in Belek with a pine-woodland coastal setting, away from Antalya’s city centre.
 

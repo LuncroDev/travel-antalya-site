@@ -1,0 +1,76 @@
+'use strict';
+const test = require('node:test');
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const os = require('node:os');
+const path = require('node:path');
+const { execFileSync } = require('node:child_process');
+const { approvalErrors, approvedPhoto, selectedOfficialPhotos, registry } = require('../lib/photo-rights');
+const { officialPhotos, cardPhoto, photoGalleryFor } = require('../lib/ui');
+const validate = require('../scripts/validate-photo-rights');
+const valid = () => ({ id:'fixture',venue_slug:'fixture-hotel',status:'approved',src:'https://example.com/photo.jpg',source_url:'https://example.com/source',license_url:'https://creativecommons.org/licenses/by/4.0/',evidence_url:'https://example.com/grant',author:'Test photographer',alt:'Hotel facade',caption:'Hotel facade',license:'CC BY 4.0',changes:'Resized and responsively cropped.',reviewed_by:'Test editor',reviewed_on:'2026-11-09',expires_on:null,width:1600,height:1000,permitted_use:{commercial_editorial:true,web_display:true,resize_convert:true,responsive_crop:true,cdn_cache:true} });
+test('official origin alone never constitutes approval', () => {
+  assert.deepEqual(officialPhotos({slug:'fixture-hotel',photos_official:[{src:'https://example.com/photo.jpg'}]}),[]);
+  assert.ok(approvalErrors({ ...valid(), license:'Official website' }).length);
+  for (const field of ['evidence_url','license_url','author','reviewed_by','expires_on']) { const p=valid(); delete p[field]; assert.ok(approvalErrors(p).length,field); }
+});
+test('approvals are exact-asset, exact-property and current', () => {
+  const p=valid(), rights={approved:[p],excluded:[]};
+  assert.deepEqual(approvalErrors(p,'2026-11-10'),[]);
+  assert.equal(approvedPhoto(p.venue_slug,p.src,rights,'2026-11-10'),p);
+  assert.equal(approvedPhoto('sister-hotel',p.src,rights,'2026-11-10'),null);
+  assert.equal(approvedPhoto(p.venue_slug,p.src+'?different=1',rights,'2026-11-10'),null);
+  p.expires_on='2026-11-09';assert.equal(approvedPhoto(p.venue_slug,p.src,rights,'2026-11-10'),null);
+  p.expires_on=null;p.permitted_use.cdn_cache=false;assert.equal(approvedPhoto(p.venue_slug,p.src,rights,'2026-11-10'),null);
+});
+test('exclusions beat approvals and cannot be reused at a different venue', () => {
+  const p=valid(),rights={approved:[p],excluded:[{venue_slug:'other-hotel',status:'excluded',images:[p.src]}]};
+  assert.equal(approvedPhoto(p.venue_slug,p.src,rights),null);
+  rights.excluded=[{venue_slug:p.venue_slug,status:'excluded',images:[]}];
+  assert.deepEqual(selectedOfficialPhotos({slug:p.venue_slug,photos_official:[{src:p.src}]},rights),[]);
+});
+test('build rejects undocumented official selections', () => {
+  const root=fs.mkdtempSync(path.join(os.tmpdir(),'photo-rights-'));
+  try { fs.mkdirSync(path.join(root,'content'));fs.writeFileSync(path.join(root,'content/hotel.md'),'---\nslug: fixture-hotel\nphotos_official:\n- src: https://example.com/photo.jpg\n---\n');
+    assert.throws(()=>validate(root,{approved:[],excluded:[]}),/undocumented/);
+    assert.equal(validate(root,{approved:[valid()],excluded:[]}),1);
+  } finally { fs.rmSync(root,{recursive:true,force:true}); }
+});
+test('every quarantined venue has documented replacements and correct area labels', () => {
+  const matter=require('gray-matter');const pending=require('../docs/import/official-photo-pending.json').venues;
+  assert.equal(Object.keys(pending).length,117);assert.equal(registry().excluded.length,6);
+  for (const key of Object.keys(pending)) {
+    const data=matter(fs.readFileSync(pending[key].source_file,'utf8')).data;
+    assert.equal(data.photos_official,undefined,key);
+    const card=cardPhoto(data),gallery=photoGalleryFor(data);
+    assert.ok(card&&gallery.length>=1,key);
+    for (const p of [card,...gallery]) { assert.ok(p.author&&p.license&&p.source_url&&p.changes,p.id);assert.ok(fs.existsSync('.'+p.src),p.src);if(!p.contextual)assert.ok(p.property_slug===data.slug||(p.property_slugs||[]).includes(data.slug),p.id); }
+    if(card.contextual)assert.equal(card.areaLabel,card.caption,key);
+  }
+});
+test('candidate importer cannot restore pending or excluded photos', () => {
+  const files=fs.readdirSync('content',{recursive:true}).filter(f=>f.endsWith('.md'));
+  const before=files.map(f=>fs.readFileSync('content/'+f,'utf8'));
+  const output=execFileSync(process.execPath,['scripts/import/official.js'],{encoding:'utf8'});
+  assert.match(output,/photos_official added: 0/);
+  files.forEach((f,i)=>assert.equal(fs.readFileSync('content/'+f,'utf8'),before[i],f));
+});
+
+test('responsive photo candidates do not overstate native resolution', () => {
+  const {srcset}=require('../lib/ui');
+  const photos=require('../_data/editorialPhotos.json').filter(p=>p.width<1280);
+  assert.ok(photos.length>0);
+  for(const p of photos)for(const candidate of srcset(p.src).split(',').filter(Boolean))assert.ok(Number(candidate.trim().split(' ').pop().replace('w',''))<=p.width,p.id);
+});
+
+test('generated images cannot bypass rights checks through raw HTML or CDN URLs',()=>{
+  const check=require('../scripts/validate-built-photo-rights');
+  const root=fs.mkdtempSync(path.join(os.tmpdir(),'photo-build-'));
+  try {
+    fs.writeFileSync(path.join(root,'index.html'),'<img src="/.netlify/images?url=https%3A%2F%2Fexample.com%2Fphoto.jpg&amp;w=1280">');
+    assert.throws(()=>check(root,{approved:[],excluded:[]}),/without current rights approval/);
+    check(root,{approved:[valid()],excluded:[]});
+    fs.writeFileSync(path.join(root,'index.html'),'<img src="/images/blocked.jpg">');
+    assert.throws(()=>check(root,{approved:[],excluded:[{status:'excluded',images:['/images/blocked.jpg']}]}),/without current rights approval/);
+  } finally {fs.rmSync(root,{recursive:true,force:true});}
+});

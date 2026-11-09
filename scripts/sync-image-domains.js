@@ -4,6 +4,7 @@
 // Run after adding official photos:  node scripts/sync-image-domains.js
 const fs = require('node:fs'), path = require('node:path'), matter = require('gray-matter');
 const root = path.resolve(__dirname, '..');
+require('./validate-photo-rights')();
 const hosts = new Set();
 for (const dir of fs.readdirSync(path.join(root, 'content'))) {
   const full = path.join(root, 'content', dir);

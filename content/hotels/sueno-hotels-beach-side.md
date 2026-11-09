@@ -15,12 +15,6 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: Sueno's Side property is in the Sorgun area of Manavgat.
 booking_note: Use the Side property name on transfer bookings and check seasonal family and activity facilities.
-photos_official:
-- src: https://beach.sueno.com.tr/wp-content/uploads/2024/02/sueno-hotels-beach-side-hotel-side-sokagi-1-255x191.webp
-- src: https://beach.sueno.com.tr/wp-content/uploads/2024/02/sueno-hotels-beach-side-antalya-fish-alacarte-restaurant-255x383.webp
-- src: https://beach.sueno.com.tr/wp-content/uploads/2024/02/sueno-hotels-beach-side-bars-ada-bar-255x191.webp
-- src: https://beach.sueno.com.tr/wp-content/uploads/2024/02/sueno-hotels-beach-side-hotel-spa-1-255x383.webp
-photo_source: https://beach.sueno.com.tr/en/anasayfa-en/
 ---
 Sueno's Side property is in the Sorgun area of Manavgat. It offers a separate coastal base from the group's Belek golf hotels.
 

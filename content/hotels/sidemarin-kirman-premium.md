@@ -15,9 +15,6 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: A Kumköy-area resort listed by Kirman with a private pier and aquapark.
 booking_note: Confirm transport to ancient Side and current pier access.
-photos_official:
-- src: https://www.kirmanpremium.com/image/icerik/676008f8da8d9.jpg
-photo_source: https://www.kirmanpremium.com/sidemarin-kirman-premium
 ---
 A Kumköy-area resort listed by Kirman with a private pier and aquapark. Its Side location makes it a different base from the group's Alanya–Okurcalar properties.
 

@@ -125,3 +125,7 @@ photo_id: "editorial-photo-id"
 6. `npm run validate` — must pass. Fix, never skip.
 7. One commit: `content: YYYY-MM-DD — N items (hotels: …, events: …)`; push to `main` (one deploy).
 8. Report what was added, with links, and anything skipped and why.
+
+## Venue photo rights gate
+
+Official-site photo URLs require asset-specific reviewed rights in `docs/photo-rights.json` before import or publication. Source attribution alone is not a licence. Follow `docs/photo-rights-policy.md`; preserve the pending/exclusion registers. Without clearance, keep the existing licensed property archive or accurately captioned area fallback. Never bypass the build check to publish an admin upload or scraped URL.

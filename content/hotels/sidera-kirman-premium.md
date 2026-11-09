@@ -15,9 +15,6 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: An Okurcalar resort with an aquapark and a private pier listed in the group's comparison.
 booking_note: A couples-oriented description does not mean adults-only. Confirm the guest-age policy directly.
-photos_official:
-- src: https://www.kirmanpremium.com/image/icerik/676008ea60b59.jpg
-photo_source: https://www.kirmanpremium.com/sidera-kirman-premium
 ---
 An Okurcalar resort with an aquapark and a private pier listed in the group's comparison. Kirman positions Sidera particularly for couples, while it remains part of the broader resort collection.
 

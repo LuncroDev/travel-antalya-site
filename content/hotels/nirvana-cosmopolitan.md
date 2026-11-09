@@ -14,9 +14,6 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: Nirvana's Lara property is in Güzeloba, Muratpaşa, on Yaşar Sobutay Bulvarı.
 booking_note: Confirm the current all-inclusive concept and which City Club facilities are available to staying guests.
-photos_official:
-- src: https://www.nirvanahotels.com.tr/_nuxt/img/CP-experience-top.0fcb32b.jpg
-photo_source: https://www.nirvanahotels.com.tr/oteller/nirvana-cosmopolitan
 ---
 Nirvana's Lara property is in Güzeloba, Muratpaşa, on Yaşar Sobutay Bulvarı. The hotel combines the group's beach-holiday offering with its Cosmopolitan City Club setting.
 

@@ -15,12 +15,6 @@ category: Modern international
 tagline: A British chef-led old-town restaurant with Mediterranean cooking and Thai influences.
 source_label: Official venue information
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
-photos_official:
-- src: https://vanillaantalya.com/uploads/0a6f745227bb5c5f.webp
-- src: https://vanillaantalya.com/uploads/d6915e4cbc1a6200.webp
-- src: https://vanillaantalya.com/uploads/d2960cdc2311eab8.webp
-- src: https://vanillaantalya.com/uploads/0972b1575ca945b4.webp
-photo_source: https://vanillaantalya.com/
 ---
 Vanilla has operated in Kaleiçi since 2007. Its official site describes a British chef’s kitchen in a historic stone setting, with seafood, grills, vegetarian plates and international flavours.
 

@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "approved": [],
+  "excluded": [
+    {
+      "venue_slug": "limak-arcadia-sport-resort",
+      "status": "excluded",
+      "reason": "Previously removed after CDN availability or property-identity review; requires a new explicit review before reinstatement.",
+      "source_commit": "f2f65f3e4f4f00c3a5860b22920813d5065ad008",
+      "images": [
+        "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/PRESIDENTEL+SUITE+1-1920w.jpg"
+      ]
+    },
+    {
+      "venue_slug": "limak-atlantis-deluxe-hotel-resort",
+      "status": "excluded",
+      "reason": "Previously removed after CDN availability or property-identity review; requires a new explicit review before reinstatement.",
+      "source_commit": "f2f65f3e4f4f00c3a5860b22920813d5065ad008",
+      "images": [
+        "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/Presidential+Villa+with+private+pool%2833%29-2880w.JPG"
+      ]
+    },
+    {
+      "venue_slug": "limak-lara-deluxe-hotel-resort",
+      "status": "excluded",
+      "reason": "Previously removed after CDN availability or property-identity review; requires a new explicit review before reinstatement.",
+      "source_commit": "f2f65f3e4f4f00c3a5860b22920813d5065ad008",
+      "images": [
+        "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/Presidential+Villa+with+private+pool%2833%29-2880w.JPG",
+        "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/Alacarte-2880w.jpg",
+        "https://irt-cdn.multiscreensite.com/md/dmtmpl/dms3rep/multi/woman_relaxing_water.jpg",
+        "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/GENEL+ALAN+%285%29-2880w.jpg"
+      ]
+    },
+    {
+      "venue_slug": "limak-limra-hotel-resort",
+      "status": "excluded",
+      "reason": "Previously removed after CDN availability or property-identity review; requires a new explicit review before reinstatement.",
+      "source_commit": "f2f65f3e4f4f00c3a5860b22920813d5065ad008",
+      "images": [
+        "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/Presidential+Villa+with+private+pool%2833%29-2880w.JPG"
+      ]
+    },
+    {
+      "venue_slug": "susesi-luxury-resort",
+      "status": "excluded",
+      "reason": "Previously removed after CDN availability or property-identity review; requires a new explicit review before reinstatement.",
+      "source_commit": "f2f65f3e4f4f00c3a5860b22920813d5065ad008",
+      "images": [
+        "https://www.susesihotel.com/media/ne5hikm2/susesi-luxury-resort-mainpage-banner-desktop.jpg",
+        "https://www.susesihotel.com/media/klsdxbxf/susesi-luxury-resort-mainpage-banner-desktop-2.jpg",
+        "https://www.susesihotel.com/media/15umq25e/susesi-luxury-resort-mainpage-banner-desktop-3.jpg",
+        "https://www.susesihotel.com/media/0wbfo3bu/susesi-luxury-resort-mainpage-banner-desktop-4.jpg"
+      ]
+    },
+    {
+      "venue_slug": "antalya-balikevi",
+      "status": "excluded",
+      "reason": "Previously removed after CDN availability or property-identity review; requires a new explicit review before reinstatement.",
+      "source_commit": "f2f65f3e4f4f00c3a5860b22920813d5065ad008",
+      "images": [
+        "https://antalyabalikevi.com.tr/wp-content/themes/antalyabalikevi/image/Galeri/polaroid/Galeri%202.jpg",
+        "https://antalyabalikevi.com.tr/wp-content/uploads/2026/09/antalya-balikevi-image-1.jpeg",
+        "https://antalyabalikevi.com.tr/wp-content/themes/antalyabalikevi/image/Galeri/polaroid/Galeri%204.jpg",
+        "https://antalyabalikevi.com.tr/wp-content/themes/antalyabalikevi/image/Galeri/polaroid/Galeri%205.jpg"
+      ]
+    }
+  ]
+}

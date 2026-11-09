@@ -1,0 +1,1307 @@
+{
+  "note": "These selections are not rendered. Project records reviewed did not contain asset-specific reuse evidence. This is not a finding of infringement; permission may exist outside the project. Original selections are retained for review.",
+  "snapshot": "22b31077405ee21a2c7dab96b4bc87635c5c1ed7",
+  "venues": {
+    "hotels/tuvana-hotel": {
+      "source_page": "https://tuvanahotel.com/",
+      "images": [
+        "https://tuvanahotel.com/wp-content/uploads/2013/01/tuvanahotel-1024x525.jpg",
+        "https://tuvanahotel.com/wp-content/uploads/2016/08/Tuvana-Hotel-mainpage-1024x523.jpg",
+        "https://tuvanahotel.com/wp-content/uploads/2012/07/tuvanahotel2-1024x525.jpg",
+        "https://tuvanahotel.com/wp-content/uploads/2012/07/tuvanahotel3-1024x525.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/tuvana-hotel.md"
+    },
+    "hotels/voyage-belek-golf-spa": {
+      "source_page": "https://www.voyagehotel.com/en/voyage-belek-spa",
+      "images": [
+        "https://voyagecdn.blob.core.windows.net/mediafiles/uploads/VBE_Lifestyle_2024_26-768x690.jpg",
+        "https://voyagecdn.blob.core.windows.net/mediafiles/uploads/Voyage-Belek-General-View-2637207412574962909.jpg",
+        "https://voyagecdn.blob.core.windows.net/mediafiles/uploads/Voyage-Belek-Dublex-Villa-Garden-2637189349395447984.jpg",
+        "https://voyagecdn.blob.core.windows.net/mediafiles/uploads/Voyage-Belek-Kebappa-A-la-Carte-8637189349395450026.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/voyage-belek-golf-spa.md"
+    },
+    "hotels/calyptus-kirman-premium": {
+      "source_page": "https://www.kirmanpremium.com/calyptus-kirman-premium",
+      "images": [
+        "https://www.kirmanpremium.com/image/icerik/676008c033e13.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/calyptus-kirman-premium.md"
+    },
+    "hotels/alaiye-resort": {
+      "source_page": "https://www.alaiyeresorthotel.com/en",
+      "images": [
+        "https://www.alaiyeresorthotel.com/content/opt/genel-oda-05366129544bd2953.15696286.jpeg",
+        "https://www.alaiyeresorthotel.com/content/opt/dji-0772-3-72066612a4ca5d8a59.62215484.jpg",
+        "https://www.alaiyeresorthotel.com/content/opt/restoran-d-0515366130f73290c11.70313667.jpeg",
+        "https://www.alaiyeresorthotel.com/content/files/eg-lence-1-386176a3285e0b8bdb3.61423927.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/alaiye-resort.md"
+    },
+    "hotels/sherwood-exclusive-lara": {
+      "source_page": "https://sherwoodhotels.com.tr/en/our-hotels/sherwood-exclusive-lara/",
+      "images": [
+        "https://sherwoodhotels.com.tr/media/o1yhtcv4/sherwood-exclusive-lara-anasayfa-banner-desktop.jpg",
+        "https://sherwoodhotels.com.tr/media/5ktbrtax/sherwood-exclusive-lara-anasayfa-spa-banner-d-2.jpg?width=1920&format=webp&quality=75",
+        "https://sherwoodhotels.com.tr/media/h4xbbo2y/sherwood-lara-konaklama-deluxe-room-card.jpg?width=780&format=webp&quality=75",
+        "https://sherwoodhotels.com.tr/media/cfbp5uik/sherwood-lara-konaklama-engelli-odasi-card.jpg?width=780&format=webp&quality=75"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/sherwood-exclusive-lara.md"
+    },
+    "hotels/papillon-ayscha": {
+      "source_page": "https://papillon.com.tr/en/papillon-hotels-6/",
+      "images": [
+        "https://papillon.com.tr/wp-content/uploads/2025/06/Papillon-Ayscha-Inspire-Drone-2-2048x1364.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/papillon-ayscha.md"
+    },
+    "hotels/paloma-perissia": {
+      "source_page": "https://www.palomahotels.com/en/paloma-perissia",
+      "images": [
+        "https://www.palomahotels.com/Content/imgUpload/10-06-2024-15-34-21perissia%20(1).jpg",
+        "https://www.palomahotels.com/Content/imgUpload/12-20-2020-7-12-55-PM10-9-2020-10-51-06-amperissiaindexlobby.jpg",
+        "https://www.palomahotels.com/Content/imgUpload/12-20-2020-7-13-38-PM10-8-2020-12-33-43-pmperissia-aerial-4-copy_edit.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/paloma-perissia.md"
+    },
+    "hotels/gloria-verde-resort": {
+      "source_page": "https://www.gloria.com.tr/en/hotels/gloria-verde-resort/",
+      "images": [
+        "https://www.gloria.com.tr/Content/Images/section/menu-bg.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/gloria-verde-resort.md"
+    },
+    "hotels/eftalia-ocean-hotel": {
+      "source_page": "https://eftaliahotels.com/en/eftalia-ocean-hotel-2/",
+      "images": [
+        "https://eftaliahotels.com/wp-content/uploads/2021/03/ocean-kaydirak2048-1-500x230.jpg",
+        "https://eftaliahotels.com/wp-content/uploads/2021/03/ocean2048-1-1-500x230.jpg",
+        "https://eftaliahotels.com/wp-content/uploads/2021/03/ocean-swim-up-2048-500x230.jpg",
+        "https://eftaliahotels.com/wp-content/uploads/2021/03/ocean-swimup-balkon-2048-500x230.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/eftalia-ocean-hotel.md"
+    },
+    "hotels/paloma-grida": {
+      "source_page": "https://www.palomahotels.com/en/paloma-grida",
+      "images": [
+        "https://www.palomahotels.com/Content/imgUpload/image-17-04-2026-10-51-03web%20slider%20grida2.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/paloma-grida.md"
+    },
+    "hotels/casa-sur-antalya": {
+      "source_page": "https://casasurantalya.com/",
+      "images": [
+        "https://casasurantalya.com/wp-content/uploads/2021/01/design-bathtub-720x540.jpg",
+        "https://casasurantalya.com/wp-content/uploads/2023/03/Surtable-Kaleici-768x1068.jpg",
+        "https://casasurantalya.com/wp-content/uploads/2021/01/terrace-bar-768x1035.jpg",
+        "https://casasurantalya.com/wp-content/uploads/2021/01/botanical-garden-768x1152.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/casa-sur-antalya.md"
+    },
+    "hotels/trendy-side-beach": {
+      "source_page": "https://trendy.com.tr/en/trendy-side-beach/",
+      "images": [
+        "https://trendy.com.tr/wp-content/uploads/2023/04/trendy-side-standard-room-1024x683-1.webp",
+        "https://trendy.com.tr/wp-content/uploads/2023/04/trendy-side-standard-room-1024x683-1-768x512.webp",
+        "https://trendy.com.tr/wp-content/uploads/2023/09/Trendy-Side-Beach-Hava-06_Buyuk-Boyut-1-1-768x512.jpg",
+        "https://trendy.com.tr/wp-content/uploads/2023/04/trendy-side-standard-room-main-1-1536x1024.webp"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/trendy-side-beach.md"
+    },
+    "hotels/arum-barut-collection": {
+      "source_page": "https://barutarum.com/en",
+      "images": [
+        "https://api.baruthotelsgroup.com/uploads/pages/67225f93-49b0-97fd-c9c9-c57bf6fc983c/837363c7f0de2c03519ce6bccba30300.jpg",
+        "https://api.baruthotelsgroup.com/uploads/pages/67225f93-49b0-97fd-c9c9-c57bf6fc983c/834ad9c3446dfcbe665bf218ce8582d1.jpg",
+        "https://api.baruthotelsgroup.com/uploads/pages/67225f93-49b0-97fd-c9c9-c57bf6fc983c/458ef5c9400ee20d7e8e352c422866e8.jpg",
+        "https://api.baruthotelsgroup.com/uploads/pages/67225f93-49b0-97fd-c9c9-c57bf6fc983c/28d4706eab8d32a8eed6128eef93f79c.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/arum-barut-collection.md"
+    },
+    "hotels/akka-alinda": {
+      "source_page": "https://www.akkahotels.com/en/hotels-contact",
+      "images": [
+        "https://cdn.akkahotels.com/Uploads/Cms/amor-1_86.webp"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/akka-alinda.md"
+    },
+    "hotels/acanthus-cennet-barut-collection": {
+      "source_page": "https://barutacanthuscennet.com/en",
+      "images": [
+        "https://barutacanthuscennet.com/uploads/02-2026/achantus-cennet-barut-collection-activitiy-image_1770738752.jpg",
+        "https://barutacanthuscennet.com/uploads/12-2025/achantus-cennet-barut-collection-ac-gorsel_1764667214.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/acanthus-cennet-barut-collection.md"
+    },
+    "hotels/trendy-lara": {
+      "source_page": "https://trendy.com.tr/en/",
+      "images": [
+        "https://trendy.com.tr/wp-content/uploads/2026/01/14.10.post_-2048x1152.jpg",
+        "https://trendy.com.tr/wp-content/uploads/2026/06/Genel-Gorunum-10-Orta_Boyut-2048x1366.webp",
+        "https://trendy.com.tr/wp-content/uploads/2026/06/Genel-Gorunum-05-Orta_Boyut-2048x1366.webp",
+        "https://trendy.com.tr/wp-content/uploads/2026/06/Genel-Gorunum-13-Orta_Boyut-2048x914.webp"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/trendy-lara.md"
+    },
+    "hotels/sherwood-exclusive-kemer": {
+      "source_page": "https://www.sherwoodhotels.com.tr/en/our-hotels/sherwood-exclusive-kemer/",
+      "images": [
+        "https://www.sherwoodhotels.com.tr/media/iogbsuso/sherwood-exlusive-kemer-banner.jpg",
+        "https://www.sherwoodhotels.com.tr/media/dbhn0535/sherwood-exclusive-kemer-anasayfa-spa-card4.jpg?width=1920&format=webp&quality=75",
+        "https://www.sherwoodhotels.com.tr/media/o5yg2egk/sherwood-exclusive-kemer-standar-oda-list-card.jpg?width=900&format=webp&quality=75",
+        "https://www.sherwoodhotels.com.tr/media/ofldbacm/sherwood-exclusive-kemer-deluxe-oda-list-card.jpg?width=900&format=webp&quality=75"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/sherwood-exclusive-kemer.md"
+    },
+    "hotels/sueno-hotels-golf-belek": {
+      "source_page": "https://golf.sueno.com.tr/en/anasayfa-en/",
+      "images": [
+        "https://golf.sueno.com.tr/wp-content/uploads/2025/11/SHDB-Meydan_002-255x191.webp",
+        "https://golf.sueno.com.tr/wp-content/uploads/2025/11/SHDB-Italian_Alacarte_02-255x383.webp",
+        "https://golf.sueno.com.tr/wp-content/uploads/2024/03/sueno-hotels-golf-belek-hotel-greens-bar-0-255x191.webp",
+        "https://golf.sueno.com.tr/wp-content/uploads/2024/03/sueno-hotels-golf-belek-hotel-spa-4-255x383.webp"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/sueno-hotels-golf-belek.md"
+    },
+    "hotels/ali-bey-resort-sorgun": {
+      "source_page": "https://www.alibey.com/en/resort",
+      "images": [
+        "https://www.alibey.com/content/upload/room-images/alibey-resort-sorgun-room-family-suit-room-mid.jpg",
+        "https://www.alibey.com/content/upload/room-images/Alibey_Resort_Sorgun_Dubleks_Aileorta.jpg",
+        "https://www.alibey.com/content/upload/room-images/Alibey_Sorgun_Resort_Deluks_Suit_Oda_Orta.jpg",
+        "https://www.alibey.com/content/upload/room-images/Alibey-Resort-Sorgun-Aile-Odasi_2.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/ali-bey-resort-sorgun.md"
+    },
+    "hotels/rixos-sungate": {
+      "source_page": "https://all.accor.com/hotel/B1K1/index.en.shtml",
+      "images": [
+        "https://www.ahstatic.com/photos/b1k1_ho_00_p_1024x768.jpg",
+        "https://www.ahstatic.com/photos/b1k1_ho_00_p_2048x1536.jpg",
+        "https://www.ahstatic.com/photos/b1k1_ho_01_p_2048x1536.jpg",
+        "https://www.ahstatic.com/photos/b1k1_ho_02_p_2048x1536.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/rixos-sungate.md"
+    },
+    "hotels/titanic-deluxe-lara": {
+      "source_page": "https://www.titanic.com.tr/titanic-deluxe-lara",
+      "images": [
+        "https://image-tc.galaxy.tf/wijpeg-4uksug88csk7i14vjd9msbtn9/home_og-image.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/titanic-deluxe-lara.md"
+    },
+    "hotels/kaya-belek": {
+      "source_page": "https://www.kayahotels.com/en/oteller/kaya-belek",
+      "images": [
+        "https://kayahotels.com/wp-content/uploads/2025/10/dj0575.fsqdw-1.webp"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/kaya-belek.md"
+    },
+    "hotels/cornelia-diamond-golf-resort-spa": {
+      "source_page": "https://corneliaresort.com/EN/Cornelia-Diamond-Luxury-Golf-Resort-Spa-Hotel-Belek-Antalya",
+      "images": [
+        "https://corneliaresort.com/uploads/1920px/dllerw.jpg",
+        "https://corneliaresort.com/uploads/640px/CORNELIA-DIAMOND-FAMILY-SUITE-BEDROOM11-1.jpg",
+        "https://corneliaresort.com/uploads/640px/83234804_Golf-Suit.jpeg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/cornelia-diamond-golf-resort-spa.md"
+    },
+    "hotels/delphin-be-grand-resort": {
+      "source_page": "https://www.delphinhotel.com/en/delphin-be-grand-resort",
+      "images": [
+        "https://www.delphinhotel.com/main_pics/pages/medium/1829.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/delphin-be-grand-resort.md"
+    },
+    "hotels/sunprime-c-lounge": {
+      "source_page": "https://www.c-loungehotel.com/",
+      "images": [
+        "https://irp.cdn-website.com/d5de3710/dms3rep/multi/opt/sunprime-1920w.jpg",
+        "https://irp.cdn-website.com/d5de3710/dms3rep/multi/opt/sunprime-1920w-180w.webp",
+        "https://irp.cdn-website.com/d5de3710/dms3rep/multi/opt/sunprime-93w.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/sunprime-c-lounge.md"
+    },
+    "hotels/regnum-carya": {
+      "source_page": "https://www.regnumhotels.com/en/hotels/regnum-carya/",
+      "images": [
+        "https://www.regnumhotels.com/media/5idlahuv/regnumcarya_generaview-01-banner-v2.jpg",
+        "https://www.regnumhotels.com/media/huuccry4/alia_sahil_sıcak_renk_reg25-banner.jpg",
+        "https://www.regnumhotels.com/media/23jlrgy1/regnum_bamboo_kids_world-3-banner.jpg",
+        "https://www.regnumhotels.com/media/rgefe2nc/regnumcarya_mainpool-01-slider.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/regnum-carya.md"
+    },
+    "hotels/leodikya-kirman-premium": {
+      "source_page": "https://www.kirmanpremium.com/leodikya-kirman-premium",
+      "images": [
+        "https://www.kirmanpremium.com/image/icerik/676008d49b475.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/leodikya-kirman-premium.md"
+    },
+    "hotels/trendy-aspendos-beach": {
+      "source_page": "https://trendy.com.tr/en/trendy-aspendos-beach/",
+      "images": [
+        "https://trendy.com.tr/wp-content/uploads/2023/04/trendy-aspendos-standard-room-2-2.webp",
+        "https://trendy.com.tr/wp-content/uploads/2023/04/trendy-aspendos-family-room-bunkbed-2-2048x1024.webp",
+        "https://trendy.com.tr/wp-content/uploads/2023/04/trendy-aspendos-standard-room-2-2-1536x1024.webp"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/trendy-aspendos-beach.md"
+    },
+    "hotels/gloria-golf-resort": {
+      "source_page": "https://www.gloria.com.tr/en/hotels/gloria-golf-resort/",
+      "images": [
+        "https://www.gloria.com.tr/Content/Images/section/menu-bg.jpg",
+        "https://www.gloria.com.tr/media/sosheohb/ggr_anasayfa_750x980.jpg",
+        "https://www.gloria.com.tr/media/1aqombiq/gloria-golf-resort-owner-villa.jpg",
+        "https://www.gloria.com.tr/media/rmafuzol/gloria-golf-resort-executive-villa.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/gloria-golf-resort.md"
+    },
+    "hotels/maxx-royal-belek-golf-resort": {
+      "source_page": "https://www.maxxroyal.com/",
+      "images": [
+        "https://www.maxxroyal.com/media/m45enuh3/mrr-moment5.jpg",
+        "https://www.maxxroyal.com/media/r5wdtj1a/00050_mr_100_f9x.jpg?rxy=0.7606516290726817%2C0.5009074410163339&width=1024&height=768",
+        "https://www.maxxroyal.com/media/amwjmwpo/maxxroyal_subat2024_101341.jpg?width=600&height=906",
+        "https://www.maxxroyal.com/media/3uhcxqdf/mrk_helicopter_2.jpg?width=600&height=906"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/maxx-royal-belek-golf-resort.md"
+    },
+    "hotels/delphin-diva": {
+      "source_page": "https://www.delphinhotel.com/en/delphin-diva",
+      "images": [
+        "https://www.delphinhotel.com/main_pics/pages/medium/1828.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/delphin-diva.md"
+    },
+    "hotels/akka-antedon": {
+      "source_page": "https://www.akkahotels.com/antedon/en",
+      "images": [
+        "https://cdn.akkahotels.com/Uploads/Cms/rooms_4258_36.webp"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/akka-antedon.md"
+    },
+    "hotels/calista-luxury-resort": {
+      "source_page": "https://www.calista.com.tr/en",
+      "images": [
+        "https://www.calista.com.tr/media/jxzhk0ni/calista-luxury-resort-villa-leo-galeri.jpg",
+        "https://www.calista.com.tr/media/dl4da4vu/calista-luxury-resort-villa-leo-galeri2.jpg",
+        "https://www.calista.com.tr/media/usnlnl2v/calista-luxury-resort-villa-leo-galeri3.jpg",
+        "https://www.calista.com.tr/media/2fvjxbvf/calista-luxury-resort-villa-leo-galeri4.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/calista-luxury-resort.md"
+    },
+    "hotels/nickelodeon-hotels-resorts-antalya": {
+      "source_page": "https://www.thelandoflegends.com/en/hotels/nickelodeon-hotel-antalya",
+      "images": [
+        "https://www.thelandoflegends.com/images/og-card.jpg",
+        "https://www.thelandoflegends.com/en/hotels/fit=scale-down/img/01a0cdec-c957-76bc-abf0-95a53bd22187/orig/source.webp",
+        "https://www.thelandoflegends.com/en/hotels/fit=scale-down/img/01a0cdf2-c6bf-7639-9fd5-63657405f5d1/orig/source.webp",
+        "https://www.thelandoflegends.com/en/hotels/fit=scale-down/img/01a0cdf2-d728-7587-baae-5124249d72fb/orig/source.webp"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/nickelodeon-hotels-resorts-antalya.md"
+    },
+    "hotels/delphin-imperial": {
+      "source_page": "https://www.delphinhotel.com/",
+      "images": [
+        "https://www.delphinhotel.com/panel_pics/images/Imperial-Genel-19-Orta_Boyut(1).jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/delphin-imperial.md"
+    },
+    "hotels/ic-hotels-green-palace-villas": {
+      "source_page": "https://www.ichotels.com.tr/en/our-hotels/green-palace-villas/",
+      "images": [
+        "https://www.ichotels.com.tr/media/hpwndlfk/ic-green-palace-konaklama-standart-oda-list-card.jpg",
+        "https://www.ichotels.com.tr/media/m0pnm4di/ic-green-palace-konaklama-aile-odasi-card.jpg",
+        "https://www.ichotels.com.tr/media/4nmbhtqn/ic-hotels-green-palace-villas-konaklama-engelli-odasi-card.jpg",
+        "https://www.ichotels.com.tr/media/ln2dednk/ic-hotels-green-palace-villas-konaklama-junior-suite-card.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/ic-hotels-green-palace-villas.md"
+    },
+    "hotels/the-land-of-legends-kingdom-hotel": {
+      "source_page": "https://www.thelandoflegends.com/en/hotels/kingdom-hotel",
+      "images": [
+        "https://www.thelandoflegends.com/images/og-card.jpg",
+        "https://www.thelandoflegends.com/en/hotels/fit=scale-down/img/01a0cdd8-3312-72e6-b149-6db51f10a4ab/orig/source.webp",
+        "https://www.thelandoflegends.com/en/hotels/fit=scale-down/img/01a0cde7-f311-717a-a422-29cde7bef908/orig/source.webp",
+        "https://www.thelandoflegends.com/en/hotels/fit=scale-down/img/01a0cde8-d5b1-7423-9fa5-c807f7e68649/orig/source.webp"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/the-land-of-legends-kingdom-hotel.md"
+    },
+    "hotels/sueno-hotels-beach-side": {
+      "source_page": "https://beach.sueno.com.tr/en/anasayfa-en/",
+      "images": [
+        "https://beach.sueno.com.tr/wp-content/uploads/2024/02/sueno-hotels-beach-side-hotel-side-sokagi-1-255x191.webp",
+        "https://beach.sueno.com.tr/wp-content/uploads/2024/02/sueno-hotels-beach-side-antalya-fish-alacarte-restaurant-255x383.webp",
+        "https://beach.sueno.com.tr/wp-content/uploads/2024/02/sueno-hotels-beach-side-bars-ada-bar-255x191.webp",
+        "https://beach.sueno.com.tr/wp-content/uploads/2024/02/sueno-hotels-beach-side-hotel-spa-1-255x383.webp"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/sueno-hotels-beach-side.md"
+    },
+    "hotels/mardan-palace": {
+      "source_page": "https://www.mardanpalace.com/",
+      "images": [
+        "https://framerusercontent.com/images/VoSXq8lRrpHPK9EGxTNG98HeeyM.jpg",
+        "https://framerusercontent.com/images/fdBS1uVRpHYCCxjgd5Cr5mIYIhg.jpg?lossless=1&width=1920&height=1360",
+        "https://framerusercontent.com/images/l91JrFasdcfOy7ib5sB1vtCBxtg.webp?width=1920&height=1610",
+        "https://framerusercontent.com/images/QlTESINViUTxXeOeBzX79Ev11A.webp?width=2560&height=1600"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/mardan-palace.md"
+    },
+    "hotels/paloma-oceana": {
+      "source_page": "https://www.palomahotels.com/en/paloma-oceana",
+      "images": [
+        "https://www.palomahotels.com/Content/imgUpload/10-06-2024-15-36-00oceana%20(1).jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/paloma-oceana.md"
+    },
+    "hotels/paloma-finesse-side": {
+      "source_page": "https://www.palomahotels.com/en/finesse-side",
+      "images": [
+        "https://www.palomahotels.com/Content/imgUpload/19-01-2026-11-16-22finesse-web-anaslider%20(2).jpg",
+        "https://www.palomahotels.com/Content/imgUpload/12-20-2020-8-31-25-PM12-7-2020-9-50-42-ampmfinesse-stillness.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/paloma-finesse-side.md"
+    },
+    "hotels/maxx-royal-kemer-resort": {
+      "source_page": "https://www.maxxroyal.com/Maxx-Royal-Kemer",
+      "images": [
+        "https://www.maxxroyal.com/media/tm1akjjx/maxxroyalkemerexperiences.jpg",
+        "https://www.maxxroyal.com/media/s4ugo5m1/maxx_royal_kemer_1_2_yatak_odali_suit.jpeg?width=448&height=224",
+        "https://www.maxxroyal.com/media/zofjwjmr/maxx-royal-kemer-yatak-odali-laguna.jpeg?width=448&height=224",
+        "https://www.maxxroyal.com/media/3crgj0my/maxx-royal-kemer-3-5-yatak-odali-villalar.jpeg?width=448&height=224"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/maxx-royal-kemer-resort.md"
+    },
+    "hotels/trendy-verbena-beach": {
+      "source_page": "https://trendy.com.tr/en/trendy-verbena-beach/",
+      "images": [
+        "https://trendy.com.tr/wp-content/uploads/2023/04/trendy-verbena-family-room-bunkbed-600px.webp",
+        "https://trendy.com.tr/wp-content/uploads/2023/04/trendy-verbena-eco-room-1-scaled-1-2048x913.webp",
+        "https://trendy.com.tr/wp-content/uploads/2023/04/trendy-verbena-family-room-bunkbed-1-scaled-1-2048x878.webp",
+        "https://trendy.com.tr/wp-content/uploads/2023/04/trendy-verbena-family-room-2-scaled-1-2048x878.webp"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/trendy-verbena-beach.md"
+    },
+    "hotels/akra-hotel": {
+      "source_page": "https://www.akrahotels.com/en/hotels/akra-antalya/",
+      "images": [
+        "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/ayblat5w/akra-antalya-anasayfa-list-card3.jpg",
+        "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/typlnrak/akra-antalya-anasayfa-card.jpg",
+        "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/ab4hxnub/akra-antalya-anasayfa-odalar-card.jpg",
+        "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/xqobow0r/akra-antalya-anasayfa-gastronomi-card.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/akra-hotel.md"
+    },
+    "hotels/delphin-palace": {
+      "source_page": "https://www.delphinhotel.com/en/delphin-palace",
+      "images": [
+        "https://www.delphinhotel.com/main_pics/pages/medium/1818.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/delphin-palace.md"
+    },
+    "hotels/ic-hotels-santai-family-resort": {
+      "source_page": "https://www.ichotels.com.tr/en/our-hotels/santai-family-resort/",
+      "images": [
+        "https://www.ichotels.com.tr/media/qernjapl/ic-hotels-santai-family-resort-konaklama-standart-deniz-manzarali-card.jpg",
+        "https://www.ichotels.com.tr/media/1pmlwp0c/ic-hotels-santai-family-resort-konaklama-engelli-odasi-card.jpg",
+        "https://www.ichotels.com.tr/media/0zehtv5e/ic-hotels-santai-family-junior-suite-card.jpg",
+        "https://www.ichotels.com.tr/media/sosjcsah/ic-hotels-santai-family-resort-konaklama-kids-suite-card.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/ic-hotels-santai-family-resort.md"
+    },
+    "hotels/lara-barut-collection": {
+      "source_page": "https://bayoulara.com/en",
+      "images": [
+        "https://api.baruthotelsgroup.com/uploads/menu_items/bc01e1af-5b5c-b5d4-9726-634e5cdf6502/958b50a096ce14d6a319310de5621678.jpg",
+        "https://api.baruthotelsgroup.com/uploads/menu_items/83a68105-487b-edfa-53a6-75b89ca86cb5/d2d6121a88f687026615c99fccbe1335.jpg",
+        "https://api.baruthotelsgroup.com/uploads/menu_items/e226fabe-a1f4-e6a5-3fc0-27cadc97e361/4578213346f123a5f9ce3b64a04d0713.jpg",
+        "https://api.baruthotelsgroup.com/uploads/menu_items/b94259a2-23ea-cb2c-c75e-a00ad6849423/a7839bececdd23f40650bb3e98207ad0.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/lara-barut-collection.md"
+    },
+    "hotels/titanic-luxury-collection-belek": {
+      "source_page": "https://www.titanic.com.tr/titanic-luxury-collection-belek",
+      "images": [
+        "https://image-tc.galaxy.tf/wijpeg-70lbivpy5ewurz76zhxs2tges/home_og-image.jpg",
+        "https://image-tc.galaxy.tf/wijpeg-5j3c7kogtupwz3h15ofn7s4q3/290-titanic-deluxe-golf-belek-beach.jpg?width=668&height=400",
+        "https://image-tc.galaxy.tf/wijpeg-1w4n5u8vg33n43foq2xkob79b/titanic-deluxe-golf-belek-bali-house-swim-up-1.jpg?width=668&height=400",
+        "https://image-tc.galaxy.tf/wijpeg-1qo6whhkimcvtfxfj7uo724fk/241-titanic-deluxe-golf-belek-asian-restaurant.jpg?width=668&height=400"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/titanic-luxury-collection-belek.md"
+    },
+    "hotels/concorde-de-luxe-resort": {
+      "source_page": "https://concordehotels.com/tr/oteller/concorde-de-luxe-resort",
+      "images": [
+        "https://concordehotels.com/media/zgfp4iw1/main-pool-3-kare.jpg?width=550&height=550&v=1dc808508252510",
+        "https://concordehotels.com/media/ptrgtp2g/h-deluxe-sea-view-1.webp?rxy=0.844967983913521,0.43285393973083053&width=358&height=203&quality=100&v=1dc9152eb032570",
+        "https://concordehotels.com/media/uc4lwaii/h-deluxe-superior-room-4.webp?width=358&height=203&quality=100&v=1dcc73f694fb250",
+        "https://concordehotels.com/media/4hsl323w/junior-suite-bedroom-1.webp?width=358&height=203&quality=100&v=1dc5eea92a09d30"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/concorde-de-luxe-resort.md"
+    },
+    "hotels/hideaway-hotel": {
+      "source_page": "https://www.hotelhideaway.com/",
+      "images": [
+        "https://www.hotelhideaway.com/wp-content/uploads/2025/12/DSC02883-HDR-4.jpg.webp",
+        "https://www.hotelhideaway.com/wp-content/uploads/2025/12/DSC02883-HDR-4-217x145.jpg.webp",
+        "https://www.hotelhideaway.com/wp-content/uploads/2025/12/DSC02883-HDR-4-770x513.jpg.webp",
+        "https://www.hotelhideaway.com/wp-content/uploads/2025/12/DSC07398-770x513.jpg.webp"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/hideaway-hotel.md"
+    },
+    "hotels/cullinan-belek": {
+      "source_page": "https://www.cullinanhotels.com/",
+      "images": [
+        "https://image-tc.galaxy.tf/wijpeg-8vspq3la9nfge8f8nthy2ffdt/cullinan-belek-general-13.jpg?width=668&height=400",
+        "https://image-tc.galaxy.tf/wijpeg-7gp0cdx1qdafvf9vian2zm1be/cullinan-belek-pool-6.jpg?width=668&height=400",
+        "https://image-tc.galaxy.tf/wijpeg-1cw1g4er4k4gutgj7gymi9lqn/cullinan-belek-azure-pool-1.jpg?width=668&height=400",
+        "https://image-tc.galaxy.tf/wijpeg-3a0if9yn9f4tp1lx9aqbc1t5x/cullinan-belek-main-restaurant-4.jpg?width=668&height=400"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/cullinan-belek.md"
+    },
+    "hotels/delphin-deluxe": {
+      "source_page": "https://www.delphinhotel.com/en/",
+      "images": [
+        "https://www.delphinhotel.com/main_pics/pages/medium/881.jpg",
+        "https://www.delphinhotel.com/panel_pics/images/Imperial-Genel-19-Orta_Boyut(1).jpg",
+        "https://www.delphinhotel.com/main_pics/pages/medium/882.jpg",
+        "https://www.delphinhotel.com/panel_pics/images/Be%20Grand-Genel-04-Orta_Boyut(1).jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/delphin-deluxe.md"
+    },
+    "hotels/ng-phaselis-bay": {
+      "source_page": "https://ngphaselisbay.com/en/",
+      "images": [
+        "https://ngphaselisbay.com/media/y2nnhycl/ng-phaselis-bay-slider-2025-1.jpg",
+        "https://ngphaselisbay.com/media/rnrl5lv0/ng-phaselis-bay-slider-2025-12-mobil.jpg",
+        "https://ngphaselisbay.com/media/sxwh2qtt/ng-phaselis-bay-slider-2025-2.jpg",
+        "https://ngphaselisbay.com/media/42xluq25/ng-phaselis-bay-slider-2025-21-mobil.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/ng-phaselis-bay.md"
+    },
+    "hotels/royal-wings-hotel": {
+      "source_page": "https://www.royalwingshotel.com/en",
+      "images": [
+        "https://cdn.woxxtech.com/httpsroyalwingshotel_com/media/group-110-1785228058549.webp",
+        "https://cdn.woxxtech.com/httpsroyalwingshotel/royal-wings-hotels-1786629517415_w32.webp",
+        "https://cdn.woxxtech.com/httpsroyalwingshotel/royal-wings-standard-room-09-1784809481892_w32.webp",
+        "https://cdn.woxxtech.com/httpsroyalwingshotel/royal-wings-standard-room-10-1784809501419_w32.webp"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/royal-wings-hotel.md"
+    },
+    "hotels/trendy-palm-beach": {
+      "source_page": "https://trendy.com.tr/en/trendy-palm-beach/",
+      "images": [
+        "https://trendy.com.tr/wp-content/uploads/2024/07/Ana-Bina-Suit-Deniz-Manzarali-Oda-02-Orta_Boyut-768x512.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/trendy-palm-beach.md"
+    },
+    "hotels/arycanda-kirman-premium": {
+      "source_page": "https://www.kirmanpremium.com/arycanda-kirman-premium",
+      "images": [
+        "https://www.kirmanpremium.com/image/icerik/6760089e179e1.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/arycanda-kirman-premium.md"
+    },
+    "hotels/sunis-kumkoy-beach-resort-hotel-spa": {
+      "source_page": "https://www.kumkoybeachresort.com/",
+      "images": [
+        "https://www.kumkoybeachresort.com/wp-content/uploads/2019/08/DJI_0610-scaled.jpg",
+        "https://www.kumkoybeachresort.com/wp-content/uploads/2019/08/DJI_0572-scaled.jpg",
+        "https://www.kumkoybeachresort.com/wp-content/uploads/2019/08/DJI_0537-scaled.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/sunis-kumkoy-beach-resort-hotel-spa.md"
+    },
+    "hotels/gloria-serenity-resort": {
+      "source_page": "https://www.gloria.com.tr/en/hotels/gloria-serenity-resort/",
+      "images": [
+        "https://www.gloria.com.tr/media/klinynue/gloria-serenity-resort-presidential-villa.jpg",
+        "https://www.gloria.com.tr/media/3rykpplz/serenity-list-photo.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/gloria-serenity-resort.md"
+    },
+    "hotels/paloma-sencia": {
+      "source_page": "https://www.palomahotels.com/en/paloma-sencia",
+      "images": [
+        "https://www.palomahotels.com/Content/imgUpload/16-10-2026-15-01-14sencia-anaslider-1920x1080.jpg",
+        "https://www.palomahotels.com/Content/imgUpload/image-16-10-2026-16-06-32sencia.jpg",
+        "https://www.palomahotels.com/Content/imgUpload/image-27-12-2024-16-39-19palomasencia_discover_1.jpg",
+        "https://www.palomahotels.com/Content/imgUpload/image-30-12-2024-14-44-41palomasencia_discover_2.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/paloma-sencia.md"
+    },
+    "hotels/delphin-botanik-hotel-resort": {
+      "source_page": "https://www.delphinhotel.com/en/botanik-hotel-resort",
+      "images": [
+        "https://www.delphinhotel.com/main_pics/pages/medium/1844.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/delphin-botanik-hotel-resort.md"
+    },
+    "hotels/kaya-side": {
+      "source_page": "https://www.kayahotels.com/en/oteller/kaya-side",
+      "images": [
+        "https://kayahotels.com/wp-content/uploads/2025/10/kaya-side-general-view-1.gcvmo-2.webp"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/kaya-side.md"
+    },
+    "hotels/sidera-kirman-premium": {
+      "source_page": "https://www.kirmanpremium.com/sidera-kirman-premium",
+      "images": [
+        "https://www.kirmanpremium.com/image/icerik/676008ea60b59.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/sidera-kirman-premium.md"
+    },
+    "hotels/delphin-botanik-platinum": {
+      "source_page": "https://www.delphinhotel.com/en/botanik-platinum",
+      "images": [
+        "https://www.delphinhotel.com/main_pics/pages/medium/1843.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/delphin-botanik-platinum.md"
+    },
+    "hotels/sueno-hotels-deluxe-belek": {
+      "source_page": "https://deluxe.sueno.com.tr/en/anasayfa-en/",
+      "images": [
+        "https://deluxe.sueno.com.tr/wp-content/uploads/2024/04/Sueno-hotels-deluxe-belek-italian-a-la-carte-restaurant-255x383.webp",
+        "https://deluxe.sueno.com.tr/wp-content/uploads/2024/04/Sueno-hotels-deluxe-belek-lounge-bar-24-hour-255x191.webp",
+        "https://deluxe.sueno.com.tr/wp-content/uploads/2024/04/Sueno-hotels-deluxe-belek-spa-center-255x383.webp",
+        "https://deluxe.sueno.com.tr/wp-content/uploads/2024/04/sueno-hotels-deluxe-belek-wellness-255x383.webp"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/sueno-hotels-deluxe-belek.md"
+    },
+    "hotels/rixos-park-belek": {
+      "source_page": "https://all.accor.com/hotel/C1D1/index.en.shtml",
+      "images": [
+        "https://www.ahstatic.com/photos/c1d1_ho_00_p_1024x768.jpg",
+        "https://www.ahstatic.com/photos/c1d1_ho_00_p_2048x1536.jpg",
+        "https://www.ahstatic.com/photos/c1d1_ho_01_p_2048x1536.jpg",
+        "https://www.ahstatic.com/photos/c1d1_ho_02_p_2048x1536.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/rixos-park-belek.md"
+    },
+    "hotels/pine-beach-belek": {
+      "source_page": "https://www.pinebeach.com.tr/en",
+      "images": [
+        "https://www.pinebeach.com.tr/media/images/pine-beach-kus-bakisi.jpg",
+        "https://www.pinebeach.com.tr/media/images/honeymoon-vacation.jpg",
+        "https://www.pinebeach.com.tr/media/images/tesis-ve-imkanlar/ala-carte.jpg",
+        "https://www.pinebeach.com.tr/media/images/tesis-ve-imkanlar/spa-havuz.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/pine-beach-belek.md"
+    },
+    "hotels/sunis-evren-beach-resort-hotel-spa": {
+      "source_page": "https://evrenbeachresort.com/",
+      "images": [
+        "https://evrenbeachresort.com/wp-content/uploads/2024/12/RiECQ80Nj6cJ-700x467.jpg",
+        "https://evrenbeachresort.com/wp-content/uploads/2019/08/GENEL-2-1-scaled.jpg",
+        "https://evrenbeachresort.com/wp-content/uploads/2019/08/DJI_0089-1-scaled.jpg",
+        "https://evrenbeachresort.com/wp-content/uploads/2019/08/juhAanwbdkEY.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/sunis-evren-beach-resort-hotel-spa.md"
+    },
+    "hotels/akra-kemer": {
+      "source_page": "https://www.akrahotels.com/en/hotels/akra-kemer/about-us/",
+      "images": [
+        "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/csslben2/akra-kemer-hakkimizda-banner.jpg",
+        "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/xivpgjsn/akra-kemer-mainpage-card.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/akra-kemer.md"
+    },
+    "hotels/fidanka-hotel": {
+      "source_page": "https://fidanka.com/en/",
+      "images": [
+        "https://fidanka.com/dacegug/2025/06/9616_4337_4245-galeri_12-768x502.jpg",
+        "https://fidanka.com/dacegug/2025/06/4016_4337_4245-galeri_13-768x512.jpg",
+        "https://fidanka.com/dacegug/2025/06/5216_4337_3297-01.jpg",
+        "https://fidanka.com/dacegug/2025/06/5216_4337_3296-02.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/fidanka-hotel.md"
+    },
+    "hotels/sidemarin-kirman-premium": {
+      "source_page": "https://www.kirmanpremium.com/sidemarin-kirman-premium",
+      "images": [
+        "https://www.kirmanpremium.com/image/icerik/676008f8da8d9.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/sidemarin-kirman-premium.md"
+    },
+    "hotels/villa-mahal": {
+      "source_page": "https://villamahal.com/overview/",
+      "images": [
+        "https://villamahal.com/images/anasayfa1.jpg",
+        "https://villamahal.com/images/cta.jpg",
+        "https://villamahal.com/images/overview1.webp?v=1786620956",
+        "https://villamahal.com/images/overview2.webp?v=1786621574"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/villa-mahal.md"
+    },
+    "hotels/rixos-downtown-antalya": {
+      "source_page": "https://all.accor.com/hotel/B1K0/index.en.shtml",
+      "images": [
+        "https://www.ahstatic.com/photos/b1k0_ho_00_p_1024x768.jpg",
+        "https://www.ahstatic.com/photos/b1k0_ho_00_p_2048x1536.jpg",
+        "https://www.ahstatic.com/photos/b1k0_ho_01_p_2048x1536.jpg",
+        "https://www.ahstatic.com/photos/b1k0_ho_02_p_2048x1536.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/rixos-downtown-antalya.md"
+    },
+    "hotels/rixos-premium-tekirova": {
+      "source_page": "https://all.accor.com/hotel/B1J3/index.en.shtml",
+      "images": [
+        "https://www.ahstatic.com/photos/b1j3_ho_00_p_1024x768.jpg",
+        "https://www.ahstatic.com/photos/b1j3_ho_00_p_2048x1536.jpg",
+        "https://www.ahstatic.com/photos/b1j3_ho_01_p_2048x1536.jpg",
+        "https://www.ahstatic.com/photos/b1j3_ho_02_p_2048x1536.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/rixos-premium-tekirova.md"
+    },
+    "hotels/hotel-su-aqualand": {
+      "source_page": "https://www.hotelsu.com.tr/",
+      "images": [
+        "https://www.hotelsu.com.tr/wp-content/uploads/2019/08/GENEL-2-1400x700.jpg",
+        "https://www.hotelsu.com.tr/wp-content/uploads/2025/01/LOUNGE-2-scaled.jpg",
+        "https://www.hotelsu.com.tr/wp-content/uploads/2025/01/TEK_2926-700x955.jpg",
+        "https://www.hotelsu.com.tr/wp-content/uploads/2025/01/95-HAFTA-3-1024x683.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/hotel-su-aqualand.md"
+    },
+    "hotels/rixos-premium-belek": {
+      "source_page": "https://all.accor.com/hotel/B1J5/index.en.shtml",
+      "images": [
+        "https://www.ahstatic.com/photos/b1j5_ho_00_p_1024x768.jpg",
+        "https://www.ahstatic.com/photos/b1j5_ho_00_p_2048x1536.jpg",
+        "https://www.ahstatic.com/photos/b1j5_ho_01_p_2048x1536.jpg",
+        "https://www.ahstatic.com/photos/b1j5_ho_02_p_2048x1536.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/rixos-premium-belek.md"
+    },
+    "hotels/voyage-sorgun": {
+      "source_page": "https://www.voyagehotel.com/en/voyage-sorgun",
+      "images": [
+        "https://voyagecdn.blob.core.windows.net/mediafiles/voyage_sorgun/VSO_main_375x375.jpg",
+        "https://voyagecdn.blob.core.windows.net/mediafiles/uploads/Voyage-Sorgun-Standard-Room-Bungalow-2637217924229477665.jpg",
+        "https://voyagecdn.blob.core.windows.net/mediafiles/voyage_sorgun/VSO_MainPool_419x608.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/voyage-sorgun.md"
+    },
+    "hotels/akra-v": {
+      "source_page": "https://www.akrahotels.com/en/hotels/akra-v/about-us/",
+      "images": [
+        "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/4thpb1by/akrav-general-d.jpg",
+        "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/y01j1eyg/akra-v-mainpage-card.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/akra-v.md"
+    },
+    "hotels/barut-hemera": {
+      "source_page": "https://baruthemera.com/en",
+      "images": [
+        "https://api.baruthotelsgroup.com/uploads/pages/d11a190e-6f1a-7d61-05c0-8cf5be0e3c90/136768070905499cdad81679d977159b.jpg",
+        "https://api.baruthotelsgroup.com/uploads/pages/d11a190e-6f1a-7d61-05c0-8cf5be0e3c90/0b58a4b01d5f67f7dca3c5026da1e52c.webp",
+        "https://api.baruthotelsgroup.com/uploads/pages/d11a190e-6f1a-7d61-05c0-8cf5be0e3c90/764663bb36d30bef101f6abdfd319419.webp",
+        "https://api.baruthotelsgroup.com/uploads/pages/d11a190e-6f1a-7d61-05c0-8cf5be0e3c90/cb981b1d6663cc32e677b059f02aeac0.webp"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/barut-hemera.md"
+    },
+    "hotels/paloma-orenda": {
+      "source_page": "https://www.palomahotels.com/en/paloma-orenda",
+      "images": [
+        "https://www.palomahotels.com/Content/imgUpload/16-10-2026-15-07-45orenda-videokapak-1920x1080.jpg",
+        "https://www.palomahotels.com/Content/imgUpload/10-06-2024-15-24-40orenda%20(2).jpg",
+        "https://www.palomahotels.com/Content/imgUpload/12-20-2020-5-50-27-PM10-6-2020-1-19-55-pmorenda-index1.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/paloma-orenda.md"
+    },
+    "hotels/ic-hotels-airport": {
+      "source_page": "https://www.ichotels.com.tr/en/our-hotels/airport/",
+      "images": [
+        "https://www.ichotels.com.tr/media/wpdltzaq/ic-airport-konaklama-standart-oda-list-card-1.jpg",
+        "https://www.ichotels.com.tr/media/xuofipay/ic-airport-konaklama-deluxe-standart-oda-list-car.jpg",
+        "https://www.ichotels.com.tr/media/32whhfyz/ic-airport-konaklama-deluxe-engelli-oda-card-d.jpg",
+        "https://www.ichotels.com.tr/media/5omfvloo/ic-airport-gastronomi-bristol-restoran-banner-main-card-d.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/ic-hotels-airport.md"
+    },
+    "hotels/ali-bey-club-manavgat": {
+      "source_page": "https://www.alibey.com/en/club",
+      "images": [
+        "https://www.alibey.com/content/upload/room-images/Alibey_Club_Manavgat_standart_oda_orta_1.jpg",
+        "https://www.alibey.com/content/upload/room-images/Alibey_Club_Manavgat_Standart_Aile_Odas%C4%B1_dik.jpg",
+        "https://www.alibey.com/content/upload/room-images/Alibey_Club_Manavgat_Superior_Oda_orta.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/ali-bey-club-manavgat.md"
+    },
+    "hotels/nirvana-cosmopolitan": {
+      "source_page": "https://www.nirvanahotels.com.tr/oteller/nirvana-cosmopolitan",
+      "images": [
+        "https://www.nirvanahotels.com.tr/_nuxt/img/CP-experience-top.0fcb32b.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/nirvana-cosmopolitan.md"
+    },
+    "hotels/papillon-belvil": {
+      "source_page": "https://papillon.com.tr/en/accommodation/",
+      "images": [
+        "https://papillon.com.tr/wp-content/uploads/2025/12/Papillon-Zeugma-Oda-Superior-Room-1406-02-min-1199x800.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/hotels/papillon-belvil.md"
+    },
+    "restaurants/vahap-usta-et-restaurant": {
+      "source_page": "https://vahaprestaurant.com/",
+      "images": [
+        "https://vahaprestaurant.com/wp-content/uploads/2024/05/creattion-demo.regular.webp",
+        "https://vahaprestaurant.com/wp-content/uploads/2024/05/cover-100x100.jpeg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/restaurants/vahap-usta-et-restaurant.md"
+    },
+    "restaurants/captain-pirate-restaurant-bar": {
+      "source_page": "https://captainpiraterestaurant.com/",
+      "images": [
+        "https://captainpiraterestaurant.com/wp-content/uploads/2023/10/DSC01188-scaled.jpeg",
+        "https://captainpiraterestaurant.com/wp-content/uploads/2023/10/DSC01188-600x750.jpeg",
+        "https://captainpiraterestaurant.com/wp-content/uploads/2023/10/DSC01231-600x750.jpeg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/restaurants/captain-pirate-restaurant-bar.md"
+    },
+    "restaurants/villa-okan-cafe-restaurant": {
+      "source_page": "https://www.villaokan.com/en/",
+      "images": [
+        "https://www.villaokan.com/sayfa/files/images/bg-11.jpg",
+        "https://www.villaokan.com/sayfa/files/images/bg-13.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/restaurants/villa-okan-cafe-restaurant.md"
+    },
+    "restaurants/korsan-meze": {
+      "source_page": "https://www.korsankalkan.com/en/korsan-meze/",
+      "images": [
+        "https://www.korsankalkan.com/wp-content/uploads/2020/12/2-Korsan-Kalkan-Korsan-Meze-2011-3-Copy.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/restaurants/korsan-meze.md"
+    },
+    "restaurants/7-mehmet": {
+      "source_page": "https://7mehmet.com/en/7-mehmet-antalya",
+      "images": [
+        "https://7mehmet.com/images/restaurant/1_7-mehmet-antalya_1.jpg",
+        "https://7mehmet.com/images/restaurant/1_7-mehmet-antalya_0.jpg",
+        "https://7mehmet.com/images/restaurant/1_7-mehmet-antalya_2.jpg?v=2.02",
+        "https://7mehmet.com/images/restaurant/1_7-mehmet-antalya_3.jpg?v=2.02"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/restaurants/7-mehmet.md"
+    },
+    "restaurants/korsan-fish-terrace": {
+      "source_page": "https://www.korsankalkan.com/en/korsan-fish-terrace/",
+      "images": [
+        "https://www.korsankalkan.com/wp-content/uploads/2020/12/1-Korsan-Kalkan-Korsan-Fish-Terrace-Restaurant-small.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/restaurants/korsan-fish-terrace.md"
+    },
+    "restaurants/mermerli-restaurant": {
+      "source_page": "https://www.mermerli.com.tr/",
+      "images": [
+        "https://www.mermerli.com.tr/uploads/products/15daccdd8ad171fe_1785928524.jpg",
+        "https://www.mermerli.com.tr/uploads/products/28bd3ffc81c61687_1785758980.jpg",
+        "https://www.mermerli.com.tr/uploads/products/d6b6d6876b4b86c3_1785754956.jpg",
+        "https://www.mermerli.com.tr/uploads/products/1ad36281839462ed_1785926197.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/restaurants/mermerli-restaurant.md"
+    },
+    "restaurants/asmani-restaurant": {
+      "source_page": "https://www.akrahotels.com/en/hotels/akra-antalya/gastronomy/restaurants/asmani-restaurant/",
+      "images": [
+        "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/gdydqeqd/akra-antalya-asmani-banner.jpg",
+        "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/b1maug3i/akra-antalya-asmani-banner1.jpg",
+        "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/zsej4s1q/akra-antalya-asmani-banner2.jpg",
+        "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/gyrpmlpc/akra-antalya-asmani-banner3.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/restaurants/asmani-restaurant.md"
+    },
+    "restaurants/seraser-fine-dining": {
+      "source_page": "https://www.seraserrestaurant.com/en/",
+      "images": [
+        "https://framerusercontent.com/images/Kwi7XGQcc9o4zmERIqOHqfJWhY.webp?width=6086&height=4169",
+        "https://framerusercontent.com/images/emvdNYNXbfClsId6omZdgvSKw.webp?width=4000&height=2709",
+        "https://framerusercontent.com/images/cQDXgpjKde65zFZ6CPvc5Z197E.webp?width=2250&height=2813",
+        "https://framerusercontent.com/images/DvclPURgSZoRYFwB3KbIF1EVk.webp?width=2250&height=2813"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/restaurants/seraser-fine-dining.md"
+    },
+    "restaurants/fatma-sultan-turk-mutfagi": {
+      "source_page": "https://www.fatmasultanrestaurant.com/tr",
+      "images": [
+        "https://static.wixstatic.com/media/a7e2f3_7563e779867045a3aea26fe36bf794cd~mv2.jpg/v1/fill/w_169,h_113,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a7e2f3_7563e779867045a3aea26fe36bf794cd~mv2.jpg",
+        "https://static.wixstatic.com/media/a7e2f3_7563e779867045a3aea26fe36bf794cd~mv2.jpg/v1/fill/w_147,h_98,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a7e2f3_7563e779867045a3aea26fe36bf794cd~mv2.jpg",
+        "https://static.wixstatic.com/media/a7e2f3_7962fbc8aff0461bb305fa7108c36fe8~mv2.jpg/v1/fill/w_122,h_163,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a7e2f3_7962fbc8aff0461bb305fa7108c36fe8~mv2.jpg",
+        "https://static.wixstatic.com/media/a7e2f3_6a7c2ed3b6134eb5a0aa53e27c2152a2~mv2.jpg/v1/fill/w_102,h_104,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a7e2f3_6a7c2ed3b6134eb5a0aa53e27c2152a2~mv2.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/restaurants/fatma-sultan-turk-mutfagi.md"
+    },
+    "restaurants/pablito-bistro": {
+      "source_page": "https://www.akrahotels.com/en/hotels/akra-antalya/gastronomy/restaurants/pablito-bistro/",
+      "images": [
+        "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/akllr41a/akra-antalya-pablito-bistro-banner.jpg",
+        "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/ra4fm43e/akra-antalya-pablito-bistro-banner1.jpg",
+        "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/pkuopn5v/akra-antalya-pablito-bistro-banner2.jpg",
+        "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/jgeign43/akra-antalya-pablito-bistro-banner3.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/restaurants/pablito-bistro.md"
+    },
+    "restaurants/nemo-restaurant-lounge": {
+      "source_page": "https://www.nemorestaurants.com/",
+      "images": [
+        "https://cdn.prod.website-files.com/676813ee717640eb15aace28/69e8c8ec284c0c15d2aa167b_Nemo%20Slider%20Image%201%20-%20Magical%20Evening.webp",
+        "https://cdn.prod.website-files.com/676813ee717640eb15aace28/69e8c8f3e5585eb0cc0c14e4_Nemo%20Slider%20Image%202%20-%20Art%20Of%20Dining.webp",
+        "https://cdn.prod.website-files.com/676813ee717640eb15aace28/69e8c8f82e57dd86a5d441d7_Nemo%20Slider%20Image%203%20-%20Embrace%20Elegance.webp",
+        "https://cdn.prod.website-files.com/676813ee717640eb15aace28/69ea08b18934147ca6390b1d_68baabfd9e25ae12b879bcec_68834346fc3d71c8560f4155_Nemo1823%20(1).webp"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/restaurants/nemo-restaurant-lounge.md"
+    },
+    "restaurants/lara-balik-isiklar": {
+      "source_page": "https://larabalik.com/",
+      "images": [
+        "https://larabalik.com/wp-content/uploads/2022/04/shop-img-01-01-600x394-1-300x197.jpg",
+        "https://larabalik.com/wp-content/uploads/2022/04/menu-img-595x1024.jpg",
+        "https://larabalik.com/wp-content/uploads/2022/04/menu-2-104x300.jpg",
+        "https://larabalik.com/wp-content/uploads/2023/01/060A4644-scaled.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/restaurants/lara-balik-isiklar.md"
+    },
+    "restaurants/tirmis": {
+      "source_page": "https://bayoulara.com/en/gastronomy/tirmis",
+      "images": [
+        "https://api.baruthotelsgroup.com/uploads/menu_items/bc01e1af-5b5c-b5d4-9726-634e5cdf6502/958b50a096ce14d6a319310de5621678.jpg",
+        "https://api.baruthotelsgroup.com/uploads/menu_items/83a68105-487b-edfa-53a6-75b89ca86cb5/d2d6121a88f687026615c99fccbe1335.jpg",
+        "https://api.baruthotelsgroup.com/uploads/menu_items/e226fabe-a1f4-e6a5-3fc0-27cadc97e361/4578213346f123a5f9ce3b64a04d0713.jpg",
+        "https://api.baruthotelsgroup.com/uploads/menu_items/b94259a2-23ea-cb2c-c75e-a00ad6849423/a7839bececdd23f40650bb3e98207ad0.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/restaurants/tirmis.md"
+    },
+    "restaurants/side-orfoz-restaurant": {
+      "source_page": "https://sideorfozrestaurant.com/EN",
+      "images": [
+        "https://sideorfozrestaurant.com/uploads/1920px/DSCF6110.jpg",
+        "https://sideorfozrestaurant.com/uploads/1920px/DSCF5333-Enhanced-NR.jpg",
+        "https://sideorfozrestaurant.com/uploads/1024px/DJI-0015.jpg",
+        "https://sideorfozrestaurant.com/uploads/640px/Orfoz-Yemek-Menu-EN-2026-2-of-14.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/restaurants/side-orfoz-restaurant.md"
+    },
+    "restaurants/kale-panorama-restaurant": {
+      "source_page": "https://alanyapanorama.com/",
+      "images": [
+        "https://alanyapanorama.com/upload/thump_1624447577.jpg",
+        "https://alanyapanorama.com/upload/galeri/thump_1781622518.jpeg",
+        "https://alanyapanorama.com/upload/galeri/thump_1781622529.jpeg",
+        "https://alanyapanorama.com/upload/galeri/thump_1775554604.jpeg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/restaurants/kale-panorama-restaurant.md"
+    },
+    "restaurants/parlak-restaurant": {
+      "source_page": "https://www.parlakrestaurant.com/",
+      "images": [
+        "https://www.parlakrestaurant.com/wp-content/uploads/2023/05/dana-pirzola-255x170.jpg",
+        "https://www.parlakrestaurant.com/wp-content/uploads/2023/12/DSCF2119-255x383.webp",
+        "https://www.parlakrestaurant.com/wp-content/uploads/2023/06/Yaprak-cigeri-tavuk-cigeri.jpg",
+        "https://www.parlakrestaurant.com/wp-content/uploads/2023/06/Atom-kokorec--e1687305475608-300x300.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/restaurants/parlak-restaurant.md"
+    },
+    "restaurants/hasanaga-restaurant": {
+      "source_page": "https://www.antalyabarosu.org.tr/Detay/karma-kalec-restoran-309000",
+      "images": [
+        "https://medya.barobirlik.org.tr/BaroWebSite/SiteAyarlari/7arkaPlan.jpg",
+        "https://medya.barobirlik.org.tr/BaroWebSite/Banner/7/1-baronet.jpg",
+        "https://medya.barobirlik.org.tr/BaroWebSite/Banner/7/3-20200720-115041_222.jpg",
+        "https://medya.barobirlik.org.tr/BaroWebSite/Banner/7/sag-yapayhesap.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/restaurants/hasanağa-restaurant.md"
+    },
+    "restaurants/vanilla-lounge": {
+      "source_page": "https://vanillaantalya.com/",
+      "images": [
+        "https://vanillaantalya.com/uploads/0a6f745227bb5c5f.webp",
+        "https://vanillaantalya.com/uploads/d6915e4cbc1a6200.webp",
+        "https://vanillaantalya.com/uploads/d2960cdc2311eab8.webp",
+        "https://vanillaantalya.com/uploads/0972b1575ca945b4.webp"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/restaurants/vanilla-lounge.md"
+    },
+    "restaurants/ravza-restaurant": {
+      "source_page": "https://www.ravzarestaurant.com/",
+      "images": [
+        "https://www.ravzarestaurant.com/wp-content/uploads/2022/09/ravz23.jpg",
+        "https://www.ravzarestaurant.com/wp-content/uploads/2023/05/kiremit-bonfile_main.webp",
+        "https://www.ravzarestaurant.com/wp-content/uploads/2021/05/huluklu-corba-950x634.jpg",
+        "https://www.ravzarestaurant.com/wp-content/uploads/2021/05/alanya-sealight-950x633.webp"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/restaurants/ravza-restaurant.md"
+    },
+    "restaurants/barinak-balik-evi-lara": {
+      "source_page": "https://www.barinakbalikevi.com/lara/",
+      "images": [
+        "https://www.barinakbalikevi.com/wp-content/uploads/2024/12/Snapinsta.app_461840906_1082573663670910_1945704481266935172_n_1080-1024x1024.jpg",
+        "https://www.barinakbalikevi.com/wp-content/uploads/2024/12/Snapinsta.app_461840906_1082573663670910_1945704481266935172_n_1080.jpg",
+        "https://www.barinakbalikevi.com/wp-content/uploads/2024/12/Snapinsta.app_321612689_1388014048621445_1813172985508198839_n_1080-e1728472951826-768x553.jpg",
+        "https://www.barinakbalikevi.com/wp-content/uploads/2024/12/Snapinsta.app_291601621_5296662220376548_4591650346579683349_n_1080-720x720.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/restaurants/barinak-balik-evi-lara.md"
+    },
+    "restaurants/sirali-kebap-antalya": {
+      "source_page": "https://www.siralikebap.com/",
+      "images": [
+        "https://www.siralikebap.com/wp-content/uploads/2025/10/left-2-2.jpg",
+        "https://www.siralikebap.com/wp-content/uploads/2022/10/slider_4-1500x550.jpg",
+        "https://www.siralikebap.com/wp-content/uploads/2022/10/slider_5-1500x550.jpg",
+        "https://www.siralikebap.com/wp-content/uploads/2022/10/slider_1-1500x550.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/restaurants/sirali-kebap-antalya.md"
+    },
+    "restaurants/ayar-meyhanesi": {
+      "source_page": "https://www.ayarmeyhanesi.com/en",
+      "images": [
+        "https://www.ayarmeyhanesi.com/images/about-main.jpg",
+        "https://www.ayarmeyhanesi.com/images/about-inset.jpg",
+        "https://www.ayarmeyhanesi.com/images/oduller_1.jpg",
+        "https://www.ayarmeyhanesi.com/images/oduller_2.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/restaurants/ayar-meyhanesi.md"
+    },
+    "restaurants/oburus-momus": {
+      "source_page": "https://www.oburus.com/momus/",
+      "images": [
+        "https://www.oburus.com/momus/wp-content/uploads/2024/06/cover.jpg",
+        "https://www.oburus.com/momus/wp-content/uploads/2024/06/410121067_18326991070103925_4340279911626338923_n.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/restaurants/oburus-momus.md"
+    },
+    "golf/montgomerie-maxx-royal-golf-club": {
+      "source_page": "https://www.montgomeriemaxxroyal.com/",
+      "images": [
+        "https://www.montgomeriemaxxroyal.com/media/pkpisvxl/montgomerie_maxx_royal_academy_25.jpg",
+        "https://www.montgomeriemaxxroyal.com/media/dzqieau0/montgomerie_maxx_royal_club_house_2021_filitreli.jpg?rxy=0.5%2C0.5676691729323309&width=1024&height=768",
+        "https://www.montgomeriemaxxroyal.com/media/0ytlcmxh/colin_montgomerie_12.jpg?width=600&height=906",
+        "https://www.montgomeriemaxxroyal.com/media/bnmhtw0j/mrb_cast_2027_66.jpg?width=600&height=736"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/golf/montgomerie-maxx-royal-golf-club.md"
+    },
+    "golf/robinson-nobilis-golf-club": {
+      "source_page": "https://www.robinson.com/en/en/resort-holiday/turkey/nobilis/club-details/",
+      "images": [
+        "https://www.robinson.com/fileadmin/media/_processed_/9/a/csm_nl44_11786_d229dbbcf1.jpg",
+        "https://www.robinson.com/media/_processed_/a/e/csm_RCNL_Pool_14917_WOL_2122b65d38.jpg",
+        "https://www.robinson.com/media/_processed_/3/f/csm_RCNL_drone_16577_WOL_b08ad2a828.jpg",
+        "https://www.robinson.com/media/_processed_/7/8/csm_RCNL_PeopleInResort_16537_WOL_60af5dd6d2.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/golf/robinson-nobilis-golf-club.md"
+    },
+    "golf/cornelia-golf-club": {
+      "source_page": "https://www.corneliaresort.com/EN/Cornelia-Golf-Club/about-course",
+      "images": [
+        "https://www.corneliaresort.com/uploads/1920px/dllerw.jpg",
+        "https://www.corneliaresort.com/uploads/1920px/Hole-27-Lakes-about.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/golf/cornelia-golf-club.md"
+    },
+    "golf/antalya-golf-club": {
+      "source_page": "https://agc.com.tr/?lang=en",
+      "images": [
+        "https://agc.com.tr/wp-content/uploads/2017/02/agc_slider1.jpg",
+        "https://agc.com.tr/wp-content/uploads/2017/02/home_footer_2.jpg",
+        "https://agc.com.tr/wp-content/uploads/2017/02/ThePasha-380x293.jpg",
+        "https://agc.com.tr/wp-content/uploads/2017/02/PGASultan-380x293.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/golf/antalya-golf-club.md"
+    },
+    "golf/national-golf-club": {
+      "source_page": "https://nationalturkey.com/",
+      "images": [
+        "https://nationalturkey.com/wp-content/uploads/2025/03/RegnumCarya_National_Golf_Club-301-2048x1150.jpg",
+        "https://nationalturkey.com/wp-content/uploads/2025/04/2B6A7909-2048x1152.jpg",
+        "https://nationalturkey.com/wp-content/uploads/2025/02/163_NATIONAL-GOLF-CLUB-PHOTO-2048x1366.jpg",
+        "https://nationalturkey.com/wp-content/uploads/2025/05/2B6A9399-2048x1152.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/golf/national-golf-club.md"
+    },
+    "golf/gloria-golf-club": {
+      "source_page": "https://www.gloria.com.tr/en/experiences/golf/courses/",
+      "images": [
+        "https://www.gloria.com.tr/Content/Images/section/menu-bg.jpg",
+        "https://www.gloria.com.tr/media/pynl4y0c/sahakapak.jpg",
+        "https://www.gloria.com.tr/media/fv5fg5np/glorianewcourse10_golfclub18th_l.jpg",
+        "https://www.gloria.com.tr/media/5bupo5fp/gloriaoldcourse33_golfclub_l.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/golf/gloria-golf-club.md"
+    },
+    "golf/lykia-links-antalya": {
+      "source_page": "https://lykiaworld.com/golf",
+      "images": [
+        "https://framerusercontent.com/images/bNLEmVuAlhLNNhrs6npeb6QaU.jpg?lossless=1&width=2880&height=570",
+        "https://framerusercontent.com/images/8NpPkCqOijeyoHsRVGWrhu53sI.jpg?width=1800&height=570",
+        "https://offload-assets.framercoder.com/66454b3a-4086-47fd-bfa4-4dbfa7265cd1/1a897ad6-22a3-4fd6-99c1-05f2ed511a8f_2FBrA7UntXxiSHs6pmrT8osmJBw.jpg?width=1650&height=810",
+        "https://offload-assets.framercoder.com/66454b3a-4086-47fd-bfa4-4dbfa7265cd1/523011b5-2c49-49d5-950c-20242a76bbfa_NFHvWPjvK1ny90V3iZ8EIxeC4.jpg?width=1650&height=810"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/golf/lykia-links-antalya.md"
+    },
+    "golf/sueno-golf-club": {
+      "source_page": "https://golfclub.sueno.com.tr/en/anasayfa-en/",
+      "images": [
+        "https://golfclub.sueno.com.tr/wp-content/uploads/2024/03/sueno-hotels-golf-club-pines-255x191.webp",
+        "https://golfclub.sueno.com.tr/wp-content/uploads/2024/03/sueno-hotels-golf-club-mid-255x383.webp",
+        "https://golfclub.sueno.com.tr/wp-content/uploads/2024/03/sueno-hotels-golf-club-dunes-255x191.webp",
+        "https://golfclub.sueno.com.tr/wp-content/uploads/2025/11/proshop2-255x383.webp"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/golf/sueno-golf-club.md"
+    },
+    "golf/cullinan-links-golf-club": {
+      "source_page": "https://www.cullinanlinksgolfclub.com/courses/general-information",
+      "images": [
+        "https://image-tc.galaxy.tf/wijpeg-83qwl3bbbaqd7uz4d9ea1dslg/22-sea-side.jpg?width=560",
+        "https://image-tc.galaxy.tf/wijpeg-6sqfknqu586cis63g0h9tsk4y/aspendos.jpg?width=560",
+        "https://image-tc.galaxy.tf/wijpeg-2juf1u7jxj0gn253vyypv5yoz/ga-rsel-4.jpg?width=560"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/golf/cullinan-links-golf-club.md"
+    },
+    "golf/carya-golf-club": {
+      "source_page": "https://www.caryagolf.com/en/",
+      "images": [
+        "https://www.caryagolf.com/media/td2ozrhm/regnumcarya_carya_golf_club-08-min-min-min.jpg",
+        "https://www.caryagolf.com/media/i22if3eb/regnumcarya_carya_golf_club-51-min-min-1-min.jpg",
+        "https://www.caryagolf.com/media/h5xhquzf/carya-golf-club-3-min-min-min.jpg",
+        "https://www.caryagolf.com/media/bg2k140w/carya-golf-club26-min-min-min.jpg"
+      ],
+      "status": "pending-rights-evidence",
+      "reviewed_on": "2026-11-10",
+      "source_file": "content/golf/carya-golf-club.md"
+    }
+  }
+}

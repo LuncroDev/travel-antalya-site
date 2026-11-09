@@ -9,7 +9,7 @@
     { name: 'last_checked', label: 'Facts checked on', type: 'date' }
   ];
   const venuePhotos = [
-    { name: 'photos_official', label: 'Photos', type: 'photos', hint: 'First photo is the cover. Paste image links from the official website or upload your own.' },
+    { name: 'photos_official', label: 'Photos', type: 'photos', hint: 'First photo is the cover. Only use exact assets approved in docs/photo-rights.json; an official website URL alone is not permission. Unapproved photos block publication.' },
     { name: 'photo_source', label: 'Page the photos came from', type: 'url' }
   ];
   const seo = { name: 'focus_keyword', label: 'Focus keyword (SEO)', type: 'text', hint: 'e.g. “best hotels in belek”' };

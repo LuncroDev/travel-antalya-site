@@ -1,4 +1,5 @@
 module.exports = function (eleventyConfig) {
+  eleventyConfig.on('eleventy.before', () => require('./scripts/validate-photo-rights')());
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("images");
@@ -18,7 +19,7 @@ module.exports = function (eleventyConfig) {
   for (const [name, fn] of Object.entries(require('./lib/ui'))) eleventyConfig.addFilter(name, fn);
   const eventUtils = require('./lib/events');
   for (const name of ['eventDate', 'eventStatus', 'eventStatusLabel', 'eventDateLabel']) eleventyConfig.addFilter(name, eventUtils[name]);
-  eleventyConfig.on('eleventy.after', () => require('./scripts/sitemap')());
+  eleventyConfig.on('eleventy.after', () => { require('./scripts/sitemap')(); require('./scripts/validate-built-photo-rights')(); });
   eleventyConfig.addGlobalData('buildDate', () => new Date().toISOString().slice(0, 10));
   eleventyConfig.addGlobalData('buildYear', () => new Date().getFullYear());
   eleventyConfig.addCollection('publicPages', api => api.getAll().filter(item => item.url && !item.url.startsWith('/content/') && !item.url.endsWith('.xml')));

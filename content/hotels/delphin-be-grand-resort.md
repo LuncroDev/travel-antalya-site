@@ -14,9 +14,6 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: A large Lara-coast resort in Güzeloba, Muratpaşa, with loft, connecting-room and family-room options.
 booking_note: Do not assume facilities or access are shared with the other Delphin properties.
-photos_official:
-- src: https://www.delphinhotel.com/main_pics/pages/medium/1829.jpg
-photo_source: https://www.delphinhotel.com/en/delphin-be-grand-resort
 ---
 A large Lara-coast resort in Güzeloba, Muratpaşa, with loft, connecting-room and family-room options. Six tennis courts and a substantial fitness centre are among the property's advertised sports facilities.
 

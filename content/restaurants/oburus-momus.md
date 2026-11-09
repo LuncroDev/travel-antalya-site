@@ -17,10 +17,6 @@ tagline: A plant-focused Kaş restaurant with globally inspired dishes and a pen
 source_label: Official venue information
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
 status_note: 'Seasonal/current status needs confirmation: business listing says temporarily closed; official website remains live.'
-photos_official:
-- src: https://www.oburus.com/momus/wp-content/uploads/2024/06/cover.jpg
-- src: https://www.oburus.com/momus/wp-content/uploads/2024/06/410121067_18326991070103925_4340279911626338923_n.jpg
-photo_source: https://www.oburus.com/momus/
 ---
 Oburus Momus is a vegan and vegetarian restaurant on the Kaş peninsula. Its menu draws on several cuisines, with vegetable bowls, noodles and dishes using ingredients such as tempeh.
 

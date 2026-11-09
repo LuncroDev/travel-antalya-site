@@ -14,12 +14,6 @@ category: Contemporary international and local cuisine
 tagline: Akra Antalya’s rooftop restaurant, combining a seasonal menu with Mediterranean views.
 source_label: Official venue information
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
-photos_official:
-- src: https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/gdydqeqd/akra-antalya-asmani-banner.jpg
-- src: https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/b1maug3i/akra-antalya-asmani-banner1.jpg
-- src: https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/zsej4s1q/akra-antalya-asmani-banner2.jpg
-- src: https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/gyrpmlpc/akra-antalya-asmani-banner3.jpg
-photo_source: https://www.akrahotels.com/en/hotels/akra-antalya/gastronomy/restaurants/asmani-restaurant/
 ---
 Asmani is the terrace restaurant at Akra Antalya. Its menu combines local flavours and international dishes, and the hotel describes its approach as casual fine dining with seasonal, farm-to-table influences.
 

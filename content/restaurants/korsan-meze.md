@@ -15,9 +15,6 @@ category: Turkish meze and Mediterranean
 tagline: A longstanding Kalkan restaurant overlooking the beach, with meze, lamb and seafood.
 source_label: Official venue information
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
-photos_official:
-- src: https://www.korsankalkan.com/wp-content/uploads/2020/12/2-Korsan-Kalkan-Korsan-Meze-2011-3-Copy.jpg
-photo_source: https://www.korsankalkan.com/en/korsan-meze/
 ---
 Korsan Meze was established in 1979 and occupies a beach-view position in Kalkan. Its menu spans traditional Turkish meze, lamb, kebabs, chicken, fish and vegetarian dishes.
 

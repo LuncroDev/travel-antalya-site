@@ -8,7 +8,7 @@
       {% for ph in gallery | take(3) %}
       {% if loop.first or gallery.length >= 3 %}
       <figure>
-        {{ pic(ph.src, ph.alt, ('(max-width: 860px) 100vw, 66vw' if loop.first else '33vw'), loop.first, ph.width, ph.height) }}
+        {{ pic(ph.src, ph.alt, ('(max-width: 860px) 100vw, 66vw' if loop.first else '33vw'), loop.first, ph.width, ph.height, '', ph.preserve_framing) }}
         <figcaption>{% if ph.contextual %}Area photo · {% endif %}{{ ph.caption }}</figcaption>
         {{ credit(ph) }}
       </figure>

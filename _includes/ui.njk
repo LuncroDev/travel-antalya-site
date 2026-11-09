@@ -48,15 +48,15 @@
 {%- endmacro %}
 
 {# Responsive image. Uses optimized WebP when present. #}
-{% macro pic(src, alt, sizes='(max-width: 700px) 100vw, 33vw', eager=false, width=1280, height=853, cls='') -%}
+{% macro pic(src, alt, sizes='(max-width: 700px) 100vw, 33vw', eager=false, width=1280, height=853, cls='', preserve=false) -%}
 {%- set set = src | srcset -%}
-<img{% if cls %} class="{{ cls }}"{% endif %} src="{{ src | opt(1280 if eager else 640) }}"{% if set %} srcset="{{ set }}" sizes="{{ sizes }}"{% endif %} alt="{{ alt | escape }}" width="{{ width or 1280 }}" height="{{ height or 853 }}" {% if eager %}fetchpriority="high" loading="eager"{% else %}loading="lazy"{% endif %} decoding="async">
+<img{% if preserve %} data-preserve-framing="true" style="object-fit:contain;transform:none"{% endif %}{% if cls %} class="{{ cls }}"{% endif %} src="{{ src | opt(1280 if eager else 640) }}"{% if set %} srcset="{{ set }}" sizes="{{ sizes }}"{% endif %} alt="{{ alt | escape }}" width="{{ width or 1280 }}" height="{{ height or 853 }}" {% if eager %}fetchpriority="high" loading="eager"{% else %}loading="lazy"{% endif %} decoding="async">
 {%- endmacro %}
 
 {# Licence credit for Creative Commons photographs. #}
 {% macro credit(photo) -%}
 {%- if photo and photo.author -%}
-<details class="credit"><summary><span aria-hidden="true">©</span><span class="sr-only">Photo credit: {{ photo.caption }}</span></summary><div><strong>{{ photo.caption }}</strong>{% if photo.official %}<span>Photo: {{ photo.author }} · <a href="{{ photo.source_url }}" rel="noopener">Source</a></span>{% else %}<span>{{ photo.author }} · <a href="{{ photo.license_url or photo.licenseUrl }}" rel="noopener">{{ photo.license }}</a> · <a href="{{ photo.source_url or photo.sourceUrl }}" rel="noopener">Source</a></span>{% endif %}</div></details>
+<details class="credit"><summary><span aria-hidden="true">©</span><span class="sr-only">Photo credit: {{ photo.caption }}</span></summary><div><strong>{{ photo.caption }}</strong><span>{{ photo.author }} · {% if photo.license_url or photo.licenseUrl %}<a href="{{ photo.license_url or photo.licenseUrl }}" rel="noopener">{{ photo.license }}</a>{% else %}{{ photo.license }}{% endif %} · <a href="{{ photo.source_url or photo.sourceUrl }}" rel="noopener">Source</a>{% if photo.changes %} · {{ photo.changes }}{% endif %}</span>{% if photo.archive_warning %}<span>{{ photo.archive_warning }}</span>{% endif %}</div></details>
 {%- endif -%}
 {%- endmacro %}
 
@@ -64,9 +64,9 @@
 {% macro card(href, photo, title, text='', eyebrow='', badge='', meta='', sizes='(max-width: 700px) 92vw, (max-width: 1100px) 45vw, 24vw', attrs='') -%}
 <article class="card"{{ attrs | safe }}>
   <div class="card-media">
-    <a href="{{ href }}" tabindex="-1" aria-hidden="true">{% if photo %}{{ pic(photo.src, photo.alt or title, sizes, false, photo.width, photo.height) }}{% else %}<span class="card-blank"></span>{% endif %}</a>
+    <a href="{{ href }}" tabindex="-1" aria-hidden="true">{% if photo %}{{ pic(photo.src, photo.alt or title, sizes, false, photo.width, photo.height, '', photo.preserve_framing) }}{% else %}<span class="card-blank"></span>{% endif %}</a>
     {% if badge %}<span class="card-badge">{{ badge }}</span>{% endif %}
-    {% if photo and photo.contextual and photo.areaLabel %}<span class="card-area">{{ icon('camera') }} Area photo · {{ photo.areaLabel }}</span>{% endif %}
+    {% if photo and photo.contextual and photo.areaLabel %}<span class="card-area">{{ icon('camera') }} Area photo · {{ photo.areaLabel }} · not the venue</span>{% endif %}
     {{ credit(photo) }}
   </div>
   {% if eyebrow %}<p class="card-eyebrow">{{ eyebrow }}</p>{% endif %}
@@ -80,9 +80,9 @@
 {% macro rowCard(href, photo, title, text='', chips=[], badge='', attrs='', side='') -%}
 <article class="row-card"{{ attrs | safe }}>
   <div class="row-card-media">
-    <a href="{{ href }}" tabindex="-1" aria-hidden="true">{% if photo %}{{ pic(photo.src, photo.alt or title, '(max-width: 700px) 92vw, 280px', false, photo.width, photo.height) }}{% else %}<span class="card-blank"></span>{% endif %}</a>
+    <a href="{{ href }}" tabindex="-1" aria-hidden="true">{% if photo %}{{ pic(photo.src, photo.alt or title, '(max-width: 700px) 92vw, 280px', false, photo.width, photo.height, '', photo.preserve_framing) }}{% else %}<span class="card-blank"></span>{% endif %}</a>
     {% if badge %}<span class="card-badge">{{ badge }}</span>{% endif %}
-    {% if photo and photo.contextual %}<span class="card-area card-area-sm">Area photo</span>{% endif %}
+    {% if photo and photo.contextual %}<span class="card-area card-area-sm">Area photo · {{ photo.areaLabel or photo.caption }} · not the venue</span>{% endif %}
     {{ credit(photo) }}
   </div>
   <div class="row-card-body" data-search-text>

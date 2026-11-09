@@ -14,9 +14,6 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: Gloria Verde is the group's Belek hotel on 20 Sokak, separate from Serenity and Golf Resort.
 booking_note: Confirm access between Gloria properties and any additional golf or spa charges.
-photos_official:
-- src: https://www.gloria.com.tr/Content/Images/section/menu-bg.jpg
-photo_source: https://www.gloria.com.tr/en/hotels/gloria-verde-resort/
 ---
 Gloria Verde is the group's Belek hotel on 20 Sokak, separate from Serenity and Golf Resort. Its official accommodation options include suites and Select Villas, alongside the group's beach, spa and golf offerings.
 

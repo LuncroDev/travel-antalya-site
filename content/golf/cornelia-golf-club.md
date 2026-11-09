@@ -14,10 +14,6 @@ slug: cornelia-golf-club
 category: Golf club
 tagline: A 27-hole Sir Nick Faldo design played as King, Queen or Prince combinations.
 source_label: Official venue information
-photos_official:
-- src: https://www.corneliaresort.com/uploads/1920px/dllerw.jpg
-- src: https://www.corneliaresort.com/uploads/1920px/Hole-27-Lakes-about.jpg
-photo_source: https://www.corneliaresort.com/EN/Cornelia-Golf-Club/about-course
 ---
 Cornelia’s Faldo course has 27 physical holes, not three separate 18-hole courses. The King, Queen and Prince names describe different 18-hole combinations of the three nines.
 

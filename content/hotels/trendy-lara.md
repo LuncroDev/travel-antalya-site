@@ -14,12 +14,6 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: Trendy Lara is based in Kundu, with the official address at Yaşar Sobutay Bulvarı No:104.
 booking_note: Confirm how guests reach the beach and compare room options rather than assuming direct beachfront access.
-photos_official:
-- src: https://trendy.com.tr/wp-content/uploads/2026/01/14.10.post_-2048x1152.jpg
-- src: https://trendy.com.tr/wp-content/uploads/2026/06/Genel-Gorunum-10-Orta_Boyut-2048x1366.webp
-- src: https://trendy.com.tr/wp-content/uploads/2026/06/Genel-Gorunum-05-Orta_Boyut-2048x1366.webp
-- src: https://trendy.com.tr/wp-content/uploads/2026/06/Genel-Gorunum-13-Orta_Boyut-2048x914.webp
-photo_source: https://trendy.com.tr/en/
 ---
 Trendy Lara is based in Kundu, with the official address at Yaşar Sobutay Bulvarı No:104. The group describes a setting linked to the Belek forest landscape and Mediterranean coast.
 

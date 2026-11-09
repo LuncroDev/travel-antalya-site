@@ -13,12 +13,6 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: An urban Rixos resort combining a central Antalya base with a green setting above the Konyaaltı coast.
 booking_note: Confirm the beach access route and the current terms of any theme-park benefit.
-photos_official:
-- src: https://www.ahstatic.com/photos/b1k0_ho_00_p_1024x768.jpg
-- src: https://www.ahstatic.com/photos/b1k0_ho_00_p_2048x1536.jpg
-- src: https://www.ahstatic.com/photos/b1k0_ho_01_p_2048x1536.jpg
-- src: https://www.ahstatic.com/photos/b1k0_ho_02_p_2048x1536.jpg
-photo_source: https://all.accor.com/hotel/B1K0/index.en.shtml
 ---
 An urban Rixos resort combining a central Antalya base with a green setting above the Konyaaltı coast. It offers a different location from the brand's remote Belek and Kemer resort properties.
 

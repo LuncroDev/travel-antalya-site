@@ -14,9 +14,6 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: The Botanik Platinum property is in Okurcalar's Alara tourism area.
 booking_note: Ask whether any adjacent-hotel facilities are included rather than assuming cross-property access.
-photos_official:
-- src: https://www.delphinhotel.com/main_pics/pages/medium/1843.jpg
-photo_source: https://www.delphinhotel.com/en/botanik-platinum
 ---
 The Botanik Platinum property is in Okurcalar's Alara tourism area. Its official description distinguishes a pool for Platinum guests from other pools shared with neighbouring Botanik, making the booked hotel and access rules important.
 

@@ -13,9 +13,6 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: AKKA Alinda is a seaside family hotel in Kiriş, south of Kemer town.
 booking_note: Confirm the selected building and family-room layout rather than treating all AKKA hotels as interchangeable.
-photos_official:
-- src: https://cdn.akkahotels.com/Uploads/Cms/amor-1_86.webp
-photo_source: https://www.akkahotels.com/en/hotels-contact
 ---
 AKKA Alinda is a seaside family hotel in Kiriş, south of Kemer town. The official address is on Sahil Caddesi, separate from the group's Beldibi property.
 
