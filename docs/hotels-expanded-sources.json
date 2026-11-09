@@ -3,7 +3,7 @@
   "province": "Antalya",
   "country": "Türkiye",
   "count": 100,
-  "status": "Completed: 100 distinct source-backed hotel records and 6 individually licensed property-photo sources.",
+  "status": "Completed: 100 distinct source-backed hotel records; November 9 photo review covers 41 selected archival photographs across 12 hotels.",
   "methodology": "28 retained records from the project's official source register dated 2026-11-09, plus 72 additions researched using official hotel/group pages. Descriptions are original factual summaries. Districts are administrative; area/neighborhood fields are traveler-facing. No room rates, star-rating comparisons, review scores or live availability are asserted.",
   "image_rights_note": "No official-gallery photograph is licensed for reuse merely because it is publicly visible. Do not hotlink or copy these as cleared images. Attach photos only after their individual licence and subject identity are checked.",
   "hotels": [
@@ -359,7 +359,7 @@
       ],
       "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
       "photos": [],
-      "photo_rights_status": "Selected dated archival property images reviewed on 2026-11-09; source, licence and date details are recorded in docs/hotel-photo-sources.json. These do not establish current facilities or condition.",
+      "photo_rights_status": "2 individually licensed archival property photographs reviewed on 2026-11-09. See docs/hotel-photo-sources.json for dates and credits.",
       "verified_facts": [
         "A Belek resort with rooms and villas in the Gloria hotel group, a useful starting point for a golf-focused stay."
       ],
@@ -493,7 +493,7 @@
       ],
       "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
       "photos": [],
-      "photo_rights_status": "Selected dated archival property images reviewed on 2026-11-09; source, licence and date details are recorded in docs/hotel-photo-sources.json. These do not establish current facilities or condition.",
+      "photo_rights_status": "4 individually licensed archival property photographs reviewed on 2026-11-09. See docs/hotel-photo-sources.json for dates and credits.",
       "verified_facts": [
         "A palace-style coastal resort in the Kundu area, east of central Antalya."
       ],
@@ -573,7 +573,7 @@
       ],
       "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
       "photos": [],
-      "photo_rights_status": "No property photo cleared for reuse.",
+      "photo_rights_status": "4 individually licensed archival property photographs reviewed on 2026-11-09. See docs/hotel-photo-sources.json for dates and credits.",
       "verified_facts": [
         "A Belek resort associated with the Carya golf setting, with hotel and villa accommodation options."
       ]
@@ -599,7 +599,7 @@
       ],
       "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
       "photos": [],
-      "photo_rights_status": "Selected dated archival property images reviewed on 2026-11-09; source, licence and date details are recorded in docs/hotel-photo-sources.json. These do not establish current facilities or condition.",
+      "photo_rights_status": "4 individually licensed archival property photographs reviewed on 2026-11-09. See docs/hotel-photo-sources.json for dates and credits.",
       "verified_facts": [
         "A resort on the Belek coast, separate from both central Antalya and the Rixos properties around Kemer."
       ],
@@ -895,7 +895,7 @@
       "tags": [],
       "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
       "photos": [],
-      "photo_rights_status": "Selected dated archival property images reviewed on 2026-11-09; source, licence and date details are recorded in docs/hotel-photo-sources.json. These do not establish current facilities or condition.",
+      "photo_rights_status": "1 individually licensed archival property photographs reviewed on 2026-11-09. See docs/hotel-photo-sources.json for dates and credits.",
       "verified_facts": [
         "The Botanik Platinum property is in Okurcalar's Alara tourism area.",
         "Its official description distinguishes a pool for Platinum guests from other pools shared with neighbouring Botanik, making the booked hotel and access rules important."
@@ -1008,7 +1008,7 @@
       "tags": [],
       "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
       "photos": [],
-      "photo_rights_status": "Selected dated archival property images reviewed on 2026-11-09; source, licence and date details are recorded in docs/hotel-photo-sources.json. These do not establish current facilities or condition.",
+      "photo_rights_status": "4 individually licensed archival property photographs reviewed on 2026-11-09. See docs/hotel-photo-sources.json for dates and credits.",
       "verified_facts": [
         "A Belek resort with an Atlantis-inspired design, pine surroundings and a sandy beach with a pier.",
         "The hotel combines modern and rustic design elements and positions itself for pool-and-beach holidays."
@@ -1055,7 +1055,7 @@
           "visual_review_status": "Source identifies property; visual QA required before selecting crop or displaying."
         }
       ],
-      "photo_rights_status": "Selected dated archival property images reviewed on 2026-11-09; source, licence and date details are recorded in docs/hotel-photo-sources.json. These do not establish current facilities or condition.",
+      "photo_rights_status": "4 individually licensed archival property photographs reviewed on 2026-11-09. See docs/hotel-photo-sources.json for dates and credits.",
       "verified_facts": [
         "Limak's first resort opened in Belek in 1995.",
         "Its coastal setting includes mature pine trees and a sandy beach, with a sport-oriented identity distinct from the group's Atlantis property."
@@ -1353,7 +1353,7 @@
           "visual_review_status": "Source identifies property; visual QA required before selecting crop or displaying."
         }
       ],
-      "photo_rights_status": "Individual licence verified. Historical/undated property image only; attribution and archive caption required.",
+      "photo_rights_status": "4 individually licensed archival property photographs reviewed on 2026-11-09. See docs/hotel-photo-sources.json for dates and credits.",
       "verified_facts": [
         "Papillon Ayscha is in Belek's İleribaşı area and offers standard and family rooms as well as villa categories.",
         "Its accommodation range includes Select Family Villas and larger Deluxe Villas."
@@ -1837,7 +1837,7 @@
       "tags": [],
       "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
       "photos": [],
-      "photo_rights_status": "Selected dated archival property images reviewed on 2026-11-09; source, licence and date details are recorded in docs/hotel-photo-sources.json. These do not establish current facilities or condition.",
+      "photo_rights_status": "3 individually licensed archival property photographs reviewed on 2026-11-09. See docs/hotel-photo-sources.json for dates and credits.",
       "verified_facts": [
         "Kaya Belek is the group's separate Belek hotel in the Üçkum Tepesi area.",
         "It is listed alongside, rather than as another name for, Kaya Palazzo Golf Resort."
@@ -2605,7 +2605,7 @@
           "visual_review_status": "Source identifies property; visual QA required before selecting crop or displaying."
         }
       ],
-      "photo_rights_status": "Selected dated archival property images reviewed on 2026-11-09; source, licence and date details are recorded in docs/hotel-photo-sources.json. These do not establish current facilities or condition.",
+      "photo_rights_status": "4 individually licensed archival property photographs reviewed on 2026-11-09. See docs/hotel-photo-sources.json for dates and credits.",
       "verified_facts": [
         "A Belek resort established in 1997, with pine surroundings and a 300-metre private beach.",
         "The official facilities page reports a 2024–2025 renovation and an ultra-all-inclusive concept."
@@ -2635,7 +2635,7 @@
       "tags": [],
       "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
       "photos": [],
-      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "photo_rights_status": "4 individually licensed archival property photographs reviewed on 2026-11-09. See docs/hotel-photo-sources.json for dates and credits.",
       "verified_facts": [
         "A Belek resort on Kongre Caddesi, set where pine grounds meet the Mediterranean.",
         "Its official FAQ confirms an aquapark with slides and swimming areas for different ages."
@@ -2680,7 +2680,7 @@
           "visual_review_status": "Source identifies property; visual QA required before selecting crop or displaying."
         }
       ],
-      "photo_rights_status": "Selected dated archival property images reviewed on 2026-11-09; source, licence and date details are recorded in docs/hotel-photo-sources.json. These do not establish current facilities or condition.",
+      "photo_rights_status": "3 individually licensed archival property photographs reviewed on 2026-11-09. See docs/hotel-photo-sources.json for dates and credits.",
       "verified_facts": [
         "Susesi is a Belek resort in the İskele area with an official seasonal factsheet for comparing its accommodation and facilities.",
         "It offers a coastal base outside Antalya city."

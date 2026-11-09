@@ -13,11 +13,11 @@ test('restaurant hotel links resolve to supported traveler areas',()=>{const {ho
 
 test('selected hotel galleries retain verified source dates, rights and four-photo limits',()=>{
  const report=require('../docs/hotel-photo-sources.json');
- assert.equal(report.expected_selected_photos,29);
- assert.equal(report.selected_photos,29);
- assert.equal(report.hotel_count,9);
+ assert.equal(report.expected_selected_photos,41);
+ assert.equal(report.selected_photos,41);
+ assert.equal(report.hotel_count,12);
  const reviewed=photos.filter(p=>p.review_batch==='hotel-photo-review-2026-11-09');
- assert.equal(reviewed.length,29);
+ assert.equal(reviewed.length,41);
  const normalized=p=>decodeURIComponent(p.source_url).replaceAll('_',' ').replace(/\/$/,'');
  assert.equal(new Set(reviewed.map(normalized)).size,reviewed.length);
  for(const p of reviewed){assert.ok(p.archive_warning&&p.date_basis&&p.changes&&p.preserve_framing);assert.equal(p.historical,true);assert.match(p.license_url,/^https:\/\/creativecommons.org\/licenses\//);}
