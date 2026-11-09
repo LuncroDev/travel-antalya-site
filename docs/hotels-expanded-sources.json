@@ -359,10 +359,11 @@
       ],
       "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
       "photos": [],
-      "photo_rights_status": "No property photo cleared for reuse.",
+      "photo_rights_status": "Selected dated archival property images reviewed on 2026-11-09; source, licence and date details are recorded in docs/hotel-photo-sources.json. These do not establish current facilities or condition.",
       "verified_facts": [
         "A Belek resort with rooms and villas in the Gloria hotel group, a useful starting point for a golf-focused stay."
-      ]
+      ],
+      "photo_source_register": "docs/hotel-photo-sources.json"
     },
     {
       "title": "Hideaway Hotel",
@@ -417,14 +418,14 @@
       ]
     },
     {
-      "title": "Lara Barut Collection",
+      "title": "BAYOU Lara (formerly Lara Barut Collection)",
       "slug": "lara-barut-collection",
       "tagline": "A Lara resort offering different room categories and on-site dining options.",
       "tags": [],
       "category": "Coastal resort",
       "neighborhood": "Lara & Kundu",
-      "official_url": "https://barutlara.com/en/offers",
-      "source_url": "https://barutlara.com/en/offers",
+      "official_url": "https://bayoulara.com/en",
+      "source_url": "https://bayoulara.com/en",
       "source_label": "Official hotel or hotel-group website",
       "last_checked": "2026-11-09",
       "excerpt": "A Lara resort offering different room categories and on-site dining options.",
@@ -433,13 +434,16 @@
       "district_slug": "muratpasa",
       "description": "A Lara resort offering different room categories and on-site dining options.",
       "source_urls": [
-        "https://barutlara.com/en/offers"
+        "https://bayoulara.com/en",
+        "https://borsapanel.com/haber/263496",
+        "https://www.sehrimantalya.com/haber/baruttan-55-yillik-yolculuga-yeni-imza"
       ],
-      "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
+      "verification_method": "Official BAYOU Lara branding checked on 2026-11-09; October 2026 rebrand corroborated by linked reporting. Existing slug retained.",
       "photos": [],
       "photo_rights_status": "No property photo cleared for reuse.",
       "verified_facts": [
-        "A Lara resort offering different room categories and on-site dining options."
+        "A Lara resort offering different room categories and on-site dining options.",
+        "Formerly Lara Barut Collection; current official branding is BAYOU Lara."
       ]
     },
     {
@@ -489,10 +493,11 @@
       ],
       "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
       "photos": [],
-      "photo_rights_status": "No property photo cleared for reuse.",
+      "photo_rights_status": "Selected dated archival property images reviewed on 2026-11-09; source, licence and date details are recorded in docs/hotel-photo-sources.json. These do not establish current facilities or condition.",
       "verified_facts": [
         "A palace-style coastal resort in the Kundu area, east of central Antalya."
-      ]
+      ],
+      "photo_source_register": "docs/hotel-photo-sources.json"
     },
     {
       "title": "Maxx Royal Belek Golf Resort",
@@ -594,10 +599,11 @@
       ],
       "verification_method": "Existing project official-source review dated 2026-11-09; retained stable record.",
       "photos": [],
-      "photo_rights_status": "No property photo cleared for reuse.",
+      "photo_rights_status": "Selected dated archival property images reviewed on 2026-11-09; source, licence and date details are recorded in docs/hotel-photo-sources.json. These do not establish current facilities or condition.",
       "verified_facts": [
         "A resort on the Belek coast, separate from both central Antalya and the Rixos properties around Kemer."
-      ]
+      ],
+      "photo_source_register": "docs/hotel-photo-sources.json"
     },
     {
       "title": "Rixos Sungate",
@@ -889,11 +895,12 @@
       "tags": [],
       "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
       "photos": [],
-      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "photo_rights_status": "Selected dated archival property images reviewed on 2026-11-09; source, licence and date details are recorded in docs/hotel-photo-sources.json. These do not establish current facilities or condition.",
       "verified_facts": [
         "The Botanik Platinum property is in Okurcalar's Alara tourism area.",
         "Its official description distinguishes a pool for Platinum guests from other pools shared with neighbouring Botanik, making the booked hotel and access rules important."
-      ]
+      ],
+      "photo_source_register": "docs/hotel-photo-sources.json"
     },
     {
       "title": "Delphin Botanik Hotel & Resort",
@@ -1001,11 +1008,12 @@
       "tags": [],
       "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
       "photos": [],
-      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "photo_rights_status": "Selected dated archival property images reviewed on 2026-11-09; source, licence and date details are recorded in docs/hotel-photo-sources.json. These do not establish current facilities or condition.",
       "verified_facts": [
         "A Belek resort with an Atlantis-inspired design, pine surroundings and a sandy beach with a pier.",
         "The hotel combines modern and rustic design elements and positions itself for pool-and-beach holidays."
-      ]
+      ],
+      "photo_source_register": "docs/hotel-photo-sources.json"
     },
     {
       "title": "Limak Arcadia Sport Resort",
@@ -1047,11 +1055,12 @@
           "visual_review_status": "Source identifies property; visual QA required before selecting crop or displaying."
         }
       ],
-      "photo_rights_status": "Individual licence verified. Historical/undated property image only; attribution and archive caption required.",
+      "photo_rights_status": "Selected dated archival property images reviewed on 2026-11-09; source, licence and date details are recorded in docs/hotel-photo-sources.json. These do not establish current facilities or condition.",
       "verified_facts": [
         "Limak's first resort opened in Belek in 1995.",
         "Its coastal setting includes mature pine trees and a sandy beach, with a sport-oriented identity distinct from the group's Atlantis property."
-      ]
+      ],
+      "photo_source_register": "docs/hotel-photo-sources.json"
     },
     {
       "title": "Titanic Deluxe Lara",
@@ -1828,11 +1837,12 @@
       "tags": [],
       "verification_method": "Official website retrieved or indexed official page reviewed 2026-11-09.",
       "photos": [],
-      "photo_rights_status": "Official photography is copyrighted; no reusable property photo verified.",
+      "photo_rights_status": "Selected dated archival property images reviewed on 2026-11-09; source, licence and date details are recorded in docs/hotel-photo-sources.json. These do not establish current facilities or condition.",
       "verified_facts": [
         "Kaya Belek is the group's separate Belek hotel in the Üçkum Tepesi area.",
         "It is listed alongside, rather than as another name for, Kaya Palazzo Golf Resort."
-      ]
+      ],
+      "photo_source_register": "docs/hotel-photo-sources.json"
     },
     {
       "title": "Kaya Side",
@@ -2595,11 +2605,12 @@
           "visual_review_status": "Source identifies property; visual QA required before selecting crop or displaying."
         }
       ],
-      "photo_rights_status": "Individual licence verified. Historical/undated property image only; attribution and archive caption required.",
+      "photo_rights_status": "Selected dated archival property images reviewed on 2026-11-09; source, licence and date details are recorded in docs/hotel-photo-sources.json. These do not establish current facilities or condition.",
       "verified_facts": [
         "A Belek resort established in 1997, with pine surroundings and a 300-metre private beach.",
         "The official facilities page reports a 2024–2025 renovation and an ultra-all-inclusive concept."
-      ]
+      ],
+      "photo_source_register": "docs/hotel-photo-sources.json"
     },
     {
       "title": "Pine Beach Belek",
@@ -2669,11 +2680,12 @@
           "visual_review_status": "Source identifies property; visual QA required before selecting crop or displaying."
         }
       ],
-      "photo_rights_status": "Individual licence verified. Historical/undated property image only; attribution and archive caption required.",
+      "photo_rights_status": "Selected dated archival property images reviewed on 2026-11-09; source, licence and date details are recorded in docs/hotel-photo-sources.json. These do not establish current facilities or condition.",
       "verified_facts": [
         "Susesi is a Belek resort in the İskele area with an official seasonal factsheet for comparing its accommodation and facilities.",
         "It offers a coastal base outside Antalya city."
-      ]
+      ],
+      "photo_source_register": "docs/hotel-photo-sources.json"
     },
     {
       "title": "AKKA Antedon",

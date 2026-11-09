@@ -34,6 +34,29 @@ test('dining and golf filters, clear, and profile links',async({page})=>{
  for(const section of ['restaurants','golf']){await page.goto('/'+section+'/');const total=await page.locator('[data-venue]').count();expect(total).toBeGreaterThan(0);await page.locator('input[name=q]').fill('not-a-real-venue-123');await expect(page.locator('[data-venue-empty]')).toBeVisible();await page.locator('[data-venue-reset]').click();await expect(page.locator('[data-venue]:visible')).toHaveCount(total);await page.locator('[data-venue] h2 a').first().click();await expect(page.locator('h1')).not.toBeEmpty();await expect(page.locator('.related-guide a').first()).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBeTruthy();await page.screenshot({path:test.info().outputPath(section+'-profile.png'),fullPage:true});}
 });
 test('hotel galleries distinguish archives and destination images',async({page})=>{
- await page.goto('/hotels/rixos-premium-belek/');await expect(page.locator('.editorial-photo')).toHaveCount(7);await expect(page.locator('.editorial-gallery')).toContainText('archival');await expect(page.locator('.editorial-gallery')).toContainText('2015');await expect(page.locator('.editorial-photo .photo-credit a').first()).toHaveAttribute('href',/^https:/);await page.screenshot({path:test.info().outputPath('hotel-gallery.png'),fullPage:true});
+ await page.goto('/hotels/rixos-premium-belek/');await expect(page.locator('.editorial-photo')).toHaveCount(8);await expect(page.locator('.editorial-gallery')).toContainText('archival');await expect(page.locator('.editorial-gallery')).toContainText('2015');await expect(page.locator('.editorial-photo .photo-credit a').first()).toHaveAttribute('href',/^https:/);await page.screenshot({path:test.info().outputPath('hotel-gallery.png'),fullPage:true});
 });
 test('homepage fits tablet widths',async({page})=>{for(const width of [768,1024]){await page.setViewportSize({width,height:900});await page.goto('/');expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBeTruthy();}});
+
+test('reviewed property photographs load with intact framing and clear archive labels',async({page})=>{
+ test.setTimeout(90000);
+ const reviewedSlugs=new Set(require('../../docs/hotel-photo-sources.json').photos.map(p=>p.property_slug));
+ for(const slug of ['mardan-palace','limak-atlantis-deluxe-hotel-resort','lara-barut-collection','the-marmara-antalya'].filter(s=>reviewedSlugs.has(s))){
+  await page.goto('/hotels/'+slug+'/');
+  const propertyImages=page.locator('.editorial-gallery img[data-preserve-framing]');
+  const count=await propertyImages.count();expect(count).toBeGreaterThan(0);expect(count).toBeLessThanOrEqual(4);
+  for(const image of await propertyImages.all()){
+   await image.scrollIntoViewIfNeeded();
+   await expect.poll(()=>image.evaluate(el=>el.complete&&el.naturalWidth>0)).toBeTruthy();
+   await expect(image).toHaveCSS('object-fit','contain');
+  }
+  await expect(page.locator('.editorial-gallery')).toContainText('Property archive');
+  await expect(page.locator('.editorial-gallery .photo-context-note').first()).toBeVisible();
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBeTruthy();
+  if(slug==='lara-barut-collection')await expect(page.locator('h1')).toContainText('BAYOU Lara');
+  if(slug==='the-marmara-antalya'){
+   await expect(page.locator('.editorial-gallery')).toContainText('watermark retained');
+   await page.locator('.editorial-gallery').screenshot({path:test.info().outputPath('marmara-archive-gallery.png')});
+  }
+ }
+});
