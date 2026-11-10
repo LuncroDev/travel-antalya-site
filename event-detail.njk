@@ -24,7 +24,7 @@ eleventyExcludeFromCollections: true
   </div>
 </section>
 <div class="container" data-event-directory>
-  <div class="detail-layout" data-event data-title="{{ ev.title | escape }}" data-venue="{{ ev.venue | escape }}" data-category="{{ ev.category | escape }}" data-start="{{ ev.start_date | eventDate }}" data-end="{{ ev.end_date | eventDate }}" data-verified="{{ ev.date_verified }}">
+  <div class="detail-layout" data-event data-title="{{ ev.title | escape }}" data-venue="{{ ev.venue | escape }}" data-category="{{ ev.category | escape }}" data-start="{{ ev.start_date | eventDate }}" data-end="{{ ev.end_date | eventDate }}" data-verified="{{ ev.date_verified }}" data-uncertain="{{ ev.status_uncertain }}">
     <article>
       <ul class="facts" style="margin:0 0 28px">
         <li>{{ icon('calendar') }}{{ ev | eventDateLabel }}</li>

@@ -98,3 +98,17 @@ test('COP31 city programme stays distinct from conference admission and expires 
   assert.match(content, /12 November, 17:00, Hıdırlık/);
   assert.match(content, /mcmsmedia\.antalya\.bel\.tr/);
 });
+
+test('disputed concert status cannot be promoted as confirmed upcoming', () => {
+  const fs = require('node:fs'), matter = require('gray-matter');
+  const {data, content} = matter(fs.readFileSync('content/events/kerimcan-durmaz-2026-11-28-muratpasa.md', 'utf8'));
+  assert.equal(eventStatus(data, '2026-11-10'), 'uncertain');
+  assert.equal(matchesEvent(data, {period:'active'}, '2026-11-10'), false);
+  assert.equal(matchesEvent(data, {period:'upcoming'}, '2026-11-10'), false);
+  assert.equal(matchesEvent(data, {period:'uncertain'}, '2026-11-10'), true);
+  assert.equal(matchesEvent(data, {period:'all'}, '2026-11-10'), true);
+  assert.match(eventDateLabel(data), /^Listed date:/);
+  assert.equal(data.ticket_url, undefined);
+  assert.match(content, /biletix.com/);
+  assert.match(content, /seans\/292137/);
+});

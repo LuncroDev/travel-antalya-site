@@ -19,17 +19,18 @@
   }
   function eventStatus(data, today = todayInAntalya()) {
     const start = eventDate(data.start_date), end = eventDate(data.end_date) || start;
+    if (data.status_uncertain === true) return 'uncertain';
     if (data.date_verified !== true || !start || (data.end_date && !eventDate(data.end_date)) || end < start) return 'awaiting';
     if (end < today) return 'archive';
     return start > today ? 'upcoming' : 'current';
   }
   function eventStatusLabel(status) {
-    return { upcoming: 'Upcoming', current: 'On now', archive: 'Past edition', awaiting: 'Awaiting verified dates' }[status] || 'Awaiting verified dates';
+    return { uncertain: 'Status uncertain', upcoming: 'Upcoming', current: 'On now', archive: 'Past edition', awaiting: 'Awaiting verified dates' }[status] || 'Awaiting verified dates';
   }
   function eventDateLabel(data) {
     if (eventStatus(data) === 'awaiting') return 'Dates not verified';
     const format = value => new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' }).format(new Date(eventDate(value) + 'T12:00:00Z'));
-    return format(data.start_date) + (eventDate(data.end_date) && eventDate(data.end_date) !== eventDate(data.start_date) ? ' – ' + format(data.end_date) : '');
+    return (data.status_uncertain === true ? 'Listed date: ' : '') + format(data.start_date) + (eventDate(data.end_date) && eventDate(data.end_date) !== eventDate(data.start_date) ? ' – ' + format(data.end_date) : '');
   }
   function normalize(value) {
     return String(value || '').toLocaleLowerCase('tr').replace(/ı/g, 'i').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -54,7 +55,7 @@
       const rows = Array.from(directory.querySelectorAll('[data-event]'));
       const items = rows.map(row => ({ row, data: {
         title: row.dataset.title, venue: row.dataset.venue, category: row.dataset.category,
-        start_date: row.dataset.start, end_date: row.dataset.end, date_verified: row.dataset.verified === 'true'
+        start_date: row.dataset.start, end_date: row.dataset.end, date_verified: row.dataset.verified === 'true', status_uncertain: row.dataset.uncertain === 'true'
       }}));
       function render() {
         const today = todayInAntalya();

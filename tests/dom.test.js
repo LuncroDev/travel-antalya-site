@@ -53,3 +53,18 @@ test('trade-fair filters preserve two date ranges and visible admission conditio
  for(const slug of ['anfas-hotel-equipment-2027','anfas-food-product-2027']){const html=fs.readFileSync('_site/events/'+slug+'/index.html','utf8');assert.match(html,/event-admission-note/);assert.match(html,/not open to the general public/);}
  category.window.close();
 });
+
+test('uncertain concert has matching directory and detail labels after browser initialization',async()=>{
+ const dom=await load('events','events'),w=dom.window,d=w.document;
+ const row=d.querySelector('[data-title="Kerimcan Durmaz"]');
+ assert.equal(row.hidden,true);
+ change(w,'select[name=period]','uncertain');
+ assert.equal(row.hidden,false);
+ assert.equal(row.querySelector('[data-event-status]').textContent,'Status uncertain');
+ assert.match(row.textContent,/Ticket providers disagree/);
+ dom.window.close();
+ const detail=await load('events/kerimcan-durmaz-2026-11-28-muratpasa','events');
+ assert.equal(detail.window.document.querySelector('[data-event-status]').textContent,'Status uncertain');
+ assert.equal(detail.window.document.querySelector('[data-event]').hidden,false);
+ detail.window.close();
+});
