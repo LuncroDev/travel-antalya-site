@@ -17,7 +17,6 @@ michelin_note: No verified Michelin distinction for this Antalya venue in the 20
 photos_official:
   - src: "/images/uploads/venue-sirali-kebap-antalya-p01.webp"
   - src: "/images/uploads/venue-sirali-kebap-antalya-p02.webp"
-  - src: "https://www.siralikebap.com/wp-content/uploads/2022/10/slider_5-1500x550.jpg"
   - src: "https://www.siralikebap.com/wp-content/uploads/2022/10/slider_1-1500x550.jpg"
 photo_source: "https://www.siralikebap.com/"
 ---

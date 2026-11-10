@@ -19,7 +19,6 @@ michelin_note: No verified Michelin distinction for this Antalya venue in the 20
 photos_official:
   - src: "/images/uploads/venue-lara-balik-isiklar-p01.webp"
   - src: "/images/uploads/venue-lara-balik-isiklar-p02.webp"
-  - src: "https://larabalik.com/wp-content/uploads/2022/04/menu-img-595x1024.jpg"
   - src: "https://larabalik.com/wp-content/uploads/2023/01/060A4644-scaled.jpg"
 photo_source: "https://larabalik.com/"
 ---
