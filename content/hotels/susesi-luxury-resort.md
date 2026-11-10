@@ -13,6 +13,12 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: Susesi is a Belek resort in the İskele area with an official seasonal factsheet for comparing its accommodation and facilities.
 booking_note: Request the factsheet matching your travel season and check room-category and restaurant inclusions.
+photos_official:
+  - src: "/images/uploads/venue-susesi-luxury-resort-1.jpg"
+  - src: "/images/uploads/venue-susesi-luxury-resort-2.jpg"
+  - src: "/images/uploads/venue-susesi-luxury-resort-3.jpg"
+  - src: "/images/uploads/venue-susesi-luxury-resort-4.jpg"
+photo_source: "https://www.susesihotel.com/en/"
 ---
 Susesi is a Belek resort in the İskele area with an official seasonal factsheet for comparing its accommodation and facilities. It offers a coastal base outside Antalya city.
 

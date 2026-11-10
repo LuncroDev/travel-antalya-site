@@ -59,6 +59,7 @@ test('area photos are labelled so they are never mistaken for the venue', () => 
     const slug = card.querySelector('h3 a').getAttribute('href').split('/')[2];
     const img = card.querySelector('img');
     if (img.getAttribute('src').startsWith('/.netlify/images')) continue; // official website photo
+    if (img.getAttribute('src').includes(`/venue-${slug}-`)) continue; // self-hosted official website photo
     const own = photos.some(p => p.kind === 'property' && (p.property_slug === slug || (p.property_slugs || []).includes(slug)) && img.getAttribute('src').includes(p.src.split('/').pop().replace(/\.[a-z]+$/, '')));
     if (!own) assert.ok(card.querySelector('.card-area'), `unlabelled area photo on ${slug}`);
   }

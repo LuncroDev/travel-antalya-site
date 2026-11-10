@@ -14,8 +14,11 @@ last_checked: '2026-11-09'
 excerpt: A clifftop hotel overlooking the Mediterranean in the city’s Lara area.
 booking_note: Clifftop stays differ from a sandy-beach resort. Confirm sea access and mobility requirements for your room and route.
 photos_official:
-- src: https://www.themarmarahotels.com/media/ivzbtvu1/the-marmara-antalya-anasayfa-havuz-card.jpg
-photo_source: https://www.themarmarahotels.com/en/hotels/the-marmara-antalya
+  - src: "/images/uploads/venue-the-marmara-antalya-1.webp"
+  - src: "/images/uploads/venue-the-marmara-antalya-2.webp"
+  - src: "/images/uploads/venue-the-marmara-antalya-3.webp"
+  - src: "/images/uploads/venue-the-marmara-antalya-4.webp"
+photo_source: "https://www.themarmarahotels.com/en/hotels/the-marmara-antalya"
 ---
 A clifftop hotel overlooking the Mediterranean in the city’s Lara area.
 
