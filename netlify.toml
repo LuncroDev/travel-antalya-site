@@ -23,6 +23,7 @@
   'https://casabi\.com\.tr/.*',
   'https://casasurantalya\.com/.*',
   'https://cdn\.akkahotels\.com/.*',
+  'https://cdn\.legendsdxp\.com/.*',
   'https://cdn\.prod\.website-files\.com/.*',
   'https://cdn\.woxxtech\.com/.*',
   'https://concordehotels\.com/.*',
@@ -89,6 +90,5 @@
   'https://www\.sidestarhotels\.com/.*',
   'https://www\.siralikebap\.com/.*',
   'https://www\.sisciibo\.com\.tr/.*',
-  'https://www\.thelandoflegends\.com/.*',
   'https://www\.villaokan\.com/.*'
   ]
