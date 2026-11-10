@@ -12,6 +12,11 @@ source_urls: ["https://www.nirvanahotels.com.tr/oteller","https://www.nirvanahot
 last_checked: "2026-11-09"
 excerpt: "A nature-focused Nirvana resort in Beldibi on the Kemer coast."
 booking_note: "Confirm the specific room or villa concept and any pet-accommodation arrangements directly."
+photos_official:
+  - src: "https://static.kilithg.net/networks/1/properties/1/multimedia/20240814135740865_org.jpg"
+  - src: "https://static.kilithg.net/networks/1/properties/1/galleries/1/20240812124711159_org.jpg"
+  - src: "https://static.kilithg.net/networks/1/properties/1/galleries/1/20240812124713359_org.jpg"
+photo_source: "https://www.nirvanahotels.com.tr/oteller/nirvana-mediterranean-excellence/galeri"
 ---
 Nirvana Mediterranean Excellence is based in Beldibi on the Kemer coast, with the official address in Göynük Mahallesi. The group describes a nature-focused setting and offers villa accommodation alongside its broader resort concept.
 

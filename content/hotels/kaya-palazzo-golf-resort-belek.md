@@ -12,6 +12,12 @@ source_urls: ["https://www.kayahotels.com/en/contact","https://www.kayapalazzoho
 last_checked: "2026-11-09"
 excerpt: "A Kadriye–Belek resort in the Kaya Palazzo collection with swimming pools and waterslides."
 booking_note: "Confirm golf reservations, green fees and which Palazzo services are included."
+photos_official:
+  - src: "https://www.kayapalazzohotels.com/kp-belek/KP-BELEK-BANNER.webp"
+  - src: "https://www.kayapalazzohotels.com/kp-belek/KAYA-PALAZZO-BELEK-8.webp"
+  - src: "https://www.kayapalazzohotels.com/kp-belek/DJI_20241008133701_0044_D-HDR.jpg"
+  - src: "https://www.kayapalazzohotels.com/kp-belek/kaya-palazzo-belek-restoranlar.webp"
+photo_source: "https://www.kayapalazzohotels.com/kaya-palazzo-golf-resort/"
 ---
 A Kadriye–Belek resort in the Kaya Palazzo collection with swimming pools and waterslides. The property has a golf-resort identity and is distinct from neighbouring Kaya Belek.
 

@@ -14,6 +14,12 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: A Belek resort with an Atlantis-inspired design, pine surroundings and a sandy beach with a pier.
 booking_note: Confirm pier access and which pools operate on your travel dates.
+photos_official:
+  - src: "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/GENEL+ALANLAR3-1920w.jpg"
+  - src: "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/GENEL+ALANLAR7-2880w.jpg"
+  - src: "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/GENEL+ALANLAR2-2880w.jpg"
+  - src: "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/RESTAURANT3-68b2f760-1920w.jpg"
+photo_source: "https://www.limakhotels.com/atlantis"
 ---
 A Belek resort with an Atlantis-inspired design, pine surroundings and a sandy beach with a pier. The hotel combines modern and rustic design elements and positions itself for pool-and-beach holidays.
 

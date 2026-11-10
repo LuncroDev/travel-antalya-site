@@ -13,6 +13,10 @@ category: "Mediterranean and international"
 tagline: "Fresh pasta, grilled fish and steaks at outdoor tables on Kaş's old market street."
 source_label: "Official venue information"
 michelin_note: "No verified Michelin distinction for this Antalya venue in the 2026 selection."
+photos_official:
+  - src: "https://www.naturelrestoran.com/wp-content/uploads/2020/09/nt-r-1.jpg"
+  - src: "https://www.naturelrestoran.com/wp-content/uploads/2020/09/nt-y2-1.jpg"
+photo_source: "https://www.naturelrestoran.com/en/"
 ---
 Naturel is on Uzun Çarşı, the old market street in central Kaş, and its tables are outside among the historic houses. Its website calls the cooking "Mediterranean and World cuisine". In practice that means a broad menu for groups who don't all want the same thing.
 

@@ -96,3 +96,10 @@ test('owner-accepted venue photos render with credit, but exclusions still win',
   assert.equal(selectedOfficialPhotos({ ...data, slug: 'blocked-hotel' }, rights).length, 0);
   assert.equal(ownerAccepted('fixture-hotel', 'https://example.com/a.jpg', { ...rights, owner_acceptance: { status: 'revoked' } }), null);
 });
+test('re-reviewed (reinstated) venues lift the venue block but keep old URLs blocked', () => {
+  const { isExcluded } = require('../lib/photo-rights');
+  const rights = { approved: [], excluded: [{ venue_slug: 'old-hotel', status: 'reinstated', images: ['https://example.com/old.jpg'] }] };
+  assert.equal(isExcluded('old-hotel', 'https://example.com/new.jpg', rights), false);
+  assert.equal(isExcluded('old-hotel', 'https://example.com/old.jpg', rights), true);
+  assert.equal(isExcluded('old-hotel', null, rights), false);
+});

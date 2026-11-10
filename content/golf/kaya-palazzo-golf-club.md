@@ -12,6 +12,12 @@ slug: "kaya-palazzo-golf-club"
 category: "Golf club"
 tagline: "An 18-hole course set in pine forest beside Kaya Palazzo’s Belek resort."
 source_label: "Official venue information"
+photos_official:
+  - src: "https://www.kayapalazzohotels.com/golf-club/saha-bilgileri/1170x600-1.jpg"
+  - src: "https://www.kayapalazzohotels.com/golf-club/saha-bilgileri/1170x600-2.jpg"
+  - src: "https://www.kayapalazzohotels.com/golf-club/saha-bilgileri/1170x600-3.jpg"
+  - src: "https://www.kayapalazzohotels.com/golf-club/saha-bilgileri/1170x600-4.jpg"
+photo_source: "https://www.kayapalazzohotels.com/en/kaya-palazzo-golf-club-2/course-information/"
 ---
 Kaya Palazzo Golf Club’s official course page describes an 18-hole layout on a pine-forest site of roughly 650,000 square metres. The course combines broad fairways with strategically positioned bunkers.
 

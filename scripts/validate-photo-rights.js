@@ -26,7 +26,7 @@ function validatePhotoRights(root = ROOT, rights = registry()) {
     }
   }
   if (errors.length) throw new Error(`Photo rights check failed:\n${errors.join('\n')}\nUse the licensed library or record reviewed rights in docs/photo-rights.json.`);
-  console.log(`Photo rights check: ${checked} selected official photos, all documented; ${rights.excluded.length} venue exclusions retained.`);
+  console.log(`Photo rights check: ${checked} selected official photos, all documented; ${rights.excluded.filter(e => e.status === 'excluded').length} venue exclusions and ${rights.excluded.filter(e => e.status === 'reinstated').length} re-reviewed venues (old URLs still blocked).`);
   return checked;
 }
 if (require.main === module) validatePhotoRights();

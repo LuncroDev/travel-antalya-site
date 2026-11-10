@@ -13,6 +13,11 @@ category: "Şiş köfte and grills"
 tagline: "Third-generation şiş köfte and tahini piyaz in Lara and Konyaaltı."
 source_label: "Official venue information"
 michelin_note: "No verified Michelin distinction for this Antalya venue in the 2026 selection."
+photos_official:
+  - src: "https://www.sisciibo.com.tr/inc/img/background/siskofte1.jpg"
+  - src: "https://www.sisciibo.com.tr/inc/img/background/siskofte3.jpg"
+  - src: "https://www.sisciibo.com.tr/inc/img/background/sisciibo-slider1.jpg"
+photo_source: "https://www.sisciibo.com.tr/"
 ---
 Şiş köfte with tahini piyaz is one of Antalya's best-known local meals, and Şişçi İbo is a family business built around it. Its website says the trade began with the founders' grandfather in Korkuteli in the 1950s, that the name Şişçi İbo dates from 1974, and that the third generation now runs it.
 

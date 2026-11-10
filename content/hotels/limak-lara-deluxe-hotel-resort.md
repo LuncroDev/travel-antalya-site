@@ -14,6 +14,12 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: Limak's Lara hotel uses an Asian-influenced design and advertises all-inclusive holiday concepts.
 booking_note: Compare the current summer or winter concept and the room category before booking.
+photos_official:
+  - src: "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/GENEL+ALAN+%285%29-1920w.jpg"
+  - src: "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/GENEL+ALAN+%282%29-1920w.jpg"
+  - src: "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/Restorant-1920w.jpg"
+  - src: "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/Alacarte-1920w.jpg"
+photo_source: "https://www.limakhotels.com/lara"
 ---
 Limak's Lara hotel uses an Asian-influenced design and advertises all-inclusive holiday concepts. The property is in Kemerağzı on the Lara–Kundu coast, rather than in Antalya's old town.
 

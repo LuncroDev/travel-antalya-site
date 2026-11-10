@@ -12,6 +12,12 @@ source_urls: ["https://www.sidestarhotels.com/en","https://www.sidestarhotels.co
 last_checked: "2026-11-09"
 excerpt: "A Side resort linked to the seaside promenade leading towards the ancient harbour."
 booking_note: "Confirm room position, access gradients and the promenade route if mobility matters."
+photos_official:
+  - src: "https://www.sidestarhotels.com/storage/activities/January2026/cbEIScSNEgafZHlQacMb-medium.webp"
+  - src: "https://www.sidestarhotels.com/storage/activities/January2026/vHfXFHW08GyxN13Fn2LR-medium.webp"
+  - src: "https://www.sidestarhotels.com/storage/rooms/January2026/vl4aMJxBeZgn3ZYwuSXV-medium.webp"
+  - src: "https://www.sidestarhotels.com/storage/dinings/January2026/rhH0hNJDgjsqwsmcsRXO-medium.webp"
+photo_source: "https://www.sidestarhotels.com/elegance/en/activity/beach-and-pools"
 ---
 A Side resort linked to the seaside promenade leading towards the ancient harbour. The group's description highlights dining, live music and its coastal setting.
 

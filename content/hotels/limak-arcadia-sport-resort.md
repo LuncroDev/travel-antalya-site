@@ -14,6 +14,12 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: Limak's first resort opened in Belek in 1995.
 booking_note: Ask about the sports facilities and any training-group activity during your stay.
+photos_official:
+  - src: "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/Arcadia-Kapak-2880w.jpg"
+  - src: "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/11_GENELALAN-2880w.jpg"
+  - src: "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/8_GENELALAN-1920w.jpg"
+  - src: "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/ALACARTE3-781d9af4-2880w.jpg"
+photo_source: "https://www.limakhotels.com/arcadia"
 ---
 Limak's first resort opened in Belek in 1995. Its coastal setting includes mature pine trees and a sandy beach, with a sport-oriented identity distinct from the group's Atlantis property.
 

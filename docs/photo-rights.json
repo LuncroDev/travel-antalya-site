@@ -4,25 +4,31 @@
   "excluded": [
     {
       "venue_slug": "limak-arcadia-sport-resort",
-      "status": "excluded",
+      "status": "reinstated",
       "reason": "Previously removed after CDN availability or property-identity review; requires a new explicit review before reinstatement.",
       "source_commit": "f2f65f3e4f4f00c3a5860b22920813d5065ad008",
       "images": [
         "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/PRESIDENTEL+SUITE+1-1920w.jpg"
-      ]
+      ],
+      "reinstated_on": "2026-11-10",
+      "reinstated_by": "Site owner direction (photos for every venue), Claude review",
+      "review_note": "Re-reviewed 2026-11-10: each Limak property page on limakhotels.com carries its own image set; only the shared 'Presidential Villa' hero (listed here) appears on all four. New photos are taken only from images unique to this property's own page. The old URLs below stay blocked."
     },
     {
       "venue_slug": "limak-atlantis-deluxe-hotel-resort",
-      "status": "excluded",
+      "status": "reinstated",
       "reason": "Previously removed after CDN availability or property-identity review; requires a new explicit review before reinstatement.",
       "source_commit": "f2f65f3e4f4f00c3a5860b22920813d5065ad008",
       "images": [
         "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/Presidential+Villa+with+private+pool%2833%29-2880w.JPG"
-      ]
+      ],
+      "reinstated_on": "2026-11-10",
+      "reinstated_by": "Site owner direction (photos for every venue), Claude review",
+      "review_note": "Re-reviewed 2026-11-10: each Limak property page on limakhotels.com carries its own image set; only the shared 'Presidential Villa' hero (listed here) appears on all four. New photos are taken only from images unique to this property's own page. The old URLs below stay blocked."
     },
     {
       "venue_slug": "limak-lara-deluxe-hotel-resort",
-      "status": "excluded",
+      "status": "reinstated",
       "reason": "Previously removed after CDN availability or property-identity review; requires a new explicit review before reinstatement.",
       "source_commit": "f2f65f3e4f4f00c3a5860b22920813d5065ad008",
       "images": [
@@ -30,20 +36,26 @@
         "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/Alacarte-2880w.jpg",
         "https://irt-cdn.multiscreensite.com/md/dmtmpl/dms3rep/multi/woman_relaxing_water.jpg",
         "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/GENEL+ALAN+%285%29-2880w.jpg"
-      ]
+      ],
+      "reinstated_on": "2026-11-10",
+      "reinstated_by": "Site owner direction (photos for every venue), Claude review",
+      "review_note": "Re-reviewed 2026-11-10: each Limak property page on limakhotels.com carries its own image set; only the shared 'Presidential Villa' hero (listed here) appears on all four. New photos are taken only from images unique to this property's own page. The old URLs below stay blocked."
     },
     {
       "venue_slug": "limak-limra-hotel-resort",
-      "status": "excluded",
+      "status": "reinstated",
       "reason": "Previously removed after CDN availability or property-identity review; requires a new explicit review before reinstatement.",
       "source_commit": "f2f65f3e4f4f00c3a5860b22920813d5065ad008",
       "images": [
         "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/Presidential+Villa+with+private+pool%2833%29-2880w.JPG"
-      ]
+      ],
+      "reinstated_on": "2026-11-10",
+      "reinstated_by": "Site owner direction (photos for every venue), Claude review",
+      "review_note": "Re-reviewed 2026-11-10: each Limak property page on limakhotels.com carries its own image set; only the shared 'Presidential Villa' hero (listed here) appears on all four. New photos are taken only from images unique to this property's own page. The old URLs below stay blocked."
     },
     {
       "venue_slug": "susesi-luxury-resort",
-      "status": "excluded",
+      "status": "reinstated",
       "reason": "Previously removed after CDN availability or property-identity review; requires a new explicit review before reinstatement.",
       "source_commit": "f2f65f3e4f4f00c3a5860b22920813d5065ad008",
       "images": [
@@ -51,11 +63,14 @@
         "https://www.susesihotel.com/media/klsdxbxf/susesi-luxury-resort-mainpage-banner-desktop-2.jpg",
         "https://www.susesihotel.com/media/15umq25e/susesi-luxury-resort-mainpage-banner-desktop-3.jpg",
         "https://www.susesihotel.com/media/0wbfo3bu/susesi-luxury-resort-mainpage-banner-desktop-4.jpg"
-      ]
+      ],
+      "reinstated_on": "2026-11-10",
+      "reinstated_by": "Site owner direction (photos for every venue), Claude review",
+      "review_note": "Re-reviewed 2026-11-10: the images are Susesi's own (susesihotel.com banners); the problem was CDN availability, so the photos are self-hosted from images/uploads instead of hot-linked. The old remote URLs below stay blocked."
     },
     {
       "venue_slug": "antalya-balikevi",
-      "status": "excluded",
+      "status": "reinstated",
       "reason": "Previously removed after CDN availability or property-identity review; requires a new explicit review before reinstatement.",
       "source_commit": "f2f65f3e4f4f00c3a5860b22920813d5065ad008",
       "images": [
@@ -63,7 +78,10 @@
         "https://antalyabalikevi.com.tr/wp-content/uploads/2026/09/antalya-balikevi-image-1.jpeg",
         "https://antalyabalikevi.com.tr/wp-content/themes/antalyabalikevi/image/Galeri/polaroid/Galeri%204.jpg",
         "https://antalyabalikevi.com.tr/wp-content/themes/antalyabalikevi/image/Galeri/polaroid/Galeri%205.jpg"
-      ]
+      ],
+      "reinstated_on": "2026-11-10",
+      "reinstated_by": "Site owner direction (photos for every venue), Claude review",
+      "review_note": "Re-reviewed 2026-11-10: new photos come from the restaurant's own site (antalyabalikevi.com.tr uploads), checked visually for identity. The earlier URLs below stay blocked."
     }
   ],
   "owner_acceptance": {

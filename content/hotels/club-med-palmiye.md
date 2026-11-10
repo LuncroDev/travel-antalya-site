@@ -12,6 +12,10 @@ source_urls: ["https://www.clubmed.us/r/palmiye/y","https://www.clubmed.us/r/pal
 last_checked: "2026-11-10"
 excerpt: "Club Med's all-inclusive Kemer resort: Villagio bungalows or Hotel rooms, six pools, 29 included activities and kids' clubs up to 17."
 booking_note: "Club Med publishes no opening season for Palmiye. Check your dates are bookable, and whether your room is in the Villagio or the Hotel area."
+photos_official:
+  - src: "https://assets.dream.clubmed/pm_7531_199_199250-a1lquqx3f2-swhr.jpg"
+  - src: "https://assets.dream.clubmed/pm_7531_199_199205-7ch507r9rg-swhr.jpg"
+photo_source: "https://www.clubmed.us/r/palmiye/y"
 ---
 Club Med Palmiye is a large all-inclusive resort on the coast of Kemer, south-west of Antalya. Club Med's Turkish page places it in Kemer, and the English page describes a long, pearl-grey beach with the Taurus Mountains rising behind it. It is built for active holidays: most sport is included, and there are kids' clubs for every age from babies to teenagers.
 

@@ -12,6 +12,12 @@ source_urls: ["https://www.sidestarhotels.com/en","https://www.sidestarhotels.co
 last_checked: "2026-11-09"
 excerpt: "Side Star Park is a Side hotel positioned for exploring the ancient town."
 booking_note: "Verify the route and distance to its beach facilities; do not assume the name means beachfront."
+photos_official:
+  - src: "https://www.sidestarhotels.com/storage/activities/January2026/a2PDFpIuyPWM7exrZLCb-medium.webp"
+  - src: "https://www.sidestarhotels.com/storage/rooms/January2026/iEwPsBcNNWiELhc3ye7D-medium.webp"
+  - src: "https://www.sidestarhotels.com/storage/dinings/January2026/492B7iESGK9dG0kGSUIk-medium.webp"
+  - src: "https://www.sidestarhotels.com/storage/activities/January2026/XuRYxye9hOPVwIKw6vBF-medium.webp"
+photo_source: "https://www.sidestarhotels.com/park/en/activity/beach-and-pools"
 ---
 Side Star Park is a Side hotel positioned for exploring the ancient town. Its official description focuses on proximity to the town's historic character rather than a remote coastal complex.
 

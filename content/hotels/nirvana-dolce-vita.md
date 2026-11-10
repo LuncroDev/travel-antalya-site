@@ -12,6 +12,12 @@ source_urls: ["https://www.nirvanahotels.com.tr/iletisim","https://www.nirvanaho
 last_checked: "2026-11-09"
 excerpt: "A Nirvana resort in Tekirova, beside Cleopatra Bay and the Lycian Way according to the official group."
 booking_note: "Plan walking routes separately and confirm access conditions, footwear and seasonal heat before exploring."
+photos_official:
+  - src: "https://static.kilithg.net/networks/1/properties/3/multimedia/20240814135822392_org.jpg"
+  - src: "https://static.kilithg.net/networks/1/properties/3/galleries/7/20240812133658255_org.JPG"
+  - src: "https://static.kilithg.net/networks/1/properties/3/galleries/7/20240812133653885_org.JPG"
+  - src: "https://static.kilithg.net/networks/1/properties/3/galleries/7/20240812133656050_org.JPG"
+photo_source: "https://www.nirvanahotels.com.tr/oteller/nirvana-dolce-vita/galeri"
 ---
 A Nirvana resort in Tekirova, beside Cleopatra Bay and the Lycian Way according to the official group. Its setting suits a coastal holiday at the southern end of the Kemer resort region.
 
