@@ -71,3 +71,13 @@ test('Aspendos separates site hours, ticket office and performance admission', (
  assert.match(text,/Do not assume that a daytime archaeological-site ticket/);
  assert.match(text,/10 November 2026/);
 });
+
+test('airport shuttle advice is attributed and does not invent a timetable or tram link', () => {
+ const fs=require('node:fs');
+ const text=fs.readFileSync('plan-your-trip.njk','utf8');
+ assert.match(text,/transportation\/transport-to-the-airport/);
+ assert.match(text,/International Terminal 1 and Terminal 2/);
+ assert.match(text,/does not publish shuttle frequency or operating hours/);
+ assert.match(text,/not a confirmed tram connection/);
+ assert.match(text,/datetime="2026-11-10"/);
+});
