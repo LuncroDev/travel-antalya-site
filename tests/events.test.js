@@ -112,3 +112,15 @@ test('disputed concert status cannot be promoted as confirmed upcoming', () => {
   assert.match(content, /biletix.com/);
   assert.match(content, /seans\/292137/);
 });
+
+test('Pinhani links the exact session and its verified entry conditions', () => {
+ const fs=require('node:fs'),matter=require('gray-matter');
+ const {data,content}=matter(fs.readFileSync('content/events/pinhani-konseri-2026-11-13-muratpasa.md','utf8'));
+ assert.match(data.source_url,/seans\/290772$/);
+ assert.equal(data.ticket_url,data.source_url);
+ assert.match(data.admission_note,/18\+/);
+ assert.match(data.admission_note,/mandatory drink purchase/);
+ assert.match(content,/18 or older on the event date/);
+ assert.match(content,/drink price is not specified/);
+ assert.doesNotMatch(content,/age restrictions were not verified/);
+});
