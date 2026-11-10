@@ -1,17 +1,26 @@
 ---
-title: "Casa Bi"
-slug: "casa-bi-kas"
-tagline: "A 16-room hotel on the Kaş peninsula. Every room sleeps two and has a sea view, and some have their own pool."
-category: "Boutique & heritage"
-neighborhood: "Kaş"
-district_slug: "kas"
-official_url: "https://casabi.com.tr/"
-source_url: "https://casabi.com.tr/hakkimizda/"
-source_label: "Official hotel website"
-source_urls: ["https://casabi.com.tr/","https://casabi.com.tr/hakkimizda/","https://casabi.com.tr/odalarimiz/"]
-last_checked: "2026-11-09"
-excerpt: "Sixteen sea-view rooms on the Çukurbağ Peninsula in Kaş, some with private pools. No guests aged 12 and under."
-booking_note: "The official site does not list a meal plan, sea access or opening season. Ask about all three before you book."
+title: Casa Bi
+slug: casa-bi-kas
+tagline: A 16-room hotel on the Kaş peninsula. Every room sleeps two and has a sea view, and some have their own pool.
+category: Boutique & heritage
+neighborhood: Kaş
+district_slug: kas
+official_url: https://casabi.com.tr/
+source_url: https://casabi.com.tr/hakkimizda/
+source_label: Official hotel website
+source_urls:
+- https://casabi.com.tr/
+- https://casabi.com.tr/hakkimizda/
+- https://casabi.com.tr/odalarimiz/
+last_checked: '2026-11-09'
+excerpt: Sixteen sea-view rooms on the Çukurbağ Peninsula in Kaş, some with private pools. No guests aged 12 and under.
+booking_note: The official site does not list a meal plan, sea access or opening season. Ask about all three before you book.
+photos_official:
+- src: https://casabi.com.tr/qaqiruv/webp-express/webp-images/uploads/2024/07/3-scaled.jpg.webp
+- src: https://casabi.com.tr/qaqiruv/webp-express/webp-images/uploads/2024/07/5-scaled.jpg.webp
+- src: https://casabi.com.tr/qaqiruv/webp-express/webp-images/uploads/2024/07/6-scaled.jpg.webp
+- src: https://casabi.com.tr/qaqiruv/webp-express/webp-images/uploads/2024/07/8-2-scaled.jpg.webp
+photo_source: https://casabi.com.tr/
 ---
 Casa Bi is a small hotel on the Çukurbağ Peninsula in Kaş. It has 16 rooms, all looking out to sea, and some come with their own pool. The owners, Işın and İsmail Erdoğmuş, say they first came to the peninsula looking for somewhere to retire. They built on the rocky slope and later opened the house to guests.
 

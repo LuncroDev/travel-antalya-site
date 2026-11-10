@@ -1,17 +1,30 @@
 ---
-title: "Carruba Boutique Hotel"
-slug: "carruba-boutique-hotel-kas"
-tagline: "A family-run boutique hotel in Kaş, named after the old carob tree at its gate, about eight minutes' walk from the town centre."
-category: "Boutique & heritage"
-neighborhood: "Kaş"
-district_slug: "kas"
-official_url: "https://carrubahotel.com/en"
-source_url: "https://carrubahotel.com/en/about-us"
-source_label: "Official hotel website"
-source_urls: ["https://carrubahotel.com/en","https://carrubahotel.com/en/about-us","https://carrubahotel.com/en/rooms","https://carrubahotel.com/en/breakfast","https://carrubahotel.com/en/contact","https://carrubahotel.com/en/kas","https://www.kgm.gov.tr/SiteCollectionDocuments/KGMdocuments/Root/Uzakliklar/ililcemesafe-ing.pdf"]
-last_checked: "2026-11-10"
-excerpt: "A carob-tree boutique hotel in Andifli, Kaş: 25–55 m² rooms, some with a jacuzzi, a buffet breakfast under olive trees, 8 minutes' walk to town."
-booking_note: "The site lists no child policy, opening season or sea access. Ask about all three, and check which rooms have the sea view you want."
+title: Carruba Boutique Hotel
+slug: carruba-boutique-hotel-kas
+tagline: A family-run boutique hotel in Kaş, named after the old carob tree at its gate, about eight minutes' walk from the town centre.
+category: Boutique & heritage
+neighborhood: Kaş
+district_slug: kas
+official_url: https://carrubahotel.com/en
+source_url: https://carrubahotel.com/en/about-us
+source_label: Official hotel website
+source_urls:
+- https://carrubahotel.com/en
+- https://carrubahotel.com/en/about-us
+- https://carrubahotel.com/en/rooms
+- https://carrubahotel.com/en/breakfast
+- https://carrubahotel.com/en/contact
+- https://carrubahotel.com/en/kas
+- https://www.kgm.gov.tr/SiteCollectionDocuments/KGMdocuments/Root/Uzakliklar/ililcemesafe-ing.pdf
+last_checked: '2026-11-10'
+excerpt: 'A carob-tree boutique hotel in Andifli, Kaş: 25–55 m² rooms, some with a jacuzzi, a buffet breakfast under olive trees, 8 minutes'' walk to town.'
+booking_note: The site lists no child policy, opening season or sea access. Ask about all three, and check which rooms have the sea view you want.
+photos_official:
+- src: https://carrubahotel.com/app/files/2516_5277_2417-main-slider-10.jpg
+- src: https://carrubahotel.com/app/files/6815_9523_6980-7.jpg
+- src: https://carrubahotel.com/app/files/6215_9523_6979-8.jpg
+- src: https://carrubahotel.com/app/files/3415_9523_6980-9.jpg
+photo_source: https://carrubahotel.com/en
 ---
 Carruba Boutique Hotel is a small hotel in Kaş named after a carob tree. The hotel says the tree at its entrance is about 250 years old, and that the owners' family once gathered its pods in the garden to make carob molasses. *Carruba* is Italian for carob. The hotel's own site places the start of its story there.
 
