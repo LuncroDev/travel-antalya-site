@@ -48,7 +48,8 @@ test('trade-fair filters preserve two date ranges and visible admission conditio
  change(w,'input[name=to]','2027-01-16');change(w,'input[name=from]','2027-01-16');assert.equal(visible(d,'[data-event]').length,0);
  dom.window.close();
  const category=new JSDOM(fs.readFileSync('_site/events/category/trade-fairs/index.html','utf8'));
- assert.equal(category.window.document.querySelectorAll('[data-event]').length,2);assert.equal(category.window.document.querySelectorAll('img[src=""]').length,0);
+ assert.equal(category.window.document.querySelectorAll('[data-event]').length,events.filter(e=>e.category==='Trade fairs').length);assert.equal(category.window.document.querySelectorAll('img[src=""]').length,0);
+ for(const slug of ['anfas-hotel-equipment-2027','anfas-food-product-2027'])assert.ok(category.window.document.querySelector(`a[href="/events/${slug}/"]`),slug);
  for(const slug of ['anfas-hotel-equipment-2027','anfas-food-product-2027']){const html=fs.readFileSync('_site/events/'+slug+'/index.html','utf8');assert.match(html,/event-admission-note/);assert.match(html,/not open to the general public/);}
  category.window.close();
 });
