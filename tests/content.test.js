@@ -60,3 +60,14 @@ test('museum closure guidance replaces obsolete seasonal visit suggestions', () 
  assert.match(museum, /DistId=ANT&SectionId=ANT01/);
  assert.match(museum, /00:00 time fields are not visitor opening hours/);
 });
+
+test('Aspendos separates site hours, ticket office and performance admission', () => {
+ const fs = require('node:fs');
+ const text = fs.readFileSync('content/things-to-do/aspendos-theatre.md','utf8');
+ assert.match(text,/DistId=ASP&SectionId=ASP01/);
+ assert.match(text,/08:00–17:00/);
+ assert.match(text,/ticket office closing at 16:30/);
+ assert.match(text,/does not establish a separate last-admission rule/);
+ assert.match(text,/Do not assume that a daytime archaeological-site ticket/);
+ assert.match(text,/10 November 2026/);
+});
