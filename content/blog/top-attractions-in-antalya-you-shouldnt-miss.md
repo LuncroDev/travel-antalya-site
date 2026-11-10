@@ -62,7 +62,7 @@ Mount Tahtalı, also known as Olympos Mountain, is one of the highest and most i
 
 ## Antalya Museum – Understanding the Region’s History
 
-Mount Tahtalı, also known as Olympos Mountain, is one of the highest and most impressive peaks in the Antalya region, offering a truly unforgettable experience for visitors. The easiest way to reach the top is by taking the modern Tahtalı Teleferik cable car, which provides a safe, comfortable, and scenic ride suitable for travelers of all ages. From the summit, you can enjoy breathtaking panoramic views of the turquoise Mediterranean Sea, the rugged Taurus Mountains, and the surrounding forests and valleys. Whether you are a nature lover, a photography enthusiast, or simply looking for an unforgettable adventure, Mount Tahtalı offers one of the most exciting and memorable experiences in Antalya, combining stunning natural beauty with the thrill of reaching new heights.
+Antalya Museum is temporarily closed; see the [current museum access guidance](/things-to-do/antalya-museum/) before planning a visit. The museum is known for its regional archaeological collections, but it should not currently be treated as an available indoor stop.
 
 ## Manavgat Waterfall – A Peaceful Natural Spot
 

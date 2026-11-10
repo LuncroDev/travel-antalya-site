@@ -91,7 +91,7 @@ Some highlights include:
 
 * Exploring ancient ruins such as Termessos, Perge, and Aspendos
 
-* Touring Antalya Museum to learn about regional history
+* Checking current museum access before choosing an indoor history stop. Antalya Museum is temporarily closed; see the [current museum access guidance](/things-to-do/antalya-museum/) before planning a visit.
 
 * Attending small cultural festivals and exhibitions
 

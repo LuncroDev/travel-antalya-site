@@ -15,10 +15,12 @@ photo_id: "konyaalti-welcome"
 photo_exact: false
 photo_label: "Konyaaltı, home of the museum"
 district_slug: "konyaalti"
+official_url: "https://www.muze.gov.tr/muze-detay?DistId=ANT&SectionId=ANT01"
+last_checked: "2026-11-10"
 ---
-**Temporarily closed.** The Ministry of Culture and Tourism lists Antalya Museum as closed for construction of the new museum and relocation of its collections, until works are completed. Checked 9 November 2026. A reopening date is not confirmed here.
+**Temporarily closed.** The Ministry of Culture and Tourism lists Antalya Museum as closed for construction of the new museum and relocation of its collections, until works are completed. Checked 10 November 2026. A reopening date is not confirmed here.
 
-Check the [official temporary closure list](https://kvmgm.ktb.gov.tr/TR-46782/gecici-sureyle-kapali-olan-muzeler-ve-bagli-birimler.html) before planning a visit. Do not rely on older opening hours or suggested itineraries.
+The [Ministry’s museum listing](https://www.muze.gov.tr/muze-detay?DistId=ANT&SectionId=ANT01) also explicitly marks it closed. Its 00:00 time fields are not visitor opening hours. Check the [official temporary closure list](https://kvmgm.ktb.gov.tr/TR-46782/gecici-sureyle-kapali-olan-muzeler-ve-bagli-birimler.html) before planning a visit. Do not rely on older opening hours or suggested itineraries.
 
 The museum is known for its archaeological collections, including finds from Perge. While it remains closed, consider a separate visit to [Perge Ancient City](/things-to-do/perge-ancient-city/) after checking that site's current admission information.
 

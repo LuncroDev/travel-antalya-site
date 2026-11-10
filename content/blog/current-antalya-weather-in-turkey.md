@@ -493,7 +493,7 @@ photo_id: "lower-duden-coast"
 
 <h3 class="wp-block-heading">Winter in Antalya: Beyond the Beach</h3>
 
-<p>While the sea might be a bit cold for some, there is so much more to do when the sun isn't scorching. <strong>Winter in Antalya</strong> is the season of "slow travel." It’s about long breakfasts (Van kahvaltısı), exploring the narrow, rain-slicked streets of Kaleiçi (Old Town), and visiting the world-class Antalya Archaeological Museum without the queues.</p>
+<p>While the sea might be a bit cold for some, there is so much more to do when the sun isn't scorching. <strong>Winter in Antalya</strong> is the season of "slow travel." It’s about long breakfasts (Van kahvaltısı), exploring the narrow, rain-slicked streets of Kaleiçi (Old Town), and choosing indoor activities with verified opening information. Antalya Museum is temporarily closed; see the <a href="/things-to-do/antalya-museum/">current museum access guidance</a> before planning a visit.</p>
 
 <p>For a deeper look at the best indoor activities, the most cozy cafes, and why the "off-season" might actually be the "best season," make sure to read my full article on <a href="https://travel-antalya.com/antalya-in-winter/" target="_blank" rel="noopener" title="Winter in Antalya">winter in Antalya</a>. You'll find that the city's soul is much more visible when the tourist frenzy fades.</p>
 

@@ -47,3 +47,16 @@ test('admin API only touches content and upload paths', () => {
   for (const ok of ['content/hotels/akra-hotel.md', 'content/blog/new-post.md', 'images/uploads/photo-1.jpg']) assert.ok(allowed.test(ok), ok);
   for (const bad of ['netlify.toml', '.github/workflows/x.yml', 'content/hotels/../../x.md', '_includes/base.njk', 'admin/app.js', 'content/hotels/x.js']) assert.ok(!allowed.test(bad), bad);
 });
+
+// Remove this closure-specific guard only after verifying an official reopening.
+test('museum closure guidance replaces obsolete seasonal visit suggestions', () => {
+ const slugs = ['is-may-one-of-the-best-months-for-antalya-weather','what-is-antalya-weather-really-like-in-february','is-january-a-bad-time-to-visit-antalya-weather-explained-honestly','is-antalya-good-for-families-things-to-do-in-antalya-with-kids'];
+ for (const slug of slugs) {
+  const text = fs.readFileSync(`content/blog/${slug}.md`, 'utf8');
+  assert.match(text, /temporarily closed/i);
+  assert.match(text, /\/things-to-do\/antalya-museum\//);
+ }
+ const museum = fs.readFileSync('content/things-to-do/antalya-museum.md', 'utf8');
+ assert.match(museum, /DistId=ANT&SectionId=ANT01/);
+ assert.match(museum, /00:00 time fields are not visitor opening hours/);
+});

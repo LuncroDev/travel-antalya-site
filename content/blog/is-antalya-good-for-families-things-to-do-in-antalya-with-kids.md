@@ -61,9 +61,9 @@ Kaleiçi is the historic heart of Antalya, with narrow cobbled streets, ancient 
 Hadrian’s Gate is one of Antalya’s most famous landmarks, built during Roman times. Its tall stone arches and intricate carvings make it stand out from modern buildings, and children often find it fascinating to see such a structure still standing strong after so many centuries. It is an easy-to-reach landmark and a great spot for photos while learning about Roman architecture.
 
 **Antalya Museum**  
-The Antalya Museum is perfect for families who want to combine learning with fun. It displays artifacts from ancient civilizations, including statues, tools, coins, and treasures, all explained in a way that is easy for children to understand. The museum has spacious galleries and interactive displays, making it a great indoor activity on hot, sunny days or during rainy weather.
+Antalya Museum is temporarily closed; see the [current museum access guidance](/things-to-do/antalya-museum/) before planning a visit. Its galleries are not currently an option for a family outing; choose a different indoor activity while it remains closed.
 
-Together, Kaleiçi, Hadrian’s Gate, and the Antalya Museum offer a wonderful introduction to history and culture. Visiting these sites allows families to enjoy quality time together while exploring Antalya’s fascinating past, making it an unforgettable part of any family trip.
+Kaleiçi and Hadrian’s Gate offer a wonderful introduction to history and culture. Visiting these sites allows families to enjoy quality time together while exploring Antalya’s fascinating past, making it an unforgettable part of any family trip.
 
 ## Nature and Outdoor Activities for Families
 

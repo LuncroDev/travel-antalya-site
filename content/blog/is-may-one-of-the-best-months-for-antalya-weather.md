@@ -44,7 +44,7 @@ These numbers indicate that May is one of the best months for Antalya weather. T
 
 ## Daytime Temperatures in May
 
-During the day, Antalya in May is usually sunny and pleasantly warm, with temperatures ranging from 22°C to 28°C. These comfortable temperatures are perfect for exploring the city, strolling through historical landmarks, or spending time relaxing on the beaches. Unlike the intense heat of July and August, when daytime activities can feel exhausting, May’s warmth feels refreshing and easy to enjoy. The sun is bright, but the temperatures are moderate, allowing visitors to spend long hours outdoors without discomfort. This makes it an ideal time to visit popular sightseeing spots such as Kaleiçi Old Town, Hadrian’s Gate, the Antalya Museum, and nearby ancient cities like Perge or Aspendos. Walking around is comfortable, views are clear, and the soft, natural sunlight provides excellent conditions for photography, capturing the city’s charm and history in its best light.
+During the day, Antalya in May is usually sunny and pleasantly warm, with temperatures ranging from 22°C to 28°C. These comfortable temperatures are perfect for exploring the city, strolling through historical landmarks, or spending time relaxing on the beaches. Unlike the intense heat of July and August, when daytime activities can feel exhausting, May’s warmth feels refreshing and easy to enjoy. The sun is bright, but the temperatures are moderate, allowing visitors to spend long hours outdoors without discomfort. This makes it an ideal time to visit popular sightseeing spots such as Kaleiçi Old Town, Hadrian’s Gate, and nearby ancient cities like Perge or Aspendos. Walking around is comfortable, views are clear, and the soft, natural sunlight provides excellent conditions for photography, capturing the city’s charm and history in its best light.
 
 ## Evening and Night Temperatures in May
 
@@ -111,7 +111,7 @@ Antalya is rich in cultural and historical experiences, and May is an ideal time
 
 * **Walking through Kaleiçi Old Town:** Wander the charming streets and admire historic architecture.
 
-* **Visiting museums:** Explore Antalya Museum or Suna & İnan Kıraç Kaleiçi Museum at a relaxed pace.
+* **Museum planning:** Antalya Museum is temporarily closed; see the [current museum access guidance](/things-to-do/antalya-museum/) before planning a visit. For other indoor options, consult our [rainy-day museum guide](/blog/antalya-museums-rainy-day/) and confirm each venue’s current hours.
 
 * **Exploring ancient ruins:** Discover historic sites like Termessos, Perge, and Aspendos without the summer heat.
 

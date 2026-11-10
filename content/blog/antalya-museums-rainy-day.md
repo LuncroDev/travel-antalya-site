@@ -20,7 +20,7 @@ Our guide to [rainfall in Antalya by month](/blog/does-it-rain-a-lot-in-antalya-
 
 **The Antalya Museum is closed.** The news agency DHA reported in September 2025 that the museum shut to visitors on 16 July 2025. Its 1972 building had been judged unsafe in an earthquake, and the Ministry of Culture and Tourism ordered it demolished. DHA said about 100,000 objects were packed and moved into sealed, climate-controlled containers in the museum garden before the demolition began. The report gave November 2026 as the target for finishing the new museum.
 
-That target has not become an opening date. When we checked on 10 November 2026, the ministry's page for the museum gave no opening hours. Our [Antalya Museum page](/things-to-do/antalya-museum/) will change when the ministry announces a reopening.
+That target has not become an opening date. When we checked on 10 November 2026, the [Ministry’s museum listing](https://www.muze.gov.tr/muze-detay?DistId=ANT&SectionId=ANT01) explicitly marked it closed. Our [Antalya Museum page](/things-to-do/antalya-museum/) will change when the ministry announces a reopening.
 
 ### Lycian Civilisations Museum and Andriake
 
@@ -88,7 +88,7 @@ The ministry's list for the **MuseumPass The Mediterranean** includes the Antaly
 
 ### Is the Antalya Museum open?
 
-No. DHA reported that it closed on 16 July 2025 and that its old building was demolished to make way for a new museum, with completion targeted for November 2026. When we checked on 10 November 2026, the ministry had not published opening hours. Check our [Antalya Museum page](/things-to-do/antalya-museum/) for updates.
+No. DHA reported that it closed on 16 July 2025 and that its old building was demolished to make way for a new museum, with completion targeted for November 2026. When we checked on 10 November 2026, the Ministry explicitly listed the museum as closed. Check our [Antalya Museum page](/things-to-do/antalya-museum/) for updates.
 
 ### What is the best museum in Antalya to visit now?
 

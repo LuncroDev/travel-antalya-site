@@ -20,7 +20,7 @@ last_checked: "2026-11-10"
 ---
 Perge was one of the most important cities of ancient Pamphylia and is one of the most rewarding sites near Antalya. Roughly 15 kilometres east of the city, it is easy to reach by bus, taxi or as part of a tour.
 
-The Hellenistic gate and its twin towers mark the entrance to the old city. Beyond that, a long colonnaded street runs through the centre, with a water channel running down the middle. The stadium, with seating for many thousands of spectators, is among the best-preserved in Anatolia, and the agora is another feature of the city. The ancient theatre is temporarily closed for restoration; do not plan to enter it. Many of the finest statues recovered here are displayed in the Antalya Museum.
+The Hellenistic gate and its twin towers mark the entrance to the old city. Beyond that, a long colonnaded street runs through the centre, with a water channel running down the middle. The stadium, with seating for many thousands of spectators, is among the best-preserved in Anatolia, and the agora is another feature of the city. The ancient theatre is temporarily closed for restoration; do not plan to enter it. Many statues recovered here belong to the collections of [Antalya Museum](/things-to-do/antalya-museum/), which is temporarily closed. Do not plan a same-day museum visit without a confirmed reopening.
 
 ## Current access and opening hours
 

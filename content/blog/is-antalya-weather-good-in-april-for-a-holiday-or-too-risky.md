@@ -10,7 +10,7 @@ featured: false
 photo_id: "kursunlu-waterfall"
 ---
 
-> **Museum access update, 9 November 2026:** Antalya Museum is listed as temporarily closed for new museum works. Older visit suggestions below do not confirm access. Check the [current closure guidance](/things-to-do/antalya-museum/) before planning a visit.
+> **Museum access update, 10 November 2026:** Antalya Museum is listed as temporarily closed for new museum works. Older visit suggestions below do not confirm access. Check the [current closure guidance](/things-to-do/antalya-museum/) before planning a visit.
 
 <p>Antalya is one of Turkey’s most popular holiday destinations, attracting millions of tourists each year with its stunning beaches, rich historical landmarks, warm Mediterranean climate, and friendly atmosphere. Many travelers, however, often wonder: Is Antalya’s weather in April suitable for a holiday, or is it too risky? April marks the beginning of spring, as the city gradually transitions from the cooler winter months to the warmer days of summer. Understanding <a href="https://travel-antalya.com/"><strong>Antalya’s weather in April</strong></a> is essential for travelers to plan outdoor activities, choose appropriate clothing, and decide whether to explore the city, enjoy nature, or spend time on the beaches. With the right preparation, visiting Antalya in April can offer a comfortable, relaxing, and memorable spring holiday.</p>
 
@@ -104,7 +104,7 @@ photo_id: "kursunlu-waterfall"
 
 <h2 class="wp-block-heading"><strong>Crowds and Tourism in April</strong></h2>
 
-<p>April is considered a shoulder season in Antalya, making it an ideal time for travelers who prefer a more relaxed experience. Tourist numbers are lower than in summer, allowing visitors to enjoy quieter beaches, shorter lines at attractions, and a more peaceful atmosphere overall. Popular sightseeing spots like Hadrian’s Gate, Antalya Museum, and Kaleiçi are less crowded, so you can explore comfortably and take your time without feeling rushed. The reduced tourist traffic also often means more affordable hotel prices, better availability, and attentive service at restaurants and attractions, making April a great choice for both sightseeing and a calm, enjoyable vacation.</p>
+<p>April is considered a shoulder season in Antalya, making it an ideal time for travelers who prefer a more relaxed experience. Tourist numbers are lower than in summer, allowing visitors to enjoy quieter beaches, shorter lines at attractions, and a more peaceful atmosphere overall. Popular sightseeing spots like Hadrian’s Gate and Kaleiçi are less crowded, so you can explore comfortably and take your time without feeling rushed. The reduced tourist traffic also often means more affordable hotel prices, better availability, and attentive service at restaurants and attractions, making April a great choice for both sightseeing and a calm, enjoyable vacation.</p>
 
 <h2 class="wp-block-heading"><strong>Antalya Weather in April Compared to Other Months</strong></h2>
 

@@ -10,7 +10,7 @@ featured: true
 photo_id: "kaleici-marina"
 ---
 
-> **Museum access update, 9 November 2026:** Antalya Museum is listed as temporarily closed for new museum works. Older visit suggestions below do not confirm access. Check the [current closure guidance](/things-to-do/antalya-museum/) before planning a visit.
+> **Museum access update, 10 November 2026:** Antalya Museum is listed as temporarily closed for new museum works. Older visit suggestions below do not confirm access. Check the [current closure guidance](/things-to-do/antalya-museum/) before planning a visit.
 
 <p></p>
 
@@ -128,7 +128,7 @@ photo_id: "kaleici-marina"
 
 <p>Antalya’s cultural richness rivals its natural beauty, offering an engrossing tapestry of history and tradition. The city’s Old Town, known as Kaleiçi, stands as a testament to its vibrant past. Stroll through its winding cobblestone streets and admire the charming Ottoman-era houses.</p>
 
-<p>Antalya Museum is a cornerstone of the city’s cultural offerings. It houses an impressive collection of artifacts that weave together the storied history of the region. From ancient relics to stunning sculptures, the exhibits inspire awe.</p>
+<p>Antalya Museum is a cornerstone of the city’s cultural heritage. Antalya Museum is temporarily closed; see the <a href="/things-to-do/antalya-museum/">current museum access guidance</a> before planning a visit. It houses an impressive collection of artifacts that weave together the storied history of the region. From ancient relics to stunning sculptures, the exhibits inspire awe.</p>
 
 <p>Festival lovers will find plenty to enjoy in Antalya, with events like the Antalya Film Festival capturing international attention. These celebrations highlight the city’s dynamic arts scene and cultural heritage.</p>
 
@@ -145,7 +145,7 @@ photo_id: "kaleici-marina"
 <ul class="wp-block-list">
 <li>Kaleiçi (Old Town)</li>
 
-<li>Antalya Museum</li>
+<li>Antalya Museum: temporarily closed; <a href="/things-to-do/antalya-museum/">check current access</a></li>
 
 <li>Antalya Film Festival</li>
 
@@ -292,7 +292,7 @@ photo_id: "kaleici-marina"
 
 <p>In the heart of Antalya, the Old Town, Kaleiçi, showcases Ottoman-era architecture. Its winding cobblestone streets and traditional houses create a charming atmosphere. Exploring this area feels like stepping back in time.</p>
 
-<p>The Antalya Museum offers an extensive collection of artifacts from throughout the region's history. From stone carvings to intricate jewelry, the exhibits provide deep insight into Antalya's ancient civilizations.</p>
+<p>The temporarily closed Antalya Museum is known for its extensive collection of artifacts from throughout the region's history. From stone carvings to intricate jewelry, the exhibits provide deep insight into Antalya's ancient civilizations.</p>
 
 <ul class="wp-block-list">
 <li><strong>Key Historical Sites in Antalya:</strong>
@@ -305,7 +305,7 @@ photo_id: "kaleici-marina"
 
 <li>Kaleiçi (Old Town)</li>
 
-<li>Antalya Museum</li>
+<li>Antalya Museum: temporarily closed; <a href="/things-to-do/antalya-museum/">check current access</a></li>
 </ul>
 </li>
 </ul>

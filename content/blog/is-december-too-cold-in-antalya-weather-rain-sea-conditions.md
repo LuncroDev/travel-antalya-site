@@ -41,7 +41,7 @@ Daytime temperatures are comfortable enough for walking, sightseeing, and explor
 
 ## Daytime Weather in December
 
-Daytime temperatures in Antalya during December are mild, averaging around 15°C to 17°C. This is warmer than most European destinations at this time of year, making it a pleasant month for sightseeing and outdoor activities. The sunshine is gentle and softer than in summer, allowing visitors to explore historical sites such as Hadrian’s Gate, Kaleiçi (Old Town), and Antalya Museum comfortably. Unlike the peak summer months, the heat is never overwhelming, enabling travelers to spend long hours outdoors without fatigue. The air is also fresh and crisp, especially in the mornings, making it ideal for nature walks, hiking, and exploring parks and gardens around the city.
+Daytime temperatures in Antalya during December are mild, averaging around 15°C to 17°C. This is warmer than most European destinations at this time of year, making it a pleasant month for sightseeing and outdoor activities. The sunshine is gentle and softer than in summer, allowing visitors to explore historical streets around Hadrian’s Gate and Kaleiçi (Old Town) when conditions allow. Antalya Museum is temporarily closed; see the [current museum access guidance](/things-to-do/antalya-museum/) before planning a visit. Unlike the peak summer months, the heat is never overwhelming, enabling travelers to spend long hours outdoors without fatigue. The air is also fresh and crisp, especially in the mornings, making it ideal for nature walks, hiking, and exploring parks and gardens around the city.
 
 ## Evening and Night Conditions
 
