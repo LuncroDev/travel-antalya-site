@@ -18,5 +18,14 @@
    "/images/uploads/venue-susesi-luxury-resort-4.jpg"
   ],
   "errors": []
+ },
+ "restaurants/side-orfoz-restaurant": {
+  "page": "https://sideorfozrestaurant.com/EN",
+  "saved": [
+   "/images/uploads/venue-side-orfoz-restaurant-1.jpg",
+   "/images/uploads/venue-side-orfoz-restaurant-2.jpg",
+   "/images/uploads/venue-side-orfoz-restaurant-3.jpg"
+  ],
+  "errors": []
  }
 }
