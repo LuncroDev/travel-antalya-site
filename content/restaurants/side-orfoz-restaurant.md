@@ -15,11 +15,10 @@ tagline: Seafood and Turkish-international cooking in the historic harbour area 
 source_label: Official venue information
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
 photos_official:
-- src: https://sideorfozrestaurant.com/uploads/1920px/DSCF6110.jpg
-- src: https://sideorfozrestaurant.com/uploads/1920px/DSCF5333-Enhanced-NR.jpg
-- src: https://sideorfozrestaurant.com/uploads/1024px/DJI-0015.jpg
-- src: https://sideorfozrestaurant.com/uploads/640px/Orfoz-Yemek-Menu-EN-2026-2-of-14.jpg
-photo_source: https://sideorfozrestaurant.com/EN
+  - src: "/images/uploads/venue-side-orfoz-restaurant-1.jpg"
+  - src: "/images/uploads/venue-side-orfoz-restaurant-2.jpg"
+  - src: "/images/uploads/venue-side-orfoz-restaurant-3.jpg"
+photo_source: "https://sideorfozrestaurant.com/EN"
 ---
 Side Orfoz is on Nar Sokak near Liman Caddesi in ancient Side. Its official menu and description combine seafood with Turkish and international dishes in a sea-view setting.
 
