@@ -49,7 +49,7 @@ test('every event has traceable review data and valid verified dates', () => {
     }
   }
   assert.ok(records.filter(data => eventStatus(data, '2026-11-09') === 'upcoming').length >= 50);
-  assert.equal(records.filter(data => eventStatus(data, '2026-11-09') === 'current').length, 1);
+  assert.deepEqual(records.filter(data => eventStatus(data, '2026-11-09') === 'current').map(data => data.title).sort(), ['COP31 Antalya', 'COP31 Antalya City Events 2026']);
   assert.equal(records.filter(data => eventStatus(data, '2026-11-09') === 'archive').length, 3);
   assert.equal(records.filter(data => eventStatus(data, '2026-11-09') === 'awaiting').length, 4);
 });
@@ -83,4 +83,18 @@ test('2027 book fair distinguishes announced dates from unconfirmed visitor arra
   assert.equal(data.booking_url, undefined);
   assert.match(content, /dha\.com\.tr/);
   assert.match(content, /2027 venue, daily opening hours, admission conditions or programme/);
+});
+
+test('COP31 city programme stays distinct from conference admission and expires after 20 November', () => {
+  const fs = require('node:fs');
+  const matter = require('gray-matter');
+  const {data, content} = matter(fs.readFileSync('content/events/cop31-city-events-2026.md', 'utf8'));
+  assert.equal(eventStatus(data, '2026-11-10'), 'current');
+  assert.equal(eventStatus(data, '2026-11-20'), 'current');
+  assert.equal(eventStatus(data, '2026-11-21'), 'archive');
+  assert.match(data.admission_note, /unverified/);
+  assert.match(content, /not admission to the COP31 conference/);
+  assert.match(content, /11 November, 17:00, Hıdırlık/);
+  assert.match(content, /12 November, 17:00, Hıdırlık/);
+  assert.match(content, /mcmsmedia\.antalya\.bel\.tr/);
 });
