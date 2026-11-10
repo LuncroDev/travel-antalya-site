@@ -1,0 +1,20 @@
+{
+ "hotels/the-marmara-antalya": {
+  "page": "https://www.themarmarahotels.com/en/hotels/the-marmara-antalya",
+  "images": [
+   "https://www.themarmarahotels.com/media/kouctyby/the-marmara-antalya-anasayfa-banner.jpg?width=1600",
+   "https://www.themarmarahotels.com/media/ivzbtvu1/the-marmara-antalya-anasayfa-havuz-card.jpg?width=1600",
+   "https://www.themarmarahotels.com/media/04blzqro/the-marmara-antalya-anasayfa-gastronomi-promo.jpg?width=1600",
+   "https://www.themarmarahotels.com/media/dexftelk/the-marmara-antalya-superior-oda-list-card.jpg?width=1600"
+  ]
+ },
+ "hotels/susesi-luxury-resort": {
+  "page": "https://www.susesihotel.com/en/",
+  "images": [
+   "https://www.susesihotel.com/media/ne5hikm2/susesi-luxury-resort-mainpage-banner-desktop.jpg?width=1600",
+   "https://www.susesihotel.com/media/klsdxbxf/susesi-luxury-resort-mainpage-banner-desktop-2.jpg?width=1600",
+   "https://www.susesihotel.com/media/15umq25e/susesi-luxury-resort-mainpage-banner-desktop-3.jpg?width=1600",
+   "https://www.susesihotel.com/media/0wbfo3bu/susesi-luxury-resort-mainpage-banner-desktop-4.jpg?width=1600"
+  ]
+ }
+}

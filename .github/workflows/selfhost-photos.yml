@@ -1,0 +1,37 @@
+name: Self-host venue photos
+# Some venue sites refuse Netlify Image CDN fetches. When docs/import/selfhost.json
+# changes, download those photos on GitHub's runner, make the WebP copies and
+# commit them so the site serves them itself.
+on:
+  push:
+    branches: [main]
+    paths: ['docs/import/selfhost.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: selfhost-photos
+  cancel-in-progress: false
+jobs:
+  selfhost:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow
+      - run: node scripts/import/selfhost.js
+      - run: python3 scripts/optimize-images.py
+      - name: Commit downloaded photos
+        run: |
+          git config user.name "travel-antalya-importer"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/import/selfhost-result.json images/uploads images/opt
+          if git diff --cached --quiet; then echo "Nothing new"; exit 0; fi
+          git commit -m "import: self-hosted venue photos [skip netlify]"
+          for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && break; sleep 5; done
