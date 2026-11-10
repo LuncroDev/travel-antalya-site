@@ -2,7 +2,16 @@
 
 An official website is a source, not a reuse licence. Public visibility and source credit alone do not establish permission. Missing records do not establish infringement; private permission may exist elsewhere.
 
-## Current remediation
+## Owner decision (2026-11-09, reconfirmed 2026-11-10) — read this first
+
+The site owner directed that each hotel's, restaurant's and golf club's **own website photos** be shown on that venue's listing, with credit and a link to the source page, and accepted responsibility for their use. This is recorded in `docs/photo-rights.json` → `owner_acceptance` (and the per-asset list `owner_accepted`). It is an owner decision, **not** a licence and not a claim that rights holders granted permission.
+
+- Do **not** remove or quarantine these photos without the owner's explicit instruction.
+- Exclusions still win (sister-property mix-ups, unreachable CDNs). Add an asset to `excluded` if it shows the wrong property or a rights holder asks for removal.
+- Takedown: remove promptly on request from the venue or photographer (via /contact/), then add it to `excluded`.
+- Photos the owner adds through the admin panel are covered by the same decision (`auto_accept_listed`).
+
+## Earlier remediation (superseded by the owner decision above)
 
 The 117 venue selections from main `22b3107` are retained in `docs/import/official-photo-pending.json`, outside the published site. Their 365 selected source references are not active front matter. Existing documented property archives and clearly labelled destination photographs fill the same hero and card components. Layout, CSS and venue prose are unchanged. Dated property images remain archival, with full framing and changes/credit notices. Destination pictures identify the actual subject and are not presented as the venue.
 

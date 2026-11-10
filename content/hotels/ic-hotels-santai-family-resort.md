@@ -14,6 +14,12 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: A Belek family resort in the Üçkum Tepesi area with kids suites and swim-up villa options.
 booking_note: Check children's age groups, swim-up safety rules and restaurant booking conditions.
+photos_official:
+- src: https://www.ichotels.com.tr/media/qernjapl/ic-hotels-santai-family-resort-konaklama-standart-deniz-manzarali-card.jpg
+- src: https://www.ichotels.com.tr/media/1pmlwp0c/ic-hotels-santai-family-resort-konaklama-engelli-odasi-card.jpg
+- src: https://www.ichotels.com.tr/media/0zehtv5e/ic-hotels-santai-family-junior-suite-card.jpg
+- src: https://www.ichotels.com.tr/media/sosjcsah/ic-hotels-santai-family-resort-konaklama-kids-suite-card.jpg
+photo_source: https://www.ichotels.com.tr/en/our-hotels/santai-family-resort/
 ---
 A Belek family resort in the Üçkum Tepesi area with kids suites and swim-up villa options. The official hotel emphasises daytime activity, children's play areas and several themed dining venues.
 

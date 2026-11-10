@@ -13,6 +13,10 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: A city hotel in Antalya operating under the Akra brand since 2023.
 booking_note: Check any access arrangements for neighbouring Akra Antalya facilities; do not assume every benefit is shared.
+photos_official:
+- src: https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/4thpb1by/akrav-general-d.jpg
+- src: https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/y01j1eyg/akra-v-mainpage-card.jpg
+photo_source: https://www.akrahotels.com/en/hotels/akra-v/about-us/
 ---
 A city hotel in Antalya operating under the Akra brand since 2023. Unlike a conventional all-inclusive resort, the official hotel offers room-only or bed-and-breakfast meal plans.
 

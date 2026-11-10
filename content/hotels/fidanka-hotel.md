@@ -13,6 +13,12 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: A Kalkan hotel featuring gardens, antique objects and individually styled spaces; the official site advertises a 12-plus concept.
 booking_note: Confirm the age policy and room access. Kalkan’s hills make exact location and transport important when planning a stay.
+photos_official:
+- src: https://fidanka.com/dacegug/2025/06/9616_4337_4245-galeri_12-768x502.jpg
+- src: https://fidanka.com/dacegug/2025/06/4016_4337_4245-galeri_13-768x512.jpg
+- src: https://fidanka.com/dacegug/2025/06/5216_4337_3297-01.jpg
+- src: https://fidanka.com/dacegug/2025/06/5216_4337_3296-02.jpg
+photo_source: https://fidanka.com/en/
 ---
 A Kalkan hotel featuring gardens, antique objects and individually styled spaces; the official site advertises a 12-plus concept.
 

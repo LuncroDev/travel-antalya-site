@@ -15,6 +15,12 @@ slug: carya-golf-club
 category: Golf club
 tagline: An 18-hole heathland-inspired course with full-course floodlights in Kadriye.
 source_label: Official venue information
+photos_official:
+- src: https://www.caryagolf.com/media/td2ozrhm/regnumcarya_carya_golf_club-08-min-min-min.jpg
+- src: https://www.caryagolf.com/media/i22if3eb/regnumcarya_carya_golf_club-51-min-min-1-min.jpg
+- src: https://www.caryagolf.com/media/h5xhquzf/carya-golf-club-3-min-min-min.jpg
+- src: https://www.caryagolf.com/media/bg2k140w/carya-golf-club26-min-min-min.jpg
+photo_source: https://www.caryagolf.com/en/
 ---
 Carya is a Thomson Perrett & Lobb design set among pine forest in the Belek region. The club opened in 2008 and offers 18-hole golf under floodlights as well as daytime rounds.
 

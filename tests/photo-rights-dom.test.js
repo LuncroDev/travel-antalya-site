@@ -25,6 +25,8 @@ test('all remediated heroes use the documented replacement and clear captions',(
 });
 test('no pending official photo is embedded anywhere in the generated site',()=>{
   const approved=new Set(require('../lib/photo-rights').registry().approved.filter(p=>!require('../lib/photo-rights').approvalErrors(p).length).map(p=>p.src));
+  const rights=require('../lib/photo-rights').registry();
+  if(rights.owner_acceptance&&rights.owner_acceptance.status==='accepted')for(const p of rights.owner_accepted||[])approved.add(p.src);
   const sources=new Set(Object.values(pending).flatMap(p=>p.images).filter(src=>!approved.has(src)));
   for(const file of fs.readdirSync('_site',{recursive:true}).filter(f=>f.endsWith('.html'))) {
     const html=fs.readFileSync('_site/'+file,'utf8');

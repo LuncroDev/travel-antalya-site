@@ -13,6 +13,12 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: A large resort in Beldibi on the Kemer coast, between the sea and mountain landscapes.
 booking_note: Beldibi is outside Kemer town. Confirm seasonal entertainment, transfers and the exact package before committing.
+photos_official:
+- src: https://www.ahstatic.com/photos/b1k1_ho_00_p_1024x768.jpg
+- src: https://www.ahstatic.com/photos/b1k1_ho_00_p_2048x1536.jpg
+- src: https://www.ahstatic.com/photos/b1k1_ho_01_p_2048x1536.jpg
+- src: https://www.ahstatic.com/photos/b1k1_ho_02_p_2048x1536.jpg
+photo_source: https://all.accor.com/hotel/B1K1/index.en.shtml
 ---
 A large resort in Beldibi on the Kemer coast, between the sea and mountain landscapes.
 

@@ -10,7 +10,8 @@ const { officialPhotos, cardPhoto, photoGalleryFor } = require('../lib/ui');
 const validate = require('../scripts/validate-photo-rights');
 const valid = () => ({ id:'fixture',venue_slug:'fixture-hotel',status:'approved',src:'https://example.com/photo.jpg',source_url:'https://example.com/source',license_url:'https://creativecommons.org/licenses/by/4.0/',evidence_url:'https://example.com/grant',author:'Test photographer',alt:'Hotel facade',caption:'Hotel facade',license:'CC BY 4.0',changes:'Resized and responsively cropped.',reviewed_by:'Test editor',reviewed_on:'2026-11-09',expires_on:null,width:1600,height:1000,permitted_use:{commercial_editorial:true,web_display:true,resize_convert:true,responsive_crop:true,cdn_cache:true} });
 test('official origin alone never constitutes approval', () => {
-  assert.deepEqual(officialPhotos({slug:'fixture-hotel',photos_official:[{src:'https://example.com/photo.jpg'}]}),[]);
+  // Without a licence record or an owner decision, an official URL is never enough.
+  assert.deepEqual(selectedOfficialPhotos({slug:'fixture-hotel',photos_official:[{src:'https://example.com/photo.jpg'}]},{approved:[],excluded:[]}),[]);
   assert.ok(approvalErrors({ ...valid(), license:'Official website' }).length);
   for (const field of ['evidence_url','license_url','author','reviewed_by','expires_on']) { const p=valid(); delete p[field]; assert.ok(approvalErrors(p).length,field); }
 });
@@ -80,4 +81,18 @@ test('generated images cannot bypass rights checks through raw HTML or CDN URLs'
     fs.writeFileSync(path.join(root,'index.html'),'<img src="/images/blocked.jpg">');
     assert.throws(()=>check(root,{approved:[],excluded:[{status:'excluded',images:['/images/blocked.jpg']}]}),/without current rights approval/);
   } finally {fs.rmSync(root,{recursive:true,force:true});}
+});
+
+test('owner-accepted venue photos render with credit, but exclusions still win', () => {
+  const { ownerAccepted } = require('../lib/photo-rights');
+  const rights = { approved: [], excluded: [{ venue_slug: 'blocked-hotel', status: 'excluded', images: [] }],
+    owner_acceptance: { status: 'accepted', auto_accept_listed: true },
+    owner_accepted: [{ venue_slug: 'fixture-hotel', venue_title: 'Fixture Hotel', src: 'https://example.com/a.jpg', source_page: 'https://example.com/' }] };
+  const p = approvedPhoto('fixture-hotel', 'https://example.com/a.jpg', rights);
+  assert.ok(p && /not a licence/.test(p.license) && p.source_url === 'https://example.com/');
+  assert.equal(approvedPhoto('sister-hotel', 'https://example.com/a.jpg', rights), null);
+  const data = { slug: 'fixture-hotel', title: 'Fixture Hotel', official_url: 'https://example.com/', photos_official: [{ src: 'https://cdn.example.com/b.jpg' }] };
+  assert.equal(selectedOfficialPhotos(data, rights).length, 1);
+  assert.equal(selectedOfficialPhotos({ ...data, slug: 'blocked-hotel' }, rights).length, 0);
+  assert.equal(ownerAccepted('fixture-hotel', 'https://example.com/a.jpg', { ...rights, owner_acceptance: { status: 'revoked' } }), null);
 });

@@ -14,6 +14,11 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: Cornelia Diamond is based in Belek's İskele area and presents an all-inclusive golf-and-spa resort concept.
 booking_note: Confirm golf inclusions and distinguish the Diamond hotel from other Cornelia-branded accommodation.
+photos_official:
+- src: https://corneliaresort.com/uploads/1920px/dllerw.jpg
+- src: https://corneliaresort.com/uploads/640px/CORNELIA-DIAMOND-FAMILY-SUITE-BEDROOM11-1.jpg
+- src: https://corneliaresort.com/uploads/640px/83234804_Golf-Suit.jpeg
+photo_source: https://corneliaresort.com/EN/Cornelia-Diamond-Luxury-Golf-Resort-Spa-Hotel-Belek-Antalya
 ---
 Cornelia Diamond is based in Belek's İskele area and presents an all-inclusive golf-and-spa resort concept. Its accommodation includes rooms, suites and villa options.
 

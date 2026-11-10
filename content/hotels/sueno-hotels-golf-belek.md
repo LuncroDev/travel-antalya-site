@@ -15,6 +15,12 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: Sueno Hotels Golf Belek is located within the Pines and Dunes golf-course setting.
 booking_note: Confirm tee times, handicaps, equipment hire and transport arrangements separately from the room.
+photos_official:
+- src: https://golf.sueno.com.tr/wp-content/uploads/2025/11/SHDB-Meydan_002-255x191.webp
+- src: https://golf.sueno.com.tr/wp-content/uploads/2025/11/SHDB-Italian_Alacarte_02-255x383.webp
+- src: https://golf.sueno.com.tr/wp-content/uploads/2024/03/sueno-hotels-golf-belek-hotel-greens-bar-0-255x191.webp
+- src: https://golf.sueno.com.tr/wp-content/uploads/2024/03/sueno-hotels-golf-belek-hotel-spa-4-255x383.webp
+photo_source: https://golf.sueno.com.tr/en/anasayfa-en/
 ---
 Sueno Hotels Golf Belek is located within the Pines and Dunes golf-course setting. It is a distinct accommodation choice from Sueno Hotels Deluxe Belek.
 

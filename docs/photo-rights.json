@@ -65,5 +65,2572 @@
         "https://antalyabalikevi.com.tr/wp-content/themes/antalyabalikevi/image/Galeri/polaroid/Galeri%205.jpg"
       ]
     }
+  ],
+  "owner_acceptance": {
+    "status": "accepted",
+    "decided_by": "Site owner",
+    "decided_on": "2026-11-09",
+    "reconfirmed_on": "2026-11-10",
+    "scope": "Photos published on each hotel's, restaurant's or golf club's own official website, shown on that venue's listing with credit and a link to the source page, resized via Netlify Image CDN. Photos the owner later adds to a venue's listing (admin panel) are covered by the same decision; excluded assets stay blocked.",
+    "basis": "The site owner directed that these photos be used and accepted responsibility for usage rights (chat instructions on 2026-11-09 and 2026-11-10). This records an owner decision; it is not a licence and not a claim that rights holders granted permission.",
+    "takedown": "Remove any photo promptly on request from the venue or photographer (contact page), and add it to 'excluded'.",
+    "auto_accept_listed": true
+  },
+  "owner_accepted": [
+    {
+      "venue_slug": "tuvana-hotel",
+      "venue_title": "Tuvana Hotel",
+      "src": "https://tuvanahotel.com/wp-content/uploads/2013/01/tuvanahotel-1024x525.jpg",
+      "source_page": "https://tuvanahotel.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "tuvana-hotel",
+      "venue_title": "Tuvana Hotel",
+      "src": "https://tuvanahotel.com/wp-content/uploads/2016/08/Tuvana-Hotel-mainpage-1024x523.jpg",
+      "source_page": "https://tuvanahotel.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "tuvana-hotel",
+      "venue_title": "Tuvana Hotel",
+      "src": "https://tuvanahotel.com/wp-content/uploads/2012/07/tuvanahotel2-1024x525.jpg",
+      "source_page": "https://tuvanahotel.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "tuvana-hotel",
+      "venue_title": "Tuvana Hotel",
+      "src": "https://tuvanahotel.com/wp-content/uploads/2012/07/tuvanahotel3-1024x525.jpg",
+      "source_page": "https://tuvanahotel.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "voyage-belek-golf-spa",
+      "venue_title": "Voyage Belek Golf & Spa",
+      "src": "https://voyagecdn.blob.core.windows.net/mediafiles/uploads/VBE_Lifestyle_2024_26-768x690.jpg",
+      "source_page": "https://www.voyagehotel.com/en/voyage-belek-spa",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "voyage-belek-golf-spa",
+      "venue_title": "Voyage Belek Golf & Spa",
+      "src": "https://voyagecdn.blob.core.windows.net/mediafiles/uploads/Voyage-Belek-General-View-2637207412574962909.jpg",
+      "source_page": "https://www.voyagehotel.com/en/voyage-belek-spa",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "voyage-belek-golf-spa",
+      "venue_title": "Voyage Belek Golf & Spa",
+      "src": "https://voyagecdn.blob.core.windows.net/mediafiles/uploads/Voyage-Belek-Dublex-Villa-Garden-2637189349395447984.jpg",
+      "source_page": "https://www.voyagehotel.com/en/voyage-belek-spa",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "voyage-belek-golf-spa",
+      "venue_title": "Voyage Belek Golf & Spa",
+      "src": "https://voyagecdn.blob.core.windows.net/mediafiles/uploads/Voyage-Belek-Kebappa-A-la-Carte-8637189349395450026.jpg",
+      "source_page": "https://www.voyagehotel.com/en/voyage-belek-spa",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "calyptus-kirman-premium",
+      "venue_title": "Calyptus Kirman Premium",
+      "src": "https://www.kirmanpremium.com/image/icerik/676008c033e13.jpg",
+      "source_page": "https://www.kirmanpremium.com/calyptus-kirman-premium",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "alaiye-resort",
+      "venue_title": "Alaiye Resort & Spa",
+      "src": "https://www.alaiyeresorthotel.com/content/opt/genel-oda-05366129544bd2953.15696286.jpeg",
+      "source_page": "https://www.alaiyeresorthotel.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "alaiye-resort",
+      "venue_title": "Alaiye Resort & Spa",
+      "src": "https://www.alaiyeresorthotel.com/content/opt/dji-0772-3-72066612a4ca5d8a59.62215484.jpg",
+      "source_page": "https://www.alaiyeresorthotel.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "alaiye-resort",
+      "venue_title": "Alaiye Resort & Spa",
+      "src": "https://www.alaiyeresorthotel.com/content/opt/restoran-d-0515366130f73290c11.70313667.jpeg",
+      "source_page": "https://www.alaiyeresorthotel.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "alaiye-resort",
+      "venue_title": "Alaiye Resort & Spa",
+      "src": "https://www.alaiyeresorthotel.com/content/files/eg-lence-1-386176a3285e0b8bdb3.61423927.jpg",
+      "source_page": "https://www.alaiyeresorthotel.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sherwood-exclusive-lara",
+      "venue_title": "Sherwood Exclusive Lara",
+      "src": "https://sherwoodhotels.com.tr/media/o1yhtcv4/sherwood-exclusive-lara-anasayfa-banner-desktop.jpg",
+      "source_page": "https://sherwoodhotels.com.tr/en/our-hotels/sherwood-exclusive-lara/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sherwood-exclusive-lara",
+      "venue_title": "Sherwood Exclusive Lara",
+      "src": "https://sherwoodhotels.com.tr/media/5ktbrtax/sherwood-exclusive-lara-anasayfa-spa-banner-d-2.jpg?width=1920&format=webp&quality=75",
+      "source_page": "https://sherwoodhotels.com.tr/en/our-hotels/sherwood-exclusive-lara/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sherwood-exclusive-lara",
+      "venue_title": "Sherwood Exclusive Lara",
+      "src": "https://sherwoodhotels.com.tr/media/h4xbbo2y/sherwood-lara-konaklama-deluxe-room-card.jpg?width=780&format=webp&quality=75",
+      "source_page": "https://sherwoodhotels.com.tr/en/our-hotels/sherwood-exclusive-lara/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sherwood-exclusive-lara",
+      "venue_title": "Sherwood Exclusive Lara",
+      "src": "https://sherwoodhotels.com.tr/media/cfbp5uik/sherwood-lara-konaklama-engelli-odasi-card.jpg?width=780&format=webp&quality=75",
+      "source_page": "https://sherwoodhotels.com.tr/en/our-hotels/sherwood-exclusive-lara/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "papillon-ayscha",
+      "venue_title": "Papillon Ayscha",
+      "src": "https://papillon.com.tr/wp-content/uploads/2025/06/Papillon-Ayscha-Inspire-Drone-2-2048x1364.jpg",
+      "source_page": "https://papillon.com.tr/en/papillon-hotels-6/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "paloma-perissia",
+      "venue_title": "Paloma Perissia",
+      "src": "https://www.palomahotels.com/Content/imgUpload/10-06-2024-15-34-21perissia%20(1).jpg",
+      "source_page": "https://www.palomahotels.com/en/paloma-perissia",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "paloma-perissia",
+      "venue_title": "Paloma Perissia",
+      "src": "https://www.palomahotels.com/Content/imgUpload/12-20-2020-7-12-55-PM10-9-2020-10-51-06-amperissiaindexlobby.jpg",
+      "source_page": "https://www.palomahotels.com/en/paloma-perissia",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "paloma-perissia",
+      "venue_title": "Paloma Perissia",
+      "src": "https://www.palomahotels.com/Content/imgUpload/12-20-2020-7-13-38-PM10-8-2020-12-33-43-pmperissia-aerial-4-copy_edit.jpg",
+      "source_page": "https://www.palomahotels.com/en/paloma-perissia",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "gloria-verde-resort",
+      "venue_title": "Gloria Verde Resort",
+      "src": "https://www.gloria.com.tr/Content/Images/section/menu-bg.jpg",
+      "source_page": "https://www.gloria.com.tr/en/hotels/gloria-verde-resort/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "eftalia-ocean-hotel",
+      "venue_title": "Eftalia Ocean Hotel",
+      "src": "https://eftaliahotels.com/wp-content/uploads/2021/03/ocean-kaydirak2048-1-500x230.jpg",
+      "source_page": "https://eftaliahotels.com/en/eftalia-ocean-hotel-2/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "eftalia-ocean-hotel",
+      "venue_title": "Eftalia Ocean Hotel",
+      "src": "https://eftaliahotels.com/wp-content/uploads/2021/03/ocean2048-1-1-500x230.jpg",
+      "source_page": "https://eftaliahotels.com/en/eftalia-ocean-hotel-2/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "eftalia-ocean-hotel",
+      "venue_title": "Eftalia Ocean Hotel",
+      "src": "https://eftaliahotels.com/wp-content/uploads/2021/03/ocean-swim-up-2048-500x230.jpg",
+      "source_page": "https://eftaliahotels.com/en/eftalia-ocean-hotel-2/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "eftalia-ocean-hotel",
+      "venue_title": "Eftalia Ocean Hotel",
+      "src": "https://eftaliahotels.com/wp-content/uploads/2021/03/ocean-swimup-balkon-2048-500x230.jpg",
+      "source_page": "https://eftaliahotels.com/en/eftalia-ocean-hotel-2/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "paloma-grida",
+      "venue_title": "Paloma Grida",
+      "src": "https://www.palomahotels.com/Content/imgUpload/image-17-04-2026-10-51-03web%20slider%20grida2.jpg",
+      "source_page": "https://www.palomahotels.com/en/paloma-grida",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "casa-sur-antalya",
+      "venue_title": "Casa Sur Antalya",
+      "src": "https://casasurantalya.com/wp-content/uploads/2021/01/design-bathtub-720x540.jpg",
+      "source_page": "https://casasurantalya.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "casa-sur-antalya",
+      "venue_title": "Casa Sur Antalya",
+      "src": "https://casasurantalya.com/wp-content/uploads/2023/03/Surtable-Kaleici-768x1068.jpg",
+      "source_page": "https://casasurantalya.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "casa-sur-antalya",
+      "venue_title": "Casa Sur Antalya",
+      "src": "https://casasurantalya.com/wp-content/uploads/2021/01/terrace-bar-768x1035.jpg",
+      "source_page": "https://casasurantalya.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "casa-sur-antalya",
+      "venue_title": "Casa Sur Antalya",
+      "src": "https://casasurantalya.com/wp-content/uploads/2021/01/botanical-garden-768x1152.jpg",
+      "source_page": "https://casasurantalya.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "trendy-side-beach",
+      "venue_title": "Trendy Side Beach",
+      "src": "https://trendy.com.tr/wp-content/uploads/2023/04/trendy-side-standard-room-1024x683-1.webp",
+      "source_page": "https://trendy.com.tr/en/trendy-side-beach/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "trendy-side-beach",
+      "venue_title": "Trendy Side Beach",
+      "src": "https://trendy.com.tr/wp-content/uploads/2023/04/trendy-side-standard-room-1024x683-1-768x512.webp",
+      "source_page": "https://trendy.com.tr/en/trendy-side-beach/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "trendy-side-beach",
+      "venue_title": "Trendy Side Beach",
+      "src": "https://trendy.com.tr/wp-content/uploads/2023/09/Trendy-Side-Beach-Hava-06_Buyuk-Boyut-1-1-768x512.jpg",
+      "source_page": "https://trendy.com.tr/en/trendy-side-beach/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "trendy-side-beach",
+      "venue_title": "Trendy Side Beach",
+      "src": "https://trendy.com.tr/wp-content/uploads/2023/04/trendy-side-standard-room-main-1-1536x1024.webp",
+      "source_page": "https://trendy.com.tr/en/trendy-side-beach/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "arum-barut-collection",
+      "venue_title": "Arum Barut Collection",
+      "src": "https://api.baruthotelsgroup.com/uploads/pages/67225f93-49b0-97fd-c9c9-c57bf6fc983c/837363c7f0de2c03519ce6bccba30300.jpg",
+      "source_page": "https://barutarum.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "arum-barut-collection",
+      "venue_title": "Arum Barut Collection",
+      "src": "https://api.baruthotelsgroup.com/uploads/pages/67225f93-49b0-97fd-c9c9-c57bf6fc983c/834ad9c3446dfcbe665bf218ce8582d1.jpg",
+      "source_page": "https://barutarum.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "arum-barut-collection",
+      "venue_title": "Arum Barut Collection",
+      "src": "https://api.baruthotelsgroup.com/uploads/pages/67225f93-49b0-97fd-c9c9-c57bf6fc983c/458ef5c9400ee20d7e8e352c422866e8.jpg",
+      "source_page": "https://barutarum.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "arum-barut-collection",
+      "venue_title": "Arum Barut Collection",
+      "src": "https://api.baruthotelsgroup.com/uploads/pages/67225f93-49b0-97fd-c9c9-c57bf6fc983c/28d4706eab8d32a8eed6128eef93f79c.jpg",
+      "source_page": "https://barutarum.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "akka-alinda",
+      "venue_title": "AKKA Alinda",
+      "src": "https://cdn.akkahotels.com/Uploads/Cms/amor-1_86.webp",
+      "source_page": "https://www.akkahotels.com/en/hotels-contact",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "acanthus-cennet-barut-collection",
+      "venue_title": "Acanthus Cennet Barut Collection",
+      "src": "https://barutacanthuscennet.com/uploads/02-2026/achantus-cennet-barut-collection-activitiy-image_1770738752.jpg",
+      "source_page": "https://barutacanthuscennet.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "acanthus-cennet-barut-collection",
+      "venue_title": "Acanthus Cennet Barut Collection",
+      "src": "https://barutacanthuscennet.com/uploads/12-2025/achantus-cennet-barut-collection-ac-gorsel_1764667214.jpg",
+      "source_page": "https://barutacanthuscennet.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "trendy-lara",
+      "venue_title": "Trendy Lara",
+      "src": "https://trendy.com.tr/wp-content/uploads/2026/01/14.10.post_-2048x1152.jpg",
+      "source_page": "https://trendy.com.tr/en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "trendy-lara",
+      "venue_title": "Trendy Lara",
+      "src": "https://trendy.com.tr/wp-content/uploads/2026/06/Genel-Gorunum-10-Orta_Boyut-2048x1366.webp",
+      "source_page": "https://trendy.com.tr/en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "trendy-lara",
+      "venue_title": "Trendy Lara",
+      "src": "https://trendy.com.tr/wp-content/uploads/2026/06/Genel-Gorunum-05-Orta_Boyut-2048x1366.webp",
+      "source_page": "https://trendy.com.tr/en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "trendy-lara",
+      "venue_title": "Trendy Lara",
+      "src": "https://trendy.com.tr/wp-content/uploads/2026/06/Genel-Gorunum-13-Orta_Boyut-2048x914.webp",
+      "source_page": "https://trendy.com.tr/en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sherwood-exclusive-kemer",
+      "venue_title": "Sherwood Exclusive Kemer",
+      "src": "https://www.sherwoodhotels.com.tr/media/iogbsuso/sherwood-exlusive-kemer-banner.jpg",
+      "source_page": "https://www.sherwoodhotels.com.tr/en/our-hotels/sherwood-exclusive-kemer/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sherwood-exclusive-kemer",
+      "venue_title": "Sherwood Exclusive Kemer",
+      "src": "https://www.sherwoodhotels.com.tr/media/dbhn0535/sherwood-exclusive-kemer-anasayfa-spa-card4.jpg?width=1920&format=webp&quality=75",
+      "source_page": "https://www.sherwoodhotels.com.tr/en/our-hotels/sherwood-exclusive-kemer/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sherwood-exclusive-kemer",
+      "venue_title": "Sherwood Exclusive Kemer",
+      "src": "https://www.sherwoodhotels.com.tr/media/o5yg2egk/sherwood-exclusive-kemer-standar-oda-list-card.jpg?width=900&format=webp&quality=75",
+      "source_page": "https://www.sherwoodhotels.com.tr/en/our-hotels/sherwood-exclusive-kemer/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sherwood-exclusive-kemer",
+      "venue_title": "Sherwood Exclusive Kemer",
+      "src": "https://www.sherwoodhotels.com.tr/media/ofldbacm/sherwood-exclusive-kemer-deluxe-oda-list-card.jpg?width=900&format=webp&quality=75",
+      "source_page": "https://www.sherwoodhotels.com.tr/en/our-hotels/sherwood-exclusive-kemer/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sueno-hotels-golf-belek",
+      "venue_title": "Sueno Hotels Golf Belek",
+      "src": "https://golf.sueno.com.tr/wp-content/uploads/2025/11/SHDB-Meydan_002-255x191.webp",
+      "source_page": "https://golf.sueno.com.tr/en/anasayfa-en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sueno-hotels-golf-belek",
+      "venue_title": "Sueno Hotels Golf Belek",
+      "src": "https://golf.sueno.com.tr/wp-content/uploads/2025/11/SHDB-Italian_Alacarte_02-255x383.webp",
+      "source_page": "https://golf.sueno.com.tr/en/anasayfa-en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sueno-hotels-golf-belek",
+      "venue_title": "Sueno Hotels Golf Belek",
+      "src": "https://golf.sueno.com.tr/wp-content/uploads/2024/03/sueno-hotels-golf-belek-hotel-greens-bar-0-255x191.webp",
+      "source_page": "https://golf.sueno.com.tr/en/anasayfa-en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sueno-hotels-golf-belek",
+      "venue_title": "Sueno Hotels Golf Belek",
+      "src": "https://golf.sueno.com.tr/wp-content/uploads/2024/03/sueno-hotels-golf-belek-hotel-spa-4-255x383.webp",
+      "source_page": "https://golf.sueno.com.tr/en/anasayfa-en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ali-bey-resort-sorgun",
+      "venue_title": "Ali Bey Resort Sorgun",
+      "src": "https://www.alibey.com/content/upload/room-images/alibey-resort-sorgun-room-family-suit-room-mid.jpg",
+      "source_page": "https://www.alibey.com/en/resort",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ali-bey-resort-sorgun",
+      "venue_title": "Ali Bey Resort Sorgun",
+      "src": "https://www.alibey.com/content/upload/room-images/Alibey_Resort_Sorgun_Dubleks_Aileorta.jpg",
+      "source_page": "https://www.alibey.com/en/resort",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ali-bey-resort-sorgun",
+      "venue_title": "Ali Bey Resort Sorgun",
+      "src": "https://www.alibey.com/content/upload/room-images/Alibey_Sorgun_Resort_Deluks_Suit_Oda_Orta.jpg",
+      "source_page": "https://www.alibey.com/en/resort",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ali-bey-resort-sorgun",
+      "venue_title": "Ali Bey Resort Sorgun",
+      "src": "https://www.alibey.com/content/upload/room-images/Alibey-Resort-Sorgun-Aile-Odasi_2.jpg",
+      "source_page": "https://www.alibey.com/en/resort",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "rixos-sungate",
+      "venue_title": "Rixos Sungate",
+      "src": "https://www.ahstatic.com/photos/b1k1_ho_00_p_1024x768.jpg",
+      "source_page": "https://all.accor.com/hotel/B1K1/index.en.shtml",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "rixos-sungate",
+      "venue_title": "Rixos Sungate",
+      "src": "https://www.ahstatic.com/photos/b1k1_ho_00_p_2048x1536.jpg",
+      "source_page": "https://all.accor.com/hotel/B1K1/index.en.shtml",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "rixos-sungate",
+      "venue_title": "Rixos Sungate",
+      "src": "https://www.ahstatic.com/photos/b1k1_ho_01_p_2048x1536.jpg",
+      "source_page": "https://all.accor.com/hotel/B1K1/index.en.shtml",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "rixos-sungate",
+      "venue_title": "Rixos Sungate",
+      "src": "https://www.ahstatic.com/photos/b1k1_ho_02_p_2048x1536.jpg",
+      "source_page": "https://all.accor.com/hotel/B1K1/index.en.shtml",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "titanic-deluxe-lara",
+      "venue_title": "Titanic Deluxe Lara",
+      "src": "https://image-tc.galaxy.tf/wijpeg-4uksug88csk7i14vjd9msbtn9/home_og-image.jpg",
+      "source_page": "https://www.titanic.com.tr/titanic-deluxe-lara",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "kaya-belek",
+      "venue_title": "Kaya Belek",
+      "src": "https://kayahotels.com/wp-content/uploads/2025/10/dj0575.fsqdw-1.webp",
+      "source_page": "https://www.kayahotels.com/en/oteller/kaya-belek",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "cornelia-diamond-golf-resort-spa",
+      "venue_title": "Cornelia Diamond Golf Resort & Spa",
+      "src": "https://corneliaresort.com/uploads/1920px/dllerw.jpg",
+      "source_page": "https://corneliaresort.com/EN/Cornelia-Diamond-Luxury-Golf-Resort-Spa-Hotel-Belek-Antalya",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "cornelia-diamond-golf-resort-spa",
+      "venue_title": "Cornelia Diamond Golf Resort & Spa",
+      "src": "https://corneliaresort.com/uploads/640px/CORNELIA-DIAMOND-FAMILY-SUITE-BEDROOM11-1.jpg",
+      "source_page": "https://corneliaresort.com/EN/Cornelia-Diamond-Luxury-Golf-Resort-Spa-Hotel-Belek-Antalya",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "cornelia-diamond-golf-resort-spa",
+      "venue_title": "Cornelia Diamond Golf Resort & Spa",
+      "src": "https://corneliaresort.com/uploads/640px/83234804_Golf-Suit.jpeg",
+      "source_page": "https://corneliaresort.com/EN/Cornelia-Diamond-Luxury-Golf-Resort-Spa-Hotel-Belek-Antalya",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "delphin-be-grand-resort",
+      "venue_title": "Delphin Be Grand Resort",
+      "src": "https://www.delphinhotel.com/main_pics/pages/medium/1829.jpg",
+      "source_page": "https://www.delphinhotel.com/en/delphin-be-grand-resort",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sunprime-c-lounge",
+      "venue_title": "Sunprime C-Lounge",
+      "src": "https://irp.cdn-website.com/d5de3710/dms3rep/multi/opt/sunprime-1920w.jpg",
+      "source_page": "https://www.c-loungehotel.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sunprime-c-lounge",
+      "venue_title": "Sunprime C-Lounge",
+      "src": "https://irp.cdn-website.com/d5de3710/dms3rep/multi/opt/sunprime-1920w-180w.webp",
+      "source_page": "https://www.c-loungehotel.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sunprime-c-lounge",
+      "venue_title": "Sunprime C-Lounge",
+      "src": "https://irp.cdn-website.com/d5de3710/dms3rep/multi/opt/sunprime-93w.jpg",
+      "source_page": "https://www.c-loungehotel.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "regnum-carya",
+      "venue_title": "Regnum Carya",
+      "src": "https://www.regnumhotels.com/media/5idlahuv/regnumcarya_generaview-01-banner-v2.jpg",
+      "source_page": "https://www.regnumhotels.com/en/hotels/regnum-carya/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "regnum-carya",
+      "venue_title": "Regnum Carya",
+      "src": "https://www.regnumhotels.com/media/huuccry4/alia_sahil_sıcak_renk_reg25-banner.jpg",
+      "source_page": "https://www.regnumhotels.com/en/hotels/regnum-carya/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "regnum-carya",
+      "venue_title": "Regnum Carya",
+      "src": "https://www.regnumhotels.com/media/23jlrgy1/regnum_bamboo_kids_world-3-banner.jpg",
+      "source_page": "https://www.regnumhotels.com/en/hotels/regnum-carya/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "regnum-carya",
+      "venue_title": "Regnum Carya",
+      "src": "https://www.regnumhotels.com/media/rgefe2nc/regnumcarya_mainpool-01-slider.jpg",
+      "source_page": "https://www.regnumhotels.com/en/hotels/regnum-carya/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "leodikya-kirman-premium",
+      "venue_title": "Leodikya Kirman Premium",
+      "src": "https://www.kirmanpremium.com/image/icerik/676008d49b475.jpg",
+      "source_page": "https://www.kirmanpremium.com/leodikya-kirman-premium",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "trendy-aspendos-beach",
+      "venue_title": "Trendy Aspendos Beach",
+      "src": "https://trendy.com.tr/wp-content/uploads/2023/04/trendy-aspendos-standard-room-2-2.webp",
+      "source_page": "https://trendy.com.tr/en/trendy-aspendos-beach/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "trendy-aspendos-beach",
+      "venue_title": "Trendy Aspendos Beach",
+      "src": "https://trendy.com.tr/wp-content/uploads/2023/04/trendy-aspendos-family-room-bunkbed-2-2048x1024.webp",
+      "source_page": "https://trendy.com.tr/en/trendy-aspendos-beach/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "trendy-aspendos-beach",
+      "venue_title": "Trendy Aspendos Beach",
+      "src": "https://trendy.com.tr/wp-content/uploads/2023/04/trendy-aspendos-standard-room-2-2-1536x1024.webp",
+      "source_page": "https://trendy.com.tr/en/trendy-aspendos-beach/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "gloria-golf-resort",
+      "venue_title": "Gloria Golf Resort",
+      "src": "https://www.gloria.com.tr/Content/Images/section/menu-bg.jpg",
+      "source_page": "https://www.gloria.com.tr/en/hotels/gloria-golf-resort/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "gloria-golf-resort",
+      "venue_title": "Gloria Golf Resort",
+      "src": "https://www.gloria.com.tr/media/sosheohb/ggr_anasayfa_750x980.jpg",
+      "source_page": "https://www.gloria.com.tr/en/hotels/gloria-golf-resort/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "gloria-golf-resort",
+      "venue_title": "Gloria Golf Resort",
+      "src": "https://www.gloria.com.tr/media/1aqombiq/gloria-golf-resort-owner-villa.jpg",
+      "source_page": "https://www.gloria.com.tr/en/hotels/gloria-golf-resort/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "gloria-golf-resort",
+      "venue_title": "Gloria Golf Resort",
+      "src": "https://www.gloria.com.tr/media/rmafuzol/gloria-golf-resort-executive-villa.jpg",
+      "source_page": "https://www.gloria.com.tr/en/hotels/gloria-golf-resort/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "maxx-royal-belek-golf-resort",
+      "venue_title": "Maxx Royal Belek Golf Resort",
+      "src": "https://www.maxxroyal.com/media/m45enuh3/mrr-moment5.jpg",
+      "source_page": "https://www.maxxroyal.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "maxx-royal-belek-golf-resort",
+      "venue_title": "Maxx Royal Belek Golf Resort",
+      "src": "https://www.maxxroyal.com/media/r5wdtj1a/00050_mr_100_f9x.jpg?rxy=0.7606516290726817%2C0.5009074410163339&width=1024&height=768",
+      "source_page": "https://www.maxxroyal.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "maxx-royal-belek-golf-resort",
+      "venue_title": "Maxx Royal Belek Golf Resort",
+      "src": "https://www.maxxroyal.com/media/amwjmwpo/maxxroyal_subat2024_101341.jpg?width=600&height=906",
+      "source_page": "https://www.maxxroyal.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "maxx-royal-belek-golf-resort",
+      "venue_title": "Maxx Royal Belek Golf Resort",
+      "src": "https://www.maxxroyal.com/media/3uhcxqdf/mrk_helicopter_2.jpg?width=600&height=906",
+      "source_page": "https://www.maxxroyal.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "delphin-diva",
+      "venue_title": "Delphin Diva",
+      "src": "https://www.delphinhotel.com/main_pics/pages/medium/1828.jpg",
+      "source_page": "https://www.delphinhotel.com/en/delphin-diva",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "akka-antedon",
+      "venue_title": "AKKA Antedon",
+      "src": "https://cdn.akkahotels.com/Uploads/Cms/rooms_4258_36.webp",
+      "source_page": "https://www.akkahotels.com/antedon/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "calista-luxury-resort",
+      "venue_title": "Calista Luxury Resort",
+      "src": "https://www.calista.com.tr/media/jxzhk0ni/calista-luxury-resort-villa-leo-galeri.jpg",
+      "source_page": "https://www.calista.com.tr/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "calista-luxury-resort",
+      "venue_title": "Calista Luxury Resort",
+      "src": "https://www.calista.com.tr/media/dl4da4vu/calista-luxury-resort-villa-leo-galeri2.jpg",
+      "source_page": "https://www.calista.com.tr/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "calista-luxury-resort",
+      "venue_title": "Calista Luxury Resort",
+      "src": "https://www.calista.com.tr/media/usnlnl2v/calista-luxury-resort-villa-leo-galeri3.jpg",
+      "source_page": "https://www.calista.com.tr/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "calista-luxury-resort",
+      "venue_title": "Calista Luxury Resort",
+      "src": "https://www.calista.com.tr/media/2fvjxbvf/calista-luxury-resort-villa-leo-galeri4.jpg",
+      "source_page": "https://www.calista.com.tr/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "nickelodeon-hotels-resorts-antalya",
+      "venue_title": "Nickelodeon Hotels & Resorts Antalya",
+      "src": "https://www.thelandoflegends.com/images/og-card.jpg",
+      "source_page": "https://www.thelandoflegends.com/en/hotels/nickelodeon-hotel-antalya",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "nickelodeon-hotels-resorts-antalya",
+      "venue_title": "Nickelodeon Hotels & Resorts Antalya",
+      "src": "https://www.thelandoflegends.com/en/hotels/fit=scale-down/img/01a0cdec-c957-76bc-abf0-95a53bd22187/orig/source.webp",
+      "source_page": "https://www.thelandoflegends.com/en/hotels/nickelodeon-hotel-antalya",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "nickelodeon-hotels-resorts-antalya",
+      "venue_title": "Nickelodeon Hotels & Resorts Antalya",
+      "src": "https://www.thelandoflegends.com/en/hotels/fit=scale-down/img/01a0cdf2-c6bf-7639-9fd5-63657405f5d1/orig/source.webp",
+      "source_page": "https://www.thelandoflegends.com/en/hotels/nickelodeon-hotel-antalya",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "nickelodeon-hotels-resorts-antalya",
+      "venue_title": "Nickelodeon Hotels & Resorts Antalya",
+      "src": "https://www.thelandoflegends.com/en/hotels/fit=scale-down/img/01a0cdf2-d728-7587-baae-5124249d72fb/orig/source.webp",
+      "source_page": "https://www.thelandoflegends.com/en/hotels/nickelodeon-hotel-antalya",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "delphin-imperial",
+      "venue_title": "Delphin Imperial",
+      "src": "https://www.delphinhotel.com/panel_pics/images/Imperial-Genel-19-Orta_Boyut(1).jpg",
+      "source_page": "https://www.delphinhotel.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ic-hotels-green-palace-villas",
+      "venue_title": "IC Hotels Green Palace & Villas",
+      "src": "https://www.ichotels.com.tr/media/hpwndlfk/ic-green-palace-konaklama-standart-oda-list-card.jpg",
+      "source_page": "https://www.ichotels.com.tr/en/our-hotels/green-palace-villas/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ic-hotels-green-palace-villas",
+      "venue_title": "IC Hotels Green Palace & Villas",
+      "src": "https://www.ichotels.com.tr/media/m0pnm4di/ic-green-palace-konaklama-aile-odasi-card.jpg",
+      "source_page": "https://www.ichotels.com.tr/en/our-hotels/green-palace-villas/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ic-hotels-green-palace-villas",
+      "venue_title": "IC Hotels Green Palace & Villas",
+      "src": "https://www.ichotels.com.tr/media/4nmbhtqn/ic-hotels-green-palace-villas-konaklama-engelli-odasi-card.jpg",
+      "source_page": "https://www.ichotels.com.tr/en/our-hotels/green-palace-villas/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ic-hotels-green-palace-villas",
+      "venue_title": "IC Hotels Green Palace & Villas",
+      "src": "https://www.ichotels.com.tr/media/ln2dednk/ic-hotels-green-palace-villas-konaklama-junior-suite-card.jpg",
+      "source_page": "https://www.ichotels.com.tr/en/our-hotels/green-palace-villas/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "the-land-of-legends-kingdom-hotel",
+      "venue_title": "The Land of Legends Kingdom Hotel",
+      "src": "https://www.thelandoflegends.com/images/og-card.jpg",
+      "source_page": "https://www.thelandoflegends.com/en/hotels/kingdom-hotel",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "the-land-of-legends-kingdom-hotel",
+      "venue_title": "The Land of Legends Kingdom Hotel",
+      "src": "https://www.thelandoflegends.com/en/hotels/fit=scale-down/img/01a0cdd8-3312-72e6-b149-6db51f10a4ab/orig/source.webp",
+      "source_page": "https://www.thelandoflegends.com/en/hotels/kingdom-hotel",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "the-land-of-legends-kingdom-hotel",
+      "venue_title": "The Land of Legends Kingdom Hotel",
+      "src": "https://www.thelandoflegends.com/en/hotels/fit=scale-down/img/01a0cde7-f311-717a-a422-29cde7bef908/orig/source.webp",
+      "source_page": "https://www.thelandoflegends.com/en/hotels/kingdom-hotel",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "the-land-of-legends-kingdom-hotel",
+      "venue_title": "The Land of Legends Kingdom Hotel",
+      "src": "https://www.thelandoflegends.com/en/hotels/fit=scale-down/img/01a0cde8-d5b1-7423-9fa5-c807f7e68649/orig/source.webp",
+      "source_page": "https://www.thelandoflegends.com/en/hotels/kingdom-hotel",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sueno-hotels-beach-side",
+      "venue_title": "Sueno Hotels Beach Side",
+      "src": "https://beach.sueno.com.tr/wp-content/uploads/2024/02/sueno-hotels-beach-side-hotel-side-sokagi-1-255x191.webp",
+      "source_page": "https://beach.sueno.com.tr/en/anasayfa-en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sueno-hotels-beach-side",
+      "venue_title": "Sueno Hotels Beach Side",
+      "src": "https://beach.sueno.com.tr/wp-content/uploads/2024/02/sueno-hotels-beach-side-antalya-fish-alacarte-restaurant-255x383.webp",
+      "source_page": "https://beach.sueno.com.tr/en/anasayfa-en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sueno-hotels-beach-side",
+      "venue_title": "Sueno Hotels Beach Side",
+      "src": "https://beach.sueno.com.tr/wp-content/uploads/2024/02/sueno-hotels-beach-side-bars-ada-bar-255x191.webp",
+      "source_page": "https://beach.sueno.com.tr/en/anasayfa-en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sueno-hotels-beach-side",
+      "venue_title": "Sueno Hotels Beach Side",
+      "src": "https://beach.sueno.com.tr/wp-content/uploads/2024/02/sueno-hotels-beach-side-hotel-spa-1-255x383.webp",
+      "source_page": "https://beach.sueno.com.tr/en/anasayfa-en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "mardan-palace",
+      "venue_title": "Mardan Palace",
+      "src": "https://framerusercontent.com/images/VoSXq8lRrpHPK9EGxTNG98HeeyM.jpg",
+      "source_page": "https://www.mardanpalace.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "mardan-palace",
+      "venue_title": "Mardan Palace",
+      "src": "https://framerusercontent.com/images/fdBS1uVRpHYCCxjgd5Cr5mIYIhg.jpg?lossless=1&width=1920&height=1360",
+      "source_page": "https://www.mardanpalace.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "mardan-palace",
+      "venue_title": "Mardan Palace",
+      "src": "https://framerusercontent.com/images/l91JrFasdcfOy7ib5sB1vtCBxtg.webp?width=1920&height=1610",
+      "source_page": "https://www.mardanpalace.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "mardan-palace",
+      "venue_title": "Mardan Palace",
+      "src": "https://framerusercontent.com/images/QlTESINViUTxXeOeBzX79Ev11A.webp?width=2560&height=1600",
+      "source_page": "https://www.mardanpalace.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "paloma-oceana",
+      "venue_title": "Paloma Oceana",
+      "src": "https://www.palomahotels.com/Content/imgUpload/10-06-2024-15-36-00oceana%20(1).jpg",
+      "source_page": "https://www.palomahotels.com/en/paloma-oceana",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "paloma-finesse-side",
+      "venue_title": "Paloma Finesse Side",
+      "src": "https://www.palomahotels.com/Content/imgUpload/19-01-2026-11-16-22finesse-web-anaslider%20(2).jpg",
+      "source_page": "https://www.palomahotels.com/en/finesse-side",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "paloma-finesse-side",
+      "venue_title": "Paloma Finesse Side",
+      "src": "https://www.palomahotels.com/Content/imgUpload/12-20-2020-8-31-25-PM12-7-2020-9-50-42-ampmfinesse-stillness.jpg",
+      "source_page": "https://www.palomahotels.com/en/finesse-side",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "maxx-royal-kemer-resort",
+      "venue_title": "Maxx Royal Kemer Resort",
+      "src": "https://www.maxxroyal.com/media/tm1akjjx/maxxroyalkemerexperiences.jpg",
+      "source_page": "https://www.maxxroyal.com/Maxx-Royal-Kemer",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "maxx-royal-kemer-resort",
+      "venue_title": "Maxx Royal Kemer Resort",
+      "src": "https://www.maxxroyal.com/media/s4ugo5m1/maxx_royal_kemer_1_2_yatak_odali_suit.jpeg?width=448&height=224",
+      "source_page": "https://www.maxxroyal.com/Maxx-Royal-Kemer",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "maxx-royal-kemer-resort",
+      "venue_title": "Maxx Royal Kemer Resort",
+      "src": "https://www.maxxroyal.com/media/zofjwjmr/maxx-royal-kemer-yatak-odali-laguna.jpeg?width=448&height=224",
+      "source_page": "https://www.maxxroyal.com/Maxx-Royal-Kemer",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "maxx-royal-kemer-resort",
+      "venue_title": "Maxx Royal Kemer Resort",
+      "src": "https://www.maxxroyal.com/media/3crgj0my/maxx-royal-kemer-3-5-yatak-odali-villalar.jpeg?width=448&height=224",
+      "source_page": "https://www.maxxroyal.com/Maxx-Royal-Kemer",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "trendy-verbena-beach",
+      "venue_title": "Trendy Verbena Beach",
+      "src": "https://trendy.com.tr/wp-content/uploads/2023/04/trendy-verbena-family-room-bunkbed-600px.webp",
+      "source_page": "https://trendy.com.tr/en/trendy-verbena-beach/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "trendy-verbena-beach",
+      "venue_title": "Trendy Verbena Beach",
+      "src": "https://trendy.com.tr/wp-content/uploads/2023/04/trendy-verbena-eco-room-1-scaled-1-2048x913.webp",
+      "source_page": "https://trendy.com.tr/en/trendy-verbena-beach/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "trendy-verbena-beach",
+      "venue_title": "Trendy Verbena Beach",
+      "src": "https://trendy.com.tr/wp-content/uploads/2023/04/trendy-verbena-family-room-bunkbed-1-scaled-1-2048x878.webp",
+      "source_page": "https://trendy.com.tr/en/trendy-verbena-beach/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "trendy-verbena-beach",
+      "venue_title": "Trendy Verbena Beach",
+      "src": "https://trendy.com.tr/wp-content/uploads/2023/04/trendy-verbena-family-room-2-scaled-1-2048x878.webp",
+      "source_page": "https://trendy.com.tr/en/trendy-verbena-beach/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "akra-hotel",
+      "venue_title": "Akra Antalya",
+      "src": "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/ayblat5w/akra-antalya-anasayfa-list-card3.jpg",
+      "source_page": "https://www.akrahotels.com/en/hotels/akra-antalya/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "akra-hotel",
+      "venue_title": "Akra Antalya",
+      "src": "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/typlnrak/akra-antalya-anasayfa-card.jpg",
+      "source_page": "https://www.akrahotels.com/en/hotels/akra-antalya/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "akra-hotel",
+      "venue_title": "Akra Antalya",
+      "src": "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/ab4hxnub/akra-antalya-anasayfa-odalar-card.jpg",
+      "source_page": "https://www.akrahotels.com/en/hotels/akra-antalya/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "akra-hotel",
+      "venue_title": "Akra Antalya",
+      "src": "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/xqobow0r/akra-antalya-anasayfa-gastronomi-card.jpg",
+      "source_page": "https://www.akrahotels.com/en/hotels/akra-antalya/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "delphin-palace",
+      "venue_title": "Delphin Palace",
+      "src": "https://www.delphinhotel.com/main_pics/pages/medium/1818.jpg",
+      "source_page": "https://www.delphinhotel.com/en/delphin-palace",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ic-hotels-santai-family-resort",
+      "venue_title": "IC Hotels Santai Family Resort",
+      "src": "https://www.ichotels.com.tr/media/qernjapl/ic-hotels-santai-family-resort-konaklama-standart-deniz-manzarali-card.jpg",
+      "source_page": "https://www.ichotels.com.tr/en/our-hotels/santai-family-resort/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ic-hotels-santai-family-resort",
+      "venue_title": "IC Hotels Santai Family Resort",
+      "src": "https://www.ichotels.com.tr/media/1pmlwp0c/ic-hotels-santai-family-resort-konaklama-engelli-odasi-card.jpg",
+      "source_page": "https://www.ichotels.com.tr/en/our-hotels/santai-family-resort/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ic-hotels-santai-family-resort",
+      "venue_title": "IC Hotels Santai Family Resort",
+      "src": "https://www.ichotels.com.tr/media/0zehtv5e/ic-hotels-santai-family-junior-suite-card.jpg",
+      "source_page": "https://www.ichotels.com.tr/en/our-hotels/santai-family-resort/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ic-hotels-santai-family-resort",
+      "venue_title": "IC Hotels Santai Family Resort",
+      "src": "https://www.ichotels.com.tr/media/sosjcsah/ic-hotels-santai-family-resort-konaklama-kids-suite-card.jpg",
+      "source_page": "https://www.ichotels.com.tr/en/our-hotels/santai-family-resort/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "lara-barut-collection",
+      "venue_title": "BAYOU Lara (formerly Lara Barut Collection)",
+      "src": "https://api.baruthotelsgroup.com/uploads/menu_items/bc01e1af-5b5c-b5d4-9726-634e5cdf6502/958b50a096ce14d6a319310de5621678.jpg",
+      "source_page": "https://bayoulara.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "lara-barut-collection",
+      "venue_title": "BAYOU Lara (formerly Lara Barut Collection)",
+      "src": "https://api.baruthotelsgroup.com/uploads/menu_items/83a68105-487b-edfa-53a6-75b89ca86cb5/d2d6121a88f687026615c99fccbe1335.jpg",
+      "source_page": "https://bayoulara.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "lara-barut-collection",
+      "venue_title": "BAYOU Lara (formerly Lara Barut Collection)",
+      "src": "https://api.baruthotelsgroup.com/uploads/menu_items/e226fabe-a1f4-e6a5-3fc0-27cadc97e361/4578213346f123a5f9ce3b64a04d0713.jpg",
+      "source_page": "https://bayoulara.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "lara-barut-collection",
+      "venue_title": "BAYOU Lara (formerly Lara Barut Collection)",
+      "src": "https://api.baruthotelsgroup.com/uploads/menu_items/b94259a2-23ea-cb2c-c75e-a00ad6849423/a7839bececdd23f40650bb3e98207ad0.jpg",
+      "source_page": "https://bayoulara.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "titanic-luxury-collection-belek",
+      "venue_title": "Titanic Luxury Collection Belek",
+      "src": "https://image-tc.galaxy.tf/wijpeg-70lbivpy5ewurz76zhxs2tges/home_og-image.jpg",
+      "source_page": "https://www.titanic.com.tr/titanic-luxury-collection-belek",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "titanic-luxury-collection-belek",
+      "venue_title": "Titanic Luxury Collection Belek",
+      "src": "https://image-tc.galaxy.tf/wijpeg-5j3c7kogtupwz3h15ofn7s4q3/290-titanic-deluxe-golf-belek-beach.jpg?width=668&height=400",
+      "source_page": "https://www.titanic.com.tr/titanic-luxury-collection-belek",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "titanic-luxury-collection-belek",
+      "venue_title": "Titanic Luxury Collection Belek",
+      "src": "https://image-tc.galaxy.tf/wijpeg-1w4n5u8vg33n43foq2xkob79b/titanic-deluxe-golf-belek-bali-house-swim-up-1.jpg?width=668&height=400",
+      "source_page": "https://www.titanic.com.tr/titanic-luxury-collection-belek",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "titanic-luxury-collection-belek",
+      "venue_title": "Titanic Luxury Collection Belek",
+      "src": "https://image-tc.galaxy.tf/wijpeg-1qo6whhkimcvtfxfj7uo724fk/241-titanic-deluxe-golf-belek-asian-restaurant.jpg?width=668&height=400",
+      "source_page": "https://www.titanic.com.tr/titanic-luxury-collection-belek",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "concorde-de-luxe-resort",
+      "venue_title": "Concorde De Luxe Resort",
+      "src": "https://concordehotels.com/media/zgfp4iw1/main-pool-3-kare.jpg?width=550&height=550&v=1dc808508252510",
+      "source_page": "https://concordehotels.com/tr/oteller/concorde-de-luxe-resort",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "concorde-de-luxe-resort",
+      "venue_title": "Concorde De Luxe Resort",
+      "src": "https://concordehotels.com/media/ptrgtp2g/h-deluxe-sea-view-1.webp?rxy=0.844967983913521,0.43285393973083053&width=358&height=203&quality=100&v=1dc9152eb032570",
+      "source_page": "https://concordehotels.com/tr/oteller/concorde-de-luxe-resort",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "concorde-de-luxe-resort",
+      "venue_title": "Concorde De Luxe Resort",
+      "src": "https://concordehotels.com/media/uc4lwaii/h-deluxe-superior-room-4.webp?width=358&height=203&quality=100&v=1dcc73f694fb250",
+      "source_page": "https://concordehotels.com/tr/oteller/concorde-de-luxe-resort",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "concorde-de-luxe-resort",
+      "venue_title": "Concorde De Luxe Resort",
+      "src": "https://concordehotels.com/media/4hsl323w/junior-suite-bedroom-1.webp?width=358&height=203&quality=100&v=1dc5eea92a09d30",
+      "source_page": "https://concordehotels.com/tr/oteller/concorde-de-luxe-resort",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "hideaway-hotel",
+      "venue_title": "Hideaway Hotel",
+      "src": "https://www.hotelhideaway.com/wp-content/uploads/2025/12/DSC02883-HDR-4.jpg.webp",
+      "source_page": "https://www.hotelhideaway.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "hideaway-hotel",
+      "venue_title": "Hideaway Hotel",
+      "src": "https://www.hotelhideaway.com/wp-content/uploads/2025/12/DSC02883-HDR-4-217x145.jpg.webp",
+      "source_page": "https://www.hotelhideaway.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "hideaway-hotel",
+      "venue_title": "Hideaway Hotel",
+      "src": "https://www.hotelhideaway.com/wp-content/uploads/2025/12/DSC02883-HDR-4-770x513.jpg.webp",
+      "source_page": "https://www.hotelhideaway.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "hideaway-hotel",
+      "venue_title": "Hideaway Hotel",
+      "src": "https://www.hotelhideaway.com/wp-content/uploads/2025/12/DSC07398-770x513.jpg.webp",
+      "source_page": "https://www.hotelhideaway.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "cullinan-belek",
+      "venue_title": "Cullinan Belek",
+      "src": "https://image-tc.galaxy.tf/wijpeg-8vspq3la9nfge8f8nthy2ffdt/cullinan-belek-general-13.jpg?width=668&height=400",
+      "source_page": "https://www.cullinanhotels.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "cullinan-belek",
+      "venue_title": "Cullinan Belek",
+      "src": "https://image-tc.galaxy.tf/wijpeg-7gp0cdx1qdafvf9vian2zm1be/cullinan-belek-pool-6.jpg?width=668&height=400",
+      "source_page": "https://www.cullinanhotels.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "cullinan-belek",
+      "venue_title": "Cullinan Belek",
+      "src": "https://image-tc.galaxy.tf/wijpeg-1cw1g4er4k4gutgj7gymi9lqn/cullinan-belek-azure-pool-1.jpg?width=668&height=400",
+      "source_page": "https://www.cullinanhotels.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "cullinan-belek",
+      "venue_title": "Cullinan Belek",
+      "src": "https://image-tc.galaxy.tf/wijpeg-3a0if9yn9f4tp1lx9aqbc1t5x/cullinan-belek-main-restaurant-4.jpg?width=668&height=400",
+      "source_page": "https://www.cullinanhotels.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "delphin-deluxe",
+      "venue_title": "Delphin Deluxe",
+      "src": "https://www.delphinhotel.com/main_pics/pages/medium/881.jpg",
+      "source_page": "https://www.delphinhotel.com/en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "delphin-deluxe",
+      "venue_title": "Delphin Deluxe",
+      "src": "https://www.delphinhotel.com/panel_pics/images/Imperial-Genel-19-Orta_Boyut(1).jpg",
+      "source_page": "https://www.delphinhotel.com/en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "delphin-deluxe",
+      "venue_title": "Delphin Deluxe",
+      "src": "https://www.delphinhotel.com/main_pics/pages/medium/882.jpg",
+      "source_page": "https://www.delphinhotel.com/en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "delphin-deluxe",
+      "venue_title": "Delphin Deluxe",
+      "src": "https://www.delphinhotel.com/panel_pics/images/Be%20Grand-Genel-04-Orta_Boyut(1).jpg",
+      "source_page": "https://www.delphinhotel.com/en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ng-phaselis-bay",
+      "venue_title": "NG Phaselis Bay",
+      "src": "https://ngphaselisbay.com/media/y2nnhycl/ng-phaselis-bay-slider-2025-1.jpg",
+      "source_page": "https://ngphaselisbay.com/en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ng-phaselis-bay",
+      "venue_title": "NG Phaselis Bay",
+      "src": "https://ngphaselisbay.com/media/rnrl5lv0/ng-phaselis-bay-slider-2025-12-mobil.jpg",
+      "source_page": "https://ngphaselisbay.com/en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ng-phaselis-bay",
+      "venue_title": "NG Phaselis Bay",
+      "src": "https://ngphaselisbay.com/media/sxwh2qtt/ng-phaselis-bay-slider-2025-2.jpg",
+      "source_page": "https://ngphaselisbay.com/en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ng-phaselis-bay",
+      "venue_title": "NG Phaselis Bay",
+      "src": "https://ngphaselisbay.com/media/42xluq25/ng-phaselis-bay-slider-2025-21-mobil.jpg",
+      "source_page": "https://ngphaselisbay.com/en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "royal-wings-hotel",
+      "venue_title": "Royal Wings Hotel",
+      "src": "https://cdn.woxxtech.com/httpsroyalwingshotel_com/media/group-110-1785228058549.webp",
+      "source_page": "https://www.royalwingshotel.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "royal-wings-hotel",
+      "venue_title": "Royal Wings Hotel",
+      "src": "https://cdn.woxxtech.com/httpsroyalwingshotel/royal-wings-hotels-1786629517415_w32.webp",
+      "source_page": "https://www.royalwingshotel.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "royal-wings-hotel",
+      "venue_title": "Royal Wings Hotel",
+      "src": "https://cdn.woxxtech.com/httpsroyalwingshotel/royal-wings-standard-room-09-1784809481892_w32.webp",
+      "source_page": "https://www.royalwingshotel.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "royal-wings-hotel",
+      "venue_title": "Royal Wings Hotel",
+      "src": "https://cdn.woxxtech.com/httpsroyalwingshotel/royal-wings-standard-room-10-1784809501419_w32.webp",
+      "source_page": "https://www.royalwingshotel.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "trendy-palm-beach",
+      "venue_title": "Trendy Palm Beach",
+      "src": "https://trendy.com.tr/wp-content/uploads/2024/07/Ana-Bina-Suit-Deniz-Manzarali-Oda-02-Orta_Boyut-768x512.jpg",
+      "source_page": "https://trendy.com.tr/en/trendy-palm-beach/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "arycanda-kirman-premium",
+      "venue_title": "Arycanda Kirman Premium",
+      "src": "https://www.kirmanpremium.com/image/icerik/6760089e179e1.jpg",
+      "source_page": "https://www.kirmanpremium.com/arycanda-kirman-premium",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sunis-kumkoy-beach-resort-hotel-spa",
+      "venue_title": "Sunis Kumköy Beach Resort Hotel & Spa",
+      "src": "https://www.kumkoybeachresort.com/wp-content/uploads/2019/08/DJI_0610-scaled.jpg",
+      "source_page": "https://www.kumkoybeachresort.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sunis-kumkoy-beach-resort-hotel-spa",
+      "venue_title": "Sunis Kumköy Beach Resort Hotel & Spa",
+      "src": "https://www.kumkoybeachresort.com/wp-content/uploads/2019/08/DJI_0572-scaled.jpg",
+      "source_page": "https://www.kumkoybeachresort.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sunis-kumkoy-beach-resort-hotel-spa",
+      "venue_title": "Sunis Kumköy Beach Resort Hotel & Spa",
+      "src": "https://www.kumkoybeachresort.com/wp-content/uploads/2019/08/DJI_0537-scaled.jpg",
+      "source_page": "https://www.kumkoybeachresort.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "gloria-serenity-resort",
+      "venue_title": "Gloria Serenity Resort",
+      "src": "https://www.gloria.com.tr/media/klinynue/gloria-serenity-resort-presidential-villa.jpg",
+      "source_page": "https://www.gloria.com.tr/en/hotels/gloria-serenity-resort/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "gloria-serenity-resort",
+      "venue_title": "Gloria Serenity Resort",
+      "src": "https://www.gloria.com.tr/media/3rykpplz/serenity-list-photo.jpg",
+      "source_page": "https://www.gloria.com.tr/en/hotels/gloria-serenity-resort/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "paloma-sencia",
+      "venue_title": "Paloma Sencia",
+      "src": "https://www.palomahotels.com/Content/imgUpload/16-10-2026-15-01-14sencia-anaslider-1920x1080.jpg",
+      "source_page": "https://www.palomahotels.com/en/paloma-sencia",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "paloma-sencia",
+      "venue_title": "Paloma Sencia",
+      "src": "https://www.palomahotels.com/Content/imgUpload/image-16-10-2026-16-06-32sencia.jpg",
+      "source_page": "https://www.palomahotels.com/en/paloma-sencia",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "paloma-sencia",
+      "venue_title": "Paloma Sencia",
+      "src": "https://www.palomahotels.com/Content/imgUpload/image-27-12-2024-16-39-19palomasencia_discover_1.jpg",
+      "source_page": "https://www.palomahotels.com/en/paloma-sencia",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "paloma-sencia",
+      "venue_title": "Paloma Sencia",
+      "src": "https://www.palomahotels.com/Content/imgUpload/image-30-12-2024-14-44-41palomasencia_discover_2.jpg",
+      "source_page": "https://www.palomahotels.com/en/paloma-sencia",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "delphin-botanik-hotel-resort",
+      "venue_title": "Delphin Botanik Hotel & Resort",
+      "src": "https://www.delphinhotel.com/main_pics/pages/medium/1844.jpg",
+      "source_page": "https://www.delphinhotel.com/en/botanik-hotel-resort",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "kaya-side",
+      "venue_title": "Kaya Side",
+      "src": "https://kayahotels.com/wp-content/uploads/2025/10/kaya-side-general-view-1.gcvmo-2.webp",
+      "source_page": "https://www.kayahotels.com/en/oteller/kaya-side",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sidera-kirman-premium",
+      "venue_title": "Sidera Kirman Premium",
+      "src": "https://www.kirmanpremium.com/image/icerik/676008ea60b59.jpg",
+      "source_page": "https://www.kirmanpremium.com/sidera-kirman-premium",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "delphin-botanik-platinum",
+      "venue_title": "Delphin Botanik Platinum",
+      "src": "https://www.delphinhotel.com/main_pics/pages/medium/1843.jpg",
+      "source_page": "https://www.delphinhotel.com/en/botanik-platinum",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sueno-hotels-deluxe-belek",
+      "venue_title": "Sueno Hotels Deluxe Belek",
+      "src": "https://deluxe.sueno.com.tr/wp-content/uploads/2024/04/Sueno-hotels-deluxe-belek-italian-a-la-carte-restaurant-255x383.webp",
+      "source_page": "https://deluxe.sueno.com.tr/en/anasayfa-en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sueno-hotels-deluxe-belek",
+      "venue_title": "Sueno Hotels Deluxe Belek",
+      "src": "https://deluxe.sueno.com.tr/wp-content/uploads/2024/04/Sueno-hotels-deluxe-belek-lounge-bar-24-hour-255x191.webp",
+      "source_page": "https://deluxe.sueno.com.tr/en/anasayfa-en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sueno-hotels-deluxe-belek",
+      "venue_title": "Sueno Hotels Deluxe Belek",
+      "src": "https://deluxe.sueno.com.tr/wp-content/uploads/2024/04/Sueno-hotels-deluxe-belek-spa-center-255x383.webp",
+      "source_page": "https://deluxe.sueno.com.tr/en/anasayfa-en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sueno-hotels-deluxe-belek",
+      "venue_title": "Sueno Hotels Deluxe Belek",
+      "src": "https://deluxe.sueno.com.tr/wp-content/uploads/2024/04/sueno-hotels-deluxe-belek-wellness-255x383.webp",
+      "source_page": "https://deluxe.sueno.com.tr/en/anasayfa-en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "rixos-park-belek",
+      "venue_title": "Rixos Park Belek",
+      "src": "https://www.ahstatic.com/photos/c1d1_ho_00_p_1024x768.jpg",
+      "source_page": "https://all.accor.com/hotel/C1D1/index.en.shtml",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "rixos-park-belek",
+      "venue_title": "Rixos Park Belek",
+      "src": "https://www.ahstatic.com/photos/c1d1_ho_00_p_2048x1536.jpg",
+      "source_page": "https://all.accor.com/hotel/C1D1/index.en.shtml",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "rixos-park-belek",
+      "venue_title": "Rixos Park Belek",
+      "src": "https://www.ahstatic.com/photos/c1d1_ho_01_p_2048x1536.jpg",
+      "source_page": "https://all.accor.com/hotel/C1D1/index.en.shtml",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "rixos-park-belek",
+      "venue_title": "Rixos Park Belek",
+      "src": "https://www.ahstatic.com/photos/c1d1_ho_02_p_2048x1536.jpg",
+      "source_page": "https://all.accor.com/hotel/C1D1/index.en.shtml",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "pine-beach-belek",
+      "venue_title": "Pine Beach Belek",
+      "src": "https://www.pinebeach.com.tr/media/images/pine-beach-kus-bakisi.jpg",
+      "source_page": "https://www.pinebeach.com.tr/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "pine-beach-belek",
+      "venue_title": "Pine Beach Belek",
+      "src": "https://www.pinebeach.com.tr/media/images/honeymoon-vacation.jpg",
+      "source_page": "https://www.pinebeach.com.tr/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "pine-beach-belek",
+      "venue_title": "Pine Beach Belek",
+      "src": "https://www.pinebeach.com.tr/media/images/tesis-ve-imkanlar/ala-carte.jpg",
+      "source_page": "https://www.pinebeach.com.tr/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "pine-beach-belek",
+      "venue_title": "Pine Beach Belek",
+      "src": "https://www.pinebeach.com.tr/media/images/tesis-ve-imkanlar/spa-havuz.jpg",
+      "source_page": "https://www.pinebeach.com.tr/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sunis-evren-beach-resort-hotel-spa",
+      "venue_title": "Sunis Evren Beach Resort Hotel & Spa",
+      "src": "https://evrenbeachresort.com/wp-content/uploads/2024/12/RiECQ80Nj6cJ-700x467.jpg",
+      "source_page": "https://evrenbeachresort.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sunis-evren-beach-resort-hotel-spa",
+      "venue_title": "Sunis Evren Beach Resort Hotel & Spa",
+      "src": "https://evrenbeachresort.com/wp-content/uploads/2019/08/GENEL-2-1-scaled.jpg",
+      "source_page": "https://evrenbeachresort.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sunis-evren-beach-resort-hotel-spa",
+      "venue_title": "Sunis Evren Beach Resort Hotel & Spa",
+      "src": "https://evrenbeachresort.com/wp-content/uploads/2019/08/DJI_0089-1-scaled.jpg",
+      "source_page": "https://evrenbeachresort.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sunis-evren-beach-resort-hotel-spa",
+      "venue_title": "Sunis Evren Beach Resort Hotel & Spa",
+      "src": "https://evrenbeachresort.com/wp-content/uploads/2019/08/juhAanwbdkEY.jpg",
+      "source_page": "https://evrenbeachresort.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "akra-kemer",
+      "venue_title": "Akra Kemer",
+      "src": "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/csslben2/akra-kemer-hakkimizda-banner.jpg",
+      "source_page": "https://www.akrahotels.com/en/hotels/akra-kemer/about-us/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "akra-kemer",
+      "venue_title": "Akra Kemer",
+      "src": "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/xivpgjsn/akra-kemer-mainpage-card.jpg",
+      "source_page": "https://www.akrahotels.com/en/hotels/akra-kemer/about-us/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "fidanka-hotel",
+      "venue_title": "Fidanka Hotel",
+      "src": "https://fidanka.com/dacegug/2025/06/9616_4337_4245-galeri_12-768x502.jpg",
+      "source_page": "https://fidanka.com/en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "fidanka-hotel",
+      "venue_title": "Fidanka Hotel",
+      "src": "https://fidanka.com/dacegug/2025/06/4016_4337_4245-galeri_13-768x512.jpg",
+      "source_page": "https://fidanka.com/en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "fidanka-hotel",
+      "venue_title": "Fidanka Hotel",
+      "src": "https://fidanka.com/dacegug/2025/06/5216_4337_3297-01.jpg",
+      "source_page": "https://fidanka.com/en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "fidanka-hotel",
+      "venue_title": "Fidanka Hotel",
+      "src": "https://fidanka.com/dacegug/2025/06/5216_4337_3296-02.jpg",
+      "source_page": "https://fidanka.com/en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sidemarin-kirman-premium",
+      "venue_title": "Sidemarin Kirman Premium",
+      "src": "https://www.kirmanpremium.com/image/icerik/676008f8da8d9.jpg",
+      "source_page": "https://www.kirmanpremium.com/sidemarin-kirman-premium",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "villa-mahal",
+      "venue_title": "Villa Mahal",
+      "src": "https://villamahal.com/images/anasayfa1.jpg",
+      "source_page": "https://villamahal.com/overview/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "villa-mahal",
+      "venue_title": "Villa Mahal",
+      "src": "https://villamahal.com/images/cta.jpg",
+      "source_page": "https://villamahal.com/overview/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "villa-mahal",
+      "venue_title": "Villa Mahal",
+      "src": "https://villamahal.com/images/overview1.webp?v=1786620956",
+      "source_page": "https://villamahal.com/overview/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "villa-mahal",
+      "venue_title": "Villa Mahal",
+      "src": "https://villamahal.com/images/overview2.webp?v=1786621574",
+      "source_page": "https://villamahal.com/overview/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "rixos-downtown-antalya",
+      "venue_title": "Rixos Downtown Antalya",
+      "src": "https://www.ahstatic.com/photos/b1k0_ho_00_p_1024x768.jpg",
+      "source_page": "https://all.accor.com/hotel/B1K0/index.en.shtml",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "rixos-downtown-antalya",
+      "venue_title": "Rixos Downtown Antalya",
+      "src": "https://www.ahstatic.com/photos/b1k0_ho_00_p_2048x1536.jpg",
+      "source_page": "https://all.accor.com/hotel/B1K0/index.en.shtml",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "rixos-downtown-antalya",
+      "venue_title": "Rixos Downtown Antalya",
+      "src": "https://www.ahstatic.com/photos/b1k0_ho_01_p_2048x1536.jpg",
+      "source_page": "https://all.accor.com/hotel/B1K0/index.en.shtml",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "rixos-downtown-antalya",
+      "venue_title": "Rixos Downtown Antalya",
+      "src": "https://www.ahstatic.com/photos/b1k0_ho_02_p_2048x1536.jpg",
+      "source_page": "https://all.accor.com/hotel/B1K0/index.en.shtml",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "rixos-premium-tekirova",
+      "venue_title": "Rixos Premium Tekirova",
+      "src": "https://www.ahstatic.com/photos/b1j3_ho_00_p_1024x768.jpg",
+      "source_page": "https://all.accor.com/hotel/B1J3/index.en.shtml",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "rixos-premium-tekirova",
+      "venue_title": "Rixos Premium Tekirova",
+      "src": "https://www.ahstatic.com/photos/b1j3_ho_00_p_2048x1536.jpg",
+      "source_page": "https://all.accor.com/hotel/B1J3/index.en.shtml",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "rixos-premium-tekirova",
+      "venue_title": "Rixos Premium Tekirova",
+      "src": "https://www.ahstatic.com/photos/b1j3_ho_01_p_2048x1536.jpg",
+      "source_page": "https://all.accor.com/hotel/B1J3/index.en.shtml",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "rixos-premium-tekirova",
+      "venue_title": "Rixos Premium Tekirova",
+      "src": "https://www.ahstatic.com/photos/b1j3_ho_02_p_2048x1536.jpg",
+      "source_page": "https://all.accor.com/hotel/B1J3/index.en.shtml",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "hotel-su-aqualand",
+      "venue_title": "Hotel SU",
+      "src": "https://www.hotelsu.com.tr/wp-content/uploads/2019/08/GENEL-2-1400x700.jpg",
+      "source_page": "https://www.hotelsu.com.tr/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "hotel-su-aqualand",
+      "venue_title": "Hotel SU",
+      "src": "https://www.hotelsu.com.tr/wp-content/uploads/2025/01/LOUNGE-2-scaled.jpg",
+      "source_page": "https://www.hotelsu.com.tr/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "hotel-su-aqualand",
+      "venue_title": "Hotel SU",
+      "src": "https://www.hotelsu.com.tr/wp-content/uploads/2025/01/TEK_2926-700x955.jpg",
+      "source_page": "https://www.hotelsu.com.tr/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "hotel-su-aqualand",
+      "venue_title": "Hotel SU",
+      "src": "https://www.hotelsu.com.tr/wp-content/uploads/2025/01/95-HAFTA-3-1024x683.jpg",
+      "source_page": "https://www.hotelsu.com.tr/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "rixos-premium-belek",
+      "venue_title": "Rixos Premium Belek",
+      "src": "https://www.ahstatic.com/photos/b1j5_ho_00_p_1024x768.jpg",
+      "source_page": "https://all.accor.com/hotel/B1J5/index.en.shtml",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "rixos-premium-belek",
+      "venue_title": "Rixos Premium Belek",
+      "src": "https://www.ahstatic.com/photos/b1j5_ho_00_p_2048x1536.jpg",
+      "source_page": "https://all.accor.com/hotel/B1J5/index.en.shtml",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "rixos-premium-belek",
+      "venue_title": "Rixos Premium Belek",
+      "src": "https://www.ahstatic.com/photos/b1j5_ho_01_p_2048x1536.jpg",
+      "source_page": "https://all.accor.com/hotel/B1J5/index.en.shtml",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "rixos-premium-belek",
+      "venue_title": "Rixos Premium Belek",
+      "src": "https://www.ahstatic.com/photos/b1j5_ho_02_p_2048x1536.jpg",
+      "source_page": "https://all.accor.com/hotel/B1J5/index.en.shtml",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "voyage-sorgun",
+      "venue_title": "Voyage Sorgun",
+      "src": "https://voyagecdn.blob.core.windows.net/mediafiles/voyage_sorgun/VSO_main_375x375.jpg",
+      "source_page": "https://www.voyagehotel.com/en/voyage-sorgun",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "voyage-sorgun",
+      "venue_title": "Voyage Sorgun",
+      "src": "https://voyagecdn.blob.core.windows.net/mediafiles/uploads/Voyage-Sorgun-Standard-Room-Bungalow-2637217924229477665.jpg",
+      "source_page": "https://www.voyagehotel.com/en/voyage-sorgun",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "voyage-sorgun",
+      "venue_title": "Voyage Sorgun",
+      "src": "https://voyagecdn.blob.core.windows.net/mediafiles/voyage_sorgun/VSO_MainPool_419x608.jpg",
+      "source_page": "https://www.voyagehotel.com/en/voyage-sorgun",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "akra-v",
+      "venue_title": "Akra V",
+      "src": "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/4thpb1by/akrav-general-d.jpg",
+      "source_page": "https://www.akrahotels.com/en/hotels/akra-v/about-us/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "akra-v",
+      "venue_title": "Akra V",
+      "src": "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/y01j1eyg/akra-v-mainpage-card.jpg",
+      "source_page": "https://www.akrahotels.com/en/hotels/akra-v/about-us/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "barut-hemera",
+      "venue_title": "Barut Hemera",
+      "src": "https://api.baruthotelsgroup.com/uploads/pages/d11a190e-6f1a-7d61-05c0-8cf5be0e3c90/136768070905499cdad81679d977159b.jpg",
+      "source_page": "https://baruthemera.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "barut-hemera",
+      "venue_title": "Barut Hemera",
+      "src": "https://api.baruthotelsgroup.com/uploads/pages/d11a190e-6f1a-7d61-05c0-8cf5be0e3c90/0b58a4b01d5f67f7dca3c5026da1e52c.webp",
+      "source_page": "https://baruthemera.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "barut-hemera",
+      "venue_title": "Barut Hemera",
+      "src": "https://api.baruthotelsgroup.com/uploads/pages/d11a190e-6f1a-7d61-05c0-8cf5be0e3c90/764663bb36d30bef101f6abdfd319419.webp",
+      "source_page": "https://baruthemera.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "barut-hemera",
+      "venue_title": "Barut Hemera",
+      "src": "https://api.baruthotelsgroup.com/uploads/pages/d11a190e-6f1a-7d61-05c0-8cf5be0e3c90/cb981b1d6663cc32e677b059f02aeac0.webp",
+      "source_page": "https://baruthemera.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "paloma-orenda",
+      "venue_title": "Paloma Orenda",
+      "src": "https://www.palomahotels.com/Content/imgUpload/16-10-2026-15-07-45orenda-videokapak-1920x1080.jpg",
+      "source_page": "https://www.palomahotels.com/en/paloma-orenda",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "paloma-orenda",
+      "venue_title": "Paloma Orenda",
+      "src": "https://www.palomahotels.com/Content/imgUpload/10-06-2024-15-24-40orenda%20(2).jpg",
+      "source_page": "https://www.palomahotels.com/en/paloma-orenda",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "paloma-orenda",
+      "venue_title": "Paloma Orenda",
+      "src": "https://www.palomahotels.com/Content/imgUpload/12-20-2020-5-50-27-PM10-6-2020-1-19-55-pmorenda-index1.jpg",
+      "source_page": "https://www.palomahotels.com/en/paloma-orenda",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ic-hotels-airport",
+      "venue_title": "IC Hotels Airport",
+      "src": "https://www.ichotels.com.tr/media/wpdltzaq/ic-airport-konaklama-standart-oda-list-card-1.jpg",
+      "source_page": "https://www.ichotels.com.tr/en/our-hotels/airport/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ic-hotels-airport",
+      "venue_title": "IC Hotels Airport",
+      "src": "https://www.ichotels.com.tr/media/xuofipay/ic-airport-konaklama-deluxe-standart-oda-list-car.jpg",
+      "source_page": "https://www.ichotels.com.tr/en/our-hotels/airport/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ic-hotels-airport",
+      "venue_title": "IC Hotels Airport",
+      "src": "https://www.ichotels.com.tr/media/32whhfyz/ic-airport-konaklama-deluxe-engelli-oda-card-d.jpg",
+      "source_page": "https://www.ichotels.com.tr/en/our-hotels/airport/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ic-hotels-airport",
+      "venue_title": "IC Hotels Airport",
+      "src": "https://www.ichotels.com.tr/media/5omfvloo/ic-airport-gastronomi-bristol-restoran-banner-main-card-d.jpg",
+      "source_page": "https://www.ichotels.com.tr/en/our-hotels/airport/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ali-bey-club-manavgat",
+      "venue_title": "Ali Bey Club Manavgat",
+      "src": "https://www.alibey.com/content/upload/room-images/Alibey_Club_Manavgat_standart_oda_orta_1.jpg",
+      "source_page": "https://www.alibey.com/en/club",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ali-bey-club-manavgat",
+      "venue_title": "Ali Bey Club Manavgat",
+      "src": "https://www.alibey.com/content/upload/room-images/Alibey_Club_Manavgat_Standart_Aile_Odas%C4%B1_dik.jpg",
+      "source_page": "https://www.alibey.com/en/club",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ali-bey-club-manavgat",
+      "venue_title": "Ali Bey Club Manavgat",
+      "src": "https://www.alibey.com/content/upload/room-images/Alibey_Club_Manavgat_Superior_Oda_orta.jpg",
+      "source_page": "https://www.alibey.com/en/club",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "nirvana-cosmopolitan",
+      "venue_title": "Nirvana Cosmopolitan",
+      "src": "https://www.nirvanahotels.com.tr/_nuxt/img/CP-experience-top.0fcb32b.jpg",
+      "source_page": "https://www.nirvanahotels.com.tr/oteller/nirvana-cosmopolitan",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "papillon-belvil",
+      "venue_title": "Papillon Belvil",
+      "src": "https://papillon.com.tr/wp-content/uploads/2025/12/Papillon-Zeugma-Oda-Superior-Room-1406-02-min-1199x800.jpg",
+      "source_page": "https://papillon.com.tr/en/accommodation/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "vahap-usta-et-restaurant",
+      "venue_title": "Vahap Usta Et Restaurant",
+      "src": "https://vahaprestaurant.com/wp-content/uploads/2024/05/creattion-demo.regular.webp",
+      "source_page": "https://vahaprestaurant.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "vahap-usta-et-restaurant",
+      "venue_title": "Vahap Usta Et Restaurant",
+      "src": "https://vahaprestaurant.com/wp-content/uploads/2024/05/cover-100x100.jpeg",
+      "source_page": "https://vahaprestaurant.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "captain-pirate-restaurant-bar",
+      "venue_title": "Captain Pirate Restaurant & Bar",
+      "src": "https://captainpiraterestaurant.com/wp-content/uploads/2023/10/DSC01188-scaled.jpeg",
+      "source_page": "https://captainpiraterestaurant.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "captain-pirate-restaurant-bar",
+      "venue_title": "Captain Pirate Restaurant & Bar",
+      "src": "https://captainpiraterestaurant.com/wp-content/uploads/2023/10/DSC01188-600x750.jpeg",
+      "source_page": "https://captainpiraterestaurant.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "captain-pirate-restaurant-bar",
+      "venue_title": "Captain Pirate Restaurant & Bar",
+      "src": "https://captainpiraterestaurant.com/wp-content/uploads/2023/10/DSC01231-600x750.jpeg",
+      "source_page": "https://captainpiraterestaurant.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "villa-okan-cafe-restaurant",
+      "venue_title": "Villa Okan Cafe & Restaurant",
+      "src": "https://www.villaokan.com/sayfa/files/images/bg-11.jpg",
+      "source_page": "https://www.villaokan.com/en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "villa-okan-cafe-restaurant",
+      "venue_title": "Villa Okan Cafe & Restaurant",
+      "src": "https://www.villaokan.com/sayfa/files/images/bg-13.jpg",
+      "source_page": "https://www.villaokan.com/en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "korsan-meze",
+      "venue_title": "Korsan Meze",
+      "src": "https://www.korsankalkan.com/wp-content/uploads/2020/12/2-Korsan-Kalkan-Korsan-Meze-2011-3-Copy.jpg",
+      "source_page": "https://www.korsankalkan.com/en/korsan-meze/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "7-mehmet",
+      "venue_title": "7 Mehmet",
+      "src": "https://7mehmet.com/images/restaurant/1_7-mehmet-antalya_1.jpg",
+      "source_page": "https://7mehmet.com/en/7-mehmet-antalya",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "7-mehmet",
+      "venue_title": "7 Mehmet",
+      "src": "https://7mehmet.com/images/restaurant/1_7-mehmet-antalya_0.jpg",
+      "source_page": "https://7mehmet.com/en/7-mehmet-antalya",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "7-mehmet",
+      "venue_title": "7 Mehmet",
+      "src": "https://7mehmet.com/images/restaurant/1_7-mehmet-antalya_2.jpg?v=2.02",
+      "source_page": "https://7mehmet.com/en/7-mehmet-antalya",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "7-mehmet",
+      "venue_title": "7 Mehmet",
+      "src": "https://7mehmet.com/images/restaurant/1_7-mehmet-antalya_3.jpg?v=2.02",
+      "source_page": "https://7mehmet.com/en/7-mehmet-antalya",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "korsan-fish-terrace",
+      "venue_title": "Korsan Fish Terrace",
+      "src": "https://www.korsankalkan.com/wp-content/uploads/2020/12/1-Korsan-Kalkan-Korsan-Fish-Terrace-Restaurant-small.jpg",
+      "source_page": "https://www.korsankalkan.com/en/korsan-fish-terrace/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "mermerli-restaurant",
+      "venue_title": "Mermerli Restaurant & Cafe",
+      "src": "https://www.mermerli.com.tr/uploads/products/15daccdd8ad171fe_1785928524.jpg",
+      "source_page": "https://www.mermerli.com.tr/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "mermerli-restaurant",
+      "venue_title": "Mermerli Restaurant & Cafe",
+      "src": "https://www.mermerli.com.tr/uploads/products/28bd3ffc81c61687_1785758980.jpg",
+      "source_page": "https://www.mermerli.com.tr/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "mermerli-restaurant",
+      "venue_title": "Mermerli Restaurant & Cafe",
+      "src": "https://www.mermerli.com.tr/uploads/products/d6b6d6876b4b86c3_1785754956.jpg",
+      "source_page": "https://www.mermerli.com.tr/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "mermerli-restaurant",
+      "venue_title": "Mermerli Restaurant & Cafe",
+      "src": "https://www.mermerli.com.tr/uploads/products/1ad36281839462ed_1785926197.jpg",
+      "source_page": "https://www.mermerli.com.tr/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "asmani-restaurant",
+      "venue_title": "Asmani Restaurant",
+      "src": "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/gdydqeqd/akra-antalya-asmani-banner.jpg",
+      "source_page": "https://www.akrahotels.com/en/hotels/akra-antalya/gastronomy/restaurants/asmani-restaurant/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "asmani-restaurant",
+      "venue_title": "Asmani Restaurant",
+      "src": "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/b1maug3i/akra-antalya-asmani-banner1.jpg",
+      "source_page": "https://www.akrahotels.com/en/hotels/akra-antalya/gastronomy/restaurants/asmani-restaurant/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "asmani-restaurant",
+      "venue_title": "Asmani Restaurant",
+      "src": "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/zsej4s1q/akra-antalya-asmani-banner2.jpg",
+      "source_page": "https://www.akrahotels.com/en/hotels/akra-antalya/gastronomy/restaurants/asmani-restaurant/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "asmani-restaurant",
+      "venue_title": "Asmani Restaurant",
+      "src": "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/gyrpmlpc/akra-antalya-asmani-banner3.jpg",
+      "source_page": "https://www.akrahotels.com/en/hotels/akra-antalya/gastronomy/restaurants/asmani-restaurant/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "seraser-fine-dining",
+      "venue_title": "Seraser Fine Dining",
+      "src": "https://framerusercontent.com/images/Kwi7XGQcc9o4zmERIqOHqfJWhY.webp?width=6086&height=4169",
+      "source_page": "https://www.seraserrestaurant.com/en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "seraser-fine-dining",
+      "venue_title": "Seraser Fine Dining",
+      "src": "https://framerusercontent.com/images/emvdNYNXbfClsId6omZdgvSKw.webp?width=4000&height=2709",
+      "source_page": "https://www.seraserrestaurant.com/en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "seraser-fine-dining",
+      "venue_title": "Seraser Fine Dining",
+      "src": "https://framerusercontent.com/images/cQDXgpjKde65zFZ6CPvc5Z197E.webp?width=2250&height=2813",
+      "source_page": "https://www.seraserrestaurant.com/en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "seraser-fine-dining",
+      "venue_title": "Seraser Fine Dining",
+      "src": "https://framerusercontent.com/images/DvclPURgSZoRYFwB3KbIF1EVk.webp?width=2250&height=2813",
+      "source_page": "https://www.seraserrestaurant.com/en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "fatma-sultan-turk-mutfagi",
+      "venue_title": "Fatma Sultan Türk Mutfağı",
+      "src": "https://static.wixstatic.com/media/a7e2f3_7563e779867045a3aea26fe36bf794cd~mv2.jpg/v1/fill/w_169,h_113,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a7e2f3_7563e779867045a3aea26fe36bf794cd~mv2.jpg",
+      "source_page": "https://www.fatmasultanrestaurant.com/tr",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "fatma-sultan-turk-mutfagi",
+      "venue_title": "Fatma Sultan Türk Mutfağı",
+      "src": "https://static.wixstatic.com/media/a7e2f3_7563e779867045a3aea26fe36bf794cd~mv2.jpg/v1/fill/w_147,h_98,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a7e2f3_7563e779867045a3aea26fe36bf794cd~mv2.jpg",
+      "source_page": "https://www.fatmasultanrestaurant.com/tr",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "fatma-sultan-turk-mutfagi",
+      "venue_title": "Fatma Sultan Türk Mutfağı",
+      "src": "https://static.wixstatic.com/media/a7e2f3_7962fbc8aff0461bb305fa7108c36fe8~mv2.jpg/v1/fill/w_122,h_163,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a7e2f3_7962fbc8aff0461bb305fa7108c36fe8~mv2.jpg",
+      "source_page": "https://www.fatmasultanrestaurant.com/tr",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "fatma-sultan-turk-mutfagi",
+      "venue_title": "Fatma Sultan Türk Mutfağı",
+      "src": "https://static.wixstatic.com/media/a7e2f3_6a7c2ed3b6134eb5a0aa53e27c2152a2~mv2.jpg/v1/fill/w_102,h_104,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a7e2f3_6a7c2ed3b6134eb5a0aa53e27c2152a2~mv2.jpg",
+      "source_page": "https://www.fatmasultanrestaurant.com/tr",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "pablito-bistro",
+      "venue_title": "Pablito Bistro",
+      "src": "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/akllr41a/akra-antalya-pablito-bistro-banner.jpg",
+      "source_page": "https://www.akrahotels.com/en/hotels/akra-antalya/gastronomy/restaurants/pablito-bistro/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "pablito-bistro",
+      "venue_title": "Pablito Bistro",
+      "src": "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/ra4fm43e/akra-antalya-pablito-bistro-banner1.jpg",
+      "source_page": "https://www.akrahotels.com/en/hotels/akra-antalya/gastronomy/restaurants/pablito-bistro/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "pablito-bistro",
+      "venue_title": "Pablito Bistro",
+      "src": "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/pkuopn5v/akra-antalya-pablito-bistro-banner2.jpg",
+      "source_page": "https://www.akrahotels.com/en/hotels/akra-antalya/gastronomy/restaurants/pablito-bistro/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "pablito-bistro",
+      "venue_title": "Pablito Bistro",
+      "src": "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/jgeign43/akra-antalya-pablito-bistro-banner3.jpg",
+      "source_page": "https://www.akrahotels.com/en/hotels/akra-antalya/gastronomy/restaurants/pablito-bistro/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "nemo-restaurant-lounge",
+      "venue_title": "NEMO Restaurant & Lounge",
+      "src": "https://cdn.prod.website-files.com/676813ee717640eb15aace28/69e8c8ec284c0c15d2aa167b_Nemo%20Slider%20Image%201%20-%20Magical%20Evening.webp",
+      "source_page": "https://www.nemorestaurants.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "nemo-restaurant-lounge",
+      "venue_title": "NEMO Restaurant & Lounge",
+      "src": "https://cdn.prod.website-files.com/676813ee717640eb15aace28/69e8c8f3e5585eb0cc0c14e4_Nemo%20Slider%20Image%202%20-%20Art%20Of%20Dining.webp",
+      "source_page": "https://www.nemorestaurants.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "nemo-restaurant-lounge",
+      "venue_title": "NEMO Restaurant & Lounge",
+      "src": "https://cdn.prod.website-files.com/676813ee717640eb15aace28/69e8c8f82e57dd86a5d441d7_Nemo%20Slider%20Image%203%20-%20Embrace%20Elegance.webp",
+      "source_page": "https://www.nemorestaurants.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "nemo-restaurant-lounge",
+      "venue_title": "NEMO Restaurant & Lounge",
+      "src": "https://cdn.prod.website-files.com/676813ee717640eb15aace28/69ea08b18934147ca6390b1d_68baabfd9e25ae12b879bcec_68834346fc3d71c8560f4155_Nemo1823%20(1).webp",
+      "source_page": "https://www.nemorestaurants.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "lara-balik-isiklar",
+      "venue_title": "Lara Balık Işıklar",
+      "src": "https://larabalik.com/wp-content/uploads/2022/04/shop-img-01-01-600x394-1-300x197.jpg",
+      "source_page": "https://larabalik.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "lara-balik-isiklar",
+      "venue_title": "Lara Balık Işıklar",
+      "src": "https://larabalik.com/wp-content/uploads/2022/04/menu-img-595x1024.jpg",
+      "source_page": "https://larabalik.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "lara-balik-isiklar",
+      "venue_title": "Lara Balık Işıklar",
+      "src": "https://larabalik.com/wp-content/uploads/2022/04/menu-2-104x300.jpg",
+      "source_page": "https://larabalik.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "lara-balik-isiklar",
+      "venue_title": "Lara Balık Işıklar",
+      "src": "https://larabalik.com/wp-content/uploads/2023/01/060A4644-scaled.jpg",
+      "source_page": "https://larabalik.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "tirmis",
+      "venue_title": "Tirmis",
+      "src": "https://api.baruthotelsgroup.com/uploads/menu_items/bc01e1af-5b5c-b5d4-9726-634e5cdf6502/958b50a096ce14d6a319310de5621678.jpg",
+      "source_page": "https://bayoulara.com/en/gastronomy/tirmis",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "tirmis",
+      "venue_title": "Tirmis",
+      "src": "https://api.baruthotelsgroup.com/uploads/menu_items/83a68105-487b-edfa-53a6-75b89ca86cb5/d2d6121a88f687026615c99fccbe1335.jpg",
+      "source_page": "https://bayoulara.com/en/gastronomy/tirmis",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "tirmis",
+      "venue_title": "Tirmis",
+      "src": "https://api.baruthotelsgroup.com/uploads/menu_items/e226fabe-a1f4-e6a5-3fc0-27cadc97e361/4578213346f123a5f9ce3b64a04d0713.jpg",
+      "source_page": "https://bayoulara.com/en/gastronomy/tirmis",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "tirmis",
+      "venue_title": "Tirmis",
+      "src": "https://api.baruthotelsgroup.com/uploads/menu_items/b94259a2-23ea-cb2c-c75e-a00ad6849423/a7839bececdd23f40650bb3e98207ad0.jpg",
+      "source_page": "https://bayoulara.com/en/gastronomy/tirmis",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "side-orfoz-restaurant",
+      "venue_title": "Side Orfoz Restaurant",
+      "src": "https://sideorfozrestaurant.com/uploads/1920px/DSCF6110.jpg",
+      "source_page": "https://sideorfozrestaurant.com/EN",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "side-orfoz-restaurant",
+      "venue_title": "Side Orfoz Restaurant",
+      "src": "https://sideorfozrestaurant.com/uploads/1920px/DSCF5333-Enhanced-NR.jpg",
+      "source_page": "https://sideorfozrestaurant.com/EN",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "side-orfoz-restaurant",
+      "venue_title": "Side Orfoz Restaurant",
+      "src": "https://sideorfozrestaurant.com/uploads/1024px/DJI-0015.jpg",
+      "source_page": "https://sideorfozrestaurant.com/EN",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "side-orfoz-restaurant",
+      "venue_title": "Side Orfoz Restaurant",
+      "src": "https://sideorfozrestaurant.com/uploads/640px/Orfoz-Yemek-Menu-EN-2026-2-of-14.jpg",
+      "source_page": "https://sideorfozrestaurant.com/EN",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "kale-panorama-restaurant",
+      "venue_title": "Kale Panorama Restaurant",
+      "src": "https://alanyapanorama.com/upload/thump_1624447577.jpg",
+      "source_page": "https://alanyapanorama.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "kale-panorama-restaurant",
+      "venue_title": "Kale Panorama Restaurant",
+      "src": "https://alanyapanorama.com/upload/galeri/thump_1781622518.jpeg",
+      "source_page": "https://alanyapanorama.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "kale-panorama-restaurant",
+      "venue_title": "Kale Panorama Restaurant",
+      "src": "https://alanyapanorama.com/upload/galeri/thump_1781622529.jpeg",
+      "source_page": "https://alanyapanorama.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "kale-panorama-restaurant",
+      "venue_title": "Kale Panorama Restaurant",
+      "src": "https://alanyapanorama.com/upload/galeri/thump_1775554604.jpeg",
+      "source_page": "https://alanyapanorama.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "parlak-restaurant",
+      "venue_title": "Parlak Restaurant",
+      "src": "https://www.parlakrestaurant.com/wp-content/uploads/2023/05/dana-pirzola-255x170.jpg",
+      "source_page": "https://www.parlakrestaurant.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "parlak-restaurant",
+      "venue_title": "Parlak Restaurant",
+      "src": "https://www.parlakrestaurant.com/wp-content/uploads/2023/12/DSCF2119-255x383.webp",
+      "source_page": "https://www.parlakrestaurant.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "parlak-restaurant",
+      "venue_title": "Parlak Restaurant",
+      "src": "https://www.parlakrestaurant.com/wp-content/uploads/2023/06/Yaprak-cigeri-tavuk-cigeri.jpg",
+      "source_page": "https://www.parlakrestaurant.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "parlak-restaurant",
+      "venue_title": "Parlak Restaurant",
+      "src": "https://www.parlakrestaurant.com/wp-content/uploads/2023/06/Atom-kokorec--e1687305475608-300x300.jpg",
+      "source_page": "https://www.parlakrestaurant.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "hasanaga-restaurant",
+      "venue_title": "Hasanağa Restaurant",
+      "src": "https://medya.barobirlik.org.tr/BaroWebSite/SiteAyarlari/7arkaPlan.jpg",
+      "source_page": "https://www.antalyabarosu.org.tr/Detay/karma-kalec-restoran-309000",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "hasanaga-restaurant",
+      "venue_title": "Hasanağa Restaurant",
+      "src": "https://medya.barobirlik.org.tr/BaroWebSite/Banner/7/1-baronet.jpg",
+      "source_page": "https://www.antalyabarosu.org.tr/Detay/karma-kalec-restoran-309000",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "hasanaga-restaurant",
+      "venue_title": "Hasanağa Restaurant",
+      "src": "https://medya.barobirlik.org.tr/BaroWebSite/Banner/7/3-20200720-115041_222.jpg",
+      "source_page": "https://www.antalyabarosu.org.tr/Detay/karma-kalec-restoran-309000",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "hasanaga-restaurant",
+      "venue_title": "Hasanağa Restaurant",
+      "src": "https://medya.barobirlik.org.tr/BaroWebSite/Banner/7/sag-yapayhesap.jpg",
+      "source_page": "https://www.antalyabarosu.org.tr/Detay/karma-kalec-restoran-309000",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "vanilla-lounge",
+      "venue_title": "Vanilla Restaurant",
+      "src": "https://vanillaantalya.com/uploads/0a6f745227bb5c5f.webp",
+      "source_page": "https://vanillaantalya.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "vanilla-lounge",
+      "venue_title": "Vanilla Restaurant",
+      "src": "https://vanillaantalya.com/uploads/d6915e4cbc1a6200.webp",
+      "source_page": "https://vanillaantalya.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "vanilla-lounge",
+      "venue_title": "Vanilla Restaurant",
+      "src": "https://vanillaantalya.com/uploads/d2960cdc2311eab8.webp",
+      "source_page": "https://vanillaantalya.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "vanilla-lounge",
+      "venue_title": "Vanilla Restaurant",
+      "src": "https://vanillaantalya.com/uploads/0972b1575ca945b4.webp",
+      "source_page": "https://vanillaantalya.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ravza-restaurant",
+      "venue_title": "Ravza Restaurant",
+      "src": "https://www.ravzarestaurant.com/wp-content/uploads/2022/09/ravz23.jpg",
+      "source_page": "https://www.ravzarestaurant.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ravza-restaurant",
+      "venue_title": "Ravza Restaurant",
+      "src": "https://www.ravzarestaurant.com/wp-content/uploads/2023/05/kiremit-bonfile_main.webp",
+      "source_page": "https://www.ravzarestaurant.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ravza-restaurant",
+      "venue_title": "Ravza Restaurant",
+      "src": "https://www.ravzarestaurant.com/wp-content/uploads/2021/05/huluklu-corba-950x634.jpg",
+      "source_page": "https://www.ravzarestaurant.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ravza-restaurant",
+      "venue_title": "Ravza Restaurant",
+      "src": "https://www.ravzarestaurant.com/wp-content/uploads/2021/05/alanya-sealight-950x633.webp",
+      "source_page": "https://www.ravzarestaurant.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "barinak-balik-evi-lara",
+      "venue_title": "Barınak Balık Evi Lara",
+      "src": "https://www.barinakbalikevi.com/wp-content/uploads/2024/12/Snapinsta.app_461840906_1082573663670910_1945704481266935172_n_1080-1024x1024.jpg",
+      "source_page": "https://www.barinakbalikevi.com/lara/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "barinak-balik-evi-lara",
+      "venue_title": "Barınak Balık Evi Lara",
+      "src": "https://www.barinakbalikevi.com/wp-content/uploads/2024/12/Snapinsta.app_461840906_1082573663670910_1945704481266935172_n_1080.jpg",
+      "source_page": "https://www.barinakbalikevi.com/lara/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "barinak-balik-evi-lara",
+      "venue_title": "Barınak Balık Evi Lara",
+      "src": "https://www.barinakbalikevi.com/wp-content/uploads/2024/12/Snapinsta.app_321612689_1388014048621445_1813172985508198839_n_1080-e1728472951826-768x553.jpg",
+      "source_page": "https://www.barinakbalikevi.com/lara/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "barinak-balik-evi-lara",
+      "venue_title": "Barınak Balık Evi Lara",
+      "src": "https://www.barinakbalikevi.com/wp-content/uploads/2024/12/Snapinsta.app_291601621_5296662220376548_4591650346579683349_n_1080-720x720.jpg",
+      "source_page": "https://www.barinakbalikevi.com/lara/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sirali-kebap-antalya",
+      "venue_title": "Sıralı Kebap Antalya",
+      "src": "https://www.siralikebap.com/wp-content/uploads/2025/10/left-2-2.jpg",
+      "source_page": "https://www.siralikebap.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sirali-kebap-antalya",
+      "venue_title": "Sıralı Kebap Antalya",
+      "src": "https://www.siralikebap.com/wp-content/uploads/2022/10/slider_4-1500x550.jpg",
+      "source_page": "https://www.siralikebap.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sirali-kebap-antalya",
+      "venue_title": "Sıralı Kebap Antalya",
+      "src": "https://www.siralikebap.com/wp-content/uploads/2022/10/slider_5-1500x550.jpg",
+      "source_page": "https://www.siralikebap.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sirali-kebap-antalya",
+      "venue_title": "Sıralı Kebap Antalya",
+      "src": "https://www.siralikebap.com/wp-content/uploads/2022/10/slider_1-1500x550.jpg",
+      "source_page": "https://www.siralikebap.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ayar-meyhanesi",
+      "venue_title": "Ayar Meyhanesi",
+      "src": "https://www.ayarmeyhanesi.com/images/about-main.jpg",
+      "source_page": "https://www.ayarmeyhanesi.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ayar-meyhanesi",
+      "venue_title": "Ayar Meyhanesi",
+      "src": "https://www.ayarmeyhanesi.com/images/about-inset.jpg",
+      "source_page": "https://www.ayarmeyhanesi.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ayar-meyhanesi",
+      "venue_title": "Ayar Meyhanesi",
+      "src": "https://www.ayarmeyhanesi.com/images/oduller_1.jpg",
+      "source_page": "https://www.ayarmeyhanesi.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "ayar-meyhanesi",
+      "venue_title": "Ayar Meyhanesi",
+      "src": "https://www.ayarmeyhanesi.com/images/oduller_2.jpg",
+      "source_page": "https://www.ayarmeyhanesi.com/en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "oburus-momus",
+      "venue_title": "Oburus Momus",
+      "src": "https://www.oburus.com/momus/wp-content/uploads/2024/06/cover.jpg",
+      "source_page": "https://www.oburus.com/momus/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "oburus-momus",
+      "venue_title": "Oburus Momus",
+      "src": "https://www.oburus.com/momus/wp-content/uploads/2024/06/410121067_18326991070103925_4340279911626338923_n.jpg",
+      "source_page": "https://www.oburus.com/momus/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "montgomerie-maxx-royal-golf-club",
+      "venue_title": "Montgomerie Maxx Royal Golf Club",
+      "src": "https://www.montgomeriemaxxroyal.com/media/pkpisvxl/montgomerie_maxx_royal_academy_25.jpg",
+      "source_page": "https://www.montgomeriemaxxroyal.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "montgomerie-maxx-royal-golf-club",
+      "venue_title": "Montgomerie Maxx Royal Golf Club",
+      "src": "https://www.montgomeriemaxxroyal.com/media/dzqieau0/montgomerie_maxx_royal_club_house_2021_filitreli.jpg?rxy=0.5%2C0.5676691729323309&width=1024&height=768",
+      "source_page": "https://www.montgomeriemaxxroyal.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "montgomerie-maxx-royal-golf-club",
+      "venue_title": "Montgomerie Maxx Royal Golf Club",
+      "src": "https://www.montgomeriemaxxroyal.com/media/0ytlcmxh/colin_montgomerie_12.jpg?width=600&height=906",
+      "source_page": "https://www.montgomeriemaxxroyal.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "montgomerie-maxx-royal-golf-club",
+      "venue_title": "Montgomerie Maxx Royal Golf Club",
+      "src": "https://www.montgomeriemaxxroyal.com/media/bnmhtw0j/mrb_cast_2027_66.jpg?width=600&height=736",
+      "source_page": "https://www.montgomeriemaxxroyal.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "robinson-nobilis-golf-club",
+      "venue_title": "ROBINSON Nobilis Golf Club",
+      "src": "https://www.robinson.com/fileadmin/media/_processed_/9/a/csm_nl44_11786_d229dbbcf1.jpg",
+      "source_page": "https://www.robinson.com/en/en/resort-holiday/turkey/nobilis/club-details/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "robinson-nobilis-golf-club",
+      "venue_title": "ROBINSON Nobilis Golf Club",
+      "src": "https://www.robinson.com/media/_processed_/a/e/csm_RCNL_Pool_14917_WOL_2122b65d38.jpg",
+      "source_page": "https://www.robinson.com/en/en/resort-holiday/turkey/nobilis/club-details/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "robinson-nobilis-golf-club",
+      "venue_title": "ROBINSON Nobilis Golf Club",
+      "src": "https://www.robinson.com/media/_processed_/3/f/csm_RCNL_drone_16577_WOL_b08ad2a828.jpg",
+      "source_page": "https://www.robinson.com/en/en/resort-holiday/turkey/nobilis/club-details/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "robinson-nobilis-golf-club",
+      "venue_title": "ROBINSON Nobilis Golf Club",
+      "src": "https://www.robinson.com/media/_processed_/7/8/csm_RCNL_PeopleInResort_16537_WOL_60af5dd6d2.jpg",
+      "source_page": "https://www.robinson.com/en/en/resort-holiday/turkey/nobilis/club-details/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "cornelia-golf-club",
+      "venue_title": "Cornelia Golf Club",
+      "src": "https://www.corneliaresort.com/uploads/1920px/dllerw.jpg",
+      "source_page": "https://www.corneliaresort.com/EN/Cornelia-Golf-Club/about-course",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "cornelia-golf-club",
+      "venue_title": "Cornelia Golf Club",
+      "src": "https://www.corneliaresort.com/uploads/1920px/Hole-27-Lakes-about.jpg",
+      "source_page": "https://www.corneliaresort.com/EN/Cornelia-Golf-Club/about-course",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "antalya-golf-club",
+      "venue_title": "Antalya Golf Club",
+      "src": "https://agc.com.tr/wp-content/uploads/2017/02/agc_slider1.jpg",
+      "source_page": "https://agc.com.tr/?lang=en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "antalya-golf-club",
+      "venue_title": "Antalya Golf Club",
+      "src": "https://agc.com.tr/wp-content/uploads/2017/02/home_footer_2.jpg",
+      "source_page": "https://agc.com.tr/?lang=en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "antalya-golf-club",
+      "venue_title": "Antalya Golf Club",
+      "src": "https://agc.com.tr/wp-content/uploads/2017/02/ThePasha-380x293.jpg",
+      "source_page": "https://agc.com.tr/?lang=en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "antalya-golf-club",
+      "venue_title": "Antalya Golf Club",
+      "src": "https://agc.com.tr/wp-content/uploads/2017/02/PGASultan-380x293.jpg",
+      "source_page": "https://agc.com.tr/?lang=en",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "national-golf-club",
+      "venue_title": "National Golf Club",
+      "src": "https://nationalturkey.com/wp-content/uploads/2025/03/RegnumCarya_National_Golf_Club-301-2048x1150.jpg",
+      "source_page": "https://nationalturkey.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "national-golf-club",
+      "venue_title": "National Golf Club",
+      "src": "https://nationalturkey.com/wp-content/uploads/2025/04/2B6A7909-2048x1152.jpg",
+      "source_page": "https://nationalturkey.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "national-golf-club",
+      "venue_title": "National Golf Club",
+      "src": "https://nationalturkey.com/wp-content/uploads/2025/02/163_NATIONAL-GOLF-CLUB-PHOTO-2048x1366.jpg",
+      "source_page": "https://nationalturkey.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "national-golf-club",
+      "venue_title": "National Golf Club",
+      "src": "https://nationalturkey.com/wp-content/uploads/2025/05/2B6A9399-2048x1152.jpg",
+      "source_page": "https://nationalturkey.com/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "gloria-golf-club",
+      "venue_title": "Gloria Golf Club",
+      "src": "https://www.gloria.com.tr/Content/Images/section/menu-bg.jpg",
+      "source_page": "https://www.gloria.com.tr/en/experiences/golf/courses/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "gloria-golf-club",
+      "venue_title": "Gloria Golf Club",
+      "src": "https://www.gloria.com.tr/media/pynl4y0c/sahakapak.jpg",
+      "source_page": "https://www.gloria.com.tr/en/experiences/golf/courses/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "gloria-golf-club",
+      "venue_title": "Gloria Golf Club",
+      "src": "https://www.gloria.com.tr/media/fv5fg5np/glorianewcourse10_golfclub18th_l.jpg",
+      "source_page": "https://www.gloria.com.tr/en/experiences/golf/courses/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "gloria-golf-club",
+      "venue_title": "Gloria Golf Club",
+      "src": "https://www.gloria.com.tr/media/5bupo5fp/gloriaoldcourse33_golfclub_l.jpg",
+      "source_page": "https://www.gloria.com.tr/en/experiences/golf/courses/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "lykia-links-antalya",
+      "venue_title": "Lykia Links Antalya",
+      "src": "https://framerusercontent.com/images/bNLEmVuAlhLNNhrs6npeb6QaU.jpg?lossless=1&width=2880&height=570",
+      "source_page": "https://lykiaworld.com/golf",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "lykia-links-antalya",
+      "venue_title": "Lykia Links Antalya",
+      "src": "https://framerusercontent.com/images/8NpPkCqOijeyoHsRVGWrhu53sI.jpg?width=1800&height=570",
+      "source_page": "https://lykiaworld.com/golf",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "lykia-links-antalya",
+      "venue_title": "Lykia Links Antalya",
+      "src": "https://offload-assets.framercoder.com/66454b3a-4086-47fd-bfa4-4dbfa7265cd1/1a897ad6-22a3-4fd6-99c1-05f2ed511a8f_2FBrA7UntXxiSHs6pmrT8osmJBw.jpg?width=1650&height=810",
+      "source_page": "https://lykiaworld.com/golf",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "lykia-links-antalya",
+      "venue_title": "Lykia Links Antalya",
+      "src": "https://offload-assets.framercoder.com/66454b3a-4086-47fd-bfa4-4dbfa7265cd1/523011b5-2c49-49d5-950c-20242a76bbfa_NFHvWPjvK1ny90V3iZ8EIxeC4.jpg?width=1650&height=810",
+      "source_page": "https://lykiaworld.com/golf",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sueno-golf-club",
+      "venue_title": "Sueno Golf Club",
+      "src": "https://golfclub.sueno.com.tr/wp-content/uploads/2024/03/sueno-hotels-golf-club-pines-255x191.webp",
+      "source_page": "https://golfclub.sueno.com.tr/en/anasayfa-en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sueno-golf-club",
+      "venue_title": "Sueno Golf Club",
+      "src": "https://golfclub.sueno.com.tr/wp-content/uploads/2024/03/sueno-hotels-golf-club-mid-255x383.webp",
+      "source_page": "https://golfclub.sueno.com.tr/en/anasayfa-en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sueno-golf-club",
+      "venue_title": "Sueno Golf Club",
+      "src": "https://golfclub.sueno.com.tr/wp-content/uploads/2024/03/sueno-hotels-golf-club-dunes-255x191.webp",
+      "source_page": "https://golfclub.sueno.com.tr/en/anasayfa-en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "sueno-golf-club",
+      "venue_title": "Sueno Golf Club",
+      "src": "https://golfclub.sueno.com.tr/wp-content/uploads/2025/11/proshop2-255x383.webp",
+      "source_page": "https://golfclub.sueno.com.tr/en/anasayfa-en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "cullinan-links-golf-club",
+      "venue_title": "Cullinan Links Golf Club",
+      "src": "https://image-tc.galaxy.tf/wijpeg-83qwl3bbbaqd7uz4d9ea1dslg/22-sea-side.jpg?width=560",
+      "source_page": "https://www.cullinanlinksgolfclub.com/courses/general-information",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "cullinan-links-golf-club",
+      "venue_title": "Cullinan Links Golf Club",
+      "src": "https://image-tc.galaxy.tf/wijpeg-6sqfknqu586cis63g0h9tsk4y/aspendos.jpg?width=560",
+      "source_page": "https://www.cullinanlinksgolfclub.com/courses/general-information",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "cullinan-links-golf-club",
+      "venue_title": "Cullinan Links Golf Club",
+      "src": "https://image-tc.galaxy.tf/wijpeg-2juf1u7jxj0gn253vyypv5yoz/ga-rsel-4.jpg?width=560",
+      "source_page": "https://www.cullinanlinksgolfclub.com/courses/general-information",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "carya-golf-club",
+      "venue_title": "Carya Golf Club",
+      "src": "https://www.caryagolf.com/media/td2ozrhm/regnumcarya_carya_golf_club-08-min-min-min.jpg",
+      "source_page": "https://www.caryagolf.com/en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "carya-golf-club",
+      "venue_title": "Carya Golf Club",
+      "src": "https://www.caryagolf.com/media/i22if3eb/regnumcarya_carya_golf_club-51-min-min-1-min.jpg",
+      "source_page": "https://www.caryagolf.com/en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "carya-golf-club",
+      "venue_title": "Carya Golf Club",
+      "src": "https://www.caryagolf.com/media/h5xhquzf/carya-golf-club-3-min-min-min.jpg",
+      "source_page": "https://www.caryagolf.com/en/",
+      "accepted_on": "2026-11-10"
+    },
+    {
+      "venue_slug": "carya-golf-club",
+      "venue_title": "Carya Golf Club",
+      "src": "https://www.caryagolf.com/media/bg2k140w/carya-golf-club26-min-min-min.jpg",
+      "source_page": "https://www.caryagolf.com/en/",
+      "accepted_on": "2026-11-10"
+    }
   ]
 }

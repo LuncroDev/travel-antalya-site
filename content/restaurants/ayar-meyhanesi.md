@@ -15,6 +15,12 @@ category: Turkish meyhane, seafood and meze
 tagline: A Kaleiçi meyhane focused on seafood, meze and a sociable evening atmosphere.
 source_label: Official venue information
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
+photos_official:
+- src: https://www.ayarmeyhanesi.com/images/about-main.jpg
+- src: https://www.ayarmeyhanesi.com/images/about-inset.jpg
+- src: https://www.ayarmeyhanesi.com/images/oduller_1.jpg
+- src: https://www.ayarmeyhanesi.com/images/oduller_2.jpg
+photo_source: https://www.ayarmeyhanesi.com/en
 ---
 Ayar Meyhanesi has served in Kaleiçi since 2017. The restaurant’s official introduction centres on fresh seafood and meze. It is located on Hesapçı Sokak in the old town.
 

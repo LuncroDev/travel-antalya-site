@@ -5,6 +5,11 @@ const { registry, approvalErrors, isExcluded } = require('../lib/photo-rights');
 function validateBuiltPhotoRights(root = path.resolve(__dirname, '../_site'), rights = registry()) {
   const known = new Set(require('../_data/editorialPhotos.json').map(p => p.src));
   for (const p of rights.approved || []) if (!approvalErrors(p).length && !isExcluded(p.venue_slug,p.src,rights)) known.add(p.src);
+  if (rights.owner_acceptance && rights.owner_acceptance.status === 'accepted') {
+    for (const p of rights.owner_accepted || []) if (!isExcluded(p.venue_slug,p.src,rights)) known.add(p.src);
+    const matter = require('gray-matter'), { selectedOfficialPhotos } = require('../lib/photo-rights'), content = path.resolve(__dirname, '../content');
+    if (fs.existsSync(content)) for (const f of fs.readdirSync(content,{recursive:true}).filter(n=>n.endsWith('.md'))) for (const p of selectedOfficialPhotos(matter(fs.readFileSync(path.join(content,f),'utf8')).data, rights)) known.add(p.src);
+  }
   const errors=[];
   const decode=value=>value.replace(/&amp;/g,'&').replace(/&#39;/g,"'").replace(/&quot;/g,'"');
   for(const file of fs.readdirSync(root,{recursive:true}).filter(f=>f.endsWith('.html')&&!f.startsWith('admin/'))) {

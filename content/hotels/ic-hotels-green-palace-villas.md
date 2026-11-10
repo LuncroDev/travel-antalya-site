@@ -14,6 +14,12 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: The Kundu property brings together hotel rooms, family and kids suites, and several villa types.
 booking_note: The villa concept can differ from standard-room accommodation. Check the exact inclusions and pool arrangements.
+photos_official:
+- src: https://www.ichotels.com.tr/media/hpwndlfk/ic-green-palace-konaklama-standart-oda-list-card.jpg
+- src: https://www.ichotels.com.tr/media/m0pnm4di/ic-green-palace-konaklama-aile-odasi-card.jpg
+- src: https://www.ichotels.com.tr/media/4nmbhtqn/ic-hotels-green-palace-villas-konaklama-engelli-odasi-card.jpg
+- src: https://www.ichotels.com.tr/media/ln2dednk/ic-hotels-green-palace-villas-konaklama-junior-suite-card.jpg
+photo_source: https://www.ichotels.com.tr/en/our-hotels/green-palace-villas/
 ---
 The Kundu property brings together hotel rooms, family and kids suites, and several villa types. Lake, beach and Bali-style villas sit within the current Green Palace & Villas offering.
 

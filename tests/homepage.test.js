@@ -43,7 +43,7 @@ test('licensed photos keep keyboard-accessible author and licence credits', () =
   assert.ok(credits.length >= 10);
   for (const credit of credits) {
     assert.ok(credit.querySelector('summary .sr-only')?.textContent.startsWith('Photo credit:'));
-    if (credit.textContent.includes('(official website)')) continue; // venue's own photo, credited to its website
+    if (credit.textContent.includes('official website')) continue; // venue's own photo, credited to its website
     const caption = credit.querySelector('strong').textContent;
     const photo = photos.find(item => item.caption === caption);
     assert.ok(photo, caption);

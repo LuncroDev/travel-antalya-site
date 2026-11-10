@@ -14,6 +14,10 @@ category: Italian, Mexican and international
 tagline: A central Alanya garden restaurant with Italian-Mexican dishes and family amenities.
 source_label: Official venue information
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
+photos_official:
+- src: https://www.villaokan.com/sayfa/files/images/bg-11.jpg
+- src: https://www.villaokan.com/sayfa/files/images/bg-13.jpg
+photo_source: https://www.villaokan.com/en/
 ---
 Villa Okan is on Bostancıpınarı Caddesi in central Alanya. The official site highlights its garden, historic atmosphere, Italian and Mexican dishes, cocktails and live music evenings.
 

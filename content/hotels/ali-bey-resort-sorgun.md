@@ -14,6 +14,12 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: Ali Bey's Sorgun resort is in Manavgat, close to the wider Side destination.
 booking_note: Use the Sorgun property name on transfers and ask about the exact sport and aquapark services included.
+photos_official:
+- src: https://www.alibey.com/content/upload/room-images/alibey-resort-sorgun-room-family-suit-room-mid.jpg
+- src: https://www.alibey.com/content/upload/room-images/Alibey_Resort_Sorgun_Dubleks_Aileorta.jpg
+- src: https://www.alibey.com/content/upload/room-images/Alibey_Sorgun_Resort_Deluks_Suit_Oda_Orta.jpg
+- src: https://www.alibey.com/content/upload/room-images/Alibey-Resort-Sorgun-Aile-Odasi_2.jpg
+photo_source: https://www.alibey.com/en/resort
 ---
 Ali Bey's Sorgun resort is in Manavgat, close to the wider Side destination. It is listed separately from Ali Bey Club Manavgat, with its own address and resort facilities.
 

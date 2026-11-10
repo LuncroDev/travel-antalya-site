@@ -15,6 +15,9 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: Calyptus is the Kirman property in Side's Kumköy area that emphasises entertainment and a large aquapark.
 booking_note: Ask about beach access and the seasonal entertainment schedule rather than assuming a beachfront room.
+photos_official:
+- src: https://www.kirmanpremium.com/image/icerik/676008c033e13.jpg
+photo_source: https://www.kirmanpremium.com/calyptus-kirman-premium
 ---
 Calyptus is the Kirman property in Side's Kumköy area that emphasises entertainment and a large aquapark. It is distinct from the group's Okurcalar hotels.
 

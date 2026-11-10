@@ -22,7 +22,7 @@ function validatePhotoRights(root = ROOT, rights = registry()) {
     if (data.photos_official !== undefined && !Array.isArray(data.photos_official)) { errors.push(`${rel}: photos_official must be an array`); continue; }
     for (const photo of data.photos_official || []) {
       checked++;
-      if (!approvedPhoto(data.slug, photo?.src, rights)) errors.push(`${rel}: undocumented, expired or excluded photo ${photo?.src || '(missing URL)'}`);
+      if (!approvedPhoto(data.slug, photo?.src, rights, undefined, data)) errors.push(`${rel}: undocumented, expired or excluded photo ${photo?.src || '(missing URL)'}`);
     }
   }
   if (errors.length) throw new Error(`Photo rights check failed:\n${errors.join('\n')}\nUse the licensed library or record reviewed rights in docs/photo-rights.json.`);

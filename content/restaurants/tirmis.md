@@ -17,6 +17,12 @@ tagline: A resort restaurant devoted to Antalya flavours such as hibeş, tahini 
 source_label: Official venue information
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
 status_note: Brand pages are transitioning between Lara Barut Collection and BAYOU Lara. Confirm the restaurant’s current booking destination before travelling.
+photos_official:
+- src: https://api.baruthotelsgroup.com/uploads/menu_items/bc01e1af-5b5c-b5d4-9726-634e5cdf6502/958b50a096ce14d6a319310de5621678.jpg
+- src: https://api.baruthotelsgroup.com/uploads/menu_items/83a68105-487b-edfa-53a6-75b89ca86cb5/d2d6121a88f687026615c99fccbe1335.jpg
+- src: https://api.baruthotelsgroup.com/uploads/menu_items/e226fabe-a1f4-e6a5-3fc0-27cadc97e361/4578213346f123a5f9ce3b64a04d0713.jpg
+- src: https://api.baruthotelsgroup.com/uploads/menu_items/b94259a2-23ea-cb2c-c75e-a00ad6849423/a7839bececdd23f40650bb3e98207ad0.jpg
+photo_source: https://bayoulara.com/en/gastronomy/tirmis
 ---
 Tirmis takes its name from the lupin-bean snack associated with Antalya. The official resort pages describe a contemporary restaurant built around regional dishes and produce, with freshly made yufka bread.
 

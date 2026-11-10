@@ -13,6 +13,12 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: A palace-style coastal resort in the Kundu area, east of central Antalya.
 booking_note: Confirm opening dates and any renovation restrictions directly. Older references may use Titanic Mardan Palace; use the current official site.
+photos_official:
+- src: https://framerusercontent.com/images/VoSXq8lRrpHPK9EGxTNG98HeeyM.jpg
+- src: https://framerusercontent.com/images/fdBS1uVRpHYCCxjgd5Cr5mIYIhg.jpg?lossless=1&width=1920&height=1360
+- src: https://framerusercontent.com/images/l91JrFasdcfOy7ib5sB1vtCBxtg.webp?width=1920&height=1610
+- src: https://framerusercontent.com/images/QlTESINViUTxXeOeBzX79Ev11A.webp?width=2560&height=1600
+photo_source: https://www.mardanpalace.com/
 ---
 A palace-style coastal resort in the Kundu area, east of central Antalya.
 

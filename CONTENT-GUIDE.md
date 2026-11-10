@@ -126,6 +126,6 @@ photo_id: "editorial-photo-id"
 7. One commit: `content: YYYY-MM-DD — N items (hotels: …, events: …)`; push to `main` (one deploy).
 8. Report what was added, with links, and anything skipped and why.
 
-## Venue photo rights gate
+## Venue photos
 
-Official-site photo URLs require asset-specific reviewed rights in `docs/photo-rights.json` before import or publication. Source attribution alone is not a licence. Follow `docs/photo-rights-policy.md`; preserve the pending/exclusion registers. Without clearance, keep the existing licensed property archive or accurately captioned area fallback. Never bypass the build check to publish an admin upload or scraped URL.
+The site owner has decided that venue listings use photos from the venue's **own official website**, credited and linked (see `docs/photo-rights-policy.md` → Owner decision). Add up to 4 such image URLs to `photos_official` plus `photo_source`, and record each in `docs/photo-rights.json` → `owner_accepted`. Never use a sister property's photos, stock images, AI images, or photos from booking/review sites. Excluded assets stay excluded. Do not remove existing venue photos unless the owner asks.

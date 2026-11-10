@@ -15,6 +15,12 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: Trendy Side Beach is listed as adults-only for guests aged 16 and above.
 booking_note: Confirm the age policy and any seasonal differences in the all-inclusive programme.
+photos_official:
+- src: https://trendy.com.tr/wp-content/uploads/2023/04/trendy-side-standard-room-1024x683-1.webp
+- src: https://trendy.com.tr/wp-content/uploads/2023/04/trendy-side-standard-room-1024x683-1-768x512.webp
+- src: https://trendy.com.tr/wp-content/uploads/2023/09/Trendy-Side-Beach-Hava-06_Buyuk-Boyut-1-1-768x512.jpg
+- src: https://trendy.com.tr/wp-content/uploads/2023/04/trendy-side-standard-room-main-1-1536x1024.webp
+photo_source: https://trendy.com.tr/en/trendy-side-beach/
 ---
 Trendy Side Beach is listed as adults-only for guests aged 16 and above. The group highlights its beach position near ancient Side, with its address on 612 Sokak in Side Mahallesi.
 

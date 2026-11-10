@@ -14,6 +14,12 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: A Belek resort on Kongre Caddesi with rooms, suites and swim-up options.
 booking_note: Confirm swim-up pool operations and which restaurants are open for your dates.
+photos_official:
+- src: https://www.palomahotels.com/Content/imgUpload/16-10-2026-15-01-14sencia-anaslider-1920x1080.jpg
+- src: https://www.palomahotels.com/Content/imgUpload/image-16-10-2026-16-06-32sencia.jpg
+- src: https://www.palomahotels.com/Content/imgUpload/image-27-12-2024-16-39-19palomasencia_discover_1.jpg
+- src: https://www.palomahotels.com/Content/imgUpload/image-30-12-2024-14-44-41palomasencia_discover_2.jpg
+photo_source: https://www.palomahotels.com/en/paloma-sencia
 ---
 A Belek resort on Kongre Caddesi with rooms, suites and swim-up options. The official site also lists meeting facilities and year-round experiences, offering a different setting from Paloma Grida's village layout.
 

@@ -14,6 +14,9 @@ source_urls:
 last_checked: '2026-11-09'
 excerpt: A Lara beachfront resort in Kemerağzı with standard and family rooms, junior suites and adapted rooms.
 booking_note: Check the specific Delphin property on your booking and transfer voucher.
+photos_official:
+- src: https://www.delphinhotel.com/main_pics/pages/medium/1818.jpg
+photo_source: https://www.delphinhotel.com/en/delphin-palace
 ---
 A Lara beachfront resort in Kemerağzı with standard and family rooms, junior suites and adapted rooms. The hotel lists an indoor pool, spa, bowling and several dining venues, making it a full resort option rather than a small coastal hotel.
 

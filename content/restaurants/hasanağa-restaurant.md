@@ -16,6 +16,12 @@ source_label: Identity and address source
 identity_unverified: true
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
 status_note: 'Identity requires confirmation: older Hasanağa page remains live; a 2025 institutional listing uses Karma Kaleiçi / Hasanağa Karma.'
+photos_official:
+- src: https://medya.barobirlik.org.tr/BaroWebSite/SiteAyarlari/7arkaPlan.jpg
+- src: https://medya.barobirlik.org.tr/BaroWebSite/Banner/7/1-baronet.jpg
+- src: https://medya.barobirlik.org.tr/BaroWebSite/Banner/7/3-20200720-115041_222.jpg
+- src: https://medya.barobirlik.org.tr/BaroWebSite/Banner/7/sag-yapayhesap.jpg
+photo_source: https://www.antalyabarosu.org.tr/Detay/karma-kalec-restoran-309000
 ---
 Hasanağa’s restaurant-hosted Eatbu page identifies a Turkish restaurant at Mescit Sokak No:15 in Kaleiçi, serving fish and grills. A more recent Antalya Bar Association listing dated 23 July 2025 names the same address Karma Kaleiçi Restoran and refers to it as Hasanağa Karma. These sources establish the location but leave the current operating name and continuity unresolved.
 
