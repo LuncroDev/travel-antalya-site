@@ -23,7 +23,11 @@
 {% if resolvedSchema %}
 <script type="application/ld+json">{{ resolvedSchema | jsonForHtml | safe }}</script>
 {% endif %}
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6719207833738427" crossorigin="anonymous"></script>
+<meta name="google-adsense-account" content="ca-pub-6719207833738427">
+<script>/* AdSense loads after the page is usable: first scroll/tap/key, or 3 s after load. */
+(function(){var d=false;function go(){if(d)return;d=true;var s=document.createElement('script');s.async=true;s.crossOrigin='anonymous';s.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6719207833738427';document.head.appendChild(s);}
+['scroll','pointerdown','keydown','touchstart'].forEach(function(e){addEventListener(e,go,{once:true,passive:true});});
+addEventListener('load',function(){setTimeout(go,3000);});})();</script>
 </head>
 <body class="{% if homepageDesign %}home-page{% endif %}{% if bodyClass %} {{ bodyClass }}{% endif %}">
 <a class="skip-link" href="#main-content">Skip to content</a>

@@ -6,6 +6,28 @@
 [build.environment]
   NODE_VERSION = "22"
 
+# Browser caching. Without these Netlify sends max-age=0 and every photo is
+# re-checked on every page view, which made image-heavy pages feel slow.
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=2592000"
+
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, stale-while-revalidate=86400"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, stale-while-revalidate=86400"
+
 [images]
   remote_images = [
   'https://7mehmet\.com/.*',
