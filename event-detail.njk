@@ -12,7 +12,7 @@ eleventyExcludeFromCollections: true
 <section class="page-hero">
   <div class="page-hero-media">
     {{ pic(hero.src, hero.alt, '100vw', true, hero.width, hero.height) }}
-    {% if hero.label %}<span class="card-area" style="top:16px;bottom:auto;left:16px">{{ icon('camera') }} {{ hero.label }}</span>{% elif hero.contextual %}<span class="card-area" style="top:16px;bottom:auto;left:16px">{{ icon('camera') }} Area photo · {{ ev.neighborhood }}</span>{% endif %}
+    {% if hero.label %}<span class="card-area" style="top:16px;bottom:auto;left:16px">{{ icon('camera') }} {{ hero.label }}</span>{% elif hero.contextual %}<span class="card-area" style="top:16px;bottom:auto;left:16px">{{ icon('camera') }} Area photo{% if ev.neighborhood %} · {{ ev.neighborhood }}{% endif %}</span>{% endif %}
     {{ credit(hero) }}
     {{ wave('var(--bg)') }}
   </div>
