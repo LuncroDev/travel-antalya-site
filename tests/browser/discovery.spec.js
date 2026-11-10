@@ -68,5 +68,5 @@ test('ANFAS trade fairs have inclusive date filters and clear visitor eligibilit
  await page.getByRole('link',{name:'ANFAŞ Food Product 2027',exact:true}).click();await expect(page.locator('h1')).toHaveText('ANFAŞ Food Product 2027');
  await expect(page.locator('.detail-layout article')).toContainText('Visitors under 18 are not admitted to those zones');await expect(page.locator('.detail-side .event-admission-note')).toBeVisible();
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBeTruthy();
- await page.goto('/events/category/trade-fairs/');await expect(page.locator('[data-event]:visible')).toHaveCount(2);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBeTruthy();
+ await page.goto('/events/category/trade-fairs/');await expect(page.locator('[data-event]:visible')).toHaveCount(events.filter(e=>e.category==='Trade fairs'&&['current','upcoming'].includes(eventStatus(e,'2026-11-09'))).length);for(const slug of ['anfas-hotel-equipment-2027','anfas-food-product-2027'])await expect(page.locator(`[data-event]:visible a[href="/events/${slug}/"]`).first()).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBeTruthy();
 });
