@@ -19,7 +19,7 @@ test('events honor time, archive, awaiting dates and reset',async({page})=>{
  await page.locator('select[name=period]').selectOption('archive');await expect(page.locator('[data-event]:visible')).toHaveCount(3);
  await page.locator('select[name=period]').selectOption('awaiting');await expect(page.locator('[data-event]:visible')).toHaveCount(4);
  await page.getByRole('button',{name:'Reset filters',exact:true}).click();await expect(page.locator('[data-event]:visible')).toHaveCount(active);
- await page.locator('input[name=from]').fill('2027-05-01');await expect(page.locator('[data-event-empty]')).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBeTruthy();
+ await page.locator('input[name=from]').fill('2030-05-01');await expect(page.locator('[data-event-empty]')).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBeTruthy();
 });
 test('search type, empty state and literal safe input',async({page})=>{
  await page.goto('/search/?q=kas&type=District');await expect(page.locator('[data-search-item]:visible')).toHaveCount(1);await expect(page.locator('[data-search-item]:visible')).toContainText('Kaş');

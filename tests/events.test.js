@@ -68,3 +68,19 @@ test('ANFAS fairs are two distinct multi-day trade events with explicit eligibil
  const food=fairs.find(x=>x.data.slug==='anfas-food-product-2027');assert.match(food.content,/Visitors under 18 are not admitted to those zones/);
  assert.equal(records.some(x=>/exclusive.*jewellery/i.test(x.data.title)),false);
 });
+
+test('2027 book fair distinguishes announced dates from unconfirmed visitor arrangements', () => {
+  const fs = require('node:fs');
+  const matter = require('gray-matter');
+  const {data, content} = matter(fs.readFileSync('content/events/antalya-book-fair-2027.md', 'utf8'));
+  assert.equal(data.start_date, '2027-10-01');
+  assert.equal(data.end_date, '2027-10-10');
+  assert.equal(data.date_verified, true);
+  assert.equal(eventStatus(data, '2026-11-10'), 'upcoming');
+  assert.match(data.source_url, /antalya\.bel\.tr/);
+  assert.match(data.venue, /awaiting organizer confirmation/);
+  assert.match(data.admission_note, /not been verified/);
+  assert.equal(data.booking_url, undefined);
+  assert.match(content, /dha\.com\.tr/);
+  assert.match(content, /2027 venue, daily opening hours, admission conditions or programme/);
+});
