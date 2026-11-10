@@ -16,11 +16,11 @@ last_checked: '2026-11-09'
 excerpt: Sueno's Deluxe property is in Kadriye, Belek, within the group's golf destination.
 booking_note: Check whether golf rounds and cross-property facilities are part of your specific package.
 photos_official:
-- src: https://deluxe.sueno.com.tr/wp-content/uploads/2024/04/Sueno-hotels-deluxe-belek-italian-a-la-carte-restaurant-255x383.webp
-- src: https://deluxe.sueno.com.tr/wp-content/uploads/2024/04/Sueno-hotels-deluxe-belek-lounge-bar-24-hour-255x191.webp
-- src: https://deluxe.sueno.com.tr/wp-content/uploads/2024/04/Sueno-hotels-deluxe-belek-spa-center-255x383.webp
-- src: https://deluxe.sueno.com.tr/wp-content/uploads/2024/04/sueno-hotels-deluxe-belek-wellness-255x383.webp
-photo_source: https://deluxe.sueno.com.tr/en/anasayfa-en/
+  - src: "/images/uploads/venue-sueno-hotels-deluxe-belek-p01.webp"
+    credit: "migros-ferien.ch"
+    source: "https://www.migros-ferien.ch/tuerkei/antalya-umgebung/sueno-hotels-deluxe-belek/h-816155"
+  - src: "/images/uploads/venue-sueno-hotels-deluxe-belek-p02.webp"
+photo_source: "https://deluxe.sueno.com.tr/en/anasayfa-en/"
 ---
 Sueno's Deluxe property is in Kadriye, Belek, within the group's golf destination. The group distinguishes this resort from Sueno Hotels Golf Belek even though they share the official contact address.
 

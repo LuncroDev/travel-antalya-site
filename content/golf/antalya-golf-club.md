@@ -15,11 +15,9 @@ category: Golf club
 tagline: The PGA Sultan and Pasha courses offer two different 18-hole rounds in Belek.
 source_label: Official venue information
 photos_official:
-- src: https://agc.com.tr/wp-content/uploads/2017/02/agc_slider1.jpg
-- src: https://agc.com.tr/wp-content/uploads/2017/02/home_footer_2.jpg
-- src: https://agc.com.tr/wp-content/uploads/2017/02/ThePasha-380x293.jpg
-- src: https://agc.com.tr/wp-content/uploads/2017/02/PGASultan-380x293.jpg
-photo_source: https://agc.com.tr/?lang=en
+  - src: "/images/uploads/venue-antalya-golf-club-p01.webp"
+  - src: "/images/uploads/venue-antalya-golf-club-p02.webp"
+photo_source: "https://agc.com.tr/?lang=en"
 ---
 Antalya Golf Club is in the Belek/Kadriye resort area, not central Antalya. Its two courses were created by European Golf Design with David Jones as design consultant.
 

@@ -16,11 +16,11 @@ last_checked: '2026-11-09'
 excerpt: An airport-oriented hotel in Güzelyurt–Çalkaya with rooms, suites and meeting spaces.
 booking_note: Confirm transfer availability and terminal pickup details. This is not a beachfront hotel.
 photos_official:
-- src: https://www.ichotels.com.tr/media/wpdltzaq/ic-airport-konaklama-standart-oda-list-card-1.jpg
-- src: https://www.ichotels.com.tr/media/xuofipay/ic-airport-konaklama-deluxe-standart-oda-list-car.jpg
-- src: https://www.ichotels.com.tr/media/32whhfyz/ic-airport-konaklama-deluxe-engelli-oda-card-d.jpg
-- src: https://www.ichotels.com.tr/media/5omfvloo/ic-airport-gastronomi-bristol-restoran-banner-main-card-d.jpg
-photo_source: https://www.ichotels.com.tr/en/our-hotels/airport/
+  - src: "/images/uploads/venue-ic-hotels-airport-p01.webp"
+  - src: "/images/uploads/venue-ic-hotels-airport-p02.webp"
+  - src: "https://www.ichotels.com.tr/media/32whhfyz/ic-airport-konaklama-deluxe-engelli-oda-card-d.jpg"
+  - src: "https://www.ichotels.com.tr/media/5omfvloo/ic-airport-gastronomi-bristol-restoran-banner-main-card-d.jpg"
+photo_source: "https://www.ichotels.com.tr/en/our-hotels/airport/"
 ---
 An airport-oriented hotel in Güzelyurt–Çalkaya with rooms, suites and meeting spaces. The official site lists a restaurant, bar and pool areas, making it a practical stopover alternative to the coastal resort strip.
 

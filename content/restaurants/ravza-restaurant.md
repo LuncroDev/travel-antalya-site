@@ -16,11 +16,11 @@ tagline: A family-founded Alanya restaurant dating to 1955, with a broad Turkish
 source_label: Official venue information
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
 photos_official:
-- src: https://www.ravzarestaurant.com/wp-content/uploads/2022/09/ravz23.jpg
-- src: https://www.ravzarestaurant.com/wp-content/uploads/2023/05/kiremit-bonfile_main.webp
-- src: https://www.ravzarestaurant.com/wp-content/uploads/2021/05/huluklu-corba-950x634.jpg
-- src: https://www.ravzarestaurant.com/wp-content/uploads/2021/05/alanya-sealight-950x633.webp
-photo_source: https://www.ravzarestaurant.com/
+  - src: "/images/uploads/venue-ravza-restaurant-p01.webp"
+  - src: "/images/uploads/venue-ravza-restaurant-p02.webp"
+  - src: "https://www.ravzarestaurant.com/wp-content/uploads/2021/05/huluklu-corba-950x634.jpg"
+  - src: "https://www.ravzarestaurant.com/wp-content/uploads/2021/05/alanya-sealight-950x633.webp"
+photo_source: "https://www.ravzarestaurant.com/"
 ---
 Ravza began as a small three-table business in 1955 and grew into a multi-floor restaurant in central Alanya. Its official menu covers Turkish meat dishes, salads, starters and regional specialities.
 

@@ -148,7 +148,7 @@
       <div class="card serp"><div class="u">travel-antalya.com${esc(c.path)}<span id="pslug"></span>/</div><div class="t" id="stitle"></div><div class="d" id="sdesc"></div></div>
       <p class="saveinfo">Changes go live about 1–2 minutes after saving.</p></aside></div>`);
     const form = document.getElementById('ef');
-    let photos = (fm.photos_official || []).map(p => ({ src: p.src, alt: p.alt || '' }));
+    let photos = (fm.photos_official || []).map(p => ({ ...p, alt: p.alt || '' }));
     const row = (state.data.collections[k] || []).find(r => r.file === file);
     if (row) document.getElementById('live').href = row.url;
 
@@ -171,7 +171,7 @@
       });
       const tags = {}; form.querySelectorAll('[data-tag]').forEach(el => { (tags[el.dataset.tag] = tags[el.dataset.tag] || []); if (el.checked) tags[el.dataset.tag].push(el.value); });
       Object.assign(out, tags);
-      if (document.getElementById('photos')) { out.photos_official = photos.map(p => p.alt ? { src: p.src, alt: p.alt } : { src: p.src }); }
+      if (document.getElementById('photos')) { out.photos_official = photos.map(({ preview, ...p }) => { if (!p.alt) delete p.alt; return p; }); }
       if (k === 'blog' && out.date && !out.date_display) out.date_display = new Date(out.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
       return out;
     };

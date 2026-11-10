@@ -17,6 +17,13 @@ excerpt: "A four-day car and motorcycle fair at ANFAŞ Expo Center in Aksu, 8–
 tagline: "Cars, motorcycles, parts, servicing and finance under one roof at Antalya's main exhibition centre."
 admission_note: "Neither the venue nor the organiser says yet whether the fair is open to the general public or trade visitors only, or publishes ticket rules. Check before you travel."
 verification_note: "The dates 8–11 April 2027 appear on the ANFAŞ fair page and calendar, and the organiser's own site gives '8—11 Nisan 2027' at ANFAŞ. Daily opening hours, visitor eligibility and ticketing were not published when checked on 10 November 2026."
+photos_official:
+  - src: "/images/uploads/event-anfas-expo-center.webp"
+    credit: "azuuhotel.com"
+    source: "https://www.azuuhotel.com/antalya-rehberi/anfas-turkiyenin-fuarcilik-merkezi-antalya/"
+    label: "Venue photo · ANFAŞ Antalya Expo Center"
+    caption: "ANFAŞ Antalya Expo Center"
+    alt: "ANFAŞ Antalya Expo Center, the event venue"
 ---
 **Auto World Expo Antalya** runs from **Thursday 8 to Sunday 11 April 2027** at the **ANFAŞ Expo Center** in Aksu, east of Antalya city.
 

@@ -15,6 +15,13 @@ excerpt: "A children's stage show celebrates effort and kindness."
 tagline: "A children's stage show celebrates effort and kindness."
 time_display: "11:00"
 verification_note: "Day, month, time and venue appear on the linked primary ticketing page; 2026 is established by the current listings and matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/event-nazim-hikmet-kongre-merkezi.webp"
+    credit: "biletimgo.com"
+    source: "https://www.biletimgo.com/mekan/konyaalti-nazim-hikmet-fuar-ve-kongre-merkezi-966"
+    label: "Venue photo · Konyaaltı Nazım Hikmet Congress Centre"
+    caption: "Konyaaltı Nazım Hikmet Congress Centre"
+    alt: "Konyaaltı Nazım Hikmet Congress Centre, the event venue"
 ---
 A children's stage show celebrates effort and kindness.
 

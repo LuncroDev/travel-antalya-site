@@ -15,11 +15,10 @@ tagline: A longstanding Turkish restaurant in Zincirli Han, especially associate
 source_label: Official venue information
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
 photos_official:
-- src: https://www.parlakrestaurant.com/wp-content/uploads/2023/05/dana-pirzola-255x170.jpg
-- src: https://www.parlakrestaurant.com/wp-content/uploads/2023/12/DSCF2119-255x383.webp
-- src: https://www.parlakrestaurant.com/wp-content/uploads/2023/06/Yaprak-cigeri-tavuk-cigeri.jpg
-- src: https://www.parlakrestaurant.com/wp-content/uploads/2023/06/Atom-kokorec--e1687305475608-300x300.jpg
-photo_source: https://www.parlakrestaurant.com/
+  - src: "/images/uploads/venue-parlak-restaurant-p01.webp"
+  - src: "/images/uploads/venue-parlak-restaurant-p02.webp"
+  - src: "https://www.parlakrestaurant.com/wp-content/uploads/2023/06/Yaprak-cigeri-tavuk-cigeri.jpg"
+photo_source: "https://www.parlakrestaurant.com/"
 ---
 Founded in 1954, Parlak is set inside the historic Zincirli Han near Antalya’s clock tower. Its official site lists Turkish pot dishes, meze, charcoal-grilled chicken, meat and fish.
 

@@ -13,7 +13,7 @@ last_checked: "2026-11-10"
 excerpt: "Club Med's all-inclusive Kemer resort: Villagio bungalows or Hotel rooms, six pools, 29 included activities and kids' clubs up to 17."
 booking_note: "Club Med publishes no opening season for Palmiye. Check your dates are bookable, and whether your room is in the Villagio or the Hotel area."
 photos_official:
-  - src: "https://assets.dream.clubmed/pm_7531_199_199250-a1lquqx3f2-swhr.jpg"
+  - src: "/images/uploads/venue-club-med-palmiye-p01.webp"
   - src: "https://assets.dream.clubmed/pm_7531_199_199205-7ch507r9rg-swhr.jpg"
 photo_source: "https://www.clubmed.us/r/palmiye/y"
 ---

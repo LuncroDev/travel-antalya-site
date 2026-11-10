@@ -14,6 +14,13 @@ verification_note: "Dates checked against the linked official source."
 start_date: "2026-11-09"
 end_date: "2026-11-20"
 district_slug: "aksu"
+photos_official:
+  - src: "/images/uploads/event-anfas-expo-center.webp"
+    credit: "azuuhotel.com"
+    source: "https://www.azuuhotel.com/antalya-rehberi/anfas-turkiyenin-fuarcilik-merkezi-antalya/"
+    label: "Venue photo · ANFAŞ Antalya Expo Center"
+    caption: "ANFAŞ Antalya Expo Center"
+    alt: "ANFAŞ Antalya Expo Center, the event venue"
 ---
 COP31 is scheduled in Antalya from 9 to 20 November 2026. This is a major international conference, not an open-admission visitor attraction. Consult UNFCCC participant information for accreditation and access rules.
 

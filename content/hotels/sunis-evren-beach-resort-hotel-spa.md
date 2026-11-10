@@ -15,11 +15,11 @@ last_checked: '2026-11-09'
 excerpt: The Evren Beach property is Sunis's Evrenseki resort, distinct from its Kumköy hotel.
 booking_note: Confirm beach facilities, spa charges and seasonal restaurant availability.
 photos_official:
-- src: https://evrenbeachresort.com/wp-content/uploads/2024/12/RiECQ80Nj6cJ-700x467.jpg
-- src: https://evrenbeachresort.com/wp-content/uploads/2019/08/GENEL-2-1-scaled.jpg
-- src: https://evrenbeachresort.com/wp-content/uploads/2019/08/DJI_0089-1-scaled.jpg
-- src: https://evrenbeachresort.com/wp-content/uploads/2019/08/juhAanwbdkEY.jpg
-photo_source: https://evrenbeachresort.com/
+  - src: "/images/uploads/venue-sunis-evren-beach-resort-hotel-spa-p01.webp"
+  - src: "/images/uploads/venue-sunis-evren-beach-resort-hotel-spa-p02.webp"
+  - src: "https://evrenbeachresort.com/wp-content/uploads/2024/12/RiECQ80Nj6cJ-700x467.jpg"
+  - src: "https://evrenbeachresort.com/wp-content/uploads/2019/08/juhAanwbdkEY.jpg"
+photo_source: "https://evrenbeachresort.com/"
 ---
 The Evren Beach property is Sunis's Evrenseki resort, distinct from its Kumköy hotel. Its beach-resort and spa identity suits a base west of ancient Side.
 

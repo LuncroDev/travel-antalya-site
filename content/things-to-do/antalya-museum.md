@@ -11,9 +11,8 @@ map_lat: 36.8845
 map_lng: 30.6794
 excerpt: "Temporarily closed for new museum works. Check the official closure notice before planning a visit."
 featured: false
-photo_id: "konyaalti-welcome"
-photo_exact: false
-photo_label: "Konyaaltı, home of the museum"
+photo_id: "commons-antalya-museum-06022022-002"
+photo_exact: true
 district_slug: "konyaalti"
 official_url: "https://www.muze.gov.tr/muze-detay?DistId=ANT&SectionId=ANT01"
 last_checked: "2026-11-10"

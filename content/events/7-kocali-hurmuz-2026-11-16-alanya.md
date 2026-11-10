@@ -15,6 +15,15 @@ excerpt: "A traditional Turkish musical comedy follows Hürmüz and her complica
 tagline: "A traditional Turkish musical comedy follows Hürmüz and her complicated marriages."
 time_display: "19:30"
 verification_note: "Day, month, time and venue appear on the linked primary ticketing page; 2026 is established by the current listings and matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/event-alanya-kultur-merkezi.webp"
+    credit: "Dosseman / Wikimedia Commons"
+    source: "https://commons.wikimedia.org/wiki/File:Alanya_K%C3%BClt%C3%BCr_Merezi_7966.jpg"
+    license: "CC BY-SA 4.0"
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+    label: "Venue photo · Alanya Cultural Centre"
+    caption: "Alanya Cultural Centre"
+    alt: "Alanya Cultural Centre, the event venue"
 ---
 A traditional Turkish musical comedy follows Hürmüz and her complicated marriages.
 

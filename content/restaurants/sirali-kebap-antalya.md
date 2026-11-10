@@ -15,11 +15,11 @@ tagline: The Antalya branch of a modern Turkish kebab restaurant known for inven
 source_label: Official venue information
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
 photos_official:
-- src: https://www.siralikebap.com/wp-content/uploads/2025/10/left-2-2.jpg
-- src: https://www.siralikebap.com/wp-content/uploads/2022/10/slider_4-1500x550.jpg
-- src: https://www.siralikebap.com/wp-content/uploads/2022/10/slider_5-1500x550.jpg
-- src: https://www.siralikebap.com/wp-content/uploads/2022/10/slider_1-1500x550.jpg
-photo_source: https://www.siralikebap.com/
+  - src: "/images/uploads/venue-sirali-kebap-antalya-p01.webp"
+  - src: "/images/uploads/venue-sirali-kebap-antalya-p02.webp"
+  - src: "https://www.siralikebap.com/wp-content/uploads/2022/10/slider_5-1500x550.jpg"
+  - src: "https://www.siralikebap.com/wp-content/uploads/2022/10/slider_1-1500x550.jpg"
+photo_source: "https://www.siralikebap.com/"
 ---
 Sıralı reworks Turkish and Ottoman culinary traditions with contemporary presentation. Its official site identifies the Antalya restaurant on Eski Lara Caddesi in Çağlayan and provides a branch-specific telephone number.
 

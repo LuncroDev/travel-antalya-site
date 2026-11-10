@@ -15,8 +15,8 @@ last_checked: '2026-11-09'
 excerpt: A family resort in the Kemer region where the coast meets the mountain landscape.
 booking_note: Check the exact Kiriş location, room building and seasonal facilities.
 photos_official:
-  - src: "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/GENEL+ALAN6-1920w.jpg"
-  - src: "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/GENEL+ALAN7-2880w.jpg"
+  - src: "/images/uploads/venue-limak-limra-hotel-resort-p01.webp"
+  - src: "/images/uploads/venue-limak-limra-hotel-resort-p02.webp"
   - src: "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/GENEL+ALAN1-1920w.jpg"
   - src: "https://irp.cdn-website.com/11191c87/dms3rep/multi/opt/RESTAURANT1-2880w.jpg"
 photo_source: "https://www.limakhotels.com/limra"

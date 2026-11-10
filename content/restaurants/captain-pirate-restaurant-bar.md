@@ -16,10 +16,9 @@ tagline: A pirate-themed Kemer restaurant and bar combining dinner with a lively
 source_label: Official venue information
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
 photos_official:
-- src: https://captainpiraterestaurant.com/wp-content/uploads/2023/10/DSC01188-scaled.jpeg
-- src: https://captainpiraterestaurant.com/wp-content/uploads/2023/10/DSC01188-600x750.jpeg
-- src: https://captainpiraterestaurant.com/wp-content/uploads/2023/10/DSC01231-600x750.jpeg
-photo_source: https://captainpiraterestaurant.com/
+  - src: "/images/uploads/venue-captain-pirate-restaurant-bar-p01.webp"
+  - src: "/images/uploads/venue-captain-pirate-restaurant-bar-p02.webp"
+photo_source: "https://captainpiraterestaurant.com/"
 ---
 Captain Pirate is a themed restaurant and bar in central Kemer. Its official presentation stresses imaginative pirate-inspired decor and an energetic dining experience, rather than a quiet fine-dining room.
 

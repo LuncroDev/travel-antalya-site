@@ -14,9 +14,9 @@ last_checked: '2026-11-09'
 excerpt: The Kemer resort now branded Akra Kemer, formerly known as Kemer Barut Collection.
 booking_note: Use the current name when arranging transport or comparing bookings to avoid confusion with other Akra properties.
 photos_official:
-- src: https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/csslben2/akra-kemer-hakkimizda-banner.jpg
-- src: https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/xivpgjsn/akra-kemer-mainpage-card.jpg
-photo_source: https://www.akrahotels.com/en/hotels/akra-kemer/about-us/
+  - src: "/images/uploads/venue-akra-kemer-p01.webp"
+  - src: "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/xivpgjsn/akra-kemer-mainpage-card.jpg"
+photo_source: "https://www.akrahotels.com/en/hotels/akra-kemer/about-us/"
 ---
 The Kemer resort now branded Akra Kemer, formerly known as Kemer Barut Collection.
 

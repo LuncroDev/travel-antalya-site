@@ -11,6 +11,13 @@ date_verified: false
 excerpt: "Follow the municipality for a verified piano festival programme."
 featured: false
 verification_note: "No sufficiently verified dates are published here. Do not use older listings to plan travel."
+photos_official:
+  - src: "/images/uploads/event-antalya-piano-festival.webp"
+    credit: "marmarisyenisayfa.com"
+    source: "https://www.marmarisyenisayfa.com/haber/25-uluslararasi-antalya-piyano-festivali-basladi-581397.html"
+    label: "Photo from a previous edition"
+    caption: "Antalya Piano Festival, previous edition"
+    alt: "Antalya Piano Festival at a previous edition"
 ---
 The Antalya Piano Festival is part of the city’s music calendar. We have removed the previously published estimated date range and unsupported free-entry claim.
 

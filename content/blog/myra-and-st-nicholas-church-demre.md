@@ -5,9 +5,8 @@ date: 2026-11-10T09:30:00+03:00
 date_display: "November 10, 2026"
 category: "History"
 excerpt: "Plan a half day at Myra and St Nicholas Church in Demre: rock tombs, the Roman theatre, the saint's church, opening hours, and what is closed in 2026."
-photo_id: "kas-harbour"
-photo_exact: false
-photo_label: "Kaş harbour, west of Demre"
+photo_id: "myra-rock-tombs"
+photo_exact: true
 featured: false
 last_checked: "2026-11-10"
 source_urls: ["https://muze.gov.tr/muze-detay?DistId=MYR&SectionId=MYR01","https://muze.gov.tr/muze-detay?SectionId=STN01&DistId=STN","https://goturkiye.com/culturaljourneys/st-nicholas","https://turkishmuseums.com/museum/detail/1958-antalya-likya-uygarliklari-muzesi/1958/4","https://turkishmuseums.kprod.kultur.gov.tr/museum/detail/1961-antalya-andriake-archaeological-site/1961/4","https://muze.gov.tr/s3/MysFileLibrary/c3eae321-aaea-4bdc-af6f-ff8419b6d1f0.pdf","https://www.dha.com.tr/foto-galeri/aziz-nikolaosun-olum-yil-donumunde-antalyada-ozel-ayin-2544787","https://www.kgm.gov.tr/SiteCollectionDocuments/KGMdocuments/Root/Uzakliklar/ililcemesafe-ing.pdf"]

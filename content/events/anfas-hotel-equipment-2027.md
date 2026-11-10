@@ -17,6 +17,13 @@ excerpt: "Hospitality equipment suppliers and industry buyers meet at this profe
 tagline: "Hospitality equipment suppliers and industry buyers meet at this professional trade fair in Aksu."
 admission_note: "Industry decision-makers with purchasing authority; not open to the general public. Visitor registration requires company details and a business-card photo."
 verification_note: "The organizer confirms the date range, venue and visiting hours. Professional eligibility and registration requirements are stated on its visitor pages. No event-wide minimum age was found in the public pages reviewed."
+photos_official:
+  - src: "/images/uploads/event-anfas-expo-center.webp"
+    credit: "azuuhotel.com"
+    source: "https://www.azuuhotel.com/antalya-rehberi/anfas-turkiyenin-fuarcilik-merkezi-antalya/"
+    label: "Venue photo · ANFAŞ Antalya Expo Center"
+    caption: "ANFAŞ Antalya Expo Center"
+    alt: "ANFAŞ Antalya Expo Center, the event venue"
 ---
 Hospitality equipment suppliers and industry buyers meet at this professional trade fair in Aksu.
 

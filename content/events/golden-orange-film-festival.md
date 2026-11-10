@@ -13,6 +13,13 @@ featured: false
 verification_note: "Dates checked against the linked official source."
 start_date: "2026-10-24"
 end_date: "2026-10-31"
+photos_official:
+  - src: "/images/uploads/event-golden-orange-film-festival.webp"
+    credit: "Antalya Golden Orange Film Festival"
+    source: "https://antalyaff.com/tr"
+    label: "Photo from a previous edition"
+    caption: "Golden Orange Film Festival, previous edition"
+    alt: "Golden Orange Film Festival at a previous edition"
 ---
 The official festival website lists the 63rd Antalya Golden Orange Film Festival for 24–31 October 2026. Films, screenings and associated industry events are detailed by the organizer.
 

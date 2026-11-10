@@ -15,6 +15,13 @@ excerpt: "Orwell's Animal Farm becomes a stage story of rebellion and the abuse 
 tagline: "Orwell's Animal Farm becomes a stage story of rebellion and the abuse of power."
 time_display: "20:00"
 verification_note: "Day, month, time and venue appear on the linked primary ticketing page; 2026 is established by the current listings and matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/event-nazim-hikmet-kongre-merkezi.webp"
+    credit: "biletimgo.com"
+    source: "https://www.biletimgo.com/mekan/konyaalti-nazim-hikmet-fuar-ve-kongre-merkezi-966"
+    label: "Venue photo · Konyaaltı Nazım Hikmet Congress Centre"
+    caption: "Konyaaltı Nazım Hikmet Congress Centre"
+    alt: "Konyaaltı Nazım Hikmet Congress Centre, the event venue"
 ---
 Orwell's Animal Farm becomes a stage story of rebellion and the abuse of power.
 

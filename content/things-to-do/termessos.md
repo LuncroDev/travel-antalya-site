@@ -11,9 +11,8 @@ map_lat: 36.9831
 map_lng: 30.4659
 excerpt: "A dramatic ancient city high in the Taurus mountains, reached by a steep walk through Güllük Dağı National Park."
 featured: true
-photo_id: "kaleici-marina"
-photo_exact: false
-photo_label: "Antalya, gateway to Termessos"
+photo_id: "sight-termessos-2"
+photo_exact: true
 district_slug: "dosemealti"
 official_url: "https://www.muze.gov.tr/muze-detay?DistId=TRM&SectionId=TRM02"
 source_url: "https://www.muze.gov.tr/muze-detay?DistId=TRM&SectionId=TRM02"

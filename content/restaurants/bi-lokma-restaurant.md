@@ -13,6 +13,11 @@ category: "Turkish home-style cooking"
 tagline: "A central Kaş restaurant for Turkish breakfast, meze and home-style mains."
 source_label: "Official venue information"
 michelin_note: "No verified Michelin distinction for this Antalya venue in the 2026 selection."
+photos_official:
+  - src: "/images/uploads/venue-bi-lokma-restaurant-p01.webp"
+    credit: "Tripadvisor listing photo"
+    source: "https://www.tripadvisor.com/LocationPhotoDirectLink-g297965-d1788488-i137228533-Bi_Lokma_Restaurant-Kas_Turkish_Mediterranean_Coast.html"
+photo_source: "https://www.tripadvisor.com/LocationPhotoDirectLink-g297965-d1788488-i137228533-Bi_Lokma_Restaurant-Kas_Turkish_Mediterranean_Coast.html"
 ---
 Bi Lokma’s official site describes breakfast, garden dining, meze and freshly prepared Turkish dishes. It is on Uğur Mumcu Caddesi in Andifli and offers a broad menu rather than a fixed tasting format.
 

@@ -16,11 +16,13 @@ category: Golf club
 tagline: Two 18-hole courses, Pines and Dunes, beside the Sueno hotel complex.
 source_label: Official venue information
 photos_official:
-- src: https://golfclub.sueno.com.tr/wp-content/uploads/2024/03/sueno-hotels-golf-club-pines-255x191.webp
-- src: https://golfclub.sueno.com.tr/wp-content/uploads/2024/03/sueno-hotels-golf-club-mid-255x383.webp
-- src: https://golfclub.sueno.com.tr/wp-content/uploads/2024/03/sueno-hotels-golf-club-dunes-255x191.webp
-- src: https://golfclub.sueno.com.tr/wp-content/uploads/2025/11/proshop2-255x383.webp
-photo_source: https://golfclub.sueno.com.tr/en/anasayfa-en/
+  - src: "/images/uploads/venue-sueno-golf-club-p01.webp"
+  - src: "/images/uploads/venue-sueno-golf-club-p02.webp"
+  - src: "/images/uploads/venue-sueno-golf-club-p03.webp"
+    credit: "golfholidays.com"
+    source: "https://www.golfholidays.com/sueno-golf-club/"
+  - src: "/images/uploads/venue-sueno-golf-club-p04.webp"
+photo_source: "https://golfclub.sueno.com.tr/en/anasayfa-en/"
 ---
 Sueno has 36 physical holes across two courses designed by International Design Group. Pines is the longer par-72 layout, while Dunes is a shorter par-69 option.
 

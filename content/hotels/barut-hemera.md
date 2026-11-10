@@ -14,11 +14,11 @@ last_checked: '2026-11-09'
 excerpt: A seaside resort in the Side area, with a garden setting and a range of room types.
 booking_note: Confirm the exact beach access, pool operations and room category for your dates.
 photos_official:
-- src: https://api.baruthotelsgroup.com/uploads/pages/d11a190e-6f1a-7d61-05c0-8cf5be0e3c90/136768070905499cdad81679d977159b.jpg
-- src: https://api.baruthotelsgroup.com/uploads/pages/d11a190e-6f1a-7d61-05c0-8cf5be0e3c90/0b58a4b01d5f67f7dca3c5026da1e52c.webp
-- src: https://api.baruthotelsgroup.com/uploads/pages/d11a190e-6f1a-7d61-05c0-8cf5be0e3c90/764663bb36d30bef101f6abdfd319419.webp
-- src: https://api.baruthotelsgroup.com/uploads/pages/d11a190e-6f1a-7d61-05c0-8cf5be0e3c90/cb981b1d6663cc32e677b059f02aeac0.webp
-photo_source: https://baruthemera.com/en
+  - src: "/images/uploads/venue-barut-hemera-p01.webp"
+  - src: "/images/uploads/venue-barut-hemera-p02.webp"
+  - src: "https://api.baruthotelsgroup.com/uploads/pages/d11a190e-6f1a-7d61-05c0-8cf5be0e3c90/764663bb36d30bef101f6abdfd319419.webp"
+  - src: "https://api.baruthotelsgroup.com/uploads/pages/d11a190e-6f1a-7d61-05c0-8cf5be0e3c90/cb981b1d6663cc32e677b059f02aeac0.webp"
+photo_source: "https://baruthemera.com/en"
 ---
 A seaside resort in the Side area, with a garden setting and a range of room types.
 

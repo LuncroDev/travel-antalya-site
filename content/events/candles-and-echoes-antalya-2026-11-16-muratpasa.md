@@ -15,6 +15,13 @@ excerpt: "A five-player chamber ensemble performs instrumental selections from c
 tagline: "A five-player chamber ensemble performs instrumental selections from classical music, tango, film scores and Turkish music."
 time_display: "21:00"
 verification_note: "Day, month, start time and venue are shown on the individual primary ticketing page. The year is established from the current upcoming listing and its matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/event-antalya-ataturk-kultur-merkezi.webp"
+    credit: "petarpejcic.com"
+    source: "https://www.petarpejcic.com/concerts/antalya"
+    label: "Venue photo · Antalya Atatürk Cultural Centre"
+    caption: "Antalya Atatürk Cultural Centre"
+    alt: "Antalya Atatürk Cultural Centre, the event venue"
 ---
 A five-player chamber ensemble performs instrumental selections from classical music, tango, film scores and Turkish music.
 

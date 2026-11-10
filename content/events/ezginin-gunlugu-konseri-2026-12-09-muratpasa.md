@@ -17,6 +17,13 @@ excerpt: "Turkish folk-pop band Ezginin Günlüğü plays Holly Stone Antalya in
 tagline: "A band formed in 1982 whose songs mix traditional folk with poems by Nazım Hikmet and Orhan Veli."
 admission_note: "iTicket lists the tickets as non-refundable. No age limit is printed, so ask before bringing under-18s to the evening venue."
 verification_note: "The ticket page's date line reads '9 December 2026 - 21:00' and names Holly Stone Antalya, Uzun Çarşı Sk. No:42, Muratpaşa. No end time or age limit is published. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/event-holly-stone-antalya.webp"
+    credit: "antalyacityzone.com"
+    source: "https://antalyacityzone.com/en/antalya-city-guide/nightlife/holly-stone-performance-hall/142"
+    label: "Venue photo · Holly Stone Performance Hall Antalya"
+    caption: "Holly Stone Performance Hall Antalya"
+    alt: "Holly Stone Performance Hall Antalya, the event venue"
 ---
 **Ezginin Günlüğü** plays **Holly Stone Antalya** in Kaleiçi on **Wednesday 9 December 2026 at 21:00**.
 

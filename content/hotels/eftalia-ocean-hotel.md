@@ -15,11 +15,11 @@ last_checked: '2026-11-09'
 excerpt: An Eftalia property approximately 18 kilometres from Alanya according to the hotel.
 booking_note: Confirm the beach access route and which Eftalia Island services are included.
 photos_official:
-- src: https://eftaliahotels.com/wp-content/uploads/2021/03/ocean-kaydirak2048-1-500x230.jpg
-- src: https://eftaliahotels.com/wp-content/uploads/2021/03/ocean2048-1-1-500x230.jpg
-- src: https://eftaliahotels.com/wp-content/uploads/2021/03/ocean-swim-up-2048-500x230.jpg
-- src: https://eftaliahotels.com/wp-content/uploads/2021/03/ocean-swimup-balkon-2048-500x230.jpg
-photo_source: https://eftaliahotels.com/en/eftalia-ocean-hotel-2/
+  - src: "/images/uploads/venue-eftalia-ocean-hotel-p01.webp"
+  - src: "/images/uploads/venue-eftalia-ocean-hotel-p02.webp"
+  - src: "https://eftaliahotels.com/wp-content/uploads/2021/03/ocean-swim-up-2048-500x230.jpg"
+  - src: "https://eftaliahotels.com/wp-content/uploads/2021/03/ocean-swimup-balkon-2048-500x230.jpg"
+photo_source: "https://eftaliahotels.com/en/eftalia-ocean-hotel-2/"
 ---
 An Eftalia property approximately 18 kilometres from Alanya according to the hotel. The official booking site describes a sand-and-pebble beach and refers to the Eftalia Island beach complex.
 

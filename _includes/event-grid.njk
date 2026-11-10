@@ -20,7 +20,7 @@
       <div class="card-media">
         <a href="{{ href }}" tabindex="-1" aria-hidden="true">{{ pic(ph.src, ph.alt, '(max-width: 700px) 92vw, 24vw', false, ph.width, ph.height) }}</a>
         {% if md.day and e.data.date_verified %}<span class="date-badge"><small>{{ md.month }}</small><strong>{{ md.day }}</strong></span>{% endif %}
-        {% if ph.contextual %}<span class="card-area">{{ icon('camera') }} Area photo · {{ e.data.neighborhood }}</span>{% endif %}
+        {% if ph.label %}<span class="card-area">{{ icon('camera') }} {{ ph.label }}</span>{% elif ph.contextual %}<span class="card-area">{{ icon('camera') }} Area photo · {{ e.data.neighborhood }}</span>{% endif %}
         {{ credit(ph) }}
       </div>
       <p class="card-eyebrow">{{ e.data.category }} · <span data-event-status>{{ status | eventStatusLabel }}</span></p>

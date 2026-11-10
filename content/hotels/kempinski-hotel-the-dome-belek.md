@@ -19,11 +19,11 @@ last_checked: '2026-11-09'
 excerpt: A beachfront Belek golf resort with villas between two 18-hole courses, a large spa and an all-inclusive rate option.
 booking_note: Ask which rate you are booking (room only, luxury all-inclusive or a golf package) and whether green fees and tee times are included.
 photos_official:
-- src: https://storage.kempinski.com/cdn-cgi/image/w=1920,f=auto,fit=scale-down/ki-cms-prod/images/2/4/6/5/19505642-1-eng-GB/0434cac73e47-93325381_4K.jpg
-- src: https://storage.kempinski.com/cdn-cgi/image/w=1920,f=auto,fit=scale-down/ki-cms-prod/images/2/7/0/3/18403072-2-eng-GB/2bcc1b097d3c-84160199_4K.jpg
-- src: https://storage.kempinski.com/cdn-cgi/image/w=1920,f=auto,fit=scale-down/ki-cms-prod/images/3/3/4/0/18270433-2-eng-GB/2bb853bc6eea-84160031_4K.jpg
-- src: https://storage.kempinski.com/cdn-cgi/image/w=1920,f=auto,fit=scale-down/ki-cms-prod/images/2/3/0/3/18403032-2-eng-GB/455a584522ca-84160173_4K.jpg
-photo_source: https://www.kempinski.com/en/hotel-the-dome/overview
+  - src: "/images/uploads/venue-kempinski-hotel-the-dome-belek-p01.webp"
+  - src: "/images/uploads/venue-kempinski-hotel-the-dome-belek-p02.webp"
+  - src: "https://storage.kempinski.com/cdn-cgi/image/w=1920,f=auto,fit=scale-down/ki-cms-prod/images/3/3/4/0/18270433-2-eng-GB/2bb853bc6eea-84160031_4K.jpg"
+  - src: "https://storage.kempinski.com/cdn-cgi/image/w=1920,f=auto,fit=scale-down/ki-cms-prod/images/2/3/0/3/18403032-2-eng-GB/455a584522ca-84160173_4K.jpg"
+photo_source: "https://www.kempinski.com/en/hotel-the-dome/overview"
 ---
 Kempinski Hotel The Dome sits on the Belek coast east of Antalya, and golf shapes almost everything about it. The hotel's own pages describe villas placed between two 18-hole championship courses, and its golf packages are built around the neighbouring [Antalya Golf Club](/golf/antalya-golf-club/).
 

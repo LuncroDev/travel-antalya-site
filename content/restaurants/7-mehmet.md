@@ -15,11 +15,11 @@ tagline: An Antalya institution pairing regional Turkish recipes with seasonal M
 source_label: Official venue information
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
 photos_official:
-- src: https://7mehmet.com/images/restaurant/1_7-mehmet-antalya_1.jpg
-- src: https://7mehmet.com/images/restaurant/1_7-mehmet-antalya_0.jpg
-- src: https://7mehmet.com/images/restaurant/1_7-mehmet-antalya_2.jpg?v=2.02
-- src: https://7mehmet.com/images/restaurant/1_7-mehmet-antalya_3.jpg?v=2.02
-photo_source: https://7mehmet.com/en/7-mehmet-antalya
+  - src: "/images/uploads/venue-7-mehmet-p01.webp"
+  - src: "/images/uploads/venue-7-mehmet-p02.webp"
+  - src: "https://7mehmet.com/images/restaurant/1_7-mehmet-antalya_0.jpg"
+  - src: "https://7mehmet.com/images/restaurant/1_7-mehmet-antalya_3.jpg?v=2.02"
+photo_source: "https://7mehmet.com/en/7-mehmet-antalya"
 ---
 7 Mehmet traces its history to 1937. Its Antalya restaurant is in Atatürk Kültür Parkı in Meltem, rather than inside Kaleiçi. The kitchen describes a seasonal approach rooted in local producers and traditional Turkish dishes interpreted with modern Mediterranean techniques.
 

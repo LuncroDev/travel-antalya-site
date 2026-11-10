@@ -10,9 +10,8 @@ map_lat: 37.2013
 map_lng: 31.1892
 excerpt: "A deep forested gorge on the Köprüçay river in Köprülü Kanyon National Park, famous for white-water rafting."
 featured: false
-photo_id: "manavgat-waterfall"
-photo_exact: false
-photo_label: "Manavgat district"
+photo_id: "sight-koprulu-canyon-1"
+photo_exact: true
 district_slug: "manavgat"
 ---
 Köprülü Canyon National Park lies north-east of Antalya and centres on the Köprüçay river (known in antiquity as the Eurymedon). The gorge is more than a hundred metres deep in places, with pine-covered slopes and a river the colour of jade.

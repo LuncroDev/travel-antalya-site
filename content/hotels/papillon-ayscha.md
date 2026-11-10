@@ -15,8 +15,13 @@ last_checked: '2026-11-09'
 excerpt: Papillon Ayscha is in Belek's İleribaşı area and offers standard and family rooms as well as villa categories.
 booking_note: Room and villa categories differ substantially. Confirm bedrooms, occupancy and any pool access.
 photos_official:
-- src: https://papillon.com.tr/wp-content/uploads/2025/06/Papillon-Ayscha-Inspire-Drone-2-2048x1364.jpg
-photo_source: https://papillon.com.tr/en/papillon-hotels-6/
+  - src: "/images/uploads/venue-papillon-ayscha-p01.webp"
+  - src: "/images/uploads/venue-papillon-ayscha-p02.webp"
+    credit: "edykbo / Wikimedia Commons"
+    license: "CC BY 3.0"
+    license_url: "https://creativecommons.org/licenses/by/3.0/"
+    source: "https://commons.wikimedia.org/wiki/File:PAPILLON_AYSCHA_5_(2015)_-_panoramio_(19).jpg"
+photo_source: "https://papillon.com.tr/en/papillon-hotels-6/"
 ---
 Papillon Ayscha is in Belek's İleribaşı area and offers standard and family rooms as well as villa categories. Its accommodation range includes Select Family Villas and larger Deluxe Villas.
 

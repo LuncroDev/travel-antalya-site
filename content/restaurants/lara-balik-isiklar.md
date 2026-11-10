@@ -17,11 +17,11 @@ tagline: A seafood-and-meze restaurant in Işıklar, distinct from the brand’s
 source_label: Official venue information
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
 photos_official:
-- src: https://larabalik.com/wp-content/uploads/2022/04/shop-img-01-01-600x394-1-300x197.jpg
-- src: https://larabalik.com/wp-content/uploads/2022/04/menu-img-595x1024.jpg
-- src: https://larabalik.com/wp-content/uploads/2022/04/menu-2-104x300.jpg
-- src: https://larabalik.com/wp-content/uploads/2023/01/060A4644-scaled.jpg
-photo_source: https://larabalik.com/
+  - src: "/images/uploads/venue-lara-balik-isiklar-p01.webp"
+  - src: "/images/uploads/venue-lara-balik-isiklar-p02.webp"
+  - src: "https://larabalik.com/wp-content/uploads/2022/04/menu-img-595x1024.jpg"
+  - src: "https://larabalik.com/wp-content/uploads/2023/01/060A4644-scaled.jpg"
+photo_source: "https://larabalik.com/"
 ---
 Lara Balık operates separate Işıklar and Konyaaltı restaurants. This profile refers to Işıklar at Tevfik Işık Caddesi No:8, a useful distinction when arranging transport or a reservation.
 

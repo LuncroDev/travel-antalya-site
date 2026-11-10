@@ -15,10 +15,10 @@ last_checked: '2026-11-09'
 excerpt: Paloma Orenda combines low-rise buildings and gardens with a 350-metre beach in the Sorgun–Titreyengöl area.
 booking_note: Sports tuition, equipment hire and waterpark operations may have separate rules or seasonal limits.
 photos_official:
-- src: https://www.palomahotels.com/Content/imgUpload/16-10-2026-15-07-45orenda-videokapak-1920x1080.jpg
-- src: https://www.palomahotels.com/Content/imgUpload/10-06-2024-15-24-40orenda%20(2).jpg
-- src: https://www.palomahotels.com/Content/imgUpload/12-20-2020-5-50-27-PM10-6-2020-1-19-55-pmorenda-index1.jpg
-photo_source: https://www.palomahotels.com/en/paloma-orenda
+  - src: "/images/uploads/venue-paloma-orenda-p01.webp"
+  - src: "/images/uploads/venue-paloma-orenda-p02.webp"
+  - src: "https://www.palomahotels.com/Content/imgUpload/12-20-2020-5-50-27-PM10-6-2020-1-19-55-pmorenda-index1.jpg"
+photo_source: "https://www.palomahotels.com/en/paloma-orenda"
 ---
 Paloma Orenda combines low-rise buildings and gardens with a 350-metre beach in the Sorgun–Titreyengöl area. The official hotel highlights tennis, padel, archery and water sports, with Palomaqua adding a waterpark option.
 

@@ -13,6 +13,9 @@ category: "Contemporary international"
 tagline: "A waterfront restaurant in ancient Side with seasonal menus and a lounge atmosphere."
 source_label: "Official venue information"
 michelin_note: "No verified Michelin distinction for this Antalya venue in the 2026 selection."
+photos_official:
+  - src: "/images/uploads/venue-karma-side-p02.webp"
+photo_source: "https://karmaside.com/index.html"
 ---
 Karma occupies a seaside setting in the ancient town of Side. Gault & Millau’s own profile describes a seasonally prepared menu, vegetarian alternatives and an emphasis on locally sourced ingredients.
 

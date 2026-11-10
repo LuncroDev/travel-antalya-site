@@ -14,11 +14,11 @@ last_checked: '2026-11-09'
 excerpt: A hotel on Kaş’s Çukurbağ Peninsula, for travellers considering a peninsula base rather than the town centre.
 booking_note: Confirm age restrictions, sea access and transport into Kaş directly before booking.
 photos_official:
-- src: https://luvicdn.net/img/Lukka/000_a.jpg
-- src: https://luvicdn.net/img/Lukka/bda79afd01b55438085d426adf65057f.jpg
-- src: https://luvicdn.net/img/Lukka/kas-gunbatiminda-restaurant.jpg
-- src: https://luvicdn.net/img/Lukka/2021IMG_6057.jpg
-photo_source: https://www.lukkahotel.com/
+  - src: "/images/uploads/venue-lukka-exclusive-hotel-p01.webp"
+  - src: "/images/uploads/venue-lukka-exclusive-hotel-p02.webp"
+  - src: "https://luvicdn.net/img/Lukka/kas-gunbatiminda-restaurant.jpg"
+  - src: "https://luvicdn.net/img/Lukka/2021IMG_6057.jpg"
+photo_source: "https://www.lukkahotel.com/"
 ---
 A hotel on Kaş’s Çukurbağ Peninsula, for travellers considering a peninsula base rather than the town centre.
 

@@ -15,6 +15,13 @@ excerpt: "Rapper Wegh performs at Antalya Aktüel Sahne in Kepez."
 tagline: "Rapper Wegh performs at Antalya Aktüel Sahne in Kepez."
 time_display: "21:00"
 verification_note: "Day, month, start time and venue are shown on the individual primary ticketing page. The year is established from the current upcoming listing and its matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/event-antalya-aktuel-sahne.webp"
+    credit: "tiyatrolar.com.tr"
+    source: "https://tiyatrolar.com.tr/sahne/antalya/aktuel-acik-hava-sahnesi"
+    label: "Venue photo · Aktüel Open-Air Stage, Antalya"
+    caption: "Aktüel Open-Air Stage, Antalya"
+    alt: "Aktüel Open-Air Stage, Antalya, the event venue"
 ---
 Rapper Wegh performs at Antalya Aktüel Sahne in Kepez.
 

@@ -66,7 +66,7 @@
   <div class="card-media">
     <a href="{{ href }}" tabindex="-1" aria-hidden="true">{% if photo %}{{ pic(photo.src, photo.alt or title, sizes, false, photo.width, photo.height, '', photo.preserve_framing) }}{% else %}<span class="card-blank"></span>{% endif %}</a>
     {% if badge %}<span class="card-badge">{{ badge }}</span>{% endif %}
-    {% if photo and photo.contextual and photo.areaLabel %}<span class="card-area">{{ icon('camera') }} Area photo · {{ photo.areaLabel }} · not the venue</span>{% endif %}
+    {% if photo and photo.label %}<span class="card-area">{{ icon('camera') }} {{ photo.label }}</span>{% elif photo and photo.contextual and photo.areaLabel %}<span class="card-area">{{ icon('camera') }} Area photo · {{ photo.areaLabel }} · not the venue</span>{% endif %}
     {{ credit(photo) }}
   </div>
   {% if eyebrow %}<p class="card-eyebrow">{{ eyebrow }}</p>{% endif %}
@@ -82,7 +82,7 @@
   <div class="row-card-media">
     <a href="{{ href }}" tabindex="-1" aria-hidden="true">{% if photo %}{{ pic(photo.src, photo.alt or title, '(max-width: 700px) 92vw, 280px', false, photo.width, photo.height, '', photo.preserve_framing) }}{% else %}<span class="card-blank"></span>{% endif %}</a>
     {% if badge %}<span class="card-badge">{{ badge }}</span>{% endif %}
-    {% if photo and photo.contextual %}<span class="card-area card-area-sm">Area photo · {{ photo.areaLabel or photo.caption }} · not the venue</span>{% endif %}
+    {% if photo and photo.label %}<span class="card-area card-area-sm">{{ photo.label }}</span>{% elif photo and photo.contextual %}<span class="card-area card-area-sm">Area photo · {{ photo.areaLabel or photo.caption }} · not the venue</span>{% endif %}
     {{ credit(photo) }}
   </div>
   <div class="row-card-body" data-search-text>

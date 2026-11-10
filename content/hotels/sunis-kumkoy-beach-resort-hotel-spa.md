@@ -15,10 +15,10 @@ last_checked: '2026-11-09'
 excerpt: A Sunis hotel on Sahil Caddesi in Kumköy, west of Side.
 booking_note: Check the exact room building and resort inclusions, especially if comparing with Sunis Evren Beach.
 photos_official:
-- src: https://www.kumkoybeachresort.com/wp-content/uploads/2019/08/DJI_0610-scaled.jpg
-- src: https://www.kumkoybeachresort.com/wp-content/uploads/2019/08/DJI_0572-scaled.jpg
-- src: https://www.kumkoybeachresort.com/wp-content/uploads/2019/08/DJI_0537-scaled.jpg
-photo_source: https://www.kumkoybeachresort.com/
+  - src: "/images/uploads/venue-sunis-kumkoy-beach-resort-hotel-spa-p01.webp"
+  - src: "/images/uploads/venue-sunis-kumkoy-beach-resort-hotel-spa-p02.webp"
+  - src: "https://www.kumkoybeachresort.com/wp-content/uploads/2019/08/DJI_0537-scaled.jpg"
+photo_source: "https://www.kumkoybeachresort.com/"
 ---
 A Sunis hotel on Sahil Caddesi in Kumköy, west of Side. The official property presents a five-star resort-and-spa concept in the Manavgat coastal area.
 

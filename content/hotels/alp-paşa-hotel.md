@@ -14,11 +14,15 @@ last_checked: '2026-11-09'
 excerpt: Restored Ottoman buildings, courtyards and gardens in Antalya’s historic old town.
 booking_note: Rooms are spread across historic buildings and differ in layout. Confirm which building and room category you are booking.
 photos_official:
-- src: https://alppasa.com/wp-content/uploads/antalya-kaleici-15.webp
-- src: https://alppasa.com/wp-content/uploads/antalya-kaleici-16.webp
-- src: https://alppasa.com/wp-content/uploads/antalya-kaleici-1.webp
-- src: https://alppasa.com/wp-content/uploads/antalya-kaleici-2.webp
-photo_source: https://alppasa.com/en/
+  - src: "/images/uploads/venue-alp-pasa-hotel-p01.webp"
+    credit: "onthebeach.ie"
+    source: "https://www.onthebeach.ie/hotels/turkey/antalya/antalya/alp-pasa-hotel-antalya-old-town"
+  - src: "/images/uploads/venue-alp-pasa-hotel-p02.webp"
+  - src: "https://alppasa.com/wp-content/uploads/antalya-kaleici-15.webp"
+  - src: "https://alppasa.com/wp-content/uploads/antalya-kaleici-16.webp"
+  - src: "https://alppasa.com/wp-content/uploads/antalya-kaleici-1.webp"
+  - src: "https://alppasa.com/wp-content/uploads/antalya-kaleici-2.webp"
+photo_source: "https://alppasa.com/en/"
 ---
 Restored Ottoman buildings, courtyards and gardens in Antalya’s historic old town.
 

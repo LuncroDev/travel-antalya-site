@@ -16,9 +16,14 @@ tagline: A meat-focused Konyaaltı restaurant with steaks, kebabs and a wide mez
 source_label: Official venue information
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
 photos_official:
-- src: https://vahaprestaurant.com/wp-content/uploads/2024/05/creattion-demo.regular.webp
-- src: https://vahaprestaurant.com/wp-content/uploads/2024/05/cover-100x100.jpeg
-photo_source: https://vahaprestaurant.com/
+  - src: "/images/uploads/venue-vahap-usta-et-restaurant-p01.webp"
+    credit: "Tripadvisor listing photo"
+    source: "https://www.tripadvisor.com/Restaurant_Review-g297962-d12341887-Reviews-Vahap_Usta_Et_Restaurant-Antalya_Turkish_Mediterranean_Coast.html"
+  - src: "/images/uploads/venue-vahap-usta-et-restaurant-p02.webp"
+    credit: "nelerimeshur.com"
+    source: "https://nelerimeshur.com/antalya/gezi-rehberi/romantik-mekanlar"
+  - src: "https://vahaprestaurant.com/wp-content/uploads/2024/05/creattion-demo.regular.webp"
+photo_source: "https://vahaprestaurant.com/"
 ---
 Vahap’s published menu is organized around beef and lamb cuts, dry-aged meat, kebabs, köfte and burgers, with starters and meze alongside. Its location is in Gürsu on Konyaaltı’s western side.
 

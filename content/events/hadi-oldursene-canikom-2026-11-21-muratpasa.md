@@ -15,6 +15,13 @@ excerpt: "Aziz Nesin's comedy follows two elderly neighbours whose routine chang
 tagline: "Aziz Nesin's comedy follows two elderly neighbours whose routine changes after a radio announcement."
 time_display: "20:30"
 verification_note: "Day, month, time and venue appear on the linked primary ticketing page; 2026 is established by the current listings and matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/event-antalya-ataturk-kultur-merkezi.webp"
+    credit: "petarpejcic.com"
+    source: "https://www.petarpejcic.com/concerts/antalya"
+    label: "Venue photo · Antalya Atatürk Cultural Centre"
+    caption: "Antalya Atatürk Cultural Centre"
+    alt: "Antalya Atatürk Cultural Centre, the event venue"
 ---
 Aziz Nesin's comedy follows two elderly neighbours whose routine changes after a radio announcement.
 

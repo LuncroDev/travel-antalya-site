@@ -15,8 +15,8 @@ last_checked: '2026-11-09'
 excerpt: A beachfront Paloma resort in Kumköy, about five kilometres from Side according to the hotel.
 booking_note: Confirm the room building and transport to Side before booking.
 photos_official:
-- src: https://www.palomahotels.com/Content/imgUpload/10-06-2024-15-36-00oceana%20(1).jpg
-photo_source: https://www.palomahotels.com/en/paloma-oceana
+  - src: "/images/uploads/venue-paloma-oceana-p01.webp"
+photo_source: "https://www.palomahotels.com/en/paloma-oceana"
 ---
 A beachfront Paloma resort in Kumköy, about five kilometres from Side according to the hotel. Its location suits a beach base west of the ancient town rather than accommodation inside the historic streets.
 

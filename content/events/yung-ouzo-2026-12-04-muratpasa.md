@@ -17,6 +17,13 @@ excerpt: "Yung Ouzo plays Holly Stone Performance Hall Antalya on Friday 4 Decem
 tagline: "A late Friday show at Holly Stone, the Kaleiçi concert hall."
 admission_note: "The Biletix page publishes no age limit or event rules. Ask before bringing under-18s to a 22:00 club show."
 verification_note: "The Biletix event page shows 'Dec 4, 2026 • 22:00' at Holly Stone Performance Hall - Antalya, and the venue page lists the same date. A Songkick listing gives 5 December; we use the ticket seller's date. No end time, support act or age limit is published. Check the ticket page before you go."
+photos_official:
+  - src: "/images/uploads/event-holly-stone-antalya.webp"
+    credit: "antalyacityzone.com"
+    source: "https://antalyacityzone.com/en/antalya-city-guide/nightlife/holly-stone-performance-hall/142"
+    label: "Venue photo · Holly Stone Performance Hall Antalya"
+    caption: "Holly Stone Performance Hall Antalya"
+    alt: "Holly Stone Performance Hall Antalya, the event venue"
 ---
 **Yung Ouzo** plays **Holly Stone Performance Hall Antalya** on **Friday 4 December 2026 at 22:00**.
 

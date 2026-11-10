@@ -14,7 +14,8 @@ tagline: "Fresh pasta, grilled fish and steaks at outdoor tables on Kaş's old m
 source_label: "Official venue information"
 michelin_note: "No verified Michelin distinction for this Antalya venue in the 2026 selection."
 photos_official:
-  - src: "https://www.naturelrestoran.com/wp-content/uploads/2020/09/nt-r-1.jpg"
+  - src: "/images/uploads/venue-naturel-restaurant-kas-p01.webp"
+  - src: "/images/uploads/venue-naturel-restaurant-kas-p02.webp"
   - src: "https://www.naturelrestoran.com/wp-content/uploads/2020/09/nt-y2-1.jpg"
 photo_source: "https://www.naturelrestoran.com/en/"
 ---

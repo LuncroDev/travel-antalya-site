@@ -10,9 +10,8 @@ map_lat: 36.5239
 map_lng: 30.4297
 excerpt: "A cable car from the Kemer coast climbs to the top of Tahtalı Mountain, around 2,365 metres above sea level."
 featured: false
-photo_id: "phaselis-coast"
-photo_exact: false
-photo_label: "Kemer coast below Tahtalı"
+photo_id: "tahtali-aerial-tram"
+photo_exact: true
 district_slug: "kemer"
 ---
 The Olympos Teleferik (Tahtalı cable car) starts near Kemer and carries passengers from sea level to the summit of Tahtalı Mountain, at around 2,365 metres. The ride takes roughly ten minutes, with the Mediterranean getting smaller beneath you and the Taurus range opening up ahead.

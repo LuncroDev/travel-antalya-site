@@ -17,11 +17,12 @@ category: Golf club
 tagline: A 45-hole complex with Old, New and nine-hole Verde courses.
 source_label: Official venue information
 photos_official:
-- src: https://www.gloria.com.tr/Content/Images/section/menu-bg.jpg
-- src: https://www.gloria.com.tr/media/pynl4y0c/sahakapak.jpg
-- src: https://www.gloria.com.tr/media/fv5fg5np/glorianewcourse10_golfclub18th_l.jpg
-- src: https://www.gloria.com.tr/media/5bupo5fp/gloriaoldcourse33_golfclub_l.jpg
-photo_source: https://www.gloria.com.tr/en/experiences/golf/courses/
+  - src: "/images/uploads/venue-gloria-golf-club-p01.webp"
+  - src: "/images/uploads/venue-gloria-golf-club-p02.webp"
+  - src: "/images/uploads/venue-gloria-golf-club-p03.webp"
+  - src: "/images/uploads/venue-gloria-golf-club-p04.webp"
+  - src: "https://www.gloria.com.tr/Content/Images/section/menu-bg.jpg"
+photo_source: "https://www.gloria.com.tr/en/experiences/golf/courses/"
 ---
 Gloria Golf Club combines two 18-hole championship courses, Old and New, with the nine-hole Verde course. The complex was designed by Michel Gayon and is linked to the Gloria resort group.
 

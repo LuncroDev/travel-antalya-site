@@ -16,8 +16,14 @@ last_checked: '2026-11-09'
 excerpt: Kirman's Leodikya property is in Okurcalar and is promoted around family holidays.
 booking_note: Confirm children's age and height restrictions for water slides.
 photos_official:
-- src: https://www.kirmanpremium.com/image/icerik/676008d49b475.jpg
-photo_source: https://www.kirmanpremium.com/leodikya-kirman-premium
+  - src: "/images/uploads/venue-leodikya-kirman-premium-p01.webp"
+    credit: "onthebeach.ie"
+    source: "https://www.onthebeach.ie/hotels/turkey/antalya/alanya/leodikya-kirman-premium"
+  - src: "/images/uploads/venue-leodikya-kirman-premium-p02.webp"
+    credit: "joinup.ro"
+    source: "https://joinup.ro/en/hotel/31615"
+  - src: "https://www.kirmanpremium.com/image/icerik/676008d49b475.jpg"
+photo_source: "https://www.kirmanpremium.com/leodikya-kirman-premium"
 ---
 Kirman's Leodikya property is in Okurcalar and is promoted around family holidays. The official comparison highlights a large aquapark and distinguishes it from nearby Arycanda and Sidera.
 

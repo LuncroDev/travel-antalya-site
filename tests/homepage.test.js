@@ -37,6 +37,16 @@ test('homepage is photo-led: every image is responsive, sized, described and laz
   for (const section of doc.querySelectorAll('main section[aria-labelledby]')) assert.ok(doc.getElementById(section.getAttribute('aria-labelledby')));
 });
 
+const ownerPhotoCredits = (() => {
+  const matter = require('gray-matter'); const out = new Set();
+  for (const dir of fs.readdirSync('content')) {
+    if (!fs.statSync(`content/${dir}`).isDirectory()) continue;
+    for (const f of fs.readdirSync(`content/${dir}`).filter(n => n.endsWith('.md'))) {
+      for (const p of matter(fs.readFileSync(`content/${dir}/${f}`, 'utf8')).data.photos_official || []) if (p && p.credit) out.add(p.credit);
+    }
+  }
+  return [...out];
+})();
 test('licensed photos keep keyboard-accessible author and licence credits', () => {
   const doc = page();
   const credits = [...doc.querySelectorAll('main details.credit')];
@@ -44,6 +54,7 @@ test('licensed photos keep keyboard-accessible author and licence credits', () =
   for (const credit of credits) {
     assert.ok(credit.querySelector('summary .sr-only')?.textContent.startsWith('Photo credit:'));
     if (credit.textContent.includes('official website')) continue; // venue's own photo, credited to its website
+    if (ownerPhotoCredits.some(c => credit.textContent.includes(c))) continue; // owner-supplied photo with its own recorded credit
     const caption = credit.querySelector('strong').textContent;
     const photo = photos.find(item => item.caption === caption);
     assert.ok(photo, caption);

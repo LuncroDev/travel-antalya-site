@@ -15,8 +15,8 @@ last_checked: '2026-11-09'
 excerpt: A resort on the Lara coast, suitable for comparing larger hotel complexes east of Antalya.
 booking_note: Check children’s facilities, restaurant booking requirements and seasonal operations for your travel dates.
 photos_official:
-- src: https://www.delphinhotel.com/panel_pics/images/Imperial-Genel-19-Orta_Boyut(1).jpg
-photo_source: https://www.delphinhotel.com/
+  - src: "https://www.delphinhotel.com/panel_pics/images/Imperial-Genel-19-Orta_Boyut(1).jpg"
+photo_source: "https://www.delphinhotel.com/"
 ---
 A resort on the Lara coast, suitable for comparing larger hotel complexes east of Antalya.
 

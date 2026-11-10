@@ -16,11 +16,11 @@ last_checked: '2026-11-09'
 excerpt: Trendy Verbena Beach is in Evrenseki, within Manavgat district.
 booking_note: Check which room category fits your group and the current beach and pool programme.
 photos_official:
-- src: https://trendy.com.tr/wp-content/uploads/2023/04/trendy-verbena-family-room-bunkbed-600px.webp
-- src: https://trendy.com.tr/wp-content/uploads/2023/04/trendy-verbena-eco-room-1-scaled-1-2048x913.webp
-- src: https://trendy.com.tr/wp-content/uploads/2023/04/trendy-verbena-family-room-bunkbed-1-scaled-1-2048x878.webp
-- src: https://trendy.com.tr/wp-content/uploads/2023/04/trendy-verbena-family-room-2-scaled-1-2048x878.webp
-photo_source: https://trendy.com.tr/en/trendy-verbena-beach/
+  - src: "/images/uploads/venue-trendy-verbena-beach-p01.webp"
+  - src: "/images/uploads/venue-trendy-verbena-beach-p02.webp"
+  - src: "https://trendy.com.tr/wp-content/uploads/2023/04/trendy-verbena-family-room-bunkbed-1-scaled-1-2048x878.webp"
+  - src: "https://trendy.com.tr/wp-content/uploads/2023/04/trendy-verbena-family-room-2-scaled-1-2048x878.webp"
+photo_source: "https://trendy.com.tr/en/trendy-verbena-beach/"
 ---
 Trendy Verbena Beach is in Evrenseki, within Manavgat district. The group positions it around sandy-beach holidays with family accommodation and entertainment options.
 

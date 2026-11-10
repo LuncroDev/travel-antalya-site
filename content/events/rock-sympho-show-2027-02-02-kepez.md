@@ -17,6 +17,13 @@ excerpt: "Prime Orchestra brings its Rock Sympho Show to Mimar Sinan Kongre Merk
 tagline: "Prime Orchestra's rock programme with orchestra, singers and a light show, on its 2027 Türkiye tour."
 admission_note: "Biletinial lists an age limit of 3+. ID is required at the door for age-restricted or discounted tickets."
 verification_note: "The full date (2 February 2027) and the 20:00 start appear in the date line of the Biletix event page, and the venue is named there. The age limit comes from Biletinial's event page. No end time, running order or setlist is published. Check the ticket page before travelling."
+photos_official:
+  - src: "/images/uploads/event-mimar-sinan-kongre-merkezi.webp"
+    credit: "Kepez Municipality"
+    source: "https://kepez-bld.gov.tr/building_12_mimar-sinan-kongre-merkezi"
+    label: "Venue photo · Mimar Sinan Congress and Exhibition Centre"
+    caption: "Mimar Sinan Congress and Exhibition Centre"
+    alt: "Mimar Sinan Congress and Exhibition Centre, the event venue"
 ---
 Prime Orchestra's **Rock Sympho Show** comes to Antalya on **2 February 2027 at 20:00**, at Mimar Sinan Kongre Merkezi. Antalya is the first stop on a short Türkiye tour. Biletix lists Ankara on 4 February, Bursa on 6 February and İzmir on 7 February.
 

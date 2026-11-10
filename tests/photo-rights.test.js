@@ -103,3 +103,13 @@ test('re-reviewed (reinstated) venues lift the venue block but keep old URLs blo
   assert.equal(isExcluded('old-hotel', 'https://example.com/old.jpg', rights), true);
   assert.equal(isExcluded('old-hotel', null, rights), false);
 });
+test('owner-supplied photos keep their own credit, source and label', () => {
+  const { selectedOfficialPhotos } = require('../lib/photo-rights');
+  const rights = { approved: [], excluded: [], owner_acceptance: { status: 'accepted', auto_accept_listed: true }, owner_accepted: [] };
+  const data = { slug: 'fixture-event', title: 'Fixture Event', photo_source: 'https://venue.example/', photos_official: [
+    { src: '/images/uploads/event-fixture.webp', credit: 'example.org', source: 'https://example.org/page', label: 'Venue photo · Fixture Hall', caption: 'Fixture Hall' },
+    { src: '/images/uploads/venue-fixture-p01.webp' } ] };
+  const [own, plain] = selectedOfficialPhotos(data, rights);
+  assert.equal(own.author, 'example.org'); assert.equal(own.source_url, 'https://example.org/page'); assert.equal(own.label, 'Venue photo · Fixture Hall'); assert.equal(own.caption, 'Fixture Hall');
+  assert.equal(plain.author, 'Fixture Event — official website'); assert.equal(plain.source_url, 'https://venue.example/'); assert.equal(plain.label, '');
+});

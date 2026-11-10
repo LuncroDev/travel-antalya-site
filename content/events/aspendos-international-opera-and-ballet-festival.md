@@ -14,6 +14,13 @@ verification_note: "Dates checked against the linked official source."
 start_date: "2026-09-12"
 end_date: "2026-09-26"
 district_slug: "serik"
+photos_official:
+  - src: "/images/uploads/event-aspendos-international-opera-and-ballet-festival.webp"
+    credit: "european-festivals.eu"
+    source: "https://www.european-festivals.eu/news/efa-members-festivals-happening-in-september"
+    label: "Photo from a previous edition"
+    caption: "Aspendos International Opera and Ballet Festival, previous edition"
+    alt: "Aspendos International Opera and Ballet Festival at a previous edition"
 ---
 The official culture portal gives 12–26 September 2026 for the 33rd Aspendos festival. Its programme combines opera and ballet in the ancient theatre.
 

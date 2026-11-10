@@ -16,11 +16,11 @@ last_checked: '2026-11-09'
 excerpt: Sixteen sea-view rooms on the Çukurbağ Peninsula in Kaş, some with private pools. No guests aged 12 and under.
 booking_note: The official site does not list a meal plan, sea access or opening season. Ask about all three before you book.
 photos_official:
-- src: https://casabi.com.tr/qaqiruv/webp-express/webp-images/uploads/2024/07/3-scaled.jpg.webp
-- src: https://casabi.com.tr/qaqiruv/webp-express/webp-images/uploads/2024/07/5-scaled.jpg.webp
-- src: https://casabi.com.tr/qaqiruv/webp-express/webp-images/uploads/2024/07/6-scaled.jpg.webp
-- src: https://casabi.com.tr/qaqiruv/webp-express/webp-images/uploads/2024/07/8-2-scaled.jpg.webp
-photo_source: https://casabi.com.tr/
+  - src: "/images/uploads/venue-casa-bi-kas-p01.webp"
+  - src: "/images/uploads/venue-casa-bi-kas-p02.webp"
+  - src: "https://casabi.com.tr/qaqiruv/webp-express/webp-images/uploads/2024/07/6-scaled.jpg.webp"
+  - src: "https://casabi.com.tr/qaqiruv/webp-express/webp-images/uploads/2024/07/8-2-scaled.jpg.webp"
+photo_source: "https://casabi.com.tr/"
 ---
 Casa Bi is a small hotel on the Çukurbağ Peninsula in Kaş. It has 16 rooms, all looking out to sea, and some come with their own pool. The owners, Işın and İsmail Erdoğmuş, say they first came to the peninsula looking for somewhere to retire. They built on the rocky slope and later opened the house to guests.
 
