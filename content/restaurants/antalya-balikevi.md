@@ -17,9 +17,9 @@ tagline: A Lara seafood restaurant serving seasonal fish and meze in an indoor-a
 source_label: Official venue information
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
 photos_official:
-  - src: "https://antalyabalikevi.com.tr/wp-content/uploads/2026/09/antalya-balikevi-image-5.jpeg"
-  - src: "https://antalyabalikevi.com.tr/wp-content/uploads/2026/06/Private-dining-1-1-1-scaled.jpg"
-  - src: "https://antalyabalikevi.com.tr/wp-content/themes/antalyabalikevi/image/image-14.jpg"
+  - src: "/images/uploads/venue-antalya-balikevi-1.webp"
+  - src: "/images/uploads/venue-antalya-balikevi-2.webp"
+  - src: "/images/uploads/venue-antalya-balikevi-3.webp"
 photo_source: "https://antalyabalikevi.com.tr/"
 ---
 Antalya Balıkevi is a separate business from Lara Balık and Barınak Balık Evi. Its own material emphasizes seasonal Mediterranean seafood, meze and a garden setting in the Lara area.

@@ -81,7 +81,7 @@
       ],
       "reinstated_on": "2026-11-10",
       "reinstated_by": "Site owner direction (photos for every venue), Claude review",
-      "review_note": "Re-reviewed 2026-11-10: new photos come from the restaurant's own site (antalyabalikevi.com.tr uploads), checked visually for identity. The earlier URLs below stay blocked."
+      "review_note": "Re-reviewed 2026-11-10: new photos come from the restaurant's own site (antalyabalikevi.com.tr), checked visually for identity. The site returns 403 to the image CDN, so they are self-hosted from images/uploads. The earlier URLs below stay blocked."
     }
   ],
   "owner_acceptance": {
