@@ -68,3 +68,18 @@ test('uncertain concert has matching directory and detail labels after browser i
  assert.equal(detail.window.document.querySelector('[data-event]').hidden,false);
  detail.window.close();
 });
+
+test('airport advisory only appears during its Antalya date window and expires in open tabs',async()=>{
+ const dom=new JSDOM(fs.readFileSync('_site/plan-your-trip/index.html','utf8'),{runScripts:'outside-only'});
+ const w=dom.window,notice=w.document.querySelector('#cop31-airport-advisory');
+ assert.equal(notice.hidden,true);
+ let now=Date.parse('2026-11-08T20:59:59Z');w.Date.now=()=>now;
+ w.eval(fs.readFileSync('js/travel-advisory.js','utf8'));
+ assert.equal(notice.hidden,true);
+ for(const [time,hidden] of [['2026-11-08T21:00:00Z',false],['2026-11-13T20:59:59Z',false],['2026-11-13T21:00:00Z',true]]){
+  now=Date.parse(time);w.document.dispatchEvent(new w.Event('visibilitychange'));assert.equal(notice.hidden,hidden);
+ }
+ assert.match(notice.textContent,/possible traffic/);
+ assert.ok(notice.querySelector('a[href="https://www.antalya-airport.aero/homepage"]'));
+ dom.window.close();
+});
