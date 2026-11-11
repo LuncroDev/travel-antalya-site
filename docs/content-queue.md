@@ -6,8 +6,6 @@ and add new ideas so the list never runs dry. Check the folder first — never d
 ## Blog guides (2 per day)
 Note (2026-11-09): 37 imported guides landed on `main` the same day (where to stay, families, food, airport transport,
 Kaleiçi, beach holiday overview…). Check `content/blog/` for overlap before writing any topic below.
-- Kaleiçi walking route: Hadrian's Gate to the old harbour
-- Antalya Airport to Belek, Side, Kemer and Kaş: transfer options
 - Aspendos Opera and Ballet Festival: how to plan your evening
 - Side in one day: temple, theatre and harbour
 - Alanya Castle and the cable car: a half-day plan (overlaps /things-to-do/alanya-castle/ — only as a full Alanya itinerary)
@@ -34,7 +32,13 @@ Kaleiçi, beach holiday overview…). Check `content/blog/` for overlap before w
 - Antalya's köfte and piyaz trail: where locals eat it (Şişçi İbo, Ertan Usta; check each venue's own site)
 - Lycian sites by car: Phaselis to Xanthos in three days (use muze.gov.tr hours; flag closures)
 - Winter jazz and classical music in Antalya: venues and how to find tickets (The 251 Soul, AKM, Antalya State Opera)
-- Flying into Dalaman for Kaş and Kalkan: when it beats Antalya Airport (use hotels' published distances)
+- Flying into Dalaman for Kaş and Kalkan: when it beats Antalya Airport (use hotels' published distances; the 2026-11-11 airport guide already gives Dalaman 110 km / ministry 160 km — only as a Kalkan-focused piece)
+- AntRay tram for visitors: airport, Otogar, Kalekapısı and Konyaaltı stops (only once an official page shows where the airport stop is for each terminal)
+- Belek spa resorts compared for winter: Cullinan C'espace 8,000 m², Regnum Revive, Cornelia Crassula, Ela Elazen (heated pools, free areas)
+- Belek kids' clubs compared: age bands and winter hours (Gloria, Regnum, Cullinan, Kempinski, Sueno, Ela — sources disagree on bands, flag it)
+- Limyra and Finike: a Lycian half-day with Arykanda (ministry Finike booklet: Limyra 4 km NE of Finike; check muze.gov.tr hours)
+- Gazipaşa–Alanya Airport: when it beats Antalya for Alanya (DHMİ AIP: 40 km E of Alanya; TAV operates to 2036)
+- Antalya theatre for Turkish speakers: how the winter season works at Türkan Şoray, AKM and the City Theatres (Biletix/Biletinial/iTicket listings)
 
 ## Things to do / trips (1 per day)
 - Kaputaş Beach · Lara Beach · Cleopatra Beach (Alanya)
@@ -42,22 +46,26 @@ Kaleiçi, beach holiday overview…). Check `content/blog/` for overlap before w
 - Patara Beach & ancient city (blog guide exists, link it) · Saklıkent Gorge (day trip) · Kurşunlu Waterfall (ktb.gov.tr pages give 1991, 394 ha, access via Soğucaksu Bridge; no official hours/fee page found 2026-11-10)
 - Antalya Aquarium · Land of Legends · Antalya Old Harbour boat tours
 - Selge & Köprülü Canyon National Park · Adrasan Bay · Çıralı Beach
-- Andriake & Lycian Civilisations Museum (Demre) · Simena / Kaleköy · Arykanda ancient city
+- Andriake & Lycian Civilisations Museum (Demre) · Simena / Kaleköy · Limyra (Finike) · Ethnography Museum of Antalya (Kaleiçi; muze.gov.tr AEN01, open daily 08:30–19:00)
 
 ## Golf (1 per day until covered, then golf guides)
 - 2026-11-09 check: no unlisted Antalya club found. Kaya Eagles = Kaya Palazzo; Titanic/Tat Golf = Cullinan Links;
   Pasha & Sultan = Antalya Golf Club; Faldo = Cornelia. The TGF 2026 calendar names a "Cullinan – Termessos" course —
   check whether the Cullinan profile needs a third course. Write golf guides from now on.
-- Golf guide ideas: Golf and non-golf partners in Belek · Junior golf in Belek (Gloria, Sueno, AGC, Cullinan programmes) ·
+- Golf guide ideas: Belek winter green fees compared (Carya €120, Cullinan €140 rack from 1 Dec 2026; Cornelia, National) · Junior golf in Belek (Gloria, Sueno, AGC, Cullinan programmes) ·
   Turkish Airlines Open 2027 visitor guide (once dates are published) · Golf buggy, handicap and dress rules compared across Belek clubs ·
   Belek golf academies compared (Gloria, Cullinan, Sueno, AGC lesson formats)
 
 ## Leads checked but not used yet
-- Hotels: Doğan Hotel, Kaleiçi (doganhotel.com — © 2026, news dated 21/10/2026, Begonia Restaurant; no room sizes published);
-  Hotel Villa Turka, Alanya castle (hotelvillaturka.com — detailed, but no 2026 evidence found); Patara Prince, Kalkan (©2023). Checked 2026-11-10.
-- Restaurants: Ehl-i Keyf Meyhane Kaş (ehlikeyfkas.com/en, Andifli, © 2026 — menu not yet checked); Piyazcı Ahmet
+- Hotels: Hotel Villa Turka, Alanya castle (hotelvillaturka.com — detailed, but no 2026 evidence found); Patara Prince, Kalkan (©2023). Checked 2026-11-10. Puding Marina Residence, Mediterra Art Hotel, Doria Kaş, Aqua Princess Kalkan:
+  search found only booking sites, no official site (2026-11-11). Not yet checked: Granada Luxury Belek, Bellis Deluxe, Royal Seginus, Crystal Admiral Side, Ekici Kaş.
+- Restaurants: Piyazcı Ahmet
   (piyazciahmet.com.tr, Muratpaşa — nothing on the site newer than 2023); Shakespeare at Tahtalı summit (chain page ©2023);
   Yamaç Kırbahçesi (Konyaaltı — menu shows placeholders, no hours); Gebizli Etli Pide (no address or hours). All checked 2026-11-10.
+  Checked 2026-11-11: Adab-ı Balık, Konyaaltı/Gürsu (adabibalik.com — hours, garden, valet, but generic 14-item menu and no date evidence);
+  Kumm Balık, Lara (kummbalik.com — set menus, updated 2026-10-09, but no address or hours); Karides Restaurant, Alanya/Oba (no menu on site);
+  Kalamaki, Kalkan (© 2026, daily 10:00–24:00, but no street address, PDF menus off-site); Kaleiçi Meyhanesi, Alanya (priced menu, no hours);
+  triokalkan.com (redirect loop), coastkalkan.com, sarnickaleici.com (blocks fetching) — retry another day.
   Vati Ocakbaşı (Kaş, vatiocakbasi.com — site last updated 2022); Side Liman Restaurant (sideliman.com —
   2026 footer, but no menu text, hours or address on the site; checked 2026-11-10); Arma Restaurant (Kaleiçi harbour,
   armarestaurant.com.tr — site last updated 2019–2020, current operation not confirmed; checked 2026-11-10)
@@ -69,8 +77,20 @@ Kaleiçi, beach holiday overview…). Check `content/blog/` for overlap before w
   date but no hours or visitor rules); Uluslararası Hologram Sirki 28 Nov Alanya Kültür Merkezi / 29 Nov Konyaaltı Nazım Hikmet (iticket.com.tr,
   thin content); Gaye Su Akyol 26 Dec 2026 at The Bar Kaleiçi (Bubilet primary page would not load); Alanyaspor home league games
   (TFF page showed no date). Kayhan Kalhor & Erdal Erzincan, 12 Dec AKM, is marked cancelled on Biletix — do not list.
+  Checked 2026-11-11: Özel Bir Rica, 22 Dec 2026, Türkan Şoray (iTicket 20:00 vs Biletix venue page 20:30 — resolve the time first; 75 min, 12+, Sevinç Erbulak);
+  Miray Akovalıgil stand-up, 25 Nov 2026, AKM (Biletix date; 90 min, 16+ on Biletinial); Uzi, 25 Nov (iTicket and Biletix disagree on venue);
+  State Opera and Ballet (Attila 14 Nov, Dino Ormanı 24 Nov) and State Symphony (18 Dec Bruckner) — no year on the ticket pages and operabale.gov.tr
+  listings load by script; thin pages: İçimizdeki Şeytan 8 Dec, Aşk Listesi 23 Dec, Inostranka 19 Nov, Lumera Trio 16 Dec, İlker Atak 19 Dec.
 
 ## Fixes spotted (existing pages)
+- 2026-11-11: `plan-your-trip.njk` says the tram is "not a confirmed tram connection" to the terminals, but the airport operator's Turkish page
+  (antalya-airport.aero/yolcu-ve-ziyaretciler/ulasim-ve-otopark/otobusler-ve-toplu-tasima) says AntRay runs Havalimanı–Meydan–Fatih and serves the airport.
+  The station's position relative to T1/T2 is still unconfirmed. The airport homepage also says all international flights use Terminal 2 since 27.10.2025.
+  The page is pinned by a test (`tests/content.test.js`), so update the text and the test together. The new airport guide words it carefully.
+- 2026-11-11: the ministry's closed-sites list (kvmgm.ktb.gov.tr/TR-46782) shows **Side theatre closed since 21 Nov 2024** and Perge theatre since
+  10 Jul 2024, both "until works are completed" — this settles the Side theatre conflict below; update `/things-to-do/side-ancient-city/`.
+- 2026-11-11: muze.gov.tr's Arykanda page (08:00–19:00 daily) and the ministry leaflet/Turkish Museums portal (winter 08:00–18:00 or 08:00–17:00) disagree;
+  the new Arykanda page lists all three.
 - 2026-11-10 (pm): `/blog/antalya-to-kas-day-trip/` calls the Lycian Civilisations Museum at Andriake "a good extra stop"; the ministry fee table marks it CLOSED.
 - 2026-11-10 (pm): golf profiles vs today's club pages — National's night page says lighting now covers "the last four holes" (profile says final nine);
   Cullinan's pages no longer say which holes are lit (profile says Termessos routing = two back nines); Maxx Royal resort page says
@@ -80,6 +100,13 @@ Kaleiçi, beach holiday overview…). Check `content/blog/` for overlap before w
   The Side Museum and Side Theatre pages also show different ticket prices.
 
 ## Done
+- 2026-11-11 · Blog: [Kaleiçi Walking Route: Hadrian's Gate to the Old Harbour](/blog/kaleici-walking-route/)
+- 2026-11-11 · Blog: [Antalya Airport to Belek, Side, Kemer and Kaş: Transfer Guide](/blog/antalya-airport-transfers-belek-side-kemer-kas/)
+- 2026-11-11 · Golf guide: [Belek Golf Holiday With a Non-Golfer](/blog/belek-golf-holiday-with-a-non-golfer/)
+- 2026-11-11 · Things to do: [Arykanda Ancient City](/things-to-do/arykanda-ancient-city/)
+- 2026-11-11 · Hotels: [Doğan Hotel](/hotels/dogan-hotel-kaleici/), [Ela Excellence Resort Belek](/hotels/ela-excellence-resort-belek/)
+- 2026-11-11 · Restaurants: [Ehl-i Keyf Meyhane Kaş](/restaurants/ehl-i-keyf-meyhane-kas/), [Kalamar Balık](/restaurants/kalamar-balik-lara/)
+- 2026-11-11 · Events: [Kirill Richter, 14 Mar 2027](/events/kirill-richter-2027-03-14-muratpasa/), [İclal Aydın: Ama Değil, Rağmen, 27 Nov 2026](/events/iclal-aydin-ama-degil-ragmen-2026-11-27-muratpasa/)
 - 2026-11-10 (pm run) · Blog: [MuseumPass The Mediterranean: Is It Worth It in Antalya?](/blog/museumpass-the-mediterranean-antalya/)
 - 2026-11-10 (pm run) · Blog: [7-Day Antalya Itinerary: City, Coast and Ruins in a Week](/blog/7-day-antalya-itinerary/)
 - 2026-11-10 (pm run) · Golf guide: [Night Golf in Belek: Floodlit Courses and How to Book](/blog/night-golf-in-belek/)
