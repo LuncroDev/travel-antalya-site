@@ -45,7 +45,7 @@ Do Perge in the morning and Aspendos after lunch, but watch the ticket-office ti
 
 ## Day 3: Side and Manavgat Waterfall
 
-Head further east to [Side](/things-to-do/side-ancient-city/), where ruins sit right among the shops and the Temple of Apollo stands on the waterfront. Be ready for a gap: the ministry's English page says the **Side theatre is closed for restoration**, though its Turkish page shows it as open. The Side Museum and the archaeological site are listed separately in the ministry's fee table.
+Head further east to [Side](/things-to-do/side-ancient-city/), where ruins sit right among the shops and the Temple of Apollo stands on the waterfront. Be ready for a gap: the **Side theatre has been closed for restoration since November 2024**, according to the ministry, with no reopening date yet. The Side Museum and the archaeological site are listed separately in the ministry's fee table.
 
 On the way back, stop at [Manavgat Waterfall](/things-to-do/manavgat-waterfall/), which is at its strongest after winter rain. If you would rather swap ruins for adventure, replace this day with rafting in [Köprülü Canyon](/things-to-do/koprulu-canyon/).
 
@@ -112,4 +112,4 @@ It helps from day 5 onwards, when the route runs down the coast. Days 1–4 can 
 
 ### Is the MuseumPass worth it for this itinerary?
 
-Just about. The paid sites on this route come to about €109 in single tickets, against €90 for the MuseumPass The Mediterranean. Remember that Perge's theatre and possibly Side's theatre are closed.
+Just about. The paid sites on this route come to about €109 in single tickets, against €90 for the MuseumPass The Mediterranean. Remember that the theatres at Perge and Side are both closed for restoration.

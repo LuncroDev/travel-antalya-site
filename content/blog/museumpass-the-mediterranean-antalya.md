@@ -45,7 +45,7 @@ A long list is only useful if the sites are open. When we checked, the ministry'
 
 - **Antalya Museum** is closed. Its page shows "Closed", and the ministry's fee table marks it closed too. See our [Antalya Museum page](/things-to-do/antalya-museum/) for the background.
 - **Perge** is open, but its Turkish-language page says the **ancient theatre is temporarily closed** until restoration work is finished.
-- **Side theatre:** the English page says the theatre is closed for restoration, while the Turkish page shows it as open. The fee table also notes that the theatre is closed. Assume you may not get in.
+- **Side theatre:** closed for restoration since November 2024, according to the ministry, with no reopening date yet. The fee table also notes that the theatre is closed. See our [Side Ancient City](/things-to-do/side-ancient-city/) page.
 - **Lycian Civilisations Museum** at Andriake is marked closed in the ministry's fee table, although the Andriake site is still listed.
 - **Alanya Atatürk House** is marked closed (it is free in any case).
 

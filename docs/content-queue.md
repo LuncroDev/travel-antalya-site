@@ -83,23 +83,19 @@ Kaleiçi, beach holiday overview…). Check `content/blog/` for overlap before w
   listings load by script; thin pages: İçimizdeki Şeytan 8 Dec, Aşk Listesi 23 Dec, Inostranka 19 Nov, Lumera Trio 16 Dec, İlker Atak 19 Dec.
 
 ## Fixes spotted (existing pages)
-- 2026-11-11: `plan-your-trip.njk` says the tram is "not a confirmed tram connection" to the terminals, but the airport operator's Turkish page
-  (antalya-airport.aero/yolcu-ve-ziyaretciler/ulasim-ve-otopark/otobusler-ve-toplu-tasima) says AntRay runs Havalimanı–Meydan–Fatih and serves the airport.
-  The station's position relative to T1/T2 is still unconfirmed. The airport homepage also says all international flights use Terminal 2 since 27.10.2025.
-  The page is pinned by a test (`tests/content.test.js`), so update the text and the test together. The new airport guide words it carefully.
-- 2026-11-11: the ministry's closed-sites list (kvmgm.ktb.gov.tr/TR-46782) shows **Side theatre closed since 21 Nov 2024** and Perge theatre since
-  10 Jul 2024, both "until works are completed" — this settles the Side theatre conflict below; update `/things-to-do/side-ancient-city/`.
 - 2026-11-11: muze.gov.tr's Arykanda page (08:00–19:00 daily) and the ministry leaflet/Turkish Museums portal (winter 08:00–18:00 or 08:00–17:00) disagree;
   the new Arykanda page lists all three.
 - 2026-11-10 (pm): `/blog/antalya-to-kas-day-trip/` calls the Lycian Civilisations Museum at Andriake "a good extra stop"; the ministry fee table marks it CLOSED.
 - 2026-11-10 (pm): golf profiles vs today's club pages — National's night page says lighting now covers "the last four holes" (profile says final nine);
   Cullinan's pages no longer say which holes are lit (profile says Termessos routing = two back nines); Maxx Royal resort page says
   "illuminated 18 holes" while montgomeriemaxxroyal.com says holes 10–18. Carya says all 18 are lit (about-carya).
-- 2026-11-10 (pm): Side theatre — English muze.gov.tr page says closed for restoration, Turkish page says open.
-- 2026-11-10: muze.gov.tr says **Side Theatre is closed for restoration**; `/things-to-do/side-ancient-city/` does not say so yet.
-  The Side Museum and Side Theatre pages also show different ticket prices.
+- 2026-11-10: the Side Museum and Side Theatre pages on muze.gov.tr show different ticket prices.
+- 2026-11-11: Side theatre closure date — an earlier note citing the kvmgm closed-sites list (TR-46782) said 21 Nov 2024, but the ministry's Turkish Museums
+  site says 29 Nov 2024. Pages now say "since November 2024"; give the exact day only once the two agree.
 
 ## Done
+- 2026-11-11 · Fix: [Plan your trip](/plan-your-trip/) — AntRay serves the airport (operator's Turkish page), all international flights at Terminal 2 since 27 Oct 2025, T1–T2 about 2.5 km; stop position still unpublished. Text and `tests/content.test.js` updated together.
+- 2026-11-11 · Fix: [Side Ancient City](/things-to-do/side-ancient-city/) — theatre closed for restoration since Nov 2024; same wording in the 7-day itinerary and MuseumPass guide, pinned by a test.
 - 2026-11-11 · Blog: [Kaleiçi Walking Route: Hadrian's Gate to the Old Harbour](/blog/kaleici-walking-route/)
 - 2026-11-11 · Blog: [Antalya Airport to Belek, Side, Kemer and Kaş: Transfer Guide](/blog/antalya-airport-transfers-belek-side-kemer-kas/)
 - 2026-11-11 · Golf guide: [Belek Golf Holiday With a Non-Golfer](/blog/belek-golf-holiday-with-a-non-golfer/)

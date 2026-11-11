@@ -72,12 +72,35 @@ test('Aspendos separates site hours, ticket office and performance admission', (
  assert.match(text,/10 November 2026/);
 });
 
-test('airport shuttle advice is attributed and does not invent a timetable or tram link', () => {
+test('airport advice attributes AntRay, Terminal 2 and the shuttle to the operator without inventing a stop or timetable', () => {
  const fs=require('node:fs');
  const text=fs.readFileSync('plan-your-trip.njk','utf8');
+ // AntRay: the operator's Turkish page says the tram serves the airport
+ assert.match(text,/yolcu-ve-ziyaretciler\/ulasim\/otobusler-ve-toplu-tasima/);
+ assert.match(text,/AntRay tram serves the airport/);
+ assert.match(text,/Havalimanı \(Airport\) – Meydan – Fatih/);
+ assert.doesNotMatch(text,/not a confirmed tram connection/);
+ // the stop's position relative to T1/T2 is not published, so the page must not claim one
+ assert.match(text,/does not say which terminal the airport tram stop is next to/);
+ // all international flights moved to Terminal 2 on 27 October 2025
+ assert.match(text,/all international flights have operated from Terminal 2 since 27 October 2025/);
+ assert.match(text,/about 2\.5 km apart/);
+ // shuttle: attributed, no invented frequency or hours
  assert.match(text,/transportation\/transport-to-the-airport/);
  assert.match(text,/International Terminal 1 and Terminal 2/);
  assert.match(text,/does not publish shuttle frequency or operating hours/);
- assert.match(text,/not a confirmed tram connection/);
- assert.match(text,/datetime="2026-11-10"/);
+ assert.match(text,/datetime="2026-11-11"/);
+});
+
+test('Side theatre closure is stated and sourced to the ministry', () => {
+ const fs=require('node:fs');
+ const side=fs.readFileSync('content/things-to-do/side-ancient-city.md','utf8');
+ assert.match(side,/closed to visitors for restoration/);
+ assert.match(side,/since November 2024/);
+ assert.match(side,/DistId=SDO/);
+ assert.match(side,/turkishmuseums\.com/);
+ for (const slug of ['7-day-antalya-itinerary','museumpass-the-mediterranean-antalya']) {
+  const text=fs.readFileSync(`content/blog/${slug}.md`,'utf8');
+  assert.doesNotMatch(text,/Turkish page shows it as open/);
+ }
 });
