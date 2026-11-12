@@ -15,5 +15,50 @@
    "https://sideorfozrestaurant.com/uploads/1920px/DSCF5333-Enhanced-NR.jpg",
    "https://sideorfozrestaurant.com/uploads/1024px/DJI-0015.jpg"
   ]
+ },
+ "hotels/bellis-deluxe-hotel-belek": {
+  "page": "https://bellis.com.tr/en",
+  "images": [
+   "https://cdn.woxxtech.com/hotels/hero-473-1-1785137704008.webp",
+   "https://cdn.woxxtech.com/hotels/hero-525-3-1785137706147.webp",
+   "https://cdn.woxxtech.com/hotels/main-outdoor-pool3-1788777187461_w1600.webp",
+   "https://cdn.woxxtech.com/hotels_bellis_com_tr/media/bellis-deluxe-hotel-spa-16-1788172399561_w1600.webp",
+   "https://cdn.woxxtech.com/hotels/belissimo-main-restaurant8-1787825118963_w1600.webp"
+  ]
+ },
+ "hotels/fame-residence-kemer-spa": {
+  "page": "https://www.famehotels.com/fame-residence-kemer-spa/",
+  "images": [
+   "https://famehotels.com/fame-residence-kemer-spa/uploads/homeAbout/home_about_image_11689147110.webp",
+   "https://famehotels.com/fame-residence-kemer-spa/uploads/homeAbout/home_about_image_21689147110.webp",
+   "https://famehotels.com/fame-residence-kemer-spa/uploads/homeAbout/home_about_image_31689147110.webp",
+   "https://famehotels.com/fame-residence-kemer-spa/uploads/video/HomeVideo_1689147361.jpg"
+  ]
+ },
+ "restaurants/guverte-restaurant-alanya": {
+  "page": "https://guverterestoran.com/",
+  "images": [
+   "https://guverterestoran.com/img/guverte.webp",
+   "https://guverterestoran.com/img/res-1.png",
+   "https://guverterestoran.com/img/res-2.png",
+   "https://guverterestoran.com/img/res-3.png"
+  ]
+ },
+ "restaurants/avlu-kalkan": {
+  "page": "https://avlukalkan.com/en/",
+  "images": [
+   "https://avlukalkan.com/resize/sayfa/high/module_6_section_0_item_0_image_1775053162.jpg",
+   "https://avlukalkan.com/resize/sayfa/high/module_6_section_0_item_1_image_1775053356.jpg",
+   "https://avlukalkan.com/resize/sayfa/high/module_6_section_0_item_2_image_1775053357.jpg",
+   "https://avlukalkan.com/resize/sayfa/high/module_6_section_0_item_3_image_1775053478.jpg",
+   "https://avlukalkan.com/resize/sayfa/high/module_6_section_0_item_4_image_1775053480.jpg"
+  ]
+ },
+ "things-to-do/limyra-ancient-city": {
+  "page": "https://commons.wikimedia.org/wiki/File:Limyra_5123.jpg",
+  "images": [
+   "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Limyra_5123.jpg/1920px-Limyra_5123.jpg",
+   "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Limyra_3735.jpg/1920px-Limyra_3735.jpg"
+  ]
  }
 }
