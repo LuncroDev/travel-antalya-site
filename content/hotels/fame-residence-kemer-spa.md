@@ -24,6 +24,17 @@ source_urls:
 last_checked: "2026-11-12"
 excerpt: "A 246-room beach hotel in central Kemer, open this winter: all-inclusive from 1 Nov 2026 to 31 Mar 2027, with an indoor pool, hammam and a 4–12 Mini Club."
 booking_note: "The winter concept lists the à la carte restaurant as included but also as a €20-per-person supplement, and outdoor pools close in winter. Confirm both for your dates."
+photos_official:
+  - src: "/images/uploads/venue-fame-residence-kemer-spa-2.webp"
+    alt: "Fame Residence Kemer & Spa with the Taurus Mountains behind"
+    caption: "The hotel, with the mountains behind Kemer"
+  - src: "/images/uploads/venue-fame-residence-kemer-spa-1.webp"
+    alt: "View over the pool and beach to the sea from Fame Residence Kemer & Spa"
+    caption: "Pool, beach and sea view"
+  - src: "/images/uploads/venue-fame-residence-kemer-spa-3.webp"
+    alt: "Outdoor pool terrace at Fame Residence Kemer & Spa"
+    caption: "The outdoor pool terrace (closed in winter)"
+photo_source: "https://www.famehotels.com/fame-residence-kemer-spa/"
 ---
 Fame Residence Kemer & Spa is a mid-sized beach hotel in the middle of Kemer, run by the small Fame Residence group, which also has hotels in Lara and Göynük. It publishes a winter programme: the "Fame Style All Inclusive" concept for 2026–2027 runs from 1 November 2026 to 31 March 2027, and the website footer carries a 2026 date.
 

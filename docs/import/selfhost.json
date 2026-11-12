@@ -31,17 +31,13 @@
   "images": [
    "https://famehotels.com/fame-residence-kemer-spa/uploads/homeAbout/home_about_image_11689147110.webp",
    "https://famehotels.com/fame-residence-kemer-spa/uploads/homeAbout/home_about_image_21689147110.webp",
-   "https://famehotels.com/fame-residence-kemer-spa/uploads/homeAbout/home_about_image_31689147110.webp",
-   "https://famehotels.com/fame-residence-kemer-spa/uploads/video/HomeVideo_1689147361.jpg"
+   "https://famehotels.com/fame-residence-kemer-spa/uploads/homeAbout/home_about_image_31689147110.webp"
   ]
  },
  "restaurants/guverte-restaurant-alanya": {
   "page": "https://guverterestoran.com/",
   "images": [
-   "https://guverterestoran.com/img/guverte.webp",
-   "https://guverterestoran.com/img/res-1.png",
-   "https://guverterestoran.com/img/res-2.png",
-   "https://guverterestoran.com/img/res-3.png"
+   "https://guverterestoran.com/img/guverte.webp"
   ]
  },
  "restaurants/avlu-kalkan": {
@@ -52,13 +48,6 @@
    "https://avlukalkan.com/resize/sayfa/high/module_6_section_0_item_2_image_1775053357.jpg",
    "https://avlukalkan.com/resize/sayfa/high/module_6_section_0_item_3_image_1775053478.jpg",
    "https://avlukalkan.com/resize/sayfa/high/module_6_section_0_item_4_image_1775053480.jpg"
-  ]
- },
- "things-to-do/limyra-ancient-city": {
-  "page": "https://commons.wikimedia.org/wiki/File:Limyra_5123.jpg",
-  "images": [
-   "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Limyra_5123.jpg/1920px-Limyra_5123.jpg",
-   "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Limyra_3735.jpg/1920px-Limyra_3735.jpg"
   ]
  }
 }

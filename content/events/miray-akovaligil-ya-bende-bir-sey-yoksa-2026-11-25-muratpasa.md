@@ -16,6 +16,13 @@ last_checked: "2026-11-12"
 excerpt: "Miray Akovalıgil brings her stand-up show Ya Bende Bir Şey Yoksa? to AKM's Aspendos hall on Wednesday 25 November 2026 at 20:00. In Turkish, 16+."
 tagline: "A Turkish-language stand-up evening that pokes at what success is supposed to look like."
 admission_note: "Biletinial lists the show as 16+ and says ID is checked at the venue; Biletix publishes no age limit. Biletix says no one is admitted once the show starts, outside food and drink, cameras and audio recorders are not allowed, and tickets cannot be refunded or changed."
+photos_official:
+  - src: "/images/uploads/event-antalya-ataturk-kultur-merkezi.webp"
+    credit: "petarpejcic.com"
+    source: "https://www.petarpejcic.com/concerts/antalya"
+    label: "Venue photo · Antalya Atatürk Cultural Centre"
+    caption: "Antalya Atatürk Cultural Centre"
+    alt: "Antalya Atatürk Cultural Centre, the event venue"
 verification_note: "The Biletix event page shows 'Nov 25, 2026•20:00' at Atatürk Culture Center - Aspendos Saloon, and its Turkish version gives a 90-minute running time. The Biletix venue page lists the show on Wednesday (Çarşamba) 25 November 2026 at 20:00, and the Biletix tour page places Antalya between Denizli on 17 November and Ankara on 26 November 2026. Biletinial lists one Antalya session at AKM on 25 November without a year or time, and gives 90 minutes and 16+. Checked 12 November 2026."
 ---
 Stand-up comedian **Miray Akovalıgil** brings her show **Ya Bende Bir Şey Yoksa?** to the **Aspendos hall of the Atatürk Kültür Merkezi (AKM)** on **Wednesday 25 November 2026 at 20:00**. The show is in Turkish.

@@ -6,6 +6,8 @@ map_lat: 36.343873
 map_lng: 30.171289
 excerpt: "Limyra near Finike: King Perikle's Lycian capital, 400+ rock tombs, a theatre and the cenotaph of Gaius Caesar. Hours, entry and how to visit."
 district_slug: "finike"
+photo_id: "limyra-tebursseli-tomb"
+photo_exact: true
 featured: false
 source_url: "https://www.turkishmuseums.com/museum/detail/1965-antalya-limyra-archaeological-site/1965/4"
 source_urls: ["https://www.turkishmuseums.com/museum/detail/1965-antalya-limyra-archaeological-site/1965/4","https://muze.gov.tr/document/bakanlik_yonergesi_en.pdf","https://finike.bel.tr/tr/limyra-antik-kenti","https://goturkiye.com/limyra","https://en.wikipedia.org/wiki/Limyra"]

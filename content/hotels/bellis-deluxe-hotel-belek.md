@@ -27,6 +27,20 @@ source_urls:
 last_checked: "2026-11-12"
 excerpt: "A Kadriye family resort on 135,000 m²: a 290 m sandy beach, seven pools with two heated aquaparks, a 1,000 m² spa, horse riding and a private zoo."
 booking_note: "The site publishes no season dates, airport distance, room count or kids' club ages, and its villa sizes conflict. Ask about these, and which à la carte restaurants are included."
+photos_official:
+  - src: "/images/uploads/venue-bellis-deluxe-hotel-belek-2.webp"
+    alt: "Main pool and hotel buildings at Bellis Deluxe Hotel, Belek"
+    caption: "The main pool and hotel buildings"
+  - src: "/images/uploads/venue-bellis-deluxe-hotel-belek-1.webp"
+    alt: "Aerial view of the pools and aquapark slides at Bellis Deluxe Hotel"
+    caption: "Pools and aquapark from the air"
+  - src: "/images/uploads/venue-bellis-deluxe-hotel-belek-4.webp"
+    alt: "Domed hammam in the spa at Bellis Deluxe Hotel"
+    caption: "The spa's hammam"
+  - src: "/images/uploads/venue-bellis-deluxe-hotel-belek-5.webp"
+    alt: "Buffet counters in the Bellissimo main restaurant at Bellis Deluxe Hotel"
+    caption: "Bellissimo main restaurant"
+photo_source: "https://bellis.com.tr/en"
 ---
 Bellis Deluxe Hotel is a large family resort on the Belek coast. Its history page says it took its first guests in 1992 and was fully renovated in 2014. The grounds cover 135,000 m² of pine and eucalyptus. The site is current: it has an accommodation page for COP31, the climate conference held in Antalya from 9 to 20 November 2026.
 

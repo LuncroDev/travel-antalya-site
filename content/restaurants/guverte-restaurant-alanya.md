@@ -13,6 +13,11 @@ category: "Mediterranean, seafood and grills"
 tagline: "Meze, seafood and grills on Alanya's harbour street, looking up at the castle and the Red Tower."
 source_label: "Official venue information"
 michelin_note: "No verified Michelin distinction for this Antalya venue in the 2026 selection."
+photos_official:
+  - src: "/images/uploads/venue-guverte-restaurant-alanya-1.webp"
+    alt: "A table set with wine and starters at Güverte, with boats in Alanya harbour behind"
+    caption: "A harbour-side table at Güverte"
+photo_source: "https://guverterestoran.com/"
 ---
 Güverte, Turkish for "deck", is a restaurant on İskele Caddesi, the harbour street in central Alanya. Its site says it has served here since 2009 and sells it on the view: Alanya Castle and the Red Tower above the sea, and the harbour below. It belongs to the local Kaptan Hotels group, and the site carries a 2026 copyright and a full menu in Turkish.
 

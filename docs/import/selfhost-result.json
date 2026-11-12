@@ -44,18 +44,14 @@
   "saved": [
    "/images/uploads/venue-fame-residence-kemer-spa-1.webp",
    "/images/uploads/venue-fame-residence-kemer-spa-2.webp",
-   "/images/uploads/venue-fame-residence-kemer-spa-3.webp",
-   "/images/uploads/venue-fame-residence-kemer-spa-4.jpg"
+   "/images/uploads/venue-fame-residence-kemer-spa-3.webp"
   ],
   "errors": []
  },
  "restaurants/guverte-restaurant-alanya": {
   "page": "https://guverterestoran.com/",
   "saved": [
-   "/images/uploads/venue-guverte-restaurant-alanya-1.webp",
-   "/images/uploads/venue-guverte-restaurant-alanya-2.png",
-   "/images/uploads/venue-guverte-restaurant-alanya-3.png",
-   "/images/uploads/venue-guverte-restaurant-alanya-4.png"
+   "/images/uploads/venue-guverte-restaurant-alanya-1.webp"
   ],
   "errors": []
  },
@@ -67,14 +63,6 @@
    "/images/uploads/venue-avlu-kalkan-3.jpg",
    "/images/uploads/venue-avlu-kalkan-4.jpg",
    "/images/uploads/venue-avlu-kalkan-5.jpg"
-  ],
-  "errors": []
- },
- "things-to-do/limyra-ancient-city": {
-  "page": "https://commons.wikimedia.org/wiki/File:Limyra_5123.jpg",
-  "saved": [
-   "/images/uploads/venue-limyra-ancient-city-1.jpg",
-   "/images/uploads/venue-limyra-ancient-city-2.jpg"
   ],
   "errors": []
  }

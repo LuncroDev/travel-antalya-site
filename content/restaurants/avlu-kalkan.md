@@ -13,6 +13,20 @@ category: "Turkish breakfast (serpme kahvaltı)"
 tagline: "A long Turkish spread breakfast in the village of Bezirgan, near Kalkan."
 source_label: "Official venue information"
 michelin_note: "No verified Michelin distinction for this Antalya venue in the 2026 selection."
+photos_official:
+  - src: "/images/uploads/venue-avlu-kalkan-2.jpg"
+    alt: "Breakfast tables under an olive tree in the garden at Avlu Kalkan"
+    caption: "Garden tables under the olive tree"
+  - src: "/images/uploads/venue-avlu-kalkan-1.jpg"
+    alt: "A serpme breakfast spread with cheeses, fries, eggs and tea at Avlu Kalkan"
+    caption: "The serpme breakfast"
+  - src: "/images/uploads/venue-avlu-kalkan-5.jpg"
+    alt: "Breakfast laid out on a low table in the garden at Avlu Kalkan"
+    caption: "Breakfast on a low garden table"
+  - src: "/images/uploads/venue-avlu-kalkan-4.jpg"
+    alt: "The lit garden at Avlu Kalkan in the evening, with a children's play area"
+    caption: "The garden and play area"
+photo_source: "https://avlukalkan.com/en/"
 ---
 Avlu, "courtyard" in Turkish, does one thing: serpme kahvaltı, the Turkish spread breakfast where small plates cover the whole table. The name says Kalkan, but the contact page gives an address in Bezirgan, a village in Kaş district that a 2026 Kalkan travel guide puts 15–20 minutes from Kalkan centre. The site carries a 2026 copyright and a priced menu in Turkish and English.
 
