@@ -65,5 +65,41 @@
    "/images/uploads/venue-avlu-kalkan-5.jpg"
   ],
   "errors": []
+ },
+ "hotels/fame-residence-lara-spa": {
+  "page": "https://www.famehotels.com/fame-residence-lara-spa/",
+  "saved": [
+   "/images/uploads/venue-fame-residence-lara-spa-1.webp",
+   "/images/uploads/venue-fame-residence-lara-spa-2.webp",
+   "/images/uploads/venue-fame-residence-lara-spa-3.webp",
+   "/images/uploads/venue-fame-residence-lara-spa-4.webp"
+  ],
+  "errors": []
+ },
+ "restaurants/cati-ocakbasi-antalya": {
+  "page": "https://catiocakbasiantalya.com/en/galeri",
+  "saved": [
+   "/images/uploads/venue-cati-ocakbasi-antalya-1.jpg",
+   "/images/uploads/venue-cati-ocakbasi-antalya-2.jpg",
+   "/images/uploads/venue-cati-ocakbasi-antalya-3.jpg",
+   "/images/uploads/venue-cati-ocakbasi-antalya-4.jpg",
+   "/images/uploads/venue-cati-ocakbasi-antalya-5.jpg",
+   "/images/uploads/venue-cati-ocakbasi-antalya-6.jpg",
+   "/images/uploads/venue-cati-ocakbasi-antalya-7.jpg",
+   "/images/uploads/venue-cati-ocakbasi-antalya-8.jpg"
+  ],
+  "errors": []
+ },
+ "restaurants/kozz-liman-ocakbasi-konyaalti": {
+  "page": "https://kozzliman.com/",
+  "saved": [
+   "/images/uploads/venue-kozz-liman-ocakbasi-konyaalti-1.webp",
+   "/images/uploads/venue-kozz-liman-ocakbasi-konyaalti-2.webp",
+   "/images/uploads/venue-kozz-liman-ocakbasi-konyaalti-3.webp",
+   "/images/uploads/venue-kozz-liman-ocakbasi-konyaalti-4.webp",
+   "/images/uploads/venue-kozz-liman-ocakbasi-konyaalti-5.webp",
+   "/images/uploads/venue-kozz-liman-ocakbasi-konyaalti-6.webp"
+  ],
+  "errors": []
  }
 }
