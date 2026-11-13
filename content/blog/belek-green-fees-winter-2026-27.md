@@ -70,7 +70,7 @@ National's 2026–27 winter rates are on its night-golf page. Several other page
 
 From 1 December 2026 to 10 February 2027, 18 holes cost €95 (Regnum guests €75) and nine holes €65 (€60). The floodlit nine-hole round is €75 (€70). A golf car is €60 for 18 holes or €40 for nine.
 
-Regnum Carya guests with green fees get clubhouse food and drink on the all-inclusive plan. Under-16s pay half the rack rate. A handicap certificate is required, with a maximum of 36. One conflict to note: the night-golf page says only over-18s may drive a buggy, while the club's "About" page says under-16s may not.
+Regnum Carya guests with green fees get clubhouse food and drink on the all-inclusive plan. Under-16s pay half the rack rate. A handicap certificate is required, with a maximum of 36. Only guests aged 18 and over may drive a buggy, and children may ride only with an adult; the club's "About" page and its night-golf page agree on this (checked 13 November 2026).
 
 ### Cornelia Golf Club
 

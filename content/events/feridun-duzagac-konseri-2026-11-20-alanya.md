@@ -4,7 +4,7 @@ slug: "feridun-duzagac-konseri-2026-11-20-alanya"
 start_date: "2026-11-20"
 date_verified: true
 venue: "Alanya Holly Stone"
-district_slug: "muratpasa"
+district_slug: "alanya"
 source_url: "https://www.bubilet.com.tr/antalya/etkinlik/feridun-duzagac-konseri-"
 source_name: "Bubilet"
 last_checked: "2026-11-09"
