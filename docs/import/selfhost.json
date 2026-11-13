@@ -53,34 +53,24 @@
  "hotels/fame-residence-lara-spa": {
   "page": "https://www.famehotels.com/fame-residence-lara-spa/",
   "images": [
-   "https://www.famehotels.com/fame-residence-lara-spa/uploads/homeAbout/home_about_image_1_1752045152.webp",
    "https://www.famehotels.com/fame-residence-lara-spa/uploads/homeAbout/home_about_image_2_1752045153.webp",
    "https://www.famehotels.com/fame-residence-lara-spa/uploads/homeAbout/home_about_image_3_1752045153.webp",
-   "https://www.famehotels.com/fame-residence-lara-spa/uploads/video/HomeVideo_1752045451.webp"
+   "https://www.famehotels.com/fame-residence-lara-spa/uploads/homeAbout/home_about_image_1_1752045152.webp"
   ]
  },
  "restaurants/cati-ocakbasi-antalya": {
   "page": "https://catiocakbasiantalya.com/en/galeri",
   "images": [
-   "https://catiocakbasiantalya.com/files/_630_1729117370.jpg",
-   "https://catiocakbasiantalya.com/files/_512_1729117357.jpg",
-   "https://catiocakbasiantalya.com/files/_261_1729117342.jpg",
-   "https://catiocakbasiantalya.com/files/_543_1729117330.jpg",
    "https://catiocakbasiantalya.com/files/_306_1729117324.jpg",
-   "https://catiocakbasiantalya.com/files/_238_1729117317.jpg",
-   "https://catiocakbasiantalya.com/files/_136_1729117310.jpg",
-   "https://catiocakbasiantalya.com/files/_521_1729117295.jpg"
+   "https://catiocakbasiantalya.com/files/_543_1729117330.jpg",
+   "https://catiocakbasiantalya.com/files/_261_1729117342.jpg",
+   "https://catiocakbasiantalya.com/files/_136_1729117310.jpg"
   ]
  },
  "restaurants/kozz-liman-ocakbasi-konyaalti": {
   "page": "https://kozzliman.com/",
   "images": [
-   "https://kozzliman.com/uploads/gallery/c35dd129-8a8d-42b4-a7ae-0fc7c03d732c.webp",
-   "https://kozzliman.com/uploads/gallery/027c9c78-3034-471b-ad89-daff94b57f34.webp",
-   "https://kozzliman.com/uploads/gallery/c8a8ef67-51de-459d-8fae-2bf27c845838.webp",
-   "https://kozzliman.com/uploads/gallery/bc1acebe-dc6a-4366-9d18-8d71fb661395.webp",
-   "https://kozzliman.com/uploads/gallery/54b778ca-fc8f-481e-9085-124238327242.webp",
-   "https://kozzliman.com/uploads/gallery/10123ccf-d471-4956-9f38-c1c9f287003d.webp"
+   "https://kozzliman.com/uploads/gallery/bc1acebe-dc6a-4366-9d18-8d71fb661395.webp"
   ]
  }
 }

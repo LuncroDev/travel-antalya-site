@@ -25,6 +25,17 @@ source_urls:
 last_checked: "2026-11-13"
 excerpt: "A 559-room beach resort in Lara, 14 km from the airport: a 125 m Blue Flag beach, a five-slide pool, an indoor pool and hammam, and a 4–12 Mini Club."
 booking_note: "Summer 2026 ran 1 April to 31 October, and we found no 2026–27 winter concept. Confirm the hotel is open on your dates and what the à la carte supplement is."
+photos_official:
+  - src: "/images/uploads/venue-fame-residence-lara-spa-1.webp"
+    alt: "Hotel buildings, pools and the sea at Fame Residence Lara & Spa"
+    caption: "The hotel, pools and the Lara coast"
+  - src: "/images/uploads/venue-fame-residence-lara-spa-2.webp"
+    alt: "Aerial view of the lagoon pools and sunbeds at Fame Residence Lara & Spa"
+    caption: "The pools from the air"
+  - src: "/images/uploads/venue-fame-residence-lara-spa-3.webp"
+    alt: "Main building and pool with a footbridge at Fame Residence Lara & Spa"
+    caption: "Main building and pool"
+photo_source: "https://www.famehotels.com/fame-residence-lara-spa/"
 ---
 Fame Residence Lara & Spa is a 559-room all-inclusive resort on the beach east of Antalya, one of three Fame Residence hotels. It says it has been running since 2006. Its "Fame Style All Inclusive" concept for summer 2026 ran from 1 April to 31 October 2026, and the website footer carries a 2026 date.
 

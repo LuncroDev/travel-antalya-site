@@ -17,6 +17,13 @@ excerpt: "Reverans Sanat stages Chekhov's comedy A Marriage Proposal in Turkish 
 tagline: "Chekhov's comedy of a marriage proposal derailed by pride and bickering, played in Turkish by a cast of three."
 admission_note: "No age limit or running time is published. Biletix asks you to be at the entrance 30 minutes before the start, keeps you in your assigned seat, does not guarantee latecomers their seats, and bans food, drink and cameras. The performance is filmed, and the organiser may change the venue or time. Biletinial asks buyers who cannot use a ticket to contact it at least 48 hours before the start."
 verification_note: "The Biletix event page shows '6 Ara 2026•20:00' at Konyaaltı Belediyesi Nazım Hikmet Kongre ve Fuar Merkezi - Antalya, and its English version shows 'Dec 6, 2026•20:00'. The Biletix venue page lists the play on 'Pazar, 6 Aralık 2026' (Sunday) at 20:00, and the Biletix artist page places Antalya between Isparta on 5 December and Samsun on 21 December 2026. Biletinial's venue page lists the play on 6 Aralık without a year or time. Credits come from the Biletix event page, the Biletix artist page and Biletinial, which both name Reverans Sanat as the company. No running time, age limit or translator is published. Checked 13 November 2026."
+photos_official:
+  - src: "/images/uploads/event-nazim-hikmet-kongre-merkezi.webp"
+    credit: "biletimgo.com"
+    source: "https://www.biletimgo.com/mekan/konyaalti-nazim-hikmet-fuar-ve-kongre-merkezi-966"
+    label: "Venue photo · Konyaaltı Nazım Hikmet Congress Centre"
+    caption: "Konyaaltı Nazım Hikmet Congress Centre"
+    alt: "Konyaaltı Nazım Hikmet Congress Centre, the event venue"
 ---
 **Reverans Sanat** brings Anton Chekhov's comedy **Bir Evlenme Teklifi** (*A Marriage Proposal*) to the **Konyaaltı Belediyesi Nazım Hikmet Fuar ve Kongre Merkezi** on **Sunday 6 December 2026 at 20:00**. The play is in Turkish.
 

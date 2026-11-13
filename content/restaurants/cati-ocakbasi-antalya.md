@@ -13,6 +13,20 @@ category: "Ocakbaşı grill and meze"
 tagline: "Charcoal grills, a very long meze list and rakı in Şirinyalı, Muratpaşa."
 source_label: "Official venue information"
 michelin_note: "No verified Michelin distinction for this Antalya venue in the 2026 selection."
+photos_official:
+  - src: "/images/uploads/venue-cati-ocakbasi-antalya-1.jpg"
+    alt: "Set tables at Çatı Ocakbaşı with a view out to the sea and mountains"
+    caption: "Tables with a sea view"
+  - src: "/images/uploads/venue-cati-ocakbasi-antalya-2.jpg"
+    alt: "Dining room at Çatı Ocakbaşı with the restaurant name on the wall"
+    caption: "The dining room"
+  - src: "/images/uploads/venue-cati-ocakbasi-antalya-3.jpg"
+    alt: "Kebabs cooking over charcoal on the grill at Çatı Ocakbaşı"
+    caption: "Kebabs on the charcoal grill"
+  - src: "/images/uploads/venue-cati-ocakbasi-antalya-4.jpg"
+    alt: "A waiter serving a kebab plate at Çatı Ocakbaşı"
+    caption: "A kebab plate at the table"
+photo_source: "https://catiocakbasiantalya.com/en/galeri"
 ---
 Çatı means "roof", and Çatı Ocakbaşı's slogan plays on it: let's meet under the same roof. It is an ocakbaşı, a grill house where kebabs cook over charcoal, in Şirinyalı, Muratpaşa. The site promises traditional dishes with modern touches, carries a 2026 copyright and has a very long priced menu in Turkish.
 

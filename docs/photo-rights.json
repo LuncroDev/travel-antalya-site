@@ -2733,6 +2733,62 @@
       "src": "/images/uploads/venue-avlu-kalkan-4.jpg",
       "source_page": "https://avlukalkan.com/en/",
       "accepted_on": "2026-11-12"
+    },
+    {
+      "venue_slug": "fame-residence-lara-spa",
+      "venue_title": "Fame Residence Lara & Spa",
+      "src": "/images/uploads/venue-fame-residence-lara-spa-1.webp",
+      "source_page": "https://www.famehotels.com/fame-residence-lara-spa/",
+      "accepted_on": "2026-11-13"
+    },
+    {
+      "venue_slug": "fame-residence-lara-spa",
+      "venue_title": "Fame Residence Lara & Spa",
+      "src": "/images/uploads/venue-fame-residence-lara-spa-2.webp",
+      "source_page": "https://www.famehotels.com/fame-residence-lara-spa/",
+      "accepted_on": "2026-11-13"
+    },
+    {
+      "venue_slug": "fame-residence-lara-spa",
+      "venue_title": "Fame Residence Lara & Spa",
+      "src": "/images/uploads/venue-fame-residence-lara-spa-3.webp",
+      "source_page": "https://www.famehotels.com/fame-residence-lara-spa/",
+      "accepted_on": "2026-11-13"
+    },
+    {
+      "venue_slug": "cati-ocakbasi-antalya",
+      "venue_title": "Çatı Ocakbaşı",
+      "src": "/images/uploads/venue-cati-ocakbasi-antalya-1.jpg",
+      "source_page": "https://catiocakbasiantalya.com/en/galeri",
+      "accepted_on": "2026-11-13"
+    },
+    {
+      "venue_slug": "cati-ocakbasi-antalya",
+      "venue_title": "Çatı Ocakbaşı",
+      "src": "/images/uploads/venue-cati-ocakbasi-antalya-2.jpg",
+      "source_page": "https://catiocakbasiantalya.com/en/galeri",
+      "accepted_on": "2026-11-13"
+    },
+    {
+      "venue_slug": "cati-ocakbasi-antalya",
+      "venue_title": "Çatı Ocakbaşı",
+      "src": "/images/uploads/venue-cati-ocakbasi-antalya-3.jpg",
+      "source_page": "https://catiocakbasiantalya.com/en/galeri",
+      "accepted_on": "2026-11-13"
+    },
+    {
+      "venue_slug": "cati-ocakbasi-antalya",
+      "venue_title": "Çatı Ocakbaşı",
+      "src": "/images/uploads/venue-cati-ocakbasi-antalya-4.jpg",
+      "source_page": "https://catiocakbasiantalya.com/en/galeri",
+      "accepted_on": "2026-11-13"
+    },
+    {
+      "venue_slug": "kozz-liman-ocakbasi-konyaalti",
+      "venue_title": "Közz Liman Ocakbaşı & Meze",
+      "src": "/images/uploads/venue-kozz-liman-ocakbasi-konyaalti-1.webp",
+      "source_page": "https://kozzliman.com/",
+      "accepted_on": "2026-11-13"
     }
   ]
 }

@@ -13,6 +13,11 @@ category: "Ocakbaşı grill and meze"
 tagline: "Charcoal-grilled kebabs, house meze and cold rakı in Konyaaltı's Liman quarter."
 source_label: "Official venue information"
 michelin_note: "No verified Michelin distinction for this Antalya venue in the 2026 selection."
+photos_official:
+  - src: "/images/uploads/venue-kozz-liman-ocakbasi-konyaalti-1.webp"
+    alt: "Diners inside Közz Liman Ocakbaşı under the lit restaurant sign"
+    caption: "Inside Közz Liman"
+photo_source: "https://kozzliman.com/"
 ---
 Közz Liman is an ocakbaşı, a grill house where meat cooks over charcoal, run with a meyhane's love of meze and rakı. Its site places it in Liman Mahallesi, Konyaaltı (liman means harbour), carries a 2026 copyright and has a full priced menu in Turkish, English and Russian.
 
