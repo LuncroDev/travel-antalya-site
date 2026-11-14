@@ -91,5 +91,57 @@
    "/images/uploads/venue-kozz-liman-ocakbasi-konyaalti-1.webp"
   ],
   "errors": []
+ },
+ "hotels/porto-bello-hotel-resort-spa-konyaalti": {
+  "page": "https://www.portobello.com.tr/en",
+  "saved": [
+   "/images/uploads/venue-porto-bello-hotel-resort-spa-konyaalti-1.jpg",
+   "/images/uploads/venue-porto-bello-hotel-resort-spa-konyaalti-2.jpg",
+   "/images/uploads/venue-porto-bello-hotel-resort-spa-konyaalti-3.jpg",
+   "/images/uploads/venue-porto-bello-hotel-resort-spa-konyaalti-4.jpg",
+   "/images/uploads/venue-porto-bello-hotel-resort-spa-konyaalti-5.jpg"
+  ],
+  "errors": []
+ },
+ "hotels/lures-hotel-kalkan": {
+  "page": "https://lureshotel.com/en",
+  "saved": [
+   "/images/uploads/venue-lures-hotel-kalkan-1.webp",
+   "/images/uploads/venue-lures-hotel-kalkan-2.webp",
+   "/images/uploads/venue-lures-hotel-kalkan-3.webp",
+   "/images/uploads/venue-lures-hotel-kalkan-4.webp",
+   "/images/uploads/venue-lures-hotel-kalkan-5.webp"
+  ],
+  "errors": []
+ },
+ "restaurants/zula-side": {
+  "page": "https://www.zulaside.com/",
+  "saved": [
+   "/images/uploads/venue-zula-side-1.jpg",
+   "/images/uploads/venue-zula-side-2.jpg",
+   "/images/uploads/venue-zula-side-3.jpg",
+   "/images/uploads/venue-zula-side-4.jpg",
+   "/images/uploads/venue-zula-side-5.jpg",
+   "/images/uploads/venue-zula-side-6.jpg"
+  ],
+  "errors": []
+ },
+ "restaurants/goz-balik-lara": {
+  "page": "https://gozbalik.com/",
+  "saved": [
+   "/images/uploads/venue-goz-balik-lara-1.webp",
+   "/images/uploads/venue-goz-balik-lara-2.webp",
+   "/images/uploads/venue-goz-balik-lara-3.webp",
+   "/images/uploads/venue-goz-balik-lara-4.webp"
+  ],
+  "errors": []
+ },
+ "events/ayna-konseri-2026-12-20-muratpasa": {
+  "page": "https://muratpasa-bld.gov.tr/haber/4876/muratpasa-ya-mimarlik-odulu",
+  "saved": [
+   "/images/uploads/venue-ayna-konseri-2026-12-20-muratpasa-1.jpg",
+   "/images/uploads/venue-ayna-konseri-2026-12-20-muratpasa-2.jpg"
+  ],
+  "errors": []
  }
 }
