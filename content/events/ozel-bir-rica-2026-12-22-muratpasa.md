@@ -17,6 +17,14 @@ excerpt: "Sevinç Erbulak stars in Özel Bir Rica, a Turkish comedy based on Ste
 tagline: "A one-act dinner-party comedy in Turkish, with Sevinç Erbulak and Tayanç Ayaydın."
 admission_note: "iTicket and Biletinial list the play as 12+ and say ID may be checked; Biletix publishes no age limit. Biletix asks you to arrive 30 minutes early, admits no one after the start, keeps you in your assigned seat and bans outside food, drink and cameras. Tickets cannot be refunded or changed."
 verification_note: "The Biletix event page shows '22 Ara 2026•20:30' at Türkan Şoray Kültür Merkezi - Antalya, and the Biletix venue page lists the play on Tuesday (Salı) 22 December 2026 at 20:30. The iTicket event page gives '22 Aralık 2026, Salı, saat 20:00' at the same venue. The two sellers disagree on the start time and we found no organiser page to settle it, so both times are shown. Running time (75 minutes, one act), the 12+ age limit and the credits come from iTicket and Biletinial; Biletinial lists one Antalya session on 22 December without a year or time. Checked 12 November 2026."
+photos_official:
+  - src: "/images/uploads/event-turkan-soray-kultur-merkezi.webp"
+    credit: "muratpasa-bld.gov.tr"
+    source: "https://muratpasa-bld.gov.tr/haber/4876/muratpasa-ya-mimarlik-odulu"
+    label: "Venue photo · Türkan Şoray Kültür Merkezi"
+    caption: "Türkan Şoray Kültür Merkezi, Muratpaşa"
+    alt: "Aerial view of the Türkan Şoray Kültür Merkezi in Muratpaşa, the event venue"
+photo_source: "https://muratpasa-bld.gov.tr/haber/4876/muratpasa-ya-mimarlik-odulu"
 ---
 Sevinç Erbulak, Tayanç Ayaydın, Emel Çölgeçen and Kaya Akkaya star in **Özel Bir Rica** ("A Special Request") at the **Türkan Şoray Kültür Merkezi** on **Tuesday 22 December 2026**. The play is in Turkish, and the ticket sites disagree on the start time (see below).
 

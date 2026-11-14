@@ -15,6 +15,14 @@ excerpt: "A comedy examines the conflicting voices inside Semih's mind."
 tagline: "A comedy examines the conflicting voices inside Semih's mind."
 time_display: "20:30"
 verification_note: "Day, month, time and venue appear on the linked primary ticketing page; 2026 is established by the current listings and matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/event-turkan-soray-kultur-merkezi.webp"
+    credit: "muratpasa-bld.gov.tr"
+    source: "https://muratpasa-bld.gov.tr/haber/4876/muratpasa-ya-mimarlik-odulu"
+    label: "Venue photo · Türkan Şoray Kültür Merkezi"
+    caption: "Türkan Şoray Kültür Merkezi, Muratpaşa"
+    alt: "Aerial view of the Türkan Şoray Kültür Merkezi in Muratpaşa, the event venue"
+photo_source: "https://muratpasa-bld.gov.tr/haber/4876/muratpasa-ya-mimarlik-odulu"
 ---
 A comedy examines the conflicting voices inside Semih's mind.
 

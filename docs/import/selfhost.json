@@ -78,15 +78,12 @@
   "images": [
    "https://cdn.extranetwork.com/property-photos/163/1605699877_YMKVKLYIDE.jpg",
    "https://cdn.extranetwork.com/property-photos/163/1738218644_8W27JV3V0R.jpg",
-   "https://cdn.extranetwork.com/property-photos/163/1738222598_PKD9HKWWX4.jpg",
-   "https://cdn.extranetwork.com/property-photos/163/1738218644_8W27JV3V0R_medium.jpg",
-   "https://cdn.extranetwork.com/property-photos/163/1738222598_PKD9HKWWX4_medium.jpg"
+   "https://cdn.extranetwork.com/property-photos/163/1738222598_PKD9HKWWX4.jpg"
   ]
  },
  "hotels/lures-hotel-kalkan": {
   "page": "https://lureshotel.com/en",
   "images": [
-   "https://lureshotel.com/uploads/lures/hotel/kusbakisi-2.webp",
    "https://lureshotel.com/uploads/lures/hotel/sonsuzluk-havuzu.webp",
    "https://lureshotel.com/uploads/lures/hotel/superior-1.webp",
    "https://lureshotel.com/uploads/lures/hotel/asedo.webp",
@@ -96,12 +93,10 @@
  "restaurants/zula-side": {
   "page": "https://www.zulaside.com/",
   "images": [
-   "https://www.zulaside.com/admin/public/uploads/topics/17443693648924.jpg",
+   "https://www.zulaside.com/admin/public/uploads/topics/17451371623875.jpeg",
    "https://www.zulaside.com/admin/public/uploads/topics/17464460312886.jpg",
    "https://www.zulaside.com/admin/public/uploads/topics/17464447508996.jpg",
-   "https://www.zulaside.com/admin/public/uploads/topics/17464436263038.jpg",
-   "https://www.zulaside.com/admin/public/uploads/topics/17451371623875.jpeg",
-   "https://www.zulaside.com/admin/public/uploads/topics/17450959887641.jpg"
+   "https://www.zulaside.com/admin/public/uploads/topics/17464436263038.jpg"
   ]
  },
  "restaurants/goz-balik-lara": {
@@ -111,13 +106,6 @@
    "https://getordan.com/assets/images/gallery/1/original/gallery_6ae758b25b8092.10981400.webp",
    "https://getordan.com/assets/images/gallery/1/original/gallery_6ae758ff400a10.47189826.webp",
    "https://getordan.com/assets/images/gallery/1/original/gallery_6ae75900202c66.61530286.webp"
-  ]
- },
- "events/ayna-konseri-2026-12-20-muratpasa": {
-  "page": "https://muratpasa-bld.gov.tr/haber/4876/muratpasa-ya-mimarlik-odulu",
-  "images": [
-   "https://muratpasa-bld.gov.tr/Uploads/19122019104117turkan_soray_odul__1_.jpg",
-   "https://kultursanat.muratpasa-bld.gov.tr/Uploads/27112018162921kktc-6.jpg"
   ]
  }
 }

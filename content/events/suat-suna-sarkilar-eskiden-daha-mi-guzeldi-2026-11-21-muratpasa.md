@@ -17,6 +17,14 @@ excerpt: "Suat Suna revisits Turkish pop from the 1970s on, with his own stories
 tagline: "An 80-minute one-man music show of Turkish pop classics, told through the singer's own stories."
 admission_note: "Neither Biletix nor Biletinial publishes an age limit; Biletinial says ID is checked at the venue for age-limited and discounted tickets. Biletinial says tickets not used on the day and time are void and cannot be refunded or changed, the organiser may move seats, and it takes no responsibility for getting latecomers in."
 verification_note: "The Biletix event page shows 'Nov 21, 2026•20:30' at Türkan Şoray Kültür Merkezi - Antalya, and the Biletix venue page lists the show on 'Saturday, 21 November 2026' at 20:30. The Biletix artist page shows Antalya on 21 November as Suat Suna's only upcoming date. Biletinial's venue page lists the show on 21 Kasım without a year or time; its event page gives the 80-minute running time and the programme description. Neither seller publishes an age limit or names other musicians. Checked 13 November 2026."
+photos_official:
+  - src: "/images/uploads/event-turkan-soray-kultur-merkezi.webp"
+    credit: "muratpasa-bld.gov.tr"
+    source: "https://muratpasa-bld.gov.tr/haber/4876/muratpasa-ya-mimarlik-odulu"
+    label: "Venue photo · Türkan Şoray Kültür Merkezi"
+    caption: "Türkan Şoray Kültür Merkezi, Muratpaşa"
+    alt: "Aerial view of the Türkan Şoray Kültür Merkezi in Muratpaşa, the event venue"
+photo_source: "https://muratpasa-bld.gov.tr/haber/4876/muratpasa-ya-mimarlik-odulu"
 ---
 Pop singer **Suat Suna** brings his one-man music show **Şarkılar Eskiden Daha mı Güzeldi?** ("Were Songs Better in the Old Days?") to the **Türkan Şoray Kültür Merkezi** on **Saturday 21 November 2026 at 20:30**. The songs and the stories between them are in Turkish.
 
