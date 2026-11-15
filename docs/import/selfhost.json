@@ -107,5 +107,56 @@
    "https://getordan.com/assets/images/gallery/1/original/gallery_6ae758ff400a10.47189826.webp",
    "https://getordan.com/assets/images/gallery/1/original/gallery_6ae75900202c66.61530286.webp"
   ]
+ },
+ "hotels/sealife-family-resort-konyaalti": {
+  "page": "https://www.sealifehotel.com/en/gallery",
+  "images": [
+   "https://cdn.extranetwork.com/property-photos/164/1715856813_FU6T7N8OON.jpg",
+   "https://cdn.extranetwork.com/property-photos/164/1738838344_BHMP632I1Y.jpg",
+   "https://cdn.extranetwork.com/property-photos/164/1738837933_J66HZHK9FP.jpg",
+   "https://cdn.extranetwork.com/property-photos/164/1605700371_GD3U2DPVL9.jpg",
+   "https://cdn.extranetwork.com/property-photos/164/1714376339_6D7MK252MT.jpg",
+   "https://cdn.extranetwork.com/property-photos/164/1715856812_MO2AYCEKDD.jpg"
+  ]
+ },
+ "hotels/true-blue-boutique-hotel-kalkan": {
+  "page": "https://www.truebluehotel.com.tr/",
+  "images": [
+   "https://www.truebluehotel.com.tr/images/true-blue-facilities-scaled-1.webp",
+   "https://www.truebluehotel.com.tr/images/trueblue-sea-view.webp",
+   "https://www.truebluehotel.com.tr/images/J6A1449-HDR-kopya-lighting-edit.webp",
+   "https://www.truebluehotel.com.tr/images/trueblue-breakfast-i.webp",
+   "https://www.truebluehotel.com.tr/images/trueblue-night-pool.webp",
+   "https://www.truebluehotel.com.tr/images/6-2-w-1536x1024.webp"
+  ]
+ },
+ "restaurants/piazzetta-italiana-belek": {
+  "page": "https://piazzettaitaliana.com/",
+  "images": [
+   "https://piazzettaitaliana.com/images/coverBg.jpg",
+   "https://piazzettaitaliana.com/images/demos/explore1.jpg",
+   "https://piazzettaitaliana.com/images/demos/explore2.jpg",
+   "https://piazzettaitaliana.com/images/demos/explore3.jpg",
+   "https://piazzettaitaliana.com/images/demos/host.jpg",
+   "https://piazzettaitaliana.com/images/demos/experience.jpg"
+  ]
+ },
+ "restaurants/usre-restoran-kepez": {
+  "page": "https://usrerestoran.com/",
+  "images": [
+   "https://usrerestoran.com/wp-content/uploads/2024/05/home-banner.webp",
+   "https://usrerestoran.com/wp-content/uploads/2024/05/usre-2.webp",
+   "https://usrerestoran.com/wp-content/uploads/2024/05/usre-3.webp",
+   "https://usrerestoran.com/wp-content/uploads/2024/05/usre-4.webp",
+   "https://usrerestoran.com/wp-content/uploads/2024/08/patlican.webp",
+   "https://usrerestoran.com/wp-content/uploads/2025/09/Kahvalti-Mekanlari-610x540.jpg"
+  ]
+ },
+ "things-to-do/alanya-museum": {
+  "page": "https://commons.wikimedia.org/wiki/File:Muse_alanya.jpg",
+  "images": [
+   "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Muse_alanya.jpg/1920px-Muse_alanya.jpg",
+   "https://upload.wikimedia.org/wikipedia/commons/5/52/Muse_alanya.jpg"
+  ]
  }
 }
