@@ -130,5 +130,61 @@
    "/images/uploads/venue-goz-balik-lara-4.webp"
   ],
   "errors": []
+ },
+ "hotels/sealife-family-resort-konyaalti": {
+  "page": "https://www.sealifehotel.com/en/gallery",
+  "saved": [
+   "/images/uploads/venue-sealife-family-resort-konyaalti-1.jpg",
+   "/images/uploads/venue-sealife-family-resort-konyaalti-2.jpg",
+   "/images/uploads/venue-sealife-family-resort-konyaalti-3.jpg",
+   "/images/uploads/venue-sealife-family-resort-konyaalti-4.jpg",
+   "/images/uploads/venue-sealife-family-resort-konyaalti-5.jpg",
+   "/images/uploads/venue-sealife-family-resort-konyaalti-6.jpg"
+  ],
+  "errors": []
+ },
+ "hotels/true-blue-boutique-hotel-kalkan": {
+  "page": "https://www.truebluehotel.com.tr/",
+  "saved": [
+   "/images/uploads/venue-true-blue-boutique-hotel-kalkan-1.webp",
+   "/images/uploads/venue-true-blue-boutique-hotel-kalkan-2.webp",
+   "/images/uploads/venue-true-blue-boutique-hotel-kalkan-3.webp",
+   "/images/uploads/venue-true-blue-boutique-hotel-kalkan-4.webp",
+   "/images/uploads/venue-true-blue-boutique-hotel-kalkan-5.webp",
+   "/images/uploads/venue-true-blue-boutique-hotel-kalkan-6.webp"
+  ],
+  "errors": []
+ },
+ "restaurants/piazzetta-italiana-belek": {
+  "page": "https://piazzettaitaliana.com/",
+  "saved": [
+   "/images/uploads/venue-piazzetta-italiana-belek-1.jpg",
+   "/images/uploads/venue-piazzetta-italiana-belek-2.jpg",
+   "/images/uploads/venue-piazzetta-italiana-belek-3.jpg",
+   "/images/uploads/venue-piazzetta-italiana-belek-4.jpg",
+   "/images/uploads/venue-piazzetta-italiana-belek-5.jpg",
+   "/images/uploads/venue-piazzetta-italiana-belek-6.jpg"
+  ],
+  "errors": []
+ },
+ "restaurants/usre-restoran-kepez": {
+  "page": "https://usrerestoran.com/",
+  "saved": [
+   "/images/uploads/venue-usre-restoran-kepez-1.webp",
+   "/images/uploads/venue-usre-restoran-kepez-2.webp",
+   "/images/uploads/venue-usre-restoran-kepez-3.webp",
+   "/images/uploads/venue-usre-restoran-kepez-4.webp",
+   "/images/uploads/venue-usre-restoran-kepez-5.webp",
+   "/images/uploads/venue-usre-restoran-kepez-6.jpg"
+  ],
+  "errors": []
+ },
+ "things-to-do/alanya-museum": {
+  "page": "https://commons.wikimedia.org/wiki/File:Muse_alanya.jpg",
+  "saved": [
+   "/images/uploads/venue-alanya-museum-1.jpg",
+   "/images/uploads/venue-alanya-museum-2.jpg"
+  ],
+  "errors": []
  }
 }
