@@ -48,21 +48,28 @@ Kaleiçi, beach holiday overview…). Check `content/blog/` for overlap before w
   - Antalya's citrus on the table: Finike oranges, turunç and bergamot peel jams (TÜRKPATENT GI nos. 771 and 772, 26 May 2021) — a food piece, not a breakfast repeat
   - Ocakbaşı and meyhane nights in Antalya: Közz Liman, Çatı, Şişçi İbo, Ertan Usta (all have pages) — how a grill-and-meze evening works, rakı etiquette
   - Free museums in Antalya: Ethnography Museum and Atatürk House Museum (both free per the ministry; fix the hours on the walking route and rainy-day guide first — see Fixes)
-  - Alanya in a day: castle, Cleopatra Beach and the harbour street (castle, beach, Güverte pages exist; cable car has no official timetable or fare page — say so)
   - Antalya Museum: what happened to it (ministry closure notice; Vatan, 10 Sep 2026: building demolished Sep 2025, new foundations not yet laid) — replaces the "reopening" idea below until the ministry publishes a date
 
 - Added 2026-11-14:
-  - Döşemealtı half-day: Karain Cave and Termessos, plus Evdir Han, Kırkgöz Han and Ariassos (antalya.ktb.gov.tr Döşemealtı page lists them; find official hours before naming any)
   - Konyaaltı beach hotels compared: Porto Bello, Hotel SU, Akra-area city hotels — published beach length, pools, indoor pools, winter offers (SeaLife, Porto Bello's sister, is a usable backup page)
   - Adults-only hotels in Kalkan and Kaş: Lures (16+), others with published age rules — couples' guide
   - Eating in Side's old town: Zula, Side Orfoz, Karma Side (all have pages) — sea-view dinners, what each publishes (Zula prints no prices or hours)
   - Sorgun and Titreyengöl: the protected forest and lake east of Side (manavgat.bel.tr news items; check for official access rules)
   - Antalya by tram: AntRay lines T1–T3, the paused nostalgic tram and the COP31 timetable changes (antalyaulasim.com.tr; link /blog/antalyakart-guide/)
 
+- Added 2026-11-15:
+  - Eating out in Kadriye (Belek): Piazzetta Italiana now has a page; Asil (asilrestaurant.com, © 2026, Turkish/Moroccan/Lebanese, €35 lunch and €45 rakı-night set menus) and Mykorini (Greek, The Land of Legends) are run by the same group; Nemo has a page
+  - Kepez for visitors: Upper Düden, Kepez City Forest and a grill lunch (Usre and Ertan Usta have pages; find official Düden fee/turnstile info first — see Fixes 2026-11-14)
+  - Belek golf weeks with a junior golfer: U.S. Kids local tour dates at National and Carya (24–25 Dec, 9–10 and 23–24 Jan) and the international event (Carya calendar 26–31 Jan 2027; U.S. Kids pages say 29–31 Jan teens at National, 30–31 Jan ages 5–12 at Carya) — link /blog/junior-golf-in-belek/
+  - Alanya's harbour monuments: Red Tower (Kızılkule) and the Tersane shipyard as a things-to-do page — needs official hours/fees (Turkish Museums and the municipality give none separately as of 2026-11-15)
+  - Molière to Shakespeare: classic plays on Antalya stages this winter (Hastalık Hastası 9 Jan, Lady Macbeth 3 Apr 2027, Hamlet 24 Dec — all Nazım Hikmet); only with dates showing the year
+  - Kalkan family hotels compared: True Blue (no age limits, child prices, dog-friendly units) and Payava (14 m heated pool, 50 rooms) — both now checked; add Fidanka/Villa Mahal facts from their pages
+  - Legends Tour Qualifying School 16–19 Jan 2027 (Gloria) and Cornelia Pro-Am 27 Mar–3 Apr 2027 as Sports event listings (dates on legendstour.com and corneliaresort.com)
+
 ## Things to do / trips (1 per day)
 - Kaputaş Beach · Lara Beach
 - Antalya Ethnography Museum (free; Turkish Museums page 1951, winter 08:30–17:30) — check the address conflict first (see Fixes)
-- Damlataş Cave · Myra & St Nicholas Church (Demre; blog guide exists, link it) · Kekova sunken city · Alanya Museum (bronze Heracles)
+- Damlataş Cave · Myra & St Nicholas Church (Demre; blog guide exists, link it) · Kekova sunken city
 - Patara Beach & ancient city (blog guide exists, link it) · Saklıkent Gorge (day trip) · Kurşunlu Waterfall (ktb.gov.tr pages give 1991, 394 ha, access via Soğucaksu Bridge; no official hours/fee page found 2026-11-10)
 - Antalya Aquarium · Land of Legends · Antalya Old Harbour boat tours
 - Selge & Köprülü Canyon National Park · Adrasan Bay · Çıralı Beach
@@ -75,9 +82,8 @@ Kaleiçi, beach holiday overview…). Check `content/blog/` for overlap before w
   Pasha & Sultan = Antalya Golf Club; Faldo = Cornelia. The TGF 2026 calendar names a "Cullinan – Termessos" course —
   check whether the Cullinan profile needs a third course. Write golf guides from now on.
 - Golf guide ideas: Golf lessons in Belek: prices compared (Gloria, Cornelia, National/Carya, Cullinan, Sueno and ROBINSON — VOLVO Beginners €199, Golf License €495 — all publish lists now) ·
-  Belek golf tournaments in December 2026: which courses are busy (TGF calendar: Regnum Pro-Am, Carya 29 Nov–6 Dec; Turkish Amateur Open, Kaya Palazzo 10–12 Dec; Junior Open, Gloria 13–20 Dec; US Kids, National 24–25 Dec) ·
   Belek spring 2027 green fees — update of the winter post once clubs refresh their cards (Cullinan already lists 2027–28) ·
-  Turkish Airlines Open 2027 visitor guide (once dates are published) · Handicap certificates and dress rules compared across Belek clubs (buggy rules are now in /blog/golf-buggy-hire-in-belek/) ·
+  Turkish Airlines Open 2027 visitor guide (DP World Tour schedule now gives 29 Apr–2 May 2027 at National; Regnum's list says 25 Apr–3 May; write once ticket/spectator details are out) · Handicap certificates and dress rules compared across Belek clubs (buggy rules are now in /blog/golf-buggy-hire-in-belek/) ·
   Belek golf academies compared (Gloria, Cullinan, Sueno, AGC lesson formats)
 
 ## Leads checked but not used yet
@@ -136,7 +142,7 @@ Kaleiçi, beach holiday overview…). Check `content/blog/` for overlap before w
 
 - Checked 2026-11-14 — hotels: Rhapsody Hotel & Spa Kalkan (©2022, no season dates); SeaLife Family Resort, Konyaaltı (sealifehotel.com — 2026–27 campaigns,
   4 km to centre, 20 km to airport, but 239 vs 240 rooms and no pool or restaurant details; usable backup); Arcadia Hotel, Myland Nature and Odile Hotel, Çıralı
-  (booking sites only). Not opened yet: True Blue Boutique Hotel Kalkan (truebluehotel.com.tr), Payava Hotel Kalkan (payavahotel.com).
+  (booking sites only). True Blue was used on 2026-11-15; Payava Hotel Kalkan (payavahotel.com) is a usable backup (see below).
 - Checked 2026-11-14 — restaurants: Kaleiçi Steak Gastro Bar (©2022, no address or hours); Arzum Döner (©2024); Crusoe Restaurant & Bar (pages error);
   Topçu Kebap (no official site); Panorama Kalkan (©2026, moved to Kalkan centre, still no street address, prices or hours); Mezze Grill & Ocakbaşı, Alanya (menu
   still only on a QR site); Konyaaltı Meyhanesi (©2024, no hours, injected gambling spam on its home page — never link); Ship Inn Marina, Setur Marina (priced
@@ -153,7 +159,18 @@ Kaleiçi, beach holiday overview…). Check `content/blog/` for overlap before w
   Biletix's Nazım Hikmet venue page and Bubilet could not be opened today.
 - Things to do checked 2026-11-14: Kocain Cave, Döşemealtı — no official visiting information or hours found.
 
+- Checked 2026-11-15 — hotels: Payava Hotel by True Blue, Kalkan (payavahotel.com — 50 rooms in 10 types, 14 × 5 m pool heated to 22–23.5°C off-season, B&B, Cumhuriyet Cad. 80, Dalaman 120 km; but footer © 2021 and factsheet "Last Updated: March 2025"; only 2026 evidence is the Çakıl Beach Club line and page metadata — usable backup).
+- Checked 2026-11-15 — restaurants: Asil Antalya (asilrestaurant.com — © 2026, menu PDFs dated Oct 2026 but unopened; site shared with the Dubai branch, so photos may show Dubai — use only Turkey event-page images); Mykorini Antalya (menus only as PDFs; title tag still says Istanbul); connysside.com (1998–2025, no prices); serenaderestaurant.com (no address); limerestaurantside.com (© 2019); skysafran.com (© 2023); alaaksam.com.tr (no address or dishes); qualistamarina.com and aiamarina.com (server errors); gracekemer.com (hosting suspended); cafemokkakemer.com (template address); lahmacunatolyesi.com (no site); Kalamaki Kalkan (current site still has no street address; old domain gives Hasan Altan Cad. 43); The Kitchen by Korsan, Kalkan (no address); Alara Restaurant, Atatürk Parkı (no menu); Alley Sunset Kaş (hotel restaurant, no hours); enviebeach.com Alanya (© 2025); quzurestaurant.com, rivierabistrocafe.com (errors); zaikaocakbasi.com, soulofkitchen.com (redirect loops); kayakorugukas.com (robots).
+- Checked 2026-11-15 — events: Lady Macbeth (Özge Durmuşcan, one-woman show), Nazım Hikmet, 3 Apr 2027 20:00 — year on both Biletix and Biletinial venue pages, 990/950 TL, no age limit or running time from a seller (usable later); Anlatanadam stand-up, Nazım Hikmet, 18 Dec 2026 20:30 (year only on Biletix venue page; 90 min, 16+, no entry after the start); Venüs, Holly Stone, 1 Dec 2026 22:00 (year on the Biletix event page, 18+, but thin); Ben Fidel, 8 Jan 2027 (Biletinial shows the year, rich page, but no start time anywhere); Randımansız Ömrüm 4 Dec, Çizmeli Kedi 6 Dec, Inostranka 19 Nov AKM, İçimizdeki Şeytan 8 Dec (no description); Zor Düğün, Alanya KM 26 Nov and 8 Kadın, Nazım Hikmet 8 Dec (Biletimgo only, no price); Jefe 17 Nov Holly Stone (cancelled). Biletix event pages for Hastalık Hastası, Lady Macbeth, Anlatanadam and Aşk Listesi would not open — dates were taken from the Biletix venue page.
+- Things to do checked 2026-11-15: Commons file pages still do not load (url_not_found); the Alanya Museum photo's credit came from the Kültür Envanteri mirror.
+
 ## Fixes spotted (existing pages)
+- 2026-11-15 (done): Ezginin Günlüğü, 9 Dec 2026, Holly Stone — Biletix's venue page marks it "İptal Edildi" while iTicket still sells it; the event page now carries a check-before-you-buy note. Recheck and archive it if iTicket also cancels.
+- 2026-11-15: Alanya Museum Heracles date — Turkish Museums (EN) says 2nd century BC; the ministry's Turkish leaflet says M.S. 2. yüzyıl (AD). `/things-to-do/alanya-museum/` states both; `/blog/antalya-museums-rainy-day/` and `/things-to-do/alanya-castle/` say AD only.
+- 2026-11-15: Alanya Castle hours — Turkish Museums (page 1960) gives winter 2 Oct–30 Apr 08:00–18:00 weekdays, 08:00–17:00 weekends, desk 17:00; the ministry leaflet gives 1 Oct–1 Apr 08:00–17:00, desk 16:30. `/things-to-do/alanya-castle/` gives only the second; Turkish Museums also lists a café, shop and car park.
+- 2026-11-15: Alanya Museum summer hours — Turkish Museums says 2 Jun–1 Oct 08:30–21:30 (no May row); the leaflet says 1 Apr–1 Oct 08:30–19:00. The rainy-day guide gives winter only.
+- 2026-11-15: the TGF's English domestic calendar omits the Nov–Dec 2026 Antalya events that the Turkish calendar lists, and names Cornelia GK for the 18–19 Jul 2026 U18 leg where the Turkish page says Cullinan – Termessos (relevant to the Cullinan fix below).
+- 2026-11-15: Termessos on Turkish Museums still shows €300 for foreign adults (typo) — the new Termessos/Karain half-day guide says so; `/things-to-do/termessos/` gives no fee.
 - 2026-11-14: Antalya Ulaşım (17 Aug 2026) says Upper Düden's entry fee is now paid by AntalyaKart at new turnstiles (no amount given); `/blog/antalya-on-a-budget/`
   says no fee is published and to carry cash, and `/things-to-do/duden-waterfalls/` says nothing about paying.
 - 2026-11-14: `/blog/how-to-get-to-antalya-flights-airport-transport-options/` says the AntalyaKart works on "some ferries" — no current official page says so.
@@ -201,6 +218,13 @@ Kaleiçi, beach holiday overview…). Check `content/blog/` for overlap before w
   site says 29 Nov 2024. Pages now say "since November 2024"; give the exact day only once the two agree.
 
 ## Done
+- 2026-11-15 · Blog: [Alanya in a Day: Castle, Museum, Cleopatra Beach and Harbour](/blog/alanya-in-a-day/) (cable car: no current official fare or timetable; Red Tower and shipyard: no separate official hours)
+- 2026-11-15 · Blog: [Termessos and Karain Cave: A Half-Day Trip From Antalya](/blog/termessos-and-karain-cave-half-day-trip/) (Evdir Han and Kırkgöz Han from the metropolitan caravanserais booklet; Ariassos left out — no official visiting information)
+- 2026-11-15 · Golf guide: [Belek Golf Tournaments, Winter 2026–27: Dates and Courses](/blog/belek-golf-tournaments-winter-2026-27/)
+- 2026-11-15 · Things to do: [Alanya Museum](/things-to-do/alanya-museum/) (new Commons photo of the entrance, 2010)
+- 2026-11-15 · Hotels: [SeaLife Family Resort Hotel](/hotels/sealife-family-resort-konyaalti/), [True Blue Boutique Hotel](/hotels/true-blue-boutique-hotel-kalkan/)
+- 2026-11-15 · Restaurants: [Piazzetta Italiana](/restaurants/piazzetta-italiana-belek/) (Kadriye), [Usre Restoran](/restaurants/usre-restoran-kepez/)
+- 2026-11-15 · Events: [Aşk Listesi, 23 Dec 2026](/events/ask-listesi-2026-12-23-konyaalti/), [Hastalık Hastası, 9 Jan 2027](/events/hastalik-hastasi-2027-01-09-konyaalti/)
 - 2026-11-14 · Blog: [AntalyaKart Guide: Fares, Top-Ups and Transfers](/blog/antalyakart-guide/) (under-sevens ride free on the trams per Antalya Ulaşım; no child rule published for buses)
 - 2026-11-14 · Blog: [Manavgat River Boat Trip: Waterfall, Boğaz and Titreyengöl](/blog/manavgat-river-boat-trip/) (manavgat.bel.tr/gezi-rehberi would not open; no official boat fares or waterfall fee)
 - 2026-11-14 · Golf guide: [Golf Buggy Hire in Belek: Trolley, Club and Range Costs](/blog/golf-buggy-hire-in-belek/)

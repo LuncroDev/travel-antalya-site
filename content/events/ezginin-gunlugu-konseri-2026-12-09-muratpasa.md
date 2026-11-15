@@ -12,11 +12,11 @@ source_url: "https://iticket.com.tr/en/events/concerts/antalya/ezginin-gunlugu-k
 source_urls: ["https://iticket.com.tr/en/events/concerts/antalya/ezginin-gunlugu-konseri-9-aralik-antalya-bilet","https://iticket.com.tr/en/events/all/antalya","https://ezginingunlugu.com.tr/ezginin-gunlugu/history"]
 source_name: "iTicket"
 ticket_url: "https://iticket.com.tr/en/events/concerts/antalya/ezginin-gunlugu-konseri-9-aralik-antalya-bilet"
-last_checked: "2026-11-09"
+last_checked: "2026-11-15"
 excerpt: "Turkish folk-pop band Ezginin Günlüğü plays Holly Stone Antalya in Kaleiçi on Wednesday 9 December 2026 at 21:00."
 tagline: "A band formed in 1982 whose songs mix traditional folk with poems by Nazım Hikmet and Orhan Veli."
-admission_note: "iTicket lists the tickets as non-refundable. No age limit is printed, so ask before bringing under-18s to the evening venue."
-verification_note: "The ticket page's date line reads '9 December 2026 - 21:00' and names Holly Stone Antalya, Uzun Çarşı Sk. No:42, Muratpaşa. No end time or age limit is published. Check the linked source before travel."
+admission_note: "Check before you buy: on 15 November 2026 Biletix's Holly Stone venue page marked this concert \"İptal Edildi\" (cancelled), while iTicket still showed it on sale at 1,000 TL. iTicket lists the tickets as non-refundable. No age limit is printed, so ask before bringing under-18s to the evening venue."
+verification_note: "Rechecked 15 November 2026: Biletix's Holly Stone venue page (https://www.biletix.com/mekan/070GN/ANTALYA/tr) lists Ezginin Günlüğü on Wednesday 9 December 2026 at 21:00 as \"İptal Edildi\" (cancelled); the iTicket page (last updated 12 November 2026) still shows a buy button and 1.000 ₺ general admission. Earlier check: the ticket page's date line reads '9 December 2026 - 21:00' and names Holly Stone Antalya, Uzun Çarşı Sk. No:42, Muratpaşa. No end time or age limit is published. Check the linked source before travel."
 photos_official:
   - src: "/images/uploads/event-holly-stone-antalya.webp"
     credit: "antalyacityzone.com"
@@ -26,6 +26,8 @@ photos_official:
     alt: "Holly Stone Performance Hall Antalya, the event venue"
 ---
 **Ezginin Günlüğü** plays **Holly Stone Antalya** in Kaleiçi on **Wednesday 9 December 2026 at 21:00**.
+
+**Check before you buy:** on 15 November 2026 Biletix's Holly Stone page marked this date "İptal Edildi" (cancelled), while iTicket was still selling tickets. Confirm with the seller that the concert is going ahead.
 
 ## Who they are
 
