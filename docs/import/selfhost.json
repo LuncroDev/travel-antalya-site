@@ -142,5 +142,38 @@
    "https://usrerestoran.com/wp-content/uploads/2024/05/usre-2.webp",
    "https://usrerestoran.com/wp-content/uploads/2024/08/patlican.webp"
   ]
+ },
+ "hotels/xanadu-resort-belek": {
+  "page": "https://www.xanaduhotels.com.tr/en/xanadu-resort/activity",
+  "images": [
+   "https://www.xanaduhotels.com.tr/panel/uploads/panel/images/contents/718be264386eeca572fd0119eedd4f0b.jpg",
+   "https://www.xanaduhotels.com.tr/panel/uploads/panel/images/contents/341398dde99ae10033e167566f2dee95.jpg",
+   "https://www.xanaduhotels.com.tr/panel/uploads/panel/images/contents/779a38eb170853134244fd9216823809.jpg",
+   "https://www.xanaduhotels.com.tr/panel/uploads/panel/images/contents/cb01f03d35b77a2a7ce36ef8cb9b3e34.jpg",
+   "https://www.xanaduhotels.com.tr/panel/uploads/panel/images/contents/8d14375e44abf2b28d4098857bc4d2f5.jpg",
+   "https://www.xanaduhotels.com.tr/panel/uploads/panel/images/contents/1525b187a113523c6e8969cdc34ecf82.jpg",
+   "https://www.xanaduhotels.com.tr/panel/uploads/panel/images/rooms/b300697ef6fc30265c75c1c1a3090754.jpg",
+   "https://www.xanaduhotels.com.tr/panel/uploads/panel/images/rooms/9537ae95e860dfdea62d0c34abbcd30a.jpg"
+  ]
+ },
+ "hotels/crowne-plaza-antalya": {
+  "page": "https://www.ihg.com/crowneplaza/hotels/gb/en/antalya/aytya/hoteldetail",
+  "images": [
+   "https://digital.ihg.com/is/image/ihg/crowne-plaza-antalya-3077254678-4x3",
+   "https://digital.ihg.com/is/image/ihg/crowne-plaza-antalya-7714626890-4x3",
+   "https://digital.ihg.com/is/image/ihg/crowne-plaza-antalya-5572216414-4x3",
+   "https://digital.ihg.com/is/image/ihg/crowne-plaza-antalya-7620584414-4x3"
+  ]
+ },
+ "restaurants/alanya-kale-muhtarin-yeri": {
+  "page": "https://www.alanyakalemuhtarinyeri.com/galeri/",
+  "images": [
+   "https://www.alanyakalemuhtarinyeri.com/wp-content/uploads/2023/02/serpme-kahvalti.jpg",
+   "https://www.alanyakalemuhtarinyeri.com/wp-content/uploads/2023/02/alanya-kalesi.jpg",
+   "https://www.alanyakalemuhtarinyeri.com/wp-content/uploads/2023/02/alanya-kale.jpg",
+   "https://www.alanyakalemuhtarinyeri.com/wp-content/uploads/2023/02/alanya-castle.jpg",
+   "https://www.alanyakalemuhtarinyeri.com/wp-content/uploads/2023/02/kaburga.jpg",
+   "https://www.alanyakalemuhtarinyeri.com/wp-content/uploads/2023/02/levrek-fileto.jpg"
+  ]
  }
 }
