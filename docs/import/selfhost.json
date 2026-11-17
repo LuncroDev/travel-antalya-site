@@ -168,5 +168,29 @@
    "https://www.alanyakalemuhtarinyeri.com/wp-content/uploads/2023/02/serpme-kahvalti.jpg",
    "https://www.alanyakalemuhtarinyeri.com/wp-content/uploads/2023/02/alanya-kale.jpg"
   ]
+ },
+ "hotels/doubletree-by-hilton-antalya-kemer": {
+  "page": "https://www.hilton.com/nl/hotels/aytakdi-doubletree-antalya-kemer-all-inclusive-resort/",
+  "images": [
+   "https://assets.hiltonstatic.com/hilton-asset-cache/image/upload/c_fill,w_768,h_768,q_80,f_auto,g_auto/Imagery/Property%20Photography/MultiBrand/A/AYTAKDI/Beach_4.jpg",
+   "https://assets.hiltonstatic.com/hilton-asset-cache/image/upload/c_crop,w_4144,h_5303,q_80,f_auto,x_2589/Imagery/Property%20Photography/DoubleTree/A/AYTAKDI/Waterslides.jpg",
+   "https://assets.hiltonstatic.com/hilton-asset-cache/image/upload/c_fill,w_768,h_768,q_80,f_auto,g_auto/Imagery/Property%20Photography/DoubleTree%20Suites/A/AYTAKDI/Indoor_Pool.jpg",
+   "https://assets.hiltonstatic.com/hilton-asset-cache/image/upload/c_fill,w_640,h_890,q_80,f_auto,g_auto/Imagery/Property%20Photography/DoubleTree%20-%20International/A/AYTAKDI/DSC_0178.jpg"
+  ]
+ },
+ "hotels/liberty-lara": {
+  "page": "https://www.libertyhotels.com/?p=10073",
+  "images": [
+   "https://www.libertyhotels.com/wp-content/uploads/2023/07/liberty-lara-scaled.webp",
+   "https://www.libertyhotels.com/wp-content/uploads/2025/12/DSCF4268-scaled.jpg",
+   "https://www.libertyhotels.com/wp-content/uploads/2025/12/Liberty-Lara-Apollon-Adult-Pool.webp",
+   "https://www.libertyhotels.com/wp-content/uploads/2025/12/2TH04066-scaled-e1765454909407.jpg"
+  ]
+ },
+ "restaurants/kaleici-deli-divane": {
+  "page": "https://www.delidivanekaleici.com/",
+  "images": [
+   "https://www.delidivanekaleici.com/images/hakkimizda.jpg"
+  ]
  }
 }
