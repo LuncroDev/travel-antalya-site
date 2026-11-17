@@ -198,5 +198,32 @@
    "/images/uploads/venue-alanya-kale-muhtarin-yeri-4.jpg"
   ],
   "errors": []
+ },
+ "hotels/doubletree-by-hilton-antalya-kemer": {
+  "page": "https://www.hilton.com/nl/hotels/aytakdi-doubletree-antalya-kemer-all-inclusive-resort/",
+  "saved": [
+   "/images/uploads/venue-doubletree-by-hilton-antalya-kemer-1.webp",
+   "/images/uploads/venue-doubletree-by-hilton-antalya-kemer-2.webp",
+   "/images/uploads/venue-doubletree-by-hilton-antalya-kemer-3.webp",
+   "/images/uploads/venue-doubletree-by-hilton-antalya-kemer-4.webp"
+  ],
+  "errors": []
+ },
+ "hotels/liberty-lara": {
+  "page": "https://www.libertyhotels.com/?p=10073",
+  "saved": [
+   "/images/uploads/venue-liberty-lara-1.webp",
+   "/images/uploads/venue-liberty-lara-2.jpg",
+   "/images/uploads/venue-liberty-lara-3.webp",
+   "/images/uploads/venue-liberty-lara-4.jpg"
+  ],
+  "errors": []
+ },
+ "restaurants/kaleici-deli-divane": {
+  "page": "https://www.delidivanekaleici.com/",
+  "saved": [
+   "/images/uploads/venue-kaleici-deli-divane-1.jpg"
+  ],
+  "errors": []
  }
 }
