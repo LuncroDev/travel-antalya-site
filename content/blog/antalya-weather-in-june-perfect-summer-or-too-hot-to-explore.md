@@ -9,6 +9,8 @@ excerpt: >-
   for people who love sunshine, beaches, and beautiful sea views. Every year,…
 featured: false
 photo_id: commons-miracle-resort-hotel-2
+photo_exact: false
+photo_label: "Illustrative archive photo: Miracle Resort Hotel, March 2023; not a June weather observation."
 focus_keyword: antalya weather june
 inline_photos:
   - commons-tor-miracle-hotel

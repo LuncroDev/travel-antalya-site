@@ -49,7 +49,7 @@ test('every event has traceable review data and valid verified dates', () => {
     }
   }
   assert.ok(records.filter(data => eventStatus(data, '2026-11-09') === 'upcoming').length >= 50);
-  assert.deepEqual(records.filter(data => eventStatus(data, '2026-11-09') === 'current').map(data => data.title).sort(), ['COP31 Antalya', 'COP31 Antalya City Events 2026']);
+  assert.deepEqual(records.filter(data => eventStatus(data, '2026-11-09') === 'current').map(data => data.title).sort(), ['COP31 Antalya', 'COP31 Antalya City Events 2026', 'Edward Burtynsky: Shifting Topography']);
   assert.equal(records.filter(data => eventStatus(data, '2026-11-09') === 'archive').length, 3);
   assert.equal(records.filter(data => eventStatus(data, '2026-11-09') === 'awaiting').length, 4);
 });

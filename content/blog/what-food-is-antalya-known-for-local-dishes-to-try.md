@@ -43,7 +43,7 @@ Seafood is typically accompanied by fresh bread, crisp salads, and lemon wedges,
 Antalya’s local cuisine is not just about seafood; it also features many traditional Turkish dishes prepared in ways that are unique to this region.
 
 **Piyaz: The Antalya Salad**  
-One of the city’s most famous dishes is Piyaz, a white bean salad that stands out from versions in other parts of Turkey. Antalya-style Piyaz is made with tender white beans, fresh onions, tomatoes, and parsley, all dressed in olive oil and a sprinkle of sumac. It is often topped with boiled eggs for extra richness. Some restaurants add tahini or a dash of vinegar, giving the salad a slightly tangy flavor. Piyaz is usually served alongside grilled fish or meat, making it a light, refreshing, and healthy part of any meal.
+Antalya piyaz is a white-bean dish defined by its tahini-based tarator sauce, not an oil-and-sumac salad with optional tahini. The [Culture Portal description](https://www.kulturportali.gov.tr/portal/antalyapiyazi) describes small beans dressed with tahini, garlic, lemon juice and vinegar, finished with tomato, parsley and olive oil; onion and boiled egg are optional. See our [focused guide to Antalya piyaz](/blog/antalya-piyaz-tahini-bean-dish/) for ordering tips and a verified menu example. Checked 17 November 2026.
 
 **Kebabs and Meat Dishes**  
 Meat also plays a central role in Antalya’s cuisine. Local kebabs are typically made from lamb or beef and are grilled over charcoal, which gives them a distinct smoky aroma and flavor. Popular options include:
