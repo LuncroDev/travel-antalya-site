@@ -52,3 +52,29 @@ test('venue cards keep explicit area labels and property framing',()=>{
     doc.defaultView.close();
   }
 });
+
+test('event cards show a documented topic match or no image, never a generic fallback', () => {
+  const { eventPhoto } = require('../lib/ui');
+  const files = fs.readdirSync('content/events').filter(f => f.endsWith('.md'));
+  const events = files.map(f => matter(fs.readFileSync('content/events/' + f, 'utf8')).data);
+  const directory = new JSDOM(fs.readFileSync('_site/events/index.html', 'utf8')).window.document;
+  assert.equal(eventPhoto({ slug: 'generic', photo_id: 'kaleici-marina' }), null);
+  const cards = [...directory.querySelectorAll('article[data-event]')];
+  assert.equal(cards.length, events.length);
+  for (const card of cards) {
+    const href = card.querySelector('h3 a').getAttribute('href');
+    const d = events.find(e => e.slug === href.split('/')[2] || e.title === card.dataset.title);
+    assert.ok(d, href);
+    const exact = eventPhoto(d);
+    assert.equal(card.querySelector('.card-media a').getAttribute('href'), href);
+    assert.equal(card.querySelector('.card-media img')?.getAttribute('src') || null, exact ? opt(exact.src) : null, href);
+    if (exact) assert.ok(card.querySelector('.card-area')?.textContent.includes(exact.label), href);
+  }
+  for (const [slug, hasPhoto] of [['cop31-city-events-2026', true], ['altin-gun-konseri-2026-11-18-muratpasa', true], ['efkan-sesen-2026-12-08-muratpasa', false]]) {
+    const doc = new JSDOM(fs.readFileSync('_site/events/' + slug + '/index.html', 'utf8')).window.document;
+    assert.equal(!!doc.querySelector('.page-hero-media img'), hasPhoto, slug);
+    assert.ok(doc.querySelector('h1')?.textContent, slug);
+    doc.defaultView.close();
+  }
+  directory.defaultView.close();
+});

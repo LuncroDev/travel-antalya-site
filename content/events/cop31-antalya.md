@@ -14,6 +14,9 @@ verification_note: "Conference dates checked against UNFCCC; Green Zone access a
 start_date: "2026-11-09"
 end_date: "2026-11-20"
 district_slug: "aksu"
+photo_id: "commons-antalya-expo-2016-archive"
+event_photo_role: "named-site-archive"
+photo_label: "EXPO Antalya grounds in 2016 · archival view, not current conference imagery"
 photos_official:
   - src: "/images/uploads/event-anfas-expo-center.webp"
     credit: "azuuhotel.com"

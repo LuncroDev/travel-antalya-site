@@ -12,7 +12,7 @@ focus_keyword: things to do in antalya besides beaches
 photo_id: commons-termessos-theater
 inline_photos:
   - commons-termessos-theatre-2
-  - commons-termessos-odeon-interieur
+  - sight-termessos-2
 source_doc: >-
   https://docs.google.com/document/d/1gpr9UDOx5u_WeMLBqTVS4Ec8eYNvWW5_yNgfVJIPOwM/edit
 ---

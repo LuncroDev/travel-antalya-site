@@ -70,10 +70,10 @@ schema:
   <div class="container">
     {{ sectionHead('What’s on', 'Happening soon', '/events/', 'View all events', 'events-title') }}
     <div class="card-grid">
-      {% for e in upcoming %}{% set ph = e.data | cardPhoto(editorialPhotos) %}{% set md = e.data.start_date | monthDay %}
+      {% for e in upcoming %}{% set ph = e.data | eventPhoto(editorialPhotos) %}{% set md = e.data.start_date | monthDay %}
       <article class="card">
         <div class="card-media">
-          <a href="/events/{{ e.data.slug or (e.data.title | slugify) }}/" tabindex="-1" aria-hidden="true">{{ pic(ph.src, ph.alt, '(max-width: 700px) 92vw, 24vw', false, ph.width, ph.height) }}</a>
+          <a href="/events/{{ e.data.slug or (e.data.title | slugify) }}/" tabindex="-1" aria-hidden="true">{% if ph %}{{ pic(ph.src, ph.alt, '(max-width: 700px) 92vw, 24vw', false, ph.width, ph.height) }}{% else %}<span class="card-blank"></span>{% endif %}</a>
           <span class="date-badge"><small>{{ md.month }}</small><strong>{{ md.day }}</strong></span>
           {% if ph.label %}<span class="card-area">{{ icon('camera') }} {{ ph.label }}</span>{% elif ph.contextual %}<span class="card-area">{{ icon('camera') }} Area photo{% if e.data.neighborhood %} · {{ e.data.neighborhood }}{% endif %}</span>{% endif %}
           {{ credit(ph) }}

@@ -8,14 +8,14 @@ layout: base.njk
 eleventyExcludeFromCollections: true
 ---
 {% from 'ui.njk' import icon, pic, credit, card, wave %}
-{% set ev = event.data %}{% set hero = ev | cardPhoto(editorialPhotos) %}{% set md = ev.start_date | monthDay %}
+{% set ev = event.data %}{% set hero = ev | eventPhoto(editorialPhotos) %}{% set md = ev.start_date | monthDay %}
 <section class="page-hero">
-  <div class="page-hero-media">
+  {% if hero %}<div class="page-hero-media">
     {{ pic(hero.src, hero.alt, '100vw', true, hero.width, hero.height) }}
     {% if hero.label %}<span class="card-area" style="top:16px;bottom:auto;left:16px">{{ icon('camera') }} {{ hero.label }}</span>{% elif hero.contextual %}<span class="card-area" style="top:16px;bottom:auto;left:16px">{{ icon('camera') }} Area photo{% if ev.neighborhood %} · {{ ev.neighborhood }}{% endif %}</span>{% endif %}
     {{ credit(hero) }}
     {{ wave('var(--bg)') }}
-  </div>
+  </div>{% endif %}
   <div class="container page-hero-copy">
     <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span aria-hidden="true">/</span> <a href="/events/">Events</a> <span aria-hidden="true">/</span> <a href="/events/category/{{ ev.category | slugify }}/">{{ ev.category }}</a></nav>
     <p class="eyebrow">{{ ev.category }}</p>
@@ -49,7 +49,7 @@ eleventyExcludeFromCollections: true
   <div class="container">
     <div class="section-head"><div><p class="eyebrow">Also on</p><h2 id="more-ev">More events</h2></div><a class="btn btn-sm" href="/events/">All events</a></div>
     <div class="card-grid cols-3">
-      {% for o in collections.events | activeEvents(12) | except(ev.title, 3) %}{% if true %}{% set ph = o.data | cardPhoto(editorialPhotos) %}
+      {% for o in collections.events | activeEvents(12) | except(ev.title, 3) %}{% if true %}{% set ph = o.data | eventPhoto(editorialPhotos) %}
       {{ card('/events/' + (o.data.slug or (o.data.title | slugify)) + '/', ph, o.data.title, '', o.data.category + ' · ' + (o.data | eventDateLabel), '', '', '(max-width: 700px) 92vw, 32vw') }}
       {% endif %}{% endfor %}
     </div>

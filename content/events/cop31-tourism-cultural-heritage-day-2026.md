@@ -7,6 +7,7 @@ date_verified: true
 venue: "COP31 Green Zone, Antalya EXPO Center, Aksu"
 district_slug: "aksu"
 photo_id: "commons-antalya-expo-2016-archive"
+event_photo_role: "named-site-archive"
 photo_exact: false
 photo_label: "Archive venue grounds · EXPO 2016 Antalya; not a COP31 event photo"
 time_display: "13:00–17:15 (provisional)"

@@ -10,7 +10,7 @@ map_lat: 36.5239
 map_lng: 30.4297
 excerpt: "A cable car from the Kemer coast climbs to the top of Tahtalı Mountain, around 2,365 metres above sea level."
 featured: false
-photo_id: "tahtali-aerial-tram"
+photo_id: "commons-cable-car-antalya"
 photo_exact: true
 district_slug: "kemer"
 ---

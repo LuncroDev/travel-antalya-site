@@ -10,9 +10,9 @@ time_display: "09:00–22:00"
 admission_note: "Free admission according to Borusan Contemporary."
 source_name: "Borusan Contemporary"
 source_url: "https://www.borusancontemporary.com/en/cop31-edward-burtynsky-shifting-topography_2563"
-photo_id: "akra-exterior-2022"
-photo_exact: true
-photo_label: "Venue exterior · archival photograph, January 2022"
+photo_id: "ed-burtynsky-portrait-2009"
+event_photo_role: "performer-archive"
+photo_label: "Edward Burtynsky in 2009 · archive portrait, not the Akra exhibit"
 excerpt: "A COP31 exhibition of Edward Burtynsky’s photography and moving images at Akra Antalya, until 20 November 2026."
 verification_note: "The organizer confirms the dates, Side Ballroom, visiting hours and free admission. This is the Antalya presentation, not the Istanbul museum."
 date_verified: true
@@ -28,4 +28,4 @@ The COP31 selection includes twelve photographs from the artist’s *Erosion* se
 
 Follow the [organizer’s exhibition page](https://www.borusancontemporary.com/en/cop31-edward-burtynsky-shifting-topography_2563) for updates. Ask reception for the Side Ballroom on arrival at [Akra Antalya](/hotels/akra-hotel/). “Side” is the room name here, not an instruction to travel to Side town.
 
-**About the photograph:** the real venue exterior was photographed in January 2022 by Engin Akyurt, under the Pexels License. It is an archival reference, not a picture of this exhibition or evidence of the hotel’s current appearance.
+**About the photograph:** Better Than Bacon photographed Edward Burtynsky in March 2009. The portrait identifies the artist; it does not show the Akra exhibition or its artwork.

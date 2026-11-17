@@ -9,10 +9,7 @@ excerpt: >-
   Antalya, located on Turkey’s breathtaking Mediterranean coast, is famous not
   only for its crystal-clear turquoise waters, sun-soaked beaches, and historic…
 focus_keyword: antalya local food
-photo_id: commons-turkish-breakfast-in-rumelihisar
-inline_photos:
-  - commons-breakfast-meal-on-turkish-airlines
-  - commons-turkish-breakfast-photo1
+photo_id: antalya-piyaz-basak
 source_doc: >-
   https://docs.google.com/document/d/1xsbCXgUJqgPnqB9hlXi6EX-NuhoTc0Su3B2FAj0sE_g/edit
 ---

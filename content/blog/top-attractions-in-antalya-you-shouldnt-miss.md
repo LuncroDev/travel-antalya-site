@@ -12,8 +12,8 @@ excerpt: >-
 focus_keyword: antalya attractions
 photo_id: commons-perge-city-overview
 inline_photos:
-  - commons-stade-perge-avec-boutiques
-  - commons-perge-agora-marche-ok-3d
+  - perge-colonnade
+  - perge-theatre
 source_doc: >-
   https://docs.google.com/document/d/11Yo8196Azvpm8Rah5i6uczv6mDdCxx1CZhilI2MZ2aw/edit
 ---
