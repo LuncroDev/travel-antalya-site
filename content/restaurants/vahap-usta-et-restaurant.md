@@ -17,6 +17,7 @@ source_label: Official venue information
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
 photos_official:
   - src: "/images/uploads/venue-vahap-usta-et-restaurant-p01.webp"
+    alt: "Vahap Usta Et Restaurant in Konyaaltı"
     credit: "Tripadvisor listing photo"
     source: "https://www.tripadvisor.com/Restaurant_Review-g297962-d12341887-Reviews-Vahap_Usta_Et_Restaurant-Antalya_Turkish_Mediterranean_Coast.html"
   - src: "/images/uploads/venue-vahap-usta-et-restaurant-p02.webp"

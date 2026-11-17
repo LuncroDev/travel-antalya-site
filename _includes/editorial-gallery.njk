@@ -1,5 +1,5 @@
 {% set galleryPhotos = galleryItem | photoGallery(editorialPhotos) %}
-{% if galleryPhotos.length %}
+{% if galleryPhotos.length and (kind != 'restaurant' or (not galleryPhotos[0].contextual and not galleryItem.identity_unverified)) %}
 <section class="editorial-gallery" aria-label="Photographs and credits">
   <h2>{% if galleryPhotos[0].contextual %}Around the area{% else %}Photos{% endif %}</h2>
   <p class="gallery-context">{% if galleryPhotos[0].contextual %}Credited photos of the surrounding area — not of this venue or event.{% else %}Dated archival photos of the property; facilities and branding may have changed.{% endif %}</p>

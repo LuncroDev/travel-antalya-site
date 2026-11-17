@@ -87,3 +87,27 @@ test('homepage keeps working search, one h1 and the six interest links', () => {
   assert.ok(doc.querySelector('link[href^="/css/site.css"]'));
   assert.ok(doc.querySelector('.site-footer img[src="/images/logo-white-520.webp"]'), 'footer logo is the white version');
 });
+
+test('homepage restaurant thumbnails depict and link to their own venue', () => {
+  const matter = require('gray-matter');
+  const { matchedVenuePhoto, opt } = require('../lib/ui');
+  const doc = page();
+  const cards = [...doc.querySelectorAll('main section[aria-labelledby="eat-title"] article.card')];
+  const restaurants = fs.readdirSync('content/restaurants').filter(f => f.endsWith('.md')).map(f => (
+    matter(fs.readFileSync('content/restaurants/' + f, 'utf8')).data
+  ));
+  assert.equal(cards.length, 4);
+  assert.equal(matchedVenuePhoto({ slug: 'unrelated', photo_id: 'kaleici-marina', photo_exact: true }, photos), null);
+  assert.equal(matchedVenuePhoto({ slug: 'another-venue', cover: '/images/photos/antalya-beach-drone.jpg' }, photos), null);
+  for (const card of cards) {
+    const href = card.querySelector('h3 a').getAttribute('href');
+    assert.equal(card.querySelector('.card-media a').getAttribute('href'), href);
+    const slug = href.split('/')[2];
+    const venue = restaurants.find(r => r.slug === slug);
+    assert.ok(venue, slug);
+    const exact = matchedVenuePhoto(venue, photos);
+    assert.equal(card.querySelector('img')?.getAttribute('src') || null, exact ? opt(exact.src) : null, slug);
+  }
+  const hotelOnly = restaurants.find(r => r.slug === '4-kose-restaurant-konyaalti');
+  assert.equal(matchedVenuePhoto(hotelOnly, photos), null);
+});

@@ -1,7 +1,8 @@
 {# Shared detail layout for hotels, restaurants and golf clubs.
    Expects: v (item.data), body (rendered content), kind, listHref, listLabel, kindIcon, officialLabel #}
 {% from 'ui.njk' import icon, pic, credit, card %}
-{% set gallery = v | photoGalleryFor(editorialPhotos) %}
+{% if kind == 'restaurant' %}{% set gallery = v | matchedVenuePhotos(editorialPhotos) %}{% else %}{% set gallery = v | photoGalleryFor(editorialPhotos) %}{% endif %}
+{% if gallery.length %}
 <section class="detail-hero">
   <div class="container" style="padding:0">
     <div class="detail-gallery{% if gallery.length < 3 %} single{% endif %}">
@@ -17,6 +18,7 @@
     </div>
   </div>
 </section>
+{% endif %}
 
 <div class="container detail-head">
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span aria-hidden="true">/</span> <a href="{{ listHref }}">{{ listLabel }}</a> <span aria-hidden="true">/</span> <span aria-current="page">{{ v.title }}</span></nav>
@@ -79,7 +81,7 @@
   <div class="container">
     <div class="section-head"><div><p class="eyebrow">Keep exploring</p><h2 id="related-title">{{ {hotel: 'More stays to compare', golf: 'More golf clubs', restaurant: 'More places to eat'}[kind] }}</h2></div></div>
     <div class="card-grid cols-3">
-      {% for o in related %}{% set ph = o.data | cardPhoto(editorialPhotos) %}
+      {% for o in related %}{% if kind == 'restaurant' %}{% set ph = o.data | matchedVenuePhoto(editorialPhotos) %}{% else %}{% set ph = o.data | cardPhoto(editorialPhotos) %}{% endif %}
       {{ card(listHref + (o.data.slug or (o.data.title | slugify)) + '/', ph, o.data.title, o.data.excerpt | shorten(110), o.data.neighborhood, '', '', '(max-width: 700px) 92vw, 32vw') }}
       {% endfor %}
     </div>

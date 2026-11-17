@@ -151,7 +151,7 @@ schema:
   <div class="container">
     {{ sectionHead('Antalya at the table', 'Stay for one more course', '/restaurants/', 'All restaurants', 'eat-title') }}
     <div class="card-grid">
-      {% for r in collections.restaurants | pickByArea(4) %}{% set ph = r.data | cardPhoto(editorialPhotos) %}
+      {% for r in collections.restaurants | pickByArea(4) %}{% set ph = r.data | matchedVenuePhoto(editorialPhotos) %}
       {{ card('/restaurants/' + (r.data.slug or (r.data.title | slugify)) + '/', ph, r.data.title, r.data.excerpt | shorten(100), r.data.category) }}
       {% endfor %}
     </div>

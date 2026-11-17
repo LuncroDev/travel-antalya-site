@@ -2,15 +2,15 @@
 const test=require('node:test'), assert=require('node:assert/strict'), fs=require('node:fs');
 const {JSDOM}=require('jsdom');
 const matter=require('gray-matter');
-const {photoGalleryFor,cardPhoto,opt}=require('../lib/ui');
+const {photoGalleryFor,cardPhoto,matchedVenuePhotos,matchedVenuePhoto,opt}=require('../lib/ui');
 const pending=require('../docs/import/official-photo-pending.json').venues;
 test('all remediated heroes use the documented replacement and clear captions',()=>{
   for(const key of Object.keys(pending)) {
     const data=matter(fs.readFileSync(pending[key].source_file,'utf8')).data;
-    const expected=photoGalleryFor(data).slice(0,3);
+    const expected=(key.startsWith('restaurants/') ? matchedVenuePhotos(data) : photoGalleryFor(data)).slice(0,3);
     const doc=new JSDOM(fs.readFileSync('_site/'+key+'/index.html','utf8')).window.document;
     const figures=[...doc.querySelectorAll('.detail-gallery figure')];
-    assert.equal(figures.length,expected.length<3?1:3,key);
+    assert.equal(figures.length,expected.length<3?Math.min(expected.length,1):3,key);
     for(let i=0;i<figures.length;i++) {
       const f=figures[i], p=expected[i], img=f.querySelector('img');
       assert.equal(img.getAttribute('src'),opt(p.src,i===0?1280:640),key);
@@ -39,7 +39,13 @@ test('venue cards keep explicit area labels and property framing',()=>{
     const doc=new JSDOM(fs.readFileSync('_site/'+kind+'/index.html','utf8')).window.document;
     for(const card of doc.querySelectorAll('[data-hotel], [data-venue]')) {
       const slug=card.querySelector('h3 a').getAttribute('href').split('/')[2];
-      const data=fs.readdirSync('content/'+kind).filter(f=>f.endsWith('.md')).map(f=>matter(fs.readFileSync(`content/${kind}/${f}`,'utf8')).data).find(p=>p.slug===slug),p=cardPhoto(data);
+      const data=fs.readdirSync('content/'+kind).filter(f=>f.endsWith('.md')).map(f=>matter(fs.readFileSync(`content/${kind}/${f}`,'utf8')).data).find(p=>p.slug===slug),p=kind==='restaurants' ? matchedVenuePhoto(data) : cardPhoto(data);
+      if(kind==='restaurants') {
+        assert.equal(card.querySelector('.row-card-media a').getAttribute('href'),card.querySelector('h3 a').getAttribute('href'),slug);
+        assert.equal(card.querySelector('img')?.getAttribute('src') || null,p ? opt(p.src) : null,slug);
+        if (!p) continue;
+        assert.equal(!!p.contextual,false,slug);
+      }
       if(p.contextual){assert.ok(card.querySelector('.card-area').textContent.includes(p.caption),slug);assert.match(card.querySelector('.card-area').textContent,/not the venue/);}
       if(p.preserve_framing){assert.equal(card.querySelector('img').style.objectFit,'contain',slug);assert.equal(card.querySelector('img').style.transform,'none',slug);}
     }

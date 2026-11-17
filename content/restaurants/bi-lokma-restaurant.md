@@ -15,6 +15,7 @@ source_label: "Official venue information"
 michelin_note: "No verified Michelin distinction for this Antalya venue in the 2026 selection."
 photos_official:
   - src: "/images/uploads/venue-bi-lokma-restaurant-p01.webp"
+    alt: "Bi Lokma Restaurant in Kaş"
     credit: "Tripadvisor listing photo"
     source: "https://www.tripadvisor.com/LocationPhotoDirectLink-g297965-d1788488-i137228533-Bi_Lokma_Restaurant-Kas_Turkish_Mediterranean_Coast.html"
 photo_source: "https://www.tripadvisor.com/LocationPhotoDirectLink-g297965-d1788488-i137228533-Bi_Lokma_Restaurant-Kas_Turkish_Mediterranean_Coast.html"

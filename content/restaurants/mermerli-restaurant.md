@@ -18,6 +18,7 @@ source_label: Official venue information
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
 photos_official:
   - src: "/images/uploads/venue-mermerli-restaurant-p01.webp"
+    alt: "Mermerli Restaurant in Kaleiçi"
     credit: "dugunbuketi.com"
     source: "https://dugunbuketi.com/fiyati/mermerli-restaurant-nikah-sonrasi-yemek-mekanlari-muratpasa-antalya"
   - src: "/images/uploads/venue-mermerli-restaurant-p02.webp"

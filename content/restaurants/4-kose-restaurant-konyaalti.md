@@ -15,6 +15,10 @@ source_label: "Official venue information"
 michelin_note: "No verified Michelin distinction for this Antalya venue in the 2026 selection."
 photos_official:
   - src: "/images/uploads/venue-4-kose-restaurant-konyaalti-p01.webp"
+    photo_role: "host-building"
+    alt: "Exterior of Four Hills Hotel, the building that houses 4 Köşe Restaurant"
+    caption: "Four Hills Hotel exterior, not the restaurant dining room"
+    label: "Host building exterior"
 photo_source: "https://4koserestaurant.com/"
 ---
 4 Köşe is an evening restaurant in Konyaaltı built around long shared tables. Its own pages say it sits inside the Four Hills Hotel and describe its food as modern Mediterranean, served with signature cocktails. The motto on the site is "long tables, endless conversations", and the place is set up for groups as much as couples.

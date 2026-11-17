@@ -16,6 +16,7 @@ source_label: Official venue information
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
 photos_official:
   - src: "/images/uploads/venue-villa-okan-cafe-restaurant-p01.webp"
+    alt: "Villa Okan Cafe and Restaurant in Alanya"
     credit: "culinaryheritage.net"
     source: "https://www.culinaryheritage.net/post/vi%CC%87lla-okan-restoran-a-timeless-taste-of-alanya-s-culinary-soul"
   - src: "/images/uploads/venue-villa-okan-cafe-restaurant-p02.webp"
