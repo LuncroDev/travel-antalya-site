@@ -3139,6 +3139,69 @@
       "src": "/images/uploads/venue-cornelia-golf-club-p01.webp",
       "source_page": "https://www.corneliaresort.com/EN/Cornelia-Golf-Club/about-course",
       "accepted_on": "2026-11-16"
+    },
+    {
+      "venue_slug": "doubletree-by-hilton-antalya-kemer",
+      "venue_title": "DoubleTree by Hilton Antalya-Kemer All-Inclusive Resort",
+      "src": "/images/uploads/venue-doubletree-by-hilton-antalya-kemer-1.webp",
+      "source_page": "https://www.hilton.com/nl/hotels/aytakdi-doubletree-antalya-kemer-all-inclusive-resort/",
+      "accepted_on": "2026-11-17"
+    },
+    {
+      "venue_slug": "doubletree-by-hilton-antalya-kemer",
+      "venue_title": "DoubleTree by Hilton Antalya-Kemer All-Inclusive Resort",
+      "src": "/images/uploads/venue-doubletree-by-hilton-antalya-kemer-2.webp",
+      "source_page": "https://www.hilton.com/nl/hotels/aytakdi-doubletree-antalya-kemer-all-inclusive-resort/",
+      "accepted_on": "2026-11-17"
+    },
+    {
+      "venue_slug": "doubletree-by-hilton-antalya-kemer",
+      "venue_title": "DoubleTree by Hilton Antalya-Kemer All-Inclusive Resort",
+      "src": "/images/uploads/venue-doubletree-by-hilton-antalya-kemer-3.webp",
+      "source_page": "https://www.hilton.com/nl/hotels/aytakdi-doubletree-antalya-kemer-all-inclusive-resort/",
+      "accepted_on": "2026-11-17"
+    },
+    {
+      "venue_slug": "doubletree-by-hilton-antalya-kemer",
+      "venue_title": "DoubleTree by Hilton Antalya-Kemer All-Inclusive Resort",
+      "src": "/images/uploads/venue-doubletree-by-hilton-antalya-kemer-4.webp",
+      "source_page": "https://www.hilton.com/nl/hotels/aytakdi-doubletree-antalya-kemer-all-inclusive-resort/",
+      "accepted_on": "2026-11-17"
+    },
+    {
+      "venue_slug": "liberty-lara",
+      "venue_title": "Liberty Lara",
+      "src": "/images/uploads/venue-liberty-lara-1.webp",
+      "source_page": "https://www.libertyhotels.com/?p=10073",
+      "accepted_on": "2026-11-17"
+    },
+    {
+      "venue_slug": "liberty-lara",
+      "venue_title": "Liberty Lara",
+      "src": "/images/uploads/venue-liberty-lara-2.jpg",
+      "source_page": "https://www.libertyhotels.com/?p=10073",
+      "accepted_on": "2026-11-17"
+    },
+    {
+      "venue_slug": "liberty-lara",
+      "venue_title": "Liberty Lara",
+      "src": "/images/uploads/venue-liberty-lara-3.webp",
+      "source_page": "https://www.libertyhotels.com/?p=10073",
+      "accepted_on": "2026-11-17"
+    },
+    {
+      "venue_slug": "liberty-lara",
+      "venue_title": "Liberty Lara",
+      "src": "/images/uploads/venue-liberty-lara-4.jpg",
+      "source_page": "https://www.libertyhotels.com/?p=10073",
+      "accepted_on": "2026-11-17"
+    },
+    {
+      "venue_slug": "kaleici-deli-divane",
+      "venue_title": "Kaleiçi Deli Divane",
+      "src": "/images/uploads/venue-kaleici-deli-divane-1.jpg",
+      "source_page": "https://www.delidivanekaleici.com/",
+      "accepted_on": "2026-11-17"
     }
   ]
 }

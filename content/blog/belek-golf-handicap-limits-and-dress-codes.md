@@ -99,7 +99,7 @@ Belek clubs are set up for learners, but the championship courses expect proof o
 
 1. **Book a beginners' course first.** National runs a six-day intensive course of 12 lessons, maximum four people per group, with a certificate at the end. It doesn't say whether that certificate gets you onto the course.
 2. **Ask about Gloria's route.** Its academy certificate after eight hours of lessons, and the course time in its beginners' package, make it the clearest path for a first-timer.
-3. **Use a nine-hole or academy course.** Gloria's Verde is a nine-hole course with the same published limits. Our [beginners' guide](/blog/belek-golf-for-beginners/) compares lesson prices.
+3. **Use a nine-hole or academy course.** Gloria's Verde is a nine-hole course with the same published limits. Our [beginners' guide](/blog/belek-golf-for-beginners/) explains the steps, and [golf lessons in Belek](/blog/golf-lessons-in-belek-prices/) compares lesson prices.
 
 ## Juniors and families
 

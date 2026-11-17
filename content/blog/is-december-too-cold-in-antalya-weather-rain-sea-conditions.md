@@ -81,7 +81,7 @@ Antalya offers rich cultural experiences even in December. While the summer fest
 
 * **Historical tours:** Ancient sites, museums, and landmarks remain open, allowing for quiet and unhurried exploration.
 
-* **Winter festivals and events:** Some hotels and public venues host Christmas or New Year celebrations, adding a festive and lively charm to your visit.
+* **Winter festivals and events:** Some hotels and public venues host Christmas or New Year celebrations; see [Christmas in Antalya](/blog/christmas-in-antalya/) for what is confirmed this year.
 
 These cultural experiences are easier to enjoy in December, as the smaller number of tourists makes sightseeing, shopping, and attending events more relaxed and personal.
 
