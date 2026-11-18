@@ -639,3 +639,15 @@ html.lb-open{overflow:hidden}
 .ta-pin svg { width: 18px; height: 18px; display: block; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .ta-k-history { background: #8B5E3C; } .ta-k-nature { background: #2E8B57; } .ta-k-adventure { background: #7B4BC4; }
 .ta-k-beach { background: #12A39A; } .ta-k-hotel { background: #0077B8; } .ta-k-food { background: #C2410C; } .ta-k-golf { background: #3B7A2A; } .ta-k-thing { background: var(--orange); }
+
+/* ---- Instagram mosaic ---- */
+.social-mosaic { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 18px; }
+.social-mosaic::after { content: ''; flex-grow: 1e4; }
+.social-tile { position: relative; display: block; overflow: hidden; border-radius: 14px; background: var(--sky); min-width: 120px; }
+.social-tile i { display: block; }
+.social-tile img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .35s; }
+.social-tile:hover img, .social-tile:focus-visible img { transform: scale(1.05); }
+.social-tile .ig { position: absolute; top: 10px; left: 10px; width: 22px; height: 22px; fill: none; stroke: #fff; stroke-width: 1.8; filter: drop-shadow(0 1px 2px rgba(0,0,0,.5)); }
+.social-tile .who { position: absolute; left: 0; right: 0; bottom: 0; padding: 22px 10px 8px; font-size: .8rem; color: #fff; background: linear-gradient(transparent, rgba(0,0,0,.6)); opacity: 0; transition: opacity .2s; }
+.social-tile:hover .who, .social-tile:focus-visible .who { opacity: 1; }
+.social-note { font-size: .8rem; color: #5b6b78; margin-top: 12px; }

@@ -1,7 +1,7 @@
 'use strict';
 // Weekly: pulls recent public #antalya posts with Apify's apify/instagram-scraper,
-// filters them, and writes only post LINKS to _data/instagram.json.
-// The site shows them with Instagram's own embed, so images stay on Instagram.
+// filters them, and writes thumbnails + links to _data/instagram.json.
+// Each post is saved as a small thumbnail (images/social) that links back to the original post, with the author's handle.
 // Needs env APIFY_TOKEN. Optional: IG_HASHTAG (default antalya), IG_LIMIT (default 60).
 const fs = require('node:fs');
 const token = process.env.APIFY_TOKEN;
@@ -9,6 +9,8 @@ if (!token) { console.error('APIFY_TOKEN is not set'); process.exit(1); }
 const tag = (process.env.IG_HASHTAG || 'antalya').replace(/^#/, '');
 const limit = Number(process.env.IG_LIMIT || 60);
 const OUT = '_data/instagram.json';
+const IMG_DIR = 'images/social';
+const sharp = require('sharp');
 
 // Caption words that keep a post out (adult / spam). Images are NOT inspected.
 const BLOCK = /(\bnsfw\b|\bnude|\bnaked|\bporn|\bxxx\b|\bsex(y|i)?\b|\berotic|\bonlyfans|\bescort|\bfetish|\blingerie|\bbikini\s*model|\bçıplak|\bporno|\bseks|\berotik|\bescort|\bmasaj\s*salon|\bsüt\s*sağ|\bcasino|\bbahis|\bbet\b|\bbetting|\bviagra|\bdating|\bhot\s*girl)/i;
@@ -28,12 +30,28 @@ const BLOCK = /(\bnsfw\b|\bnude|\bnaked|\bporn|\bxxx\b|\bsex(y|i)?\b|\berotic|\b
     if (BLOCK.test(caption)) continue;
     if ((it.hashtags || []).length > 25) continue;           // hashtag-stuffing spam
     if (it.isSponsored || it.paidPartnership) continue;
+    const img = it.displayUrl || (it.images && it.images[0]);
+    if (!img) continue;
     seen.add(code);
-    posts.push({ code, url: `https://www.instagram.com/${it.type === 'Video' && /\/reel\//.test(it.url || '') ? 'reel' : 'p'}/${code}/`, likes: Number(it.likesCount) || 0 });
+    posts.push({ code, img, user: it.ownerUsername || '', url: `https://www.instagram.com/${/\/reel\//.test(it.url || '') ? 'reel' : 'p'}/${code}/`, likes: Number(it.likesCount) || 0 });
   }
   posts.sort((a, b) => b.likes - a.likes);
-  const keep = posts.slice(0, 12).map(({ code, url }) => ({ code, url }));
+  fs.mkdirSync(IMG_DIR, { recursive: true });
+  const keep = [];
+  for (const p of posts) {
+    if (keep.length >= 18) break;
+    try {
+      const r = await fetch(p.img, { signal: AbortSignal.timeout(30000) });
+      if (!r.ok) continue;
+      const buf = Buffer.from(await r.arrayBuffer());
+      const out = await sharp(buf).resize({ width: 640, withoutEnlargement: true }).webp({ quality: 78 }).toBuffer({ resolveWithObject: true });
+      fs.writeFileSync(`${IMG_DIR}/${p.code}.webp`, out.data);
+      keep.push({ code: p.code, url: p.url, user: p.user, img: `/${IMG_DIR}/${p.code}.webp`, w: out.info.width, h: out.info.height });
+    } catch (e) { console.error('skip', p.code, e.message); }
+  }
   if (!keep.length) { console.error('No usable posts; keeping the previous file.'); process.exit(0); }
+  const names = new Set(keep.map(k => `${k.code}.webp`));
+  for (const f of fs.readdirSync(IMG_DIR)) if (!names.has(f)) fs.unlinkSync(`${IMG_DIR}/${f}`);
   fs.writeFileSync(OUT, JSON.stringify({ tag, updated: new Date().toISOString().slice(0, 10), posts: keep }, null, 2) + '\n');
   console.log(`Wrote ${keep.length} posts (from ${items.length}) to ${OUT}`);
 })().catch(e => { console.error(e); process.exit(1); });
