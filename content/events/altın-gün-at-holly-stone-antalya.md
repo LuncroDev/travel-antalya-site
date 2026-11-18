@@ -19,6 +19,18 @@ photos_official:
     label: "Venue photo · Holly Stone Performance Hall Antalya"
     caption: "Holly Stone Performance Hall Antalya"
     alt: "Holly Stone Performance Hall Antalya, the event venue"
+  - src: "/images/uploads/venue-altın-gün-at-holly-stone-antalya-g01.webp"
+    credit: "sondakika.com"
+    source: "https://www.sondakika.com/dunya/haber-altin-gun-anadolu-rock-ve-folk-muzigini-dunyaya-12438736/"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Altın Gün at Holly Stone Antalya — Archive photo of the performer"
+  - src: "/images/uploads/venue-altın-gün-at-holly-stone-antalya-g02.webp"
+    credit: "stubhub.com"
+    source: "https://www.stubhub.com/altin-gun-tickets/category/138283311/beograd-city/63168"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Altın Gün at Holly Stone Antalya — Archive photo of the performer"
 ---
 ---
 This legacy listing is retained so existing links continue to work. Earlier dates came from third-party listings and could not be consistently confirmed in the current ticket-calendar review.

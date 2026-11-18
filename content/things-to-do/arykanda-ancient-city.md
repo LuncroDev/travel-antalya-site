@@ -9,6 +9,28 @@ district_slug: "finike"
 featured: false
 source_urls: ["https://muze.gov.tr/muze-detay?sectionId=ARY01&distId=MRK","https://muze.gov.tr/s3/MysFileLibrary/Antalya%20Arykanda%20%C3%96ren%20Yeri-fa1ec6d4-4942-4607-bf2c-69ec73d471c1.pdf","https://muze.gov.tr/document/bakanlik_yonergesi_tr.pdf","https://muze.gov.tr/s3/MysFileLibrary/c3eae321-aaea-4bdc-af6f-ff8419b6d1f0.pdf","https://www.turkishmuseums.com/museum/detail/1962-antalya-arykanda-archaeological-site/1962/4","https://ktb.gov.tr/EN-36134/where-to-visit.html","https://kvmgm.ktb.gov.tr/TR-449007/bazi-muze-ve-oren-yerlerinin-1-mayis---1-ekim-2026-tarihleri-arasinda-ziyaret-saatlerinin-listede-belirtilen-sekilde-uzatilarak-ziyarete-acik-tutulmasi.html","https://antalya.ktb.gov.tr/Eklenti/8685,67-dundenbuguneantalya-1cilt-finikepdf.pdf","https://bozok.edu.tr/okul/fas/bolum/arkeoloji-bolumu/sayfa/excavation-projects/6065"]
 last_checked: "2026-11-11"
+photos_official:
+  - src: "/images/uploads/venue-arykanda-ancient-city-g01.webp"
+    credit: "Dosseman / Wikimedia Commons"
+    source: "https://commons.wikimedia.org/wiki/File:Arykanda_State_Agora_from_Prytaneion_4986.jpg"
+    caption: "Arykanda Ancient City"
+    alt: "Arykanda Ancient City"
+    license: "CC BY-SA 4.0"
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  - src: "/images/uploads/venue-arykanda-ancient-city-g02.webp"
+    credit: "Dosseman / Wikimedia Commons"
+    source: "https://commons.wikimedia.org/wiki/File:Arycanda_Trajaneum_3893_panorama.jpg"
+    caption: "Arykanda Ancient City"
+    alt: "Arykanda Ancient City"
+    license: "CC BY-SA 4.0"
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  - src: "/images/uploads/venue-arykanda-ancient-city-g03.webp"
+    credit: "Dosseman / Wikimedia Commons"
+    source: "https://commons.wikimedia.org/wiki/File:Arycanda_Theatre_3889.jpg"
+    caption: "Arykanda Ancient City"
+    alt: "Arykanda Ancient City"
+    license: "CC BY-SA 4.0"
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0"
 ---
 Arykanda is a Lycian city inland from the coast, and a rewarding detour for anyone driving between Antalya and Kaş. It sits on a steep slope at the foot of the Şahinkaya cliff, above the village of Arif on the road from Finike to Elmalı, and its buildings climb the hillside in terraces. The setting is the point: a mountain slope, with ruins you reach on foot, one level at a time. Entry is free.
 

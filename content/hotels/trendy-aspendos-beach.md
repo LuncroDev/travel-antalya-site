@@ -18,6 +18,21 @@ booking_note: The name does not place the hotel at Aspendos Theatre. Plan archae
 photos_official:
   - src: "/images/uploads/venue-trendy-aspendos-beach-p01.webp"
   - src: "/images/uploads/venue-trendy-aspendos-beach-p02.webp"
+  - src: "/images/uploads/venue-trendy-aspendos-beach-g01.webp"
+    credit: "trendy.com.tr"
+    source: "https://trendy.com.tr/en/trendy-aspendos-beach/"
+    caption: "Trendy Aspendos Beach"
+    alt: "Trendy Aspendos Beach"
+  - src: "/images/uploads/venue-trendy-aspendos-beach-g02.webp"
+    credit: "trendy.com.tr"
+    source: "https://trendy.com.tr/en/trendy-aspendos-beach/"
+    caption: "Trendy Aspendos Beach"
+    alt: "Trendy Aspendos Beach"
+  - src: "/images/uploads/venue-trendy-aspendos-beach-g03.webp"
+    credit: "trendy.com.tr"
+    source: "https://trendy.com.tr/en/trendy-aspendos-beach/"
+    caption: "Trendy Aspendos Beach"
+    alt: "Trendy Aspendos Beach"
 photo_source: "https://trendy.com.tr/en/trendy-aspendos-beach/"
 ---
 The Aspendos Beach property is in Gündoğdu, west of Side, with an architectural theme inspired by the ancient region. Its official address is Barbaros Sokak No:9 in Manavgat.

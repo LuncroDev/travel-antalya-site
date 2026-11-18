@@ -15,6 +15,19 @@ excerpt: "Day 3 of the Women's EHF EURO 2026 Group C programme at Antalya Sports
 tagline: "Day 3 of the Women's EHF EURO 2026 Group C programme at Antalya Sports Hall, with Türkiye, Denmark, Spain and Greece in the group."
 time_display: "18:30"
 verification_note: "Full date, year, time and venue are explicit on the official Biletix event page. This is one ticketed matchday session, not a separately counted combined pass. Individual match times and opponents were not verified."
+photos_official:
+  - src: "/images/uploads/venue-womens-ehf-euro-2026-day-3-g01.webp"
+    credit: "gazeteoksijen.com"
+    source: "https://gazeteoksijen.com/spor/a-milli-kadin-hentbol-takimi-avrupa-sampiyonasina-maglubiyetle-basladi-229308"
+    label: "Photo from a previous edition"
+    caption: "Photo from a previous edition"
+    alt: "Women's EHF EURO 2026 – Day 3 — Photo from a previous edition"
+  - src: "/images/uploads/venue-womens-ehf-euro-2026-day-3-g02.webp"
+    credit: "biletix.com"
+    source: "https://www.biletix.com/etkinlik/5FIT3/TURKIYE/tr/kadinlar-avrupa-hentbol-sampiyonasi-2026-3-gun-07-12-2026-antalya"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Women's EHF EURO 2026 – Day 3 — Event announcement image"
 ---
 Day 3 of the Women's EHF EURO 2026 Group C programme at Antalya Sports Hall, with Türkiye, Denmark, Spain and Greece in the group.
 

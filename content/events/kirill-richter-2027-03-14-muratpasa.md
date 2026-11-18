@@ -17,6 +17,19 @@ excerpt: "Neoclassical composer and pianist Kirill Richter presents his album To
 tagline: "A Sunday-evening piano concert of new neoclassical music at the Atatürk Kültür Merkezi."
 admission_note: "Biletix says seats are assigned, no one is admitted once the concert starts, food, drink and cameras are not allowed, and tickets cannot be refunded or exchanged. No age limit is published."
 verification_note: "The Biletix event page shows 'Mar 14, 2027•20:00' at Atatürk Culture Center - Aspendos Saloon, and its address carries 14-03-2027. The Biletix venue page lists the concert on Sunday 14 March 2027 at 20:00. No running time or full programme is published. The event page also calls this his first performance in Türkiye; other listings show a 2026 concert in Ankara, so we do not repeat that line. Checked 11 November 2026."
+photos_official:
+  - src: "/images/uploads/venue-kirill-richter-2027-03-14-muratpasa-g01.webp"
+    credit: "legenda-digital.ru"
+    source: "https://legenda-digital.ru/cases/richter/"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Kirill Richter: Towards the Beloved City — Archive photo of the performer"
+  - src: "/images/uploads/venue-kirill-richter-2027-03-14-muratpasa-g02.webp"
+    credit: "biletix.com"
+    source: "https://www.biletix.com/etkinlik/6WEM0/TURKIYE/en/kirill-richter-towards-the-belove-14-03-2027-antalya"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Kirill Richter: Towards the Beloved City — Event announcement image"
 ---
 Composer and pianist **Kirill Richter** brings his album *Towards the Beloved City* to the **Aspendos hall of the Atatürk Kültür Merkezi (AKM)** on **Sunday 14 March 2027 at 20:00**.
 

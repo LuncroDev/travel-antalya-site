@@ -17,6 +17,13 @@ excerpt: "A Turkish pop night at The Sponge in Konyaaltı on Sunday 13 December 
 tagline: "A late Sunday line-up of Turkish pop names at a Konyaaltı concert hall."
 admission_note: "The Biletix page shows an 'Event Rules' heading with no text and publishes no age limit. Ask before bringing under-18s to a 22:00 show."
 verification_note: "The Biletix event page shows 'Dec 13, 2026 • 22:00' at The Sponge Performance Hall, and the venue page lists the concert on Sunday 13 December 2026 at 22:00. Ümit Sayın is named in the event title but not in the page's artist list. No end time, running order or age limit is published. Checked 10 November 2026."
+photos_official:
+  - src: "/images/uploads/venue-turkce-pop-fest-2026-12-13-konyaalti-g01.webp"
+    credit: "biletix.com"
+    source: "https://www.biletix.com/etkinlik/5SPB1/ANTALYA/en/music-turkce-pop-fest-celik-reyhan-karaca-mansur-ark-umit-sayin-dj-hakan-kufundur-13-12-2026-antalya"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Türkçe Pop Fest — Event announcement image"
 ---
 **Türkçe Pop Fest** ("Turkish Pop Fest") comes to **The Sponge Performance Hall** in Konyaaltı on **Sunday 13 December 2026 at 22:00**.
 

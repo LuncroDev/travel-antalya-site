@@ -26,6 +26,22 @@ source_urls:
 last_checked: "2026-11-11"
 excerpt: "A year-round all-inclusive resort in Belek: a 270 m sandy beach and pier, heated indoor and outdoor pools, the Elazen Spa and Everland Kids World."
 booking_note: "Suite sizes and kids' club age bands differ between the website and the factsheet, and which à la carte restaurants cost extra changes by season. Confirm them for your dates."
+photos_official:
+  - src: "/images/uploads/venue-ela-excellence-resort-belek-g01.webp"
+    credit: "elahotels.com"
+    source: "https://www.elahotels.com/en/our-hotels/ela-excellence-resort-belek/gallery/"
+    caption: "Ela Excellence Resort Belek"
+    alt: "Ela Excellence Resort Belek"
+  - src: "/images/uploads/venue-ela-excellence-resort-belek-g02.webp"
+    credit: "elahotels.com"
+    source: "https://www.elahotels.com/en/our-hotels/ela-excellence-resort-belek/"
+    caption: "Ela Excellence Resort Belek"
+    alt: "Ela Excellence Resort Belek"
+  - src: "/images/uploads/venue-ela-excellence-resort-belek-g03.webp"
+    credit: "elahotels.com"
+    source: "https://www.elahotels.com/en/our-hotels/ela-excellence-resort-belek/"
+    caption: "Ela Excellence Resort Belek"
+    alt: "Ela Excellence Resort Belek"
 ---
 Ela Excellence Resort Belek is a big all-inclusive resort on the Belek coast. The hotel's winter factsheet says it opened in May 2007, was fully renovated in 2022, stands on 110,000 m² of grounds and opens all year. The website is current, with a Christmas package for 21–28 December 2026 and 2027 early-booking offers.
 

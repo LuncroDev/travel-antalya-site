@@ -15,6 +15,19 @@ excerpt: "Şenay Gürler portrays a woman whose letters after a breakup become a
 tagline: "Şenay Gürler portrays a woman whose letters after a breakup become a journey of self-discovery."
 time_display: "20:30"
 verification_note: "Day, month, time and venue appear on the linked primary ticketing page; 2026 is established by the current listings and matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/venue-bu-hikaye-senden-uzun-osman-2026-12-10-muratpasa-g01.webp"
+    credit: "sinematiyatro.com"
+    source: "https://www.sinematiyatro.com/tiyatrolar/bu-hikaye-senden-uzun-osman"
+    label: "Artist promo photo"
+    caption: "Artist promo photo"
+    alt: "Bu Hikaye Senden Uzun Osman — Artist promo photo"
+  - src: "/images/uploads/venue-bu-hikaye-senden-uzun-osman-2026-12-10-muratpasa-g02.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/bu-hikaye-senden-uzun-osman"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Bu Hikaye Senden Uzun Osman — Event announcement image"
 ---
 Şenay Gürler portrays a woman whose letters after a breakup become a journey of self-discovery.
 

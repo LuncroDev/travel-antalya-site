@@ -17,6 +17,13 @@ excerpt: "A Russian-language memory play by the Otrazheniya company, with Turkis
 tagline: "Childhood, first love and family secrets in a 90-minute play about a mother and her child, in Russian with Turkish subtitles."
 admission_note: "iTicket lists one category at 600 TL including the service fee (17 November 2026), recommends the play for ages 8 and up, and says tickets are non-refundable."
 verification_note: "iTicket's event page lists the performance as '2 December 2026 - 19:30' at Kemer Belediyesi Kültür Salonu, and its Antalya listing shows the same date. The Russian description further down the same page still says '2 июля, 20:00' (2 July, 20:00), apparently left over from an earlier show, so the 2 December date and 19:30 start come from the ticket listing itself. The page names the company but not the writer, director or cast. Checked 17 November 2026."
+photos_official:
+  - src: "/images/uploads/venue-klara-dengi-i-lyubov-2026-12-02-kemer-g01.webp"
+    credit: "iticket.com.tr"
+    source: "https://iticket.com.tr/en/events/theatre/antalya/klara-para-ve-ask-2-aralik-antalya-bilet"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Klara, Money and Love (Клара, деньги и любовь) — Event announcement image"
 ---
 **Klara, Money and Love** (*Клара, деньги и любовь*) is a Russian-language play staged by the **Otrazheniya** ("Reflections") theatre company at **Kemer Belediyesi Kültür Salonu**, the municipal culture hall, on **Wednesday 2 December 2026 at 19:30**. It is performed in Russian with Turkish subtitles.
 

@@ -18,6 +18,25 @@ admission_note: "Admission and registration conditions vary or remain unverified
 excerpt: "Municipal concerts and cultural activities across Antalya, 9–20 November, separate from the accredited COP31 conference."
 tagline: "A city-wide cultural programme alongside the climate conference."
 verification_note: "Selected performances and the 16–27 November exhibition listing checked against the official city-events programme on 16 November 2026. Entry conditions were not established for individual activities."
+photos_official:
+  - src: "/images/uploads/venue-cop31-city-events-2026-g01.webp"
+    credit: "antalyakenthaber.com"
+    source: "https://antalyakenthaber.com/antalya-buyuksehir-belediyesi-cop31-kapsaminda-kentin-tarihi-mekanlarinda-etkinlik-duzenliyor-49051"
+    label: "Photo from this event"
+    caption: "Photo from this event"
+    alt: "COP31 Antalya City Events 2026 — Photo from this event"
+  - src: "/images/uploads/venue-cop31-city-events-2026-g02.webp"
+    credit: "antalyakenthaber.com"
+    source: "https://antalyakenthaber.com/antalya-buyuksehir-belediyesi-cop31-kapsaminda-kentin-tarihi-mekanlarinda-etkinlik-duzenliyor-49051"
+    label: "Photo from this event"
+    caption: "Photo from this event"
+    alt: "COP31 Antalya City Events 2026 — Photo from this event"
+  - src: "/images/uploads/venue-cop31-city-events-2026-g03.webp"
+    credit: "antalyakenthaber.com"
+    source: "https://antalyakenthaber.com/antalya-buyuksehir-belediyesi-cop31-kapsaminda-kentin-tarihi-mekanlarinda-etkinlik-duzenliyor-49051"
+    label: "Photo from this event"
+    caption: "Photo from this event"
+    alt: "COP31 Antalya City Events 2026 — Photo from this event"
 ---
 Antalya Metropolitan Municipality has announced a **9–20 November 2026 city programme** alongside COP31, with cultural, sporting and environmental activities at several city locations. This listing covers the city programme, **not admission to the COP31 conference**.
 

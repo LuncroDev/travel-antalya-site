@@ -22,6 +22,18 @@ photos_official:
     label: "Venue photo · Holly Stone Performance Hall Antalya"
     caption: "Holly Stone Performance Hall Antalya"
     alt: "Holly Stone Performance Hall Antalya, the event venue"
+  - src: "/images/uploads/venue-basar-keklik-2026-11-19-muratpasa-g01.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/basar-keklik"
+    label: "Artist promo photo"
+    caption: "Artist promo photo"
+    alt: "Başar Keklik — Artist promo photo"
+  - src: "/images/uploads/venue-basar-keklik-2026-11-19-muratpasa-g02.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/basar-keklik"
+    label: "Artist promo photo"
+    caption: "Artist promo photo"
+    alt: "Başar Keklik — Artist promo photo"
 ---
 Başar Keklik performs at Holly Stone Performance Hall in Kaleiçi.
 

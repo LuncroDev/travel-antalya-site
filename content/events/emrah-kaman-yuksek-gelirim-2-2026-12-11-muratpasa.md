@@ -15,6 +15,19 @@ excerpt: "Emrah Kaman shares comic observations about everyday life and relation
 tagline: "Emrah Kaman shares comic observations about everyday life and relationships."
 time_display: "20:30"
 verification_note: "Day, month, time and venue appear on the linked primary ticketing page; 2026 is established by the current listings and matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/venue-emrah-kaman-yuksek-gelirim-2-2026-12-11-muratpasa-g01.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/emrah-kaman-yuksek-gelirim-2"
+    label: "Artist promo photo"
+    caption: "Artist promo photo"
+    alt: "Emrah Kaman Yüksek Gelirim 2 — Artist promo photo"
+  - src: "/images/uploads/venue-emrah-kaman-yuksek-gelirim-2-2026-12-11-muratpasa-g02.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/emrah-kaman-yuksek-gelirim-2"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Emrah Kaman Yüksek Gelirim 2 — Event announcement image"
 ---
 Emrah Kaman shares comic observations about everyday life and relationships.
 

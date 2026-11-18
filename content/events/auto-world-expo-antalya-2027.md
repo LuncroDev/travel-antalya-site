@@ -24,6 +24,12 @@ photos_official:
     label: "Venue photo · ANFAŞ Antalya Expo Center"
     caption: "ANFAŞ Antalya Expo Center"
     alt: "ANFAŞ Antalya Expo Center, the event venue"
+  - src: "/images/uploads/venue-auto-world-expo-antalya-2027-g01.webp"
+    credit: "anfas.com.tr"
+    source: "https://anfas.com.tr/en#galeri"
+    label: "Venue photo · ANFAŞ Expo Center, Aksu, Antalya"
+    caption: "Venue photo · ANFAŞ Expo Center, Aksu, Antalya"
+    alt: "Auto World Expo Antalya 2027 — Venue photo · ANFAŞ Expo Center, Aksu, Antalya"
 ---
 **Auto World Expo Antalya** runs from **Thursday 8 to Sunday 11 April 2027** at the **ANFAŞ Expo Center** in Aksu, east of Antalya city.
 

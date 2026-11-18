@@ -22,6 +22,12 @@ photos_official:
     label: "Venue photo · Konyaaltı Nazım Hikmet Congress Centre"
     caption: "Konyaaltı Nazım Hikmet Congress Centre"
     alt: "Konyaaltı Nazım Hikmet Congress Centre, the event venue"
+  - src: "/images/uploads/venue-hamlet-2026-12-24-konyaalti-g01.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/hamlet--oyunu"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Hamlet — Event announcement image"
 ---
 Erselcan Tokdemir performs a stage interpretation of Shakespeare's troubled Danish prince.
 

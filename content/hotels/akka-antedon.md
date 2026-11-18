@@ -17,6 +17,21 @@ booking_note: Check the Antedon room or villa concept and seasonal beach-pavilio
 photos_official:
   - src: "/images/uploads/venue-akka-antedon-p01.webp"
   - src: "/images/uploads/venue-akka-antedon-p02.webp"
+  - src: "/images/uploads/venue-akka-antedon-g01.webp"
+    credit: "akkahotels.com"
+    source: "https://www.akkahotels.com/en/media-center"
+    caption: "AKKA Antedon"
+    alt: "AKKA Antedon"
+  - src: "/images/uploads/venue-akka-antedon-g02.webp"
+    credit: "akkahotels.com"
+    source: "https://www.akkahotels.com/antedon/en"
+    caption: "AKKA Antedon"
+    alt: "AKKA Antedon"
+  - src: "/images/uploads/venue-akka-antedon-g03.webp"
+    credit: "akkahotels.com"
+    source: "https://www.akkahotels.com/antedon/en"
+    caption: "AKKA Antedon"
+    alt: "AKKA Antedon"
 photo_source: "https://www.akkahotels.com/antedon/en"
 ---
 AKKA Antedon is the group's Beldibi resort on Başkomutan Atatürk Caddesi in Kemer district. It is distinct from AKKA Alinda in Kiriş, which affects transfer planning.

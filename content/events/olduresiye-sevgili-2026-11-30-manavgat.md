@@ -15,6 +15,13 @@ excerpt: "A planned romantic evening becomes a comedy of suspicion and misunders
 tagline: "A planned romantic evening becomes a comedy of suspicion and misunderstandings."
 time_display: "20:00"
 verification_note: "Day, month, time and venue appear on the linked primary ticketing page; 2026 is established by the current listings and matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/venue-olduresiye-sevgili-2026-11-30-manavgat-g01.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/olduresiye-sevgili-tiyatro-oyunu"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Öldüresiye Sevgili — Event announcement image"
 ---
 A planned romantic evening becomes a comedy of suspicion and misunderstandings.
 

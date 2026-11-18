@@ -13,6 +13,22 @@ last_checked: "2026-11-17"
 excerpt: "Meyhane on Alanya's harbour street: 33 mezes from 125 TL, sea bass or bream 800 TL, lamb chops 1,300 TL and 30 rakı options. No hours published."
 booking_note: "No opening hours are published anywhere official, so call +90 546 639 42 63 before you go, and ask whether the prices on the digital menu are current."
 michelin_note: "No verified Michelin distinction for this Antalya venue in the 2026 selection."
+photos_official:
+  - src: "/images/uploads/venue-kaleici-meyhanesi-alanya-g01.webp"
+    credit: "sluurpy.com"
+    source: "https://www.sluurpy.com/en/alanya/restaurant/6692732/kalei%C3%A7i-meyhanesi-alanya"
+    caption: "Kaleiçi Meyhanesi Alanya"
+    alt: "Kaleiçi Meyhanesi Alanya"
+  - src: "/images/uploads/venue-kaleici-meyhanesi-alanya-g02.webp"
+    credit: "tripadvisor.com"
+    source: "https://www.tripadvisor.com/LocationPhotoDirectLink-g297961-d10294326-i395424217-Kaleici_Meyhanesi_Alanya-Alanya_Turkish_Mediterranean_Coast.html"
+    caption: "Kaleiçi Meyhanesi Alanya"
+    alt: "Kaleiçi Meyhanesi Alanya"
+  - src: "/images/uploads/venue-kaleici-meyhanesi-alanya-g03.webp"
+    credit: "tripadvisor.com"
+    source: "https://www.tripadvisor.com/LocationPhotoDirectLink-g297961-d10294326-i395424217-Kaleici_Meyhanesi_Alanya-Alanya_Turkish_Mediterranean_Coast.html"
+    caption: "Kaleiçi Meyhanesi Alanya"
+    alt: "Kaleiçi Meyhanesi Alanya"
 ---
 Kaleiçi Meyhanesi is a meyhane on İskele Caddesi, the harbour street below [Alanya Castle](/things-to-do/alanya-castle/), not to be confused with Antalya city's old town of the same name. A meyhane evening is built on cold mezes, a few hot starters and rakı, with a grill or a fish to finish, and this one publishes its full menu with prices. The digital menu we used carries a 2026 footer.
 

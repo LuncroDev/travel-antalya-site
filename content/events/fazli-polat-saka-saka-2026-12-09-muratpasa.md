@@ -15,6 +15,19 @@ excerpt: "Fazlı Polat presents his energetic stand-up show Şaka Şaka."
 tagline: "Fazlı Polat presents his energetic stand-up show Şaka Şaka."
 time_display: "20:30"
 verification_note: "Day, month, time and venue appear on the linked primary ticketing page; 2026 is established by the current listings and matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/venue-fazli-polat-saka-saka-2026-12-09-muratpasa-g01.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/fazli-polat-saka-saka-stand-up"
+    label: "Artist promo photo"
+    caption: "Artist promo photo"
+    alt: "Fazlı Polat - Şaka Şaka — Artist promo photo"
+  - src: "/images/uploads/venue-fazli-polat-saka-saka-2026-12-09-muratpasa-g02.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/fazli-polat-saka-saka-stand-up"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Fazlı Polat - Şaka Şaka — Event announcement image"
 ---
 Fazlı Polat presents his energetic stand-up show Şaka Şaka.
 

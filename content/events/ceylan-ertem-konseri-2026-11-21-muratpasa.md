@@ -15,6 +15,19 @@ excerpt: "Ceylan Ertem brings her rock- and jazz-influenced music to The Bar in 
 tagline: "Ceylan Ertem brings her rock- and jazz-influenced music to The Bar in Kaleiçi."
 time_display: "22:00"
 verification_note: "Day, month, start time and venue are shown on the individual primary ticketing page. The year is established from the current upcoming listing and its matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/venue-ceylan-ertem-konseri-2026-11-21-muratpasa-g01.webp"
+    credit: "artigercek.com"
+    source: "https://artigercek.com/kultur-sanat/ceylan-ertem-mucadeleye-inancim-olmasa-cururdum-81557h"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Ceylan Ertem Konseri — Archive photo of the performer"
+  - src: "/images/uploads/venue-ceylan-ertem-konseri-2026-11-21-muratpasa-g02.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/ceylan-ertem-konseri"
+    label: "Artist promo photo"
+    caption: "Artist promo photo"
+    alt: "Ceylan Ertem Konseri — Artist promo photo"
 ---
 Ceylan Ertem brings her rock- and jazz-influenced music to The Bar in Kaleiçi.
 

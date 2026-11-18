@@ -18,6 +18,21 @@ booking_note: Confirm the precise location and transport to ancient Side before 
 photos_official:
   - src: "/images/uploads/venue-kaya-side-p01.webp"
   - src: "/images/uploads/venue-kaya-side-p02.webp"
+  - src: "/images/uploads/venue-kaya-side-g01.webp"
+    credit: "kayahotels.com"
+    source: "https://www.kayahotels.com/en/oteller/kaya-side"
+    caption: "Kaya Side"
+    alt: "Kaya Side"
+  - src: "/images/uploads/venue-kaya-side-g02.webp"
+    credit: "kayahotels.com"
+    source: "https://www.kayahotels.com/en/oteller/kaya-side"
+    caption: "Kaya Side"
+    alt: "Kaya Side"
+  - src: "/images/uploads/venue-kaya-side-g03.webp"
+    credit: "kayahotels.com"
+    source: "https://www.kayahotels.com/en/oteller/kaya-side"
+    caption: "Kaya Side"
+    alt: "Kaya Side"
 photo_source: "https://www.kayahotels.com/en/oteller/kaya-side"
 ---
 An ultra-all-inclusive Manavgat resort with a setting that combines lake, forest and sea views. It is the Kaya group's Side-area hotel, separate from the two Belek properties.

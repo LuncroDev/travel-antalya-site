@@ -24,6 +24,12 @@ photos_official:
     label: "Venue photo · Konyaaltı Nazım Hikmet Congress Centre"
     caption: "Konyaaltı Nazım Hikmet Congress Centre"
     alt: "Konyaaltı Nazım Hikmet Congress Centre, the event venue"
+  - src: "/images/uploads/venue-bir-evlenme-teklifi-2026-12-06-konyaalti-g01.webp"
+    credit: "biletix.com"
+    source: "https://www.biletix.com/etkinlik/5PSTO/DIGER/tr/bir-evlenme-teklifi-06-12-2026-antalya"
+    label: "Artist promo photo"
+    caption: "Artist promo photo"
+    alt: "Bir Evlenme Teklifi — Artist promo photo"
 ---
 **Reverans Sanat** brings Anton Chekhov's comedy **Bir Evlenme Teklifi** (*A Marriage Proposal*) to the **Konyaaltı Belediyesi Nazım Hikmet Fuar ve Kongre Merkezi** on **Sunday 6 December 2026 at 20:00**. The play is in Turkish.
 

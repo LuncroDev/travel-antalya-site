@@ -17,6 +17,21 @@ source_label: Official venue information
 photos_official:
   - src: "/images/uploads/venue-antalya-golf-club-p01.webp"
   - src: "/images/uploads/venue-antalya-golf-club-p02.webp"
+  - src: "/images/uploads/venue-antalya-golf-club-g01.webp"
+    credit: "agc.com.tr"
+    source: "https://agc.com.tr/?lang=en"
+    caption: "Antalya Golf Club"
+    alt: "Antalya Golf Club"
+  - src: "/images/uploads/venue-antalya-golf-club-g02.webp"
+    credit: "agc.com.tr"
+    source: "https://agc.com.tr/hakkimizda/?lang=en"
+    caption: "Antalya Golf Club"
+    alt: "Antalya Golf Club"
+  - src: "/images/uploads/venue-antalya-golf-club-g03.webp"
+    credit: "agc.com.tr"
+    source: "https://agc.com.tr/galeri/?lang=en"
+    caption: "Antalya Golf Club"
+    alt: "Antalya Golf Club"
 photo_source: "https://agc.com.tr/?lang=en"
 ---
 Antalya Golf Club is in the Belek/Kadriye resort area, not central Antalya. Its two courses were created by European Golf Design with David Jones as design consultant.

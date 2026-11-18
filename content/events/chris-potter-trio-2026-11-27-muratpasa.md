@@ -18,6 +18,19 @@ excerpt: "Jazz saxophonist Chris Potter plays The 251 Soul at Akra Antalya on 27
 tagline: "Two nights of modern jazz saxophone at the club stage inside Akra Antalya."
 admission_note: "Biletix says guests must be 18 or older. Seating is unreserved, first come, first served, and you may share a table. No outside food or drink."
 verification_note: "The Biletix event page lists two sessions, 27 November and 28 November at 21:00, and gives the year in its page title and address (2026-11-27). The tour agency Saudades lists '27.11.2026' and '28.11.2026' at The 251 Soul, Antalya, and Akra Hotels' own offer page names 27–28 November. One listing site gives 21:30; we use the ticket seller's 21:00. Checked 10 November 2026."
+photos_official:
+  - src: "/images/uploads/venue-chris-potter-trio-2026-11-27-muratpasa-g01.webp"
+    credit: "bimhuis.nl"
+    source: "https://www.bimhuis.nl/en/calendar/the-bad-plus-chris-potter-craig-taborn"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Chris Potter Trio — Archive photo of the performer"
+  - src: "/images/uploads/venue-chris-potter-trio-2026-11-27-muratpasa-g02.webp"
+    credit: "biletix.com"
+    source: "https://www.biletix.com/etkinlik/5BHM4/ANTALYA/en/music-chris-potter-trio-27-11-2026-antalya"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Chris Potter Trio — Event announcement image"
 ---
 **Chris Potter Trio** plays **The 251 Soul**, the music stage inside the Akra Antalya hotel, on **Friday 27 and Saturday 28 November 2026**, starting at **21:00** each night.
 

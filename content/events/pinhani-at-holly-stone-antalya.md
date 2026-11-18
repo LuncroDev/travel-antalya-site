@@ -19,6 +19,20 @@ photos_official:
     label: "Venue photo · Holly Stone Performance Hall Antalya"
     caption: "Holly Stone Performance Hall Antalya"
     alt: "Holly Stone Performance Hall Antalya, the event venue"
+  - src: "/images/uploads/venue-pinhani-at-holly-stone-antalya-g01.webp"
+    credit: "Cobija / Wikimedia Commons"
+    source: "https://commons.wikimedia.org/wiki/File:2018_Samsun_Gen%C3%A7lik_Festivali_(Pinhani).jpg"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Pinhani at Holly Stone Antalya — Archive photo of the performer"
+    license: "CC BY-SA 4.0"
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  - src: "/images/uploads/venue-pinhani-at-holly-stone-antalya-g02.webp"
+    credit: "antalyahurses.com"
+    source: "https://www.antalyahurses.com/pinhani-antalyali-hayranlariyla-bulusacak/541970"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Pinhani at Holly Stone Antalya — Archive photo of the performer"
 ---
 This legacy listing is retained so existing links continue to work. Earlier dates came from third-party listings and could not be consistently confirmed in the current ticket-calendar review.
 

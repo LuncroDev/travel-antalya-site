@@ -13,6 +13,22 @@ category: "Seafood and meze"
 tagline: "Fresh fish, meze and sea-view tables on the cliffs of old Lara."
 source_label: "Official venue information"
 michelin_note: "No verified Michelin distinction for this Antalya venue in the 2026 selection."
+photos_official:
+  - src: "/images/uploads/venue-kalamar-balik-lara-g01.webp"
+    credit: "kalamarbalik.com.tr"
+    source: "https://www.kalamarbalik.com.tr/"
+    caption: "Kalamar Balık"
+    alt: "Kalamar Balık"
+  - src: "/images/uploads/venue-kalamar-balik-lara-g02.webp"
+    credit: "antalyain.com"
+    source: "https://antalyain.com/mekan/restaurant/kalamar-balik"
+    caption: "Kalamar Balık"
+    alt: "Kalamar Balık"
+  - src: "/images/uploads/venue-kalamar-balik-lara-g03.webp"
+    credit: "kalamarbalik.com.tr"
+    source: "https://www.kalamarbalik.com.tr/"
+    caption: "Kalamar Balık"
+    alt: "Kalamar Balık"
 ---
 Kalamar Balık is a seafood restaurant in Eski Lara, the older part of Antalya's Lara district. Its own pages promise fish and seafood bought fresh every day, cooked by its chefs to traditional recipes with modern touches, and served at sea-view tables on the cliffs. The site carries a 2026 copyright and a full online menu, in Turkish.
 

@@ -16,6 +16,21 @@ excerpt: An Okurcalar resort with a three-storey main building and annex accommo
 booking_note: Use the full property name when arranging transport and confirm which building your room occupies.
 photos_official:
   - src: "/images/uploads/venue-delphin-botanik-hotel-resort-p01.webp"
+  - src: "/images/uploads/venue-delphin-botanik-hotel-resort-g01.webp"
+    credit: "ucuzabilet.com"
+    source: "https://www.ucuzabilet.com/otel/Botanik-Hotel-Resort"
+    caption: "Delphin Botanik Hotel & Resort"
+    alt: "Delphin Botanik Hotel & Resort"
+  - src: "/images/uploads/venue-delphin-botanik-hotel-resort-g02.webp"
+    credit: "aviatur.md"
+    source: "https://aviatur.md/delphin-botanik-hotel/?a=2&c=&d=2025-11-21&meal=All+Inclusive&n=5&price=2132&tt=avia"
+    caption: "Delphin Botanik Hotel & Resort"
+    alt: "Delphin Botanik Hotel & Resort"
+  - src: "/images/uploads/venue-delphin-botanik-hotel-resort-g03.webp"
+    credit: "delphinhotel.com"
+    source: "https://www.delphinhotel.com/en/botanik-hotel-resort"
+    caption: "Delphin Botanik Hotel & Resort"
+    alt: "Delphin Botanik Hotel & Resort"
 photo_source: "https://www.delphinhotel.com/en/botanik-hotel-resort"
 ---
 An Okurcalar resort with a three-storey main building and annex accommodation. The official site lists outdoor pools, children's pools, waterslides and a timed funfair programme.

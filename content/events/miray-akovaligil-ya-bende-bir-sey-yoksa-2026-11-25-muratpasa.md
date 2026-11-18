@@ -23,6 +23,18 @@ photos_official:
     label: "Venue photo · Antalya Atatürk Cultural Centre"
     caption: "Antalya Atatürk Cultural Centre"
     alt: "Antalya Atatürk Cultural Centre, the event venue"
+  - src: "/images/uploads/venue-miray-akovaligil-ya-bende-bir-sey-yoksa-2026-11-25-muratpasa-g01.webp"
+    credit: "zorlupsm.com"
+    source: "https://www.zorlupsm.com/etkinlikler/miray-akovaligil-ya-bende-bir-sey-yoksa"
+    label: "Photo from another performance of this production"
+    caption: "Photo from another performance of this production"
+    alt: "Miray Akovalıgil: Ya Bende Bir Şey Yoksa? — Photo from another performance of this production"
+  - src: "/images/uploads/venue-miray-akovaligil-ya-bende-bir-sey-yoksa-2026-11-25-muratpasa-g02.webp"
+    credit: "sonmuhur.com"
+    source: "https://www.sonmuhur.com/kahkaha-ve-hikayeler-izmirde-bulustu-miray-akovaligil-sahnede"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Miray Akovalıgil: Ya Bende Bir Şey Yoksa? — Archive photo of the performer"
 verification_note: "The Biletix event page shows 'Nov 25, 2026•20:00' at Atatürk Culture Center - Aspendos Saloon, and its Turkish version gives a 90-minute running time. The Biletix venue page lists the show on Wednesday (Çarşamba) 25 November 2026 at 20:00, and the Biletix tour page places Antalya between Denizli on 17 November and Ankara on 26 November 2026. Biletinial lists one Antalya session at AKM on 25 November without a year or time, and gives 90 minutes and 16+. Checked 12 November 2026."
 ---
 Stand-up comedian **Miray Akovalıgil** brings her show **Ya Bende Bir Şey Yoksa?** to the **Aspendos hall of the Atatürk Kültür Merkezi (AKM)** on **Wednesday 25 November 2026 at 20:00**. The show is in Turkish.

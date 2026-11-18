@@ -24,6 +24,22 @@ source_urls:
 last_checked: "2026-11-11"
 excerpt: "A garden hotel on Mermerli Sokak in Kaleiçi: four room types, a seasonal pool, the Begonia restaurant, and room-only, B&B or half-board rates."
 booking_note: "The site publishes no room sizes, room count, child policy or parking details, and its English and Turkish pool dates differ. Ask about all of these before you book."
+photos_official:
+  - src: "/images/uploads/venue-dogan-hotel-kaleici-g01.webp"
+    credit: "doganhotel.com"
+    source: "https://doganhotel.com/en-gb/photos/"
+    caption: "Doğan Hotel"
+    alt: "Doğan Hotel"
+  - src: "/images/uploads/venue-dogan-hotel-kaleici-g02.webp"
+    credit: "doganhotel.com"
+    source: "https://doganhotel.com/en-gb/photos/"
+    caption: "Doğan Hotel"
+    alt: "Doğan Hotel"
+  - src: "/images/uploads/venue-dogan-hotel-kaleici-g03.webp"
+    credit: "doganhotel.com"
+    source: "https://doganhotel.com/en-gb/photos/"
+    caption: "Doğan Hotel"
+    alt: "Doğan Hotel"
 ---
 Doğan Hotel is a small hotel inside Kaleiçi, Antalya's walled old town. Its own pages describe a garden with lush planting and a cascading fountain, where breakfast is served, and a pool with a separate children's pool. The site is current: its footer carries a 2026 date, and its news page has a post from 21 October 2026 about planning a stay during COP31.
 

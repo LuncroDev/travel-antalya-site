@@ -22,6 +22,12 @@ photos_official:
     label: "Venue photo · Konyaaltı Nazım Hikmet Congress Centre"
     caption: "Konyaaltı Nazım Hikmet Congress Centre"
     alt: "Konyaaltı Nazım Hikmet Congress Centre, the event venue"
+  - src: "/images/uploads/venue-tembel-prens-caliskan-prenses-2026-11-23-konyaalti-g01.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/tembel-prens-caliskan-prenses"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Tembel Prens & Çalışkan Prenses — Event announcement image"
 ---
 A children's stage show celebrates effort and kindness.
 

@@ -16,6 +16,22 @@ source_urls:
 last_checked: "2026-11-13"
 excerpt: "A 379-room club resort 900 m from Kemer centre, reopened in May 2026: a 270 m pebble beach, five pools, kids' and teen clubs, and small pets allowed."
 booking_note: "The factsheet covers May to November 2026 with no closing date, and its room sizes and restaurants differ from the website's. Confirm your dates and room size."
+photos_official:
+  - src: "/images/uploads/venue-corendon-hydros-club-kemer-g01.webp"
+    credit: "corendonhotels.com.tr"
+    source: "https://www.corendonhotels.com.tr/corendon-hydros-club-kemer/en/gallery"
+    caption: "Corendon Hydros Club Kemer"
+    alt: "Corendon Hydros Club Kemer"
+  - src: "/images/uploads/venue-corendon-hydros-club-kemer-g02.webp"
+    credit: "corendonhotels.com.tr"
+    source: "https://www.corendonhotels.com.tr/corendon-hydros-club-kemer/en/gallery"
+    caption: "Corendon Hydros Club Kemer"
+    alt: "Corendon Hydros Club Kemer"
+  - src: "/images/uploads/venue-corendon-hydros-club-kemer-g03.webp"
+    credit: "corendonhotels.com.tr"
+    source: "https://www.corendonhotels.com.tr/corendon-hydros-club-kemer/en/gallery"
+    caption: "Corendon Hydros Club Kemer"
+    alt: "Corendon Hydros Club Kemer"
 ---
 Corendon Hydros Club Kemer is a club-style resort on the beach in Kemer town. It opened in 1989 and reopened under the Corendon name on 1 May 2026 after a renovation, with an "Ultra All Inclusive" concept. Its April 2026 factsheet covers May to November 2026.
 

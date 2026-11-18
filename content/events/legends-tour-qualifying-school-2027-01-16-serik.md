@@ -25,6 +25,12 @@ photos_official:
     label: "Venue photo · Gloria Golf Club, Belek"
     caption: "Gloria Golf Club, Belek"
     alt: "A fairway with deep bunkers and umbrella pines at Gloria Golf Club, the event venue"
+  - src: "/images/uploads/venue-legends-tour-qualifying-school-2027-01-16-serik-g01.webp"
+    credit: "legendstour.com"
+    source: "https://www.legendstour.com/qualifying"
+    label: "Photo from a previous edition"
+    caption: "Photo from a previous edition"
+    alt: "Staysure Legends Tour Qualifying School 2027 — Photo from a previous edition"
 photo_source: "https://www.gloria.com.tr/en/experiences/golf/courses/"
 ---
 The **Staysure Legends Tour**, the professional tour for golfers aged 50 and over, holds its 2027 Qualifying School at **Gloria Golf Resort in Belek** from **Saturday 16 to Tuesday 19 January 2027**. Practice days are Thursday 14 and Friday 15 January. Last year's edition was also at Gloria, on 17–20 January 2026.

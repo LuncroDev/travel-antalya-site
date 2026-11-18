@@ -16,6 +16,21 @@ source_label: Official venue information
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
 photos_official:
   - src: "/images/uploads/venue-korsan-fish-terrace-p01.webp"
+  - src: "/images/uploads/venue-korsan-fish-terrace-g01.webp"
+    credit: "tripadvisor.com"
+    source: "https://www.tripadvisor.com/Restaurant_Review-g297964-d2679864-Reviews-The_Fish_Terrace-Kalkan_Turkish_Mediterranean_Coast.html"
+    caption: "Korsan Fish Terrace"
+    alt: "Korsan Fish Terrace"
+  - src: "/images/uploads/venue-korsan-fish-terrace-g02.webp"
+    credit: "tripadvisor.co.uk"
+    source: "https://www.tripadvisor.co.uk/Restaurant_Review-g297964-d2679864-Reviews-The_Fish_Terrace-Kalkan_Turkish_Mediterranean_Coast.html"
+    caption: "Korsan Fish Terrace"
+    alt: "Korsan Fish Terrace"
+  - src: "/images/uploads/venue-korsan-fish-terrace-g03.webp"
+    credit: "korsankalkan.com"
+    source: "https://www.korsankalkan.com/en/korsan-fish-terrace/"
+    caption: "Korsan Fish Terrace"
+    alt: "Korsan Fish Terrace"
 photo_source: "https://www.korsankalkan.com/en/korsan-fish-terrace/"
 ---
 The Fish Terrace sits on the roof above Korsan Meze, facing the bay and town beach. The official description emphasizes Mediterranean fish dishes, generally served off the bone, alongside non-fish choices.

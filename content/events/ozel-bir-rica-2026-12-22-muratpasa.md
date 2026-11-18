@@ -24,6 +24,12 @@ photos_official:
     label: "Venue photo · Türkan Şoray Kültür Merkezi"
     caption: "Türkan Şoray Kültür Merkezi, Muratpaşa"
     alt: "Aerial view of the Türkan Şoray Kültür Merkezi in Muratpaşa, the event venue"
+  - src: "/images/uploads/venue-ozel-bir-rica-2026-12-22-muratpasa-g01.webp"
+    credit: "biletix.com"
+    source: "https://www.biletix.com/etkinlik/5BR31/TURKIYE/tr/ozel-bir-rica-22-12-2026-antalya"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Özel Bir Rica — Event announcement image"
 photo_source: "https://muratpasa-bld.gov.tr/haber/4876/muratpasa-ya-mimarlik-odulu"
 ---
 Sevinç Erbulak, Tayanç Ayaydın, Emel Çölgeçen and Kaya Akkaya star in **Özel Bir Rica** ("A Special Request") at the **Türkan Şoray Kültür Merkezi** on **Tuesday 22 December 2026**. The play is in Turkish, and the ticket sites disagree on the start time (see below).

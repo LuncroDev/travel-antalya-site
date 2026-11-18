@@ -15,6 +15,19 @@ excerpt: "Alternative-rock singer Emre Aydın performs at The Bar in Kaleiçi."
 tagline: "Alternative-rock singer Emre Aydın performs at The Bar in Kaleiçi."
 time_display: "21:00"
 verification_note: "Day, month, start time and venue are shown on the individual primary ticketing page. The year is established from the current upcoming listing and its matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/venue-emre-aydin-konseri-2026-12-12-muratpasa-g01.webp"
+    credit: "eventworld.co"
+    source: "https://www.eventworld.co/emre-aydin-tickets/"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Emre Aydın Konseri — Archive photo of the performer"
+  - src: "/images/uploads/venue-emre-aydin-konseri-2026-12-12-muratpasa-g02.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/emre-aydin-konseri"
+    label: "Artist promo photo"
+    caption: "Artist promo photo"
+    alt: "Emre Aydın Konseri — Artist promo photo"
 ---
 Alternative-rock singer Emre Aydın performs at The Bar in Kaleiçi.
 

@@ -22,6 +22,18 @@ photos_official:
     label: "Venue photo · Antalya Atatürk Cultural Centre"
     caption: "Antalya Atatürk Cultural Centre"
     alt: "Antalya Atatürk Cultural Centre, the event venue"
+  - src: "/images/uploads/venue-sesler-salih-bademci-2026-11-12-muratpasa-g01.webp"
+    credit: "haberturk.com"
+    source: "https://www.haberturk.com/salih-bademci-sesler-le-enka-sahnesinde-3865907"
+    label: "Photo from another performance of this production"
+    caption: "Photo from another performance of this production"
+    alt: "Sesler - Salih Bademci — Photo from another performance of this production"
+  - src: "/images/uploads/venue-sesler-salih-bademci-2026-11-12-muratpasa-g02.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/sesler-salih-bademci"
+    label: "Artist promo photo"
+    caption: "Artist promo photo"
+    alt: "Sesler - Salih Bademci — Artist promo photo"
 ---
 Salih Bademci explores memory and the sounds that shape a person's life.
 

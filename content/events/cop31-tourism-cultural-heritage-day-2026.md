@@ -18,6 +18,13 @@ last_checked: "2026-11-18"
 excerpt: "A COP31 Green Zone programme on tourism, cultural heritage and climate action, scheduled for 18 November at Antalya EXPO Center."
 tagline: "A Green Zone afternoon on the future of tourism destinations."
 verification_note: "The organiser’s programme and the latest TÜROB invitation agree on 13:30–17:30 Antalya time. Check the official calendar for any last-minute changes."
+photos_official:
+  - src: "/images/uploads/venue-cop31-tourism-cultural-heritage-day-2026-g01.webp"
+    credit: "selcuk.edu.tr"
+    source: "https://selcuk.edu.tr/birim/icerik/5337/cop31-turizm-ve-kulturel-miras-gunu-18-kasimda-antalyada-gerceklestirilecek-84859"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "COP31 Tourism and Cultural Heritage Day — Event announcement image"
 ---
 The Türkiye Tourism Promotion and Development Agency (TGA) lists the **Tourism and Cultural Heritage Day** for **Wednesday, 18 November 2026, 13:30–17:30 Antalya time**. Its programme places the opening and four panels in the COP31 **Green Zone**, not in the Blue Zone. The [17 November TÜROB invitation](https://www.turob.com/haberler/turizm-ve-kulturel-miras-gunu-programina-davet) gives the same hours.
 

@@ -9,6 +9,28 @@ district_slug: "kas"
 featured: false
 source_urls: ["https://muze.gov.tr/muze-detay?DistId=MRK&SectionId=XAN01","https://muze.gov.tr/document/bakanlik_yonergesi_en.pdf","https://muze.gov.tr/urun-detay?CatalogNo=WEB-MSP01-25-009","https://muze.gov.tr/s3/MysFileLibrary/42886ce6-c208-4b41-a0e0-45f86f4750a1.pdf","https://kvmgm.ktb.gov.tr/TR-449007/bazi-muze-ve-oren-yerlerinin-1-mayis---1-ekim-2026-tarihleri-arasinda-ziyaret-saatlerinin-listede-belirtilen-sekilde-uzatilarak-ziyarete-acik-tutulmasi.html"]
 last_checked: "2026-11-10"
+photos_official:
+  - src: "/images/uploads/venue-xanthos-ancient-city-g01.webp"
+    credit: "Dosseman / Wikimedia Commons"
+    source: "https://commons.wikimedia.org/wiki/File:Xanthos_Harpy_tomb_and_the_pillared_sarcophagus_5117.jpg"
+    caption: "Xanthos Ancient City"
+    alt: "Xanthos Ancient City"
+    license: "CC BY-SA 4.0"
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+  - src: "/images/uploads/venue-xanthos-ancient-city-g02.webp"
+    credit: "Pot Noodle / Wikimedia Commons"
+    source: "https://commons.wikimedia.org/wiki/File:Entrance_into_theatre_of_Xanthos.jpg"
+    caption: "Xanthos Ancient City"
+    alt: "Xanthos Ancient City"
+    license: "CC BY 2.0"
+    license_url: "https://creativecommons.org/licenses/by/2.0"
+  - src: "/images/uploads/venue-xanthos-ancient-city-g03.webp"
+    credit: "Dosseman / Wikimedia Commons"
+    source: "https://commons.wikimedia.org/wiki/File:Xanthos_Cathedral_7249.jpg"
+    caption: "Xanthos Ancient City"
+    alt: "Xanthos Ancient City"
+    license: "CC BY-SA 4.0"
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0"
 ---
 Xanthos was the leading city of ancient Lycia, and its ruins sit on a hill above the village of Kınık, inland from Patara in the far west of Antalya province. It is a site for people who like their history with a story attached. The Ministry of Culture and Tourism sums it up as the place where the Lycian spirit of freedom is felt most strongly. Give it two hours, and pair it with Patara Beach on the same day.
 

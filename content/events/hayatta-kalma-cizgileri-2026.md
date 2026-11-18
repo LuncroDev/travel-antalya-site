@@ -15,6 +15,19 @@ admission_note: "Check visiting hours, entry conditions and any fee with the mun
 excerpt: "An exhibition of work by African artists at the Antalya Metropolitan Municipality service building, 16–27 November 2026."
 tagline: "The second stop of a painting exhibition presented alongside COP31."
 verification_note: "The municipality’s programme lists the foyer and 16–27 November dates. It does not give visiting hours or admission terms for this stop."
+photos_official:
+  - src: "/images/uploads/venue-hayatta-kalma-cizgileri-2026-g01.webp"
+    credit: "artafricamagazine.org"
+    source: "https://artafricamagazine.org/lines-of-survival-imagining-tomorrow/"
+    label: "Photo of a work from the same exhibition"
+    caption: "Photo of a work from the same exhibition"
+    alt: "Hayatta Kalma Çizgileri Exhibition — Photo of a work from the same exhibition"
+  - src: "/images/uploads/venue-hayatta-kalma-cizgileri-2026-g02.webp"
+    credit: "jollin.com.tr"
+    source: "https://jollin.com.tr/etkinlik/hayatta-kalma-cizgileri-yasamak-uyum-saglamak-dcn8r7/"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Hayatta Kalma Çizgileri Exhibition — Event announcement image"
 ---
 **Hayatta Kalma Çizgileri: Yaşamak, Uyum Sağlamak, Yarını Hayal Etmek** brings together work by African artists in an exhibition presented in collaboration with Africa Soft Power. The first stop was at Bülent Ecevit Kültür Merkezi. This listing is for the second stop, at the **Antalya Metropolitan Municipality service building foyer from 16 to 27 November 2026**.
 

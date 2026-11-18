@@ -15,6 +15,19 @@ excerpt: "Yeni Türkü performs its blend of traditional and modern instrumentat
 tagline: "Yeni Türkü performs its blend of traditional and modern instrumentation at The Sponge Performance Hall."
 time_display: "22:00"
 verification_note: "Day, month, start time and venue are shown on the individual primary ticketing page. The year is established from the current upcoming listing and its matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/venue-yeni-turku-konseri-2026-12-10-konyaalti-g01.webp"
+    credit: "sondakika.com"
+    source: "https://www.sondakika.com/magazin/haber-yeni-turku-40-yasinda-12480957/"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Yeni Türkü Konseri — Archive photo of the performer"
+  - src: "/images/uploads/venue-yeni-turku-konseri-2026-12-10-konyaalti-g02.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/yeni-turku-konseri"
+    label: "Artist promo photo"
+    caption: "Artist promo photo"
+    alt: "Yeni Türkü Konseri — Artist promo photo"
 ---
 Yeni Türkü performs its blend of traditional and modern instrumentation at The Sponge Performance Hall.
 

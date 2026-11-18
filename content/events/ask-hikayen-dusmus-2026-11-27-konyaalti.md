@@ -22,6 +22,18 @@ photos_official:
     label: "Venue photo · Konyaaltı Nazım Hikmet Congress Centre"
     caption: "Konyaaltı Nazım Hikmet Congress Centre"
     alt: "Konyaaltı Nazım Hikmet Congress Centre, the event venue"
+  - src: "/images/uploads/venue-ask-hikayen-dusmus-2026-11-27-konyaalti-g01.webp"
+    credit: "sahnedragos.com"
+    source: "https://sahnedragos.com/oyun/ask-hikayen-dusmus"
+    label: "Photo from another performance of this production"
+    caption: "Photo from another performance of this production"
+    alt: "Aşk Hikayen Düşmüş — Photo from another performance of this production"
+  - src: "/images/uploads/venue-ask-hikayen-dusmus-2026-11-27-konyaalti-g02.webp"
+    credit: "magazinci.com"
+    source: "https://www.magazinci.com/icerikler/kultur-sanat/-rsquo--rsquo-ask-hikayen-dusmus-rsquo--rsquo-baba-sahne-rsquo-de_77144.html"
+    label: "Artist promo photo"
+    caption: "Artist promo photo"
+    alt: "Aşk Hikayen Düşmüş — Artist promo photo"
 ---
 A theatrical love story follows two soulmates who have never met.
 

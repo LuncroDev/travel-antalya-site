@@ -14,6 +14,25 @@ admission_note: "2027 admission conditions and prices have not been verified. Do
 excerpt: "The 17th Antalya Book Fair is announced for 1–10 October 2027. Programme and visitor arrangements are still to be confirmed."
 tagline: "Ten announced dates for Antalya's next book fair; visitor details still to follow."
 verification_note: "Dates announced by Antalya Metropolitan Municipality on 12 October 2026 and corroborated by DHA. The announcement does not confirm the 2027 venue, daily hours, programme or admission conditions."
+photos_official:
+  - src: "/images/uploads/venue-antalya-book-fair-2027-g01.webp"
+    credit: "dha.com.tr"
+    source: "https://www.dha.com.tr/yerel-haberler/antalya/antalya-kitap-fuarini-1-milyon-173-bin-627-kis-2961029"
+    label: "Photo from a previous edition"
+    caption: "Photo from a previous edition"
+    alt: "Antalya Book Fair 2027 — Photo from a previous edition"
+  - src: "/images/uploads/venue-antalya-book-fair-2027-g02.webp"
+    credit: "haberturk.com"
+    source: "https://www.haberturk.com/gundem/16-antalya-kitap-fuari-kapilarini-acti-3916824"
+    label: "Photo from a previous edition"
+    caption: "Photo from a previous edition"
+    alt: "Antalya Book Fair 2027 — Photo from a previous edition"
+  - src: "/images/uploads/venue-antalya-book-fair-2027-g03.webp"
+    credit: "akdenizgercek.com.tr"
+    source: "https://www.akdenizgercek.com.tr/antalya/16-antalya-kitap-fuari-basladi/386405"
+    label: "Photo from a previous edition"
+    caption: "Photo from a previous edition"
+    alt: "Antalya Book Fair 2027 — Photo from a previous edition"
 ---
 The **17th Antalya Book Fair (Antalya Kitap Fuarı)** is announced for **1–10 October 2027**. Antalya Metropolitan Municipality published these dates after the previous edition, and DHA separately reported the announcement.
 

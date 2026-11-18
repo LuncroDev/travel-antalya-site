@@ -24,6 +24,18 @@ photos_official:
     label: "Venue photo · Türkan Şoray Kültür Merkezi"
     caption: "Türkan Şoray Kültür Merkezi, Muratpaşa"
     alt: "Aerial view of the Türkan Şoray Kültür Merkezi in Muratpaşa, the event venue"
+  - src: "/images/uploads/venue-ayna-konseri-2026-12-20-muratpasa-g01.webp"
+    credit: "biletinial.com"
+    source: "https://biletinial.com/tr-tr/muzik/ayna-jj"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Ayna Konseri — Archive photo of the performer"
+  - src: "/images/uploads/venue-ayna-konseri-2026-12-20-muratpasa-g02.webp"
+    credit: "biletix.com"
+    source: "https://www.biletix.com/etkinlik/5BZ91/TURKIYE/en/ayna-20-12-2026-antalya"
+    label: "Artist promo photo"
+    caption: "Artist promo photo"
+    alt: "Ayna Konseri — Artist promo photo"
 photo_source: "https://muratpasa-bld.gov.tr/haber/4876/muratpasa-ya-mimarlik-odulu"
 ---
 Turkish rock band **Ayna** plays the **Türkan Şoray Kültür Merkezi** in Yeşilbahçe on **Sunday 20 December 2026 at 20:00**. The songs are in Turkish.

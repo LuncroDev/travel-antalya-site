@@ -24,6 +24,12 @@ photos_official:
     label: "Venue photo · Konyaaltı Nazım Hikmet Congress Centre"
     caption: "Konyaaltı Nazım Hikmet Congress Centre"
     alt: "Konyaaltı Nazım Hikmet Congress Centre, the event venue"
+  - src: "/images/uploads/venue-ilker-gumusoluk-stand-up-2026-12-02-konyaalti-g01.webp"
+    credit: "pickaseat.de"
+    source: "https://pickaseat.de/en-de/tiyatro/ilkergumusoluk-tekkisilikgosteri"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "İlker Gümüşoluk - Stand Up — Archive photo of the performer"
 photo_source: "https://www.biletimgo.com/mekan/konyaalti-nazim-hikmet-fuar-ve-kongre-merkezi-966"
 ---
 Stand-up comedian **İlker Gümüşoluk** plays the **Konyaaltı Belediyesi Nazım Hikmet Fuar ve Kongre Merkezi** on **Wednesday 2 December 2026 at 20:30**. The show is in Turkish.

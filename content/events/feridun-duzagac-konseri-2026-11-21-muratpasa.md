@@ -22,6 +22,18 @@ photos_official:
     label: "Venue photo · Holly Stone Performance Hall Antalya"
     caption: "Holly Stone Performance Hall Antalya"
     alt: "Holly Stone Performance Hall Antalya, the event venue"
+  - src: "/images/uploads/venue-feridun-duzagac-konseri-2026-11-21-muratpasa-g01.webp"
+    credit: "powerapp.com.tr"
+    source: "https://www.powerapp.com.tr/powerturk/etkinlikler/power-etkinlikleri/feridun-duzagac-60.html"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Feridun Düzağaç Konseri — Archive photo of the performer"
+  - src: "/images/uploads/venue-feridun-duzagac-konseri-2026-11-21-muratpasa-g02.webp"
+    credit: "biletinial.com"
+    source: "https://biletinial.com/tr-tr/muzik/feridun-duzagac-konseri"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Feridun Düzağaç Konseri — Archive photo of the performer"
 ---
 Turkish rock singer and songwriter Feridun Düzağaç performs his songs in a standing concert.
 

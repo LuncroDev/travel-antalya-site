@@ -23,6 +23,22 @@ source_urls:
 last_checked: "2026-11-10"
 excerpt: "A 14+ boutique hotel on the Çukurbağ Peninsula, Kaş: 27–30 m² deluxe rooms, some with a jacuzzi, a private swimming platform and breakfast included."
 booking_note: "The site gives no season dates or room count, and the check-out time is printed as \"12:00 AM\". Confirm both, and note the hotel says it is not suitable for disabled access."
+photos_official:
+  - src: "/images/uploads/venue-suna-sun-hotel-kas-g01.webp"
+    credit: "sunasunhotel.com"
+    source: "https://www.sunasunhotel.com/en/gallery/"
+    caption: "Suna Sun Hotel"
+    alt: "Suna Sun Hotel"
+  - src: "/images/uploads/venue-suna-sun-hotel-kas-g02.webp"
+    credit: "sunasunhotel.com"
+    source: "https://www.sunasunhotel.com/en/gallery/"
+    caption: "Suna Sun Hotel"
+    alt: "Suna Sun Hotel"
+  - src: "/images/uploads/venue-suna-sun-hotel-kas-g03.webp"
+    credit: "sunasunhotel.com"
+    source: "https://www.sunasunhotel.com/en/gallery/"
+    caption: "Suna Sun Hotel"
+    alt: "Suna Sun Hotel"
 ---
 Suna Sun Hotel is a small hotel on the Çukurbağ Peninsula, the long finger of land that runs west from Kaş town. It describes itself as small and elegant, and its rules shape the stay: guests must be 14 or older, breakfast is included, and pets are not allowed.
 

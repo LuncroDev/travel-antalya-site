@@ -15,6 +15,19 @@ excerpt: "Sefa Doğanay combines stand-up with his distinctive impressions."
 tagline: "Sefa Doğanay combines stand-up with his distinctive impressions."
 time_display: "20:00"
 verification_note: "Day, month, time and venue appear on the linked primary ticketing page; 2026 is established by the current listings and matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/venue-sefa-doganay-tek-mi-sandiniz-2026-12-13-muratpasa-g01.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/sefa-doganay-show"
+    label: "Artist promo photo"
+    caption: "Artist promo photo"
+    alt: "Sefa Doğanay - Tek Mi Sandınız? — Artist promo photo"
+  - src: "/images/uploads/venue-sefa-doganay-tek-mi-sandiniz-2026-12-13-muratpasa-g02.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/sefa-doganay-show"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Sefa Doğanay - Tek Mi Sandınız? — Event announcement image"
 ---
 Sefa Doğanay combines stand-up with his distinctive impressions.
 

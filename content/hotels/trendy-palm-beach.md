@@ -18,6 +18,21 @@ booking_note: Confirm the current minimum age for every guest before reserving.
 photos_official:
   - src: "/images/uploads/venue-trendy-palm-beach-p01.webp"
   - src: "/images/uploads/venue-trendy-palm-beach-p02.webp"
+  - src: "/images/uploads/venue-trendy-palm-beach-g01.webp"
+    credit: "trendy.com.tr"
+    source: "https://trendy.com.tr/en/trendy-palm-beach/"
+    caption: "Trendy Palm Beach"
+    alt: "Trendy Palm Beach"
+  - src: "/images/uploads/venue-trendy-palm-beach-g02.webp"
+    credit: "trendy.com.tr"
+    source: "https://trendy.com.tr/en/trendy-palm-beach/"
+    caption: "Trendy Palm Beach"
+    alt: "Trendy Palm Beach"
+  - src: "/images/uploads/venue-trendy-palm-beach-g03.webp"
+    credit: "trendy.com.tr"
+    source: "https://trendy.com.tr/en/trendy-palm-beach/"
+    caption: "Trendy Palm Beach"
+    alt: "Trendy Palm Beach"
 photo_source: "https://trendy.com.tr/en/trendy-palm-beach/"
 ---
 A Kumköy-area hotel with direct sea access, listed by Trendy under an adults-only 16-plus concept. Its official address is in Ilıca, rather than inside Side's ancient town.

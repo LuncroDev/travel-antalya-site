@@ -16,6 +16,13 @@ tagline: "Status uncertain: Biletix marks the 28 November show cancelled while B
 time_display: "22:00"
 admission_note: "Status uncertain. Ticket providers disagree; confirm with the venue and your seller before buying or travelling."
 verification_note: "Checked 10 November 2026: Biletix labels the matching 28 November, 22:00 show cancelled; Bubilet still offers tickets. No separate venue or organizer notice resolving the conflict was found. The listed date is retained for identification, not confirmation that the show will proceed."
+photos_official:
+  - src: "/images/uploads/venue-kerimcan-durmaz-2026-11-28-muratpasa-g01.webp"
+    credit: "gazeteyenigun.com.tr"
+    source: "https://www.gazeteyenigun.com.tr/amp/haber/23324000/telefon-sinyalinden-yakalandi-kerimcan-durmaz-gozaltinda"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Kerimcan Durmaz — Archive photo of the performer"
 ---
 ## Status uncertain: check before buying or travelling
 

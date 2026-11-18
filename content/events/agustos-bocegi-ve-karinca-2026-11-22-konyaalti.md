@@ -22,6 +22,12 @@ photos_official:
     label: "Venue photo · Konyaaltı Nazım Hikmet Congress Centre"
     caption: "Konyaaltı Nazım Hikmet Congress Centre"
     alt: "Konyaaltı Nazım Hikmet Congress Centre, the event venue"
+  - src: "/images/uploads/venue-agustos-bocegi-ve-karinca-2026-11-22-konyaalti-g01.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/agustos-bocegi-ve-karinca"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Ağustos Böceği ve Karınca — Event announcement image"
 ---
 A musical children's play explores work and sharing through the grasshopper and ant fable.
 

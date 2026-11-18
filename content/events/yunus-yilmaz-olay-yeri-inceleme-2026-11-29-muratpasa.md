@@ -15,6 +15,19 @@ excerpt: "Yunus Yılmaz brings his playful observations of family and culture to
 tagline: "Yunus Yılmaz brings his playful observations of family and culture to the stage."
 time_display: "19:30"
 verification_note: "Day, month, time and venue appear on the linked primary ticketing page; 2026 is established by the current listings and matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/venue-yunus-yilmaz-olay-yeri-inceleme-2026-11-29-muratpasa-g01.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/olay-yeri-inceleme"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Yunus Yılmaz - Olay Yeri İnceleme — Archive photo of the performer"
+  - src: "/images/uploads/venue-yunus-yilmaz-olay-yeri-inceleme-2026-11-29-muratpasa-g02.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/olay-yeri-inceleme"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Yunus Yılmaz - Olay Yeri İnceleme — Event announcement image"
 ---
 Yunus Yılmaz brings his playful observations of family and culture to the stage.
 

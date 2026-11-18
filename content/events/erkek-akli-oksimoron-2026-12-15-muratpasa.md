@@ -22,6 +22,18 @@ photos_official:
     label: "Venue photo · Türkan Şoray Kültür Merkezi"
     caption: "Türkan Şoray Kültür Merkezi, Muratpaşa"
     alt: "Aerial view of the Türkan Şoray Kültür Merkezi in Muratpaşa, the event venue"
+  - src: "/images/uploads/venue-erkek-akli-oksimoron-2026-12-15-muratpasa-g01.webp"
+    credit: "sahnedragos.com"
+    source: "https://sahnedragos.com/oyun/oksimoron-erkek-akli"
+    label: "Photo from another performance of this production"
+    caption: "Photo from another performance of this production"
+    alt: "Erkek Aklı Oksimoron — Photo from another performance of this production"
+  - src: "/images/uploads/venue-erkek-akli-oksimoron-2026-12-15-muratpasa-g02.webp"
+    credit: "sahnedragos.com"
+    source: "https://sahnedragos.com/oyun/oksimoron-erkek-akli"
+    label: "Photo from another performance of this production"
+    caption: "Photo from another performance of this production"
+    alt: "Erkek Aklı Oksimoron — Photo from another performance of this production"
 photo_source: "https://muratpasa-bld.gov.tr/haber/4876/muratpasa-ya-mimarlik-odulu"
 ---
 A comedy examines the conflicting voices inside Semih's mind.

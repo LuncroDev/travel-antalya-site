@@ -15,6 +15,19 @@ excerpt: "Turkish rock group Dedublüman performs a standing concert at The Bar 
 tagline: "Turkish rock group Dedublüman performs a standing concert at The Bar in Kaleiçi."
 time_display: "21:00"
 verification_note: "Day, month, start time and venue are shown on the individual primary ticketing page. The year is established from the current upcoming listing and its matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/venue-dedubluman-konseri-2026-12-05-muratpasa-g01.webp"
+    credit: "gazetekadikoy.com.tr"
+    source: "https://www.gazetekadikoy.com.tr/kultur-sanat/ismi-zor-dinlemesi-keyifli-grup-dedubluman"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Dedublüman Konseri — Archive photo of the performer"
+  - src: "/images/uploads/venue-dedubluman-konseri-2026-12-05-muratpasa-g02.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/dedubluman-konseri"
+    label: "Artist promo photo"
+    caption: "Artist promo photo"
+    alt: "Dedublüman Konseri — Artist promo photo"
 ---
 Turkish rock group Dedublüman performs a standing concert at The Bar in Kaleiçi.
 

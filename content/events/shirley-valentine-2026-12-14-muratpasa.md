@@ -15,6 +15,25 @@ excerpt: "Sumru Yavrucuk performs a one-woman comedy about rediscovering life be
 tagline: "Sumru Yavrucuk performs a one-woman comedy about rediscovering life beyond daily routine."
 time_display: "20:30"
 verification_note: "Day, month, time and venue appear on the linked primary ticketing page; 2026 is established by the current listings and matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/venue-shirley-valentine-2026-12-14-muratpasa-g01.webp"
+    credit: "bizimizmir.net"
+    source: "https://www.bizimizmir.net/sumru-yavrucuk-tan-muhtesem-performans-48286"
+    label: "Photo from another performance of this production"
+    caption: "Photo from another performance of this production"
+    alt: "Shirley Valentine — Photo from another performance of this production"
+  - src: "/images/uploads/venue-shirley-valentine-2026-12-14-muratpasa-g02.webp"
+    credit: "gazetekadikoy.com.tr"
+    source: "https://www.gazetekadikoy.com.tr/kultur-sanat/ve-kadin-sahnede"
+    label: "Photo from another performance of this production"
+    caption: "Photo from another performance of this production"
+    alt: "Shirley Valentine — Photo from another performance of this production"
+  - src: "/images/uploads/venue-shirley-valentine-2026-12-14-muratpasa-g03.webp"
+    credit: "gazetekadikoy.com.tr"
+    source: "https://www.gazetekadikoy.com.tr/kultur-sanat/her-evde-bir-shirley-var"
+    label: "Photo from another performance of this production"
+    caption: "Photo from another performance of this production"
+    alt: "Shirley Valentine — Photo from another performance of this production"
 ---
 Sumru Yavrucuk performs a one-woman comedy about rediscovering life beyond daily routine.
 

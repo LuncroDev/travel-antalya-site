@@ -22,6 +22,18 @@ photos_official:
     label: "Venue photo · Holly Stone Performance Hall Antalya"
     caption: "Holly Stone Performance Hall Antalya"
     alt: "Holly Stone Performance Hall Antalya, the event venue"
+  - src: "/images/uploads/venue-yedinci-ev-konseri-2026-11-27-muratpasa-g01.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/yedinci-ev-konseri"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Yedinci Ev Konseri — Archive photo of the performer"
+  - src: "/images/uploads/venue-yedinci-ev-konseri-2026-11-27-muratpasa-g02.webp"
+    credit: "babylon.com.tr"
+    source: "https://www.babylon.com.tr/en/event-detail/17-aralik-2025/yedinci-ev-akustik"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Yedinci Ev Konseri — Archive photo of the performer"
 ---
 Yedinci Ev brings its guitar-led live sound to Holly Stone Antalya.
 

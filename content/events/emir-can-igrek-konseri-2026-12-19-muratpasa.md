@@ -15,6 +15,19 @@ excerpt: "Singer-songwriter Emir Can İğrek performs at The Bar in Kaleiçi."
 tagline: "Singer-songwriter Emir Can İğrek performs at The Bar in Kaleiçi."
 time_display: "22:00"
 verification_note: "Day, month, start time and venue are shown on the individual primary ticketing page. The year is established from the current upcoming listing and its matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/venue-emir-can-igrek-konseri-2026-12-19-muratpasa-g01.webp"
+    credit: "ankara.jollyjoker.com.tr"
+    source: "https://ankara.jollyjoker.com.tr/galeri/WG91S/emir-can-igrek-jj-ankara/2025-03-15"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Emir Can İğrek Konseri — Archive photo of the performer"
+  - src: "/images/uploads/venue-emir-can-igrek-konseri-2026-12-19-muratpasa-g02.webp"
+    credit: "gazetemerhaba.com"
+    source: "https://gazetemerhaba.com/amp/magazin/emir-can-igrekten-zafer-coskusu-99169"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Emir Can İğrek Konseri — Archive photo of the performer"
 ---
 Singer-songwriter Emir Can İğrek performs at The Bar in Kaleiçi.
 

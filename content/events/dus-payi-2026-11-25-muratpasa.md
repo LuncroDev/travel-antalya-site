@@ -15,6 +15,25 @@ excerpt: "An imagined meeting sends writers Sait Faik and Orhan Kemal on a night
 tagline: "An imagined meeting sends writers Sait Faik and Orhan Kemal on a night-time journey."
 time_display: "20:00"
 verification_note: "Day, month, time and venue appear on the linked primary ticketing page; 2026 is established by the current listings and matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/venue-dus-payi-2026-11-25-muratpasa-g01.webp"
+    credit: "tiyatrohayali.com"
+    source: "https://www.tiyatrohayali.com/dus-payi"
+    label: "Photo from another performance of this production"
+    caption: "Photo from another performance of this production"
+    alt: "Düş Payı — Photo from another performance of this production"
+  - src: "/images/uploads/venue-dus-payi-2026-11-25-muratpasa-g02.webp"
+    credit: "tiyatrohayali.com"
+    source: "https://www.tiyatrohayali.com/dus-payi"
+    label: "Photo from another performance of this production"
+    caption: "Photo from another performance of this production"
+    alt: "Düş Payı — Photo from another performance of this production"
+  - src: "/images/uploads/venue-dus-payi-2026-11-25-muratpasa-g03.webp"
+    credit: "tiyatrohayali.com"
+    source: "https://www.tiyatrohayali.com/dus-payi"
+    label: "Artist promo photo"
+    caption: "Artist promo photo"
+    alt: "Düş Payı — Artist promo photo"
 ---
 An imagined meeting sends writers Sait Faik and Orhan Kemal on a night-time journey.
 

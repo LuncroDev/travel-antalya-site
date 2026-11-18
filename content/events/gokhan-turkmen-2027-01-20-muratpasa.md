@@ -15,6 +15,25 @@ excerpt: "Singer Gökhan Türkmen performs a standing concert at The Bar in Kale
 tagline: "Singer Gökhan Türkmen performs a standing concert at The Bar in Kaleiçi."
 time_display: "22:00"
 verification_note: "Day, month, start time and venue are shown on the individual primary ticketing page. The year is established from the current upcoming listing and its matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/venue-gokhan-turkmen-2027-01-20-muratpasa-g01.webp"
+    credit: "dergy.com"
+    source: "https://www.dergy.com/gokhan-turkmenin-12-kasim-konser-biletleri-tukendi/"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Gökhan Türkmen — Archive photo of the performer"
+  - src: "/images/uploads/venue-gokhan-turkmen-2027-01-20-muratpasa-g02.webp"
+    credit: "dergy.com"
+    source: "https://www.dergy.com/gokhan-turkmen-aralik-ayinda-konserlerine-devam-ediyor/"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Gökhan Türkmen — Archive photo of the performer"
+  - src: "/images/uploads/venue-gokhan-turkmen-2027-01-20-muratpasa-g03.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/gokhan-turkmen-konseri"
+    label: "Artist promo photo"
+    caption: "Artist promo photo"
+    alt: "Gökhan Türkmen — Artist promo photo"
 ---
 Singer Gökhan Türkmen performs a standing concert at The Bar in Kaleiçi.
 

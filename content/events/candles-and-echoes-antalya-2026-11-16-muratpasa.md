@@ -22,6 +22,18 @@ photos_official:
     label: "Venue photo · Antalya Atatürk Cultural Centre"
     caption: "Antalya Atatürk Cultural Centre"
     alt: "Antalya Atatürk Cultural Centre, the event venue"
+  - src: "/images/uploads/venue-candles-and-echoes-antalya-2026-11-16-muratpasa-g01.webp"
+    credit: "antalyamag.com"
+    source: "https://antalyamag.com/haber/27835186/candle-and-echoes-16-haziranda-antalya-acikhavada-mum-isiginda-quartet-konseri"
+    label: "Photo from a previous edition"
+    caption: "Photo from a previous edition"
+    alt: "Candles and Echoes - Antalya — Photo from a previous edition"
+  - src: "/images/uploads/venue-candles-and-echoes-antalya-2026-11-16-muratpasa-g02.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/candles-and-echoes-antalya"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Candles and Echoes - Antalya — Event announcement image"
 ---
 A five-player chamber ensemble performs instrumental selections from classical music, tango, film scores and Turkish music.
 

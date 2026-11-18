@@ -17,6 +17,21 @@ michelin_note: No verified Michelin distinction for this Antalya venue in the 20
 photos_official:
   - src: "/images/uploads/venue-fatma-sultan-turk-mutfagi-p01.webp"
   - src: "/images/uploads/venue-fatma-sultan-turk-mutfagi-p02.webp"
+  - src: "/images/uploads/venue-fatma-sultan-turk-mutfagi-g01.webp"
+    credit: "fatmasultanrestaurant.com"
+    source: "https://www.fatmasultanrestaurant.com/tr"
+    caption: "Fatma Sultan Türk Mutfağı"
+    alt: "Fatma Sultan Türk Mutfağı"
+  - src: "/images/uploads/venue-fatma-sultan-turk-mutfagi-g02.webp"
+    credit: "onedio.com"
+    source: "https://onedio.com/haber/antalya-da-yemelere-doyamayacaginiz-birbirinden-uygun-fiyatli-15-restoran-1085717"
+    caption: "Fatma Sultan Türk Mutfağı"
+    alt: "Fatma Sultan Türk Mutfağı"
+  - src: "/images/uploads/venue-fatma-sultan-turk-mutfagi-g03.webp"
+    credit: "fatmasultanrestaurant.com"
+    source: "https://www.fatmasultanrestaurant.com/tr"
+    caption: "Fatma Sultan Türk Mutfağı"
+    alt: "Fatma Sultan Türk Mutfağı"
 photo_source: "https://www.fatmasultanrestaurant.com/tr"
 ---
 Fatma Sultan serves Turkish and Ottoman dishes in a mansion-style building with indoor seating and a garden, just outside the old-town core. The current official Turkish page gives Arık Caddesi No:20.

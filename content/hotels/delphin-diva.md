@@ -16,6 +16,21 @@ excerpt: Delphin Diva combines a 230-metre beach with standard rooms, duplex fam
 booking_note: Check the room layout if booking a duplex with small children or anyone who finds stairs difficult.
 photos_official:
   - src: "/images/uploads/venue-delphin-diva-p01.webp"
+  - src: "/images/uploads/venue-delphin-diva-g01.webp"
+    credit: "luxtripper.co.uk"
+    source: "https://www.luxtripper.co.uk/blog/hotels-in-turkey-for-families/"
+    caption: "Delphin Diva"
+    alt: "Delphin Diva"
+  - src: "/images/uploads/venue-delphin-diva-g02.webp"
+    credit: "delphinhotel.com"
+    source: "https://www.delphinhotel.com/en/delphin-diva"
+    caption: "Delphin Diva"
+    alt: "Delphin Diva"
+  - src: "/images/uploads/venue-delphin-diva-g03.webp"
+    credit: "delphinhotel.com"
+    source: "https://www.delphinhotel.com/en/delphin-diva"
+    caption: "Delphin Diva"
+    alt: "Delphin Diva"
 photo_source: "https://www.delphinhotel.com/en/delphin-diva"
 ---
 Delphin Diva combines a 230-metre beach with standard rooms, duplex family rooms and suites. It is in Kemerağzı, with public minibus and taxi stops identified by the hotel at its entrance.

@@ -15,6 +15,19 @@ excerpt: "Day 1 of the Women's EHF EURO 2026 Group C programme at Antalya Sports
 tagline: "Day 1 of the Women's EHF EURO 2026 Group C programme at Antalya Sports Hall, with Türkiye, Denmark, Spain and Greece in the group."
 time_display: "18:30"
 verification_note: "Full date, year, time and venue are explicit on the official Biletix event page. This is one ticketed matchday session, not a separately counted combined pass. Individual match times and opponents were not verified."
+photos_official:
+  - src: "/images/uploads/venue-womens-ehf-euro-2026-day-1-g01.webp"
+    credit: "ehfel.eurohandball.com"
+    source: "https://ehfel.eurohandball.com/news/en/sweden-overcome-poland-to-take-maiden-main-round-points/"
+    label: "Photo from a previous edition"
+    caption: "Photo from a previous edition"
+    alt: "Women's EHF EURO 2026 – Day 1 — Photo from a previous edition"
+  - src: "/images/uploads/venue-womens-ehf-euro-2026-day-1-g02.webp"
+    credit: "biletix.com"
+    source: "https://www.biletix.com/etkinlik/5FIT1/TURKIYE/tr/kadinlar-avrupa-hentbol-sampiyonasi-2026-1-gun-03-12-2026-antalya"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Women's EHF EURO 2026 – Day 1 — Event announcement image"
 ---
 Day 1 of the Women's EHF EURO 2026 Group C programme at Antalya Sports Hall, with Türkiye, Denmark, Spain and Greece in the group.
 

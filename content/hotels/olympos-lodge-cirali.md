@@ -22,6 +22,22 @@ source_urls:
 last_checked: "2026-11-10"
 excerpt: "A small beachfront lodge in Çıralı with a private garden running down to the sea, a sauna and rooms of 35–105 m², most with a fireplace."
 booking_note: "The site gives two room counts (14 and 17) and no child policy, check-in time or season dates. Ask about all of these, and whether your rate includes breakfast."
+photos_official:
+  - src: "/images/uploads/venue-olympos-lodge-cirali-g01.webp"
+    credit: "olymposlodge.com.tr"
+    source: "https://www.olymposlodge.com.tr/en/home/"
+    caption: "Olympos Lodge"
+    alt: "Olympos Lodge"
+  - src: "/images/uploads/venue-olympos-lodge-cirali-g02.webp"
+    credit: "olymposlodge.com.tr"
+    source: "https://www.olymposlodge.com.tr/en/home/"
+    caption: "Olympos Lodge"
+    alt: "Olympos Lodge"
+  - src: "/images/uploads/venue-olympos-lodge-cirali-g03.webp"
+    credit: "olymposlodge.com.tr"
+    source: "https://www.olymposlodge.com.tr/en/home/"
+    caption: "Olympos Lodge"
+    alt: "Olympos Lodge"
 ---
 Olympos Lodge is a small hotel in Çıralı, the quiet beach village south of Kemer where the Olympos valley meets the sea. Its own pages describe a garden that starts at the foot of Mount Olympos and follows a river down to the beach, with the rooms set among the greenery. The lodge says everything in it was designed by artists, and that its staff numbers are almost equal to its guest numbers.
 

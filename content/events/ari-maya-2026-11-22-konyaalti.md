@@ -22,6 +22,12 @@ photos_official:
     label: "Venue photo · Konyaaltı Nazım Hikmet Congress Centre"
     caption: "Konyaaltı Nazım Hikmet Congress Centre"
     alt: "Konyaaltı Nazım Hikmet Congress Centre, the event venue"
+  - src: "/images/uploads/venue-ari-maya-2026-11-22-konyaalti-g01.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/ari-maya"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Arı Maya — Event announcement image"
 ---
 Maya's flower-growing plans lead to an encounter with a lost pirate.
 

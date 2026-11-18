@@ -18,6 +18,13 @@ excerpt: "Efkan Şeşen performs at Antalya’s Türkan Şoray Kültür Merkezi 
 verification_note: "Date, time, venue and admission rules checked against the direct Biletix performance listing."
 date_verified: true
 last_checked: "2026-11-17"
+photos_official:
+  - src: "/images/uploads/venue-efkan-sesen-2026-12-08-muratpasa-g01.webp"
+    credit: "izmir.bel.tr"
+    source: "https://www.izmir.bel.tr/tr/Haberler/efkan-sesen-asik-veysele-geliyor/10529/156"
+    label: "Artist promo photo"
+    caption: "Artist promo photo"
+    alt: "Efkan Şeşen — Artist promo photo"
 ---
 **Efkan Şeşen** is scheduled to perform at **Türkan Şoray Kültür Merkezi in Antalya on Tuesday 8 December 2026 at 20:30**.
 

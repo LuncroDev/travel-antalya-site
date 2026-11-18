@@ -15,6 +15,19 @@ excerpt: "Turkish rock singer and songwriter Feridun Düzağaç performs his son
 tagline: "Turkish rock singer and songwriter Feridun Düzağaç performs his songs in a standing concert."
 time_display: "22:00"
 verification_note: "Day, month, start time and venue are shown on the individual primary ticketing page. The year is established from the current upcoming listing and its matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/venue-feridun-duzagac-konseri-2026-11-20-alanya-g01.webp"
+    credit: "biletinial.com"
+    source: "https://biletinial.com/tr-tr/muzik/feridun-duzagac-konseri"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Feridun Düzağaç Konseri — Archive photo of the performer"
+  - src: "/images/uploads/venue-feridun-duzagac-konseri-2026-11-20-alanya-g02.webp"
+    credit: "dha.com.tr"
+    source: "https://www.dha.com.tr/gundem/kucukcekmecede-30-agustos-kutlamalarinda-feridun-duzagac-sahne-aldi-2304653"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Feridun Düzağaç Konseri — Archive photo of the performer"
 ---
 Turkish rock singer and songwriter Feridun Düzağaç performs his songs in a standing concert.
 

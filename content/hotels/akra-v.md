@@ -16,6 +16,21 @@ booking_note: Check any access arrangements for neighbouring Akra Antalya facili
 photos_official:
   - src: "/images/uploads/venue-akra-v-p01.webp"
   - src: "https://akrahotels-gvhpewgeadfsftcj.a01.azurefd.net/newakraweb/media/y01j1eyg/akra-v-mainpage-card.jpg"
+  - src: "/images/uploads/venue-akra-v-g01.webp"
+    credit: "akrahotels.com"
+    source: "https://www.akrahotels.com/en/hotels/akra-v/gallery/"
+    caption: "Akra V"
+    alt: "Akra V"
+  - src: "/images/uploads/venue-akra-v-g02.webp"
+    credit: "akrahotels.com"
+    source: "https://www.akrahotels.com/en/hotels/akra-v/gallery/"
+    caption: "Akra V"
+    alt: "Akra V"
+  - src: "/images/uploads/venue-akra-v-g03.webp"
+    credit: "akrahotels.com"
+    source: "https://www.akrahotels.com/ru/hotels/akra-v/gallery/"
+    caption: "Akra V"
+    alt: "Akra V"
 photo_source: "https://www.akrahotels.com/en/hotels/akra-v/about-us/"
 ---
 A city hotel in Antalya operating under the Akra brand since 2023. Unlike a conventional all-inclusive resort, the official hotel offers room-only or bed-and-breakfast meal plans.

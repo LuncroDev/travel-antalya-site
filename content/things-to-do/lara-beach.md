@@ -12,6 +12,12 @@ featured: false
 source_url: "https://www.mavibayrak.org.tr/turkiye/plaj.aspx?plaj_refno=1192"
 source_urls: ["https://www.mavibayrak.org.tr/turkiye/plaj.aspx?plaj_refno=1192","https://www.mavibayrak.org.tr/turkiye/sehir.aspx?il_refno=7","https://turas.com.tr/?page_id=2872","https://antalya.ktb.gov.tr/TR-68436/deniz-turizmi.html","https://gobeachandfun.goturkiye.com/beaches-editerranean-turkiye","https://antalya.bel.tr/Content/UserFiles/Files/WATERFALLS%20OF%20ANTALYA.pdf","https://www.muratpasa-bld.gov.tr/plajlar","https://www.mavibayrak.org.tr/turkiye/icerik.aspx?icerik_refno=76","https://www.sandlandantalya.com/en/visiting-hours/","https://antalya.ktb.gov.tr/TR-176811/antalya-merkez.html","https://www.aksu.bel.tr/en/news/aksu-belediyesi-huzur-plaji-hizmete-acildi","https://en.wikipedia.org/wiki/Sandland_(Antalya)"]
 last_checked: "2026-11-16"
+photos_official:
+  - src: "/images/uploads/venue-lara-beach-g01.webp"
+    credit: "dha.com.tr"
+    source: "https://www.dha.com.tr/yerel-haberler/antalya/buyuksehir-lara-sahili-sosyal-tesisini-hizmet-2496461"
+    caption: "Lara Beach"
+    alt: "Lara Beach"
 ---
 Lara Beach is the long sandy shore east of Antalya, and the closest place to the city for sand rather than pebbles. The Ministry of Culture and Tourism's Antalya office puts it 12 km east of the centre and describes very fine sand backed by pine woods. Most of the coast here belongs to big resort hotels, but a stretch of public beach at the western end is free to enter and has held the Blue Flag for years. If you're staying in the centre or in [Konyaaltı](/things-to-do/konyaalti-beach/), this is the easy swap for a sand day.
 

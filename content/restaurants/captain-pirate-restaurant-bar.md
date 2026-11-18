@@ -18,6 +18,21 @@ michelin_note: No verified Michelin distinction for this Antalya venue in the 20
 photos_official:
   - src: "/images/uploads/venue-captain-pirate-restaurant-bar-p01.webp"
   - src: "/images/uploads/venue-captain-pirate-restaurant-bar-p02.webp"
+  - src: "/images/uploads/venue-captain-pirate-restaurant-bar-g01.webp"
+    credit: "biletaktuel.tr"
+    source: "https://biletaktuel.tr/kesfet/yapilacak-seyler/kemer-gece-hayati-antalya-nin-enerjik-tatil-cenneti/kemer-gece-kulupleri-antalya-nin-enerji-dolu-ve-hareketli-eglence-mekanlari"
+    caption: "Captain Pirate Restaurant & Bar"
+    alt: "Captain Pirate Restaurant & Bar"
+  - src: "/images/uploads/venue-captain-pirate-restaurant-bar-g02.webp"
+    credit: "mekanlar.com"
+    source: "https://mekanlar.com/mekan/captain-pirate-restaurant-bar-kepez-antalya"
+    caption: "Captain Pirate Restaurant & Bar"
+    alt: "Captain Pirate Restaurant & Bar"
+  - src: "/images/uploads/venue-captain-pirate-restaurant-bar-g03.webp"
+    credit: "tripadvisor.com"
+    source: "https://www.tripadvisor.com/Restaurant_Review-g297966-d1501133-Reviews-Captain_Pirate_Restaurant-Kemer_Turkish_Mediterranean_Coast.html"
+    caption: "Captain Pirate Restaurant & Bar"
+    alt: "Captain Pirate Restaurant & Bar"
 photo_source: "https://captainpiraterestaurant.com/"
 ---
 Captain Pirate is a themed restaurant and bar in central Kemer. Its official presentation stresses imaginative pirate-inspired decor and an energetic dining experience, rather than a quiet fine-dining room.

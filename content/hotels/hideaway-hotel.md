@@ -16,6 +16,21 @@ booking_note: Room sizes and layouts vary. Confirm the specific room, parking ar
 photos_official:
   - src: "/images/uploads/venue-hideaway-hotel-p01.webp"
   - src: "https://www.hotelhideaway.com/wp-content/uploads/2025/12/DSC07398-770x513.jpg.webp"
+  - src: "/images/uploads/venue-hideaway-hotel-g01.webp"
+    credit: "hotelhideaway.com"
+    source: "https://www.hotelhideaway.com/"
+    caption: "Hideaway Hotel"
+    alt: "Hideaway Hotel"
+  - src: "/images/uploads/venue-hideaway-hotel-g02.webp"
+    credit: "hotelhideaway.com"
+    source: "https://www.hotelhideaway.com/"
+    caption: "Hideaway Hotel"
+    alt: "Hideaway Hotel"
+  - src: "/images/uploads/venue-hideaway-hotel-g03.webp"
+    credit: "hotelhideaway.com"
+    source: "https://www.hotelhideaway.com/"
+    caption: "Hideaway Hotel"
+    alt: "Hideaway Hotel"
 photo_source: "https://www.hotelhideaway.com/"
 ---
 A family-run hotel near Kaş’s ancient theatre, with a terrace and a town-focused setting.

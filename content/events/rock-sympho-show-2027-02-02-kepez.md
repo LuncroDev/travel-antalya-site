@@ -24,6 +24,18 @@ photos_official:
     label: "Venue photo · Mimar Sinan Congress and Exhibition Centre"
     caption: "Mimar Sinan Congress and Exhibition Centre"
     alt: "Mimar Sinan Congress and Exhibition Centre, the event venue"
+  - src: "/images/uploads/venue-rock-sympho-show-2027-02-02-kepez-g01.webp"
+    credit: "halktv.com.tr"
+    source: "https://halktv.com.tr/turkiye/prime-orchestra-turkiyeye-geliyor-10-sehirde-konser-verecek-968955h"
+    label: "Photo from a previous edition"
+    caption: "Photo from a previous edition"
+    alt: "Rock Sympho Show 2027 — Photo from a previous edition"
+  - src: "/images/uploads/venue-rock-sympho-show-2027-02-02-kepez-g02.webp"
+    credit: "haberler.com"
+    source: "https://www.haberler.com/guncel/prime-orchestra-antalya-da-savas-magdurlarina-destek-konseri-verdi-19080037-haberi/"
+    label: "Photo from a previous edition"
+    caption: "Photo from a previous edition"
+    alt: "Rock Sympho Show 2027 — Photo from a previous edition"
 ---
 Prime Orchestra's **Rock Sympho Show** comes to Antalya on **2 February 2027 at 20:00**, at Mimar Sinan Kongre Merkezi. Antalya is the first stop on a short Türkiye tour. Biletix lists Ankara on 4 February, Bursa on 6 February and İzmir on 7 February.
 

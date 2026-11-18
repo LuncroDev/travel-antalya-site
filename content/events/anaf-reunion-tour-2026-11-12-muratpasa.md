@@ -22,6 +22,12 @@ photos_official:
     label: "Venue photo · Holly Stone Performance Hall Antalya"
     caption: "Holly Stone Performance Hall Antalya"
     alt: "Holly Stone Performance Hall Antalya, the event venue"
+  - src: "/images/uploads/venue-anaf-reunion-tour-2026-11-12-muratpasa-g01.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/anaf-reunion-tour"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Anaf Reunion Tour — Event announcement image"
 ---
 The Reunion Tour features D3, 2Run and Abugat with Akca's contributions in a rhythm-led electronic music night.
 

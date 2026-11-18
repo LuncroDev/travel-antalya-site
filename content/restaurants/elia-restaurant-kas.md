@@ -13,6 +13,22 @@ category: "Seafood and meze (modern meyhane)"
 tagline: "Seafood meze and wood-fired fish with a sunset view, out on the Çukurbağ Peninsula."
 source_label: "Official venue information"
 michelin_note: "No verified Michelin distinction for this Antalya venue in the 2026 selection."
+photos_official:
+  - src: "/images/uploads/venue-elia-restaurant-kas-g01.webp"
+    credit: "eliakas.com.tr"
+    source: "https://eliakas.com.tr/"
+    caption: "Elia Restaurant Kaş"
+    alt: "Elia Restaurant Kaş"
+  - src: "/images/uploads/venue-elia-restaurant-kas-g02.webp"
+    credit: "eliakas.com.tr"
+    source: "https://eliakas.com.tr/tr"
+    caption: "Elia Restaurant Kaş"
+    alt: "Elia Restaurant Kaş"
+  - src: "/images/uploads/venue-elia-restaurant-kas-g03.webp"
+    credit: "eliakas.com.tr"
+    source: "https://eliakas.com.tr/en"
+    caption: "Elia Restaurant Kaş"
+    alt: "Elia Restaurant Kaş"
 ---
 Elia is a seafood and meze restaurant on the Çukurbağ Peninsula, west of Kaş town. It calls its style a "modern meyhane": the long, slow evening of a Turkish tavern, updated for today. The name comes from the olive tree, and the restaurant's own story puts local fish and an open fire at the centre of the kitchen.
 

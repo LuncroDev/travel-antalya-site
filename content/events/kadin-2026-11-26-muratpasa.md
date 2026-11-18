@@ -15,6 +15,13 @@ excerpt: "Altan Erkekli and Veysel Diker tell women's stories through theatre an
 tagline: "Altan Erkekli and Veysel Diker tell women's stories through theatre and live music."
 time_display: "20:00"
 verification_note: "Day, month, time and venue appear on the linked primary ticketing page; 2026 is established by the current listings and matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/venue-kadin-2026-11-26-muratpasa-g01.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/-kadin-"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Kadın — Event announcement image"
 ---
 Altan Erkekli and Veysel Diker tell women's stories through theatre and live music.
 

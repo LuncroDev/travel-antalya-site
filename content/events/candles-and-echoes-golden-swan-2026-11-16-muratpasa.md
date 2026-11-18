@@ -22,6 +22,12 @@ photos_official:
     label: "Venue photo · Antalya Atatürk Cultural Centre"
     caption: "Antalya Atatürk Cultural Centre"
     alt: "Antalya Atatürk Cultural Centre, the event venue"
+  - src: "/images/uploads/venue-candles-and-echoes-golden-swan-2026-11-16-muratpasa-g01.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/candles-and-echoes-golden-swan"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Candles and Echoes: Golden Swan — Event announcement image"
 ---
 Live chamber musicians and ballet dancers share the stage in a candlelit performance.
 

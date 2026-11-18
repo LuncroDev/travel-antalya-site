@@ -24,6 +24,12 @@ photos_official:
     label: "Venue photo · Konyaaltı Nazım Hikmet Congress Centre"
     caption: "Konyaaltı Nazım Hikmet Congress Centre"
     alt: "Konyaaltı Nazım Hikmet Congress Centre, the event venue"
+  - src: "/images/uploads/venue-hastalik-hastasi-2027-01-09-konyaalti-g01.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/hastalik-hastasi-oyunu"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Hastalık Hastası — Event announcement image"
 photo_source: "https://www.biletimgo.com/mekan/konyaalti-nazim-hikmet-fuar-ve-kongre-merkezi-966"
 ---
 Prömiyer Sanat brings **Hastalık Hastası**, a Turkish adaptation of Molière's *The Imaginary Invalid*, to the **Konyaaltı Belediyesi Nazım Hikmet Fuar ve Kongre Merkezi** on **Saturday 9 January 2027 at 20:00**. The play is in Turkish.

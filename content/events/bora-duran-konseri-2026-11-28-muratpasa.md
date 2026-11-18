@@ -22,6 +22,18 @@ photos_official:
     label: "Venue photo · Holly Stone Performance Hall Antalya"
     caption: "Holly Stone Performance Hall Antalya"
     alt: "Holly Stone Performance Hall Antalya, the event venue"
+  - src: "/images/uploads/venue-bora-duran-konseri-2026-11-28-muratpasa-g01.webp"
+    credit: "kralmuzik.com.tr"
+    source: "https://www.kralmuzik.com.tr/haberler/bora-duranin-sahnesine-surpriz-konuk"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Bora Duran Konseri — Archive photo of the performer"
+  - src: "/images/uploads/venue-bora-duran-konseri-2026-11-28-muratpasa-g02.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/bora-duran--konseri"
+    label: "Artist promo photo"
+    caption: "Artist promo photo"
+    alt: "Bora Duran Konseri — Artist promo photo"
 ---
 Bora Duran performs at Holly Stone Performance Hall in Kaleiçi.
 

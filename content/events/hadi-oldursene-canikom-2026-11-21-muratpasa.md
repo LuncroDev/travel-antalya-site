@@ -22,6 +22,18 @@ photos_official:
     label: "Venue photo · Antalya Atatürk Cultural Centre"
     caption: "Antalya Atatürk Cultural Centre"
     alt: "Antalya Atatürk Cultural Centre, the event venue"
+  - src: "/images/uploads/venue-hadi-oldursene-canikom-2026-11-21-muratpasa-g01.webp"
+    credit: "birgun.net"
+    source: "https://www.birgun.net/haber/unutulmaz-eser-hadi-oldursene-canikom-ses-tiyatrosunda-promiyer-yapti-702083"
+    label: "Photo from another performance of this production"
+    caption: "Photo from another performance of this production"
+    alt: "Hadi Öldürsene Canikom — Photo from another performance of this production"
+  - src: "/images/uploads/venue-hadi-oldursene-canikom-2026-11-21-muratpasa-g02.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/hadi-oldursene-canikom"
+    label: "Artist promo photo"
+    caption: "Artist promo photo"
+    alt: "Hadi Öldürsene Canikom — Artist promo photo"
 ---
 Aziz Nesin's comedy follows two elderly neighbours whose routine changes after a radio announcement.
 

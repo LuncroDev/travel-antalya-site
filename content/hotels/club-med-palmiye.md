@@ -15,6 +15,21 @@ booking_note: "Club Med publishes no opening season for Palmiye. Check your date
 photos_official:
   - src: "/images/uploads/venue-club-med-palmiye-p01.webp"
   - src: "https://assets.dream.clubmed/pm_7531_199_199205-7ch507r9rg-swhr.jpg"
+  - src: "/images/uploads/venue-club-med-palmiye-g01.webp"
+    credit: "travel4us.ru"
+    source: "https://www.travel4us.ru/publ/info/turkey/club_med_palmiye_may_holidays/48-1-0-378"
+    caption: "Club Med Palmiye"
+    alt: "Club Med Palmiye"
+  - src: "/images/uploads/venue-club-med-palmiye-g02.webp"
+    credit: "book.daypassapp.com"
+    source: "https://book.daypassapp.com/turkey/kemer/club-med-palmiye"
+    caption: "Club Med Palmiye"
+    alt: "Club Med Palmiye"
+  - src: "/images/uploads/venue-club-med-palmiye-g03.webp"
+    credit: "clubmed.ch"
+    source: "https://www.clubmed.ch/r/palmiye/y"
+    caption: "Club Med Palmiye"
+    alt: "Club Med Palmiye"
 photo_source: "https://www.clubmed.us/r/palmiye/y"
 ---
 Club Med Palmiye is a large all-inclusive resort on the coast of Kemer, south-west of Antalya. Club Med's Turkish page places it in Kemer, and the English page describes a long, pearl-grey beach with the Taurus Mountains rising behind it. It is built for active holidays: most sport is included, and there are kids' clubs for every age from babies to teenagers.

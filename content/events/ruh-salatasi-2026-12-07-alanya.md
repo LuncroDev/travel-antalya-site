@@ -26,6 +26,12 @@ photos_official:
     label: "Venue photo · Alanya Cultural Centre"
     caption: "Alanya Cultural Centre"
     alt: "Alanya Cultural Centre, the event venue"
+  - src: "/images/uploads/venue-ruh-salatasi-2026-12-07-alanya-g01.webp"
+    credit: "iticket.com.tr"
+    source: "https://iticket.com.tr/en/events/theatre/antalya/ruh-salatasi-tiyatrosu"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Ruh Salatası — Event announcement image"
 ---
 The comedy **Ruh Salatası** ("soul salad") comes to **Alanya Kültür Merkezi** on **Monday 7 December 2026 at 20:00**. The play is in Turkish.
 

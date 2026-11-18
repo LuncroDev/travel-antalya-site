@@ -22,6 +22,18 @@ photos_official:
     label: "Venue photo · Antalya Atatürk Cultural Centre"
     caption: "Antalya Atatürk Cultural Centre"
     alt: "Antalya Atatürk Cultural Centre, the event venue"
+  - src: "/images/uploads/venue-gokhan-ozen-live-in-concert-2026-11-14-muratpasa-g01.webp"
+    credit: "haberler.com"
+    source: "https://www.haberler.com/gokhan-ozen/"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Gökhan Özen - Live In Concert — Archive photo of the performer"
+  - src: "/images/uploads/venue-gokhan-ozen-live-in-concert-2026-11-14-muratpasa-g02.webp"
+    credit: "radyod.com"
+    source: "https://www.radyod.com/fotogaleri/haberler/gokhan-ozen-7-yil-aradan-sonra-ilk-konserini-verdi"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Gökhan Özen - Live In Concert — Archive photo of the performer"
 ---
 Gökhan Özen performs a seated concert at Antalya's AKM Aspendos Hall.
 

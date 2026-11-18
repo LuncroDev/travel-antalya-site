@@ -13,6 +13,22 @@ category: "Meze and seafood (meyhane)"
 tagline: "Long tables, cold meze and rakı under the olive trees in the centre of Kaş."
 source_label: "Official venue information"
 michelin_note: "No verified Michelin distinction for this Antalya venue in the 2026 selection."
+photos_official:
+  - src: "/images/uploads/venue-ehl-i-keyf-meyhane-kas-g01.webp"
+    credit: "ehlikeyfkas.com"
+    source: "https://ehlikeyfkas.com/tr"
+    caption: "Ehl-i Keyf Meyhane Kaş"
+    alt: "Ehl-i Keyf Meyhane Kaş"
+  - src: "/images/uploads/venue-ehl-i-keyf-meyhane-kas-g02.webp"
+    credit: "ehlikeyfkas.com"
+    source: "https://ehlikeyfkas.com/tr/gallery"
+    caption: "Ehl-i Keyf Meyhane Kaş"
+    alt: "Ehl-i Keyf Meyhane Kaş"
+  - src: "/images/uploads/venue-ehl-i-keyf-meyhane-kas-g03.webp"
+    credit: "ehlikeyfkas.com"
+    source: "https://ehlikeyfkas.com/tr/gallery"
+    caption: "Ehl-i Keyf Meyhane Kaş"
+    alt: "Ehl-i Keyf Meyhane Kaş"
 ---
 Ehl-i Keyf is a meyhane, the Turkish tavern where an evening is built from small plates and rakı. Its own story page frames it as a meeting place that mixes old meyhane culture with a relaxed Mediterranean mood: modern takes on traditional meze, produce from local suppliers, fresh seafood, and long tables made for conversation. The site carries a 2026 footer and a current menu.
 

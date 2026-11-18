@@ -17,6 +17,21 @@ source_label: Official venue information
 michelin_note: No verified Michelin distinction for this Antalya venue in the 2026 selection.
 photos_official:
   - src: "/images/uploads/venue-korsan-meze-p01.webp"
+  - src: "/images/uploads/venue-korsan-meze-g01.webp"
+    credit: "tripadvisor.co.uk"
+    source: "https://www.tripadvisor.co.uk/Restaurant_Review-g297964-d1483157-Reviews-Korsan_Meze_Restaurant-Kalkan_Turkish_Mediterranean_Coast.html"
+    caption: "Korsan Meze"
+    alt: "Korsan Meze"
+  - src: "/images/uploads/venue-korsan-meze-g02.webp"
+    credit: "theturquoisecollection.com"
+    source: "https://www.theturquoisecollection.com/kalkan/info/kalkan-restaurants-waterfront-dining-along-kalkan-harbour/"
+    caption: "Korsan Meze"
+    alt: "Korsan Meze"
+  - src: "/images/uploads/venue-korsan-meze-g03.webp"
+    credit: "korsankalkan.com"
+    source: "https://www.korsankalkan.com/en/korsan-meze/"
+    caption: "Korsan Meze"
+    alt: "Korsan Meze"
 photo_source: "https://www.korsankalkan.com/en/korsan-meze/"
 ---
 Korsan Meze was established in 1979 and occupies a beach-view position in Kalkan. Its menu spans traditional Turkish meze, lamb, kebabs, chicken, fish and vegetarian dishes.

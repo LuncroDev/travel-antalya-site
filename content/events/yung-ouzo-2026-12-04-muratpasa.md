@@ -24,6 +24,18 @@ photos_official:
     label: "Venue photo · Holly Stone Performance Hall Antalya"
     caption: "Holly Stone Performance Hall Antalya"
     alt: "Holly Stone Performance Hall Antalya, the event venue"
+  - src: "/images/uploads/venue-yung-ouzo-2026-12-04-muratpasa-g01.webp"
+    credit: "biletix.com"
+    source: "https://www.biletix.com/etkinlik/5OF1D/TURKIYE/en/yung-ouzo-04-12-2026-antalya"
+    label: "Artist promo photo"
+    caption: "Artist promo photo"
+    alt: "Yung Ouzo — Artist promo photo"
+  - src: "/images/uploads/venue-yung-ouzo-2026-12-04-muratpasa-g02.webp"
+    credit: "biletix.com"
+    source: "https://www.biletix.com/etkinlik/5OF1D/TURKIYE/en/yung-ouzo-04-12-2026-antalya"
+    label: "Artist promo photo"
+    caption: "Artist promo photo"
+    alt: "Yung Ouzo — Artist promo photo"
 ---
 **Yung Ouzo** plays **Holly Stone Performance Hall Antalya** on **Friday 4 December 2026 at 22:00**.
 

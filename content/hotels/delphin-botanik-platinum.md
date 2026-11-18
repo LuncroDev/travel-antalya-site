@@ -16,6 +16,21 @@ excerpt: The Botanik Platinum property is in Okurcalar's Alara tourism area.
 booking_note: Ask whether any adjacent-hotel facilities are included rather than assuming cross-property access.
 photos_official:
   - src: "/images/uploads/venue-delphin-botanik-platinum-p01.webp"
+  - src: "/images/uploads/venue-delphin-botanik-platinum-g01.webp"
+    credit: "soleazur.rs"
+    source: "https://soleazur.rs/public/hoteli/delphin-botanik-platinum-hotel-5"
+    caption: "Delphin Botanik Platinum"
+    alt: "Delphin Botanik Platinum"
+  - src: "/images/uploads/venue-delphin-botanik-platinum-g02.webp"
+    credit: "delphinhotel.com"
+    source: "https://www.delphinhotel.com/en/botanik-platinum"
+    caption: "Delphin Botanik Platinum"
+    alt: "Delphin Botanik Platinum"
+  - src: "/images/uploads/venue-delphin-botanik-platinum-g03.webp"
+    credit: "delphinhotel.com"
+    source: "https://www.delphinhotel.com/en/botanik-platinum"
+    caption: "Delphin Botanik Platinum"
+    alt: "Delphin Botanik Platinum"
 photo_source: "https://www.delphinhotel.com/en/botanik-platinum"
 ---
 The Botanik Platinum property is in Okurcalar's Alara tourism area. Its official description distinguishes a pool for Platinum guests from other pools shared with neighbouring Botanik, making the booked hotel and access rules important.

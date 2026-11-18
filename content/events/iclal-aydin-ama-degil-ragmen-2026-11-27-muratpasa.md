@@ -17,6 +17,19 @@ excerpt: "İclal Aydın performs her own one-woman play Ama Değil, Rağmen at T
 tagline: "A one-woman play in Turkish, told from a writer's study and travelling across Anatolia."
 admission_note: "Biletinial lists the play as 12+ and says ID may be checked for age-restricted and discounted tickets. Latecomers may not be admitted. Biletix publishes no rules for this date."
 verification_note: "The Biletix event page shows 'Nov 27, 2026•20:30' at Türkan Şoray Kültür Merkezi, and the Biletix venue page lists the play on Friday 27 November 2026 at 20:30. Running time (90 minutes), the 12+ age limit, the credits and the synopsis come from the Biletinial show page, which lists one Antalya session without a date. Checked 11 November 2026."
+photos_official:
+  - src: "/images/uploads/venue-iclal-aydin-ama-degil-ragmen-2026-11-27-muratpasa-g01.webp"
+    credit: "aa.com.tr"
+    source: "https://www.aa.com.tr/tr/kultur/iclal-aydin-tek-kisilik-gosterisi-ama-degil-ragmeni-aaya-anlatti/3767011"
+    label: "Photo from another performance of this production"
+    caption: "Photo from another performance of this production"
+    alt: "İclal Aydın: Ama Değil, Rağmen — Photo from another performance of this production"
+  - src: "/images/uploads/venue-iclal-aydin-ama-degil-ragmen-2026-11-27-muratpasa-g02.webp"
+    credit: "yeniankara.com.tr"
+    source: "https://www.yeniankara.com.tr/yenimahalle/yenimahallede-iclal-aydin-ruzgari-153720"
+    label: "Photo from another performance of this production"
+    caption: "Photo from another performance of this production"
+    alt: "İclal Aydın: Ama Değil, Rağmen — Photo from another performance of this production"
 ---
 İclal Aydın brings **Ama Değil, Rağmen** ("Not 'But' — 'Despite'") to the **Türkan Şoray Kültür Merkezi** on **Friday 27 November 2026 at 20:30**. The play is in Turkish.
 

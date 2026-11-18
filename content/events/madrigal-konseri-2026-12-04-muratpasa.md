@@ -15,6 +15,19 @@ excerpt: "Madrigal performs at The Bar in Antalya's old town."
 tagline: "Madrigal performs at The Bar in Antalya's old town."
 time_display: "22:00"
 verification_note: "Day, month, start time and venue are shown on the individual primary ticketing page. The year is established from the current upcoming listing and its matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/venue-madrigal-konseri-2026-12-04-muratpasa-g01.webp"
+    credit: "biletinial.com"
+    source: "https://biletinial.com/tr-tr/muzik/madrigal-konseri"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Madrigal Konseri — Archive photo of the performer"
+  - src: "/images/uploads/venue-madrigal-konseri-2026-12-04-muratpasa-g02.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/madrigal-konseri"
+    label: "Artist promo photo"
+    caption: "Artist promo photo"
+    alt: "Madrigal Konseri — Artist promo photo"
 ---
 Madrigal performs at The Bar in Antalya's old town.
 

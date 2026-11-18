@@ -17,6 +17,21 @@ booking_note: Check whether you are reserving a club room or a main-building roo
 photos_official:
   - src: "/images/uploads/venue-papillon-belvil-p01.webp"
   - src: "/images/uploads/venue-papillon-belvil-p02.webp"
+  - src: "/images/uploads/venue-papillon-belvil-g01.webp"
+    credit: "rainbowtours.cz"
+    source: "https://rainbowtours.cz/turecko-turecka-riviera-12682/papillon-belvil"
+    caption: "Papillon Belvil"
+    alt: "Papillon Belvil"
+  - src: "/images/uploads/venue-papillon-belvil-g02.webp"
+    credit: "onthebeach.co.uk"
+    source: "https://www.onthebeach.co.uk/hotels/turkey/antalya/antalya/papillon-belvil"
+    caption: "Papillon Belvil"
+    alt: "Papillon Belvil"
+  - src: "/images/uploads/venue-papillon-belvil-g03.webp"
+    credit: "etstur.com"
+    source: "https://www.etstur.com/Papillon-Belvil-Hotel"
+    caption: "Papillon Belvil"
+    alt: "Papillon Belvil"
 photo_source: "https://papillon.com.tr/en/accommodation/"
 ---
 Papillon Belvil occupies Belek's Taşlıburun area. The group lists Comfort Club rooms, club family rooms and superior room categories, making the exact building and room type important when comparing stays.

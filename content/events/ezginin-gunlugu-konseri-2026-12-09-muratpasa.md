@@ -24,6 +24,18 @@ photos_official:
     label: "Venue photo · Holly Stone Performance Hall Antalya"
     caption: "Holly Stone Performance Hall Antalya"
     alt: "Holly Stone Performance Hall Antalya, the event venue"
+  - src: "/images/uploads/venue-ezginin-gunlugu-konseri-2026-12-09-muratpasa-g01.webp"
+    credit: "baskentgazete.com.tr"
+    source: "https://www.baskentgazete.com.tr/ezginin-gunlugu-baskentte-sahne-alacak"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Ezginin Günlüğü Konseri — Archive photo of the performer"
+  - src: "/images/uploads/venue-ezginin-gunlugu-konseri-2026-12-09-muratpasa-g02.webp"
+    credit: "bilecikolay.com"
+    source: "https://www.bilecikolay.com/ezginin-gunlugu-guzel-gecelerde-sahne-aldi"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Ezginin Günlüğü Konseri — Archive photo of the performer"
 ---
 **Ezginin Günlüğü** plays **Holly Stone Antalya** in Kaleiçi on **Wednesday 9 December 2026 at 21:00**.
 

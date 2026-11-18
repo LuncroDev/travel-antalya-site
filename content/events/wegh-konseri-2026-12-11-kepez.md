@@ -22,6 +22,18 @@ photos_official:
     label: "Venue photo · Aktüel Open-Air Stage, Antalya"
     caption: "Aktüel Open-Air Stage, Antalya"
     alt: "Aktüel Open-Air Stage, Antalya, the event venue"
+  - src: "/images/uploads/venue-wegh-konseri-2026-12-11-kepez-g01.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/--wegh-konseri-"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Wegh Konseri — Archive photo of the performer"
+  - src: "/images/uploads/venue-wegh-konseri-2026-12-11-kepez-g02.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/--wegh-konseri-"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Wegh Konseri — Archive photo of the performer"
 ---
 Rapper Wegh performs at Antalya Aktüel Sahne in Kepez.
 

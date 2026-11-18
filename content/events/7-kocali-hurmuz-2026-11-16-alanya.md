@@ -24,6 +24,12 @@ photos_official:
     label: "Venue photo · Alanya Cultural Centre"
     caption: "Alanya Cultural Centre"
     alt: "Alanya Cultural Centre, the event venue"
+  - src: "/images/uploads/venue-7-kocali-hurmuz-2026-11-16-alanya-g01.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/7-kocali-hurmuz-oyunu"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "7 Kocalı Hürmüz — Event announcement image"
 ---
 A traditional Turkish musical comedy follows Hürmüz and her complicated marriages.
 

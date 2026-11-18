@@ -20,6 +20,21 @@ status_note: 'Seasonal/current status needs confirmation: business listing says 
 photos_official:
   - src: "/images/uploads/venue-oburus-momus-p01.webp"
   - src: "/images/uploads/venue-oburus-momus-p02.webp"
+  - src: "/images/uploads/venue-oburus-momus-g01.webp"
+    credit: "oburus.com"
+    source: "https://www.oburus.com/momus/"
+    caption: "Oburus Momus"
+    alt: "Oburus Momus"
+  - src: "/images/uploads/venue-oburus-momus-g02.webp"
+    credit: "happycow.net"
+    source: "https://www.happycow.net/reviews/oburus-momus-kas-73432"
+    caption: "Oburus Momus"
+    alt: "Oburus Momus"
+  - src: "/images/uploads/venue-oburus-momus-g03.webp"
+    credit: "tripadvisor.ru"
+    source: "https://www.tripadvisor.ru/Restaurant_Review-g297965-d10211773-Reviews-Oburus_Momus-Kas_Turkish_Mediterranean_Coast.html"
+    caption: "Oburus Momus"
+    alt: "Oburus Momus"
 photo_source: "https://www.oburus.com/momus/"
 ---
 Oburus Momus is a vegan and vegetarian restaurant on the Kaş peninsula. Its menu draws on several cuisines, with vegetable bowls, noodles and dishes using ingredients such as tempeh.

@@ -22,6 +22,18 @@ photos_official:
     label: "Venue photo · Holly Stone Performance Hall Antalya"
     caption: "Holly Stone Performance Hall Antalya"
     alt: "Holly Stone Performance Hall Antalya, the event venue"
+  - src: "/images/uploads/venue-paptircem-konseri-2026-12-25-muratpasa-g01.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/paptircem-konseri"
+    label: "Artist promo photo"
+    caption: "Artist promo photo"
+    alt: "Paptircem Konseri — Artist promo photo"
+  - src: "/images/uploads/venue-paptircem-konseri-2026-12-25-muratpasa-g02.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/paptircem-konseri"
+    label: "Artist promo photo"
+    caption: "Artist promo photo"
+    alt: "Paptircem Konseri — Artist promo photo"
 ---
 Singer, songwriter and producer Sena Gül, known as Paptircem, performs at Holly Stone Antalya.
 

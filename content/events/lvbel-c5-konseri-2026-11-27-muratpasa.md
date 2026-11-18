@@ -15,6 +15,19 @@ excerpt: "Lvbel C5 brings his live set to The Bar in Antalya's old town."
 tagline: "Lvbel C5 brings his live set to The Bar in Antalya's old town."
 time_display: "22:30"
 verification_note: "Day, month, start time and venue are shown on the individual primary ticketing page. The year is established from the current upcoming listing and its matching weekday/date calendar. End time and age restrictions were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/venue-lvbel-c5-konseri-2026-11-27-muratpasa-g01.webp"
+    credit: "mobil.hitmagazin.com.tr"
+    source: "https://mobil.hitmagazin.com.tr/haber/lvbel-c5-ten-mustafa-sandal-a-muzik-dersi/1827/"
+    label: "Archive photo of the performer"
+    caption: "Archive photo of the performer"
+    alt: "Lvbel C5 Konseri — Archive photo of the performer"
+  - src: "/images/uploads/venue-lvbel-c5-konseri-2026-11-27-muratpasa-g02.webp"
+    credit: "bubilet.com.tr"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/lvbel-c5-konseri"
+    label: "Artist promo photo"
+    caption: "Artist promo photo"
+    alt: "Lvbel C5 Konseri — Artist promo photo"
 ---
 Lvbel C5 brings his live set to The Bar in Antalya's old town.
 
