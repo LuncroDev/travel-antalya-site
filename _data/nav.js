@@ -3,6 +3,7 @@
 module.exports = {
   utility: [
     { label: 'Blog', href: '/blog/' },
+    { label: 'Map', href: '/map/' },
     { label: 'Destinations', href: '/destinations/' },
     { label: 'Plan your trip', href: '/plan-your-trip/' },
     { label: 'Contact', href: '/contact/' }

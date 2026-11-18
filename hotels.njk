@@ -42,7 +42,7 @@ eleventyExcludeFromCollections: true
       {% set hotelSlug = hotel.data.slug or (hotel.data.title | slugify) %}
       {% set ph = hotel.data | cardPhoto(editorialPhotos) %}
       {% set attrs = ' data-hotel data-area="' + (hotel.data.neighborhood | escape) + '" data-type="' + (hotel.data.category | escape) + '"' %}
-      {{ rowCard('/hotels/' + hotelSlug + '/', ph, hotel.data.title, hotel.data.excerpt, [{icon: 'pin', label: hotel.data.neighborhood}, {icon: 'bed', label: hotel.data.category}], ('Golf' if hotel.data.category == 'Golf resort' else ''), attrs) }}
+      {{ rowCard('/hotels/' + hotelSlug + '/', ph, hotel.data.title, hotel.data.excerpt, [{icon: 'pin', label: hotel.data.neighborhood}, {icon: 'bed', label: hotel.data.category}], ((hotel.data.sponsor_label or 'Featured') if hotel.data.sponsored else ('Golf' if hotel.data.category == 'Golf resort' else '')), attrs) }}
       {% endfor %}
     </div>
     <div id="hotel-empty" class="hotel-empty" hidden><h3>No hotels match these filters</h3><p>Try a broader keyword, choose another area or reset your filters.</p><button type="button" id="hotel-reset-empty" class="btn btn-orange">Show all hotels</button></div>

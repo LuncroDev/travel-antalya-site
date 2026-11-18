@@ -16,7 +16,7 @@
 {% for v in venueItems %}
 {% if venuePath == 'restaurants' %}{% set ph = v.data | matchedVenuePhoto(editorialPhotos) %}{% else %}{% set ph = v.data | cardPhoto(editorialPhotos) %}{% endif %}
 {% set attrs = ' data-venue data-area="' + (v.data.neighborhood | escape) + '" data-category="' + (v.data.category | escape) + '"' %}
-{{ rowCard('/' + venuePath + '/' + (v.data.slug or (v.data.title | slugify)) + '/', ph, v.data.title, v.data.excerpt, [{icon: 'pin', label: v.data.neighborhood}, {icon: venueIcon or 'food', label: v.data.category}], ('Venue photo pending' if venuePath == 'restaurants' and not ph else ''), attrs, ('<p class="notice" style="margin:0;max-width:260px;font-size:.95rem"><strong>Notice:</strong> ' + (v.data.status_note | escape) + '</p>') if v.data.status_note else '') }}
+{{ rowCard('/' + venuePath + '/' + (v.data.slug or (v.data.title | slugify)) + '/', ph, v.data.title, v.data.excerpt, [{icon: 'pin', label: v.data.neighborhood}, {icon: venueIcon or 'food', label: v.data.category}], ((v.data.sponsor_label or 'Featured') if v.data.sponsored else ('Venue photo pending' if venuePath == 'restaurants' and not ph else '')), attrs, ('<p class="notice" style="margin:0;max-width:260px;font-size:.95rem"><strong>Notice:</strong> ' + (v.data.status_note | escape) + '</p>') if v.data.status_note else '') }}
 {% endfor %}
 </div>
 <div data-venue-empty class="empty-state" hidden><h2>No matching {{ venuePlural }}</h2><p>Try another name or area, or reset your filters.</p><button type="button" data-venue-reset class="btn btn-orange">Show all</button></div>

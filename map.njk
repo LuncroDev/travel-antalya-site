@@ -1,0 +1,32 @@
+---
+layout: base.njk
+pageTitle: "Antalya Map — Hotels, Restaurants, Beaches & Ancient Sites"
+pageDescription: "Explore Antalya on one map: resort areas from Belek to Kaş, with hotels, restaurants, golf, beaches and ancient sites linked to our sourced guides."
+pageUrl: "/map/"
+permalink: "/map/index.html"
+eleventyExcludeFromCollections: true
+---
+{% from 'ui.njk' import pageHero %}
+<section class="map-page">
+  <div class="container">
+    <p class="eyebrow">Explore Antalya</p>
+    <h1 class="map-title">Our areas, beaches &amp; ancient sites</h1>
+    <p class="map-lede">Numbered pins are the areas we cover — click one to see how many hotels, restaurants and golf clubs it has and jump straight to them. Orange pins are exact attractions; teal pins are beaches. Hotel and restaurant pins show the <em>area</em>, not the building, so always confirm the address on the venue’s own site.</p>
+  </div>
+  <div class="container container-wide">
+    {% set mapHeight = 680 %}
+    {% include 'map-embed.njk' %}
+  </div>
+  {% set mp = collections | mapPoints %}
+  <div class="container map-featured-wrap">
+    <h2>Featured places</h2>
+    {% if mp.featured.length %}
+    <ul class="map-featured">
+      {% for f in mp.featured %}<li><a href="{{ f.url }}"><span class="feat-tag">{{ f.label }}</span> {{ f.title }}</a>{% if f.area %} <span class="feat-area">· {{ f.area }}</span>{% endif %}</li>{% endfor %}
+    </ul>
+    {% else %}
+    <p>Featured placements for hotels, restaurants and tours are opening soon. Featured places are always labelled and never change how we describe or verify a venue.</p>
+    {% endif %}
+    <p><a class="btn btn-orange" href="/advertise/">Get your business featured</a></p>
+  </div>
+</section>

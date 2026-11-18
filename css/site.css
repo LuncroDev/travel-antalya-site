@@ -587,3 +587,43 @@ html.lb-open{overflow:hidden}
 .lb-next{right:12px;top:50%;transform:translateY(-50%)}
 .lb button[hidden]{display:none}
 @media (max-width:700px){.lb{padding:56px 8px 24px}.lb-prev,.lb-next{top:auto;bottom:12px;transform:none}.lb-prev{left:calc(50% - 56px)}.lb-next{right:calc(50% - 56px)}.lb-fig img{max-height:calc(100vh - 190px)}}
+
+/* ---- Interactive map (/map/ and homepage) ---- */
+.ta-map-wrap { position: relative; margin-top: 18px; }
+.ta-map { width: 100%; border-radius: 16px; overflow: hidden; background: #dfeaf1; border: 1px solid #d5e2ea; }
+.container-wide { max-width: 1320px; }
+.map-page { padding: 48px 0 64px; }
+.map-title { font-size: clamp(2rem, 4vw, 2.8rem); margin: 4px 0 12px; }
+.map-lede { max-width: 820px; line-height: 1.65; margin-bottom: 8px; }
+.map-featured-wrap { margin-top: 40px; }
+.map-featured { list-style: none; padding: 0; display: grid; gap: 8px; }
+.feat-tag { display: inline-block; background: #E8B923; color: #3a2d00; font-size: .72rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: 2px 8px; border-radius: 999px; }
+.feat-area { color: #5b6b78; }
+.ta-pin-wrap { background: none; border: 0; }
+.ta-pin { display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); color: #fff; font: 700 .85rem/1 Jost, sans-serif; border: 2px solid #fff; box-shadow: 0 2px 6px rgba(0,0,0,.35); }
+.ta-pin > i { transform: rotate(45deg); font-style: normal; display: block; }
+.ta-pin-area { background: var(--blue); }
+.ta-pin-thing { background: var(--orange); }
+.ta-pin-beach { background: #12A39A; }
+.ta-pin-star { background: #E8B923; color: #3a2d00; font-size: 1rem; }
+.ta-pin-area, .ta-pin-thing, .ta-pin-beach, .ta-pin-star { text-align: center; }
+.ta-pin-area::after { content: none; }
+.ta-menu { background: #fff; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,.25); width: min(300px, 70vw); max-height: 70%; overflow: auto; font-family: Jost, sans-serif; border: 0 !important; }
+.ta-menu-group + .ta-menu-group { border-top: 1px solid #e3ebf0; }
+.ta-menu-head { display: flex; align-items: center; gap: 8px; padding: 6px 10px; }
+.ta-menu-head button { flex: 1; display: flex; align-items: center; gap: 8px; background: none; border: 0; font: 700 .85rem Jost, sans-serif; text-transform: uppercase; letter-spacing: .03em; color: #0B3A5C; padding: 8px 0; cursor: pointer; text-align: left; }
+.ta-caret { margin-left: auto; border: 5px solid transparent; border-top-color: #0B3A5C; border-bottom: 0; }
+.ta-menu-group.open .ta-caret { transform: rotate(180deg); }
+.ta-dot { width: 14px; height: 14px; border-radius: 50%; flex: none; }
+.ta-dot-area { background: var(--blue); } .ta-dot-beach { background: #12A39A; } .ta-dot-thing { background: var(--orange); } .ta-dot-star { background: #E8B923; }
+.ta-menu ul { list-style: none; margin: 0; padding: 0 0 8px; max-height: 220px; overflow: auto; }
+.ta-menu li button { width: 100%; text-align: left; background: none; border: 0; padding: 6px 14px 6px 36px; font: 400 .9rem Jost, sans-serif; color: #1a2a36; cursor: pointer; }
+.ta-menu li button:hover, .ta-menu li button:focus-visible { background: #E7F3FA; }
+.ta-empty { padding: 6px 14px 6px 36px; font-size: .85rem; color: #5b6b78; }
+.ta-pop h3 { margin: 2px 0 6px; font-size: 1.1rem; }
+.ta-pop p { margin: 0 0 6px; }
+.ta-pop-kicker { font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; color: #D9471A; font-weight: 700; }
+.ta-pop-links a { margin-right: 12px; font-weight: 700; }
+.ta-pop-feat { list-style: none; padding: 0; margin: 4px 0 8px; }
+.ta-map-fallback { padding: 16px; }
+@media (max-width: 700px) { .ta-map { height: 520px !important; } .ta-menu { width: 62vw; } }

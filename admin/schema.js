@@ -13,6 +13,12 @@
     { name: 'photo_source', label: 'Page the photos came from', type: 'url' }
   ];
   const seo = { name: 'focus_keyword', label: 'Focus keyword (SEO)', type: 'text', hint: 'e.g. “best hotels in belek”' };
+  const mapFields = [
+    { name: 'sponsored', label: 'Featured / sponsored listing', type: 'boolean', default: false, hint: 'Paid placement: shown first, with a “Featured” label and a gold star on the map.' },
+    { name: 'sponsor_label', label: 'Label shown to visitors', type: 'text', hint: 'Default “Featured”. Use “Sponsored” for paid placements.' },
+    { name: 'map_lat', label: 'Map latitude', type: 'number', hint: 'Exact pin on /map/. Right-click the place in Google Maps and copy the first number.' },
+    { name: 'map_lng', label: 'Map longitude', type: 'number', hint: 'Second number from Google Maps.' }
+  ];
   const schema = {
     hotels: {
       label: 'Hotels', singular: 'Hotel', folder: 'content/hotels', path: '/hotels/', icon: '🏨',
@@ -26,6 +32,7 @@
         { name: 'tagline', label: 'Tagline', type: 'text' },
         { name: 'excerpt', label: 'Short description (cards & Google)', type: 'textarea', max: 160 },
         ...venuePhotos,
+        ...mapFields,
         { name: 'amenities', label: 'Highlights / amenities', type: 'list', hint: 'One per line: Private beach, Kids club, Spa…' },
         { name: 'booking_url', label: 'Booking / affiliate link', type: 'url' },
         { name: 'map_lat', label: 'Map latitude', type: 'number' },
@@ -47,6 +54,7 @@
         { name: 'tagline', label: 'Tagline', type: 'text' },
         { name: 'excerpt', label: 'Short description', type: 'textarea', max: 160 },
         ...venuePhotos,
+        ...mapFields,
         { name: 'signature_dishes', label: 'Dishes to try', type: 'list' },
         { name: 'booking_url', label: 'Reservation link', type: 'url' },
         { name: 'map_lat', label: 'Map latitude', type: 'number' },
@@ -68,6 +76,7 @@
         { name: 'tagline', label: 'Tagline', type: 'text' },
         { name: 'excerpt', label: 'Short description', type: 'textarea', max: 160 },
         ...venuePhotos,
+        ...mapFields,
         { name: 'booking_note', label: 'Before booking a round', type: 'textarea' },
         ...source, seo,
         { name: 'body', label: 'Article', type: 'markdown' }

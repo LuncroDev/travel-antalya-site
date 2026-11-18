@@ -110,6 +110,14 @@ schema:
   </div>
 </section>
 
+<section class="section section-sand" aria-labelledby="map-title">
+  <div class="container">
+    <div class="section-head"><div><p class="eyebrow">Explore on the map</p><h2 id="map-title">Explore our areas &amp; beaches</h2><p class="subhead">From Kaleiçi to Belek, Side and Kaş — tap a pin to see the hotels, restaurants and sights in each area.</p></div><a class="btn btn-sm" href="/map/">Open full map</a></div>
+    {% set mapHeight = 520 %}
+    {% include 'map-embed.njk' %}
+  </div>
+</section>
+
 <section class="section" aria-labelledby="todo-title">
   <div class="container">
     {{ sectionHead('Follow your curiosity', 'Things to do in Antalya', '/things-to-do/', 'See all things to do', 'todo-title') }}

@@ -13,6 +13,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('slugify', slugify);
   eleventyConfig.addFilter('jsonForHtml', jsonForHtml);
   eleventyConfig.addFilter('absoluteUrl', absoluteUrl);
+  eleventyConfig.addFilter('mapPoints', require('./lib/map').mapPoints);
   eleventyConfig.addFilter('take', (items, count) => (items || []).slice(0, count));
   eleventyConfig.addFilter('encodeUri', value => encodeURIComponent(value || ''));
   for (const [name, fn] of Object.entries(require('./lib/discovery'))) eleventyConfig.addFilter(name, fn);
@@ -26,13 +27,13 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("hotels", function (collectionApi) {
     return collectionApi.getFilteredByGlob("content/hotels/*.md").sort((a, b) => {
-      return (a.data.title || "").localeCompare(b.data.title || "");
+      return (b.data.sponsored === true) - (a.data.sponsored === true) || (a.data.title || "").localeCompare(b.data.title || "");
     });
   });
 
   eleventyConfig.addCollection("restaurants", function (collectionApi) {
     return collectionApi.getFilteredByGlob("content/restaurants/*.md").sort((a, b) => {
-      return (a.data.title || "").localeCompare(b.data.title || "");
+      return (b.data.sponsored === true) - (a.data.sponsored === true) || (a.data.title || "").localeCompare(b.data.title || "");
     });
   });
 
