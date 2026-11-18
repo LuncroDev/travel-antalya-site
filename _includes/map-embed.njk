@@ -1,7 +1,12 @@
 {# Interactive map. Used on /map/ and the homepage. Data comes from lib/map.js. #}
 {% set mp = collections | mapPoints %}
 <div class="ta-map-wrap">
+  <div class="ta-viewtoggle" role="group" aria-label="Map style">
+    <button type="button" class="on" data-view="2d" aria-pressed="true">Map</button>
+    <button type="button" data-view="3d" aria-pressed="false">3D view</button>
+  </div>
   <div class="ta-map" id="ta-map" data-height="{{ mapHeight or 640 }}" role="region" aria-label="Interactive map of Antalya areas, beaches and attractions"></div>
+  <div class="ta-map ta-3d" id="ta-map3d" data-build="{{ buildDate }}" hidden role="region" aria-label="3D map of Antalya with places"></div>
   <script type="application/json" id="ta-map-data">{{ mp | jsonForHtml | safe }}</script>
   <noscript>
     <ul class="ta-map-fallback">

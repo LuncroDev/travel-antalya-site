@@ -57,4 +57,3 @@ eleventyExcludeFromCollections: true
   </div>
 </section>
 <script src="/js/events.js" defer></script>
-{% set pageSrc = ev | photoSources(editorialPhotos) %}{% if pageSrc.length %}<p class="page-sources">Photo sources: {% for s in pageSrc %}{% if s.url %}<a href="{{ s.url }}" target="_blank" rel="noopener nofollow">{{ s.text }}</a>{% else %}{{ s.text }}{% endif %}{% if not loop.last %}; {% endif %}{% endfor %} · <a href="/photography/">all credits</a></p>{% endif %}

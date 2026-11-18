@@ -42,9 +42,28 @@
   function esc(t) { var d = document.createElement('div'); d.textContent = t == null ? '' : String(t); return d.innerHTML; }
   function plural(n, w) { return n + ' ' + w + (n === 1 ? '' : 's'); }
 
+  function areaPopup(a) {
+    var h = '<div class="ta-pop"><p class="ta-pop-kicker">Area ' + a.n + '</p><h3>' + esc(a.label) + '</h3><p>' +
+      [a.counts.hotel ? plural(a.counts.hotel, 'hotel') : '', a.counts.restaurant ? plural(a.counts.restaurant, 'restaurant') : '', a.counts.golf ? plural(a.counts.golf, 'golf club') : ''].filter(Boolean).join(' · ') + '</p>';
+    if (a.featured.length) {
+      h += '<ul class="ta-pop-feat">' + a.featured.map(function (f) { return '<li><span class="feat-tag">' + esc(f.label) + '</span> <a href="' + esc(f.url) + '">' + esc(f.title) + '</a></li>'; }).join('') + '</ul>';
+    }
+    h += '<p class="ta-pop-links">';
+    if (a.counts.hotel) h += '<a href="/hotels/' + (a.hotelArea ? '?area=' + encodeURIComponent(a.hotelArea) : '') + '">Hotels</a>';
+    if (a.counts.restaurant) h += '<a href="/restaurants/?q=' + encodeURIComponent(a.label.split(' ')[0]) + '">Restaurants</a>';
+    if (a.counts.golf) h += '<a href="/golf/">Golf</a>';
+    return h + '</p></div>';
+  }
+  function placePopup(p) {
+    return '<div class="ta-pop">' + (p.sponsored ? '<p class="ta-pop-kicker"><span class="feat-tag">' + esc(p.label) + '</span></p>' : '<p class="ta-pop-kicker">' + esc(p.cat || 'Place') + '</p>') +
+      '<h3>' + esc(p.title) + '</h3><p class="ta-pop-links"><a href="' + esc(p.url) + '">Read the guide</a></p></div>';
+  }
+  window.TAMap = { data: data, kindOf: kindOf, icon: icon, esc: esc, areaPopup: areaPopup, placePopup: placePopup, leaflet: null };
+
   function init() {
     var L = window.L;
     var map = L.map(el, { scrollWheelZoom: false, zoomControl: true }).setView([36.78, 30.95], 9);
+    window.TAMap.leaflet = map;
     map.once('focus', function () { map.scrollWheelZoom.enable(); });
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' }).addTo(map);
 
@@ -56,17 +75,7 @@
     }
 
     data.areas.forEach(function (a) {
-      var total = a.counts.hotel + a.counts.restaurant + a.counts.golf;
-      var h = '<div class="ta-pop"><p class="ta-pop-kicker">Area ' + a.n + '</p><h3>' + esc(a.label) + '</h3><p>' +
-        [a.counts.hotel ? plural(a.counts.hotel, 'hotel') : '', a.counts.restaurant ? plural(a.counts.restaurant, 'restaurant') : '', a.counts.golf ? plural(a.counts.golf, 'golf club') : ''].filter(Boolean).join(' · ') + '</p>';
-      if (a.featured.length) {
-        h += '<ul class="ta-pop-feat">' + a.featured.map(function (f) { return '<li><span class="feat-tag">' + esc(f.label) + '</span> <a href="' + esc(f.url) + '">' + esc(f.title) + '</a></li>'; }).join('') + '</ul>';
-      }
-      h += '<p class="ta-pop-links">';
-      if (a.counts.hotel) h += '<a href="/hotels/' + (a.hotelArea ? '?area=' + encodeURIComponent(a.hotelArea) : '') + '">Hotels</a>';
-      if (a.counts.restaurant) h += '<a href="/restaurants/?q=' + encodeURIComponent(a.label.split(' ')[0]) + '">Restaurants</a>';
-      if (a.counts.golf) h += '<a href="/golf/">Golf</a>';
-      h += '</p></div>';
+      var h = areaPopup(a);
       var m = pin('ta-pin-area', String(a.n), [a.lat, a.lng], a.label).bindPopup(h);
       layers.areas.addLayer(m); markers.push({ g: 'areas', id: 'a' + a.id, m: m, ll: [a.lat, a.lng], title: a.n + '. ' + a.label });
     });
@@ -75,8 +84,7 @@
       var k = kindOf(p);
       var g = p.sponsored ? 'featured' : (p.type === 'beach' ? 'beach' : 'thing');
       var cls = p.sponsored ? 'ta-pin-star' : 'ta-k-' + k[1];
-      var h = '<div class="ta-pop">' + (p.sponsored ? '<p class="ta-pop-kicker"><span class="feat-tag">' + esc(p.label) + '</span></p>' : '<p class="ta-pop-kicker">' + esc(p.cat || 'Place') + '</p>') +
-        '<h3>' + esc(p.title) + '</h3><p class="ta-pop-links"><a href="' + esc(p.url) + '">Read the guide</a></p></div>';
+      var h = placePopup(p);
       var m = pin(cls, icon(k[0]), [p.lat, p.lng], p.title).bindPopup(h);
       layers[g].addLayer(m); markers.push({ g: g, id: 'p' + i, m: m, ll: [p.lat, p.lng], title: p.title });
     });
@@ -117,5 +125,35 @@
     });
     var Ctl = L.Control.extend({ options: { position: 'topleft' }, onAdd: function () { return menu; } });
     new Ctl().addTo(map);
+  }
+
+  // ---- 2D / 3D toggle (3D engine is loaded only on first use) ----
+  var el3 = document.getElementById('ta-map3d');
+  var tog = document.querySelector('.ta-viewtoggle');
+  if (el3 && tog) {
+    el3.style.height = el.style.height;
+    var loaded3 = 0, ready3 = false;
+    function set(view) {
+      [].forEach.call(tog.querySelectorAll('button'), function (b) { var on = b.getAttribute('data-view') === view; b.classList.toggle('on', on); b.setAttribute('aria-pressed', String(on)); });
+      el.hidden = view === '3d'; el3.hidden = view !== '3d';
+      if (view === '2d' && window.TAMap.leaflet) window.TAMap.leaflet.invalidateSize();
+      if (view === '3d') {
+        if (ready3) { window.TAMap.m3 && window.TAMap.m3.resize(); return; }
+        if (loaded3) return; loaded3 = 1;
+        el3.setAttribute('data-state', 'loading');
+        var css = document.createElement('link'); css.rel = 'stylesheet'; css.href = '/js/vendor/maplibre/maplibre-gl.css'; document.head.appendChild(css);
+        var a = document.createElement('script'); a.src = '/js/vendor/maplibre/maplibre-gl.js';
+        a.onload = function () {
+          var b = document.createElement('script'); b.src = '/js/map3d.js?v=' + (el3.getAttribute('data-build') || '1');
+          b.onload = function () { ready3 = true; el3.removeAttribute('data-state'); };
+          b.onerror = fail; document.head.appendChild(b);
+        };
+        a.onerror = fail; document.head.appendChild(a);
+      }
+    }
+    function fail() { loaded3 = 0; el3.removeAttribute('data-state'); set('2d'); alert3(); }
+    function alert3() { var n = document.createElement('p'); n.className = 'ta-3d-fail'; n.textContent = '3D view could not load on this device — showing the standard map.'; tog.parentNode.insertBefore(n, tog.nextSibling); setTimeout(function () { n.remove(); }, 6000); }
+    window.TAMap.fail3d = fail;
+    tog.addEventListener('click', function (e) { var b = e.target.closest('button[data-view]'); if (b) set(b.getAttribute('data-view')); });
   }
 })();

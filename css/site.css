@@ -651,3 +651,25 @@ html.lb-open{overflow:hidden}
 .social-tile .who { position: absolute; left: 0; right: 0; bottom: 0; padding: 22px 10px 8px; font-size: .8rem; color: #fff; background: linear-gradient(transparent, rgba(0,0,0,.6)); opacity: 0; transition: opacity .2s; }
 .social-tile:hover .who, .social-tile:focus-visible .who { opacity: 1; }
 .social-note { font-size: .8rem; color: #5b6b78; margin-top: 12px; }
+
+/* ---- 3D view ---- */
+.ta-viewtoggle { display: inline-flex; background: #fff; border: 1px solid #d5e2ea; border-radius: 999px; padding: 3px; margin-bottom: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.06); }
+.ta-viewtoggle button { border: 0; background: none; padding: 7px 18px; border-radius: 999px; font: 700 .9rem Jost, sans-serif; color: var(--blue); cursor: pointer; min-height: 36px; }
+.ta-viewtoggle button.on { background: var(--blue); color: #fff; }
+.ta-viewtoggle button:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
+.ta-3d-fail { font-size: .85rem; color: #9a3412; margin: 0 0 8px; }
+.ta-3d { position: relative; background: #BFE6F5; }
+.ta-3d[hidden], .ta-map[hidden] { display: none; }
+.ta-3d[data-state="loading"]::after { content: 'Loading 3D map…'; position: absolute; inset: 0; display: grid; place-items: center; font: 700 1rem Jost, sans-serif; color: #33556B; }
+.ta-3d .ta-pin-wrap { width: 34px; height: 40px; cursor: pointer; }
+.ta-3d .maplibregl-popup-content { border-radius: 12px; padding: 12px 14px 10px; font-family: inherit; }
+.ta-3d-bar { position: absolute; top: 10px; left: 10px; right: 56px; display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; z-index: 2; }
+.ta-3d-bar::-webkit-scrollbar { display: none; }
+.ta-3d-bar button, .ta-3d-rot button { border: 1px solid #d5e2ea; background: rgba(255,255,255,.96); color: #0B3C5D; border-radius: 999px; padding: 7px 13px; font: 700 .82rem Jost, sans-serif; white-space: nowrap; cursor: pointer; min-height: 34px; box-shadow: 0 1px 4px rgba(0,0,0,.15); }
+.ta-3d-bar button.wide { background: var(--blue); color: #fff; border-color: var(--blue); }
+.ta-3d-bar button:hover, .ta-3d-rot button:hover { background: #fff; border-color: var(--orange); }
+.ta-3d-rot { position: absolute; right: 10px; bottom: 34px; display: flex; flex-direction: column; gap: 6px; z-index: 2; }
+.ta-3d-rot button { border-radius: 10px; font-size: 1.1rem; padding: 4px 0; width: 44px; min-height: 40px; }
+.ta-3d-rot button.txt { font-size: .75rem; }
+.ta-3d-hint { position: absolute; left: 50%; bottom: 34px; transform: translateX(-50%); margin: 0; background: rgba(11,60,93,.88); color: #fff; font-size: .78rem; padding: 6px 12px; border-radius: 999px; z-index: 2; pointer-events: none; transition: opacity .6s; max-width: 80%; text-align: center; }
+.ta-3d-hint.off { opacity: 0; }
