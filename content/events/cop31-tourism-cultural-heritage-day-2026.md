@@ -6,10 +6,7 @@ start_date: "2026-11-18"
 date_verified: true
 venue: "COP31 Green Zone, Nurol Holding Congress Centre, D6 Ahmed Yesevi Halls 1–3, Aksu"
 district_slug: "aksu"
-photo_id: "commons-antalya-expo-2016-archive"
-event_photo_role: "named-site-archive"
 photo_exact: false
-photo_label: "Archive venue grounds · EXPO 2016 Antalya; not a COP31 event photo"
 time_display: "13:30–17:30"
 admission_note: "Free visitor registration is required for the Green Zone. Check confirmation and entry instructions before travelling."
 source_name: "Türkiye Tourism Promotion and Development Agency (TGA)"
@@ -22,9 +19,9 @@ photos_official:
   - src: "/images/uploads/venue-cop31-tourism-cultural-heritage-day-2026-g01.webp"
     credit: "selcuk.edu.tr"
     source: "https://selcuk.edu.tr/birim/icerik/5337/cop31-turizm-ve-kulturel-miras-gunu-18-kasimda-antalyada-gerceklestirilecek-84859"
-    label: "Event announcement image"
-    caption: "Event announcement image"
-    alt: "COP31 Tourism and Cultural Heritage Day — Event announcement image"
+    label: "Programme schedule"
+    caption: "Green Zone programme schedule"
+    alt: "COP31 Tourism and Cultural Heritage Day — programme schedule"
 ---
 The Türkiye Tourism Promotion and Development Agency (TGA) lists the **Tourism and Cultural Heritage Day** for **Wednesday, 18 November 2026, 13:30–17:30 Antalya time**. Its programme places the opening and four panels in the COP31 **Green Zone**, not in the Blue Zone. The [17 November TÜROB invitation](https://www.turob.com/haberler/turizm-ve-kulturel-miras-gunu-programina-davet) gives the same hours.
 
