@@ -22,6 +22,4 @@
 <img src="/images/home/{{ photo.id }}-960.webp" srcset="/images/home/{{ photo.id }}-480.webp 480w, /images/home/{{ photo.id }}-960.webp 960w{% if eager or wide %}, /images/home/{{ photo.id }}-1920.webp 1920w{% endif %}" sizes="{{ sizes }}" alt="{{ photo.alt }}" width="{{ photo.width }}" height="{{ photo.height }}" {% if eager %}fetchpriority="high" loading="eager"{% else %}loading="lazy"{% endif %} decoding="async">
 {%- endmacro %}
 
-{% macro credit(photo) -%}
-<details class="home-credit"><summary><span aria-hidden="true">©</span><span class="sr-only">Photo credit: {{ photo.caption }}</span></summary><div><strong>{{ photo.caption }}</strong><span>{{ photo.author }} · <a href="{{ photo.license_url }}">{{ photo.license }}</a> · <a href="{{ photo.source_url }}">Source</a></span><span>Resized to WebP; cropped for display.</span></div></details>
-{%- endmacro %}
+{% macro credit(photo) -%}{%- endmacro %}

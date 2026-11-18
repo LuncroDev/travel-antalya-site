@@ -10,7 +10,7 @@
       {% if loop.first or gallery.length >= 3 %}
       <figure>
         {{ pic(ph.src, ph.alt, ('(max-width: 860px) 100vw, 66vw' if loop.first else '33vw'), loop.first, ph.width, ph.height, '', ph.preserve_framing) }}
-        <figcaption>{% if ph.contextual %}Area photo · {% endif %}{{ ph.caption }}</figcaption>
+        <figcaption>{% if ph.contextual %}Area photo · {% endif %}{{ ph.caption }}{% if ph.archive_warning %} <span class="photo-context-note">{{ ph.archive_warning }}</span>{% elif ph.usage_note %} <span class="photo-context-note">{{ ph.usage_note }}</span>{% endif %}</figcaption>
         {{ credit(ph) }}
       </figure>
       {% endif %}

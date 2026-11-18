@@ -47,21 +47,11 @@ const ownerPhotoCredits = (() => {
   }
   return [...out];
 })();
-test('licensed photos keep keyboard-accessible author and licence credits', () => {
+test('photo credits live on the credits page, not on the images', () => {
   const doc = page();
-  const credits = [...doc.querySelectorAll('main details.credit')];
-  assert.ok(credits.length >= 10);
-  for (const credit of credits) {
-    assert.ok(credit.querySelector('summary .sr-only')?.textContent.startsWith('Photo credit:'));
-    if (credit.textContent.includes('official website')) continue; // venue's own photo, credited to its website
-    if (ownerPhotoCredits.some(c => credit.textContent.includes(c))) continue; // owner-supplied photo with its own recorded credit
-    const caption = credit.querySelector('strong').textContent;
-    const photo = photos.find(item => item.caption === caption);
-    assert.ok(photo, caption);
-    assert.ok(credit.textContent.includes(photo.author));
-    assert.equal(credit.querySelector('a').getAttribute('href'), photo.license_url);
-    assert.equal(credit.querySelectorAll('a')[1].getAttribute('href'), photo.source_url);
-  }
+  assert.equal(doc.querySelectorAll('main details.credit').length, 0);
+  assert.ok([...doc.querySelectorAll('footer a')].some(a => a.getAttribute('href') === '/photography/'));
+  assert.ok(fs.existsSync('_site/photography/index.html'));
 });
 
 test('area photos are labelled so they are never mistaken for the venue', () => {
