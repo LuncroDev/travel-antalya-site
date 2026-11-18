@@ -1,0 +1,11 @@
+{% if instagram.posts and instagram.posts.length %}
+<section class="section" aria-labelledby="social-title">
+  <div class="container">
+    <div class="section-head"><div><p class="eyebrow">#{{ instagram.tag }}</p><h2 id="social-title">Get social with us</h2><p class="subhead">Recent public Instagram posts tagged #{{ instagram.tag }}. Posts belong to their authors and open on Instagram.</p></div></div>
+    <div class="social-grid" id="social-grid">
+      {% for p in instagram.posts %}<div class="social-item"><blockquote class="instagram-media" data-instgrm-permalink="{{ p.url }}?utm_source=ig_embed" data-instgrm-version="14"><a href="{{ p.url }}" target="_blank" rel="noopener nofollow">View this post on Instagram</a></blockquote></div>{% endfor %}
+    </div>
+  </div>
+</section>
+<script src="/js/social.js?v={{ buildDate }}" defer></script>
+{% endif %}

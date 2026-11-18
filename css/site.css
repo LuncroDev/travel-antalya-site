@@ -627,3 +627,10 @@ html.lb-open{overflow:hidden}
 .ta-pop-feat { list-style: none; padding: 0; margin: 4px 0 8px; }
 .ta-map-fallback { padding: 16px; }
 @media (max-width: 700px) { .ta-map { height: 520px !important; } .ta-menu { width: 62vw; } }
+
+/* ---- Instagram feed ---- */
+.social-grid { column-count: 3; column-gap: 16px; margin-top: 18px; }
+.social-item { break-inside: avoid; margin-bottom: 16px; }
+.social-item .instagram-media { min-width: 0 !important; width: 100% !important; max-width: 100% !important; margin: 0 !important; }
+@media (max-width: 900px) { .social-grid { column-count: 2; } }
+@media (max-width: 560px) { .social-grid { column-count: 1; } }
