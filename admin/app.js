@@ -62,7 +62,7 @@
   /* ---------- Shell ---------- */
   function shell(active, inner) {
     const d = state.data;
-    const nav = [['#/', '📊', 'Dashboard', 'dash'], ...Object.entries(S).map(([k, c]) => [`#/c/${k}`, c.icon, c.label, k, d.collections[k] ? d.collections[k].length : 0]), ['#/photos', '🖼️', 'Photo library', 'photos', d.photos.length]];
+    const nav = [['#/', '📊', 'Dashboard', 'dash'], ...Object.entries(S).map(([k, c]) => [`#/c/${k}`, c.icon, c.label, k, d.collections[k] ? d.collections[k].length : 0]), ['#/photos', '🖼️', 'Media library', 'photos', (state.uploads ? state.uploads.length : d.photos.length)]];
     app.innerHTML = `<div class="shell"><nav class="side" aria-label="Admin"><div class="brand"><img src="/images/logo-white-520.webp" alt="Travel Antalya"></div>
       ${nav.map(([h, i, l, k, n]) => `<a href="${h}" class="${active === k ? 'active' : ''}"><span>${i}</span>${l}${n != null ? `<span class="count">${n}</span>` : ''}</a>`).join('')}
       <div class="spacer"></div><a href="/" target="_blank" rel="noopener">↗ View site</a><a href="#/logout">⎋ Log out</a></nav><main class="main">${inner}</main></div>`;
@@ -132,10 +132,10 @@
         case 'tags': return `<div class="field"><label>${esc(f.label)}</label><div class="addrow">${f.options.map(o => `<label class="check"><input type="checkbox" data-tag="${f.name}" value="${o}" ${(v || []).includes(o) ? 'checked' : ''}>${{ 'editors-choice': 'Editor’s choice', sponsored: 'Sponsored' }[o] || o}</label>`).join('')}</div>${hint}</div>`;
         case 'bool': return `<div class="field"><label class="check"><input type="checkbox" id="${id}" data-f="${f.name}" data-bool ${v === true || v === 'true' ? 'checked' : ''}>${esc(f.label)}</label>${hint}</div>`;
         case 'list': return `<div class="field"><label for="${id}">${esc(f.label)}</label><textarea id="${id}" data-f="${f.name}" data-list>${esc((v || []).join('\n'))}</textarea>${hint}</div>`;
-        case 'photos': return `<div class="field"><label>${esc(f.label)}</label><div class="photos" id="photos"></div><div class="addrow"><input type="url" id="addurl" placeholder="Paste image link (https://…)"><button type="button" class="btn small ghost" id="addbtn">Add link</button><label class="btn small orange" style="cursor:pointer">Upload photo<input type="file" id="upl" accept="image/*" multiple hidden></label></div>${hint}</div>`;
+        case 'photos': return `<div class="field" id="photofield"><label>${esc(f.label)}</label><div class="photos" id="photos"></div><div class="addrow"><input type="url" id="addurl" placeholder="Paste image link (https://…)"><button type="button" class="btn small ghost" id="addbtn">Add link</button><label class="btn small orange" style="cursor:pointer">Upload photo<input type="file" id="upl" accept="image/*" multiple hidden></label><button type="button" class="btn small ghost" id="pickmedia">Media library…</button></div><p class="hint">Tip: drag photos from your computer onto this box, and drag the rows to reorder.</p>${hint}</div>`;
         case 'photoId': return `<div class="field"><label for="${id}">${esc(f.label)}</label><div class="addrow"><input type="text" id="${id}" data-f="${f.name}" value="${esc(v)}"><button type="button" class="btn small ghost" data-pick="${id}">Choose…</button></div>${hint}</div>`;
         case 'photoIds': return `<div class="field"><label for="${id}">${esc(f.label)}</label><div class="addrow"><input type="text" id="${id}" data-f="${f.name}" data-csv value="${esc((v || []).join(', '))}"><button type="button" class="btn small ghost" data-pick="${id}" data-multi>Add…</button></div><span class="hint">Comma-separated library IDs.</span></div>`;
-        case 'markdown': return `<div class="field"><label for="${id}">${esc(f.label)}</label><div class="md-tools"><button type="button" data-md="## ">H2</button><button type="button" data-md="### ">H3</button><button type="button" data-wrap="**">B</button><button type="button" data-wrap="_">I</button><button type="button" data-md="- ">• List</button><button type="button" data-link>Link</button><button type="button" data-md="> ">Quote</button><button type="button" class="tab" id="mdtab">Preview</button></div><textarea id="${id}" class="md" data-f="body">${esc(v)}</textarea><div class="md-preview" id="mdprev" hidden></div><span class="hint" id="wc"></span></div>`;
+        case 'markdown': return `<div class="field"><label for="${id}">${esc(f.label)}</label><div class="md-tools"><button type="button" data-md="## ">H2</button><button type="button" data-md="### ">H3</button><button type="button" data-wrap="**">B</button><button type="button" data-wrap="_">I</button><button type="button" data-md="- ">• List</button><button type="button" data-link>Link</button><button type="button" id="mdimg">🖼 Image</button><button type="button" data-md="> ">Quote</button><button type="button" class="tab" id="mdtab">Preview</button></div><textarea id="${id}" class="md" data-f="body">${esc(v)}</textarea><div class="md-preview" id="mdprev" hidden></div><span class="hint" id="wc"></span></div>`;
         case 'date': return `<div class="field"><label for="${id}">${esc(f.label)}</label><input type="date" id="${id}" data-f="${f.name}" value="${esc(String(v || '').slice(0, 10))}">${hint}</div>`;
         case 'number': return `<div class="field"><label for="${id}">${esc(f.label)}</label><input type="number" step="any" id="${id}" data-f="${f.name}" data-num value="${esc(v)}">${hint}</div>`;
         default: return `<div class="field"><label for="${id}">${esc(f.label)}${f.required ? ' *' : ''}</label><input type="${f.type === 'url' ? 'url' : 'text'}" id="${id}" data-f="${f.name}" value="${esc(v)}" ${f.required ? 'required' : ''}>${hint}</div>`;
@@ -154,8 +154,9 @@
 
     const drawPhotos = () => {
       const box = document.getElementById('photos'); if (!box) return;
-      box.innerHTML = photos.map((p, i) => `<div class="photo-row"><img src="${esc(p.preview || imgUrl(p.src, 320))}" alt=""><div>${i === 0 ? '<span class="cover">COVER</span>' : ''}<input type="text" value="${esc(p.alt)}" placeholder="What does the photo show?" data-alt="${i}" style="width:100%;border:2px solid var(--line);border-radius:10px;padding:7px 10px"><small style="display:block;color:var(--muted);word-break:break-all">${esc(p.src.slice(0, 90))}</small></div><div class="ops"><button type="button" class="iconbtn" data-up="${i}" title="Move up">↑</button><button type="button" class="iconbtn" data-rm="${i}" title="Remove">✕</button></div></div>`).join('') || '<p class="hint">No photos yet — the site shows a labelled area photo until you add one.</p>';
+      box.innerHTML = photos.map((p, i) => `<div class="photo-row" draggable="true" data-i="${i}"><img src="${esc(p.preview || imgUrl(p.src, 320))}" alt="" draggable="false"><div>${i === 0 ? '<span class="cover">COVER</span>' : ''}<input type="text" value="${esc(p.alt)}" placeholder="What does the photo show?" data-alt="${i}" style="width:100%;border:2px solid var(--line);border-radius:10px;padding:7px 10px"><small style="display:block;color:var(--muted);word-break:break-all">${esc(p.src.slice(0, 90))}</small></div><div class="ops">${i > 0 ? `<button type="button" class="iconbtn" data-cover="${i}" title="Make cover">★</button>` : ''}<button type="button" class="iconbtn" data-up="${i}" title="Move up">↑</button><button type="button" class="iconbtn" data-rm="${i}" title="Remove">✕</button></div></div>`).join('') || '<p class="hint">No photos yet — drop a photo here, or use Upload. Until then the site shows a labelled area photo.</p>';
     };
+    const addUploaded = items => { items.forEach(it => photos.push({ src: it.src, alt: '', preview: it.preview })); drawPhotos(); preview(); };
     drawPhotos();
 
     const collect = () => {
@@ -197,6 +198,9 @@
     form.addEventListener('click', e => {
       const t = e.target.closest('button'); if (!t) return;
       if (t.dataset.rm) { photos.splice(+t.dataset.rm, 1); drawPhotos(); preview(); }
+      if (t.dataset.cover) { const i = +t.dataset.cover; photos.unshift(photos.splice(i, 1)[0]); drawPhotos(); preview(); }
+      if (t.id === 'pickmedia') openMediaPicker({ multi: true, onChoose: addUploaded });
+      if (t.id === 'mdimg') openMediaPicker({ multi: false, onChoose: its => insertImages(document.getElementById('f_body'), its, collect().title, preview) });
       if (t.dataset.up && +t.dataset.up > 0) { const i = +t.dataset.up; [photos[i - 1], photos[i]] = [photos[i], photos[i - 1]]; drawPhotos(); preview(); }
       if (t.id === 'addbtn') { const u = document.getElementById('addurl'); if (/^https:\/\//.test(u.value.trim())) { photos.push({ src: u.value.trim(), alt: '' }); u.value = ''; drawPhotos(); preview(); } else toast('Paste a full https:// image link.', 'err'); }
       if (t.dataset.pick) pickPhoto(document.getElementById(t.dataset.pick), t.dataset.multi !== undefined, preview);
@@ -207,18 +211,29 @@
       if (t.id === 'mdtab') { const p = document.getElementById('mdprev'); const on = p.hidden; p.hidden = !on; md.hidden = on; t.classList.toggle('on', on); if (on) p.innerHTML = window.marked ? marked.parse(md.value) : esc(md.value); }
     });
     const upl = document.getElementById('upl');
-    if (upl) upl.addEventListener('change', async () => {
-      for (const file of upl.files) {
-        try {
-          const { base64, dataUrl } = await shrink(file, 1920);
-          const name = `${slugify((collect().slug || collect().title || 'photo'))}-${Date.now().toString(36)}.jpg`;
-          await api('upload', { path: `images/uploads/${name}`, base64, message: `admin: upload ${name}` });
-          photos.push({ src: `/images/uploads/${name}`, alt: '', preview: dataUrl }); drawPhotos(); preview();
-          toast('Photo uploaded.', 'ok');
-        } catch (e) { toast(e.message, 'err'); }
-      }
-      upl.value = '';
-    });
+    if (upl) upl.addEventListener('change', async () => { addUploaded(await uploadMany(upl.files, collect().slug || collect().title)); upl.value = ''; });
+    const pf = document.getElementById('photofield');
+    if (pf) {
+      let dragIdx = null;
+      pf.addEventListener('dragstart', e => { const r = e.target.closest && e.target.closest('.photo-row'); if (r) { dragIdx = +r.dataset.i; e.dataTransfer.effectAllowed = 'move'; try { e.dataTransfer.setData('text/plain', 'row'); } catch (x) {} } });
+      pf.addEventListener('dragover', e => { e.preventDefault(); pf.classList.add('dropping'); });
+      pf.addEventListener('dragleave', e => { if (!pf.contains(e.relatedTarget)) pf.classList.remove('dropping'); });
+      pf.addEventListener('drop', async e => {
+        e.preventDefault(); pf.classList.remove('dropping');
+        if (e.dataTransfer.files && e.dataTransfer.files.length) { addUploaded(await uploadMany(e.dataTransfer.files, collect().slug || collect().title)); dragIdx = null; return; }
+        const r = e.target.closest('.photo-row');
+        if (dragIdx !== null && r) { const to = +r.dataset.i; if (to !== dragIdx) { photos.splice(to, 0, photos.splice(dragIdx, 1)[0]); drawPhotos(); preview(); } }
+        dragIdx = null;
+      });
+    }
+    const mdta = document.getElementById('f_body');
+    if (mdta) {
+      const take = async files => { const its = await uploadMany(files, collect().slug || collect().title); insertImages(mdta, its, collect().title, preview); };
+      mdta.addEventListener('dragover', e => { if (e.dataTransfer.types.includes('Files')) { e.preventDefault(); mdta.classList.add('dropping'); } });
+      mdta.addEventListener('dragleave', () => mdta.classList.remove('dropping'));
+      mdta.addEventListener('drop', e => { if (e.dataTransfer.files.length) { e.preventDefault(); mdta.classList.remove('dropping'); take(e.dataTransfer.files); } });
+      mdta.addEventListener('paste', e => { const fs = [...(e.clipboardData ? e.clipboardData.files : [])]; if (fs.some(isImg)) { e.preventDefault(); take(fs); } });
+    }
     document.getElementById('save').addEventListener('click', async e => {
       const o = collect();
       if (!o.title) { toast('Please add a title.', 'err'); return; }
@@ -255,11 +270,101 @@
     });
   }
 
-  /* ---------- Photo library ---------- */
+  /* ---------- Media: upload, library, picker ---------- */
+  const isImg = f => /^image\//.test(f.type);
+  const fmtSize = n => n > 1048576 ? (n / 1048576).toFixed(1) + ' MB' : Math.max(1, Math.round(n / 1024)) + ' KB';
+  const thumbOf = it => it.preview || (/\.webp$/i.test(it.name) ? `/images/opt/${it.name.replace(/\.webp$/i, '')}-640.webp` : it.src);
+  async function loadUploads(force) {
+    if (state.uploads && !force) return state.uploads;
+    const r = await api('list');
+    state.uploads = r.files.map(f => ({ ...f, src: '/' + f.path })).sort((a, b) => a.name.localeCompare(b.name));
+    return state.uploads;
+  }
+  async function uploadOne(file, base) {
+    const { base64, dataUrl } = await shrink(file, 1920);
+    const name = `${slugify(base || file.name.replace(/\.[^.]+$/, '') || 'photo')}-${Date.now().toString(36)}${Math.random().toString(36).slice(2, 5)}.jpg`;
+    const r = await api('upload', { path: `images/uploads/${name}`, base64, message: `admin: upload ${name}` });
+    const item = { name, path: `images/uploads/${name}`, src: `/images/uploads/${name}`, sha: r.sha, size: Math.round(base64.length * 0.75), preview: dataUrl, fresh: true };
+    if (state.uploads) state.uploads.unshift(item);
+    return item;
+  }
+  async function uploadMany(files, base) {
+    const list = [...files].filter(isImg);
+    if (!list.length) { toast('Please use image files (JPG, PNG or WebP).', 'err'); return []; }
+    const done = [];
+    for (let i = 0; i < list.length; i++) {
+      try { toast(`Uploading ${i + 1} of ${list.length}…`); done.push(await uploadOne(list[i], base)); }
+      catch (e) { toast(`${list[i].name}: ${e.message}`, 'err'); }
+    }
+    if (done.length) toast(`${done.length} photo${done.length > 1 ? 's' : ''} uploaded. They show on the live site after the next deploy (1–2 minutes).`, 'ok');
+    return done;
+  }
+  function insertImages(ta, items, title, after) {
+    if (!ta || !items.length) return;
+    let text = '';
+    for (const it of items) {
+      const alt = (prompt('Describe this photo in a few words (helps Google and screen readers):', '') || title || 'Photo').replace(/[\[\]]/g, '');
+      text += `\n\n![${alt}](${it.src})\n\n`;
+    }
+    const s = ta.selectionStart; ta.value = ta.value.slice(0, s) + text + ta.value.slice(ta.selectionEnd); ta.focus();
+    ta.dispatchEvent(new Event('input', { bubbles: true })); after && after();
+  }
+  const DROP_HTML = `<div class="dropzone" id="dz"><strong>Drag &amp; drop photos here</strong><span>or</span><label class="btn small orange" style="cursor:pointer">Choose files<input type="file" id="dzf" accept="image/*" multiple hidden></label><small>JPG, PNG or WebP · automatically resized to 1920 px</small></div>`;
+  // Shared grid: root contains #dz, #dzf, #mq, #mgrid, #mmore. mode 'pick' returns items; 'manage' offers copy / delete.
+  async function wireMedia(root, { mode, onChoose, multi }) {
+    const grid = root.querySelector('#mgrid'), q = root.querySelector('#mq'), more = root.querySelector('#mmore'), dz = root.querySelector('#dz');
+    let limit = 48, chosen = [];
+    grid.innerHTML = '<p class="hint">Loading your uploads…</p>';
+    let all; try { all = await loadUploads(); } catch (e) { grid.innerHTML = `<p class="hint">${esc(e.message)}</p>`; return; }
+    const draw = () => {
+      const words = slugify(q.value).split('-').filter(Boolean);
+      const list = all.filter(it => words.every(w => slugify(it.name).includes(w)));
+      grid.innerHTML = list.slice(0, limit).map(it => `<div class="mcard ${chosen.includes(it.name) ? 'on' : ''}" data-n="${esc(it.name)}"><button type="button" class="mimg" data-act="${mode === 'pick' ? 'pick' : 'view'}"><img src="${esc(thumbOf(it))}" alt="" loading="lazy" onerror="this.style.opacity=.25"></button><div class="minfo"><code title="${esc(it.name)}">${esc(it.name)}</code><small>${it.size ? fmtSize(it.size) : ''}${it.fresh ? ' · new' : ''}</small></div>${mode === 'manage' ? `<div class="mops"><button type="button" class="btn small ghost" data-act="copy">Copy link</button><button type="button" class="btn small danger" data-act="del">Delete</button></div>` : ''}</div>`).join('') || '<p class="hint">No photos match.</p>';
+      more.hidden = list.length <= limit; more.textContent = `Show more (${list.length - limit} left)`;
+      const c = root.querySelector('#mcount'); if (c) c.textContent = `${list.length} of ${all.length} photos`;
+    };
+    q.addEventListener('input', () => { limit = 48; draw(); }); more.addEventListener('click', () => { limit += 48; draw(); });
+    const take = async files => { const its = await uploadMany(files); if (!its.length) return; all = state.uploads; if (mode === 'pick' && onChoose) { onChoose(its); } else draw(); };
+    root.querySelector('#dzf').addEventListener('change', e => { take(e.target.files); e.target.value = ''; });
+    ['dragenter', 'dragover'].forEach(ev => root.addEventListener(ev, e => { if (e.dataTransfer && [...e.dataTransfer.types].includes('Files')) { e.preventDefault(); dz.classList.add('over'); } }));
+    root.addEventListener('dragleave', e => { if (!root.contains(e.relatedTarget)) dz.classList.remove('over'); });
+    root.addEventListener('drop', e => { if (e.dataTransfer && e.dataTransfer.files.length) { e.preventDefault(); dz.classList.remove('over'); take(e.dataTransfer.files); } });
+    grid.addEventListener('click', async e => {
+      const b = e.target.closest('[data-act]'); if (!b) return; const card = b.closest('.mcard'); const it = all.find(x => x.name === card.dataset.n); if (!it) return;
+      if (b.dataset.act === 'pick') {
+        if (multi) { chosen = chosen.includes(it.name) ? chosen.filter(n => n !== it.name) : [...chosen, it.name]; card.classList.toggle('on'); const btn = root.querySelector('#mdone'); if (btn) btn.textContent = `Add ${chosen.length} photo${chosen.length === 1 ? '' : 's'}`; if (btn) btn.disabled = !chosen.length; }
+        else onChoose([it]);
+      }
+      if (b.dataset.act === 'view') window.open(it.src, '_blank', 'noopener');
+      if (b.dataset.act === 'copy') { try { await navigator.clipboard.writeText(it.src); toast('Link copied: ' + it.src, 'ok'); } catch (x) { toast(it.src); } }
+      if (b.dataset.act === 'del') {
+        if (!confirm(`Delete “${it.name}”?\n\nIf a page still uses this photo it will show a broken image after the next deploy. This cannot be undone from here.`)) return;
+        try { await api('delete', { path: it.path, sha: it.sha }); state.uploads = state.uploads.filter(x => x.name !== it.name); all = state.uploads; draw(); toast('Photo deleted.', 'ok'); } catch (err) { toast(err.message, 'err'); }
+      }
+    });
+    const done = root.querySelector('#mdone');
+    if (done) done.addEventListener('click', () => onChoose(all.filter(x => chosen.includes(x.name))));
+    draw();
+  }
+  function openMediaPicker({ multi, onChoose }) {
+    const m = document.createElement('div'); m.className = 'modal';
+    m.innerHTML = `<div class="card"><div class="top"><h1>Media library</h1><button class="btn ghost small" data-close>Close</button></div>${DROP_HTML}<div class="filters"><label class="search">🔍<input id="mq" type="search" placeholder="Search by file name…"></label><span class="saveinfo" id="mcount"></span></div><div class="mgrid" id="mgrid"></div><button class="btn ghost small" id="mmore" hidden>Show more</button>${multi ? '<div class="mbar"><button class="btn orange" id="mdone" disabled>Add 0 photos</button></div>' : '<p class="hint">Click a photo to use it. Dropping new photos uploads them and uses them straight away.</p>'}</div>`;
+    document.body.appendChild(m);
+    m.addEventListener('click', e => { if (e.target === m || e.target.closest('[data-close]')) m.remove(); });
+    wireMedia(m, { mode: 'pick', multi, onChoose: its => { m.remove(); onChoose(its); } });
+  }
+
+  /* ---------- Media library page ---------- */
   function libraryHtml(list) { return `<div class="lib">${list.map(p => `<button type="button" data-id="${esc(p.id)}"><img src="${esc(p.thumb)}" alt="" loading="lazy"><code>${esc(p.id)}</code><span>${esc(p.caption)}</span></button>`).join('')}</div>`; }
   function filterLib(q) { const w = slugify(q).split('-').filter(Boolean); return state.data.photos.filter(p => w.every(x => slugify(`${p.id} ${p.caption} ${p.area}`).includes(x))); }
   function renderPhotos() {
-    shell('photos', `<div class="top"><h1>Photo library</h1><span class="saveinfo">Click a photo to copy its ID</span></div><div class="filters"><label class="search">🔍<input id="pq" type="search" placeholder="Search: kaleici, beach, belek…"></label></div><div id="libwrap">${libraryHtml(state.data.photos)}</div>`);
+    shell('photos', `<div class="top"><h1>Media library</h1><span class="saveinfo">All photos you upload live here — add them to any article or listing.</span></div>
+      <div class="tabs"><button class="tab on" data-tab="up">My uploads</button><button class="tab" data-tab="site">Site photo library</button></div>
+      <section id="tab-up">${DROP_HTML}<div class="filters"><label class="search">🔍<input id="mq" type="search" placeholder="Search by file name…"></label><span class="saveinfo" id="mcount"></span></div><div class="mgrid" id="mgrid"></div><button class="btn ghost small" id="mmore" hidden>Show more</button></section>
+      <section id="tab-site" hidden><div class="filters"><label class="search">🔍<input id="pq" type="search" placeholder="Search: kaleici, beach, belek…"></label></div><p class="saveinfo">Click a photo to copy its ID (used for cover photos of things to do).</p><div id="libwrap">${libraryHtml(state.data.photos)}</div></section>`);
+    const main = document.querySelector('.main');
+    main.querySelectorAll('[data-tab]').forEach(t => t.addEventListener('click', () => { main.querySelectorAll('[data-tab]').forEach(x => x.classList.toggle('on', x === t)); document.getElementById('tab-up').hidden = t.dataset.tab !== 'up'; document.getElementById('tab-site').hidden = t.dataset.tab !== 'site'; }));
+    wireMedia(document.getElementById('tab-up'), { mode: 'manage' });
     const q = document.getElementById('pq'); q.addEventListener('input', () => { document.getElementById('libwrap').innerHTML = libraryHtml(filterLib(q.value)); });
     document.getElementById('libwrap').addEventListener('click', e => { const b = e.target.closest('[data-id]'); if (b) { navigator.clipboard && navigator.clipboard.writeText(b.dataset.id); toast(`Copied “${b.dataset.id}”`, 'ok'); } });
   }

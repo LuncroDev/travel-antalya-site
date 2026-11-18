@@ -14,7 +14,7 @@
   ];
   const seo = { name: 'focus_keyword', label: 'Focus keyword (SEO)', type: 'text', hint: 'e.g. “best hotels in belek”' };
   const mapFields = [
-    { name: 'sponsored', label: 'Featured / sponsored listing', type: 'boolean', default: false, hint: 'Paid placement: shown first, with a “Featured” label and a gold star on the map.' },
+    { name: 'sponsored', label: 'Featured / sponsored listing', type: 'bool', hint: 'Paid placement: shown first, with a “Featured” label and a gold star on the map.' },
     { name: 'sponsor_label', label: 'Label shown to visitors', type: 'text', hint: 'Default “Featured”. Use “Sponsored” for paid placements.' },
     { name: 'map_lat', label: 'Map latitude', type: 'number', hint: 'Exact pin on /map/. Right-click the place in Google Maps and copy the first number.' },
     { name: 'map_lng', label: 'Map longitude', type: 'number', hint: 'Second number from Google Maps.' }
@@ -35,8 +35,6 @@
         ...mapFields,
         { name: 'amenities', label: 'Highlights / amenities', type: 'list', hint: 'One per line: Private beach, Kids club, Spa…' },
         { name: 'booking_url', label: 'Booking / affiliate link', type: 'url' },
-        { name: 'map_lat', label: 'Map latitude', type: 'number' },
-        { name: 'map_lng', label: 'Map longitude', type: 'number' },
         { name: 'booking_note', label: 'Good to know before booking', type: 'textarea' },
         ...source, seo,
         { name: 'body', label: 'Article', type: 'markdown' }
@@ -57,8 +55,6 @@
         ...mapFields,
         { name: 'signature_dishes', label: 'Dishes to try', type: 'list' },
         { name: 'booking_url', label: 'Reservation link', type: 'url' },
-        { name: 'map_lat', label: 'Map latitude', type: 'number' },
-        { name: 'map_lng', label: 'Map longitude', type: 'number' },
         { name: 'booking_note', label: 'Booking tips', type: 'textarea' },
         { name: 'status_note', label: 'Closure / notice (shown on the card)', type: 'textarea' },
         ...source, seo,
@@ -113,8 +109,6 @@
         { name: 'excerpt', label: 'Short description', type: 'textarea', max: 160 },
         { name: 'photo_id', label: 'Cover photo (library ID)', type: 'photoId' },
         { name: 'district_slug', label: 'District', type: 'select', options: DISTRICTS },
-        { name: 'map_lat', label: 'Map latitude', type: 'number' },
-        { name: 'map_lng', label: 'Map longitude', type: 'number' },
         { name: 'featured', label: 'Top pick', type: 'bool' },
         seo,
         { name: 'body', label: 'Article', type: 'markdown' }
@@ -130,7 +124,8 @@
         { name: 'date_display', label: 'Date as shown', type: 'text', hint: 'e.g. November 9, 2026' },
         { name: 'excerpt', label: 'Short description (cards & Google)', type: 'textarea', max: 160 },
         seo,
-        { name: 'photo_id', label: 'Cover photo (library ID)', type: 'photoId' },
+        { name: 'photos_official', label: 'Cover photo', type: 'photos', hint: 'Drag a photo here or upload one. The first photo is the cover on the blog page and cards. To put photos inside the article, use the 🖼 Image button above the text.' },
+        { name: 'photo_id', label: 'Or pick a site-library photo (ID)', type: 'photoId' },
         { name: 'inline_photos', label: 'Photos inside the article (library IDs)', type: 'photoIds' },
         { name: 'featured', label: 'Featured', type: 'bool' },
         { name: 'body', label: 'Article', type: 'markdown' }

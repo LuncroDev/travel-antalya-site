@@ -53,6 +53,14 @@ exports.handler = async (event) => {
   if (!session(event)) return json(401, { error: 'Please log in' });
   if (action === 'me') return json(200, { ok: true });
 
+  if (action === 'list') {
+    const res = await fetch(`https://api.github.com/repos/${env('GITHUB_OWNER')}/${env('GITHUB_REPO')}/git/trees/${env('GITHUB_BRANCH') || 'main'}:images/uploads`, { headers: { Authorization: `Bearer ${env('GITHUB_TOKEN')}`, Accept: 'application/vnd.github+json', 'User-Agent': 'travel-antalya-admin' } });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok) return json(502, { error: data.message || 'GitHub error' });
+    const files = (data.tree || []).filter(f => f.type === 'blob' && /\.(jpe?g|png|webp|avif)$/i.test(f.path)).map(f => ({ name: f.path, path: 'images/uploads/' + f.path, sha: f.sha, size: f.size || 0 }));
+    return json(200, { files, truncated: !!data.truncated });
+  }
+
   const path = String(body.path || (event.queryStringParameters || {}).path || '');
   if (!ALLOWED.test(path)) return json(400, { error: 'This file cannot be edited from the admin.' });
 

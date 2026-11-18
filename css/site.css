@@ -634,3 +634,8 @@ html.lb-open{overflow:hidden}
 .social-item .instagram-media { min-width: 0 !important; width: 100% !important; max-width: 100% !important; margin: 0 !important; }
 @media (max-width: 900px) { .social-grid { column-count: 2; } }
 @media (max-width: 560px) { .social-grid { column-count: 1; } }
+
+/* ---- Map pin icons ---- */
+.ta-pin svg { width: 18px; height: 18px; display: block; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.ta-k-history { background: #8B5E3C; } .ta-k-nature { background: #2E8B57; } .ta-k-adventure { background: #7B4BC4; }
+.ta-k-beach { background: #12A39A; } .ta-k-hotel { background: #0077B8; } .ta-k-food { background: #C2410C; } .ta-k-golf { background: #3B7A2A; } .ta-k-thing { background: var(--orange); }

@@ -15,6 +15,30 @@
     io.observe(el);
   } else load();
 
+
+  var SVG = {
+    bed: '<path d="M3 18V7M3 14h18v4M21 14v-2a3 3 0 0 0-3-3h-7v5"/><circle cx="7" cy="11" r="1.7"/>',
+    food: '<path d="M6 3v6a2 2 0 0 0 4 0V3M8 11v10M17 21V3c-2.2 1.2-3 4-3 8h3"/>',
+    beach: '<path d="M3 12a9 9 0 0 1 18 0z"/><path d="M12 12v7a2 2 0 0 1-4 0"/>',
+    ruins: '<path d="M4 21h16M6 18h12M8 18V9M12 18V9M16 18V9M4 9h16L12 4z"/>',
+    nature: '<path d="M12 21v-5M12 3l5 7h-3l4 6H6l4-6H7z"/>',
+    adventure: '<path d="M2 20l6-11 4 7 3-4 7 8z"/>',
+    golf: '<path d="M8 21V3l9 4-9 4M5 21h6"/>',
+    place: '<path d="M12 21s-6-5.4-6-10a6 6 0 0 1 12 0c0 4.6-6 10-6 10z"/><circle cx="12" cy="11" r="2"/>'
+  };
+  function kindOf(p) {
+    if (p.type === 'beach') return ['beach', 'beach'];
+    if (p.type === 'hotel') return ['bed', 'hotel'];
+    if (p.type === 'restaurant') return ['food', 'food'];
+    if (p.type === 'golf') return ['golf', 'golf'];
+    var c = (p.cat || '').toLowerCase();
+    if (/ruin|histor|museum|old town|castle/.test(c)) return ['ruins', 'history'];
+    if (/nature|park|garden|waterfall|canyon/.test(c)) return ['nature', 'nature'];
+    if (/advent|tour|cable/.test(c)) return ['adventure', 'adventure'];
+    return ['place', 'thing'];
+  }
+  function icon(k) { return '<svg viewBox="0 0 24 24" aria-hidden="true">' + SVG[k] + '</svg>'; }
+
   function esc(t) { var d = document.createElement('div'); d.textContent = t == null ? '' : String(t); return d.innerHTML; }
   function plural(n, w) { return n + ' ' + w + (n === 1 ? '' : 's'); }
 
@@ -48,12 +72,12 @@
     });
 
     data.places.forEach(function (p, i) {
+      var k = kindOf(p);
       var g = p.sponsored ? 'featured' : (p.type === 'beach' ? 'beach' : 'thing');
-      var cls = p.sponsored ? 'ta-pin-star' : (p.type === 'beach' ? 'ta-pin-beach' : 'ta-pin-thing');
-      var html = p.sponsored ? '&#9733;' : '';
+      var cls = p.sponsored ? 'ta-pin-star' : 'ta-k-' + k[1];
       var h = '<div class="ta-pop">' + (p.sponsored ? '<p class="ta-pop-kicker"><span class="feat-tag">' + esc(p.label) + '</span></p>' : '<p class="ta-pop-kicker">' + esc(p.cat || 'Place') + '</p>') +
         '<h3>' + esc(p.title) + '</h3><p class="ta-pop-links"><a href="' + esc(p.url) + '">Read the guide</a></p></div>';
-      var m = pin(cls, html, [p.lat, p.lng], p.title).bindPopup(h);
+      var m = pin(cls, icon(k[0]), [p.lat, p.lng], p.title).bindPopup(h);
       layers[g].addLayer(m); markers.push({ g: g, id: 'p' + i, m: m, ll: [p.lat, p.lng], title: p.title });
     });
 
