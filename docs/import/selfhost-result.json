@@ -232,31 +232,32 @@
    "/images/uploads/venue-robinson-camyuva-1.jpg",
    "/images/uploads/venue-robinson-camyuva-2.jpg",
    "/images/uploads/venue-robinson-camyuva-3.jpg",
-   "/images/uploads/venue-robinson-camyuva-4.jpg",
-   "/images/uploads/venue-robinson-camyuva-5.jpg",
-   "/images/uploads/venue-robinson-camyuva-6.jpg"
+   "/images/uploads/venue-robinson-camyuva-4.jpg"
   ],
   "errors": []
  },
  "hotels/doubletree-by-hilton-antalya-city-centre": {
   "page": "https://www.hilton.com/en/hotels/aytccdi-doubletree-antalya-city-centre/gallery/",
-  "saved": [],
+  "saved": [
+   "/images/uploads/venue-doubletree-by-hilton-antalya-city-centre-1.jpg",
+   "/images/uploads/venue-doubletree-by-hilton-antalya-city-centre-2.jpg",
+   "/images/uploads/venue-doubletree-by-hilton-antalya-city-centre-3.jpg",
+   "/images/uploads/venue-doubletree-by-hilton-antalya-city-centre-4.jpg",
+   "/images/uploads/venue-doubletree-by-hilton-antalya-city-centre-5.avif",
+   "/images/uploads/venue-doubletree-by-hilton-antalya-city-centre-7.avif"
+  ],
   "errors": [
-   "https://www.hilton.com/im/en/AYTCCDI/10805160/1-exterior-2.jpg: unexpected size 1580",
-   "https://www.hilton.com/im/en/AYTCCDI/10894882/7-m3a0406-1.jpg: unexpected size 1703",
-   "https://www.hilton.com/im/en/AYTCCDI/10805210/2-m3a7599-1.jpg: unexpected size 1026",
-   "https://www.hilton.com/im/en/AYTCCDI/10894912/k1d-m3a0358-1.jpg: unexpected size 1144",
-   "https://www.hilton.com/im/en/AYTCCDI/10805194/1-m3a7861-1.jpg: unexpected size 1241"
+   "https://www.hilton.com/im/en/AYTCCDI/10894882/7-m3a0406-1.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1&rw=640&rh=427: unexpected size 14530",
+   "https://www.hilton.com/im/en/AYTCCDI/10894912/k1d-m3a0358-1.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1&rw=640&rh=427: unexpected size 13897"
   ]
  },
  "restaurants/asil-restaurant-kadriye": {
-  "page": "https://www.asilrestaurant.com/en/turkey/events",
+  "page": "https://www.thelandoflegends.com/en/theme-park/restaurants/asil-restaurant",
   "saved": [
    "/images/uploads/venue-asil-restaurant-kadriye-1.jpg",
    "/images/uploads/venue-asil-restaurant-kadriye-2.jpg",
    "/images/uploads/venue-asil-restaurant-kadriye-3.jpg",
-   "/images/uploads/venue-asil-restaurant-kadriye-4.jpg",
-   "/images/uploads/venue-asil-restaurant-kadriye-5.jpg"
+   "/images/uploads/venue-asil-restaurant-kadriye-4.jpg"
   ],
   "errors": []
  },
