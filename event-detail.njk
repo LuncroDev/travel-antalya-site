@@ -33,7 +33,7 @@ eleventyExcludeFromCollections: true
         <li><span class="status-pill" data-event-status>{{ ev | eventStatus | eventStatusLabel }}</span></li>
       </ul>
       <div class="prose">{{ event.templateContent | safe }}</div>
-      {% set evGallery = ev | eventGallery(editorialPhotos) %}{% if evGallery.length %}<section class="editorial-gallery" aria-label="Photos"><h2>Photos</h2><div class="editorial-photo-grid">{% for p in evGallery %}<figure class="editorial-photo"><img src="{{ p.src | opt(640) }}" alt="{{ p.alt | escape }}" width="{{ p.width or 1200 }}" height="{{ p.height or 800 }}" loading="lazy" decoding="async"><figcaption>{{ p.label }}</figcaption></figure>{% endfor %}</div><p class="gallery-context"><a href="/photography/">Photo credits</a></p></section>{% endif %}
+      {% set evGallery = ev | eventGallery(editorialPhotos) %}{% if evGallery.length %}<section class="editorial-gallery" aria-label="Photos"><h2>Photos</h2><div class="editorial-photo-grid">{% for p in evGallery %}<figure class="editorial-photo"><img src="{{ p.src | opt(640) }}" alt="{{ p.alt | escape }}" width="{{ p.width or 1200 }}" height="{{ p.height or 800 }}" loading="lazy" decoding="async"><figcaption>{{ p.label }}</figcaption></figure>{% endfor %}</div></section>{% endif %}
       <div class="good-to-know"><details><summary>How we checked this date</summary><p>{{ ev.verification_note }}</p><p>Source reviewed <time datetime="{{ ev.last_checked | eventDate }}">{{ ev.last_checked | eventDate }}</time>. Past editions don’t confirm next year’s dates.</p></details></div>
     </article>
     <aside class="side-card detail-side" aria-label="Tickets and details">
@@ -57,3 +57,4 @@ eleventyExcludeFromCollections: true
   </div>
 </section>
 <script src="/js/events.js" defer></script>
+{% set pageSrc = ev | photoSources(editorialPhotos) %}{% if pageSrc.length %}<p class="page-sources">Photo sources: {% for s in pageSrc %}{% if s.url %}<a href="{{ s.url }}" target="_blank" rel="noopener nofollow">{{ s.text }}</a>{% else %}{{ s.text }}{% endif %}{% if not loop.last %}; {% endif %}{% endfor %} · <a href="/photography/">all credits</a></p>{% endif %}

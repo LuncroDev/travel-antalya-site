@@ -14,6 +14,19 @@ excerpt: "A COP31 exhibition of Edward Burtynsky’s photography and moving imag
 verification_note: "The organizer confirms the dates, Side Ballroom, visiting hours and free admission. This is the Antalya presentation, not the Istanbul museum."
 date_verified: true
 last_checked: "2026-11-17"
+photos_official:
+  - src: "/images/uploads/venue-edward-burtynsky-shifting-topography-2026-h01.webp"
+    credit: "© Edward Burtynsky, courtesy Flowers Gallery, London / Borusan Contemporary"
+    source: "https://www.borusancontemporary.com/en/cop31-edward-burtynsky-shifting-topography_2563"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Edward Burtynsky: Shifting Topography — Event announcement image"
+  - src: "/images/uploads/venue-edward-burtynsky-shifting-topography-2026-h02.webp"
+    credit: "© Edward Burtynsky, courtesy Flowers Gallery, London"
+    source: "https://www.borusancontemporary.com/en/cop31-edward-burtynsky-shifting-topography_2563"
+    label: "Photo of a work from the same exhibition"
+    caption: "Photo of a work from the same exhibition"
+    alt: "Edward Burtynsky: Shifting Topography — Photo of a work from the same exhibition"
 ---
 **Edward Burtynsky: Shifting Topography** is at **Akra Antalya’s Side Ballroom from 9 to 20 November 2026**, open **09:00–22:00** with **free admission**.
 

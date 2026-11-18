@@ -17,6 +17,13 @@ excerpt: "Otrazheniya's Russian-language family drama Rumba, with Turkish subtit
 tagline: "A quiet 80-minute drama about a past that comes back, played in Russian with Turkish subtitles."
 admission_note: "iTicket lists one category at 600 TL including the service fee (18 November 2026), sets an age limit of 10 and over, and says tickets are non-refundable."
 verification_note: "iTicket's event page dates the show Saturday 12 December 2026 at 19:00 (Antalya time) at Kemer Belediyesi Kültür Salonu, Merkez, Yalı Cd. No:9, and iTicket's venue page for the hall lists РУМБА on '12 Aralık 2026' from 600 TL. The event page lists no other dates for the play; a 13 December show at Panda Sahnesi seen in an earlier check is not on it. The company is named in Turkish (Yansımalar) and Russian (театр «Отражения»); the writer, director and cast are not named. Checked 18 November 2026."
+photos_official:
+  - src: "/images/uploads/venue-rumba-2026-12-12-kemer-h01.webp"
+    credit: "Yansımalar Tiyatrosu / iTicket"
+    source: "https://iticket.com.tr/etkinlikler/tiyatro/antalya/rumba-tiyatro-oyunu-12-aralik-antalya-bilet"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Rumba (Румба) — Event announcement image"
 ---
 **Rumba** (*Румба*) is a Russian-language drama staged by the **Otrazheniya** ("Reflections") theatre company, listed in Turkish as Yansımalar, at **Kemer Belediyesi Kültür Salonu** on **Saturday 12 December 2026 at 19:00**. It is played in Russian with Turkish subtitles.
 

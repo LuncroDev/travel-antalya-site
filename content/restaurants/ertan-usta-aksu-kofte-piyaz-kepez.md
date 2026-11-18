@@ -13,6 +13,22 @@ category: "Köfte and Antalya piyaz"
 tagline: "Charcoal-grilled köfte and tahini bean piyaz, the Antalya lunch, in a local Kepez street."
 source_label: "Official venue information"
 michelin_note: "No verified Michelin distinction for this Antalya venue in the 2026 selection."
+photos_official:
+  - src: "/images/uploads/venue-ertan-usta-aksu-kofte-piyaz-kepez-h01.webp"
+    credit: "07 Haber / Başkent Postası"
+    source: "https://baskentpostasi.com/ertan-kanal-kimdir-2"
+    caption: "Ertan Usta Aksu Köfte Piyaz"
+    alt: "Ertan Usta Aksu Köfte Piyaz"
+  - src: "/images/uploads/venue-ertan-usta-aksu-kofte-piyaz-kepez-h02.webp"
+    credit: "yandex.com.tr/maps"
+    source: "https://yandex.com.tr/maps/org/ertan_usta_aksu_kofte_piyaz/210747020633/gallery/"
+    caption: "Ertan Usta Aksu Köfte Piyaz"
+    alt: "Ertan Usta Aksu Köfte Piyaz"
+  - src: "/images/uploads/venue-ertan-usta-aksu-kofte-piyaz-kepez-h03.webp"
+    credit: "yandex.com.tr/maps"
+    source: "https://yandex.com.tr/maps/org/ertan_usta_aksu_kofte_piyaz/210747020633/gallery/"
+    caption: "Ertan Usta Aksu Köfte Piyaz"
+    alt: "Ertan Usta Aksu Köfte Piyaz"
 ---
 Ertan Usta is a köfte and piyaz restaurant in Kepez, the residential district north of Antalya's centre. It does one thing: the city's classic pairing of grilled meatballs with *piyaz*, a dried-bean salad dressed with tahini and lemon. The restaurant's story page is written in the first person by Ertan Usta (Ertan Kanal), who founded the place and still runs it. If you want to taste the dish locals eat at lunch, away from the old town, this is the kind of place to look for.
 

@@ -24,6 +24,18 @@ photos_official:
     label: "Venue photo · Konyaaltı Nazım Hikmet Congress Centre"
     caption: "Konyaaltı Nazım Hikmet Congress Centre"
     alt: "Konyaaltı Nazım Hikmet Congress Centre, the event venue"
+  - src: "/images/uploads/venue-cizmeli-kedi-muzikali-2027-01-24-konyaalti-h01.webp"
+    credit: "F Prodüksiyon / Bubilet"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/cizmeli-kedi-muzikali"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Çizmeli Kedi Müzikali — Event announcement image"
+  - src: "/images/uploads/venue-cizmeli-kedi-muzikali-2027-01-24-konyaalti-h02.webp"
+    credit: "F Prodüksiyon / Bubilet"
+    source: "https://www.bubilet.com.tr/antalya/etkinlik/cizmeli-kedi-muzikali"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "Çizmeli Kedi Müzikali — Event announcement image"
 photo_source: "https://www.biletimgo.com/mekan/konyaalti-nazim-hikmet-fuar-ve-kongre-merkezi-966"
 ---
 **Çizmeli Kedi Müzikali** is a children's musical of *Puss in Boots* by **F Prodüksiyon**, at the **Konyaaltı Belediyesi Nazım Hikmet Fuar ve Kongre Merkezi** on **Sunday 24 January 2027**. It is in Turkish, runs about 60 minutes and is recommended for ages 3 and up.

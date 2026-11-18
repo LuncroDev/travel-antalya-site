@@ -22,6 +22,18 @@ photos_official:
     label: "Programme schedule"
     caption: "Green Zone programme schedule"
     alt: "COP31 Tourism and Cultural Heritage Day — programme schedule"
+  - src: "/images/uploads/venue-cop31-tourism-cultural-heritage-day-2026-h01.webp"
+    credit: "TGA / TÜROB"
+    source: "https://www.turob.com/haberler/turizm-ve-kulturel-miras-gunu-programina-davet"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "COP31 Tourism and Cultural Heritage Day — Event announcement image"
+  - src: "/images/uploads/venue-cop31-tourism-cultural-heritage-day-2026-h02.webp"
+    credit: "Türkiye Turizm Tanıtım ve Geliştirme Ajansı"
+    source: "https://tr.linkedin.com/posts/tr-tga_cop31-cop31t%C3%BCrkiye-s%C3%BCrd%C3%BCr%C3%BClebilirturizm-activity-7528399480833011713-xwiX"
+    label: "Event announcement image"
+    caption: "Event announcement image"
+    alt: "COP31 Tourism and Cultural Heritage Day — Event announcement image"
 ---
 The Türkiye Tourism Promotion and Development Agency (TGA) lists the **Tourism and Cultural Heritage Day** for **Wednesday, 18 November 2026, 13:30–17:30 Antalya time**. Its programme places the opening and four panels in the COP31 **Green Zone**, not in the Blue Zone. The [17 November TÜROB invitation](https://www.turob.com/haberler/turizm-ve-kulturel-miras-gunu-programina-davet) gives the same hours.
 
