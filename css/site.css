@@ -673,3 +673,4 @@ html.lb-open{overflow:hidden}
 .ta-3d-rot button.txt { font-size: .75rem; }
 .ta-3d-hint { position: absolute; left: 50%; bottom: 34px; transform: translateX(-50%); margin: 0; background: rgba(11,60,93,.88); color: #fff; font-size: .78rem; padding: 6px 12px; border-radius: 999px; z-index: 2; pointer-events: none; transition: opacity .6s; max-width: 80%; text-align: center; }
 .ta-3d-hint.off { opacity: 0; }
+.section-sand + .section-sand, .section-sky + .section-sky { padding-top: 0; }
