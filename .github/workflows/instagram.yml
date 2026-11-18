@@ -21,4 +21,4 @@ jobs:
           git config user.name "travel-antalya-bot"
           git config user.email "bot@travel-antalya.com"
           git add -A _data/instagram.json images/social
-          git diff --cached --quiet || (git commit -m "Refresh #antalya Instagram feed" && git push)
+          git diff --cached --quiet || (git commit -m "Refresh Antalya Instagram feed" && git push)
