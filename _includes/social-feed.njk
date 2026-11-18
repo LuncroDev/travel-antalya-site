@@ -6,7 +6,6 @@
     <div class="social-mosaic">
       {% for p in socialPosts %}<a class="social-tile" style="flex:{{ (p.w / p.h * 100) | round }} 1 {{ (p.w / p.h * 340) | round }}px" href="{{ p.url }}" target="_blank" rel="noopener nofollow" aria-label="Instagram post by {{ p.user or 'a traveller' }}"><i style="padding-bottom:{{ (p.h / p.w * 100) | round(2) }}%"></i><img src="{{ p.img }}" alt="Instagram photo tagged #{{ instagram.tag }}{% if p.user %} by @{{ p.user }}{% endif %}" width="{{ p.w }}" height="{{ p.h }}" loading="lazy"><svg class="ig" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".8"/></svg>{% if p.user %}<span class="who">@{{ p.user }}</span>{% endif %}</a>{% endfor %}
     </div>
-    <p class="social-note">Public Instagram photos from Antalya travel hashtags (#{{ instagram.tag }} and others). Each photo belongs to its author — tap one to see the original post on Instagram.</p>
   </div>
 </section>
 {% endif %}

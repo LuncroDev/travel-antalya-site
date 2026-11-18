@@ -100,7 +100,7 @@ schema:
         {% for d in destinations %}{% if d.slug == slug %}{% set ph = d.slug | districtPhoto(editorialPhotos) %}
         <a class="tile" href="/destinations/{{ d.slug }}/">
           {% if ph %}{{ pic(ph.src, ph.alt, '(max-width: 640px) 82vw, 25vw', false, ph.width, ph.height) }}{% endif %}
-          <span class="tile-copy"><small>{{ d.theme }}</small><strong>{{ {muratpasa: 'Antalya & Kaleiçi', serik: 'Belek', manavgat: 'Side', kas: 'Kaş & Kalkan', aksu: 'Lara & Perge'}[d.slug] or d.name }}{{ icon('arrow-up-right') }}</strong></span>
+          <span class="tile-copy"><small>{{ d.theme }}</small><strong>{{ {muratpasa: 'Antalya City', serik: 'Belek', manavgat: 'Side', kas: 'Kaş & Kalkan', aksu: 'Lara & Perge'}[d.slug] or d.name }}{{ icon('arrow-up-right') }}</strong></span>
         </a>
         {% endif %}{% endfor %}
         {% endfor %}
