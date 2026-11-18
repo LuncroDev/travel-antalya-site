@@ -192,5 +192,56 @@
   "images": [
    "https://www.delidivanekaleici.com/images/hakkimizda.jpg"
   ]
+ },
+ "hotels/robinson-camyuva": {
+  "page": "https://www.robinson.com/en/en/resort-holiday/turkey/camyuva/club-details/",
+  "images": [
+   "https://www.robinson.com/fileadmin/media/_processed_/8/c/csm_cv41_13780_Hauptpool_5c5c380048.jpg",
+   "https://www.robinson.com/media/_processed_/e/d/csm_RCCV_Drone_16459_WOL_3e6988ced0.jpg",
+   "https://www.robinson.com/media/_processed_/8/d/csm_cv41_13793_Strand_ede4114585.jpg",
+   "https://www.robinson.com/media/_processed_/2/3/csm_RCCV_Kuyu_16461_WOL_a125f5a70f.jpg",
+   "https://www.robinson.com/media/_processed_/4/b/csm_cv41_13786_Tennis_73524e18bb.jpg",
+   "https://www.robinson.com/media/_processed_/6/3/csm_cv41_13796_Aerial_ec66d992fe.jpg"
+  ]
+ },
+ "hotels/doubletree-by-hilton-antalya-city-centre": {
+  "page": "https://www.hilton.com/en/hotels/aytccdi-doubletree-antalya-city-centre/gallery/",
+  "images": [
+   "https://www.hilton.com/im/en/AYTCCDI/10805160/1-exterior-2.jpg",
+   "https://www.hilton.com/im/en/AYTCCDI/10894882/7-m3a0406-1.jpg",
+   "https://www.hilton.com/im/en/AYTCCDI/10805210/2-m3a7599-1.jpg",
+   "https://www.hilton.com/im/en/AYTCCDI/10894912/k1d-m3a0358-1.jpg",
+   "https://www.hilton.com/im/en/AYTCCDI/10805194/1-m3a7861-1.jpg"
+  ]
+ },
+ "restaurants/asil-restaurant-kadriye": {
+  "page": "https://www.asilrestaurant.com/en/turkey/events",
+  "images": [
+   "https://cdn.prod.website-files.com/65aa6dc232eb6ada31c15f03/660e79388e981a952eb161c9_Antalya-305.jpg",
+   "https://cdn.prod.website-files.com/65aa6dc232eb6ada31c15f03/68a5cdd07d27262f424b4d57_Asil_VisualsByRayanToubia-8.jpg",
+   "https://cdn.prod.website-files.com/65aa6dc232eb6ada31c15f03/681218578d3008f5dd052b0e_asil%20web.jpg",
+   "https://cdn.prod.website-files.com/65aa6dc232eb6ada31c15f03/6810b70555310d93a8d4f0a0_Asil_VisualsbyRayanToubia-1-468.jpg",
+   "https://cdn.prod.website-files.com/65aa6dc232eb6ada31c15f03/6810c165992c1a758d2840f8_222.jpg"
+  ]
+ },
+ "restaurants/asil-restaurant-kadriye-lol": {
+  "page": "https://www.thelandoflegends.com/en/theme-park/restaurants/asil-restaurant",
+  "images": [
+   "https://cdn.legendsdxp.com/cdn-cgi/image/width=2000,quality=80,format=auto,fit=scale-down/img/019f0b0e-ff28-7518-af31-d0d26ece0ff9/orig/source.webp",
+   "https://cdn.legendsdxp.com/cdn-cgi/image/width=2000,quality=80,format=auto,fit=scale-down/img/019f0b0e-fe7f-774d-84cf-e6fc4ded9c90/orig/source.webp",
+   "https://cdn.legendsdxp.com/cdn-cgi/image/width=2000,quality=80,format=auto,fit=scale-down/img/019f0b0e-ff8b-7058-af79-1357c687d348/orig/source.webp",
+   "https://cdn.legendsdxp.com/cdn-cgi/image/width=2000,quality=80,format=auto,fit=scale-down/img/019f0b0e-ffd9-71cd-80dd-38f7bb0236b1/orig/source.webp",
+   "https://cdn.legendsdxp.com/cdn-cgi/image/width=2000,quality=80,format=auto,fit=scale-down/img/019f0b0e-ffa2-721c-bcce-a162748fc994/orig/source.webp"
+  ]
+ },
+ "events/kemer-belediyesi-kultur-salonu": {
+  "page": "https://www.kemer.bel.tr/tr/haberler/kemer-belediyesi-kultur-salonunda-calismalar-devam-ediyor.html",
+  "images": [
+   "https://www.kemer.bel.tr/Upload/File/2024/5/7/whatsapp-image-2024-05-07-at-116.jpeg",
+   "https://www.kemer.bel.tr/Upload/File/2024/5/7/whatsapp-image-2024-05-07-at-119.jpeg",
+   "https://www.kemer.bel.tr/Upload/File/2024/5/7/whatsapp-image-2024-05-07-at-117.jpeg",
+   "https://www.kemer.bel.tr/Upload/File/2024/5/7/whatsapp-image-2024-05-07-at-115.jpeg",
+   "https://www.kemer.bel.tr/Upload/File/2024/2/25/11313.jpeg"
+  ]
  }
 }
