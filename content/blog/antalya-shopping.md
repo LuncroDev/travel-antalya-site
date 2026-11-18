@@ -1,7 +1,7 @@
 ---
 title: "Antalya Shopping: Bazaars, Malls and What to Bring Home"
 slug: "antalya-shopping"
-date: 2026-11-18T09:00:00+03:00
+date: "2026-11-18"
 date_display: "November 18, 2026"
 category: "Practical"
 excerpt: "Antalya shopping guide: the old bazaar streets of Kaleiçi, weekly pazar markets by day, two big malls, and registered local products to bring home."
@@ -9,8 +9,24 @@ photo_id: "commons-unemployed-mannequin-torsos-old-bazaar-antalya-turkey"
 featured: false
 last_checked: "2026-11-18"
 source_url: "https://muratpasa-bld.gov.tr/pazar-yerleri"
-source_urls: ["https://muratpasa-bld.gov.tr/pazar-yerleri","https://muratpasa-bld.gov.tr/duyuru/muratpasa-pazarlarinin-yeni-gunleri","https://www.antalya.bel.tr/tr/kaleici","https://www.ece.com/en/center-portfolio/center/terra-city-antalya","https://antalyamigros.com/en","https://www.tesla.com/findus/location/store/474005","https://ci.turkpatent.gov.tr/Files/GeographicalSigns/67f61582-2620-4c71-87d3-96d550d6331d.pdf","https://ci.turkpatent.gov.tr/Files/GeographicalSigns/079ffa5d-c7e1-4f1b-8432-b501cd3e78d1.pdf","https://ci.turkpatent.gov.tr/cografi-isaretler/detay/37969","https://ci.turkpatent.gov.tr/Files/GeographicalSigns/369.pdf","https://ci.turkpatent.gov.tr/Files/GeographicalSigns/315.pdf","https://ci.turkpatent.gov.tr/Files/GeographicalSigns/a4a10fcb-b655-4da8-a374-30805ebde7ce.pdf","https://uludagalan.ktb.gov.tr/TR-375922/2863-sayili-kultur-ve-tabiat-varliklarini-koruma-kanunu.html"]
+source_urls:
+  - "https://muratpasa-bld.gov.tr/pazar-yerleri"
+  - "https://muratpasa-bld.gov.tr/duyuru/muratpasa-pazarlarinin-yeni-gunleri"
+  - "https://www.antalya.bel.tr/tr/kaleici"
+  - "https://www.ece.com/en/center-portfolio/center/terra-city-antalya"
+  - "https://antalyamigros.com/en"
+  - "https://www.tesla.com/findus/location/store/474005"
+  - "https://ci.turkpatent.gov.tr/Files/GeographicalSigns/67f61582-2620-4c71-87d3-96d550d6331d.pdf"
+  - "https://ci.turkpatent.gov.tr/Files/GeographicalSigns/079ffa5d-c7e1-4f1b-8432-b501cd3e78d1.pdf"
+  - "https://ci.turkpatent.gov.tr/cografi-isaretler/detay/37969"
+  - "https://ci.turkpatent.gov.tr/Files/GeographicalSigns/369.pdf"
+  - "https://ci.turkpatent.gov.tr/Files/GeographicalSigns/315.pdf"
+  - "https://ci.turkpatent.gov.tr/Files/GeographicalSigns/a4a10fcb-b655-4da8-a374-30805ebde7ce.pdf"
+  - "https://uludagalan.ktb.gov.tr/TR-375922/2863-sayili-kultur-ve-tabiat-varliklarini-koruma-kanunu.html"
+photos_official:
+  - src: "/images/uploads/antalya-shopping-mwmb6fb2ymz.jpg"
 ---
+{% raw %}
 Antalya shopping comes in three kinds: the old bazaar streets in and around Kaleiçi, the weekly neighbourhood markets called pazar, and big modern malls. The best things to take home are local products with a registered geographical indication, such as a hand-knotted Döşemealtı rug or a jar of Turkish pine honey. This guide tells you where to go, which day each market runs, and what to check before you pay. The facts come from the metropolitan and Muratpaşa municipalities, the malls' own sites and the register of the Turkish Patent and Trademark Office (TÜRKPATENT), as we found them on 18 November 2026.
 
 ## Antalya shopping at a glance
@@ -153,3 +169,4 @@ Every day. Muratpaşa Municipality lists 30 weekly markets, from Etiler on Monda
 ### Can I take antiques out of Türkiye?
 
 Not if they count as protected cultural property. Article 32 of Law 2863 bars such items from leaving the country, and the law lists coins among them. Avoid anything sold as ancient, and keep an invoice for anything old.
+{% endraw %}
