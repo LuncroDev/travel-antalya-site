@@ -255,5 +255,52 @@
    "/images/uploads/venue-asil-restaurant-kadriye-4.webp"
   ],
   "errors": []
+ },
+ "hotels/robinson-pamfilya": {
+  "page": "https://www.robinson.com/en/en/resort-holiday/turkey/pamfilya/club-details/",
+  "saved": [
+   "/images/uploads/venue-robinson-pamfilya-1.jpg",
+   "/images/uploads/venue-robinson-pamfilya-2.jpg",
+   "/images/uploads/venue-robinson-pamfilya-3.jpg",
+   "/images/uploads/venue-robinson-pamfilya-4.jpg",
+   "/images/uploads/venue-robinson-pamfilya-5.jpg",
+   "/images/uploads/venue-robinson-pamfilya-6.jpg"
+  ],
+  "errors": []
+ },
+ "hotels/hampton-by-hilton-antalya-airport": {
+  "page": "https://www.hilton.com/en/hotels/aytaahx-hampton-antalya-airport/",
+  "saved": [
+   "/images/uploads/venue-hampton-by-hilton-antalya-airport-4.avif",
+   "/images/uploads/venue-hampton-by-hilton-antalya-airport-5.avif"
+  ],
+  "errors": [
+   "https://www.hilton.com/im/en/AYTAAHX/20368678/hero-shot-night-1.jpg?impolicy=crop&cw=4500&ch=2519&gravity=NorthWest&xposition=0&yposition=240&rw=768&rh=430: unexpected size 14550",
+   "https://www.hilton.com/im/en/AYTAAHX/20368941/super-king-room-2.jpg?impolicy=crop&cw=3827&ch=2143&gravity=NorthWest&xposition=586&yposition=0&rw=768&rh=430: unexpected size 11002",
+   "https://www.hilton.com/im/en/AYTAAHX/20368787/twin-room-1.jpg?impolicy=crop&cw=3827&ch=2143&gravity=NorthWest&xposition=586&yposition=0&rw=768&rh=430: unexpected size 8812"
+  ]
+ },
+ "restaurants/pruva-meyhane-kalkan": {
+  "page": "https://pruvakalkan.com/en",
+  "saved": [
+   "/images/uploads/venue-pruva-meyhane-kalkan-1.webp",
+   "/images/uploads/venue-pruva-meyhane-kalkan-2.webp",
+   "/images/uploads/venue-pruva-meyhane-kalkan-3.webp",
+   "/images/uploads/venue-pruva-meyhane-kalkan-4.jpg",
+   "/images/uploads/venue-pruva-meyhane-kalkan-5.jpg",
+   "/images/uploads/venue-pruva-meyhane-kalkan-6.jpg"
+  ],
+  "errors": []
+ },
+ "restaurants/etna-fish-house-kas": {
+  "page": "https://etnafishhouse.com/en/galeri/",
+  "saved": [
+   "/images/uploads/venue-etna-fish-house-kas-1.webp",
+   "/images/uploads/venue-etna-fish-house-kas-2.webp",
+   "/images/uploads/venue-etna-fish-house-kas-3.jpg",
+   "/images/uploads/venue-etna-fish-house-kas-4.jpg",
+   "/images/uploads/venue-etna-fish-house-kas-5.webp"
+  ],
+  "errors": []
  }
 }
