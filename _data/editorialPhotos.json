@@ -4771,9 +4771,9 @@
  {
   "id": "commons-2014-antalya-aquarium-059",
   "src": "/images/editorial/commons-2014-antalya-aquarium-059.jpg",
-  "alt": "Aircraft wreck of an Italian Savoia-Marchetti SM79 \"Sparviero\" in the tank of the Antalya Aquarium (Türkiye)",
-  "caption": "Aircraft wreck of an Italian Savoia-Marchetti SM79 \"Sparviero\" in the tank of the Antalya Aquarium (Türkiye)",
-  "region": null,
+  "alt": "The wreck of an Italian Savoia-Marchetti SM.79 \"Sparviero\" bomber in the main tank of Antalya Aquarium, seen through the curved glass",
+  "caption": "The SM.79 \"Sparviero\" bomber wreck in the main tank at Antalya Aquarium, Konyaaltı.",
+  "region": "konyaalti",
   "kind": "destination",
   "author": "Andreas Wolf 01",
   "license": "CC0",
@@ -4785,7 +4785,9 @@
   "height": 1200,
   "changes": "Resized to 1600 px wide; displayed with responsive cropping.",
   "verifiedOn": "2026-11-09",
-  "notPropertyPhotography": true
+  "notPropertyPhotography": true,
+  "district_slug": "konyaalti",
+  "area": "konyaalti"
  },
  {
   "id": "commons-antalya-aquarium",
