@@ -219,5 +219,47 @@
    "https://cdn.legendsdxp.com/cdn-cgi/image/width=2000,quality=80,format=auto,fit=scale-down/img/019f0b0e-ffa2-721c-bcce-a162748fc994/orig/source.webp",
    "https://cdn.legendsdxp.com/cdn-cgi/image/width=2000,quality=80,format=auto,fit=scale-down/img/019f0b0e-ff8b-7058-af79-1357c687d348/orig/source.webp"
   ]
+ },
+ "hotels/robinson-pamfilya": {
+  "page": "https://www.robinson.com/en/en/resort-holiday/turkey/pamfilya/club-details/",
+  "images": [
+   "https://www.robinson.com/media/_processed_/e/1/csm_pl_14442_aerial_WOL_a86f19122c.jpg",
+   "https://www.robinson.com/media/_processed_/6/0/csm_pl_14431_Aquapark_WOL_83360ddac0.jpg",
+   "https://www.robinson.com/media/_processed_/4/4/csm_pl44_11585_Hauptpool_a44fa6f943.jpg",
+   "https://www.robinson.com/media/_processed_/3/3/csm_pl58_1194rc_77beed8211.jpg",
+   "https://www.robinson.com/media/_processed_/b/0/csm_pl-dzx1-doppelzimmer-schlafzimmer_4212ca6cb9.jpg",
+   "https://www.robinson.com/media/_processed_/9/2/csm_pl44_11616_Hauptbuffet_16a1d341a5.jpg"
+  ]
+ },
+ "hotels/hampton-by-hilton-antalya-airport": {
+  "page": "https://www.hilton.com/en/hotels/aytaahx-hampton-antalya-airport/",
+  "images": [
+   "https://www.hilton.com/im/en/AYTAAHX/20368678/hero-shot-night-1.jpg?impolicy=crop&cw=4500&ch=2519&gravity=NorthWest&xposition=0&yposition=240&rw=768&rh=430",
+   "https://www.hilton.com/im/en/AYTAAHX/20368941/super-king-room-2.jpg?impolicy=crop&cw=3827&ch=2143&gravity=NorthWest&xposition=586&yposition=0&rw=768&rh=430",
+   "https://www.hilton.com/im/en/AYTAAHX/20368787/twin-room-1.jpg?impolicy=crop&cw=3827&ch=2143&gravity=NorthWest&xposition=586&yposition=0&rw=768&rh=430",
+   "https://www.hilton.com/im/en/AYTAAHX/20368670/restaurant-4.jpg?impolicy=crop&cw=4498&ch=2518&gravity=NorthWest&xposition=0&yposition=240&rw=768&rh=430",
+   "https://www.hilton.com/im/en/AYTAAHX/20368701/lobby-7.jpg?impolicy=crop&cw=4498&ch=2518&gravity=NorthWest&xposition=0&yposition=240&rw=768&rh=430"
+  ]
+ },
+ "restaurants/pruva-meyhane-kalkan": {
+  "page": "https://pruvakalkan.com/en",
+  "images": [
+   "https://pruvakalkan.com/storage/settings/Ynzg7y0vVYAILDZqK4kE7QlnCUdP8GgTmkbnjHdR.webp",
+   "https://pruvakalkan.com/storage/slides/JtdQJ4bm8osxClgvQfLhDAaEHhc8dpmFKkg8UoT9.webp",
+   "https://pruvakalkan.com/storage/settings/syVOm9QHIpeNu1jNhKedwBtoXpAFiFripbT4eTbs.webp",
+   "https://pruvakalkan.com/storage/gallery/uiuUNfJCeCuISa5pur7HXeBmUm34kV671EpUZRCr.jpg",
+   "https://pruvakalkan.com/storage/gallery/4O0YbWMpDVRmgHlEt0b79UzoMvehBOmGZnTtug3a.jpg",
+   "https://pruvakalkan.com/storage/gallery/tqJ8s02rzu33Fb5rZydvP83kZLclIuYvGmS6Jg1b.jpg"
+  ]
+ },
+ "restaurants/etna-fish-house-kas": {
+  "page": "https://etnafishhouse.com/en/galeri/",
+  "images": [
+   "https://etnafishhouse.com/images/etna-fish-house-kas-disaridan-gece-tabela.webp",
+   "https://etnafishhouse.com/images/etna-fish-house-kas-sicak-tas-karides-sarap.webp",
+   "https://etnafishhouse.com/images/etna-fish-house-kas-karisik-deniz-urunleri-tepsisi.jpg",
+   "https://etnafishhouse.com/images/etna-fish-house-kas-izgara-ahtapot-tas-kapta.jpg",
+   "https://etnafishhouse.com/images/etna-fish-house-kas-salata-bari-mezeler.webp"
+  ]
  }
 }
