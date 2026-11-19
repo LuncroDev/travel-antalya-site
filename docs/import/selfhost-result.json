@@ -268,7 +268,13 @@
  },
  "hotels/hampton-by-hilton-antalya-airport": {
   "page": "https://www.hilton.com/en/hotels/aytaahx-hampton-antalya-airport/",
-  "saved": [],
+  "saved": [
+   "/images/uploads/venue-hampton-by-hilton-antalya-airport-1.jpg",
+   "/images/uploads/venue-hampton-by-hilton-antalya-airport-2.jpg",
+   "/images/uploads/venue-hampton-by-hilton-antalya-airport-3.jpg",
+   "/images/uploads/venue-hampton-by-hilton-antalya-airport-4.jpg",
+   "/images/uploads/venue-hampton-by-hilton-antalya-airport-5.jpg"
+  ],
   "errors": []
  },
  "restaurants/pruva-meyhane-kalkan": {
