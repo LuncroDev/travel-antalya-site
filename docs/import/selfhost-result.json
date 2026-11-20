@@ -294,5 +294,50 @@
    "/images/uploads/venue-etna-fish-house-kas-4.webp"
   ],
   "errors": []
+ },
+ "hotels/tui-magic-life-masmavi": {
+  "page": "https://www.magiclife.com/en/en/resort-holiday/turkey/masmavi/resort-details/",
+  "saved": [
+   "/images/uploads/venue-tui-magic-life-masmavi-1.jpg",
+   "/images/uploads/venue-tui-magic-life-masmavi-2.jpg",
+   "/images/uploads/venue-tui-magic-life-masmavi-3.jpg",
+   "/images/uploads/venue-tui-magic-life-masmavi-4.jpg",
+   "/images/uploads/venue-tui-magic-life-masmavi-5.jpg",
+   "/images/uploads/venue-tui-magic-life-masmavi-6.jpg"
+  ],
+  "errors": []
+ },
+ "hotels/holiday-inn-antalya-lara": {
+  "page": "https://www.ihg.com/holidayinn/hotels/us/en/antalya/aytlg/hoteldetail",
+  "saved": [
+   "/images/uploads/venue-holiday-inn-antalya-lara-1.avif",
+   "/images/uploads/venue-holiday-inn-antalya-lara-2.avif",
+   "/images/uploads/venue-holiday-inn-antalya-lara-3.avif",
+   "/images/uploads/venue-holiday-inn-antalya-lara-4.avif",
+   "/images/uploads/venue-holiday-inn-antalya-lara-5.avif"
+  ],
+  "errors": []
+ },
+ "restaurants/iva-sushi-bar-konyaalti": {
+  "page": "https://www.ivasushiantalya.com/en/galeri",
+  "saved": [
+   "/images/uploads/venue-iva-sushi-bar-konyaalti-1.webp",
+   "/images/uploads/venue-iva-sushi-bar-konyaalti-2.webp",
+   "/images/uploads/venue-iva-sushi-bar-konyaalti-3.webp",
+   "/images/uploads/venue-iva-sushi-bar-konyaalti-4.webp"
+  ],
+  "errors": []
+ },
+ "restaurants/bistro-2000-kumkoy": {
+  "page": "https://www.bistro2000.net/en/image-gallery",
+  "saved": [
+   "/images/uploads/venue-bistro-2000-kumkoy-1.jpg",
+   "/images/uploads/venue-bistro-2000-kumkoy-2.jpg",
+   "/images/uploads/venue-bistro-2000-kumkoy-3.jpg",
+   "/images/uploads/venue-bistro-2000-kumkoy-4.jpg",
+   "/images/uploads/venue-bistro-2000-kumkoy-5.jpg",
+   "/images/uploads/venue-bistro-2000-kumkoy-6.jpg"
+  ],
+  "errors": []
  }
 }
