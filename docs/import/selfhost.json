@@ -260,9 +260,7 @@
   "images": [
    "https://www.magiclife.com/media/_processed_/3/4/csm_ml-masmavi-ayt-ac112750775-generaloverview-drone-030_12b3b3248e.jpg",
    "https://www.magiclife.com/media/_processed_/e/d/csm_ml-masmavi-ayt-ac112750775-lagoonpools-0481_c08c215218.jpg",
-   "https://www.magiclife.com/media/_processed_/b/a/csm_ml-masmavi-ayt-ac112750775-generalbeachcondition-009_853ba80c92.jpg",
    "https://www.magiclife.com/media/_processed_/7/9/csm_ml-masmavi-ayt-ac112750775-aquapark_slides-079_22ba073964.jpg",
-   "https://www.magiclife.com/media/_processed_/4/0/csm_ml-masmavi-ayt-ac112750775-magico-mainrestaurant-056_2029bd241f.jpg",
    "https://www.magiclife.com/media/_processed_/9/e/csm_ACC_058860_AC112750775-ML-Masmavi-DZX3-Dbl-Superior-Lagoon-p-Seaview-bedroom-0944_98bc9e4c3d.jpg"
   ]
  },
@@ -271,9 +269,7 @@
   "images": [
    "https://digital.ihg.com/is/image/ihg/holiday-inn-antalya-4768455411-4x3?wid=1600&fit=constrain",
    "https://digital.ihg.com/is/image/ihg/holiday-inn-antalya-4769781446-4x3?wid=1600&fit=constrain",
-   "https://digital.ihg.com/is/image/ihg/holiday-inn-antalya-4769774480-4x3?wid=1600&fit=constrain",
-   "https://digital.ihg.com/is/image/ihg/holiday-inn-antalya-6746770807-4x3?wid=1600&fit=constrain",
-   "https://digital.ihg.com/is/image/ihg/holiday-inn-antalya-6003116382-4x3?wid=1600&fit=constrain"
+   "https://digital.ihg.com/is/image/ihg/holiday-inn-antalya-4769774480-4x3?wid=1600&fit=constrain"
   ]
  },
  "restaurants/iva-sushi-bar-konyaalti": {
@@ -281,8 +277,7 @@
   "images": [
    "https://www.ivasushiantalya.com/assets/images/gorsel2.jpg",
    "https://www.ivasushiantalya.com/assets/images/gorsel1.jpg",
-   "https://www.ivasushiantalya.com/assets/images/gallery/galeri-1.jpg",
-   "https://www.ivasushiantalya.com/assets/images/gallery/galeri.jpg"
+   "https://www.ivasushiantalya.com/assets/images/gallery/galeri-1.jpg"
   ]
  },
  "restaurants/bistro-2000-kumkoy": {
@@ -290,10 +285,7 @@
   "images": [
    "https://www.bistro2000.net/images/upload/bistro_08_2025%20(13).jpg",
    "https://www.bistro2000.net/images/upload/bistro_08_2025%20(1)_1.jpg",
-   "https://www.bistro2000.net/images/upload/bistro_08_2025%20(16).jpg",
-   "https://www.bistro2000.net/images/upload/bistro_08_2025%20(23).jpg",
-   "https://www.bistro2000.net/images/upload/DSCF3126.jpg",
-   "https://www.bistro2000.net/images/upload/DSCF3142.jpg"
+   "https://www.bistro2000.net/images/upload/DSCF3126.jpg"
   ]
  }
 }
