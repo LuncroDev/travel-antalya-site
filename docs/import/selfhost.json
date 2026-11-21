@@ -287,5 +287,64 @@
    "https://www.bistro2000.net/images/upload/bistro_08_2025%20(1)_1.jpg",
    "https://www.bistro2000.net/images/upload/DSCF3126.jpg"
   ]
+ },
+ "hotels/robinson-nobilis": {
+  "page": "https://www.robinson.com/en/en/resort-holiday/turkey/nobilis/club-details/",
+  "images": [
+   "https://www.robinson.com/media/_processed_/3/f/csm_RCNL_drone_16577_WOL_b08ad2a828.jpg",
+   "https://www.robinson.com/media/_processed_/d/c/csm_RCNL_Pool_14918_WOL_30da2b9aef.jpg",
+   "https://www.robinson.com/media/_processed_/4/5/csm_RCNL_GolfHole9_16524_WOL_d3448f8ab1.jpg",
+   "https://www.robinson.com/media/_processed_/c/3/csm_RCNL_Mellina_Restaurant_16587_WOL_e7d22d30c9.jpg",
+   "https://www.robinson.com/media/_processed_/0/0/csm_nl_14386_Indoor_pool_WOL_15ad0f1a58.jpg",
+   "https://www.robinson.com/media/_processed_/9/b/csm_RCNL_Beachbar_16575_WOL_b092eb8e43.jpg"
+  ]
+ },
+ "hotels/tui-blue-side": {
+  "page": "https://www.tui-blue.com/en/en/hotels/tui-blue-side/",
+  "images": [
+   "https://www.tui-blue.com/media/hotels/Side/UEbersicht/1920x1080/tui-blue-side-exterior-overview-sea.jpg",
+   "https://www.tui-blue.com/media/hotels/Side/UEbersicht/1920x1080/tui-blue-side-beach-overview.jpg",
+   "https://www.tui-blue.com/media/hotels/Side/UEbersicht/1920x1080/tui-blue-side-Indoorpool.jpg",
+   "https://www.tui-blue.com/media/hotels/Side/Kulinarik/1920x1080/tui-blue-side-restaurant-terrace.jpg",
+   "https://www.tui-blue.com/media/hotels/Side/Zimmer/1920x1080/tui-blue-side-dzm1-double-standard-seaview-balcony.jpg",
+   "https://www.tui-blue.com/media/hotels/Side/UEbersicht/1920x1080/tui-blue-side-overview-4.jpg"
+  ]
+ },
+ "restaurants/kamer-restaurant-side": {
+  "page": "https://www.kamerrestoran.com/en/galeri.php",
+  "images": [
+   "https://www.kamerrestoran.com/en/galeri/1.jpg",
+   "https://www.kamerrestoran.com/en/galeri/2.jpg",
+   "https://www.kamerrestoran.com/en/galeri/3.jpg",
+   "https://www.kamerrestoran.com/en/galeri/4.jpg",
+   "https://www.kamerrestoran.com/en/galeri/5.jpg",
+   "https://www.kamerrestoran.com/en/galeri/6.jpg",
+   "https://www.kamerrestoran.com/en/assets/img/our_story_2.jpg",
+   "https://www.kamerrestoran.com/en/assets/img/about2.jpg"
+  ]
+ },
+ "restaurants/kumm-balik-lara": {
+  "page": "https://kummbalik.com/",
+  "images": [
+   "https://kummbalik.com/wp-content/uploads/2025/12/kummbalik-gorsel.jpg",
+   "https://kummbalik.com/wp-content/uploads/2026/09/kumm3.png"
+  ]
+ },
+ "things-to-do/st-nicholas-church-demre": {
+  "page": "https://commons.wikimedia.org/wiki/File:St._Nicholas_Church,_Demre_5509.jpg",
+  "images": [
+   "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/St._Nicholas_Church%2C_Demre_5509.jpg/1920px-St._Nicholas_Church%2C_Demre_5509.jpg",
+   "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/St._Nicholas_Church%2C_Demre_5895.jpg/1920px-St._Nicholas_Church%2C_Demre_5895.jpg",
+   "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/St._Nicholas_Church%2C_Demre_5406.jpg/1920px-St._Nicholas_Church%2C_Demre_5406.jpg",
+   "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/St._Nicholas_Church%2C_Demre_5819.jpg/1920px-St._Nicholas_Church%2C_Demre_5819.jpg",
+   "https://upload.wikimedia.org/wikipedia/commons/d/d4/Noel_Baba_Kilisesi..._-_panoramio.jpg"
+  ]
+ },
+ "blog/gazipasa-alanya-airport-guide": {
+  "page": "https://commons.wikimedia.org/wiki/File:Gazipa%C5%9Fa-Alanya_Airport_Terminal.jpg",
+  "images": [
+   "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Gazipa%C5%9Fa-Alanya_Airport_Terminal.jpg/1920px-Gazipa%C5%9Fa-Alanya_Airport_Terminal.jpg",
+   "https://upload.wikimedia.org/wikipedia/commons/e/ea/Gazipa%C5%9Fa-Alanya_Airport_Terminal.jpg"
+  ]
  }
 }
