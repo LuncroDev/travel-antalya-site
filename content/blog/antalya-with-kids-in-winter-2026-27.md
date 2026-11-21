@@ -6,6 +6,9 @@ date_display: "November 20, 2026"
 category: "Practical"
 excerpt: "Antalya with children this winter: family shows from November to January, the Nutcracker ballet, an aquarium day, Saklıkent snow and heated-pool hotels."
 photo_id: "konyaalti-beach"
+inline_photos:
+  - "duden-waterfall"
+  - "sight-karaalioglu-park-1"
 featured: false
 last_checked: "2026-11-20"
 source_url: "https://biletinial.com/en-tr/venue/antalya-konyaalti-nazim-hikmet-kultur-merkezi"

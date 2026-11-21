@@ -6,6 +6,9 @@ date_display: "November 20, 2026"
 category: "Practical"
 excerpt: "The Antalya State Symphony Orchestra's 2026–27 season: Friday concerts at AKM, the 18 and 25 December concerts and the Aspendos finale on 28 May 2027."
 photo_id: "aspendos-theatre"
+inline_photos:
+  - "aspendos-entrance"
+  - "perge-colonnade"
 featured: false
 last_checked: "2026-11-20"
 source_url: "https://www.hurriyetdailynews.com/antalya-state-symphony-orchestra-opens-season-228035"

@@ -6,6 +6,9 @@ date_display: "November 20, 2026"
 category: "Itineraries"
 excerpt: "Six winter day trips from Antalya: Aspendos and Side, Termessos, Finike and Limyra, Kemer to Olympos, Alanya and Saklıkent snow, with links to full plans."
 photo_id: "commons-cable-car-antalya"
+inline_photos:
+  - "phaselis-harbour"
+  - "kursunlu-waterfall"
 featured: false
 last_checked: "2026-11-20"
 source_url: "https://www.ktb.gov.tr/EN-99228/antalya-saklikent.html"

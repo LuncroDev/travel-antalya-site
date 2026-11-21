@@ -412,3 +412,4 @@ Kaleiçi, beach holiday overview…). Check `content/blog/` for overlap before w
 - 2026-11-09 · Hotels: [Kempinski Hotel The Dome Belek](/hotels/kempinski-hotel-the-dome-belek/), [Casa Bi](/hotels/casa-bi-kas/)
 - 2026-11-09 · Restaurants: [Şişçi İbo](/restaurants/sisci-ibo/), [Naturel Restaurant Kaş](/restaurants/naturel-restaurant-kas/)
 - 2026-11-09 · Events: [Ezginin Günlüğü, 9 Dec 2026](/events/ezginin-gunlugu-konseri-2026-12-09-muratpasa/), [Rock Sympho Show, 2 Feb 2027](/events/rock-sympho-show-2027-02-02-kepez/)
+- 2026-11-21: 8 illustrated posts (winter hotels Kemer/Belek, Konyaaltı hotels, ocakbaşı, Side dining, Çıralı/Olympos, sunrise/sunset, Elmalı, winter golf); inline photos added to the 10 winter posts.

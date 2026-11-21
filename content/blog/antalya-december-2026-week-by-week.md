@@ -6,6 +6,9 @@ date_display: "November 20, 2026"
 category: "Practical"
 excerpt: "Antalya in December 2026, week by week: women's handball, concerts, theatre, Belek golf events, orchestra holiday concerts and what to know around Christmas."
 photo_id: "hadrians-gate"
+inline_photos:
+  - "commons-antalya-turkey-feb-2022-tram"
+  - "commons-gulf-of-antalya"
 featured: false
 last_checked: "2026-11-20"
 source_url: "https://yac.eurohandball.com/news/en/womens-ehf-euro-2026-in-antalya-schedule-teams-and-tickets/"
