@@ -377,5 +377,12 @@
    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Gazipa%C5%9Fa-Alanya_Airport_Terminal.jpg/1920px-Gazipa%C5%9Fa-Alanya_Airport_Terminal.jpg: 429 text/html",
    "https://upload.wikimedia.org/wikipedia/commons/e/ea/Gazipa%C5%9Fa-Alanya_Airport_Terminal.jpg: 429 text/html"
   ]
+ },
+ "things-to-do/st-nicholas-church-demre": {
+  "page": "https://download.osmand.net/wiki/File:St._Nicholas_Church,_Demre_5863.jpg",
+  "saved": [],
+  "errors": [
+   "https://upload.wikimedia.org/wikipedia/commons/2/2f/St._Nicholas_Church%2C_Demre_5863.jpg: 429 text/html"
+  ]
  }
 }
