@@ -338,9 +338,7 @@
    "/images/uploads/venue-robinson-nobilis-1.jpg",
    "/images/uploads/venue-robinson-nobilis-2.jpg",
    "/images/uploads/venue-robinson-nobilis-3.jpg",
-   "/images/uploads/venue-robinson-nobilis-4.jpg",
-   "/images/uploads/venue-robinson-nobilis-5.jpg",
-   "/images/uploads/venue-robinson-nobilis-6.jpg"
+   "/images/uploads/venue-robinson-nobilis-4.jpg"
   ],
   "errors": []
  },
@@ -350,9 +348,7 @@
    "/images/uploads/venue-tui-blue-side-1.jpg",
    "/images/uploads/venue-tui-blue-side-2.jpg",
    "/images/uploads/venue-tui-blue-side-3.jpg",
-   "/images/uploads/venue-tui-blue-side-4.jpg",
-   "/images/uploads/venue-tui-blue-side-5.jpg",
-   "/images/uploads/venue-tui-blue-side-6.jpg"
+   "/images/uploads/venue-tui-blue-side-4.jpg"
   ],
   "errors": []
  },
@@ -362,11 +358,7 @@
    "/images/uploads/venue-kamer-restaurant-side-1.jpg",
    "/images/uploads/venue-kamer-restaurant-side-2.jpg",
    "/images/uploads/venue-kamer-restaurant-side-3.jpg",
-   "/images/uploads/venue-kamer-restaurant-side-4.jpg",
-   "/images/uploads/venue-kamer-restaurant-side-5.jpg",
-   "/images/uploads/venue-kamer-restaurant-side-6.jpg",
-   "/images/uploads/venue-kamer-restaurant-side-7.jpg",
-   "/images/uploads/venue-kamer-restaurant-side-8.jpg"
+   "/images/uploads/venue-kamer-restaurant-side-4.jpg"
   ],
   "errors": []
  },
@@ -379,16 +371,11 @@
   ]
  },
  "things-to-do/st-nicholas-church-demre": {
-  "page": "https://commons.wikimedia.org/wiki/File:St._Nicholas_Church,_Demre_5509.jpg",
+  "page": "https://download.osmand.net/wiki/File:St._Nicholas_Church,_Demre_5863.jpg",
   "saved": [
-   "/images/uploads/venue-st-nicholas-church-demre-1.jpg",
-   "/images/uploads/venue-st-nicholas-church-demre-2.jpg"
+   "/images/uploads/venue-st-nicholas-church-demre-1.jpg"
   ],
-  "errors": [
-   "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/St._Nicholas_Church%2C_Demre_5406.jpg/1920px-St._Nicholas_Church%2C_Demre_5406.jpg: 429 text/html",
-   "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/St._Nicholas_Church%2C_Demre_5819.jpg/1920px-St._Nicholas_Church%2C_Demre_5819.jpg: 429 text/html",
-   "https://upload.wikimedia.org/wikipedia/commons/d/d4/Noel_Baba_Kilisesi..._-_panoramio.jpg: 429 text/html"
-  ]
+  "errors": []
  },
  "blog/gazipasa-alanya-airport-guide": {
   "page": "https://commons.wikimedia.org/wiki/File:Gazipa%C5%9Fa-Alanya_Airport_Terminal.jpg",
