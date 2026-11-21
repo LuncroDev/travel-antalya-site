@@ -6,6 +6,9 @@ date_display: "November 20, 2026"
 category: "Practical"
 excerpt: "Live music in Antalya this winter: The Bar in Kaleiçi, Holly Stone, The Sponge, jazz at The 251 Soul and municipal halls, with confirmed December dates."
 photo_id: "kaleici-marina"
+inline_photos:
+  - "commons-antalya-clock-tower-in-2015-06"
+  - "kaleici-museum"
 featured: false
 last_checked: "2026-11-20"
 source_url: "https://www.biletix.com/etkinlik/5BHM4/ANTALYA/en/music-chris-potter-trio-27-11-2026-antalya"

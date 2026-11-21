@@ -6,6 +6,9 @@ date_display: "November 20, 2026"
 category: "Practical"
 excerpt: "What's on in Antalya in January 2027: confirmed theatre, family shows, ANFAŞ trade fairs, Legends Tour Q-School and U.S. Kids Golf in Belek, plus planning tips."
 photo_id: "hadrians-gate"
+inline_photos:
+  - "kaleici-marina"
+  - "commons-the-winter-sea-in-antalia-panoramio"
 featured: false
 last_checked: "2026-11-20"
 source_url: "https://biletinial.com/en-tr/venue/antalya-konyaalti-nazim-hikmet-kultur-merkezi"

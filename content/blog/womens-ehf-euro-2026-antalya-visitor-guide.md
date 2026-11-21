@@ -6,6 +6,9 @@ date_display: "November 20, 2026"
 category: "Practical"
 excerpt: "Women's EHF EURO 2026 handball in Antalya: three match days, 3, 5 and 7 December, Group C teams, ticket prices, the 10,000-seat hall and how to plan a stay."
 photo_id: "kaleici-marina"
+inline_photos:
+  - "kemer-marina"
+  - "konyaalti-coast"
 featured: false
 last_checked: "2026-11-20"
 source_url: "https://yac.eurohandball.com/news/en/womens-ehf-euro-2026-in-antalya-schedule-teams-and-tickets/"

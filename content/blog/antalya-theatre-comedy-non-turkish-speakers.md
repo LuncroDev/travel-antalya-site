@@ -6,6 +6,9 @@ date_display: "November 20, 2026"
 category: "Practical"
 excerpt: "Most Antalya theatre is in Turkish. What works without the language this winter: ballet, jazz, orchestral concerts and Russian plays with Turkish subtitles."
 photo_id: "aspendos-theatre"
+inline_photos:
+  - "perge-theatre"
+  - "side-theatre"
 featured: false
 last_checked: "2026-11-20"
 source_url: "https://iticket.com.tr/en/events/theatre/antalya/klara-para-ve-ask-2-aralik-antalya-bilet"
