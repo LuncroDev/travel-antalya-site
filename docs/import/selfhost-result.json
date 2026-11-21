@@ -331,5 +331,71 @@
    "/images/uploads/venue-bistro-2000-kumkoy-3.jpg"
   ],
   "errors": []
+ },
+ "hotels/robinson-nobilis": {
+  "page": "https://www.robinson.com/en/en/resort-holiday/turkey/nobilis/club-details/",
+  "saved": [
+   "/images/uploads/venue-robinson-nobilis-1.jpg",
+   "/images/uploads/venue-robinson-nobilis-2.jpg",
+   "/images/uploads/venue-robinson-nobilis-3.jpg",
+   "/images/uploads/venue-robinson-nobilis-4.jpg",
+   "/images/uploads/venue-robinson-nobilis-5.jpg",
+   "/images/uploads/venue-robinson-nobilis-6.jpg"
+  ],
+  "errors": []
+ },
+ "hotels/tui-blue-side": {
+  "page": "https://www.tui-blue.com/en/en/hotels/tui-blue-side/",
+  "saved": [
+   "/images/uploads/venue-tui-blue-side-1.jpg",
+   "/images/uploads/venue-tui-blue-side-2.jpg",
+   "/images/uploads/venue-tui-blue-side-3.jpg",
+   "/images/uploads/venue-tui-blue-side-4.jpg",
+   "/images/uploads/venue-tui-blue-side-5.jpg",
+   "/images/uploads/venue-tui-blue-side-6.jpg"
+  ],
+  "errors": []
+ },
+ "restaurants/kamer-restaurant-side": {
+  "page": "https://www.kamerrestoran.com/en/galeri.php",
+  "saved": [
+   "/images/uploads/venue-kamer-restaurant-side-1.jpg",
+   "/images/uploads/venue-kamer-restaurant-side-2.jpg",
+   "/images/uploads/venue-kamer-restaurant-side-3.jpg",
+   "/images/uploads/venue-kamer-restaurant-side-4.jpg",
+   "/images/uploads/venue-kamer-restaurant-side-5.jpg",
+   "/images/uploads/venue-kamer-restaurant-side-6.jpg",
+   "/images/uploads/venue-kamer-restaurant-side-7.jpg",
+   "/images/uploads/venue-kamer-restaurant-side-8.jpg"
+  ],
+  "errors": []
+ },
+ "restaurants/kumm-balik-lara": {
+  "page": "https://kummbalik.com/",
+  "saved": [],
+  "errors": [
+   "https://kummbalik.com/wp-content/uploads/2025/12/kummbalik-gorsel.jpg: 202 text/html",
+   "https://kummbalik.com/wp-content/uploads/2026/09/kumm3.png: 202 text/html"
+  ]
+ },
+ "things-to-do/st-nicholas-church-demre": {
+  "page": "https://commons.wikimedia.org/wiki/File:St._Nicholas_Church,_Demre_5509.jpg",
+  "saved": [
+   "/images/uploads/venue-st-nicholas-church-demre-1.jpg",
+   "/images/uploads/venue-st-nicholas-church-demre-2.jpg"
+  ],
+  "errors": [
+   "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/St._Nicholas_Church%2C_Demre_5406.jpg/1920px-St._Nicholas_Church%2C_Demre_5406.jpg: 429 text/html",
+   "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/St._Nicholas_Church%2C_Demre_5819.jpg/1920px-St._Nicholas_Church%2C_Demre_5819.jpg: 429 text/html",
+   "https://upload.wikimedia.org/wikipedia/commons/d/d4/Noel_Baba_Kilisesi..._-_panoramio.jpg: 429 text/html"
+  ]
+ },
+ "blog/gazipasa-alanya-airport-guide": {
+  "page": "https://commons.wikimedia.org/wiki/File:Gazipa%C5%9Fa-Alanya_Airport_Terminal.jpg",
+  "saved": [],
+  "errors": [
+   "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Gazipa%C5%9Fa-Alanya_Airport_Terminal.jpg/1920px-Gazipa%C5%9Fa-Alanya_Airport_Terminal.jpg: 429 text/html",
+   "https://upload.wikimedia.org/wikipedia/commons/e/ea/Gazipa%C5%9Fa-Alanya_Airport_Terminal.jpg: 429 text/html"
+  ]
  }
 }
