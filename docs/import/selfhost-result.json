@@ -377,5 +377,57 @@
    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Gazipa%C5%9Fa-Alanya_Airport_Terminal.jpg/1920px-Gazipa%C5%9Fa-Alanya_Airport_Terminal.jpg: 429 text/html",
    "https://upload.wikimedia.org/wikipedia/commons/e/ea/Gazipa%C5%9Fa-Alanya_Airport_Terminal.jpg: 429 text/html"
   ]
+ },
+ "hotels/tui-magic-life-jacaranda": {
+  "page": "https://www.magiclife.com/en/en/resort-holiday/turkey/jacaranda/resort-details/",
+  "saved": [
+   "/images/uploads/venue-tui-magic-life-jacaranda-1.jpg",
+   "/images/uploads/venue-tui-magic-life-jacaranda-2.jpg",
+   "/images/uploads/venue-tui-magic-life-jacaranda-3.jpg",
+   "/images/uploads/venue-tui-magic-life-jacaranda-4.jpg",
+   "/images/uploads/venue-tui-magic-life-jacaranda-5.jpg"
+  ],
+  "errors": []
+ },
+ "hotels/tui-magic-life-belek": {
+  "page": "https://www.magiclife.com/en/en/resort-holiday/turkey/belek/resort-details/",
+  "saved": [
+   "/images/uploads/venue-tui-magic-life-belek-1.jpg",
+   "/images/uploads/venue-tui-magic-life-belek-2.jpg",
+   "/images/uploads/venue-tui-magic-life-belek-3.jpg",
+   "/images/uploads/venue-tui-magic-life-belek-4.jpg",
+   "/images/uploads/venue-tui-magic-life-belek-5.jpg"
+  ],
+  "errors": []
+ },
+ "restaurants/q-beach-side": {
+  "page": "https://qbeachside.com/en/",
+  "saved": [
+   "/images/uploads/venue-q-beach-side-1.webp",
+   "/images/uploads/venue-q-beach-side-2.webp",
+   "/images/uploads/venue-q-beach-side-3.webp",
+   "/images/uploads/venue-q-beach-side-4.webp",
+   "/images/uploads/venue-q-beach-side-5.webp",
+   "/images/uploads/venue-q-beach-side-6.webp"
+  ],
+  "errors": []
+ },
+ "restaurants/bahce-restaurant-kas": {
+  "page": "https://bahcerestaurantkas.com/home-english/",
+  "saved": [
+   "/images/uploads/venue-bahce-restaurant-kas-1.jpg"
+  ],
+  "errors": []
+ },
+ "things-to-do/patara-ancient-city": {
+  "page": "https://commons.wikimedia.org/wiki/File:View_of_the_exterior_of_the_restored_Council_Chamber_(Bouleuterion),_Patara,_Turkey_(19315173514).jpg",
+  "saved": [
+   "/images/uploads/venue-patara-ancient-city-1.jpg",
+   "/images/uploads/venue-patara-ancient-city-2.jpg"
+  ],
+  "errors": [
+   "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Patara_Assembly_Hall_of_the_Lycian_Laegue_the_seats_and_stage_in_2013_4660.jpg/1280px-Patara_Assembly_Hall_of_the_Lycian_Laegue_the_seats_and_stage_in_2013_4660.jpg: 429 text/html",
+   "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Patara_Assembly_Hall_of_the_Lycian_Laegue_exterior_in_2013_4652.jpg/1280px-Patara_Assembly_Hall_of_the_Lycian_Laegue_exterior_in_2013_4652.jpg: 429 text/html"
+  ]
  }
 }
