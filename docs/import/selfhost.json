@@ -319,7 +319,6 @@
   "page": "https://www.magiclife.com/en/en/resort-holiday/turkey/jacaranda/resort-details/",
   "images": [
    "https://www.magiclife.com/fileadmin/media/_processed_/0/d/csm_ACC_051066_AC111461624_ML-Jacaranda-GeneralOverview-001_6f9a9123e5.jpg",
-   "https://www.magiclife.com/media/_processed_/a/6/csm_ACC_051066_AC111461624_ML-Jacaranda-MainPoolArea-054_7d9ae5db13.jpg",
    "https://www.magiclife.com/media/_processed_/4/8/csm_ACC_051066_AC111461624_ML-Jacaranda-IndoorPool_0059_95cef6e45a.jpg",
    "https://www.magiclife.com/media/_processed_/b/2/csm_ACC_051066_AC111461624_ML-Jacaranda-GeneralBeachCondition_0032_1ff22f5278.jpg",
    "https://www.magiclife.com/media/_processed_/1/e/csm_ACC_051066_AC111461624_ML-Jacaranda-AquaPark-161_51eb7f25ee.jpg"
@@ -328,10 +327,9 @@
  "hotels/tui-magic-life-belek": {
   "page": "https://www.magiclife.com/en/en/resort-holiday/turkey/belek/resort-details/",
   "images": [
+   "https://www.magiclife.com/media/_processed_/1/f/csm_ACC_010176__AC10318057_ML-Belek-overview-0485_64097bf62c.jpg",
    "https://www.magiclife.com/fileadmin/media/_processed_/7/1/csm_ml-belek-ayt-ac10318057-oasis-pool-019_3e927d2c56.jpg",
    "https://www.magiclife.com/media/_processed_/b/1/csm_ml-belek-ayt-ac10318057-beach-overview-042_39da96a040.jpg",
-   "https://www.magiclife.com/media/_processed_/1/f/csm_ACC_010176__AC10318057_ML-Belek-overview-0485_64097bf62c.jpg",
-   "https://www.magiclife.com/media/_processed_/8/4/csm_ml-belek-ayt-ac10318057-aquapark-slides-007_747583b34c.jpg",
    "https://www.magiclife.com/media/_processed_/4/9/csm_ml-belek-ayt-ac10318057-magico-mainrestaurant-018_b9fafa95ac.jpg"
   ]
  },
@@ -341,8 +339,6 @@
    "https://qbeachside.com/img/lawn-sea-1600.webp",
    "https://qbeachside.com/img/dinner-sunset-1600.webp",
    "https://qbeachside.com/img/lounge-sofas-1600.webp",
-   "https://qbeachside.com/img/beach-loungers-1600.webp",
-   "https://qbeachside.com/img/dorade-plate-1600.webp",
    "https://qbeachside.com/img/golden-lawn-1600.webp"
   ]
  },
@@ -350,15 +346,6 @@
   "page": "https://bahcerestaurantkas.com/home-english/",
   "images": [
    "https://bahcerestaurantkas.com/wp-content/uploads/2025/06/whatsapp-gorsel-2025-06-07-saat-16.56.00_441850cb.jpg"
-  ]
- },
- "things-to-do/patara-ancient-city": {
-  "page": "https://commons.wikimedia.org/wiki/File:View_of_the_exterior_of_the_restored_Council_Chamber_(Bouleuterion),_Patara,_Turkey_(19315173514).jpg",
-  "images": [
-   "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/View_of_the_exterior_of_the_restored_Council_Chamber_(Bouleuterion)%2C_Patara%2C_Turkey_(19315173514).jpg/1920px-View_of_the_exterior_of_the_restored_Council_Chamber_(Bouleuterion)%2C_Patara%2C_Turkey_(19315173514).jpg",
-   "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/View_of_the_exterior_of_the_restored_Council_Chamber_(Bouleuterion)%2C_Patara%2C_Turkey_(19315173514).jpg/1280px-View_of_the_exterior_of_the_restored_Council_Chamber_(Bouleuterion)%2C_Patara%2C_Turkey_(19315173514).jpg",
-   "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Patara_Assembly_Hall_of_the_Lycian_Laegue_the_seats_and_stage_in_2013_4660.jpg/1280px-Patara_Assembly_Hall_of_the_Lycian_Laegue_the_seats_and_stage_in_2013_4660.jpg",
-   "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Patara_Assembly_Hall_of_the_Lycian_Laegue_exterior_in_2013_4652.jpg/1280px-Patara_Assembly_Hall_of_the_Lycian_Laegue_exterior_in_2013_4652.jpg"
   ]
  }
 }

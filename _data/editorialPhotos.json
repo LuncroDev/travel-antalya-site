@@ -6582,5 +6582,32 @@
   "download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/St._Nicholas_Church%2C_Demre_5863.jpg/1280px-St._Nicholas_Church%2C_Demre_5863.jpg",
   "date_taken": "2011-03-21",
   "usage_note": "Commons file page would not load on 2026-11-21; author (Dosseman, EXIF 'DICK OSSEMAN'), CC BY-SA 4.0 licence, 1,600 × 1,065 size and 16 March 2019 upload taken from the Commons page mirrored at download.osmand.net/wiki/File:St._Nicholas_Church,_Demre_5863.jpg; date taken from the file's EXIF data. The Commons description identifies the scene as an Ecumenical Council, about 12th century."
+ },
+ {
+  "id": "patara-bouleuterion-exterior",
+  "src": "/images/editorial/patara-bouleuterion-exterior.jpg",
+  "alt": "The restored stone assembly hall of Patara, a tall rectangular building with arched doorways and windows, seen across rough ground under a pale sky",
+  "caption": "The restored assembly hall (bouleuterion) of the Lycian League at Patara, Kaş",
+  "region": "kas",
+  "kind": "destination",
+  "author": "Carole Raddato",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_the_exterior_of_the_restored_Council_Chamber_(Bouleuterion),_Patara,_Turkey_(19315173514).jpg",
+  "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/View_of_the_exterior_of_the_restored_Council_Chamber_(Bouleuterion)%2C_Patara%2C_Turkey_(19315173514).jpg",
+  "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/View_of_the_exterior_of_the_restored_Council_Chamber_(Bouleuterion)%2C_Patara%2C_Turkey_(19315173514).jpg/1920px-View_of_the_exterior_of_the_restored_Council_Chamber_(Bouleuterion)%2C_Patara%2C_Turkey_(19315173514).jpg",
+  "attribution": "Restored Council Chamber (Bouleuterion), Patara. Photo: Carole Raddato / Wikimedia Commons / CC BY-SA 2.0.",
+  "width": 1920,
+  "height": 1436,
+  "changes": "Downloaded as Wikimedia's 1920-pixel thumbnail; no compositional alteration.",
+  "verifiedOn": "2026-11-22",
+  "notPropertyPhotography": true,
+  "area": "kas",
+  "district_slug": "kas",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "source_url": "https://commons.wikimedia.org/wiki/File:View_of_the_exterior_of_the_restored_Council_Chamber_(Bouleuterion),_Patara,_Turkey_(19315173514).jpg",
+  "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/View_of_the_exterior_of_the_restored_Council_Chamber_(Bouleuterion)%2C_Patara%2C_Turkey_(19315173514).jpg",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/View_of_the_exterior_of_the_restored_Council_Chamber_(Bouleuterion)%2C_Patara%2C_Turkey_(19315173514).jpg/1920px-View_of_the_exterior_of_the_restored_Council_Chamber_(Bouleuterion)%2C_Patara%2C_Turkey_(19315173514).jpg",
+  "usage_note": "Commons file page would not load on 2026-11-22; author (Carole Raddato) and licence (CC BY-SA 2.0) taken from the Wiki Loves Monuments Turkey listing for Patara Meclis Binası (vikianitlariseviyor.toolforge.org/monuments/Q139436751), which lists this Commons file. The number in the file name is a Flickr photo ID; date taken not confirmed."
  }
 ]
