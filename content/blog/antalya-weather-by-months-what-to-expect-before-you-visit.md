@@ -1,13 +1,13 @@
 ---
-title: "Antalya Weather by Months: What to Expect Before You Visit"
 slug: "antalya-weather-by-months-what-to-expect-before-you-visit"
 date: 2026-01-22T09:55:54+03:00
 date_display: "January 22, 2026"
 category: "Weather"
 cover: "/images/photos/coastal-extra-1.jpg"
-excerpt: "Antalya is one of Turkey’s most popular and beautiful travel destinations. Located on the southern coast of the country along the Mediterranean Sea, Antalya attracts…"
 featured: true
 photo_id: "konyaalti-coast"
+title: "Antalya Weather by Month: What to Expect Before You Visit"
+excerpt: "Antalya weather by month, including January: typical temperatures, rain, sea warmth and sunshine to help you choose when to visit."
 ---
 <p>Antalya is one of Turkey’s most popular and beautiful travel destinations. Located on the southern coast of the country along the Mediterranean Sea, Antalya attracts millions of visitors every year. Travelers come here for its long beaches, ancient ruins, luxury resorts, nature parks, and relaxed lifestyle. However, one of the most important things people want to know before planning their trip is the <a href="https://travel-antalya.com/"><strong>weather in Antalya</strong></a> throughout the year. Understanding Antalya weather by month helps travelers choose the right time to visit based on their plans. Some visitors want hot sunny days for swimming and beach holidays. Others prefer cooler temperatures for sightseeing, walking through old cities, hiking, or exploring historical places. Antalya offers all of this, but the experience changes depending on the season.</p>
 

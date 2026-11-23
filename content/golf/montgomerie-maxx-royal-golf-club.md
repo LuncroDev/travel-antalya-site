@@ -21,6 +21,8 @@ photos_official:
   - src: "https://www.montgomeriemaxxroyal.com/media/0ytlcmxh/colin_montgomerie_12.jpg?width=600&height=906"
   - src: "https://www.montgomeriemaxxroyal.com/media/bnmhtw0j/mrb_cast_2027_66.jpg?width=600&height=736"
 photo_source: "https://www.montgomeriemaxxroyal.com/"
+seo_title: "Montgomerie Golf Course Belek: Maxx Royal Club"
+seo_description: "Montgomerie golf course in Belek: Maxx Royal's 18-hole Colin Montgomerie and European Golf Design layout with a floodlit back nine."
 ---
 Montgomerie Maxx Royal is a par-72 course in Belek’s pine-forest and coastal resort landscape. The official championship page lists a length of 6,522 metres and confirms floodlights on holes 10–18.
 

@@ -19,6 +19,8 @@ photos_official:
   - src: "https://luvicdn.net/img/Lukka/kas-gunbatiminda-restaurant.jpg"
   - src: "https://luvicdn.net/img/Lukka/2021IMG_6057.jpg"
 photo_source: "https://www.lukkahotel.com/"
+seo_title: "Lukka Exclusive Hotel, Kaş: Çukurbağ Peninsula Stay"
+seo_description: "Lukka Exclusive Hotel on Kaş's Çukurbağ Peninsula: a peninsula base rather than the town centre. Location, facts and what to check."
 ---
 A hotel on Kaş’s Çukurbağ Peninsula, for travellers considering a peninsula base rather than the town centre.
 

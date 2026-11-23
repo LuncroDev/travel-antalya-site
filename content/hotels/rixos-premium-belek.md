@@ -19,6 +19,8 @@ photos_official:
   - src: "https://www.ahstatic.com/photos/b1j5_ho_00_p_2048x1536.jpg"
   - src: "https://www.ahstatic.com/photos/b1j5_ho_02_p_2048x1536.jpg"
 photo_source: "https://all.accor.com/hotel/B1J5/index.en.shtml"
+seo_title: "Hotel Rixos Premium Belek: Guide"
+seo_description: "Hotel Rixos Premium Belek: a resort on the Belek coast, separate from central Antalya and the Rixos hotels around Kemer. Facts and booking notes."
 ---
 A resort on the Belek coast, separate from both central Antalya and the Rixos properties around Kemer.
 

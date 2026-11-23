@@ -19,6 +19,8 @@ photos_official:
   - src: "https://www.regnumhotels.com/media/23jlrgy1/regnum_bamboo_kids_world-3-banner.jpg"
   - src: "https://www.regnumhotels.com/media/rgefe2nc/regnumcarya_mainpool-01-slider.jpg"
 photo_source: "https://www.regnumhotels.com/en/hotels/regnum-carya/"
+seo_title: "Hotel Regnum Carya Antalya: Belek Golf Resort"
+seo_description: "Hotel Regnum Carya in Belek, Antalya: a resort tied to the Carya golf setting, with hotel and villa options. Facts and booking notes."
 ---
 A Belek resort associated with the Carya golf setting, with hotel and villa accommodation options.
 

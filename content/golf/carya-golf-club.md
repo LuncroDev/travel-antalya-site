@@ -21,6 +21,8 @@ photos_official:
   - src: "/images/uploads/venue-carya-golf-club-p03.webp"
   - src: "https://www.caryagolf.com/media/bg2k140w/carya-golf-club26-min-min-min.jpg"
 photo_source: "https://www.caryagolf.com/en/"
+seo_title: "Carya Golf Course Belek: 18 Holes and Floodlights"
+seo_description: "Carya golf course in Belek (Kadriye): an 18-hole heathland-inspired course with full-course floodlights. Location, facts and booking notes."
 ---
 Carya is a Thomson Perrett & Lobb design set among pine forest in the Belek region. The club opened in 2008 and offers 18-hole golf under floodlights as well as daytime rounds.
 

@@ -1,14 +1,9 @@
 ---
-title: 'Where to Stay in Antalya: Best Areas for Different Travelers'
 slug: where-to-stay-in-antalya-best-areas-for-different-travelers
 date: '2026-11-06T09:00:00+03:00'
 date_display: 'November 6, 2026'
 category: Hotels
 featured: false
-excerpt: >-
-  Antalya is one of Turkey’s most popular travel destinations, attracting
-  visitors with its stunning beaches, rich history, luxury resorts,
-  family-friendly…
 focus_keyword: where to stay in antalya
 photo_id: commons-antalya-lara-da-bir-otel-abdullah-kiyga-panoramio
 inline_photos:
@@ -16,6 +11,8 @@ inline_photos:
   - commons-antalya-lara
 source_doc: >-
   https://docs.google.com/document/d/1ZClgR_VlKchssQj0UdzcbNLT4_WuTsqjoem239pfYeY/edit
+title: "Best Places to Stay in Antalya, Turkey: Areas Compared"
+excerpt: "Best places to stay in Antalya, Turkey: Kaleiçi, Lara, Konyaaltı, Belek, Side and Kemer compared by the kind of traveller you are."
 ---
 {% raw %}
 Antalya is one of Turkey’s most popular travel destinations, attracting visitors with its stunning beaches, rich history, luxury resorts, family-friendly hotels, and a wide range of affordable accommodation. Because the city is large and made up of many different neighborhoods and resort areas, choosing where to stay can be confusing, especially for first-time visitors. That is why a common question among travelers is: [**where to stay in Antalya**](https://travel-antalya.com/)? The best choice depends on your travel style. Some visitors prioritize beaches and resort experiences, while others are drawn to history, culture, and the charm of old streets. Nightlife enthusiasts may prefer lively areas, whereas families often look for quiet, safe neighborhoods. Budget travelers seek affordable hotels, and luxury travelers want five-star resorts with all-inclusive services. In this guide, we will explore the best areas to stay in Antalya based on different traveler types. Each neighborhood and resort zone is described in detail, helping you understand what to expect and make an informed decision. Our goal is to help you choose the location that best suits your needs, budget, and travel plans, ensuring a comfortable and enjoyable stay in this beautiful Mediterranean city.

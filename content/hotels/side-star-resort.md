@@ -18,6 +18,8 @@ photos_official:
   - src: "https://www.sidestarhotels.com/storage/rooms/January2026/HvC0LpdwEnM50GKEsBab-medium.webp"
   - src: "https://www.sidestarhotels.com/storage/dinings/January2026/sQYJ2zVaPo139P4MWIbZ-medium.webp"
 photo_source: "https://www.sidestarhotels.com/resort/en/activity/beach-and-pools"
+seo_title: "Side Star Resort Antalya: Waterpark Hotel Guide"
+seo_description: "Side Star Resort in Antalya province: an active-holiday hotel with a waterpark and a varied entertainment programme. Facts and booking notes."
 ---
 Side Star Resort emphasises an active holiday with a waterpark and a varied entertainment programme. It is a separate property from the group's Elegance, Beach and Park hotels.
 

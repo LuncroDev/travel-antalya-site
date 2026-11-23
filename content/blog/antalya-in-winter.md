@@ -1,13 +1,13 @@
 ---
-title: "Winter in Antalya"
 slug: "antalya-in-winter"
 date: 2025-12-24T17:30:44+03:00
 date_display: "December 24, 2025"
 category: "Weather"
 cover: "/images/photos/antalya-coastline.jpg"
-excerpt: "Why Winter in Antalya Is a Hidden Gem Most people think of Antalya as a summer vacation destination, but few realize that winter in Antalya is actually one of the best…"
 featured: false
 photo_id: "alanya-castle"
+title: "Antalya Winter Guide: Weather, Sea and Things to Do"
+excerpt: "Antalya winter guide: mild weather, sea temperature, what stays open and the best things to do from December to February."
 ---
 <h2 class="wp-block-heading">Why Winter in Antalya Is a Hidden Gem</h2>
 

@@ -1,13 +1,13 @@
 ---
-title: "Kaputas Beach Guide: Antalya’s Most Beautiful Hidden Beach"
 slug: "kaputas-beach-travel-antalya"
 date: 2025-12-21T18:28:35+03:00
 date_display: "December 21, 2025"
 category: "Beaches"
 cover: "/images/photos/kaputas-beach.jpg"
-excerpt: "Antalya Travellers Must Visit Kaputaş Beach Few locations better evoke the sensation of blue waters, breathtaking coastlines, and undiscovered beaches that tourists…"
 featured: true
 photo_id: "kaputas-beach"
+title: "Kaputas Beach Kaş, Turkey: Guide to the Hidden Beach"
+excerpt: "Kaputas Beach (Kaputaş Plajı) in Kaş, Turkey: how to get there, the steps down to the sand, when to go and what to bring."
 ---
 <h3 class="wp-block-heading"><strong>Antalya Travellers Must Visit Kaputaş Beach</strong></h3>
 

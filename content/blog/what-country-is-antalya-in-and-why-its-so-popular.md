@@ -1,18 +1,15 @@
 ---
-title: What Country Is Antalya In? And Why It’s So Popular
 slug: what-country-is-antalya-in-and-why-its-so-popular
 date: '2026-10-24T09:00:00+03:00'
 date_display: 'October 24, 2026'
 category: Travel guide
 featured: false
-excerpt: >-
-  Antalya is located in southwestern Turkey, along the stunning turquoise
-  coastline of the Mediterranean Sea. As the capital of Antalya Province, the
-  city…
 focus_keyword: what country is antalya in
 photo_id: commons-tr-al-antalya-cumhuriyet-meydani-kapali-otapark-near-republic-square-1
 source_doc: >-
   https://docs.google.com/document/d/1Rt9UuZW5AxHN8tYrZPMg-Rzr_2zrwrGHyGLA1mHJSDs/edit
+title: "Where Is Antalya, Turkey? The Country and Why It's Popular"
+excerpt: "Where is Antalya, Turkey? A city and province on the Mediterranean coast: the country, its location and why visitors love it."
 ---
 {% raw %}
 Antalya is located in southwestern Turkey, along the stunning turquoise coastline of the Mediterranean Sea. As the capital of Antalya Province, the city lies between the Taurus Mountains to the north and the Mediterranean Sea to the south, creating a unique setting where mountains, beaches, and waterfalls coexist in one breathtaking region. Knowing [**what country Antalya is in**](https://travel-antalya.com/) is important for travelers, as it affects travel planning, visa requirements, currency, climate, and local culture. The city is easily accessible through Antalya International Airport, which receives direct flights from Europe, the Middle East, and Asia. In addition, Antalya is well connected to other major Turkish cities such as Istanbul, Ankara, and Izmir via highways and intercity buses, making it convenient for both domestic and international travelers. This combination of natural beauty, accessibility, and cultural richness makes Antalya a top destination in Turkey.

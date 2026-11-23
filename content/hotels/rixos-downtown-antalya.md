@@ -19,6 +19,8 @@ photos_official:
   - src: "https://www.ahstatic.com/photos/b1k0_ho_00_p_2048x1536.jpg"
   - src: "https://www.ahstatic.com/photos/b1k0_ho_02_p_2048x1536.jpg"
 photo_source: "https://all.accor.com/hotel/B1K0/index.en.shtml"
+seo_title: "Rixos Downtown Antalya: City Resort Guide"
+seo_description: "Rixos Downtown Antalya: an urban Rixos hotel with a central base and green setting above the Konyaaltı coast. Facts and booking notes."
 ---
 An urban Rixos resort combining a central Antalya base with a green setting above the Konyaaltı coast. It offers a different location from the brand's remote Belek and Kemer resort properties.
 

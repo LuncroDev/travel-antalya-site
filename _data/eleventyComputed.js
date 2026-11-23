@@ -1,8 +1,8 @@
 const { absoluteUrl, publicUrl } = require('../lib/content');
 const entity = data => data.hotel || data.event || data.thing || data.restaurant || data.r || data.golf || data.post;
 module.exports = {
-  pageTitle: data => entity(data)?.data.title || data.cat?.name && `${data.cat.name} events in Antalya` || data.destination?.name && `${data.destination.name} travel guide` || data.pageTitle || 'Travel Antalya',
-  pageDescription: data => entity(data)?.data.excerpt || data.cat?.name && `Explore sourced ${data.cat.name.toLowerCase()} listings, upcoming dates and past editions in Antalya.` || data.destination?.description || data.pageDescription || 'An independent guide to Antalya and its coast.',
+  pageTitle: data => entity(data)?.data.seo_title || entity(data)?.data.title || data.cat?.name && `${data.cat.name} events in Antalya` || data.destination?.name && `${data.destination.name} travel guide` || data.pageTitle || 'Travel Antalya',
+  pageDescription: data => entity(data)?.data.seo_description || entity(data)?.data.excerpt || data.cat?.name && `Explore sourced ${data.cat.name.toLowerCase()} listings, upcoming dates and past editions in Antalya.` || data.destination?.description || data.pageDescription || 'An independent guide to Antalya and its coast.',
   pageUrl: data => publicUrl(data.page.url),
   ogImage: data => absoluteUrl(entity(data)?.data.cover || data.cat?.events?.[0]?.data.cover || data.ogImage),
   resolvedSchema: data => {

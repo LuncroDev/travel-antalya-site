@@ -32,6 +32,8 @@ photos_official:
     caption: "Delphin Imperial"
     alt: "Delphin Imperial"
 photo_source: "https://www.delphinhotel.com/"
+seo_title: "Antalya Delphin Imperial, Lara: Resort Guide"
+seo_description: "Delphin Imperial in Lara, Antalya: a resort on the Lara coast, east of the city. Facts, location and what to check before you book."
 ---
 A resort on the Lara coast, suitable for comparing larger hotel complexes east of Antalya.
 

@@ -32,6 +32,8 @@ photos_official:
     caption: "Paloma Oceana"
     alt: "Paloma Oceana"
 photo_source: "https://www.palomahotels.com/en/paloma-oceana"
+seo_title: "Paloma Oceana Resort, Kumköy (Side): Hotel Guide"
+seo_description: "Paloma Oceana resort in Kumköy: a beachfront hotel about five kilometres from Side, according to the hotel. Facts and booking notes."
 ---
 A beachfront Paloma resort in Kumköy, about five kilometres from Side according to the hotel. Its location suits a beach base west of the ancient town rather than accommodation inside the historic streets.
 
