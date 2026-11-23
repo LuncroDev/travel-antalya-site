@@ -414,5 +414,53 @@
    "/images/uploads/venue-bahce-restaurant-kas-1.jpg"
   ],
   "errors": []
+ },
+ "hotels/megasaray-club-belek": {
+  "page": "https://www.megasarayhotels.com/megasaray-club-belek/beach-pools",
+  "saved": [
+   "/images/uploads/venue-megasaray-club-belek-1.webp",
+   "/images/uploads/venue-megasaray-club-belek-2.webp",
+   "/images/uploads/venue-megasaray-club-belek-3.webp",
+   "/images/uploads/venue-megasaray-club-belek-4.webp",
+   "/images/uploads/venue-megasaray-club-belek-5.webp"
+  ],
+  "errors": []
+ },
+ "hotels/radisson-blu-hotel-kas": {
+  "page": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-kas",
+  "saved": [
+   "/images/uploads/venue-radisson-blu-hotel-kas-1.avif",
+   "/images/uploads/venue-radisson-blu-hotel-kas-2.avif"
+  ],
+  "errors": []
+ },
+ "restaurants/sira-meze-arasicak": {
+  "page": "https://siramezearasicak.com/index-en.html",
+  "saved": [
+   "/images/uploads/venue-sira-meze-arasicak-1.jpg",
+   "/images/uploads/venue-sira-meze-arasicak-2.jpg",
+   "/images/uploads/venue-sira-meze-arasicak-3.jpg"
+  ],
+  "errors": []
+ },
+ "restaurants/simge-kitchen-cirali": {
+  "page": "https://www.simgekitchen.com/",
+  "saved": [
+   "/images/uploads/venue-simge-kitchen-cirali-1.jpg",
+   "/images/uploads/venue-simge-kitchen-cirali-2.png",
+   "/images/uploads/venue-simge-kitchen-cirali-3.png",
+   "/images/uploads/venue-simge-kitchen-cirali-4.png",
+   "/images/uploads/venue-simge-kitchen-cirali-5.png",
+   "/images/uploads/venue-simge-kitchen-cirali-6.png"
+  ],
+  "errors": []
+ },
+ "things-to-do/andriake-and-the-lycian-civilisations-museum": {
+  "page": "https://vikianitlariseviyor.toolforge.org/monuments/Q510000",
+  "saved": [
+   "/images/uploads/venue-andriake-and-the-lycian-civilisations-museum-1.jpg",
+   "/images/uploads/venue-andriake-and-the-lycian-civilisations-museum-2.jpg"
+  ],
+  "errors": []
  }
 }
