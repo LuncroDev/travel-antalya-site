@@ -16,6 +16,13 @@ tagline: "Emir Can İğrek Konseri: a concert at Antalya Nazım Hikmet Fuar ve K
 time_display: "21:00"
 admission_note: "This is a separate date from the Kaleiçi show on 19 December 2026."
 verification_note: "Date, start time and venue were read from the event's own Bubilet page on 23 November 2026 (listed as Saturday 2027-04-10, 21:00 local time). End time, running time and seating plan were not verified. Check the linked source before travel."
+photos_official:
+  - src: "/images/uploads/event-nazim-hikmet-kongre-merkezi.webp"
+    credit: "biletimgo.com"
+    source: "https://www.biletimgo.com/mekan/konyaalti-nazim-hikmet-fuar-ve-kongre-merkezi-966"
+    label: "Venue photo · Konyaaltı Nazım Hikmet Congress Centre"
+    caption: "Konyaaltı Nazım Hikmet Congress Centre"
+    alt: "Konyaaltı Nazım Hikmet Congress Centre, the event venue"
 ---
 Emir Can İğrek Konseri: a concert at Antalya Nazım Hikmet Fuar ve Kongre Merkezi, 2027-04-10 at 21:00.
 
