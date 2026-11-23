@@ -421,8 +421,7 @@
    "/images/uploads/venue-megasaray-club-belek-1.webp",
    "/images/uploads/venue-megasaray-club-belek-2.webp",
    "/images/uploads/venue-megasaray-club-belek-3.webp",
-   "/images/uploads/venue-megasaray-club-belek-4.webp",
-   "/images/uploads/venue-megasaray-club-belek-5.webp"
+   "/images/uploads/venue-megasaray-club-belek-4.webp"
   ],
   "errors": []
  },
@@ -447,19 +446,8 @@
   "page": "https://www.simgekitchen.com/",
   "saved": [
    "/images/uploads/venue-simge-kitchen-cirali-1.jpg",
-   "/images/uploads/venue-simge-kitchen-cirali-2.png",
-   "/images/uploads/venue-simge-kitchen-cirali-3.png",
-   "/images/uploads/venue-simge-kitchen-cirali-4.png",
-   "/images/uploads/venue-simge-kitchen-cirali-5.png",
-   "/images/uploads/venue-simge-kitchen-cirali-6.png"
-  ],
-  "errors": []
- },
- "things-to-do/andriake-and-the-lycian-civilisations-museum": {
-  "page": "https://vikianitlariseviyor.toolforge.org/monuments/Q510000",
-  "saved": [
-   "/images/uploads/venue-andriake-and-the-lycian-civilisations-museum-1.jpg",
-   "/images/uploads/venue-andriake-and-the-lycian-civilisations-museum-2.jpg"
+   "/images/uploads/venue-simge-kitchen-cirali-2.jpg",
+   "/images/uploads/venue-simge-kitchen-cirali-3.jpg"
   ],
   "errors": []
  }

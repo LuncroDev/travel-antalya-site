@@ -6609,5 +6609,32 @@
   "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/View_of_the_exterior_of_the_restored_Council_Chamber_(Bouleuterion)%2C_Patara%2C_Turkey_(19315173514).jpg",
   "download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/View_of_the_exterior_of_the_restored_Council_Chamber_(Bouleuterion)%2C_Patara%2C_Turkey_(19315173514).jpg/1920px-View_of_the_exterior_of_the_restored_Council_Chamber_(Bouleuterion)%2C_Patara%2C_Turkey_(19315173514).jpg",
   "usage_note": "Commons file page would not load on 2026-11-22; author (Carole Raddato) and licence (CC BY-SA 2.0) taken from the Wiki Loves Monuments Turkey listing for Patara Meclis Binası (vikianitlariseviyor.toolforge.org/monuments/Q139436751), which lists this Commons file. The number in the file name is a Flickr photo ID; date taken not confirmed."
+ },
+ {
+  "id": "andriake-harbour-agora",
+  "src": "/images/editorial/andriake-harbour-agora.jpg",
+  "alt": "A long wall of large squared limestone blocks beside a path of grey paving stones and granite strips at the Andriake ruins, under a clear blue sky",
+  "caption": "The harbour agora (plakoma) at Andriake, Myra's ancient port near Demre",
+  "region": "demre",
+  "kind": "destination",
+  "author": "Dosseman",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andriake_Harbour_agora_0255_panorama.jpg",
+  "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Andriake_Harbour_agora_0255_panorama.jpg",
+  "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Andriake_Harbour_agora_0255_panorama.jpg/1920px-Andriake_Harbour_agora_0255_panorama.jpg",
+  "attribution": "Harbour agora, Andriake. Photo: Dosseman / Wikimedia Commons / CC BY-SA 4.0.",
+  "width": 1920,
+  "height": 1073,
+  "changes": "Downloaded as Wikimedia's 1920-pixel thumbnail of a panorama; no compositional alteration.",
+  "verifiedOn": "2026-11-23",
+  "notPropertyPhotography": true,
+  "area": "demre",
+  "district_slug": "demre",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Andriake_Harbour_agora_0255_panorama.jpg",
+  "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Andriake_Harbour_agora_0255_panorama.jpg",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Andriake_Harbour_agora_0255_panorama.jpg/1920px-Andriake_Harbour_agora_0255_panorama.jpg",
+  "usage_note": "Commons file page could not be opened on 2026-11-23; author (Dosseman) and licence (CC BY-SA 4.0) taken from the Wiki Loves Monuments Turkey listing for Andriake (vikianitlariseviyor.toolforge.org/monuments/Q510000), which lists this Commons file. Date taken not confirmed."
  }
 ]

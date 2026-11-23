@@ -354,7 +354,6 @@
    "https://irp.cdn-website.com/7d6c3314/dms3rep/multi/opt/MSCB-Beach-1-1920w.jpg",
    "https://irp.cdn-website.com/7d6c3314/dms3rep/multi/opt/MSCB-IndoorPool-1-1920w.jpg",
    "https://irp.cdn-website.com/7d6c3314/dms3rep/multi/opt/MSCB-RelaxPool-1-1920w.jpg",
-   "https://irp.cdn-website.com/7d6c3314/dms3rep/multi/opt/MSCB-ActivtyPool-1-1920w.jpg",
    "https://irp.cdn-website.com/7d6c3314/dms3rep/multi/opt/MSCB-Pier-1-1920w.jpg"
   ]
  },
@@ -376,19 +375,9 @@
  "restaurants/simge-kitchen-cirali": {
   "page": "https://www.simgekitchen.com/",
   "images": [
-   "https://static.wixstatic.com/media/dd92ce_97485ed3630b428080ec114f877fd763~mv2.jpg",
-   "https://static.wixstatic.com/media/dd92ce_249a71a584cd49899dd974c252181b18~mv2.png",
-   "https://static.wixstatic.com/media/dd92ce_2481c461ac974438a1419fc619cf944f~mv2.png",
-   "https://static.wixstatic.com/media/dd92ce_6b4b2fbebdc54742b74e67d9beda92e0~mv2.png",
    "https://static.wixstatic.com/media/dd92ce_f606cf1687c94d809e8f88fa2b70a451~mv2.png",
-   "https://static.wixstatic.com/media/dd92ce_615b06bd861f4bda8ec5921b2f6a4099~mv2.png"
-  ]
- },
- "things-to-do/andriake-and-the-lycian-civilisations-museum": {
-  "page": "https://vikianitlariseviyor.toolforge.org/monuments/Q510000",
-  "images": [
-   "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Andriake_General_view_0217.jpg/1920px-Andriake_General_view_0217.jpg",
-   "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Andriake_Harbour_agora_0255_panorama.jpg/1920px-Andriake_Harbour_agora_0255_panorama.jpg"
+   "https://static.wixstatic.com/media/dd92ce_615b06bd861f4bda8ec5921b2f6a4099~mv2.png",
+   "https://static.wixstatic.com/media/dd92ce_6b4b2fbebdc54742b74e67d9beda92e0~mv2.png"
   ]
  }
 }

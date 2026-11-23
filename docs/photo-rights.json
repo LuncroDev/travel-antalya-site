@@ -3699,6 +3699,90 @@
       "src": "/images/uploads/venue-bahce-restaurant-kas-1.jpg",
       "source_page": "https://bahcerestaurantkas.com/home-english/",
       "accepted_on": "2026-11-22"
+    },
+    {
+      "venue_slug": "megasaray-club-belek",
+      "venue_title": "Megasaray Club Belek",
+      "src": "/images/uploads/venue-megasaray-club-belek-1.webp",
+      "source_page": "https://www.megasarayhotels.com/megasaray-club-belek/beach-pools",
+      "accepted_on": "2026-11-23"
+    },
+    {
+      "venue_slug": "megasaray-club-belek",
+      "venue_title": "Megasaray Club Belek",
+      "src": "/images/uploads/venue-megasaray-club-belek-2.webp",
+      "source_page": "https://www.megasarayhotels.com/megasaray-club-belek/beach-pools",
+      "accepted_on": "2026-11-23"
+    },
+    {
+      "venue_slug": "megasaray-club-belek",
+      "venue_title": "Megasaray Club Belek",
+      "src": "/images/uploads/venue-megasaray-club-belek-3.webp",
+      "source_page": "https://www.megasarayhotels.com/megasaray-club-belek/beach-pools",
+      "accepted_on": "2026-11-23"
+    },
+    {
+      "venue_slug": "megasaray-club-belek",
+      "venue_title": "Megasaray Club Belek",
+      "src": "/images/uploads/venue-megasaray-club-belek-4.webp",
+      "source_page": "https://www.megasarayhotels.com/megasaray-club-belek/beach-pools",
+      "accepted_on": "2026-11-23"
+    },
+    {
+      "venue_slug": "radisson-blu-hotel-kas",
+      "venue_title": "Radisson Blu Hotel, Kaş",
+      "src": "/images/uploads/venue-radisson-blu-hotel-kas-1.avif",
+      "source_page": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-kas",
+      "accepted_on": "2026-11-23"
+    },
+    {
+      "venue_slug": "radisson-blu-hotel-kas",
+      "venue_title": "Radisson Blu Hotel, Kaş",
+      "src": "/images/uploads/venue-radisson-blu-hotel-kas-2.avif",
+      "source_page": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-kas",
+      "accepted_on": "2026-11-23"
+    },
+    {
+      "venue_slug": "sira-meze-arasicak",
+      "venue_title": "Sıra Meze Arasıcak",
+      "src": "/images/uploads/venue-sira-meze-arasicak-1.jpg",
+      "source_page": "https://siramezearasicak.com/index-en.html",
+      "accepted_on": "2026-11-23"
+    },
+    {
+      "venue_slug": "sira-meze-arasicak",
+      "venue_title": "Sıra Meze Arasıcak",
+      "src": "/images/uploads/venue-sira-meze-arasicak-2.jpg",
+      "source_page": "https://siramezearasicak.com/index-en.html",
+      "accepted_on": "2026-11-23"
+    },
+    {
+      "venue_slug": "sira-meze-arasicak",
+      "venue_title": "Sıra Meze Arasıcak",
+      "src": "/images/uploads/venue-sira-meze-arasicak-3.jpg",
+      "source_page": "https://siramezearasicak.com/index-en.html",
+      "accepted_on": "2026-11-23"
+    },
+    {
+      "venue_slug": "simge-kitchen-cirali",
+      "venue_title": "Simge Kitchen",
+      "src": "/images/uploads/venue-simge-kitchen-cirali-1.jpg",
+      "source_page": "https://www.simgekitchen.com/",
+      "accepted_on": "2026-11-23"
+    },
+    {
+      "venue_slug": "simge-kitchen-cirali",
+      "venue_title": "Simge Kitchen",
+      "src": "/images/uploads/venue-simge-kitchen-cirali-2.jpg",
+      "source_page": "https://www.simgekitchen.com/",
+      "accepted_on": "2026-11-23"
+    },
+    {
+      "venue_slug": "simge-kitchen-cirali",
+      "venue_title": "Simge Kitchen",
+      "src": "/images/uploads/venue-simge-kitchen-cirali-3.jpg",
+      "source_page": "https://www.simgekitchen.com/",
+      "accepted_on": "2026-11-23"
     }
   ]
 }
