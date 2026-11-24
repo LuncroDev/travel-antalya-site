@@ -385,8 +385,6 @@
   "images": [
    "https://lirp.cdn-website.com/7d6c3314/dms3rep/multi/opt/Westbeach_Drone_14+%281%29-1920w.jpg",
    "https://irp.cdn-website.com/7d6c3314/dms3rep/multi/opt/Allatra+Beach+5-1920w.jpg",
-   "https://irp.cdn-website.com/7d6c3314/dms3rep/multi/opt/WB-General-New-2-2880w-1911696c-1920w.webp",
-   "https://irp.cdn-website.com/7d6c3314/dms3rep/multi/opt/WB-Spa-6-1920w.jpg",
    "https://irp.cdn-website.com/7d6c3314/dms3rep/multi/opt/WB-Dlx-Std-S-2-1920w.jpg",
    "https://irp.cdn-website.com/7d6c3314/dms3rep/multi/opt/Westbeach-MainRest-7-1920w-1920w.webp"
   ]
@@ -394,38 +392,17 @@
  "hotels/kayahan-hotel-kas": {
   "page": "https://hotelkayahan.com/",
   "images": [
-   "https://hotelkayahan.com/img/Kayahan-Hotel.jpg",
    "https://hotelkayahan.com/img/Kayahan-Hotel-Front.jpg",
    "https://hotelkayahan.com/img/double-room-sea-view.jpg",
-   "https://hotelkayahan.com/img/triple-room-sea-view.jpg",
-   "https://hotelkayahan.com/img/twin-room-sea-view.jpg",
-   "https://hotelkayahan.com/img/swimming-pool.jpg"
-  ]
- },
- "restaurants/panorama-lake-manavgat": {
-  "page": "https://panoramalake.com.tr/",
-  "images": [
-   "https://panoramalake.com.tr/wp-content/uploads/2024/05/panorama-lake-slider-3.jpg",
-   "https://panoramalake.com.tr/wp-content/uploads/2024/06/panorama-lake-restaurant-view-line-2x-1.jpg",
-   "https://panoramalake.com.tr/wp-content/uploads/2024/06/panorama-lake-restaurant-view-line-3x-1.jpg"
+   "https://hotelkayahan.com/img/swimming-pool.jpg",
+   "https://hotelkayahan.com/img/twin-room-sea-view.jpg"
   ]
  },
  "restaurants/balamir-cafe-beldibi": {
   "page": "https://www.balamircafe.com/",
   "images": [
    "https://www.balamircafe.com/public/uploads/home/about-story.jpg",
-   "https://www.balamircafe.com/public/uploads/home/gallery-1.jpg",
-   "https://www.balamircafe.com/public/uploads/home/gallery-2.jpg",
-   "https://www.balamircafe.com/public/uploads/home/gallery-3.jpg",
-   "https://www.balamircafe.com/public/uploads/home/gallery-4.jpg",
-   "https://www.balamircafe.com/public/uploads/home/gallery-5.jpg"
-  ]
- },
- "blog/letoon-and-xanthos-day-trip": {
-  "page": "https://download.osmand.net/wiki/File:Letoon_Nymphaeum_5349.jpg",
-  "images": [
-   "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Letoon_Temple_Area_2019.jpg/1920px-Letoon_Temple_Area_2019.jpg",
-   "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Letoon_Nymphaeum_5349.jpg/1920px-Letoon_Nymphaeum_5349.jpg"
+   "https://www.balamircafe.com/public/uploads/home/gallery-3.jpg"
   ]
  }
 }
