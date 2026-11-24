@@ -5,7 +5,7 @@ date: 2026-11-20T09:00:00+03:00
 date_display: "November 20, 2026"
 category: "Itineraries"
 excerpt: "Skiing near Antalya: Saklıkent's season, how to get there, what the slopes offer, why snow isn't guaranteed and how to pair a snowy morning with the coast."
-photo_id: "konyaalti-cliffs"
+photo_id: "saklikent-ski-slope-illustration"
 inline_photos:
   - "tahtali-aerial-tram"
   - "commons-tahtali-mountains"

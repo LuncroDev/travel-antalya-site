@@ -5,7 +5,8 @@ date: 2026-11-23T09:00:00+03:00
 date_display: "November 23, 2026"
 category: "Golf"
 excerpt: "Carya Golf Club hole by hole: par, lengths from all four tees, stroke index, slope ratings and the club's own tips for each heathland hole in Belek."
-photo_id: "regnum-carya-golf-2022"
+cover: "/images/uploads/venue-carya-golf-club-p01.webp"
+cover_alt: "Carya Golf Club, Belek"
 inline_photos:
   - "regnum-carya-982a8737ac"
 featured: false

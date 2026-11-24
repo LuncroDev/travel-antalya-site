@@ -5,7 +5,7 @@ date_display: "December 24, 2025"
 category: "Weather"
 cover: "/images/photos/antalya-coastline.jpg"
 featured: false
-photo_id: "alanya-castle"
+photo_id: "commons-the-winter-sea-in-antalia-panoramio"
 title: "Antalya Winter Guide: Weather, Sea and Things to Do"
 excerpt: "Antalya winter guide: mild weather, sea temperature, what stays open and the best things to do from December to February."
 ---

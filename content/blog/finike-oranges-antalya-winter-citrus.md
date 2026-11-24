@@ -5,7 +5,7 @@ date: 2026-11-20T09:00:00+03:00
 date_display: "November 20, 2026"
 category: "Food"
 excerpt: "Finike oranges and Antalya's winter citrus: when the season peaks, what makes the Finike orange special, where to taste it and a Limyra and Arykanda day trip."
-photo_id: "kaleici-marina"
+photo_id: "area-finike-1"
 inline_photos:
   - "area-finike-1"
   - "area-finike-2"

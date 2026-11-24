@@ -5,7 +5,7 @@ date: 2026-11-22T09:00:00+03:00
 date_display: "November 22, 2026"
 category: "Food"
 excerpt: "Antalya street markets by day: all 30 weekly pazars on Muratpaşa Municipality's list, open-air and covered, with streets and tips for visitors."
-photo_id: "commons-yesilbahce-lara-cd-65-a-07160-muratpasa-antalya-turkey-panoramio"
+photo_id: "antalya-street-market-illustration"
 featured: false
 last_checked: "2026-11-22"
 source_url: "https://muratpasa-bld.gov.tr/pazar-yerleri"

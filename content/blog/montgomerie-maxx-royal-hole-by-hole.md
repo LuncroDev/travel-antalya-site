@@ -5,7 +5,8 @@ date: 2026-11-22T09:00:00+03:00
 date_display: "November 22, 2026"
 category: "Golf"
 excerpt: "Montgomerie Maxx Royal golf course hole by hole: par, lengths from all four tees, slope ratings, the floodlit back nine and the club's own tips."
-photo_id: "gloria-golf"
+cover: "/images/uploads/venue-montgomerie-maxx-royal-golf-club-p01.webp"
+cover_alt: "Montgomerie Maxx Royal Golf Club, Belek"
 featured: false
 last_checked: "2026-11-22"
 source_url: "https://www.montgomeriemaxxroyal.com/hole-by-hole"

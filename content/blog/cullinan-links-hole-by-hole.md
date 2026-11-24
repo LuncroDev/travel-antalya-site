@@ -5,7 +5,8 @@ date: 2026-11-24T09:00:00+03:00
 date_display: "November 24, 2026"
 category: "Golf"
 excerpt: "Cullinan Links Golf Club hole by hole: par and lengths for all 36 holes on Aspendos and Olympos, tee ratings, the floodlit Termessos loop and booking notes."
-photo_id: "gloria-golf"
+cover: "/images/uploads/venue-cullinan-links-golf-club-p01.webp"
+cover_alt: "Cullinan Links Golf Club, Belek"
 featured: false
 last_checked: "2026-11-24"
 source_url: "https://www.cullinanlinksgolfclub.com/courses/holes-information/aspendos-course"
