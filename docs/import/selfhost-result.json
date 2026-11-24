@@ -450,5 +450,59 @@
    "/images/uploads/venue-simge-kitchen-cirali-3.jpg"
   ],
   "errors": []
+ },
+ "hotels/megasaray-westbeach-antalya": {
+  "page": "https://www.megasarayhotels.com/megasaray-westbeach-antalya/pools-beach",
+  "saved": [
+   "/images/uploads/venue-megasaray-westbeach-antalya-1.webp",
+   "/images/uploads/venue-megasaray-westbeach-antalya-2.webp",
+   "/images/uploads/venue-megasaray-westbeach-antalya-3.webp",
+   "/images/uploads/venue-megasaray-westbeach-antalya-4.webp",
+   "/images/uploads/venue-megasaray-westbeach-antalya-5.webp",
+   "/images/uploads/venue-megasaray-westbeach-antalya-6.webp"
+  ],
+  "errors": []
+ },
+ "hotels/kayahan-hotel-kas": {
+  "page": "https://hotelkayahan.com/",
+  "saved": [
+   "/images/uploads/venue-kayahan-hotel-kas-1.webp",
+   "/images/uploads/venue-kayahan-hotel-kas-2.webp",
+   "/images/uploads/venue-kayahan-hotel-kas-3.webp",
+   "/images/uploads/venue-kayahan-hotel-kas-4.webp",
+   "/images/uploads/venue-kayahan-hotel-kas-5.webp",
+   "/images/uploads/venue-kayahan-hotel-kas-6.webp"
+  ],
+  "errors": []
+ },
+ "restaurants/panorama-lake-manavgat": {
+  "page": "https://panoramalake.com.tr/",
+  "saved": [
+   "/images/uploads/venue-panorama-lake-manavgat-1.jpg",
+   "/images/uploads/venue-panorama-lake-manavgat-2.jpg",
+   "/images/uploads/venue-panorama-lake-manavgat-3.jpg"
+  ],
+  "errors": []
+ },
+ "restaurants/balamir-cafe-beldibi": {
+  "page": "https://www.balamircafe.com/",
+  "saved": [
+   "/images/uploads/venue-balamir-cafe-beldibi-1.webp",
+   "/images/uploads/venue-balamir-cafe-beldibi-2.webp",
+   "/images/uploads/venue-balamir-cafe-beldibi-3.webp",
+   "/images/uploads/venue-balamir-cafe-beldibi-4.webp"
+  ],
+  "errors": [
+   "https://www.balamircafe.com/public/uploads/home/gallery-4.jpg: unexpected size 7856",
+   "https://www.balamircafe.com/public/uploads/home/gallery-5.jpg: unexpected size 7668"
+  ]
+ },
+ "blog/letoon-and-xanthos-day-trip": {
+  "page": "https://download.osmand.net/wiki/File:Letoon_Nymphaeum_5349.jpg",
+  "saved": [
+   "/images/uploads/venue-letoon-and-xanthos-day-trip-1.jpg",
+   "/images/uploads/venue-letoon-and-xanthos-day-trip-2.jpg"
+  ],
+  "errors": []
  }
 }
