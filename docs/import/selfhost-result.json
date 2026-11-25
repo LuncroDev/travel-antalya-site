@@ -478,5 +478,43 @@
    "/images/uploads/venue-balamir-cafe-beldibi-2.webp"
   ],
   "errors": []
+ },
+ "hotels/megasaray-resort-side": {
+  "page": "https://www.megasarayhotels.com/megasaray-resort-side/pools-beach",
+  "saved": [
+   "/images/uploads/venue-megasaray-resort-side-1.webp",
+   "/images/uploads/venue-megasaray-resort-side-2.webp",
+   "/images/uploads/venue-megasaray-resort-side-3.webp",
+   "/images/uploads/venue-megasaray-resort-side-4.webp",
+   "/images/uploads/venue-megasaray-resort-side-5.webp",
+   "/images/uploads/venue-megasaray-resort-side-6.webp"
+  ],
+  "errors": []
+ },
+ "hotels/villa-hotel-tamara-kas": {
+  "page": "https://www.villahoteltamara.com/",
+  "saved": [
+   "/images/uploads/venue-villa-hotel-tamara-kas-1.jpg",
+   "/images/uploads/venue-villa-hotel-tamara-kas-2.jpg",
+   "/images/uploads/venue-villa-hotel-tamara-kas-3.jpg",
+   "/images/uploads/venue-villa-hotel-tamara-kas-4.jpg",
+   "/images/uploads/venue-villa-hotel-tamara-kas-5.jpg",
+   "/images/uploads/venue-villa-hotel-tamara-kas-6.jpg"
+  ],
+  "errors": []
+ },
+ "restaurants/the-rabbit-hole-beycik": {
+  "page": "https://www.olymposmountainlodge.com/en/paketlerimiz/",
+  "saved": [
+   "/images/uploads/venue-the-rabbit-hole-beycik-1.jpg",
+   "/images/uploads/venue-the-rabbit-hole-beycik-2.jpg",
+   "/images/uploads/venue-the-rabbit-hole-beycik-3.jpg",
+   "/images/uploads/venue-the-rabbit-hole-beycik-4.jpg",
+   "/images/uploads/venue-the-rabbit-hole-beycik-5.jpg",
+   "/images/uploads/venue-the-rabbit-hole-beycik-6.jpg",
+   "/images/uploads/venue-the-rabbit-hole-beycik-7.jpg",
+   "/images/uploads/venue-the-rabbit-hole-beycik-8.jpg"
+  ],
+  "errors": []
  }
 }
