@@ -516,5 +516,14 @@
    "/images/uploads/venue-the-rabbit-hole-beycik-8.jpg"
   ],
   "errors": []
+ },
+ "restaurants/mykorini-the-land-of-legends": {
+  "page": "https://www.mykorini.com/antalya/contact",
+  "saved": [
+   "/images/uploads/venue-mykorini-the-land-of-legends-2.jpg"
+  ],
+  "errors": [
+   "https://cdn.prod.website-files.com/687a32f187eb859bda6cfdf0/6a708c48c1ebb61f35e0dab8_68fa16ff6788375cf9f22640_Contact%2520Antalya.webp: 403 application/xml"
+  ]
  }
 }
