@@ -57,7 +57,7 @@ The pools:
 - **Indoor Pool and Indoor Kids Pool:** both heated in winter.
 - **Mega Aquapark:** summer only. Adult slides need a height of 120 cm, and the Rocket Slide is for ages 14 and up. The children's Misi Aquapark is summer-only too.
 
-Sport is the big draw. The hotel lists 26 courts of its own (10 artificial grass, 11 red clay, four padel, one pickleball), and the Megasaray Tennis Academy adds 38, for 64 in all. The About page gives the academy 60 courts, opened in 2019, and says it hosts Davis Cup and ATP Challenger events. There is also football, basketball, beach volleyball, archery and a gym. The spa has a hamam, sauna, salt room and massage rooms; prices aren't published.
+Sport is the big draw. The hotel lists 26 courts of its own (10 artificial grass, 11 red clay, four padel, one pickleball), and the Megasaray Tennis Academy adds 38, for 64 in all. The academy's own About page instead puts 60 courts at Megasaray Club Belek in total, says the academy was founded in 2019, and lists Davis Cup and ATP Challenger events among those it has hosted. See our [tennis holidays guide](/blog/tennis-holidays-antalya/). There is also football, basketball, beach volleyball, archery and a gym. The spa has a hamam, sauna, salt room and massage rooms; prices aren't published.
 
 ## Rooms & dining
 

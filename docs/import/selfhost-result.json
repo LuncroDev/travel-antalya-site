@@ -485,9 +485,7 @@
    "/images/uploads/venue-megasaray-resort-side-1.webp",
    "/images/uploads/venue-megasaray-resort-side-2.webp",
    "/images/uploads/venue-megasaray-resort-side-3.webp",
-   "/images/uploads/venue-megasaray-resort-side-4.webp",
-   "/images/uploads/venue-megasaray-resort-side-5.webp",
-   "/images/uploads/venue-megasaray-resort-side-6.webp"
+   "/images/uploads/venue-megasaray-resort-side-4.webp"
   ],
   "errors": []
  },
@@ -497,9 +495,7 @@
    "/images/uploads/venue-villa-hotel-tamara-kas-1.jpg",
    "/images/uploads/venue-villa-hotel-tamara-kas-2.jpg",
    "/images/uploads/venue-villa-hotel-tamara-kas-3.jpg",
-   "/images/uploads/venue-villa-hotel-tamara-kas-4.jpg",
-   "/images/uploads/venue-villa-hotel-tamara-kas-5.jpg",
-   "/images/uploads/venue-villa-hotel-tamara-kas-6.jpg"
+   "/images/uploads/venue-villa-hotel-tamara-kas-4.jpg"
   ],
   "errors": []
  },
@@ -509,21 +505,15 @@
    "/images/uploads/venue-the-rabbit-hole-beycik-1.jpg",
    "/images/uploads/venue-the-rabbit-hole-beycik-2.jpg",
    "/images/uploads/venue-the-rabbit-hole-beycik-3.jpg",
-   "/images/uploads/venue-the-rabbit-hole-beycik-4.jpg",
-   "/images/uploads/venue-the-rabbit-hole-beycik-5.jpg",
-   "/images/uploads/venue-the-rabbit-hole-beycik-6.jpg",
-   "/images/uploads/venue-the-rabbit-hole-beycik-7.jpg",
-   "/images/uploads/venue-the-rabbit-hole-beycik-8.jpg"
+   "/images/uploads/venue-the-rabbit-hole-beycik-4.jpg"
   ],
   "errors": []
  },
  "restaurants/mykorini-the-land-of-legends": {
   "page": "https://www.mykorini.com/antalya/contact",
   "saved": [
-   "/images/uploads/venue-mykorini-the-land-of-legends-2.jpg"
+   "/images/uploads/venue-mykorini-the-land-of-legends-1.jpg"
   ],
-  "errors": [
-   "https://cdn.prod.website-files.com/687a32f187eb859bda6cfdf0/6a708c48c1ebb61f35e0dab8_68fa16ff6788375cf9f22640_Contact%2520Antalya.webp: 403 application/xml"
-  ]
+  "errors": []
  }
 }
