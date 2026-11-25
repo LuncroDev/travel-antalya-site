@@ -439,5 +439,12 @@
    "https://www.olymposmountainlodge.com/wp-content/uploads/gastronomi-img-1-11.jpg",
    "https://www.olymposmountainlodge.com/wp-content/uploads/gastronomi-img-1-12.jpg"
   ]
+ },
+ "restaurants/mykorini-the-land-of-legends": {
+  "page": "https://www.mykorini.com/antalya/contact",
+  "images": [
+   "https://cdn.prod.website-files.com/687a32f187eb859bda6cfdf0/6a708c48c1ebb61f35e0dab8_68fa16ff6788375cf9f22640_Contact%2520Antalya.webp",
+   "https://cdn.prod.website-files.com/687a32f187eb859bda6cfe03/6a708c47c2a894becc3c8c8f_68fa16bef97aef7fcca77d91_Events%2520Antaylya.jpeg"
+  ]
  }
 }
