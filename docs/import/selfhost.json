@@ -437,5 +437,38 @@
   "images": [
    "https://cdn.prod.website-files.com/687a32f187eb859bda6cfe03/6a708c47c2a894becc3c8c8f_68fa16bef97aef7fcca77d91_Events%2520Antaylya.jpeg"
   ]
+ },
+ "hotels/four-points-flex-by-sheraton-antalya-lara": {
+  "page": "https://www.marriott.com/en-us/hotels/aytcf-four-points-flex-antalya-lara/overview/",
+  "images": [
+   "https://cache.marriott.com/is/image/marriotts7prod/xf-aytcf-superior-king-guest-49926-62048:Wide-Hor?wid=1336&fit=constrain"
+  ]
+ },
+ "hotels/wyndham-garden-lara": {
+  "page": "https://www.wyndhamhotels.com/wyndham-garden/antalya-turkiye/wyndham-garden-lara/overview",
+  "images": [
+   "https://www.wyndhamhotels.com/adobe/dynamicmedia/deliver/dm-aid--f492cc3e-8a76-4d66-9d6b-2823e1525003/56960-exterior-view-3.jpg?width=1600&preferwebp=true",
+   "https://www.wyndhamhotels.com/adobe/dynamicmedia/deliver/dm-aid--a7685ece-642f-4566-a415-3490fcffaf41/56960-family-pool-1.jpg?width=1600&preferwebp=true",
+   "https://www.wyndhamhotels.com/adobe/dynamicmedia/deliver/dm-aid--8ec6dbcb-b3a4-4eab-8b63-1da87b056cd1/56960-beach-1.jpg?width=1600&preferwebp=true",
+   "https://www.wyndhamhotels.com/adobe/dynamicmedia/deliver/dm-aid--0043fcdb-3867-4a5c-a79e-aedc47a7e4b3/56960-guest-room-1.jpg?width=1600&preferwebp=true",
+   "https://www.wyndhamhotels.com/adobe/dynamicmedia/deliver/dm-aid--9cf84ec5-22b3-41fe-b34e-2c73bbbdcf10/56960-waterslide-1.jpg?width=1600&preferwebp=true",
+   "https://www.wyndhamhotels.com/adobe/dynamicmedia/deliver/dm-aid--35051d05-5dc5-4816-abde-8280d35f341c/56960-restaurant-3.jpg?width=1600&preferwebp=true",
+   "https://www.wyndhamhotels.com/adobe/dynamicmedia/deliver/dm-aid--4d8250bc-f4f7-4f24-bac1-0bd429e2a48d/56960-lobby-view-2.jpg?width=1600&preferwebp=true"
+  ]
+ },
+ "restaurants/redbox-meze-cafe-kas": {
+  "page": "https://www.redboxkas.com/galeri",
+  "images": [
+   "https://static.wixstatic.com/media/aef696_7f5066a194b44754b0f5aadaad4c6900~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/aef696_7f5066a194b44754b0f5aadaad4c6900~mv2.jpg",
+   "https://static.wixstatic.com/media/aef696_051be522d17b45b9a42d859ba6ef8d3c~mv2.jpeg/v1/fit/w_1600,h_1600,al_c,q_85/aef696_051be522d17b45b9a42d859ba6ef8d3c~mv2.jpeg",
+   "https://static.wixstatic.com/media/aef696_611bd189b17b4be6b796762bb8f54944~mv2.jpeg/v1/fit/w_1600,h_1600,al_c,q_85/aef696_611bd189b17b4be6b796762bb8f54944~mv2.jpeg",
+   "https://static.wixstatic.com/media/aef696_34e607bd2f234fa8b300147e05cbfd3e~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/aef696_34e607bd2f234fa8b300147e05cbfd3e~mv2.jpg",
+   "https://static.wixstatic.com/media/aef696_33735e2b4c9f4651975835881d61e5ec~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/aef696_33735e2b4c9f4651975835881d61e5ec~mv2.jpg",
+   "https://static.wixstatic.com/media/aef696_3ad55abd6be04c089218f6a65697e4b1~mv2.jpeg/v1/fit/w_1600,h_1600,al_c,q_85/aef696_3ad55abd6be04c089218f6a65697e4b1~mv2.jpeg",
+   "https://static.wixstatic.com/media/aef696_2f5e74d9efe34229aa1981703449bf5d~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/aef696_2f5e74d9efe34229aa1981703449bf5d~mv2.jpg",
+   "https://static.wixstatic.com/media/aef696_f4821f5022ac4f46b482489bbe491d1b~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/aef696_f4821f5022ac4f46b482489bbe491d1b~mv2.jpg",
+   "https://static.wixstatic.com/media/aef696_1b09a1d793f74141b23364d69a38e0e0~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/aef696_1b09a1d793f74141b23364d69a38e0e0~mv2.jpg",
+   "https://static.wixstatic.com/media/aef696_7cbf33dfb8204df78f257d9944a0f060~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/aef696_7cbf33dfb8204df78f257d9944a0f060~mv2.jpg"
+  ]
  }
 }
