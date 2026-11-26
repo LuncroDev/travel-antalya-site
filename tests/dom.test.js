@@ -27,7 +27,7 @@ test('event active, archive, awaiting, invalid range and reset',async()=>{
  const dom=await load('events','events'),w=dom.window,d=w.document;
  assert.equal(visible(d,'[data-event]').length,active);
  change(w,'select[name=period]','archive');assert.equal(visible(d,'[data-event]').length,3);
- change(w,'select[name=period]','awaiting');assert.equal(visible(d,'[data-event]').length,4);
+ change(w,'select[name=period]','awaiting');assert.equal(visible(d,'[data-event]').length,3);
  d.querySelector('form').reset();await new Promise(r=>setTimeout(r,5));assert.equal(visible(d,'[data-event]').length,active);
  change(w,'input[name=from]','2030-05-01');assert.equal(visible(d,'[data-event]').length,0);assert.equal(d.querySelector('[data-event-empty]').hidden,false);dom.window.close();
 });

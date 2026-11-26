@@ -7,9 +7,9 @@ category: "Practical"
 excerpt: "Christmas in Antalya 2026: shows with confirmed dates, Xanadu's festive week, St Nicholas Church in Demre, and why 1 January is a holiday but 25 December isn't."
 photo_id: "kaleici-marina"
 featured: false
-last_checked: "2026-11-17"
+last_checked: "2026-11-26"
 source_url: "https://www.biletix.com/mekan/070B6/TURKIYE/en"
-source_urls: ["https://www.biletix.com/mekan/070B6/TURKIYE/en","https://iticket.com.tr/en/venues/konyaalti-belediyesi-nazim-hikmet-fuar-ve-kongre-merkezi","https://biletinial.com/en-tr/venue/antalya-konyaalti-nazim-hikmet-kultur-merkezi","https://www.xanaduhotels.com.tr/nl/news","https://www.turkishmuseums.com/museum/detail/1956-antalya-aziz-st-nikolaos-anit-muzesi/1956/1","https://www.demre.bel.tr/","https://www5.tbmm.gov.tr/tutanaklar/KANUNLAR_KARARLAR/kanuntbmmc064/kanunmgkc064/kanunmgkc06402429.pdf"]
+source_urls: ["https://www.biletix.com/mekan/070B6/TURKIYE/en","https://www.megasarayhotels.com/new-year-event-antalya","https://www.kempinski.com/en/hotel-the-dome/overview/offers/new-year-package-27","https://iticket.com.tr/en/venues/konyaalti-belediyesi-nazim-hikmet-fuar-ve-kongre-merkezi","https://biletinial.com/en-tr/venue/antalya-konyaalti-nazim-hikmet-kultur-merkezi","https://www.xanaduhotels.com.tr/nl/news","https://www.turkishmuseums.com/museum/detail/1956-antalya-aziz-st-nikolaos-anit-muzesi/1956/1","https://www.demre.bel.tr/","https://www5.tbmm.gov.tr/tutanaklar/KANUNLAR_KARARLAR/kanuntbmmc064/kanunmgkc064/kanunmgkc06402429.pdf"]
 ---
 Christmas in Antalya is low-key. In Türkiye, 25 December is a normal working day, so the city carries on as usual while resorts put on festive programmes for their guests and the concert halls keep their winter season going. New Year's Eve is the bigger night, and 1 January is the only public holiday in the fortnight. This guide covers 20 December 2026 to 2 January 2027, plus one show the following week. It includes only what we could confirm on official, hotel or ticket pages on 17 November 2026: four dated shows, one hotel programme, St Nicholas Church in Demre and what the law says about the holidays.
 
@@ -66,7 +66,12 @@ So far, the only hotel festive programme we've confirmed on a hotel's own site i
 
 The news item gives no prices and doesn't say whether non-residents can book the gala, so ask the hotel directly. Our [Xanadu Resort page](/hotels/xanadu-resort-belek/) covers the rooms, the heated spa pools and how the kids' club changes out of season.
 
-Other [Belek resorts](/hotels/?area=Belek) advertise New Year packages too. We'll add them here once we've read the dates on each hotel's own site. Before you book any New Year stay, ask:
+**Update, 26 November 2026:** two more hotels have published New Year's Eve details on their own sites.
+
+- **Megasaray Westbeach, Konyaaltı:** a gala on 31 December 2026 with Erkan Güleryüz & Orchestra, a mezdeke show and a DJ, open to outside guests at 10,000–15,000 TL a person for the gala only. See our [event listing](/events/megasaray-westbeach-new-years-eve-gala-2026-12-31-konyaalti/).
+- **Kempinski Hotel The Dome, Belek:** a stay package "valid for stays between 31 December 2026 and 3 January 2027", with a minimum of four nights, two gala-dinner invitations in the Karatay Ballroom (premium drinks and live music included) and a New Year's Day brunch. Full prepayment is required, with free cancellation up to 21 days before arrival. No price is published, and four nights don't fit inside those dates, so ask the hotel. See our [Kempinski The Dome page](/hotels/kempinski-hotel-the-dome-belek/).
+
+Rixos's Antalya New Year pages either would not open or still showed last year's programme on 26 November, so we have left them out. Other [Belek resorts](/hotels/?area=Belek) advertise New Year packages too. We'll add them here once we've read the dates on each hotel's own site. Before you book any New Year stay, ask:
 
 - whether the gala dinner is in your rate or charged extra;
 - whether there's a separate children's programme on the night;
