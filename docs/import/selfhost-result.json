@@ -515,5 +515,41 @@
    "/images/uploads/venue-mykorini-the-land-of-legends-1.jpg"
   ],
   "errors": []
+ },
+ "hotels/four-points-flex-by-sheraton-antalya-lara": {
+  "page": "https://www.marriott.com/en-us/hotels/aytcf-four-points-flex-antalya-lara/overview/",
+  "saved": [
+   "/images/uploads/venue-four-points-flex-by-sheraton-antalya-lara-1.jpg"
+  ],
+  "errors": []
+ },
+ "hotels/wyndham-garden-lara": {
+  "page": "https://www.wyndhamhotels.com/wyndham-garden/antalya-turkiye/wyndham-garden-lara/overview",
+  "saved": [
+   "/images/uploads/venue-wyndham-garden-lara-1.webp",
+   "/images/uploads/venue-wyndham-garden-lara-2.webp",
+   "/images/uploads/venue-wyndham-garden-lara-3.webp",
+   "/images/uploads/venue-wyndham-garden-lara-4.webp",
+   "/images/uploads/venue-wyndham-garden-lara-5.webp",
+   "/images/uploads/venue-wyndham-garden-lara-6.webp",
+   "/images/uploads/venue-wyndham-garden-lara-7.webp"
+  ],
+  "errors": []
+ },
+ "restaurants/redbox-meze-cafe-kas": {
+  "page": "https://www.redboxkas.com/galeri",
+  "saved": [
+   "/images/uploads/venue-redbox-meze-cafe-kas-1.jpg",
+   "/images/uploads/venue-redbox-meze-cafe-kas-2.jpg",
+   "/images/uploads/venue-redbox-meze-cafe-kas-3.jpg",
+   "/images/uploads/venue-redbox-meze-cafe-kas-4.jpg",
+   "/images/uploads/venue-redbox-meze-cafe-kas-5.jpg",
+   "/images/uploads/venue-redbox-meze-cafe-kas-6.jpg",
+   "/images/uploads/venue-redbox-meze-cafe-kas-7.jpg",
+   "/images/uploads/venue-redbox-meze-cafe-kas-8.jpg",
+   "/images/uploads/venue-redbox-meze-cafe-kas-9.jpg",
+   "/images/uploads/venue-redbox-meze-cafe-kas-10.jpg"
+  ],
+  "errors": []
  }
 }
