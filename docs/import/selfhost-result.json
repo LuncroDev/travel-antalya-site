@@ -542,5 +542,60 @@
    "/images/uploads/venue-redbox-meze-cafe-kas-4.jpg"
   ],
   "errors": []
+ },
+ "hotels/ramada-resort-by-wyndham-lara": {
+  "page": "https://www.wyndhamhotels.com/ramada/antalya-turkiye/ramada-resort-lara/overview",
+  "saved": [
+   "/images/uploads/venue-ramada-resort-by-wyndham-lara-1.webp",
+   "/images/uploads/venue-ramada-resort-by-wyndham-lara-2.webp",
+   "/images/uploads/venue-ramada-resort-by-wyndham-lara-3.jpg",
+   "/images/uploads/venue-ramada-resort-by-wyndham-lara-4.jpg",
+   "/images/uploads/venue-ramada-resort-by-wyndham-lara-5.webp",
+   "/images/uploads/venue-ramada-resort-by-wyndham-lara-6.jpg"
+  ],
+  "errors": []
+ },
+ "hotels/wyndham-garden-antalya-konyaalti": {
+  "page": "https://www.wyndhamhotels.com/wyndham-garden/antalya-turkiye/wyndham-garden-antalya-konyaalti/overview",
+  "saved": [
+   "/images/uploads/venue-wyndham-garden-antalya-konyaalti-1.webp",
+   "/images/uploads/venue-wyndham-garden-antalya-konyaalti-2.webp",
+   "/images/uploads/venue-wyndham-garden-antalya-konyaalti-3.webp",
+   "/images/uploads/venue-wyndham-garden-antalya-konyaalti-4.webp",
+   "/images/uploads/venue-wyndham-garden-antalya-konyaalti-5.webp",
+   "/images/uploads/venue-wyndham-garden-antalya-konyaalti-6.webp"
+  ],
+  "errors": []
+ },
+ "restaurants/yemenli-meyhanesi-kaleici": {
+  "page": "https://kaleiciyemenli.com/home",
+  "saved": [
+   "/images/uploads/venue-yemenli-meyhanesi-kaleici-1.webp",
+   "/images/uploads/venue-yemenli-meyhanesi-kaleici-2.webp"
+  ],
+  "errors": []
+ },
+ "restaurants/taskapi-lara": {
+  "page": "https://www.taskapilara.com/",
+  "saved": [
+   "/images/uploads/venue-taskapi-lara-1.jpg",
+   "/images/uploads/venue-taskapi-lara-2.jpg",
+   "/images/uploads/venue-taskapi-lara-3.jpg",
+   "/images/uploads/venue-taskapi-lara-4.jpg",
+   "/images/uploads/venue-taskapi-lara-5.jpg"
+  ],
+  "errors": []
+ },
+ "things-to-do/antiphellos-ancient-theatre": {
+  "page": "https://vikianitlariseviyor.toolforge.org/monuments/Q4775098",
+  "saved": [
+   "/images/uploads/venue-antiphellos-ancient-theatre-1.jpg",
+   "/images/uploads/venue-antiphellos-ancient-theatre-2.jpg"
+  ],
+  "errors": [
+   "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Amphitheatre_at_Ka%C5%9F_%28Antiphellus%29_-_details_of_restoration.jpg/1920px-Amphitheatre_at_Ka%C5%9F_%28Antiphellus%29_-_details_of_restoration.jpg: 429 text/html",
+   "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Antiphellos_-_Doric_tomb.jpg/1920px-Antiphellos_-_Doric_tomb.jpg: 429 text/html",
+   "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Ka%C5%9F_95_012.jpg/1920px-Ka%C5%9F_95_012.jpg: 429 text/html"
+  ]
  }
 }
