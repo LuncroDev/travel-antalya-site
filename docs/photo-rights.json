@@ -4056,6 +4056,97 @@
       "src": "/images/uploads/event-antalya-ataturk-kultur-merkezi.webp",
       "source_page": "https://www.petarpejcic.com/concerts/antalya",
       "accepted_on": "2026-11-26"
+    },
+    {
+      "venue_slug": "ramada-resort-by-wyndham-lara",
+      "venue_title": "Ramada Resort by Wyndham Lara",
+      "src": "/images/uploads/venue-ramada-resort-by-wyndham-lara-1.webp",
+      "source_page": "https://www.wyndhamhotels.com/ramada/antalya-turkiye/ramada-resort-lara/overview",
+      "accepted_on": "2026-11-27"
+    },
+    {
+      "venue_slug": "ramada-resort-by-wyndham-lara",
+      "venue_title": "Ramada Resort by Wyndham Lara",
+      "src": "/images/uploads/venue-ramada-resort-by-wyndham-lara-2.webp",
+      "source_page": "https://www.wyndhamhotels.com/ramada/antalya-turkiye/ramada-resort-lara/overview",
+      "accepted_on": "2026-11-27"
+    },
+    {
+      "venue_slug": "ramada-resort-by-wyndham-lara",
+      "venue_title": "Ramada Resort by Wyndham Lara",
+      "src": "/images/uploads/venue-ramada-resort-by-wyndham-lara-3.jpg",
+      "source_page": "https://www.wyndhamhotels.com/ramada/antalya-turkiye/ramada-resort-lara/overview",
+      "accepted_on": "2026-11-27"
+    },
+    {
+      "venue_slug": "ramada-resort-by-wyndham-lara",
+      "venue_title": "Ramada Resort by Wyndham Lara",
+      "src": "/images/uploads/venue-ramada-resort-by-wyndham-lara-4.jpg",
+      "source_page": "https://www.wyndhamhotels.com/ramada/antalya-turkiye/ramada-resort-lara/overview",
+      "accepted_on": "2026-11-27"
+    },
+    {
+      "venue_slug": "wyndham-garden-antalya-konyaalti",
+      "venue_title": "Wyndham Garden Antalya Konyaaltı",
+      "src": "/images/uploads/venue-wyndham-garden-antalya-konyaalti-1.webp",
+      "source_page": "https://www.wyndhamhotels.com/wyndham-garden/antalya-turkiye/wyndham-garden-antalya-konyaalti/overview",
+      "accepted_on": "2026-11-27"
+    },
+    {
+      "venue_slug": "wyndham-garden-antalya-konyaalti",
+      "venue_title": "Wyndham Garden Antalya Konyaaltı",
+      "src": "/images/uploads/venue-wyndham-garden-antalya-konyaalti-2.webp",
+      "source_page": "https://www.wyndhamhotels.com/wyndham-garden/antalya-turkiye/wyndham-garden-antalya-konyaalti/overview",
+      "accepted_on": "2026-11-27"
+    },
+    {
+      "venue_slug": "yemenli-meyhanesi-kaleici",
+      "venue_title": "Yemenli Meyhanesi",
+      "src": "/images/uploads/venue-yemenli-meyhanesi-kaleici-1.webp",
+      "source_page": "https://kaleiciyemenli.com/home",
+      "accepted_on": "2026-11-27"
+    },
+    {
+      "venue_slug": "taskapi-lara",
+      "venue_title": "Taşkapı Lara",
+      "src": "/images/uploads/venue-taskapi-lara-1.jpg",
+      "source_page": "https://www.taskapilara.com/",
+      "accepted_on": "2026-11-27"
+    },
+    {
+      "venue_slug": "taskapi-lara",
+      "venue_title": "Taşkapı Lara",
+      "src": "/images/uploads/venue-taskapi-lara-2.jpg",
+      "source_page": "https://www.taskapilara.com/",
+      "accepted_on": "2026-11-27"
+    },
+    {
+      "venue_slug": "taskapi-lara",
+      "venue_title": "Taşkapı Lara",
+      "src": "/images/uploads/venue-taskapi-lara-3.jpg",
+      "source_page": "https://www.taskapilara.com/",
+      "accepted_on": "2026-11-27"
+    },
+    {
+      "venue_slug": "taskapi-lara",
+      "venue_title": "Taşkapı Lara",
+      "src": "/images/uploads/venue-taskapi-lara-4.jpg",
+      "source_page": "https://www.taskapilara.com/",
+      "accepted_on": "2026-11-27"
+    },
+    {
+      "venue_slug": "ahududu-2027-01-04-muratpasa",
+      "venue_title": "Ahududu (Türkan Şoray Kültür Merkezi)",
+      "src": "/images/uploads/event-turkan-soray-kultur-merkezi.webp",
+      "source_page": "https://muratpasa-bld.gov.tr/haber/4876/muratpasa-ya-mimarlik-odulu",
+      "accepted_on": "2026-11-27"
+    },
+    {
+      "venue_slug": "tut-elimden-rovni-2027-01-24-konyaalti",
+      "venue_title": "Tut Elimden Rovni (Konyaaltı Nazım Hikmet Kongre Merkezi)",
+      "src": "/images/uploads/event-nazim-hikmet-kongre-merkezi.webp",
+      "source_page": "https://www.biletimgo.com/mekan/konyaalti-nazim-hikmet-fuar-ve-kongre-merkezi-966",
+      "accepted_on": "2026-11-27"
     }
   ]
 }

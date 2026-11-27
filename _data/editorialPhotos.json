@@ -6761,5 +6761,32 @@
   "originalWidth": 1024,
   "originalHeight": 688,
   "usage_note": "Illustration only; does not depict a specific venue or date."
+ },
+ {
+  "id": "antiphellos-theatre",
+  "src": "/images/editorial/antiphellos-theatre.jpg",
+  "alt": "The stone seating of the Hellenistic theatre of Antiphellos curving down to an open orchestra, with olive trees, the bay of Kaş and the Greek island of Meis beyond",
+  "caption": "The Hellenistic theatre of Antiphellos above Kaş, looking out to Meis (Kastellorizo), October 2014",
+  "region": "kas",
+  "kind": "destination",
+  "author": "rheins",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Antiphellus_Ancient_Theatre_-_2014.10_-_panoramio.jpg",
+  "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Antiphellus_Ancient_Theatre_-_2014.10_-_panoramio.jpg",
+  "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Antiphellus_Ancient_Theatre_-_2014.10_-_panoramio.jpg/1920px-Antiphellus_Ancient_Theatre_-_2014.10_-_panoramio.jpg",
+  "attribution": "Antiphellos theatre, Kaş. Photo: rheins / Wikimedia Commons (from Panoramio) / CC BY 3.0.",
+  "width": 1920,
+  "height": 1440,
+  "changes": "Downloaded as Wikimedia's 1920-pixel thumbnail; no compositional alteration.",
+  "verifiedOn": "2026-11-27",
+  "notPropertyPhotography": true,
+  "area": "kas",
+  "district_slug": "kas",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Antiphellus_Ancient_Theatre_-_2014.10_-_panoramio.jpg",
+  "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Antiphellus_Ancient_Theatre_-_2014.10_-_panoramio.jpg",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Antiphellus_Ancient_Theatre_-_2014.10_-_panoramio.jpg/1920px-Antiphellus_Ancient_Theatre_-_2014.10_-_panoramio.jpg",
+  "usage_note": "Commons file and category pages returned url_not_found on 2026-11-27; author (rheins) and licence (CC BY 3.0) taken from the Wiki Loves Monuments Turkey monument page for Antiphellos (vikianitlariseviyor.toolforge.org/monuments/Q4775098), which lists this Commons file as its lead image. Month (October 2014) from the file name; the photo was checked by eye and shows the theatre with Meis island behind."
  }
 ]
