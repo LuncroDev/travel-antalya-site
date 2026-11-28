@@ -6788,5 +6788,32 @@
   "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Antiphellus_Ancient_Theatre_-_2014.10_-_panoramio.jpg",
   "download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Antiphellus_Ancient_Theatre_-_2014.10_-_panoramio.jpg/1920px-Antiphellus_Ancient_Theatre_-_2014.10_-_panoramio.jpg",
   "usage_note": "Commons file and category pages returned url_not_found on 2026-11-27; author (rheins) and licence (CC BY 3.0) taken from the Wiki Loves Monuments Turkey monument page for Antiphellos (vikianitlariseviyor.toolforge.org/monuments/Q4775098), which lists this Commons file as its lead image. Month (October 2014) from the file name; the photo was checked by eye and shows the theatre with Meis island behind."
+ },
+ {
+  "id": "kesik-minare",
+  "src": "/images/editorial/kesik-minare.jpg",
+  "alt": "The restored stone minaret of the Kesik Minare with its pointed cap, rising behind a carved stone entablature fragment set on two columns, behind an iron railing in Kaleiçi",
+  "caption": "Kesik Minare (Şehzade Korkut Mosque) in Kaleiçi, Antalya, after its restoration, January 2023",
+  "region": "muratpasa",
+  "kind": "destination",
+  "author": "Maksym Kozlenko",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023-01-17_Old_Town,_Antalya_36.jpg",
+  "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/2023-01-17_Old_Town%2C_Antalya_36.jpg",
+  "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/2023-01-17_Old_Town%2C_Antalya_36.jpg/1920px-2023-01-17_Old_Town%2C_Antalya_36.jpg",
+  "attribution": "Kesik Minare, Kaleiçi, Antalya. Photo: Maksym Kozlenko / Wikimedia Commons / CC BY-SA 4.0.",
+  "width": 1920,
+  "height": 2560,
+  "changes": "Downloaded as Wikimedia's 1920-pixel thumbnail; no compositional alteration.",
+  "verifiedOn": "2026-11-28",
+  "notPropertyPhotography": true,
+  "area": "muratpasa",
+  "district_slug": "muratpasa",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source_url": "https://commons.wikimedia.org/wiki/File:2023-01-17_Old_Town,_Antalya_36.jpg",
+  "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/2023-01-17_Old_Town%2C_Antalya_36.jpg",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/2023-01-17_Old_Town%2C_Antalya_36.jpg/1920px-2023-01-17_Old_Town%2C_Antalya_36.jpg",
+  "usage_note": "Commons file pages returned url_not_found on 2026-11-28; author (Maksym Kozlenko) and licence (CC BY-SA 4.0) taken from the Wiki Loves Monuments Turkey monument page for Kesik Minare (vikianitlariseviyor.toolforge.org/monuments/Q6395079), which lists this Commons file in its gallery. Date (17 January 2023) from the file name. Checked by eye: it shows the minaret with its restored conical cap (news reports date the cap to 2019) and a carved entablature fragment raised on two columns in the courtyard."
  }
 ]

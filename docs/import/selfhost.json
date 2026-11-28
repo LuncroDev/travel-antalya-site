@@ -496,10 +496,8 @@
  "hotels/adalya-elite-lara": {
   "page": "https://www.adalyahotels.com/en/our-hotels/adalya-elite-lara/",
   "images": [
-   "https://www.adalyahotels.com/media/btvfemm5/adalya-elite-mainpage-d-1-1.jpg",
-   "https://www.adalyahotels.com/media/j0vd1y5b/adalya-elite-lara-plaj-havuz-banner.jpg",
-   "https://www.adalyahotels.com/media/ehody2nf/adalya-elit-mainpage-sahil-iskele-banner-d.jpg",
    "https://www.adalyahotels.com/media/ouad3lpf/adalya-elite-lara-acik-havuz-banner.jpg",
+   "https://www.adalyahotels.com/media/ehody2nf/adalya-elit-mainpage-sahil-iskele-banner-d.jpg",
    "https://www.adalyahotels.com/media/2rlgwt3q/adalya-hotels-elite-lara-accomondation-standard-sea-view-room-banner.jpg",
    "https://www.adalyahotels.com/media/mnlnq4hy/adalya-hotels-elite-lara-gastronomy-banner2.jpg"
   ]
@@ -509,23 +507,8 @@
   "images": [
    "https://www.adalyahotels.com/media/v31f0not/adalya-art-side-banner-v2-1-1.jpg",
    "https://www.adalyahotels.com/media/kezbknjh/adalya-art-side-plaj-havuz-banner11.jpg",
-   "https://www.adalyahotels.com/media/1pnpi1jr/adalya-art-side-plaj-havuz-banner.jpg",
    "https://www.adalyahotels.com/media/cjzobanp/adalya-art-side-plaj-havuz-plaj-card.jpg",
-   "https://www.adalyahotels.com/media/guahkdev/adalya-art-side-aile-odasi-list-card.jpg",
    "https://www.adalyahotels.com/media/veslgopp/adalya-art-side-gastronomi-banner-d.jpg"
-  ]
- },
- "things-to-do/kesik-minare": {
-  "page": "https://vikianitlariseviyor.toolforge.org/monuments/Q6395079",
-  "images": [
-   "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/2023-01-17_Old_Town%2C_Antalya_36.jpg/1920px-2023-01-17_Old_Town%2C_Antalya_36.jpg",
-   "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/2023-01-17_Old_Town%2C_Antalya_36.jpg/1280px-2023-01-17_Old_Town%2C_Antalya_36.jpg",
-   "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/2023-01-17_Old_Town%2C_Antalya_37.jpg/1920px-2023-01-17_Old_Town%2C_Antalya_37.jpg",
-   "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/2023-01-17_Old_Town%2C_Antalya_37.jpg/1280px-2023-01-17_Old_Town%2C_Antalya_37.jpg",
-   "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/2023-01-17_Old_Town%2C_Antalya_41.jpg/1920px-2023-01-17_Old_Town%2C_Antalya_41.jpg",
-   "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/2023-01-17_Old_Town%2C_Antalya_41.jpg/1280px-2023-01-17_Old_Town%2C_Antalya_41.jpg",
-   "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/%C5%9Eehz%C3%A2de_Korkut_Camii_Minarett.jpg/1920px-%C5%9Eehz%C3%A2de_Korkut_Camii_Minarett.jpg",
-   "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/%C5%9Eehz%C3%A2de_Korkut_Camii_Minarett.jpg/1280px-%C5%9Eehz%C3%A2de_Korkut_Camii_Minarett.jpg"
   ]
  }
 }
