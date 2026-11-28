@@ -577,5 +577,45 @@
    "/images/uploads/venue-taskapi-lara-4.jpg"
   ],
   "errors": []
+ },
+ "hotels/adalya-elite-lara": {
+  "page": "https://www.adalyahotels.com/en/our-hotels/adalya-elite-lara/",
+  "saved": [
+   "/images/uploads/venue-adalya-elite-lara-1.jpg",
+   "/images/uploads/venue-adalya-elite-lara-3.jpg",
+   "/images/uploads/venue-adalya-elite-lara-4.jpg",
+   "/images/uploads/venue-adalya-elite-lara-5.jpg",
+   "/images/uploads/venue-adalya-elite-lara-6.jpg"
+  ],
+  "errors": [
+   "https://www.adalyahotels.com/media/j0vd1y5b/adalya-elite-lara-plaj-havuz-banner.jpg: 404 no type"
+  ]
+ },
+ "hotels/adalya-art-side": {
+  "page": "https://www.adalyahotels.com/en/our-hotels/adalya-art-side/",
+  "saved": [
+   "/images/uploads/venue-adalya-art-side-1.jpg",
+   "/images/uploads/venue-adalya-art-side-2.jpg",
+   "/images/uploads/venue-adalya-art-side-3.jpg",
+   "/images/uploads/venue-adalya-art-side-4.jpg",
+   "/images/uploads/venue-adalya-art-side-5.jpg",
+   "/images/uploads/venue-adalya-art-side-6.jpg"
+  ],
+  "errors": []
+ },
+ "things-to-do/kesik-minare": {
+  "page": "https://vikianitlariseviyor.toolforge.org/monuments/Q6395079",
+  "saved": [
+   "/images/uploads/venue-kesik-minare-1.jpg",
+   "/images/uploads/venue-kesik-minare-2.jpg"
+  ],
+  "errors": [
+   "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/2023-01-17_Old_Town%2C_Antalya_37.jpg/1920px-2023-01-17_Old_Town%2C_Antalya_37.jpg: 429 text/html",
+   "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/2023-01-17_Old_Town%2C_Antalya_37.jpg/1280px-2023-01-17_Old_Town%2C_Antalya_37.jpg: 429 text/html",
+   "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/2023-01-17_Old_Town%2C_Antalya_41.jpg/1920px-2023-01-17_Old_Town%2C_Antalya_41.jpg: 429 text/html",
+   "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/2023-01-17_Old_Town%2C_Antalya_41.jpg/1280px-2023-01-17_Old_Town%2C_Antalya_41.jpg: 429 text/html",
+   "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/%C5%9Eehz%C3%A2de_Korkut_Camii_Minarett.jpg/1920px-%C5%9Eehz%C3%A2de_Korkut_Camii_Minarett.jpg: 429 text/html",
+   "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/%C5%9Eehz%C3%A2de_Korkut_Camii_Minarett.jpg/1280px-%C5%9Eehz%C3%A2de_Korkut_Camii_Minarett.jpg: 429 text/html"
+  ]
  }
 }
